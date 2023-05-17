@@ -325,6 +325,12 @@
 
   &__list-item {
     text-align: right;
+    transition: all 0.3s ease 0s;
+    @media (pointer: fine) {
+      &:hover {
+        color: $pink;
+      }
+    }
     @media (max-width: $mobile) {
       text-align: center;
     }
