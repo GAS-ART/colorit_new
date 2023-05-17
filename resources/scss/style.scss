@@ -15,17 +15,17 @@
 @import "fonts/icons";
 
 // Шрифт по умолчанию 
-$fontFamily: "Mulish";
-$font__CormorantGaramond: "CormorantGaramond", sans-serif;
+$fontFamily: "Geometria";
 
-$fontSize: rem(18); // где 14(px) - размер шрифта по умолчанию из макета
+
+$fontSize: rem(16); // где 14(px) - размер шрифта по умолчанию из макета
 
 // Основные цвета шрифта
-$mainColor: #333333; // Цвет шрифта по умолчанию
-$gradient: linear-gradient(89.69deg, #036A35 0.23%, #94CC23 99.77%);
-$green: #056C36;
-$lightGreen: #93CB24;
-$grey: #F2F2F2;
+$mainColor: #17161A; // Цвет шрифта по умолчанию
+$purple: #89368E;
+$grey2: #4F4F4F;
+$grey3: #828282;
+$pink: #FC358C;
 
 // 404 colors
 $blue: #46B1DE;
@@ -34,14 +34,14 @@ $paleBlue: #A1C7D4;
 // НАСТРОЙКИ 
 
 // Минимальная ширина страницы
-$minWidth: 320;
+$minWidth: 360;
 // Ширина полотна (макета)
 $maxWidth: 1920;
 // Ширина ограничивающего контейнера (0 = нет ограничения)
 $maxWidthContainer: 1240;
 // Общий отступ у контейнера
 // (30 = по 15px слева и справа, 0 = нет отступа)
-$containerPadding: 48;
+$containerPadding: 30;
 
 // Общая ширина контейнера с учетом падинга (ширина первого брейкпоинта)
 $containerWidth: $maxWidthContainer + $containerPadding;

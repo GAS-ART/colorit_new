@@ -1,10 +1,10 @@
 <?php
 
 return [
-   'ua'=>'ua',
+   'es'=>'es',
    'ru'=>'ru',
    'current'=>'ru',
-   'another'=>'ua',
+   'another'=>'es',
    'prefix' => 'ru',
 ]
 

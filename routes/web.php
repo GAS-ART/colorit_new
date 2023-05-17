@@ -23,21 +23,21 @@ Route::get('/locale/{locale}',  'App\Http\Controllers\LanguagesController@change
 Route::post('/send-main-form', 'App\Http\Controllers\sendController@submit')->name('sendMainForm');
 
 Route::get('/', function () {
-    App::setLocale('ua');
+    App::setLocale('es');
     return view('home');
   })->name('index.lang');
-  Route::get('/ua', function () {
-    App::setLocale('ua');
+  Route::get('/es', function () {
+    App::setLocale('es');
     return  redirect('/');
   });
   
   Route::get('/{locale}', function ($locale) {
-    if (!in_array($locale, ['ua', 'ru'])) {
+    if (!in_array($locale, ['es', 'ru'])) {
   
       abort(404);
-    } else if ($locale == 'ua') {
+    } else if ($locale == 'es') {
   
-      App::setLocale('ua');
+      App::setLocale('es');
       return view('home');
     } else if ($locale == 'ru') {
   
@@ -48,12 +48,12 @@ Route::get('/', function () {
 
 
   Route::get('/{locale}/form', function ($locale) {
-    if (!in_array($locale, ['ua', 'ru'])) {
+    if (!in_array($locale, ['es', 'ru'])) {
   
       abort(404);
-    } else if ($locale == 'ua') {
+    } else if ($locale == 'es') {
   
-      App::setLocale('ua');
+      App::setLocale('es');
       return view('form');
     } else if ($locale == 'ru') {
   

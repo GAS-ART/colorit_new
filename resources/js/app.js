@@ -2,6 +2,8 @@
 
 import { popUp } from './modules/popup.js';
 
+document.addEventListener('click', documentActions);
+
 //PopUp
 const popupButtons = document.querySelectorAll('.link-on-popup');
 
@@ -159,3 +161,35 @@ forms.forEach(form => {
     }
   })
 });
+
+//BURGER
+
+const burger = document.querySelector('.header-burger');
+const burgerBtn = document.querySelector('.info-header__menu');
+
+burgerBtn.addEventListener('click', () => {
+  burger.classList.toggle('active');
+  burgerBtn.classList.toggle('active');
+});
+
+function documentActions(e) {
+  console.log(!e.target.closest('.header-burger') && !e.target.classList.contains('info-header__menu'));
+  //убираем меню бургер
+  if (!e.target.closest('.header-burger') && !e.target.classList.contains('info-header__menu')) {
+    burger.classList.remove('active');
+    burgerBtn.classList.remove('active');
+  }
+
+  //Убираем отображение языков
+  if (!e.target.closest('.language-btn')) {
+    languageBtn.classList.remove('active');
+  }
+  //Убираем popup
+  /* if (!e.target.closest('.popup__content') && !e.target.classList.contains('popup-btn') && !e.target.classList.contains('info-cases__tittle')) {
+     AllPopup.forEach((item) => {
+        closePopup(item);
+     })
+  } */
+}
+
+

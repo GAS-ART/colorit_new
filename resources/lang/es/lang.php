@@ -2,10 +2,10 @@
 
 return [
    'ru'=>'ru',
-   'ua'=>'ua',
-   'current'=>'ua',
+   'es'=>'es',
+   'current'=>'es',
    'another'=>'ru',
-   'prefix' => 'uk',
+   'prefix' => 'es',
 ]
 
 ?>

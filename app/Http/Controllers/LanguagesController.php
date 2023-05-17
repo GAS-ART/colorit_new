@@ -13,7 +13,7 @@ class languagesController extends Controller
 
     public function changeLocale($locale) {
 
-        $mainLanguage = "ua";
+        $mainLanguage = "es";
         $url = URL::previous();
         $protocol = Str::before($url, '://') . "://";
         $urlPart = Str::of($url)->after($protocol);

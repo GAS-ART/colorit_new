@@ -18,7 +18,6 @@
   left: 50%;
   transform: translate(-50%, calc(-50% + 300px));
   background-color: #ffffff;
-  padding: 100px;
   transition: all 0.5s ease 0s;
   opacity: 0;
   @media (max-width: $mobile) {
@@ -102,6 +101,8 @@
 }
 
 &__row {
+  display: flex;
+  
 }
 
 .popup__form-body{
@@ -110,6 +111,7 @@
 
 &__form {
   position: relative;
+  padding: 60px;
   .error{
     color: #EB5757;
     border-color: #EB5757;
@@ -118,13 +120,11 @@
 
 &__title {
   h4{
-    font-weight: 900;
-    font-size: 30px;
-    line-height: 38px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #333333;
-    margin-bottom: 40px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
   }
 }
 
@@ -132,6 +132,7 @@
   form{
     display: flex;
     flex-direction: column;
+    width: 500px;
   }
 }
 
@@ -199,6 +200,20 @@
   .popup__button{
     //@extend %btn;
     width: 240px;
+  }
+}
+
+&__img{
+  position: relative;
+  //width: 620px;
+  flex: 1 0 auto;
+  img {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
   }
 }
 }
