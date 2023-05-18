@@ -172,8 +172,17 @@ burgerBtn.addEventListener('click', () => {
   burgerBtn.classList.toggle('active');
 });
 
+//select
+
+const selects = document.querySelectorAll('select');
+
+selects.forEach(select => {
+  select.addEventListener('change', (e) => {
+    e.target.previousElementSibling.classList.add('inactive');
+  });
+});
+
 function documentActions(e) {
-  console.log(!e.target.closest('.header-burger') && !e.target.classList.contains('info-header__menu'));
   //убираем меню бургер
   if (!e.target.closest('.header-burger') && !e.target.classList.contains('info-header__menu')) {
     burger.classList.remove('active');
@@ -184,12 +193,6 @@ function documentActions(e) {
   if (!e.target.closest('.language-btn')) {
     languageBtn.classList.remove('active');
   }
-  //Убираем popup
-  /* if (!e.target.closest('.popup__content') && !e.target.classList.contains('popup-btn') && !e.target.classList.contains('info-cases__tittle')) {
-     AllPopup.forEach((item) => {
-        closePopup(item);
-     })
-  } */
 }
 
 

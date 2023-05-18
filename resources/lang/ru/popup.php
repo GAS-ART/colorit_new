@@ -2,9 +2,9 @@
 
 return [
   'title' => 'Заполните форму',
-  'name' => 'ваше имя',
+  'name' => 'Имя <span>*</span>',
   'name_placeholder' => 'Введите ваше имя',
-  'phone' => 'Номер телефона',
+  'phone' => 'Телефон <span>*</span>',
   'phone_placeholder' => 'Введите ваш телефон',
   'email' => 'Email',
   'email_placeholder' => 'Введите ваш Email',

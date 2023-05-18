@@ -68,6 +68,12 @@
     margin-top: 80px;
     padding: 18px 0;
     background-color: $mainColor;
+    margin-left: 20px;
+    margin-right: 20px;
+    @media (max-width: $mobile) {
+      margin-left: 0;
+      margin-right: 0;
+    }
   }
 }
 .info-header {
@@ -242,7 +248,7 @@
 }
 
 .header-menu {
-
+  
   &__list {
     display: flex;
     justify-content: center;

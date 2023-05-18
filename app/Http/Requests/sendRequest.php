@@ -26,7 +26,6 @@ class sendRequest extends FormRequest
         return [
             'name'=>'required|min:2|max:80|regex:/^[^0-9]+$/',
             'phone'=>'required|regex:/^((\s*)?(\+)?)([- _():=+]?\d[- _():=+]?){10,12}(\s*)?$/',
-            'text' => 'max:5000',
         ];
     }
 
@@ -39,7 +38,6 @@ class sendRequest extends FormRequest
             'name.regex' => "Поле \"ИМЯ\" не может содержать цифры",
             'phone.regex' => "Не верный формат номера телефона",
             'phone.required' => "Не заполнено поле \"Номер телефона\"",
-            'text.max' => "Вы ввели слишком много символов в поле \"Сообщение\"",
         ];
     }
 }

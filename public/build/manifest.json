@@ -1,8 +1,4 @@
 {
-  "public/img/bg.jpg": {
-    "file": "assets/bg-37964721.jpg",
-    "src": "public/img/bg.jpg"
-  },
   "public/img/flags/es/es.svg": {
     "file": "assets/es-091dad36.svg",
     "src": "public/img/flags/es/es.svg"
@@ -12,7 +8,7 @@
     "src": "public/img/flags/ru/ru.svg"
   },
   "resources/js/app.js": {
-    "file": "assets/app-d06fc6df.js",
+    "file": "assets/app-7df92ce9.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   },
@@ -81,7 +77,7 @@
     "src": "resources/scss/fonts/icon-fonts/icomoon.woff"
   },
   "resources/scss/style.scss": {
-    "file": "assets/style-f9c1ebea.css",
+    "file": "assets/style-8d6f97e6.css",
     "isEntry": true,
     "src": "resources/scss/style.scss"
   }

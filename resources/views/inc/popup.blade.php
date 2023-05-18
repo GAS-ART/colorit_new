@@ -33,13 +33,16 @@
                         </div>
                         <div class="popup__item">
                            <label for="select">@lang('popup.service')</label>
-                           <select id="popupMainSelect">
-                              <option hidden disabled selected value="">@lang('popup.select_placeholder')</option>
-                              <option>@lang('main.menu.signboards')</option>
-                              <option>@lang('main.menu.letters')</option>
-                              <option>@lang('main.menu.vinyl')</option>
-                              <option>@lang('main.menu.events')</option>
-                           </select>
+                           <div class="popup__item-select">
+                              <span class="select-placeholder">@lang('popup.select_placeholder')</span>
+                              <select name="service" id="popupMainSelect">
+                                 <option hidden disabled selected value=""></option>
+                                 <option value="Вывески">@lang('main.menu.signboards')</option>
+                                 <option value="Буквы">@lang('main.menu.letters')</option>
+                                 <option value="Винил">@lang('main.menu.vinyl')</option>
+                                 <option value="Ивенты">@lang('main.menu.events')</option>
+                              </select>
+                           </div>
                            <p class="error-email"></p>
                         </div>
                         <button class="popup__btn" type="submit">@lang('popup.btn')</button>

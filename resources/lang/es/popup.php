@@ -2,13 +2,13 @@
 
 return [
   'title' => 'Заполните форму',
-  'name' => 'ваше имя',
+  'name' => 'Имя <span>*</span>',
   'name_placeholder' => 'Введите ваше имя',
-  'phone' => 'Номер телефона',
+  'phone' => 'Телефон <span>*</span>',
   'phone_placeholder' => 'Введите ваш телефон',
-  'btn' => 'Оставить заявку',
   'email' => 'Email',
   'email_placeholder' => 'Введите ваш Email',
+  'btn' => 'Оставить заявку',
   'service' => 'Услуга',
   'select_placeholder' => 'Выберите что хотите заказать',
   'success' => [

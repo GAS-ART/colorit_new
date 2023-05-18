@@ -20,9 +20,6 @@
   background-color: #ffffff;
   transition: all 0.5s ease 0s;
   opacity: 0;
-  @media (max-width: $mobile) {
-  padding: 30px;
-  }
 }
 
 &.open{
@@ -73,6 +70,7 @@
   right: 25px;
   margin-left: auto;
   cursor: pointer;
+  z-index: 1;
   @media (max-width: $mobile) {
     right: 0px;
     top: 0px;
@@ -84,7 +82,7 @@
     display: block;
     position: absolute;
     top: 0;
-    background: #131313;
+    background: #ffffff;
     width: 2px;
     height: 40px;
     left: 50%;
@@ -102,7 +100,9 @@
 
 &__row {
   display: flex;
-  
+  @media (max-width: $tablet) {
+    flex-direction: column;
+  }
 }
 
 .popup__form-body{
@@ -112,18 +112,29 @@
 &__form {
   position: relative;
   padding: 60px;
+  @media (max-width: em(1240)) {
+    padding: 20px;
+    max-width: 450px;
+  }
   .error{
     color: #EB5757;
     border-color: #EB5757;
   }
+  @media (max-width: $tablet) {
+    order: 2;
+  }
 }
 
 &__title {
+  margin-bottom: 40px;
+  @media (max-width: $mobile) {
+    margin-bottom: 20px;
+  }
   h4{
     font-family: 'Jost';
     font-style: normal;
     font-weight: 700;
-    font-size: 50px;
+    @include adaptiveValueREM('font-size', 50, 24, 1270, 360, 1);
     line-height: 120%;
   }
 }
@@ -133,6 +144,9 @@
     display: flex;
     flex-direction: column;
     width: 500px;
+    @media (max-width: $tablet) {
+      width: 300px;
+    }
   }
 }
 
@@ -141,31 +155,86 @@
   label{
     display: block;
     font-weight: 500;
-    font-size: 12px;
-    line-height: 15px;
-    text-transform: uppercase;
-    color: #333333;
+    font-size: 14px;
+    line-height: 24px;
+    color: $mainColor;
     margin-bottom: 8px;
+    span{
+      color: $purple;
+      font-size: 18px;
+    }
   }
   input{
     display: block;
     width: 100%;
-    font-weight: 300;
+    color: $mainColor;
     font-size: 16px;
-    line-height: 20px;
-    color: #828282;
-    padding: 17px 0 17px 15px;
-    max-width: 600px;
-    border: 1px solid #E0E0E0;
+    padding: 13px 0 13px 16px;
+    max-width: 500px;
+    outline-color: $purple;
+    &::placeholder{
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 24px;
+    }
+    &.error{
+      color: #EB5757;
+      &::placeholder{
+        color: #EB5757;
+      }
+      border: 1px solid #EB5757;
+    }
+  }
+  .popup__item-select{
+    position: relative;
+    span{
+      position: absolute;
+      top: 10px;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 24px;
+      color: $mainColor;
+      padding: 0 0 0 16px;
+      z-index: 2;
+      &.inactive{
+        display: none;
+      }
+    }
+  }
+  select{
+    width: 100%;
+    position: relative;
+    font-size: 16px;
+    line-height: 100px;
+    padding: 13px 0;
+    color: $mainColor;
+    outline-color: $purple;
+    option{
+      &:not(:last-child){
+        margin-bottom: 8px;
+      }
+    }
   }
 }
 
 &__btn {
-  //@extend %btn;
-  width: 240px;
-  padding-left: 0px;
-  padding-right: 0px;
-  margin: 0 auto;
+  padding: 24px 40px;
+  background-color: $mainColor;
+  color: #ffffff;
+  width: fit-content;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  transition: all 0.3s ease 0s;
+  @media (pointer: fine) {
+    &:hover {
+      background-color: $purple;
+    }
+  }
 }
 
 &.sent{
@@ -198,7 +267,6 @@
     margin-bottom: 40px;
   }
   .popup__button{
-    //@extend %btn;
     width: 240px;
   }
 }
@@ -207,13 +275,27 @@
   position: relative;
   //width: 620px;
   flex: 1 0 auto;
+  @media (max-width: $tablet) {
+    order: 1;
+  }
+
   img {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: fill;
+    @media (max-width: em(1240)) {
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 500px;
+      height: 100%;
+      object-fit: fill;
+    }
+    @media (max-width: $tablet) {
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
   }
 }
 }
