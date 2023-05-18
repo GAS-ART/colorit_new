@@ -112,6 +112,7 @@
     @include adaptiveValueREM('font-size', 60,36, 1920, 360, 1);
     line-height: 100%;
     max-width: 420px;
+    min-width: 265px;
     span{
       display: block;
       @include adaptiveValueREM('font-size', 40, 20, 1920, 360, 1);
@@ -162,6 +163,7 @@
     left: 20px;
     width: 100%;
     height: 100%;
+    pointer-events: none;
     @media (max-width: em(1790)) {
       top: 5px;
       left: 3px;
