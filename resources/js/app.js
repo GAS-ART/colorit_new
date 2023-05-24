@@ -1,5 +1,5 @@
 //import './bootstrap';
-
+import './modules/swiper.js';
 import { popUp } from './modules/popup.js';
 
 document.addEventListener('click', documentActions);

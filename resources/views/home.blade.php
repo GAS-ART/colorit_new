@@ -44,6 +44,63 @@
         <img src="{{ asset('img/home/google.webp') }}" alt="">
     </div>
 </section>
+<section class="quiz">
+    <div class="quiz__container">
+        <h2 class="quiz__title">@lang('quiz.title')</h2>
+        <h3 class="quiz__sub-title">@lang('quiz.sub-title')</h3>
+        <div class="quiz__body quiz-body">
+            <div class="quiz-body__progres">
+                <div class="quiz-body__progres-line"><span></span></div>
+                <div class="quiz-body__progres-count"></div>
+            </div>
+            <h4 class="quiz-body__title">@lang('quiz.body.title')</h4>
+            <div class="quiz-body__slider swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide signboards">
+                        <div class="item-quiz__img">
+                            @if(App::isLocale('es'))
+                            <img src="{{ asset('img/home/quiz/es/1_.webp') }}" alt="">
+                            @elseif(App::isLocale('ru'))
+                            <img src="{{ asset('img/home/quiz/ru/1_.webp') }}" alt="">
+                            @endif
+                        </div>
+                        <h3 class="item-quiz__title">@lang('quiz.body.signboards.title')</h3>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item-quiz__img">
+                            @if(App::isLocale('es'))
+                            <img src="{{ asset('img/home/quiz/es/2_.webp') }}" alt="">
+                            @elseif(App::isLocale('ru'))
+                            <img src="{{ asset('img/home/quiz/ru/2_.webp') }}" alt="">
+                            @endif
+                        </div>
+                        <h3 class="item-quiz__title">@lang('quiz.body.letters.title')</h3>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item-quiz__img">
+                            @if(App::isLocale('es'))
+                            <img src="{{ asset('img/home/quiz/es/3_.webp') }}" alt="">
+                            @elseif(App::isLocale('ru'))
+                            <img src="{{ asset('img/home/quiz/ru/3_.webp') }}" alt="">
+                            @endif
+                        </div>
+                        <h3 class="item-quiz__title">@lang('quiz.body.vinyl.title')</h3>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item-quiz__img">
+                            @if(App::isLocale('es'))
+                            <img src="{{ asset('img/home/quiz/es/4_.webp') }}" alt="">
+                            @elseif(App::isLocale('ru'))
+                            <img src="{{ asset('img/home/quiz/ru/4_.webp') }}" alt="">
+                            @endif
+                        </div>
+                        <h3 class="item-quiz__title">@lang('quiz.body.event.title')</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <section>
     <div class="test__container">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque voluptatibus corporis numquam aliquid ea sit

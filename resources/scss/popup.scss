@@ -25,6 +25,7 @@
 &.open{
   opacity: 1;
   visibility: visible;
+  overflow: auto;
 .popup__body {
   transform: translate(-50%, -50%);
   opacity: 1;
@@ -280,12 +281,12 @@
   }
 
   img {
+    position: relative;
+    height: 100%;
     @media (max-width: em(1240)) {
-      position: relative;
       top: 0;
       left: 0;
       width: 500px;
-      height: 100%;
       object-fit: fill;
     }
     @media (max-width: $tablet) {
