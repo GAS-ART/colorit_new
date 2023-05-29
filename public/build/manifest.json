@@ -7,15 +7,8 @@
     "file": "assets/ru-5f4d812e.svg",
     "src": "public/img/flags/ru/ru.svg"
   },
-  "resources/js/app.css": {
-    "file": "assets/app-1043c9c1.css",
-    "src": "resources/js/app.css"
-  },
   "resources/js/app.js": {
-    "css": [
-      "assets/app-1043c9c1.css"
-    ],
-    "file": "assets/app-fafa4103.js",
+    "file": "assets/app-6014c1ab.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   },
@@ -84,7 +77,7 @@
     "src": "resources/scss/fonts/icon-fonts/icomoon.woff"
   },
   "resources/scss/style.scss": {
-    "file": "assets/style-bf0a610a.css",
+    "file": "assets/style-8921d102.css",
     "isEntry": true,
     "src": "resources/scss/style.scss"
   }

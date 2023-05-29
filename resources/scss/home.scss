@@ -278,6 +278,9 @@
 
   &__slider {
     min-height: 315.19px;
+    @media (max-width: $mobileSmall) {
+      min-height: 230px;
+    }
   }
   &__back-btn{
     max-width: 1040px;
@@ -309,16 +312,32 @@
   margin-bottom: 40px;
 }
 .swiper-wrapper {
-  display: flex;
+    display: flex;
     justify-content: center;
     align-items: center; 
+    @media (max-width: $mobile) {
+      justify-content: flex-start;
+    }
   }
 .swiper-slide{
-  width: fit-content !important;
+  width: fit-content;
   position: relative;
   transition: all 0.5s ease 0s!important;
+  &:not(:last-child){
+    margin-right: 20px;
+    @media (max-width: $tablet) {
+      margin-right: 10px;
+    }
+    @media (max-width: $mobile) {
+      margin-right: 0;
+    }
+  }
   img{
     transition: all 0.5s ease 0s;
+    @media (max-width: $mobileSmall) {
+      width: 122px;
+      height: 195px;
+    }
     &.in{
       opacity: 0;
     }
@@ -332,6 +351,13 @@
   &.remove{
     opacity: 0 !important;
   }
+  @media (max-width: $mobile) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+  }
 }
 .signboards {
 }
@@ -340,6 +366,9 @@
   &__img {
     width: 175px;
     margin-bottom: 16px;
+    @media (max-width: $mobileSmall) {
+      width: fit-content;
+    }
   }
 
   &__title {

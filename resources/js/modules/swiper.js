@@ -1,8 +1,4 @@
-// core version + navigation, pagination modules:
 import Swiper, { Navigation } from 'swiper';
-// import Swiper and modules styles
-import 'swiper/css';
-import 'swiper/css/navigation';
 
 // init Swiper:
 const quizSwiper = new Swiper('.swiper', {
@@ -10,9 +6,6 @@ const quizSwiper = new Swiper('.swiper', {
   modules: [Navigation],
   simulateTouch: true,
   slidesPerView: 2,
-  /*   slidesPerGroup: 1,
-    slidesPerColumn: 1, */
-  spaceBetween: 20,
   loop: true,
   speed: 800,
   navigation: {
