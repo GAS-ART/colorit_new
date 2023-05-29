@@ -6,6 +6,7 @@ new Swiper('.swiper', {
   modules: [Navigation],
   simulateTouch: true,
   slidesPerView: 2,
+  spaceBetween: 20,
   //loop: true,
   speed: 800,
   navigation: {
@@ -15,6 +16,7 @@ new Swiper('.swiper', {
   breakpoints: {
     768: {
       slidesPerView: 'auto',
+      spaceBetween: 0,
       //loop: false,
     },
   },
