@@ -402,6 +402,9 @@
   height: 24px;
   border-radius: 50%;
   background-color: $purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   &::after{
     content: '←';
     color: #FFFFFF;
@@ -416,6 +419,9 @@
   height: 24px;
   border-radius: 50%;
   background-color: $purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   &::after{
     content: '→';
     color: #FFFFFF;
