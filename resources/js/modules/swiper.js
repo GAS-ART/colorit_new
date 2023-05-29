@@ -1,7 +1,7 @@
 import Swiper, { Navigation } from 'swiper';
 
 // init Swiper:
-new Swiper('.swiper', {
+const quizSwiper = new Swiper('.swiper', {
   // configure Swiper to use modules
   modules: [Navigation],
   simulateTouch: true,
