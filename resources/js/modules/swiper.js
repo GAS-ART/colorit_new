@@ -112,6 +112,7 @@ function quiz(quizeInitBtns) {
           backBtn.classList.remove('disabled');
           quizSteps.push(nextQuiz)
         }
+        quizSwiper.init();
         quiz(quizCurrentSlides);
         quizBodyOverlay.classList.remove('active');
         swiperBts.forEach(btn => btn.classList.remove('hide'));
