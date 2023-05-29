@@ -49,6 +49,7 @@
         <h2 class="quiz__title">@lang('home.quiz.title')</h2>
         <h3 class="quiz__sub-title">@lang('home.quiz.sub-title')</h3>
         <div class="quiz__body quiz-body">
+            <div class="quiz-body__overlay"></div>
             <div class="quiz-body__progres">
                 <div class="quiz-body__progres-line"><span></span></div>
                 <div class="quiz-body__progres-count">@lang('home.quiz.count')</div>
@@ -56,7 +57,7 @@
             <h4 class="quiz-body__title">@lang('home.quiz.body.title')</h4>
             <div class="quiz-body__slider swiper">
                 <div class="swiper-wrapper">
-                    <div data-quiz="signboards" class="swiper-slide signboards">
+                    <div data-quiz="signboards" class="swiper-slide">
                         <div class="item-quiz__img">
                             @if(App::isLocale('es'))
                             <img src="{{ asset('img/home/quiz/es/1_.webp') }}" alt="">
@@ -98,8 +99,8 @@
                     </div>
                 </div>
             </div>
-            <button class="quiz-body__back-btn"><span class="arrow disbled">&larr;</span><span
-                    class="text disbled">@lang('home.quiz.back_btn')</span></button>
+            <button data-quiz="init" class="quiz-body__back-btn disabled"><span class="arrow">&larr;</span><span
+                    class="text">@lang('home.quiz.back_btn')</span></button>
         </div>
     </div>
 </section>

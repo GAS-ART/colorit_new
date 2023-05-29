@@ -6,7 +6,7 @@ const quizSwiper = new Swiper('.swiper', {
   modules: [Navigation],
   simulateTouch: true,
   slidesPerView: 2,
-  loop: true,
+  //loop: true,
   speed: 800,
   navigation: {
     nextEl: '.swiper-button-next',
@@ -23,19 +23,30 @@ const quizSlides = {
   es: {
     signboards: [` <div data-quiz="signboardsLight" class="swiper-slide new-slide"> <div class="item-quiz__img"> <img src="/img/home/quiz/es/1.jpg" alt=""> </div> <h3 class="item-quiz__title">со светом</h3> </div> `, ` <div class="swiper-slide"> <div class="item-quiz__img"> <img src="/img/home/quiz/es/2.jpg" alt=""> </div> <h3 class="item-quiz__title">без света</h3> </div> `, ` <div class="swiper-slide"> <div class="item-quiz__img"> <img src="/img/home/quiz/es/3.jpg" alt=""> </div> <h3 class="item-quiz__title">Другой варинт</h3> </div> `],
     signboardsLight: [` <div data-quiz="signboardsLight" class="swiper-slide new-slide"> <div class="item-quiz__img"> <img src="/img/home/quiz/es/3.jpg" alt=""> </div> <h3 class="item-quiz__title">со светом</h3> </div> `, ` <div class="swiper-slide"> <div class="item-quiz__img"> <img src="/img/home/quiz/es/1.jpg" alt=""> </div> <h3 class="item-quiz__title">без света</h3> </div> `, ` <div class="swiper-slide"> <div class="item-quiz__img"> <img src="/img/home/quiz/es/2.jpg" alt=""> </div> <h3 class="item-quiz__title">Другой варинт</h3> </div> `],
+    init: [`<div data-quiz="signboards" class="swiper-slide signboards"> <div class="item-quiz__img"> <img src="/img/home/quiz/es/1_.webp" alt=""> </div> <h3 class="item-quiz__title">Вывески</h3> </div>`, `<div data-quiz="letters" class="swiper-slide"> <div class="item-quiz__img"> <img src="/img/home/quiz/es/2_.webp" alt=""> </div> <h3 class="item-quiz__title">Буквы</h3> </div>`, `<div data-quiz="vinul" class="swiper-slide"> <div class="item-quiz__img"> <img src="/img/home/quiz/es/3_.webp" alt=""> </div> <h3 class="item-quiz__title">Винил</h3> </div>`, `<div data-quiz="event" class="swiper-slide"> <div class="item-quiz__img"> <img src="/img/home/quiz/es/4_.webp" alt=""> </div> <h3 class="item-quiz__title">Ивент</h3> </div>`],
   },
   ru: {
     signboards: [` <div data-quiz="signboardsLight" class="swiper-slide new-slide"> <div class="item-quiz__img"> <img src="/img/home/quiz/es/1.jpg" alt=""> </div> <h3 class="item-quiz__title">со светом</h3> </div> `, ` <div class="swiper-slide"> <div class="item-quiz__img"> <img src="/img/home/quiz/es/2.jpg" alt=""> </div> <h3 class="item-quiz__title">без света</h3> </div> `, ` <div class="swiper-slide"> <div class="item-quiz__img"> <img src="/img/home/quiz/es/3.jpg" alt=""> </div> <h3 class="item-quiz__title">Другой варинт</h3> </div> `],
     signboardsLight: [` <div data-quiz="signboardsLight" class="swiper-slide new-slide"> <div class="item-quiz__img"> <img src="/img/home/quiz/es/3.jpg" alt=""> </div> <h3 class="item-quiz__title">со светом</h3> </div> `, ` <div class="swiper-slide"> <div class="item-quiz__img"> <img src="/img/home/quiz/es/1.jpg" alt=""> </div> <h3 class="item-quiz__title">без света</h3> </div> `, ` <div class="swiper-slide"> <div class="item-quiz__img"> <img src="/img/home/quiz/es/2.jpg" alt=""> </div> <h3 class="item-quiz__title">Другой варинт</h3> </div> `],
+    init: ['<div data-quiz="signboards" class="swiper-slide signboards"> <div class="item-quiz__img"> <img src="/img/home/quiz/ru/1_.webp" alt=""> </div> <h3 class="item-quiz__title">Вывески</h3> </div>', '<div data-quiz="letters" class="swiper-slide"> <div class="item-quiz__img"> <img src="/img/home/quiz/ru/2_.webp" alt=""> </div> <h3 class="item-quiz__title">Буквы</h3> </div>', '<div data-quiz="vinul" class="swiper-slide"> <div class="item-quiz__img"> <img src="/img/home/quiz/ru/3_.webp" alt=""> </div> <h3 class="item-quiz__title">Винил</h3> </div>', '<div data-quiz="event" class="swiper-slide"> <div class="item-quiz__img"> <img src="/img/home/quiz/ru/4_.webp" alt=""> </div> <h3 class="item-quiz__title">Ивент</h3> </div>'],
   },
 };
 
-const quizeInitSlides = document.querySelectorAll('.swiper-slide');
-const wrapper = document.querySelector('.swiper-wrapper');
+const quizSteps = [];
 
-function quiz(quizeInitSlides) {
-  quizeInitSlides.forEach(quizSlide => {
+const quizeInitBtns = document.querySelectorAll('.swiper-slide, .quiz-body__back-btn');
+const wrapper = document.querySelector('.swiper-wrapper');
+const backBtn = document.querySelector('.quiz-body__back-btn');
+const quizBodyOverlay = document.querySelector('.quiz-body__overlay')
+
+function quiz(quizeInitBtns) {
+  quizeInitBtns.forEach(quizSlide => {
     quizSlide.addEventListener('click', async (e) => {
+
+      if (e.target.classList.contains('disabled')) return
+
+      quizBodyOverlay.classList.add('active');
+
       await new Promise(resolve => {
         const slides = wrapper.querySelectorAll('.swiper-slide');
         slides.forEach(slide => {
@@ -54,21 +65,27 @@ function quiz(quizeInitSlides) {
           slide.addEventListener('transitionend', handleTransitionEnd);
         });
       });
-
       const lang = document.documentElement.lang;
-      const nextQuiz = e.target.dataset.quiz
+      let nextQuiz;
+      if (e.target.classList.contains('quiz-body__back-btn')) {
+        quizSteps.pop();
+        quizSteps.length > 0 ? nextQuiz = quizSteps[quizSteps.length - 1] : nextQuiz = 'init'
+        if (quizSteps.length == 0) e.target.classList.add('disabled');
+      } else {
+        nextQuiz = e.target.dataset.quiz
+      }
       quizSwiper.destroy(false, true)
       wrapper.innerHTML = '';
-
-      const loadImages = quizSlides[lang][nextQuiz].map(async slide => {
+      const sortSlides = [];
+      const loadImages = quizSlides[lang][nextQuiz].map(async (slide, index) => {
         const tempContainer = document.createElement('div');
         tempContainer.innerHTML = slide.trim();
         const img = tempContainer.querySelector('img');
-        img.classList.add('in');
 
         await new Promise((resolve, reject) => {
           img.addEventListener('load', () => {
-            wrapper.appendChild(tempContainer.firstElementChild);
+            tempContainer.firstElementChild.classList.add('in')
+            sortSlides[index] = tempContainer.firstElementChild;
             resolve();
           });
           img.addEventListener('error', reject);
@@ -76,22 +93,45 @@ function quiz(quizeInitSlides) {
       });
 
       try {
-        await Promise.all(loadImages)
+        await Promise.all(loadImages);
+        sortSlides.forEach(slide => {
+          wrapper.appendChild(slide);
+        });
         quizSwiper.init();
         const quizCurrentSlides = wrapper.querySelectorAll('.swiper-slide');
-        quizCurrentSlides.forEach(slide => {
-          slide.querySelector('img').classList.remove('in');
-        })
+        setTimeout(() => {
+          quizCurrentSlides.forEach(slide => {
+            slide.classList.remove('in');
+          })
+        }, 50)
+
+        if (!e.target.classList.contains('quiz-body__back-btn')) {
+          backBtn.classList.remove('disabled');
+          quizSteps.push(nextQuiz)
+        }
         quiz(quizCurrentSlides);
+        quizBodyOverlay.classList.remove('active');
       } catch (error) {
         console.error('Ошибка загрузки изображений:', error);
       };
     });
   });
 }
+quiz(quizeInitBtns);
 
-quiz(quizeInitSlides);
 
+/* backBtn.addEventListener('click', (e) => {
+  if (e.target.classList.contains('disabled')) return
+
+  const quizCurrentSlides = wrapper.querySelectorAll('.swiper-slide');
+  quizSteps.pop();
+  if (quizSteps.length > 0) {
+    const nextQuiz = quizSteps[quizSteps.length - 1];
+    quiz(quizCurrentSlides, nextQuiz);
+  } else {
+    quiz(quizCurrentSlides, 'init');
+  }
+}); */
 
 
 
