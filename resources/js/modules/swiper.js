@@ -1,12 +1,11 @@
 import Swiper, { Navigation } from 'swiper';
 
 // init Swiper:
-const quizSwiper = new Swiper('.swiper', {
+new Swiper('.swiper', {
   // configure Swiper to use modules
   modules: [Navigation],
   simulateTouch: true,
   slidesPerView: 2,
-  spaceBetween: 20,
   //loop: true,
   speed: 800,
   navigation: {
@@ -16,7 +15,6 @@ const quizSwiper = new Swiper('.swiper', {
   breakpoints: {
     768: {
       slidesPerView: 'auto',
-      spaceBetween: 0,
       //loop: false,
     },
   },
@@ -112,7 +110,6 @@ function quiz(quizeInitBtns) {
           backBtn.classList.remove('disabled');
           quizSteps.push(nextQuiz)
         }
-        quizSwiper.init();
         quiz(quizCurrentSlides);
         quizBodyOverlay.classList.remove('active');
         swiperBts.forEach(btn => btn.classList.remove('hide'));
