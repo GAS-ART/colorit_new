@@ -46,14 +46,14 @@
 </section>
 <section class="quiz">
     <div class="quiz__container">
-        <h2 class="quiz__title">@lang('quiz.title')</h2>
-        <h3 class="quiz__sub-title">@lang('quiz.sub-title')</h3>
+        <h2 class="quiz__title">@lang('home.quiz.title')</h2>
+        <h3 class="quiz__sub-title">@lang('home.quiz.sub-title')</h3>
         <div class="quiz__body quiz-body">
             <div class="quiz-body__progres">
                 <div class="quiz-body__progres-line"><span></span></div>
-                <div class="quiz-body__progres-count"></div>
+                <div class="quiz-body__progres-count">@lang('home.quiz.count')</div>
             </div>
-            <h4 class="quiz-body__title">@lang('quiz.body.title')</h4>
+            <h4 class="quiz-body__title">@lang('home.quiz.body.title')</h4>
             <div class="quiz-body__slider swiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide signboards">
@@ -64,7 +64,7 @@
                             <img src="{{ asset('img/home/quiz/ru/1_.webp') }}" alt="">
                             @endif
                         </div>
-                        <h3 class="item-quiz__title">@lang('quiz.body.signboards.title')</h3>
+                        <h3 class="item-quiz__title">@lang('home.quiz.body.signboards.title')</h3>
                     </div>
                     <div class="swiper-slide">
                         <div class="item-quiz__img">
@@ -74,7 +74,7 @@
                             <img src="{{ asset('img/home/quiz/ru/2_.webp') }}" alt="">
                             @endif
                         </div>
-                        <h3 class="item-quiz__title">@lang('quiz.body.letters.title')</h3>
+                        <h3 class="item-quiz__title">@lang('home.quiz.body.letters.title')</h3>
                     </div>
                     <div class="swiper-slide">
                         <div class="item-quiz__img">
@@ -84,7 +84,7 @@
                             <img src="{{ asset('img/home/quiz/ru/3_.webp') }}" alt="">
                             @endif
                         </div>
-                        <h3 class="item-quiz__title">@lang('quiz.body.vinyl.title')</h3>
+                        <h3 class="item-quiz__title">@lang('home.quiz.body.vinyl.title')</h3>
                     </div>
                     <div class="swiper-slide">
                         <div class="item-quiz__img">
@@ -94,10 +94,12 @@
                             <img src="{{ asset('img/home/quiz/ru/4_.webp') }}" alt="">
                             @endif
                         </div>
-                        <h3 class="item-quiz__title">@lang('quiz.body.event.title')</h3>
+                        <h3 class="item-quiz__title">@lang('home.quiz.body.event.title')</h3>
                     </div>
                 </div>
             </div>
+            <button class="quiz-body__back-btn"><span class="arrow disbled">&larr;</span><span
+                    class="text disbled">@lang('home.quiz.back_btn')</span></button>
         </div>
     </div>
 </section>

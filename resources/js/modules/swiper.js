@@ -57,8 +57,7 @@ const slides = [
 const signboards = document.querySelector('.signboards');
 const wrapper = document.querySelector('.swiper-wrapper');
 
-signboards.addEventListener('click', async (e) => {
-  console.log(e.target);
+signboards.addEventListener('click', async () => {
   await new Promise(resolve => {
     const slides = wrapper.querySelectorAll('.swiper-slide');
     slides.forEach(slide => {
