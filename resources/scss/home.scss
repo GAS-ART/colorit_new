@@ -334,6 +334,7 @@
   }
   img{
     transition: all 0.5s ease 0s;
+    pointer-events: none;
     @media (max-width: $mobileSmall) {
       width: 122px;
       height: 195px;
@@ -366,6 +367,7 @@
   &__img {
     width: 175px;
     margin-bottom: 16px;
+    pointer-events: none;
     @media (max-width: $mobileSmall) {
       width: fit-content;
     }
