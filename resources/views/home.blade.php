@@ -98,6 +98,8 @@
                         <h3 class="item-quiz__title">@lang('home.quiz.body.event.title')</h3>
                     </div>
                 </div>
+                <div class="swiper-button-prev swiper-button"></div>
+                <div class="swiper-button-next swiper-button"></div>
             </div>
             <button data-quiz="init" class="quiz-body__back-btn disabled"><span class="arrow">&larr;</span><span
                     class="text">@lang('home.quiz.back_btn')</span></button>

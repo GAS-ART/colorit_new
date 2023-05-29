@@ -1,7 +1,7 @@
 import Swiper, { Navigation } from 'swiper';
 
 // init Swiper:
-const quizSwiper = new Swiper('.swiper', {
+new Swiper('.swiper', {
   // configure Swiper to use modules
   modules: [Navigation],
   simulateTouch: true,
@@ -15,6 +15,7 @@ const quizSwiper = new Swiper('.swiper', {
   breakpoints: {
     768: {
       slidesPerView: 'auto',
+      //loop: false,
     },
   },
 });
@@ -37,7 +38,8 @@ const quizSteps = [];
 const quizeInitBtns = document.querySelectorAll('.swiper-slide, .quiz-body__back-btn');
 const wrapper = document.querySelector('.swiper-wrapper');
 const backBtn = document.querySelector('.quiz-body__back-btn');
-const quizBodyOverlay = document.querySelector('.quiz-body__overlay')
+const quizBodyOverlay = document.querySelector('.quiz-body__overlay');
+const swiperBts = document.querySelectorAll('.swiper-button');
 
 function quiz(quizeInitBtns) {
   quizeInitBtns.forEach(quizSlide => {
@@ -46,6 +48,7 @@ function quiz(quizeInitBtns) {
       if (e.target.classList.contains('disabled')) return
 
       quizBodyOverlay.classList.add('active');
+      swiperBts.forEach(btn => btn.classList.add('hide'));
 
       await new Promise(resolve => {
         const slides = wrapper.querySelectorAll('.swiper-slide');
@@ -74,7 +77,6 @@ function quiz(quizeInitBtns) {
       } else {
         nextQuiz = e.target.dataset.quiz
       }
-      quizSwiper.destroy(false, true)
       wrapper.innerHTML = '';
       const sortSlides = [];
       const loadImages = quizSlides[lang][nextQuiz].map(async (slide, index) => {
@@ -97,7 +99,6 @@ function quiz(quizeInitBtns) {
         sortSlides.forEach(slide => {
           wrapper.appendChild(slide);
         });
-        quizSwiper.init();
         const quizCurrentSlides = wrapper.querySelectorAll('.swiper-slide');
         setTimeout(() => {
           quizCurrentSlides.forEach(slide => {
@@ -111,6 +112,7 @@ function quiz(quizeInitBtns) {
         }
         quiz(quizCurrentSlides);
         quizBodyOverlay.classList.remove('active');
+        swiperBts.forEach(btn => btn.classList.remove('hide'));
       } catch (error) {
         console.error('Ошибка загрузки изображений:', error);
       };
@@ -118,7 +120,6 @@ function quiz(quizeInitBtns) {
   });
 }
 quiz(quizeInitBtns);
-
 
 /* backBtn.addEventListener('click', (e) => {
   if (e.target.classList.contains('disabled')) return
