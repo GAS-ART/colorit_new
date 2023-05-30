@@ -43,6 +43,7 @@ const swiperBts = document.querySelectorAll('.swiper-button');
 const quizSectionContainer = document.querySelector('.quiz-container'); //This for fixed bag on iphone
 const progress = document.querySelector('.quiz-body__progres-line span');
 let progressStep = 0;
+const progressCount = document.querySelector('.quiz-count');
 
 function quiz(quizeInitBtns) {
   quizeInitBtns.forEach(quizSlide => {
@@ -113,6 +114,8 @@ function quiz(quizeInitBtns) {
           })
         }, 60)
         progress.style.width = 100 / 5 * progressStep + '%';
+        progressCount.innerHTML = progressStep;
+        console.log(progressCount);
         if (!e.target.classList.contains('quiz-body__back-btn')) {
           backBtn.classList.remove('disabled');
           quizSteps.push(nextQuiz)
