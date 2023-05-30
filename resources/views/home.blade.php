@@ -45,7 +45,7 @@
     </div>
 </section>
 <section class="quiz">
-    <div class="quiz__container">
+    <div class="quiz__container quiz-container">
         <h2 class="quiz__title">@lang('home.quiz.title')</h2>
         <h3 class="quiz__sub-title">@lang('home.quiz.sub-title')</h3>
         <div class="quiz__body quiz-body">

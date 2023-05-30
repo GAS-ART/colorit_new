@@ -184,6 +184,9 @@
 .quiz {
 
   &__container {
+    &.pad0{
+      padding: 0;
+    }
   }
 
   &__title {

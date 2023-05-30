@@ -40,6 +40,7 @@ const wrapper = document.querySelector('.swiper-wrapper');
 const backBtn = document.querySelector('.quiz-body__back-btn');
 const quizBodyOverlay = document.querySelector('.quiz-body__overlay');
 const swiperBts = document.querySelectorAll('.swiper-button');
+const quizSectionContainer = document.querySelector('.quiz-container'); //This for fixed bag on iphone
 
 function quiz(quizeInitBtns) {
   quizeInitBtns.forEach(quizSlide => {
@@ -113,6 +114,8 @@ function quiz(quizeInitBtns) {
         quiz(quizCurrentSlides);
         quizBodyOverlay.classList.remove('active');
         swiperBts.forEach(btn => btn.classList.remove('hide'));
+        console.log(quizSectionContainer);
+        setTimeout(() => quizSectionContainer.classList.add('pad0'), 600);
       } catch (error) {
         console.error('Ошибка загрузки изображений:', error);
       };
