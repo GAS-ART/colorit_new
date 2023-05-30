@@ -251,7 +251,9 @@
     span{
       position: absolute;
       height: 4px;
-      width: calc(100% / 5);
+      transition: all 0.5s ease 0s;
+      //width: calc(100% / 5);
+      width: 0%;
       background-color: $mainColor;
       &::before{
         content: '';

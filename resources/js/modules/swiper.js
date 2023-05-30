@@ -41,6 +41,8 @@ const backBtn = document.querySelector('.quiz-body__back-btn');
 const quizBodyOverlay = document.querySelector('.quiz-body__overlay');
 const swiperBts = document.querySelectorAll('.swiper-button');
 const quizSectionContainer = document.querySelector('.quiz-container'); //This for fixed bag on iphone
+const progress = document.querySelector('.quiz-body__progres-line span');
+let progressStep = 0;
 
 function quiz(quizeInitBtns) {
   quizeInitBtns.forEach(quizSlide => {
@@ -75,8 +77,10 @@ function quiz(quizeInitBtns) {
         quizSteps.pop();
         quizSteps.length > 0 ? nextQuiz = quizSteps[quizSteps.length - 1] : nextQuiz = 'init'
         if (quizSteps.length == 0) e.target.classList.add('disabled');
+        --progressStep;
       } else {
         nextQuiz = e.target.dataset.quiz
+        ++progressStep;
       }
       wrapper.innerHTML = '';
       const sortSlides = [];
@@ -108,7 +112,7 @@ function quiz(quizeInitBtns) {
             slide.classList.remove('in');
           })
         }, 60)
-
+        progress.style.width = 100 / 5 * progressStep + '%';
         if (!e.target.classList.contains('quiz-body__back-btn')) {
           backBtn.classList.remove('disabled');
           quizSteps.push(nextQuiz)
@@ -116,9 +120,6 @@ function quiz(quizeInitBtns) {
         quiz(quizCurrentSlides);
         quizBodyOverlay.classList.remove('active');
         swiperBts.forEach(btn => btn.classList.remove('hide'));
-        console.log(quizSectionContainer);
-        //setTimeout(() => quizSectionContainer.classList.add('pad0'), 600);
-        //setTimeout(() => quizSectionContainer.classList.remove('pad0'), 650);
       } catch (error) {
         console.error('Ошибка загрузки изображений:', error);
       };
