@@ -185,7 +185,7 @@
 
   &__container {
     &.pad0{
-      padding: 0;
+      padding: 0 rem( calc(math.div($containerPadding, 2) - 1 ) )
     }
   }
 

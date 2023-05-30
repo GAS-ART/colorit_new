@@ -8,7 +8,7 @@
     "src": "public/img/flags/ru/ru.svg"
   },
   "resources/js/app.js": {
-    "file": "assets/app-6fcc0665.js",
+    "file": "assets/app-dbd61ad5.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   },
@@ -77,7 +77,7 @@
     "src": "resources/scss/fonts/icon-fonts/icomoon.woff"
   },
   "resources/scss/style.scss": {
-    "file": "assets/style-0bd7bd13.css",
+    "file": "assets/style-de8d4e32.css",
     "isEntry": true,
     "src": "resources/scss/style.scss"
   }

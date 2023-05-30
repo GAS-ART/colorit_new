@@ -116,6 +116,7 @@ function quiz(quizeInitBtns) {
         swiperBts.forEach(btn => btn.classList.remove('hide'));
         console.log(quizSectionContainer);
         setTimeout(() => quizSectionContainer.classList.add('pad0'), 600);
+        setTimeout(() => quizSectionContainer.classList.remove('pad0'), 650);
       } catch (error) {
         console.error('Ошибка загрузки изображений:', error);
       };
