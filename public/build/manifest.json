@@ -7,8 +7,12 @@
     "file": "assets/ru-5f4d812e.svg",
     "src": "public/img/flags/ru/ru.svg"
   },
+  "public/img/home/es/solution/background.webp": {
+    "file": "assets/background-8d430d52.webp",
+    "src": "public/img/home/es/solution/background.webp"
+  },
   "resources/js/app.js": {
-    "file": "assets/app-f82c9ecc.js",
+    "file": "assets/app-0dcc5622.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   },
@@ -77,7 +81,7 @@
     "src": "resources/scss/fonts/icon-fonts/icomoon.woff"
   },
   "resources/scss/style.scss": {
-    "file": "assets/style-fa2f177a.css",
+    "file": "assets/style-c5805181.css",
     "isEntry": true,
     "src": "resources/scss/style.scss"
   }

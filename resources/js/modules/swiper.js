@@ -24,12 +24,12 @@ const quizSlides = {
   es: {
     signboards: [` <div data-quiz="signboardsLight" class="swiper-slide new-slide"> <div class="item-quiz__img"> <img src="/img/home/quiz/es/1.jpg" alt=""> </div> <h3 class="item-quiz__title">со светом</h3> </div> `, ` <div class="swiper-slide"> <div class="item-quiz__img"> <img src="/img/home/quiz/es/2.jpg" alt=""> </div> <h3 class="item-quiz__title">без света</h3> </div> `, ` <div class="swiper-slide"> <div class="item-quiz__img"> <img src="/img/home/quiz/es/3.jpg" alt=""> </div> <h3 class="item-quiz__title">Другой варинт</h3> </div> `],
     signboardsLight: [` <div data-quiz="signboardsLight" class="swiper-slide new-slide"> <div class="item-quiz__img"> <img src="/img/home/quiz/es/3.jpg" alt=""> </div> <h3 class="item-quiz__title">со светом</h3> </div> `, ` <div class="swiper-slide"> <div class="item-quiz__img"> <img src="/img/home/quiz/es/1.jpg" alt=""> </div> <h3 class="item-quiz__title">без света</h3> </div> `, ` <div class="swiper-slide"> <div class="item-quiz__img"> <img src="/img/home/quiz/es/2.jpg" alt=""> </div> <h3 class="item-quiz__title">Другой варинт</h3> </div> `],
-    init: [`<div data-quiz="signboards" class="swiper-slide signboards"> <div class="item-quiz__img"> <img src="/img/home/quiz/es/1_.webp" alt=""> </div> <h3 class="item-quiz__title">Вывески</h3> </div>`, `<div data-quiz="letters" class="swiper-slide"> <div class="item-quiz__img"> <img src="/img/home/quiz/es/2_.webp" alt=""> </div> <h3 class="item-quiz__title">Буквы</h3> </div>`, `<div data-quiz="vinul" class="swiper-slide"> <div class="item-quiz__img"> <img src="/img/home/quiz/es/3_.webp" alt=""> </div> <h3 class="item-quiz__title">Винил</h3> </div>`, `<div data-quiz="event" class="swiper-slide"> <div class="item-quiz__img"> <img src="/img/home/quiz/es/4_.webp" alt=""> </div> <h3 class="item-quiz__title">Ивент</h3> </div>`],
+    init: [`<div data-quiz="signboards" class="swiper-slide signboards"> <div class="item-quiz__img"> <img src="/img/home/quiz/es/1_.webp" alt=""> </div> <h3 class="item-quiz__title">Вывески</h3> </div>`, `<div data-quiz="letters" class="swiper-slide"> <div class="item-quiz__img"> <img src="/img/home/quiz/es/2_.webp" alt=""> </div> <h3 class="item-quiz__title">Буквы</h3> </div>`, `<div data-quiz="vinul" class="swiper-slide"> <div class="item-quiz__img"> <img src="/img/home/quiz/es/3_.webp" alt=""> </div> <h3 class="item-quiz__title">Винил</h3> </div>`, `<div class="swiper-slide"> <div class="item-quiz__img"> <img src="/img/home/quiz/es/4_.webp" alt=""> </div> <h3 class="item-quiz__title">Ивент</h3> </div>`],
   },
   ru: {
     signboards: [` <div data-quiz="signboardsLight" class="swiper-slide new-slide"> <div class="item-quiz__img"> <img src="/img/home/quiz/es/1.jpg" alt=""> </div> <h3 class="item-quiz__title">со светом</h3> </div> `, ` <div class="swiper-slide"> <div class="item-quiz__img"> <img src="/img/home/quiz/es/2.jpg" alt=""> </div> <h3 class="item-quiz__title">без света</h3> </div> `, ` <div class="swiper-slide"> <div class="item-quiz__img"> <img src="/img/home/quiz/es/3.jpg" alt=""> </div> <h3 class="item-quiz__title">Другой варинт</h3> </div> `],
     signboardsLight: [` <div data-quiz="signboardsLight" class="swiper-slide new-slide"> <div class="item-quiz__img"> <img src="/img/home/quiz/es/3.jpg" alt=""> </div> <h3 class="item-quiz__title">со светом</h3> </div> `, ` <div class="swiper-slide"> <div class="item-quiz__img"> <img src="/img/home/quiz/es/1.jpg" alt=""> </div> <h3 class="item-quiz__title">без света</h3> </div> `, ` <div class="swiper-slide"> <div class="item-quiz__img"> <img src="/img/home/quiz/es/2.jpg" alt=""> </div> <h3 class="item-quiz__title">Другой варинт</h3> </div> `],
-    init: ['<div data-quiz="signboards" class="swiper-slide signboards"> <div class="item-quiz__img"> <img src="/img/home/quiz/ru/1_.webp" alt=""> </div> <h3 class="item-quiz__title">Вывески</h3> </div>', '<div data-quiz="letters" class="swiper-slide"> <div class="item-quiz__img"> <img src="/img/home/quiz/ru/2_.webp" alt=""> </div> <h3 class="item-quiz__title">Буквы</h3> </div>', '<div data-quiz="vinul" class="swiper-slide"> <div class="item-quiz__img"> <img src="/img/home/quiz/ru/3_.webp" alt=""> </div> <h3 class="item-quiz__title">Винил</h3> </div>', '<div data-quiz="event" class="swiper-slide"> <div class="item-quiz__img"> <img src="/img/home/quiz/ru/4_.webp" alt=""> </div> <h3 class="item-quiz__title">Ивент</h3> </div>'],
+    init: ['<div data-quiz="signboards" class="swiper-slide signboards"> <div class="item-quiz__img"> <img src="/img/home/quiz/ru/1_.webp" alt=""> </div> <h3 class="item-quiz__title">Вывески</h3> </div>', '<div data-quiz="letters" class="swiper-slide"> <div class="item-quiz__img"> <img src="/img/home/quiz/ru/2_.webp" alt=""> </div> <h3 class="item-quiz__title">Буквы</h3> </div>', '<div data-quiz="vinul" class="swiper-slide"> <div class="item-quiz__img"> <img src="/img/home/quiz/ru/3_.webp" alt=""> </div> <h3 class="item-quiz__title">Винил</h3> </div>', '<div class="swiper-slide"> <div class="item-quiz__img"> <img src="/img/home/quiz/ru/4_.webp" alt=""> </div> <h3 class="item-quiz__title">Ивент</h3> </div>'],
   },
 };
 
@@ -49,7 +49,7 @@ function quiz(quizeInitBtns) {
   quizeInitBtns.forEach(quizSlide => {
     quizSlide.addEventListener('click', async (e) => {
 
-      if (e.target.classList.contains('disabled')) return
+      if (e.target.classList.contains('disabled') || !e.target.dataset.quiz) return
 
       quizBodyOverlay.classList.add('active');
       swiperBts.forEach(btn => btn.classList.add('hide'));
@@ -115,7 +115,6 @@ function quiz(quizeInitBtns) {
         }, 60)
         progress.style.width = 100 / 5 * progressStep + '%';
         progressCount.innerHTML = progressStep;
-        console.log(progressCount);
         if (!e.target.classList.contains('quiz-body__back-btn')) {
           backBtn.classList.remove('disabled');
           quizSteps.push(nextQuiz)

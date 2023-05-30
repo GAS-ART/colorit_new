@@ -180,7 +180,9 @@
     }
   }
 }
+/*============MAIN============*/
 
+/*============QUIZ============*/
 .quiz {
 
   &__container {
@@ -382,8 +384,6 @@
     margin-right: 0;
   }
 }
-.signboards {
-}
 .item-quiz {
 
   &__img {
@@ -443,56 +443,140 @@
     opacity: 0;
   }
 }
+/*============QUIZ============*/
 
+/*============SOLUTION============*/
+.solution {
+  @extend %section;
+  background-image: url("../../public/img/home/es/solution/background.webp");
+  background-repeat: no-repeat;
+  background-size: 100% 86.164%;
+  margin-bottom: 100px;
 
-/* @keyframes slideInFromLeft {
-  0% {
-    transform: translateX(-100%);
-    opacity: 0;
+  &__title {
+    padding: 40px;
+    @media (max-width: $mobile) {
+    padding: 16px 40px;
+    max-width: 284px;
+    }
+    @media (max-width: $mobileSmall) {
+      max-width: 264px;
+    }
+    @extend %title;
+    background-color: #FFFFFF;
+    width: fit-content;
+    margin-bottom: 40px;
   }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
+
+  &__container {
+  }
+
+  &__body {
+  }
+
+  &__cards {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: auto auto;
+    gap: 40px 20px;
+    margin-bottom: 60px;
+    @media (max-width: em(1280)) {
+      grid-template-columns: 400px 400px;
+      grid-template-rows: auto auto auto;
+      justify-content: center;
+    }
+    @media (max-width: $tablet) {
+      grid-template-columns: 312px 312px;
+    }
+    @media (max-width: $mobile) {
+      grid-template-columns: 312px;
+      grid-template-rows: repeat(6, auto);
+      gap: 16px;
+      margin-bottom: 40px;
+    }
+  }
+
+  &__card {
+    background-color: #FFFFFF;
+    display: flex;
+    padding: 60px 40px;
+    border-radius: 16px;
+    border-bottom: 4px solid $purple;
+    @media (max-width: $tablet) {
+      padding: 40px 24px;
+    }
+  }
+
+  &__card-img {
+    margin-right: 16px;
+  }
+
+  &__card-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+  }
+
+  &__free {
+    position: relative;
+    border-radius: 16px;
+    background-color: $purple;
+    overflow: hidden;
+    padding: 60px 0 60px 60px;
+    @media (max-width: $mobile) {
+      padding: 40px 0 40px 24px;
+    }
+  }
+
+  &__free-content {
+  }
+
+  &__free-text {
+    font-family: 'Jost';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #FFFFFF;
+    max-width: 600px;
+    margin-bottom: 40px;
+    @media (max-width: $tablet) {
+      max-width: 300px;
+    }
+    @media (max-width: $mobile) {
+      margin-bottom: 24px;
+      max-width: 194px;
+      font-size: 18px;
+    }
+    @media (max-width: $mobileSmall) {
+      
+    }
+  }
+
+  &__free-btn {
+    padding: 24px 80px;
+    background-color: #FFFFFF;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    display: block;
+    width: fit-content;
+    @media (max-width: $mobile) {
+      padding: 24px 60px;
+    }
+  }
+
+  &__free-img {
+    position: absolute;
+    top: -45px;
+    right: -20px;
+    @media (max-width: $mobile) {
+      top: unset;
+      bottom: 0;
+      img{
+        width: 120px;
+        height: 180px;
+      }
+    }
   }
 }
-
-.swiper-slide {
-  animation: slideInFromLeft 0.5s ease-in-out forwards;
-} */
-
-/*.swiper-slide.remove{
-  opacity: 0 !important;
-}
-
-.item-quiz__img {
-  //perspective: 1700px;
-  transition: transform 0.5s;
-  transform-style: preserve-3d;
-  backface-visibility: hidden;
-  position: relative;
-  width: fit-content;
-  pointer-events: none;
-  img{
-    pointer-events: none;
-    min-height: 280px;
-  }
-}
-
-.item-quiz__img.swipe {
-    transform: rotateY(180deg) ;
-}
-
-.item-quiz__img::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url('../../public/img/home/quiz/es/1.jpg');
-  background-size: cover;
-  background-position: center;
-  transform: rotateY(180deg);
-  transform-style: preserve-3d;
-  backface-visibility: hidden;
-} */
+/*============SOLUTION============*/

@@ -1,0 +1,16 @@
+%title{
+  font-family: 'Jost';
+  font-weight: 700;
+  font-size: 60px;
+  @include adaptiveValueREM('font-size', 60, 36, 1920, 360, 1);
+  span{
+    color: $purple;
+  }
+}
+
+%section{
+  margin-bottom: 100px;
+  @media (max-width: $mobile) {
+    margin-bottom: 80px;
+  }
+}

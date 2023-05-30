@@ -87,7 +87,7 @@
                         </div>
                         <h3 class="item-quiz__title">@lang('home.quiz.body.vinyl.title')</h3>
                     </div>
-                    <div data-quiz="event" class="swiper-slide">
+                    <div class="swiper-slide">
                         <div class="item-quiz__img">
                             @if(App::isLocale('es'))
                             <img src="{{ asset('img/home/quiz/es/4_.webp') }}" alt="">
@@ -103,6 +103,73 @@
             </div>
             <button data-quiz="init" class="quiz-body__back-btn disabled"><span class="arrow">&larr;</span><span
                     class="text">@lang('home.quiz.back_btn')</span></button>
+        </div>
+    </div>
+</section>
+<section class="solution">
+    <h2 class="solution__title">@lang('home.solution.title')</h2>
+    <div class="solution__container">
+        <div class="solution__body">
+            <div class="solution__cards">
+                <div class="solution__card">
+                    <div class="solution__card-img">
+                        <img src="{{asset('img/home/es/solution/card.svg')}}" alt="">
+                    </div>
+                    <div class="solution__card-text">
+                        @lang('home.solution.card.1')
+                    </div>
+                </div>
+                <div class="solution__card">
+                    <div class="solution__card-img">
+                        <img src="{{asset('img/home/es/solution/card.svg')}}" alt="">
+                    </div>
+                    <div class="solution__card-text">
+                        @lang('home.solution.card.2')
+                    </div>
+                </div>
+                <div class="solution__card">
+                    <div class="solution__card-img">
+                        <img src="{{asset('img/home/es/solution/card.svg')}}" alt="">
+                    </div>
+                    <div class="solution__card-text">
+                        @lang('home.solution.card.3')
+                    </div>
+                </div>
+                <div class="solution__card">
+                    <div class="solution__card-img">
+                        <img src="{{asset('img/home/es/solution/card.svg')}}" alt="">
+                    </div>
+                    <div class="solution__card-text">
+                        @lang('home.solution.card.4')
+                    </div>
+                </div>
+                <div class="solution__card">
+                    <div class="solution__card-img">
+                        <img src="{{asset('img/home/es/solution/card.svg')}}" alt="">
+                    </div>
+                    <div class="solution__card-text">
+                        @lang('home.solution.card.5')
+                    </div>
+                </div>
+                <div class="solution__card">
+                    <div class="solution__card-img">
+                        <img src="{{asset('img/home/es/solution/card.svg')}}" alt="">
+                    </div>
+                    <div class="solution__card-text">
+                        @lang('home.solution.card.6')
+                    </div>
+                </div>
+            </div>
+            <div class="solution__free">
+                <div class="solution__free-content">
+                    <h3 class="solution__free-text">@lang('home.solution.free.title')</h3>
+                    {{-- <a href="/docs/fiwhcd050c.pdf" download>@lang('home.solution.free.btn')</a> --}}
+                    <a href="#" download class="solution__free-btn">@lang('home.solution.free.btn')</a>
+                </div>
+                <div class="solution__free-img">
+                    <img src="{{asset('img/home/es/solution/tablet-full.svg')}}" alt="">
+                </div>
+            </div>
         </div>
     </div>
 </section>
