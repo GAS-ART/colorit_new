@@ -100,12 +100,14 @@ function quiz(quizeInitBtns) {
         sortSlides.forEach(slide => {
           wrapper.appendChild(slide);
         });
+        quizSectionContainer.classList.add('pad0')
         const quizCurrentSlides = wrapper.querySelectorAll('.swiper-slide');
+        setTimeout(() => quizSectionContainer.classList.remove('pad0'), 50);
         setTimeout(() => {
           quizCurrentSlides.forEach(slide => {
             slide.classList.remove('in');
           })
-        }, 50)
+        }, 60)
 
         if (!e.target.classList.contains('quiz-body__back-btn')) {
           backBtn.classList.remove('disabled');
@@ -115,8 +117,8 @@ function quiz(quizeInitBtns) {
         quizBodyOverlay.classList.remove('active');
         swiperBts.forEach(btn => btn.classList.remove('hide'));
         console.log(quizSectionContainer);
-        setTimeout(() => quizSectionContainer.classList.add('pad0'), 600);
-        setTimeout(() => quizSectionContainer.classList.remove('pad0'), 650);
+        //setTimeout(() => quizSectionContainer.classList.add('pad0'), 600);
+        //setTimeout(() => quizSectionContainer.classList.remove('pad0'), 650);
       } catch (error) {
         console.error('Ошибка загрузки изображений:', error);
       };
