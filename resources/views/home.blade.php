@@ -173,6 +173,310 @@
         </div>
     </div>
 </section>
+<section class="portfolio">
+    <div class="portfolio__container">
+        <div class="portfolio__text">
+            <h2 class="portfolio__title">@lang('home.portfolio.title')</h2>
+            <div class="portfolio__description">
+                <h3 class="portfolio__sub-title">@lang('home.portfolio.sub_title')</h3>
+                <p class="portfolio__sub-text">@lang('home.portfolio.sub_title_text')</p>
+            </div>
+        </div>
+        <div class="portfolio__slider slider-portfolio swiper">
+            <div class="swiper-wrapper slider-portfolio__wrapper">
+                <div class="swiper-slide slider-portfolio__slide portfolio-slide">
+                    <div class="portfolio-slide__body">
+                        <div class="portfolio-slide__img">
+                            @if(App::isLocale('es'))
+                            <img src="{{ asset('img/home/es/portfolio/01.webp') }}" alt="">
+                            @elseif(App::isLocale('ru'))
+                            <img src="{{ asset('img/home/ru/portfolio/01.webp') }}" alt="">
+                            @endif
+                        </div>
+                        <div class="portfolio-slide__content">
+                            <div class="portfolio-slide__text">
+                                <h3 class="portfolio-slide__title">@lang('home.portfolio.slides.1.title')</h3>
+                                <p class="portfolio-slide__description">@lang('home.portfolio.slides.1.text')</p>
+                            </div>
+                            <div class="portfolio-slide__terms">
+                                <p class="portfolio-slide__terms-title">@lang('home.portfolio.slides.term_title')</p>
+                                <p class="portfolio-slide__term">@lang('home.portfolio.slides.1.term')</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slider-portfolio__slide portfolio-slide">
+                    <div class="portfolio-slide__body">
+                        <div class="portfolio-slide__img">
+                            @if(App::isLocale('es'))
+                            <img src="{{ asset('img/home/es/portfolio/02.webp') }}" alt="">
+                            @elseif(App::isLocale('ru'))
+                            <img src="{{ asset('img/home/ru/portfolio/02.webp') }}" alt="">
+                            @endif
+
+                        </div>
+                        <div class="portfolio-slide__content">
+                            <div class="portfolio-slide__text">
+                                <h3 class="portfolio-slide__title">@lang('home.portfolio.slides.2.title')</h3>
+                                <p class="portfolio-slide__description">@lang('home.portfolio.slides.2.text')</p>
+                            </div>
+                            <div class="portfolio-slide__terms">
+                                <p class="portfolio-slide__terms-title">@lang('home.portfolio.slides.term_title')</p>
+                                <p class="portfolio-slide__term">@lang('home.portfolio.slides.2.term')</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slider-portfolio__slide portfolio-slide">
+                    <div class="portfolio-slide__body">
+                        <div class="portfolio-slide__img">
+                            @if(App::isLocale('es'))
+                            <img src="{{ asset('img/home/es/portfolio/03.webp') }}" alt="">
+                            @elseif(App::isLocale('ru'))
+                            <img src="{{ asset('img/home/ru/portfolio/03.webp') }}" alt="">
+                            @endif
+
+                        </div>
+                        <div class="portfolio-slide__content">
+                            <div class="portfolio-slide__text">
+                                <h3 class="portfolio-slide__title">@lang('home.portfolio.slides.3.title')</h3>
+                                <p class="portfolio-slide__description">@lang('home.portfolio.slides.3.text')</p>
+                            </div>
+                            <div class="portfolio-slide__terms">
+                                <p class="portfolio-slide__terms-title">@lang('home.portfolio.slides.term_title')</p>
+                                <p class="portfolio-slide__term">@lang('home.portfolio.slides.3.term')</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slider-portfolio__slide portfolio-slide">
+                    <div class="portfolio-slide__body">
+                        <div class="portfolio-slide__img">
+                            @if(App::isLocale('es'))
+                            <img src="{{ asset('img/home/es/portfolio/04.webp') }}" alt="">
+                            @elseif(App::isLocale('ru'))
+                            <img src="{{ asset('img/home/ru/portfolio/04.webp') }}" alt="">
+                            @endif
+
+                        </div>
+                        <div class="portfolio-slide__content">
+                            <div class="portfolio-slide__text">
+                                <h3 class="portfolio-slide__title">@lang('home.portfolio.slides.4.title')</h3>
+                                <p class="portfolio-slide__description">@lang('home.portfolio.slides.4.text')</p>
+                            </div>
+                            <div class="portfolio-slide__terms">
+                                <p class="portfolio-slide__terms-title">@lang('home.portfolio.slides.term_title')</p>
+                                <p class="portfolio-slide__term">@lang('home.portfolio.slides.4.term')</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slider-portfolio__slide portfolio-slide">
+                    <div class="portfolio-slide__body">
+                        <div class="portfolio-slide__img">
+                            @if(App::isLocale('es'))
+                            <img src="{{ asset('img/home/es/portfolio/05.webp') }}" alt="">
+                            @elseif(App::isLocale('ru'))
+                            <img src="{{ asset('img/home/ru/portfolio/05.webp') }}" alt="">
+                            @endif
+
+                        </div>
+                        <div class="portfolio-slide__content">
+                            <div class="portfolio-slide__text">
+                                <h3 class="portfolio-slide__title">@lang('home.portfolio.slides.5.title')</h3>
+                                <p class="portfolio-slide__description">@lang('home.portfolio.slides.5.text')</p>
+                            </div>
+                            <div class="portfolio-slide__terms">
+                                <p class="portfolio-slide__terms-title">@lang('home.portfolio.slides.term_title')</p>
+                                <p class="portfolio-slide__term">@lang('home.portfolio.slides.5.term')</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slider-portfolio__slide portfolio-slide">
+                    <div class="portfolio-slide__body">
+                        <div class="portfolio-slide__img">
+                            @if(App::isLocale('es'))
+                            <img src="{{ asset('img/home/es/portfolio/06.webp') }}" alt="">
+                            @elseif(App::isLocale('ru'))
+                            <img src="{{ asset('img/home/ru/portfolio/06.webp') }}" alt="">
+                            @endif
+
+                        </div>
+                        <div class="portfolio-slide__content">
+                            <div class="portfolio-slide__text">
+                                <h3 class="portfolio-slide__title">@lang('home.portfolio.slides.6.title')</h3>
+                                <p class="portfolio-slide__description">@lang('home.portfolio.slides.6.text')</p>
+                            </div>
+                            <div class="portfolio-slide__terms">
+                                <p class="portfolio-slide__terms-title">@lang('home.portfolio.slides.term_title')</p>
+                                <p class="portfolio-slide__term">@lang('home.portfolio.slides.6.term')</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slider-portfolio__slide portfolio-slide">
+                    <div class="portfolio-slide__body">
+                        <div class="portfolio-slide__img">
+                            @if(App::isLocale('es'))
+                            <img src="{{ asset('img/home/es/portfolio/07.webp') }}" alt="">
+                            @elseif(App::isLocale('ru'))
+                            <img src="{{ asset('img/home/ru/portfolio/07.webp') }}" alt="">
+                            @endif
+
+                        </div>
+                        <div class="portfolio-slide__content">
+                            <div class="portfolio-slide__text">
+                                <h3 class="portfolio-slide__title">@lang('home.portfolio.slides.7.title')</h3>
+                                <p class="portfolio-slide__description">@lang('home.portfolio.slides.7.text')</p>
+                            </div>
+                            <div class="portfolio-slide__terms">
+                                <p class="portfolio-slide__terms-title">@lang('home.portfolio.slides.term_title')</p>
+                                <p class="portfolio-slide__term">@lang('home.portfolio.slides.7.term')</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slider-portfolio__slide portfolio-slide">
+                    <div class="portfolio-slide__body">
+                        <div class="portfolio-slide__img">
+                            @if(App::isLocale('es'))
+                            <img src="{{ asset('img/home/es/portfolio/08.webp') }}" alt="">
+                            @elseif(App::isLocale('ru'))
+                            <img src="{{ asset('img/home/ru/portfolio/08.webp') }}" alt="">
+                            @endif
+
+                        </div>
+                        <div class="portfolio-slide__content">
+                            <div class="portfolio-slide__text">
+                                <h3 class="portfolio-slide__title">@lang('home.portfolio.slides.8.title')</h3>
+                                <p class="portfolio-slide__description">@lang('home.portfolio.slides.8.text')</p>
+                            </div>
+                            <div class="portfolio-slide__terms">
+                                <p class="portfolio-slide__terms-title">@lang('home.portfolio.slides.term_title')</p>
+                                <p class="portfolio-slide__term">@lang('home.portfolio.slides.8.term')</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slider-portfolio__slide portfolio-slide">
+                    <div class="portfolio-slide__body">
+                        <div class="portfolio-slide__img">
+                            @if(App::isLocale('es'))
+                            <img src="{{ asset('img/home/es/portfolio/09.webp') }}" alt="">
+                            @elseif(App::isLocale('ru'))
+                            <img src="{{ asset('img/home/ru/portfolio/09.webp') }}" alt="">
+                            @endif
+
+                        </div>
+                        <div class="portfolio-slide__content">
+                            <div class="portfolio-slide__text">
+                                <h3 class="portfolio-slide__title">@lang('home.portfolio.slides.9.title')</h3>
+                                <p class="portfolio-slide__description">@lang('home.portfolio.slides.9.text')</p>
+                            </div>
+                            <div class="portfolio-slide__terms">
+                                <p class="portfolio-slide__terms-title">@lang('home.portfolio.slides.term_title')</p>
+                                <p class="portfolio-slide__term">@lang('home.portfolio.slides.9.term')</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slider-portfolio__slide portfolio-slide">
+                    <div class="portfolio-slide__body">
+                        <div class="portfolio-slide__img">
+                            @if(App::isLocale('es'))
+                            <img src="{{ asset('img/home/es/portfolio/10.webp') }}" alt="">
+                            @elseif(App::isLocale('ru'))
+                            <img src="{{ asset('img/home/ru/portfolio/10.webp') }}" alt="">
+                            @endif
+
+                        </div>
+                        <div class="portfolio-slide__content">
+                            <div class="portfolio-slide__text">
+                                <h3 class="portfolio-slide__title">@lang('home.portfolio.slides.10.title')</h3>
+                                <p class="portfolio-slide__description">@lang('home.portfolio.slides.10.text')</p>
+                            </div>
+                            <div class="portfolio-slide__terms">
+                                <p class="portfolio-slide__terms-title">@lang('home.portfolio.slides.term_title')</p>
+                                <p class="portfolio-slide__term">@lang('home.portfolio.slides.10.term')</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slider-portfolio__slide portfolio-slide">
+                    <div class="portfolio-slide__body">
+                        <div class="portfolio-slide__img">
+                            @if(App::isLocale('es'))
+                            <img src="{{ asset('img/home/es/portfolio/11.webp') }}" alt="">
+                            @elseif(App::isLocale('ru'))
+                            <img src="{{ asset('img/home/ru/portfolio/11.webp') }}" alt="">
+                            @endif
+
+                        </div>
+                        <div class="portfolio-slide__content">
+                            <div class="portfolio-slide__text">
+                                <h3 class="portfolio-slide__title">@lang('home.portfolio.slides.11.title')</h3>
+                                <p class="portfolio-slide__description">@lang('home.portfolio.slides.11.text')</p>
+                            </div>
+                            <div class="portfolio-slide__terms">
+                                <p class="portfolio-slide__terms-title">@lang('home.portfolio.slides.term_title')</p>
+                                <p class="portfolio-slide__term">@lang('home.portfolio.slides.11.term')</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slider-portfolio__slide portfolio-slide">
+                    <div class="portfolio-slide__body">
+                        <div class="portfolio-slide__img">
+                            @if(App::isLocale('es'))
+                            <img src="{{ asset('img/home/es/portfolio/12.webp') }}" alt="">
+                            @elseif(App::isLocale('ru'))
+                            <img src="{{ asset('img/home/ru/portfolio/12.webp') }}" alt="">
+                            @endif
+
+                        </div>
+                        <div class="portfolio-slide__content">
+                            <div class="portfolio-slide__text">
+                                <h3 class="portfolio-slide__title">@lang('home.portfolio.slides.12.title')</h3>
+                                <p class="portfolio-slide__description">@lang('home.portfolio.slides.12.text')</p>
+                            </div>
+                            <div class="portfolio-slide__terms">
+                                <p class="portfolio-slide__terms-title">@lang('home.portfolio.slides.term_title')</p>
+                                <p class="portfolio-slide__term">@lang('home.portfolio.slides.12.term')</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slider-portfolio__slide portfolio-slide">
+                    <div class="portfolio-slide__body">
+                        <div class="portfolio-slide__img">
+                            @if(App::isLocale('es'))
+                            <img src="{{ asset('img/home/es/portfolio/13.webp') }}" alt="">
+                            @elseif(App::isLocale('ru'))
+                            <img src="{{ asset('img/home/ru/portfolio/13.webp') }}" alt="">
+                            @endif
+
+                        </div>
+                        <div class="portfolio-slide__content">
+                            <div class="portfolio-slide__text">
+                                <h3 class="portfolio-slide__title">@lang('home.portfolio.slides.13.title')</h3>
+                                <p class="portfolio-slide__description">@lang('home.portfolio.slides.13.text')</p>
+                            </div>
+                            <div class="portfolio-slide__terms">
+                                <p class="portfolio-slide__terms-title">@lang('home.portfolio.slides.term_title')</p>
+                                <p class="portfolio-slide__term">@lang('home.portfolio.slides.13.term')</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-portfolio__btns">
+                <div class="slider-portfolio__btn-prev">&larr;</div>
+                <div class="slider-portfolio__btn-next">&rarr;</div>
+            </div>
+        </div>
+    </div>
+</section>
 <section>
     <div class="test__container">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque voluptatibus corporis numquam aliquid ea sit

@@ -1,5 +1,6 @@
 import Swiper, { Navigation } from 'swiper';
 
+
 // init Swiper:
 new Swiper('.swiper', {
   // configure Swiper to use modules
@@ -129,6 +130,26 @@ function quiz(quizeInitBtns) {
   });
 }
 quiz(quizeInitBtns);
+
+
+
+
+new Swiper('.slider-portfolio', {
+  // configure Swiper to use modules
+  modules: [Navigation],
+  simulateTouch: true,
+  slidesPerView: 1,
+  grabCursor: true,
+  spaceBetween: 0,
+  loop: true,
+  speed: 800,
+  navigation: {
+    nextEl: '.slider-portfolio__btn-prev',
+    prevEl: '.slider-portfolio__btn-next',
+  },
+});
+
+
 
 /* backBtn.addEventListener('click', (e) => {
   if (e.target.classList.contains('disabled')) return

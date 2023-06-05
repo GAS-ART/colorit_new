@@ -12,7 +12,7 @@
     "src": "public/img/home/es/solution/background.webp"
   },
   "resources/js/app.js": {
-    "file": "assets/app-0dcc5622.js",
+    "file": "assets/app-37c9cb1b.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   },
@@ -81,7 +81,7 @@
     "src": "resources/scss/fonts/icon-fonts/icomoon.woff"
   },
   "resources/scss/style.scss": {
-    "file": "assets/style-c5805181.css",
+    "file": "assets/style-eb7e7f17.css",
     "isEntry": true,
     "src": "resources/scss/style.scss"
   }
