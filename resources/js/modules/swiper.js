@@ -140,6 +140,7 @@ new Swiper('.slider-portfolio', {
   simulateTouch: true,
   slidesPerView: 1,
   grabCursor: true,
+  lazyPreloadPrevNext: 1,
   loop: true,
   speed: 800,
   navigation: {
