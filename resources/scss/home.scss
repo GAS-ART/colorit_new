@@ -594,9 +594,9 @@
   position: relative;
 
   &__container {
-    @media (max-width: $mobile) {
+    /* @media (max-width: $mobile) {
       padding: 0;
-    }
+    } */
   }
 
   &__text {

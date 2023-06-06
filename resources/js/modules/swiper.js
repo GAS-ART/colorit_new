@@ -2,7 +2,7 @@ import Swiper, { Navigation } from 'swiper';
 
 
 // init Swiper:
-new Swiper('.swiper', {
+new Swiper('.quiz-body__slider', {
   // configure Swiper to use modules
   modules: [Navigation],
   simulateTouch: true,
@@ -140,14 +140,60 @@ new Swiper('.slider-portfolio', {
   simulateTouch: true,
   slidesPerView: 1,
   grabCursor: true,
-  spaceBetween: 0,
   loop: true,
   speed: 800,
   navigation: {
-    nextEl: '.slider-portfolio__btn-prev',
-    prevEl: '.slider-portfolio__btn-next',
+    nextEl: '.slider-portfolio__btn-next',
+    prevEl: '.slider-portfolio__btn-prev',
   },
 });
+
+const portfolioSliderImgHeight = document.querySelector('.portfolio-slide__img img');
+const portfolioSlideImgBody = document.querySelectorAll('.portfolio-slide__img');
+
+portfolioSliderImgHeight.addEventListener('load', () => { setHeight() });
+
+function debounce(func, delay) {
+  let timeoutId;
+  let isFirstCall = true;
+
+  return function (/* ...args */) {
+    if (isFirstCall) {
+      //func.apply(this, args);
+      func();
+      isFirstCall = false;
+    } else {
+      clearTimeout(timeoutId);
+    }
+
+    timeoutId = setTimeout(() => {
+      isFirstCall = true;
+      setHeight();
+    }, delay);
+  };
+}
+
+const resetImageHeight = () => {
+  portfolioSlideImgBody.forEach((imgBody) => {
+    imgBody.style.removeProperty('height');
+  });
+};
+
+const setHeight = () => {
+  const height = portfolioSliderImgHeight.offsetHeight;
+  portfolioSlideImgBody.forEach((imgBody, index) => {
+    if (index !== 0) {
+      imgBody.style.height = height + 'px';
+    }
+  });
+}
+
+const debouncedResetImageHeight = debounce(resetImageHeight, 1000);
+
+window.addEventListener('resize', debouncedResetImageHeight);
+
+
+
 
 
 

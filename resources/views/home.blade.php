@@ -209,11 +209,11 @@
                     <div class="portfolio-slide__body">
                         <div class="portfolio-slide__img">
                             @if(App::isLocale('es'))
-                            <img src="{{ asset('img/home/es/portfolio/02.webp') }}" alt="">
+                            <img src="{{ asset('img/home/es/portfolio/02.webp') }}" alt="" loading="lazy">
                             @elseif(App::isLocale('ru'))
-                            <img src="{{ asset('img/home/ru/portfolio/02.webp') }}" alt="">
+                            <img src="{{ asset('img/home/ru/portfolio/02.webp') }}" alt="" loading="lazy">
                             @endif
-
+                            <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="portfolio-slide__content">
                             <div class="portfolio-slide__text">
@@ -231,11 +231,11 @@
                     <div class="portfolio-slide__body">
                         <div class="portfolio-slide__img">
                             @if(App::isLocale('es'))
-                            <img src="{{ asset('img/home/es/portfolio/03.webp') }}" alt="">
+                            <img src="{{ asset('img/home/es/portfolio/03.webp') }}" alt="" loading="lazy">
                             @elseif(App::isLocale('ru'))
-                            <img src="{{ asset('img/home/ru/portfolio/03.webp') }}" alt="">
+                            <img src="{{ asset('img/home/ru/portfolio/03.webp') }}" alt="" loading="lazy">
                             @endif
-
+                            <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="portfolio-slide__content">
                             <div class="portfolio-slide__text">
@@ -253,11 +253,11 @@
                     <div class="portfolio-slide__body">
                         <div class="portfolio-slide__img">
                             @if(App::isLocale('es'))
-                            <img src="{{ asset('img/home/es/portfolio/04.webp') }}" alt="">
+                            <img src="{{ asset('img/home/es/portfolio/04.webp') }}" alt="" loading="lazy">
                             @elseif(App::isLocale('ru'))
-                            <img src="{{ asset('img/home/ru/portfolio/04.webp') }}" alt="">
+                            <img src="{{ asset('img/home/ru/portfolio/04.webp') }}" alt="" loading="lazy">
                             @endif
-
+                            <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="portfolio-slide__content">
                             <div class="portfolio-slide__text">
@@ -275,11 +275,11 @@
                     <div class="portfolio-slide__body">
                         <div class="portfolio-slide__img">
                             @if(App::isLocale('es'))
-                            <img src="{{ asset('img/home/es/portfolio/05.webp') }}" alt="">
+                            <img src="{{ asset('img/home/es/portfolio/05.webp') }}" alt="" loading="lazy">
                             @elseif(App::isLocale('ru'))
-                            <img src="{{ asset('img/home/ru/portfolio/05.webp') }}" alt="">
+                            <img src="{{ asset('img/home/ru/portfolio/05.webp') }}" alt="" loading="lazy">
                             @endif
-
+                            <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="portfolio-slide__content">
                             <div class="portfolio-slide__text">
@@ -297,11 +297,11 @@
                     <div class="portfolio-slide__body">
                         <div class="portfolio-slide__img">
                             @if(App::isLocale('es'))
-                            <img src="{{ asset('img/home/es/portfolio/06.webp') }}" alt="">
+                            <img src="{{ asset('img/home/es/portfolio/06.webp') }}" alt="" loading="lazy">
                             @elseif(App::isLocale('ru'))
-                            <img src="{{ asset('img/home/ru/portfolio/06.webp') }}" alt="">
+                            <img src="{{ asset('img/home/ru/portfolio/06.webp') }}" alt="" loading="lazy">
                             @endif
-
+                            <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="portfolio-slide__content">
                             <div class="portfolio-slide__text">
@@ -319,11 +319,11 @@
                     <div class="portfolio-slide__body">
                         <div class="portfolio-slide__img">
                             @if(App::isLocale('es'))
-                            <img src="{{ asset('img/home/es/portfolio/07.webp') }}" alt="">
+                            <img src="{{ asset('img/home/es/portfolio/07.webp') }}" alt="" loading="lazy">
                             @elseif(App::isLocale('ru'))
-                            <img src="{{ asset('img/home/ru/portfolio/07.webp') }}" alt="">
+                            <img src="{{ asset('img/home/ru/portfolio/07.webp') }}" alt="" loading="lazy">
                             @endif
-
+                            <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="portfolio-slide__content">
                             <div class="portfolio-slide__text">
@@ -341,11 +341,11 @@
                     <div class="portfolio-slide__body">
                         <div class="portfolio-slide__img">
                             @if(App::isLocale('es'))
-                            <img src="{{ asset('img/home/es/portfolio/08.webp') }}" alt="">
+                            <img src="{{ asset('img/home/es/portfolio/08.webp') }}" alt="" loading="lazy">
                             @elseif(App::isLocale('ru'))
-                            <img src="{{ asset('img/home/ru/portfolio/08.webp') }}" alt="">
+                            <img src="{{ asset('img/home/ru/portfolio/08.webp') }}" alt="" loading="lazy">
                             @endif
-
+                            <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="portfolio-slide__content">
                             <div class="portfolio-slide__text">
@@ -363,11 +363,11 @@
                     <div class="portfolio-slide__body">
                         <div class="portfolio-slide__img">
                             @if(App::isLocale('es'))
-                            <img src="{{ asset('img/home/es/portfolio/09.webp') }}" alt="">
+                            <img src="{{ asset('img/home/es/portfolio/09.webp') }}" alt="" loading="lazy">
                             @elseif(App::isLocale('ru'))
-                            <img src="{{ asset('img/home/ru/portfolio/09.webp') }}" alt="">
+                            <img src="{{ asset('img/home/ru/portfolio/09.webp') }}" alt="" loading="lazy">
                             @endif
-
+                            <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="portfolio-slide__content">
                             <div class="portfolio-slide__text">
@@ -385,11 +385,11 @@
                     <div class="portfolio-slide__body">
                         <div class="portfolio-slide__img">
                             @if(App::isLocale('es'))
-                            <img src="{{ asset('img/home/es/portfolio/10.webp') }}" alt="">
+                            <img src="{{ asset('img/home/es/portfolio/10.webp') }}" alt="" loading="lazy">
                             @elseif(App::isLocale('ru'))
-                            <img src="{{ asset('img/home/ru/portfolio/10.webp') }}" alt="">
+                            <img src="{{ asset('img/home/ru/portfolio/10.webp') }}" alt="" loading="lazy">
                             @endif
-
+                            <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="portfolio-slide__content">
                             <div class="portfolio-slide__text">
@@ -407,11 +407,11 @@
                     <div class="portfolio-slide__body">
                         <div class="portfolio-slide__img">
                             @if(App::isLocale('es'))
-                            <img src="{{ asset('img/home/es/portfolio/11.webp') }}" alt="">
+                            <img src="{{ asset('img/home/es/portfolio/11.webp') }}" alt="" loading="lazy">
                             @elseif(App::isLocale('ru'))
-                            <img src="{{ asset('img/home/ru/portfolio/11.webp') }}" alt="">
+                            <img src="{{ asset('img/home/ru/portfolio/11.webp') }}" alt="" loading="lazy">
                             @endif
-
+                            <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="portfolio-slide__content">
                             <div class="portfolio-slide__text">
@@ -429,11 +429,11 @@
                     <div class="portfolio-slide__body">
                         <div class="portfolio-slide__img">
                             @if(App::isLocale('es'))
-                            <img src="{{ asset('img/home/es/portfolio/12.webp') }}" alt="">
+                            <img src="{{ asset('img/home/es/portfolio/12.webp') }}" alt="" loading="lazy">
                             @elseif(App::isLocale('ru'))
-                            <img src="{{ asset('img/home/ru/portfolio/12.webp') }}" alt="">
+                            <img src="{{ asset('img/home/ru/portfolio/12.webp') }}" alt="" loading="lazy">
                             @endif
-
+                            <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="portfolio-slide__content">
                             <div class="portfolio-slide__text">
@@ -451,11 +451,11 @@
                     <div class="portfolio-slide__body">
                         <div class="portfolio-slide__img">
                             @if(App::isLocale('es'))
-                            <img src="{{ asset('img/home/es/portfolio/13.webp') }}" alt="">
+                            <img src="{{ asset('img/home/es/portfolio/13.webp') }}" alt="" loading="lazy">
                             @elseif(App::isLocale('ru'))
-                            <img src="{{ asset('img/home/ru/portfolio/13.webp') }}" alt="">
+                            <img src="{{ asset('img/home/ru/portfolio/13.webp') }}" alt="" loading="lazy">
                             @endif
-
+                            <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="portfolio-slide__content">
                             <div class="portfolio-slide__text">
