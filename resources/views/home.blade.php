@@ -477,6 +477,25 @@
         </div>
     </div>
 </section>
+<section class="gift">
+    <div class="gift__container">
+        <div class="gift__body">
+            <div class="gift__content">
+                <div class="gift__img">
+                    <img src="{{asset('img/icons/gift.webp')}}" alt="">
+                </div>
+                <div class="gift__text">
+                    <h2 class="gift__title">@lang('home.gift.title')</h2>
+                    <h3 class="gift__sub-title">@lang('home.gift.sub_title')</h3>
+                </div>
+            </div>
+            <button data-popup-id="gift" class="gift__btn link-on-popup">
+                @lang('home.gift.btn')
+            </button>
+        </div>
+    </div>
+</section>
+
 <section>
     <div class="test__container">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque voluptatibus corporis numquam aliquid ea sit
