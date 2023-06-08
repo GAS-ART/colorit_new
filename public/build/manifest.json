@@ -11,6 +11,10 @@
     "file": "assets/background-8d430d52.webp",
     "src": "public/img/home/es/solution/background.webp"
   },
+  "public/img/icons/check.svg": {
+    "file": "assets/check-5568a46f.svg",
+    "src": "public/img/icons/check.svg"
+  },
   "resources/js/app.js": {
     "file": "assets/app-baeaf6a9.js",
     "isEntry": true,
@@ -81,7 +85,7 @@
     "src": "resources/scss/fonts/icon-fonts/icomoon.woff"
   },
   "resources/scss/style.scss": {
-    "file": "assets/style-103e71a8.css",
+    "file": "assets/style-7704155d.css",
     "isEntry": true,
     "src": "resources/scss/style.scss"
   }

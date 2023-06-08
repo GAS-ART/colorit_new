@@ -556,7 +556,7 @@
   &__card {
     background-color: #FFFFFF;
     display: flex;
-    padding: 60px 40px;
+    padding: 40px 40px;
     border-radius: 16px;
     border-bottom: 4px solid $purple;
     @media (max-width: $tablet) {
@@ -935,3 +935,97 @@
 }
 
 /*============GIFT============*/
+
+/*============VIDEO============*/
+.video {
+ @extend %section;
+  &__container {
+  }
+
+  &__body {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__content {
+    @include adaptiveValueREM('margin-right', 80, 20, 1920, 992, 1);
+    max-width: 540px;
+  }
+
+  &__title {
+    @extend %title;
+    @include adaptiveValueREM('font-size', 50, 24, 1920, 360, 1);
+    line-height: 120%;
+    margin-bottom: 40px;
+  }
+
+  &__list {
+    margin-left: 50px;
+  }
+
+  &__list-item {
+    position: relative;
+    max-width: 352px;
+    font-weight: 500;
+    line-height: 150%;
+    &:not(:last-child){
+      margin-bottom: 24px;
+    }
+    &::before{
+      content: url("../../public/img/icons/check.svg");
+      position: absolute;
+      top: 8px;
+      left:-43px;
+      width: 19px;
+      height: 18px;
+    }
+  }
+
+  &__video {
+    position: relative;
+    flex: 1 1 auto;
+    img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    }
+  }
+
+  &__action {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+  }
+
+  &__btn {
+    position: relative;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background-color: $mainColor;
+    box-shadow: 0px 0px 0px 10px rgba(0, 0, 0, 0.15);
+    &::before{
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 56.5%;
+      transform: translate(-50%, -50%);
+      width: 0;
+      height: 0;
+      border-top: 12px solid transparent;
+      border-left: 21px solid #ffffff ;
+      border-bottom: 12px solid transparent;
+      
+    }
+  }
+}
+/*============VIDEO============*/

@@ -495,7 +495,26 @@
         </div>
     </div>
 </section>
-
+<section class="video">
+    <div class="video__container">
+        <div class="video__body">
+            <div class="video__content">
+                <h2 class="video__title">@lang('home.video.title')</h2>
+                <ul class="video__list">
+                    <li class="video__list-item">@lang('home.video.list.1')</li>
+                    <li class="video__list-item">@lang('home.video.list.2')</li>
+                    <li class="video__list-item">@lang('home.video.list.3')</li>
+                </ul>
+            </div>
+            <div class="video__video">
+                <div class="video__action">
+                    <button class="video__btn"></button>
+                </div>
+                <img src="{{asset('img/video.png')}}" alt="">
+            </div>
+        </div>
+    </div>
+</section>
 <section>
     <div class="test__container">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque voluptatibus corporis numquam aliquid ea sit
