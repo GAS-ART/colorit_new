@@ -439,8 +439,9 @@
       img{
         height: 280px;
         border-radius: 8px;
-        width: 175px;
-        object-fit: cover;
+        //width: 175px;
+        //object-fit: cover;
+        
       }
       &::before{
         content: "";
