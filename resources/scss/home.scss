@@ -195,6 +195,7 @@
 }
 /*============MAIN============*/
 
+
 /*============QUIZ============*/
 .quiz {
 
@@ -308,12 +309,12 @@
     @include adaptiveValueREM('font-size', 24, 18, 1920, 360, 1);
     line-height: 120%;
     text-align: center;
-    margin-bottom: 14px;
+    margin-bottom: 24px;
     transition: all 0.3s ease 0s;
   }
 
   &__slider {
-    min-height: 315.19px;
+    min-height: 325.19px;
     @media (max-width: $mobileSmall) {
       min-height: 230px;
     }
@@ -435,6 +436,12 @@
       pointer-events: none;
       transition: all 0.3s ease 0s;
       margin-top: 10px;
+      img{
+        height: 280px;
+        border-radius: 8px;
+        width: 175px;
+        object-fit: cover;
+      }
       &::before{
         content: "";
         position: absolute;

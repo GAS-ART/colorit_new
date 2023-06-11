@@ -9,6 +9,7 @@
   opacity: 0;
   visibility: hidden;
   transition: all 0.5s ease 0s;
+  overflow-y: scroll;
 &__send-load {
 }
 
@@ -347,3 +348,101 @@
    }
 }
 /*==========GIFT==========*/
+
+
+.popup-file {
+  position: absolute;
+  top: 0;
+  left: -20px;
+  width: 190px !important;
+  height: 100% !important;
+  opacity: 0;
+  font-size: 0 !important;
+  z-index: 500;
+  display: block;
+  cursor: pointer;
+}
+
+.popup-download {
+  position: relative;
+  font-size: rem(15);
+  line-height: 1.8;
+  color: $purple;
+  display: flex;
+  z-index: 300;
+  //width: 190px;
+  &.disabled{
+    display: none;
+  }
+  &::after {
+     content: "";
+     position: absolute;
+     left: 40px;
+     bottom: 0px;
+     width: 0;
+     height: 1px;
+     background-color: $purple;
+     transition: all 0.3s ease 0s;
+  }
+  @media (pointer: fine) {
+     &:hover {
+        &::after {
+           width: calc(100% - 100% + 132px);
+        }
+     }
+  }
+
+  .file-button {
+     padding-left: 40px;
+     position: relative;
+     top: 4px;
+     display: inline-block;
+     //width: 170px;
+  }
+  &::before {
+     content: "";
+     position: absolute;
+     width: 30px;
+     height: 30px;
+     background-image: url("../../public/img/icons/donwload.svg");
+     background-repeat: no-repeat;
+     margin-right: 10px;
+     z-index: 300;
+  }
+  .file{
+     margin-right: 10px;
+     display: flex;
+  }
+  .preview-file{
+     position: relative;
+     img, video {
+     position: relative;
+     top: 0;
+     left: 0;
+     width: 30px;
+     height: 30px;
+     object-fit: cover;
+     }
+     &::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 30px;
+        height: 30px;
+        background-image: url('../../public/img/form/load.gif');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease 0s;
+     }
+     &.load{
+        &::before{
+           opacity: 1;
+           visibility: visible;
+        }
+     }
+  }
+}

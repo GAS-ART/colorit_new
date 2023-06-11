@@ -77,17 +77,17 @@
                         </div>
                         <h3 class="item-quiz__title">@lang('home.quiz.body.letters.title')</h3>
                     </div>
-                    <div data-quiz="vinul" class="swiper-slide">
+                    <div data-quiz="vinyl" class="swiper-slide">
                         <div class="item-quiz__img">
                             @if(App::isLocale('es'))
-                            <img src="{{ asset('img/home/quiz/es/1.png') }}" alt="">
+                            <img src="{{ asset('img/home/quiz/es/3_.webp') }}" alt="">
                             @elseif(App::isLocale('ru'))
                             <img src="{{ asset('img/home/quiz/ru/3_.webp') }}" alt="">
                             @endif
                         </div>
                         <h3 class="item-quiz__title">@lang('home.quiz.body.vinyl.title')</h3>
                     </div>
-                    <div class="swiper-slide">
+                    <div data-popup-id="quiz" data-popup-payload="Event" class="swiper-slide link-on-popup">
                         <div class="item-quiz__img">
                             @if(App::isLocale('es'))
                             <img src="{{ asset('img/home/quiz/es/4_.webp') }}" alt="">

@@ -1,4 +1,4 @@
-export function popUp(popupId) {
+export function popUp(popupId, payload, uploadFile) {
 	const popUp = document.getElementById(popupId);
 	const bodyLock = document.getElementById('body');
 	const popupCloseIcon = popUp.querySelector('.close-popup');
@@ -6,8 +6,17 @@ export function popUp(popupId) {
 	const popupLoading = popUp.querySelector('.popup__loading');
 	const filePreview = popUp.querySelector('.preview-file') || false;
 	const inputs = popUp.querySelectorAll('input');
+	const inputFile = document.querySelector('.popup-download');
+
+	if (payload) {
+		const inputDataQuiz = popUp.querySelector('.quiz-service-data');
+		inputDataQuiz.value = payload;
+	}
+	if (uploadFile) {
+		inputFile.classList.remove('disabled');
+	}
 	popUp.classList.add('open');
-	bodyLock.classList.add('lock');
+	//bodyLock.classList.add('lock');
 
 	popupCloseIcon.addEventListener('click', function (e) {
 		popupClose(popUp);
@@ -28,6 +37,11 @@ export function popUp(popupId) {
 				input.classList.remove('error');
 				input.nextElementSibling.classList.remove('error');
 				input.nextElementSibling.innerHTML = '';
+			}
+			if (uploadFile) {
+				setTimeout(() => {
+					inputFile.classList.add('disabled');
+				}, 500)
 			}
 		});
 		if (filePreview) {

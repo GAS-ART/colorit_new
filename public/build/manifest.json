@@ -7,6 +7,10 @@
     "file": "assets/ru-5f4d812e.svg",
     "src": "public/img/flags/ru/ru.svg"
   },
+  "public/img/form/load.gif": {
+    "file": "assets/load-82076465.gif",
+    "src": "public/img/form/load.gif"
+  },
   "public/img/home/es/solution/background.webp": {
     "file": "assets/background-8d430d52.webp",
     "src": "public/img/home/es/solution/background.webp"
@@ -19,8 +23,12 @@
     "file": "assets/check-5568a46f.svg",
     "src": "public/img/icons/check.svg"
   },
+  "public/img/icons/donwload.svg": {
+    "file": "assets/donwload-deae2334.svg",
+    "src": "public/img/icons/donwload.svg"
+  },
   "resources/js/app.js": {
-    "file": "assets/app-a5d43585.js",
+    "file": "assets/app-b017444f.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   },
@@ -89,7 +97,7 @@
     "src": "resources/scss/fonts/icon-fonts/icomoon.woff"
   },
   "resources/scss/style.scss": {
-    "file": "assets/style-89fc459e.css",
+    "file": "assets/style-c7bc970e.css",
     "isEntry": true,
     "src": "resources/scss/style.scss"
   }

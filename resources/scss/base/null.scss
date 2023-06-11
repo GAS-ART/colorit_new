@@ -69,3 +69,18 @@ h6 {
    font-weight: inherit;
    font-size: inherit;
 }
+
+//Remove Scroll
+::-webkit-scrollbar {
+   width: 0.5em;
+   background-color: transparent;
+ }
+ 
+ ::-webkit-scrollbar-thumb {
+   background-color: transparent;
+ }
+ 
+ * {
+   scrollbar-width: thin;
+   scrollbar-color: transparent transparent;
+ }
