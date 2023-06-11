@@ -80,7 +80,7 @@
                     <div data-quiz="vinul" class="swiper-slide">
                         <div class="item-quiz__img">
                             @if(App::isLocale('es'))
-                            <img src="{{ asset('img/home/quiz/es/3_.webp') }}" alt="">
+                            <img src="{{ asset('img/home/quiz/es/1.png') }}" alt="">
                             @elseif(App::isLocale('ru'))
                             <img src="{{ asset('img/home/quiz/ru/3_.webp') }}" alt="">
                             @endif
