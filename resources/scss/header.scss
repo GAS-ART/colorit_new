@@ -305,8 +305,14 @@
     @media (max-width: $mobile) {
       justify-content: center;
     }
+    @media (max-width: em(359)) {
+      transform: translateX(115vw);
+      width: 115vw;
+      height: 115vh;
+    }
     @media (max-width: em(320)) {
       transform: translateX(150vw);
+      width: 150vw;
     }
   }
 }
