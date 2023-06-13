@@ -44,7 +44,7 @@
         <img src="{{ asset('img/home/google.webp') }}" alt="">
     </div>
 </section>
-<section class="quiz">
+{{-- <section class="quiz">
     <div class="quiz__container quiz-container">
         <h2 class="quiz__title">@lang('home.quiz.title')</h2>
         <h3 class="quiz__sub-title">@lang('home.quiz.sub-title')</h3>
@@ -105,7 +105,7 @@
                     class="text">@lang('home.quiz.back_btn')</span></button>
         </div>
     </div>
-</section>
+</section> --}}
 <section class="solution">
     <h2 class="solution__title">@lang('home.solution.title')</h2>
     <div class="solution__container">
