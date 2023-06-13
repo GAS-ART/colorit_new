@@ -316,7 +316,7 @@
   &__slider {
     min-height: 325.19px;
     @media (max-width: $mobileSmall) {
-      min-height: 230px;
+      min-height: 259.38px;
     }
     .swiper-slide{
       cursor: pointer;
@@ -441,7 +441,9 @@
         border-radius: 8px;
         //width: 175px;
         //object-fit: cover;
-        
+        @media (max-width: $mobileSmall) {
+          height: 195px;
+        }
       }
       &::before{
         content: "";

@@ -349,6 +349,19 @@
 }
 /*==========GIFT==========*/
 
+/*==========QUIZ==========*/
+#quiz{
+  @media (max-width: $tablet) {
+    object-fit: cover;
+    margin-top: 15px;
+    .popup__body{
+     top: 0;
+     transform: translate(-50%, 0);
+    }
+   }
+}
+/*==========QUIZ==========*/
+
 
 .popup-file {
   position: absolute;
