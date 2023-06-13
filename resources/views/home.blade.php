@@ -173,7 +173,7 @@
         </div>
     </div>
 </section>
-<section class="portfolio">
+{{-- <section class="portfolio">
     <div class="portfolio__container">
         <div class="portfolio__text">
             <h2 class="portfolio__title">@lang('home.portfolio.title')</h2>
@@ -494,7 +494,8 @@
             </button>
         </div>
     </div>
-</section>
+</section> --}}
+
 {{-- <section class="video">
     <div class="video__container">
         <div class="video__body">
