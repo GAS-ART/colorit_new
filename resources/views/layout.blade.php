@@ -4,7 +4,7 @@
 
 <body id="body">
    <div class="wrapper">
-      {{-- @include('inc.header') --}}
+      @include('inc.header')
       <main class="page">
          @yield('content')
       </main>
