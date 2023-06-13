@@ -44,7 +44,7 @@
         <img src="{{ asset('img/home/google.webp') }}" alt="">
     </div>
 </section>
-{{-- <section class="quiz">
+<section class="quiz">
     <div class="quiz__container quiz-container">
         <h2 class="quiz__title">@lang('home.quiz.title')</h2>
         <h3 class="quiz__sub-title">@lang('home.quiz.sub-title')</h3>
@@ -105,7 +105,7 @@
                     class="text">@lang('home.quiz.back_btn')</span></button>
         </div>
     </div>
-</section> --}}
+</section>
 <section class="solution">
     <h2 class="solution__title">@lang('home.solution.title')</h2>
     <div class="solution__container">
@@ -173,7 +173,7 @@
         </div>
     </div>
 </section>
-{{-- <section class="portfolio">
+<section class="portfolio">
     <div class="portfolio__container">
         <div class="portfolio__text">
             <h2 class="portfolio__title">@lang('home.portfolio.title')</h2>
@@ -494,9 +494,8 @@
             </button>
         </div>
     </div>
-</section> --}}
-
-{{-- <section class="video">
+</section>
+<section class="video">
     <div class="video__container">
         <div class="video__body">
             <div class="video__content">
@@ -515,13 +514,13 @@
             </div>
         </div>
     </div>
-</section> --}}
-{{-- <section>
+</section>
+<section>
     <div class="test__container">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque voluptatibus corporis numquam aliquid ea sit
         corrupti ad omnis error exercitationem aspernatur ducimus, placeat velit veritatis debitis molestiae ab minus
         dolorum!
     </div>
 
-</section> --}}
+</section>
 @endsection
