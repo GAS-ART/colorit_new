@@ -1,4 +1,4 @@
-import Swiper, { Navigation } from 'swiper';
+import Swiper, { Navigation, Scrollbar } from 'swiper';
 import getPopupLinks from './getPoupLinks.js'
 
 
@@ -221,7 +221,26 @@ window.addEventListener('resize', debouncedResetImageHeight);
 
 
 
-
+new Swiper('.slider-result', {
+  // configure Swiper to use modules
+  modules: [Navigation, Scrollbar],
+  //simulateTouch: true,
+  slidesPerView: 1,
+  spaceBetween: 20,
+  loop: true,
+  speed: 800,
+  width: null,
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+  breakpoints: {
+    768: {
+      width: 232,
+      spaceBetween: 0,
+      scrollbar: false,
+    },
+  },
+});
 
 
 /* backBtn.addEventListener('click', (e) => {

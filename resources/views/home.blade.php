@@ -515,6 +515,121 @@
         </div>
     </div>
 </section>
+<section class="result">
+    <div class="result__container">
+        <h2 class="result__title">
+            @lang('home.result.title')
+        </h2>
+        <div class="result__body">
+            <div class="result__slider slider-result swiper">
+                <div class="swiper-wrapper slider-result__wrapper">
+                    <div class="swiper-slide slider-result__slide result-slide">
+                        <div class="result-slide__card">
+                            <div class="result-slide__icon">
+                                <img src="{{asset('img/icons/card.svg')}}" alt="">
+                            </div>
+                            <div class="result-slide__text">
+                                @lang('home.result.card.1')
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slider-result__slide result-slide">
+                        <div class="result-slide__card">
+                            <div class="result-slide__icon">
+                                <img src="{{asset('img/icons/card.svg')}}" alt="">
+                            </div>
+                            <div class="result-slide__text">
+                                @lang('home.result.card.2')
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slider-result__slide result-slide">
+                        <div class="result-slide__card">
+                            <div class="result-slide__icon">
+                                <img src="{{asset('img/icons/card.svg')}}" alt="">
+                            </div>
+                            <div class="result-slide__text">
+                                @lang('home.result.card.3')
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slider-result__slide result-slide">
+                        <div class="result-slide__card">
+                            <div class="result-slide__icon">
+                                <img src="{{asset('img/icons/card.svg')}}" alt="">
+                            </div>
+                            <div class="result-slide__text">
+                                @lang('home.result.card.4')
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slider-result__slide result-slide">
+                        <div class="result-slide__card">
+                            <div class="result-slide__icon">
+                                <img src="{{asset('img/icons/card.svg')}}" alt="">
+                            </div>
+                            <div class="result-slide__text">
+                                @lang('home.result.card.5')
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slider-result__slide result-slide">
+                        <div class="result-slide__card">
+                            <div class="result-slide__icon">
+                                <img src="{{asset('img/icons/card.svg')}}" alt="">
+                            </div>
+                            <div class="result-slide__text">
+                                @lang('home.result.card.6')
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slider-result__slide result-slide">
+                        <div class="result-slide__card">
+                            <div class="result-slide__icon">
+                                <img src="{{asset('img/icons/card.svg')}}" alt="">
+                            </div>
+                            <div class="result-slide__text">
+                                @lang('home.result.card.7')
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slider-result__slide result-slide">
+                        <div class="result-slide__card">
+                            <div class="result-slide__icon">
+                                <img src="{{asset('img/icons/card.svg')}}" alt="">
+                            </div>
+                            <div class="result-slide__text">
+                                @lang('home.result.card.8')
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slider-result__slide result-slide">
+                        <div class="result-slide__card">
+                            <div class="result-slide__icon">
+                                <img src="{{asset('img/icons/card.svg')}}" alt="">
+                            </div>
+                            <div class="result-slide__text">
+                                @lang('home.result.card.9')
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slider-result__slide result-slide">
+                        <div class="result-slide__card">
+                            <div class="result-slide__icon">
+                                <img src="{{asset('img/icons/card.svg')}}" alt="">
+                            </div>
+                            <div class="result-slide__text">
+                                @lang('home.result.card.10')
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="result-scrollbar swiper-scrollbar"></div>
+            </div>
+        </div>
+    </div>
+
+</section>
 <section>
     <div class="test__container">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque voluptatibus corporis numquam aliquid ea sit

@@ -138,6 +138,11 @@
     line-height: 24px;
     color: #FFFFFF;
     white-space: nowrap;
+    
+    @media (max-width: $mobileSmall) {
+      white-space: unset;
+      max-width: 250px;
+    }
   }
 
   &__btn {
@@ -1060,3 +1065,106 @@
   }
 }
 /*============VIDEO============*/
+
+
+/*============RESULT============*/
+.result {
+  @extend %section;
+  background-image: url("../../public/img/home/es/solution/background.webp");
+  background-repeat: no-repeat;
+  //background-size: 100% 86.164%;
+  @media (max-width: em(1300)) {
+    background-size: cover;
+    background-position: -1000px;
+  }
+  @media (max-width: $mobile) {
+    background-image: url("../../public/img/home/es/solution/background_mobile.webp");
+    background-position: 0;
+    //background-size: 100% 86.164%;
+  }
+
+  &__container {
+  }
+
+  &__title {
+    @extend %title;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 90px;
+    margin-bottom: 50px;
+    @media (max-width: $mobile) {
+      margin-bottom: 40px;
+    }
+  }
+
+  &__body {
+    padding-bottom: 100px;
+  }
+
+  &__slider {
+    pointer-events: none;
+    @media (max-width: $mobile) {
+      pointer-events: all;
+      overflow: visible;
+    }
+  }
+}
+.slider-result {
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 232px);
+    grid-template-rows: auto auto;
+    gap: 24px 20px;
+    @media (max-width: em(1300)) {
+      grid-template-columns: repeat(3, 232px);
+      grid-template-rows: auto auto auto;
+      justify-content: center;
+    }
+    @media (max-width: $mobile) {
+      display: flex;
+      grid-template-columns: unset;
+      grid-template-rows: unset;
+      justify-content: flex-start;
+      gap: unset;
+    }
+  }
+
+  &__slide {
+  }
+}
+.swiper {
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+}
+.result-slide {
+
+  &__card {
+    padding: 20px 24px;
+    background-color: #ffffff;
+    min-height: 220px;
+    border-radius: 16px;
+    border-bottom: 4px solid #89368E;
+  }
+
+  &__icon {
+    margin-bottom: 24px;
+  }
+
+  &__text {
+    font-weight: 500;
+    line-height: 150%;
+  }
+}
+.swiper-scrollbar.swiper-scrollbar-horizontal{
+  bottom: -24px;
+  background-color: #D9D9D9;
+  z-index: 500;
+  .swiper-scrollbar-drag{
+    background-color: #ffffff;
+  }
+}
+
+/*============RESULT============*/
