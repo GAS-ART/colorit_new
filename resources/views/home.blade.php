@@ -8,7 +8,7 @@
 
 @section('content')
 
-{{-- <section class="main">
+<section class="main">
     <div class="main__baner">
         <picture>
             @if(App::isLocale('es'))
@@ -43,7 +43,7 @@
     <div class="main_img-rating">
         <img src="{{ asset('img/home/google.webp') }}" alt="">
     </div>
-</section> --}}
+</section>
 <section class="quiz">
     <div class="quiz__container quiz-container">
         <h2 class="quiz__title">@lang('home.quiz.title')</h2>
