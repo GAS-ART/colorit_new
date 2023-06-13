@@ -495,7 +495,7 @@
         </div>
     </div>
 </section>
-<section class="video">
+{{-- <section class="video">
     <div class="video__container">
         <div class="video__body">
             <div class="video__content">
@@ -514,13 +514,13 @@
             </div>
         </div>
     </div>
-</section>
-<section>
+</section> --}}
+{{-- <section>
     <div class="test__container">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque voluptatibus corporis numquam aliquid ea sit
         corrupti ad omnis error exercitationem aspernatur ducimus, placeat velit veritatis debitis molestiae ab minus
         dolorum!
     </div>
 
-</section>
+</section> --}}
 @endsection
