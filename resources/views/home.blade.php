@@ -630,6 +630,94 @@
     </div>
 
 </section>
+<section class="review">
+    <div class="review__container">
+        <div class="review__title">
+            @lang('home.reviews.title')
+        </div>
+        <div class="review__body">
+            <div class="review__img">
+                @if(App::isLocale('es'))
+                <img src="{{ asset('img/home/es/review/1_.webp') }}" alt="">
+                @elseif(App::isLocale('ru'))
+                <img src="{{ asset('img/home/ru/review/1_.webp') }}" alt="">
+                @endif
+            </div>
+            <div class="review__content">
+                <div class="review__slider slider-review swiper">
+                    <div class="swiper-wrapper slider-review__wrapper">
+                        <div class="swiper-slide slider-review__slide review-slide">
+                            <div class="review-slide__body">
+                                <h4 class="review__content-title">@lang('home.reviews.ecotown.name')</h4>
+                                <div class="review__content-text">@lang('home.reviews.ecotown.text')</div>
+                            </div>
+                            <div class="review-slide__body">
+                                <h4 class="review__content-title">@lang('home.reviews.melanta.name')</h4>
+                                <div class="review__content-text">@lang('home.reviews.melanta.text')</div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slider-review__slide review-slide">
+                            <div class="review-slide__body">
+                                <h4 class="review__content-title">@lang('home.reviews.duo.name')</h4>
+                                <div class="review__content-text">@lang('home.reviews.duo.text')</div>
+                            </div>
+                            <div class="review-slide__body">
+                                <h4 class="review__content-title">@lang('home.reviews.floratelie.name')</h4>
+                                <div class="review__content-text">@lang('home.reviews.floratelie.text')</div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slider-review__slide review-slide">
+                            <div class="review-slide__body">
+                                <h4 class="review__content-title">@lang('home.reviews.kabakova.name')</h4>
+                                <div class="review__content-text">@lang('home.reviews.kabakova.text')</div>
+                            </div>
+                            <div class="review-slide__body">
+                                <h4 class="review__content-title">@lang('home.reviews.zubko.name')</h4>
+                                <div class="review__content-text">@lang('home.reviews.zubko.text')</div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slider-review__slide review-slide">
+                            <div class="review-slide__body">
+                                <h4 class="review__content-title">@lang('home.reviews.gas_auto.name')</h4>
+                                <div class="review__content-text">@lang('home.reviews.gas_auto.text')</div>
+                            </div>
+                            <div class="review-slide__body">
+                                <h4 class="review__content-title">@lang('home.reviews.estetica.name')</h4>
+                                <div class="review__content-text">@lang('home.reviews.estetica.text')</div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slider-review__slide review-slide">
+                            <div class="review-slide__body">
+                                <h4 class="review__content-title">@lang('home.reviews.globos.name')</h4>
+                                <div class="review__content-text">@lang('home.reviews.globos.text')</div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slider-review__slide review-slide">
+                            <div class="review-slide__body">
+                                <h4 class="review__content-title">@lang('home.reviews.bike_parts.name')</h4>
+                                <div class="review__content-text">@lang('home.reviews.bike_parts.text')</div>
+                            </div>
+                            <div class="review-slide__body">
+                                <h4 class="review__content-title">@lang('home.reviews.detailing.name')</h4>
+                                <div class="review__content-text">@lang('home.reviews.detailing.text')</div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slider-review__slide review-slide">
+                            <div class="review-slide__body">
+                                <h4 class="review__content-title">@lang('home.reviews.li_beauty.name')</h4>
+                                <div class="review__content-text">@lang('home.reviews.li_beauty.text')</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-review__btns">
+                    <div class="slider-review__btn-prev">&larr;</div>
+                    <div class="slider-review__btn-next">&rarr;</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <section>
     <div class="test__container">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque voluptatibus corporis numquam aliquid ea sit

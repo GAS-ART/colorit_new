@@ -149,6 +149,57 @@ return [
          '10' => 'Карта лояльности в подарок.',
       ],
    ],
+   'reviews' => [
+      'title' => 'Что говорят о нас клиенты',
+      'ecotown' => [
+            'text' => '<p>Colorit agency - лучшее рекламное агентство в Барселоне.</p><p>Работаем вместе уже 3 года, очень довольны.</p>',
+            'name' => '<p>Вячеслав <span>¨Ecotown¨</span></p>',
+      ],
+      'melanta' => [
+         'text' => '<p>Я работала с ребятами по вывескам и винилу. Очень осталась довольна, ребята профессионалы, отзывчивы и быстро реагируют на просьбы! Рекомендую</p>',
+         'name' => '<p>Анна salon de estetica <span>¨Melanta¨</span></p>',
+      ],
+      'duo' => [
+         'text' => '<p>Приятно иметь дело с профессионалами! Большое спасибо за качество, быстрое исполнение и понимание! </p>',
+         'name' => '<p>Inesa <span>DUO special</span></p>',
+      ],
+      'floratelie' => [
+         'text' => '  <p>Gracias por vuestro colaboración y trabajo rápido y correcto!!! EQUIPO FLORATELIE</p>',
+         'name' => '<p>Ksenia Chalaya <span>¨Floratelie¨</span></p>',
+      ],
+      'kabakova' => [
+         'text' => '<p>Отличные и надежные ребята. Работа выполнено отлично и в срок! Рекомендую!</p> <p>Buen trabajo e buen servicio! Recomiendo!</p>',
+         'name' => '<p>Alina Kabakova <span></span></p>',
+      ],
+      'zubko' => [
+         'text' => '<p>Recomendable!!! lo repito hacer pedidos seguro! Trabajo excelente! Además me han hecho diseño que quería y ha quedado precioso Estoy muy contenta con el servicio y calidad Atención perfecta!!! Muchas gracias .</p>',
+         'name' => '<p>Maria <span>"Studio Maria Zubko"</span></p>',
+      ],
+      'gas_auto' => [
+         'text' => '<p>Заказывали футболки с логотипом. Качество просто супер. Рекомендую</p>',
+         'name' => '<p>Tatiana <span>¨Gas Auto¨</span></p>',
+      ],
+      'estetica' => [
+         'text' => '<p>Работа выполнена качественно и в срок , Найдено техническое решение в невероятно сложной ситуации, настоящие профессионалы! Благодарна! Удачи вам и процветания!</p>',
+         'name' => '<p>Anna <span>¨Laboratorio de estetica¨</span></p>',
+      ],
+      'li_beauty' => [
+         'text' => '<p>Пользуемся услугами Colorit уже третий год, очень довольны качеством! Ответственные исполнители и отличная и качество печати. Спасибо</p>',
+         'name' => '<p>Лидия <span>¨Li.Beauty Lounge¨</span></p>',
+      ],
+      'globos' => [
+         'text' => '<p>Мы сотрудничаем с компанией Colorit agency уже более 1,5 лет. Наша компания занимается декором и флористикой праздничных мероприятий и пространств, поэтому заказы наши были оооочень разными начиная от визиток и наклеек , заканчивая ростовыми фигурами и 42метровым баннером. Команда всегда на связи, относится с пониманием к экстренным заказам (а в нашей сфере форс-мажор дело привычное), дизайнеры слушают , а главное слышат все пожелания, в общем все Чётко, Качественно, Быстро и Своевременно. Рекомендуем.</p>',
+         'name' => '<p>Svetlana <span>¨Globos bcn¨</span></p>',
+      ],
+      'bike_parts' => [
+         'text' => '<p>Excelente trabajo del diseño de imagen corporativa para nuestra tienda. Da gusto tratar con los profesionales. Convertiremos al cliente fijo sin duda! 100% recomendado!</p>',
+         'name' => '<p>Diana <span>¨Bike Parts BCN¨</span></p>',
+      ],
+      'detailing' => [
+         'text' => '<p>Все качественно и в обозначенные сроки! Хотим поблагодарить команду Colorit agency за предоставленные услуги в изготовлении подарочных сертификатов.</p>',
+         'name' => '<p>Vitaliy <span>¨SV Detailing¨</span></p>',
+      ],
+   ]
 ]
 
 ?>

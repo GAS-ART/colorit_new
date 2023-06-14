@@ -28,7 +28,7 @@
     "src": "public/img/icons/donwload.svg"
   },
   "resources/js/app.js": {
-    "file": "assets/app-ef067f0d.js",
+    "file": "assets/app-fceccb18.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   },
@@ -97,7 +97,7 @@
     "src": "resources/scss/fonts/icon-fonts/icomoon.woff"
   },
   "resources/scss/style.scss": {
-    "file": "assets/style-eaaea792.css",
+    "file": "assets/style-9383f8a8.css",
     "isEntry": true,
     "src": "resources/scss/style.scss"
   }
