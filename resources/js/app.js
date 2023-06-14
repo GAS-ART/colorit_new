@@ -271,6 +271,44 @@ function uploadFile(file) {
   if (file?.size) {
     reader.readAsDataURL(file);
   }
+}
 
+// review accordions
+let questionAndArrow = document.querySelectorAll('.content-questions__question, .arrow');
+let answers = document.querySelectorAll('.content-questions__answer');
+
+answers.forEach(answer => answer.style.height = '0px');
+
+questionAndArrow.forEach(function (element) {
+  element.addEventListener('click', function (e) {
+    let card = e.target.closest('.content-questions__card')
+    let answer = card.querySelector('.content-questions__answer');
+    let currentArrow = card.querySelector('.arrow');
+    let arrows = e.target.closest('.content-questions__body').querySelectorAll('.arrow');
+
+    arrows.forEach(arrow => { if (arrow != currentArrow) arrow.classList.remove('active') })
+
+    if (e.target.classList.contains('arrow')) {
+      e.target.classList.contains('active') ? e.target.classList.remove('active') : e.target.classList.add('active');
+    } else {
+      e.target.nextElementSibling.nextElementSibling.classList.contains('active') ?
+        e.target.nextElementSibling.nextElementSibling.classList.remove('active') :
+        e.target.nextElementSibling.nextElementSibling.classList.add('active')
+    }
+    toggleAnswer(answer,);
+  });
+});
+
+function toggleAnswer(answer) {
+  answers.forEach(item => {
+    if (item.style.height != '0px' && item != answer) {
+      item.style.height = '0';
+    }
+  })
+  if (answer.style.height === '0px') {
+    answer.style.height = answer.scrollHeight + 'px';
+  } else {
+    answer.style.height = '0';
+  }
 }
 

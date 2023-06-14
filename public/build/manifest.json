@@ -11,6 +11,14 @@
     "file": "assets/load-82076465.gif",
     "src": "public/img/form/load.gif"
   },
+  "public/img/home/es/question/question.webp": {
+    "file": "assets/question-a37cb36c.webp",
+    "src": "public/img/home/es/question/question.webp"
+  },
+  "public/img/home/es/question/question_mob.webp": {
+    "file": "assets/question_mob-383c85bb.webp",
+    "src": "public/img/home/es/question/question_mob.webp"
+  },
   "public/img/home/es/solution/background.webp": {
     "file": "assets/background-8d430d52.webp",
     "src": "public/img/home/es/solution/background.webp"
@@ -27,8 +35,12 @@
     "file": "assets/donwload-deae2334.svg",
     "src": "public/img/icons/donwload.svg"
   },
+  "public/img/icons/link.svg": {
+    "file": "assets/link-c288e4f9.svg",
+    "src": "public/img/icons/link.svg"
+  },
   "resources/js/app.js": {
-    "file": "assets/app-fceccb18.js",
+    "file": "assets/app-20f2a8ce.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   },
@@ -97,7 +109,7 @@
     "src": "resources/scss/fonts/icon-fonts/icomoon.woff"
   },
   "resources/scss/style.scss": {
-    "file": "assets/style-9383f8a8.css",
+    "file": "assets/style-d356b736.css",
     "isEntry": true,
     "src": "resources/scss/style.scss"
   }
