@@ -273,8 +273,8 @@ function uploadFile(file) {
   }
 }
 
-// review accordions
-let questionAndArrow = document.querySelectorAll('.content-questions__question, .arrow');
+// Review accordions
+let questionAndArrow = document.querySelectorAll('.content-questions__question, .content-questions__arrow');
 let answers = document.querySelectorAll('.content-questions__answer');
 
 answers.forEach(answer => answer.style.height = '0px');
@@ -283,12 +283,12 @@ questionAndArrow.forEach(function (element) {
   element.addEventListener('click', function (e) {
     let card = e.target.closest('.content-questions__card')
     let answer = card.querySelector('.content-questions__answer');
-    let currentArrow = card.querySelector('.arrow');
-    let arrows = e.target.closest('.content-questions__body').querySelectorAll('.arrow');
+    let currentArrow = card.querySelector('.content-questions__arrow');
+    let arrows = e.target.closest('.content-questions__body').querySelectorAll('.content-questions__arrow');
 
     arrows.forEach(arrow => { if (arrow != currentArrow) arrow.classList.remove('active') })
 
-    if (e.target.classList.contains('arrow')) {
+    if (e.target.classList.contains('content-questions__arrow')) {
       e.target.classList.contains('active') ? e.target.classList.remove('active') : e.target.classList.add('active');
     } else {
       e.target.nextElementSibling.nextElementSibling.classList.contains('active') ?
@@ -311,4 +311,25 @@ function toggleAnswer(answer) {
     answer.style.height = '0';
   }
 }
+
+// About accordions
+const aboutText = document.querySelector('.about__text');
+const aboutbtn = document.querySelector('.about__btn');
+
+aboutText.style.height = '180px';
+
+aboutbtn.addEventListener('click', (e) => {
+  if (aboutText.style.height === '180px') {
+    aboutText.style.height = aboutText.scrollHeight + 'px';
+  } else {
+    aboutText.style.height = '180px'
+  }
+  aboutText.classList.toggle('active');
+
+  e.target.innerText == 'Читать дальше →' || e.target.innerHTML == 'Читать дальше →' ? e.target.innerHTML = '<span>&larr;</span> Скрыть текст' : e.target.innerHTML = 'Читать дальше <span>&rarr;</span>';
+
+  e.target.classList.add('active');
+  setTimeout(() => { e.target.classList.remove('active') }, 300)
+
+})
 

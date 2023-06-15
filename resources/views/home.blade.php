@@ -731,62 +731,68 @@
                         <div class="content-questions__question">@lang('home.questions.1.question')
                         </div>
                         <div class="content-questions__answer">@lang('home.questions.1.answer')</div>
-                        <div class="arrow">
+                        <div class="content-questions__arrow">
                             <div></div>
                         </div>
                     </div>
                     <div class="content-questions__card">
                         <div class="content-questions__question">@lang('home.questions.2.question')</div>
                         <div class="content-questions__answer">@lang('home.questions.2.answer')</div>
-                        <div class="arrow">
+                        <div class="content-questions__arrow">
                             <div></div>
                         </div>
                     </div>
                     <div class="content-questions__card">
                         <div class="content-questions__question">@lang('home.questions.3.question')</div>
                         <div class="content-questions__answer">@lang('home.questions.3.answer')</div>
-                        <div class="arrow">
+                        <div class="content-questions__arrow">
                             <div></div>
                         </div>
                     </div>
                     <div class="content-questions__card">
                         <div class="content-questions__question">@lang('home.questions.4.question')</div>
                         <div class="content-questions__answer">@lang('home.questions.4.answer')</div>
-                        <div class="arrow">
+                        <div class="content-questions__arrow">
                             <div></div>
                         </div>
                     </div>
                     <div class="content-questions__card">
                         <div class="content-questions__question">@lang('home.questions.5.question')</div>
                         <div class="content-questions__answer">@lang('home.questions.5.answer')</div>
-                        <div class="arrow">
+                        <div class="content-questions__arrow">
                             <div></div>
                         </div>
                     </div>
                     <div class="content-questions__card">
                         <div class="content-questions__question">@lang('home.questions.6.question')</div>
                         <div class="content-questions__answer">@lang('home.questions.6.answer')</div>
-                        <div class="arrow">
+                        <div class="content-questions__arrow">
                             <div></div>
                         </div>
                     </div>
                     <div class="content-questions__card">
                         <div class="content-questions__question">@lang('home.questions.7.question')</div>
                         <div class="content-questions__answer">@lang('home.questions.7.answer')</div>
-                        <div class="arrow">
+                        <div class="content-questions__arrow">
                             <div></div>
                         </div>
                     </div>
                     <div class="content-questions__card">
                         <div class="content-questions__question">@lang('home.questions.8.question')</div>
                         <div class="content-questions__answer">@lang('home.questions.8.answer')</div>
-                        <div class="arrow">
+                        <div class="content-questions__arrow">
                             <div></div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+</section>
+<section class="about">
+    <div class="about__container">
+        <div class="about__text">@lang('home.about.text')</div>
+        <div class="about__btn">@lang('home.about.btn')</div>
     </div>
 </section>
 @endsection

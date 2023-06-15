@@ -1334,6 +1334,9 @@
     align-self: flex-end;
     @include adaptiveValueREM('margin-left', 80, 0, 1920, 992, 1);
     @include adaptiveValueREM('margin-right', 130, 20, 1920, 992, 1);
+    @media (max-width: $tablet) {
+      display: none;
+    }
   }
 
   &__content {
@@ -1352,9 +1355,13 @@
   &__body {
     max-width: 760px;
     display: grid;
-    grid-template-columns: minmax(350px, 300px) minmax(350px, 300px);
+    grid-template-columns: 350px 350px;
     grid-template-rows: repeat(4, auto);
     gap: 32px 40px;
+    @media (max-width: $mobile) {
+      grid-template-columns: minmax(300px, 350px);
+      justify-content: center;
+    }
   }
 
   &__card {
@@ -1379,6 +1386,9 @@
       width: 19px;
       height: 18px;
     }
+    @media (max-width: $mobileSmall) {
+      max-width: 178px;
+    }
   }
   &__answer{
     line-height: 180%;
@@ -1389,7 +1399,7 @@
     transition: height 0.5s ease 0s;
   }
 }
-.arrow {
+.content-questions__arrow {
   cursor: pointer;
   position: absolute;
   width: 14px;
@@ -1414,7 +1424,7 @@
   }
 }
 
-.arrow div {
+.content-questions__arrow div {
   position: relative;
   top: 6px;
   width: 14px;
@@ -1426,7 +1436,7 @@
   pointer-events: none;
   transition: all 0.5s ease 0s;
 }
-.arrow div::after {
+.content-questions__arrow div::after {
   content: '';
   position: absolute;
   width: 10px;
@@ -1438,7 +1448,7 @@
   pointer-events: none;
   transition: all 0.5s ease 0s;
 }
-.arrow div::before {
+.content-questions__arrow div::before {
   content: '';
   position: absolute;
   width: 10px;
@@ -1453,4 +1463,48 @@
 }
 /*============QUESTIONS============*/
 
+/*============ABOUT============*/
+.about {
+@extend %section;
+  &__container {
+  }
 
+  &__title {
+    font-size: 24px;
+    line-height: 150%;
+    font-weight: 700;
+    color: #4F4F4F;
+  }
+
+  &__text {
+    line-height: 180%;
+    height: 180px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #F7F8FA 90.74%), #17161A;
+    //background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 16px;
+    transition: height 0.3s ease 0s;
+    &.active{
+      -webkit-background-clip: unset;
+      -webkit-text-fill-color: unset;
+      background: transparent
+    }
+  }
+  &__btn{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: $purple;
+    cursor: pointer;
+    span{
+      font-weight: 400;
+      font-size: 16px;
+    }
+    &.active{
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+}
+/*============ABOUT============*/
