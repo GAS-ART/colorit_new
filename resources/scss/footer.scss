@@ -1,7 +1,150 @@
 //====================================================================================================
 .footer {
-  
+@extend %section;
+  &__container {
+  }
+
+  &__body {
+    display: grid;
+    grid-template-columns: min-content 272px 158px min-content;
+    grid-template-rows: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 65px;
+    @media (max-width: $mobile) {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(4, auto);
+      text-align: center;
+    }
+  }
+
+  &__logo {
+    @media (max-width: $mobile) {
+      margin-bottom: 16px;
+    }
+  }
+
+  &__text {
+    font-family: 'Jost';
+    font-weight: 700;
+    line-height: 140%;
+    @media (max-width: $mobile) {
+      max-width: 264px;
+        margin: 0 auto 40px auto;
+    }
+  }
+
+  &__contact {
+    @media (max-width: $mobile) {
+      margin-bottom: 40px;
+    }
+  }
+
+  &__contact-link {
+    display: block;
+    font-weight: 700;
+    line-height: 140%;
+    margin-bottom: 24px;
+    transition: all 0.3s ease 0s;
+    @media (pointer: fine) {
+      &:hover {
+        color: $purple;
+      }
+    }
+  }
+
+  &__contact-time {
+    color: $grey3;
+    font-size: 14px;
+    margin-bottom: 24px;
+    span{
+      color: $mainColor;
+      font-weight: 500;
+      line-height: 140%;  
+    }
+  }
+
+  &__contact-icons {
+    display: flex;
+    @media (max-width: $mobile) {
+      justify-content: center;
+    }
+  }
+
+  &__contact-icon {
+    &:not(:last-child){
+      margin-right: 16px;
+    }
+    svg{
+      cursor: pointer;
+      path{
+        transition: all .3s ease 0s;
+      }
+      @media (pointer: fine) {
+        &:hover {
+          path{
+            fill: $purple;
+          }
+        }
+      }
+    }
+  }
+
+  &__links {
+  }
+
+  &__rights {
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: $mobile) {
+      flex-direction: column;
+      align-items: center;
+      a{
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+  &__rights-text {
+    color: $grey3;
+    font-size: 14px;
+    line-height: 140%;
+    @media (max-width: $mobile) {
+      &:not(:last-child){
+        order: 2;
+        margin-bottom: 15px;
+      }
+      &:first-child{
+        
+        order: 1;
+      }
+    }
+  }
 }
+.links-footer {
+
+  &__list {
+  }
+
+  &__item {
+    &:not(:last-child){
+      margin-bottom: 16px;
+    }
+  }
+
+  &__item-link {
+    font-family: 'Jost';
+    font-weight: 500;
+    line-height: 120%;
+    transition: all 0.3s ease 0s;
+    @media (pointer: fine) {
+      &:hover {
+        color: $pink;
+      }
+    }
+  }
+}
+
 
 //====================================================================================================
 

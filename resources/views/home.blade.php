@@ -35,16 +35,18 @@
                 <li class="main__list-item">@lang('home.main.list-3')</li>
                 <li class="main__list-item">@lang('home.main.list-4')</li>
             </ul>
-            <button class="main__btn">@lang('home.main.btn')</button>
+            <a href="#quizSection" class="main__btn ancor">@lang('home.main.btn')</a>
         </div>
     </div>
 
 
-    <div class="main_img-rating">
+    <a target="_blank"
+        href="https://www.google.com/search?gs_ssp=eJzj4tVP1zc0LKgsK0i3LLQ0YLRSNagwNEo0STS2tDRMTTNJsUwztTKoMDI2MLE0TUsySTawMEy2sPTiS87PyS_KLFFITE_NS64EAMKUFMY&q=colorit+agency&oq=colo&aqs=chrome.1.69i57j46i39i175i199i650j0i67i650j0i512l3j46i175i199i512j0i512l2j0i271.87366396j0j15&sourceid=chrome&ie=UTF-8#lrd=0x12a4a3991ef4d9f5:0x230495fb4c081c89,1,,,,"
+        class="main_img-rating">
         <img src="{{ asset('img/home/google.webp') }}" alt="">
-    </div>
+    </a>
 </section>
-<section class="quiz">
+<section id="quizSection" class="quiz">
     <div class="quiz__container quiz-container">
         <h2 class="quiz__title">@lang('home.quiz.title')</h2>
         <h3 class="quiz__sub-title">@lang('home.quiz.sub-title')</h3>
@@ -164,7 +166,7 @@
                 <div class="solution__free-content">
                     <h3 class="solution__free-text">@lang('home.solution.free.title')</h3>
                     {{-- <a href="/docs/fiwhcd050c.pdf" download>@lang('home.solution.free.btn')</a> --}}
-                    <a href="#" download class="solution__free-btn">@lang('home.solution.free.btn')</a>
+                    <a href="/docs/20-gaid.pdf" download class="solution__free-btn">@lang('home.solution.free.btn')</a>
                 </div>
                 <div class="solution__free-img">
                     <img src="{{asset('img/home/es/solution/tablet-full.svg')}}" alt="">
@@ -793,6 +795,19 @@
     <div class="about__container">
         <div class="about__text">@lang('home.about.text')</div>
         <div class="about__btn">@lang('home.about.btn')</div>
+    </div>
+</section>
+<section class="lead">
+    <div class="lead__container">
+        <div class="lead__body">
+            <div class="lead__content">
+                <h2 class="lead__title">@lang('home.lead.title')</h2>
+                <p class="lead__text">@lang('home.lead.text')</p>
+            </div>
+            <button data-popup-id="main" class="lead__btn link-on-popup">
+                @lang('home.lead.btn')
+            </button>
+        </div>
     </div>
 </section>
 @endsection

@@ -1508,3 +1508,67 @@
   }
 }
 /*============ABOUT============*/
+
+/*============LEAD============*/
+.lead {
+  @extend %section;
+  &__container {
+  }
+
+  &__body {
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: em(555)) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &__content {
+    margin-right: 20px;
+    @media (max-width: em(555)) {
+      margin-right: 0px;
+      margin-bottom: 24px;
+      max-width: 264px;
+      text-align: center;
+    }
+  }
+
+  &__title {
+    @extend %title;
+    @include adaptiveValueREM('font-size', 50, 24, 1920, 360, 1);
+    line-height: 120%;
+    margin-bottom: 24px;
+  }
+
+  &__text {
+    font-weight: 700;
+    line-height: 150%;
+    color: #4F4F4F;
+  }
+
+  &__btn {
+    padding: 24px 40px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background-color: $purple;
+    height: min-content;
+    transition: all 0.3s ease 0s;
+    border: 1px solid $mainColor;
+    white-space: nowrap;
+    @media (pointer: fine) {
+      &:hover {
+        background-color: #ffffff;
+        color: $purple;
+        border-color: $purple;
+      }
+    }
+    @media (max-width: $mobile) {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}
+/*============LEAD============*/

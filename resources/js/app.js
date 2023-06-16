@@ -194,6 +194,11 @@ function documentActions(e) {
   if (!e.target.closest('.language-btn')) {
     languageBtn.classList.remove('active');
   }
+
+  //stopScrolling
+  if (!e.target.classList.contains('.ancor') && scrol == true) {
+    body.addEventListener('click', stopAnimation);
+  }
 }
 
 
@@ -330,6 +335,67 @@ aboutbtn.addEventListener('click', (e) => {
 
   e.target.classList.add('active');
   setTimeout(() => { e.target.classList.remove('active') }, 300)
-
 })
 
+//scroll
+let stop = false;
+let scrol = false;
+function stopAnimation() { stop = true; }
+const scrolling = (selectorBtn) => {
+  //const btnUp = document.querySelector(selectorBtn);
+
+  const links = document.querySelectorAll(".ancor");
+  let speed = 0.3;
+  const headerHeight = document.querySelector('.header__top').offsetHeight;
+
+  /*window.addEventListener("scroll", () => {
+    if (document.documentElement.scrollTop > 1600) {
+      btnUp.style.opacity = "1";
+    } else {
+      btnUp.style.opacity = "0";
+    }
+  });*/
+
+  for (let i = 0; i < links.length; i++) {
+    links[i].addEventListener("click", function (event) {
+      event.preventDefault();
+      let widthTop = Math.round(
+        document.documentElement.scrollTop || document.body.scrollTop
+      ),
+        hash = this.hash;
+      let toBlock = document.querySelector(hash).getBoundingClientRect().top - headerHeight;
+      let start = null;
+
+      requestAnimationFrame(step);
+
+      scrol = true;
+
+      function step(time) {
+
+
+        if (start === null) {
+          start = time;
+        }
+        let progress = time - start,
+          r =
+            toBlock < 0
+              ? Math.max(widthTop - progress / speed, widthTop + toBlock)
+              : Math.min(widthTop + progress / speed, widthTop + toBlock);
+
+        let element = document.documentElement || document.body;
+        element.scrollTo(0, r);
+
+        if (r != widthTop + toBlock && !stop) {
+          requestAnimationFrame(step);
+        } else {
+          body.removeEventListener('click', stopAnimation);
+          stop = false;
+          scrol = false
+          // location.hash = hash;
+        }
+      }
+    });
+  }
+};
+
+scrolling(/*".pageup"*/);
