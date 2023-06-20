@@ -7,7 +7,7 @@ return [
     'signboards'=> 'Вывески',
     'letters' => "Буквы",
     'vinyl' => "Винил",
-    'events' => "Ивенты",
+    'events' => "Выставки",
     'burger' => [
       'title' => 'menu',
       'about' => 'О нас',

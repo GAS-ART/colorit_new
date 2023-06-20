@@ -40,7 +40,7 @@
     "src": "public/img/icons/link.svg"
   },
   "resources/js/app.js": {
-    "file": "assets/app-a07bbdff.js",
+    "file": "assets/app-e8790438.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   },
@@ -109,7 +109,7 @@
     "src": "resources/scss/fonts/icon-fonts/icomoon.woff"
   },
   "resources/scss/style.scss": {
-    "file": "assets/style-60411f9a.css",
+    "file": "assets/style-214ca24a.css",
     "isEntry": true,
     "src": "resources/scss/style.scss"
   }

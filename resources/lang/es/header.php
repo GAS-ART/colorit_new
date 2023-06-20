@@ -1,8 +1,7 @@
 <?php
 
 return [
-  'title' => 'Изготовление рекламных конструкций в Барселоне и по все Испании',
-  'text' => 'Здесь будет много текста про то какой сервис мы предоставляем',
+  'title' => 'Fabricación de rótulos, stands de ferias en Barcelona y toda España',
   'lead' => 'Обратный звонок', 
 ]
 

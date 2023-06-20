@@ -1,7 +1,7 @@
 <?php
 
 return [
-   'text' => 'Изготовление рекламных конструкций в Барселоне и по все Испании',
+   'text' => 'Fabricación de rótulos, stands de ferias en Barcelona y toda España',
    'copiright' => 'Copyright 2018. All Rights Reserved',
    'privacy' => 'Политика конфиденциальности',
 ]

@@ -319,7 +319,7 @@
   }
 
   &__slider {
-    min-height: 325.19px;
+    min-height: 344.38px;
     @media (max-width: $mobileSmall) {
       min-height: 259.38px;
     }
@@ -474,6 +474,7 @@
       font-size: 16px;
       line-height: 120%;
       text-align: center;
+      max-width: 195px;
     }
   }
   .swiper-button-prev{

@@ -2,124 +2,124 @@
 
 return [
    'main'=> [
-      'title' => 'Вывески<br>и рекламные конструкции <span>в Барселоне</span>',
-      'list-1' => '— Индивидуальная работа с клиентом',
-      'list-2' => '— Гарантия на все изделия более 3-х лет ',
-      'list-3' => '— Собственное производство',
-      'list-4' => '— Срочное изготовление',
-      'btn' => 'Расчитать стоимость',
+      'title' => 'Rótulos<br> letras córporeas <span>en Barcelona</span> ',
+      'list-1' => '— trabajo individual con cada cliente',
+      'list-2' => '— garantia 3 años de los productos',
+      'list-3' => '— fabricación propia',
+      'list-4' => '— fabricación urgente',
+      'btn' => 'Pedir el presupuesto',
    ],
    'quiz' => [
       'title'=>'<span>80% вывесок</span> выглядят бледно и не эффективно!<br>Клиенты проходят мимо вас!',
-      'sub-title'=>'Помогите нам сделать лучшую рекламу для вашего бизнеса <span>ответив на пару вопросов</span>',
-      'count'=> 'Вопрос <span class="quiz-count">0</span> из 3',
+      'sub-title'=>'Ayúdanos a hacer el mejor producto para tu negocio <span>respondiendo un par de preguntas</span>',
+      'count'=> 'Pregunta  <span class="quiz-count">0</span> de 3',
       'body'=>[
-      'title'=>'Что именно вам нужно?',
+      'title'=>'¿Qué es exactamente lo que necesita?',
       'signboards' => [
-         'title'=>'Вывески',
+         'title'=>'Rótulos',
          'question-1'=>[
-            '1' => 'со светов',
-            '2' => 'без света',
-            '3' => 'Другой варинт',
+            '1' => 'Rótulos luminosos',
+            '2' => 'Rótulos sin luz',
+            '3' => 'Otra opción',
          ],
       ],
       'letters'=>[
-         'title'=>'Буквы',
+         'title'=>'Letras Corpóreas',
       ],
       'vinyl'=>[
-         'title'=>'Винил',
+         'title'=>'Vinilos',
       ],
       'event'=>[
-         'title'=>'Выставки',
+         'title'=>'Ferias',
          ],
       ],
-      'back_btn'=> 'Назад',
+      'back_btn'=> 'Atras',
    ],
    'solution' => [
-      'title' => 'У нас есть решение',
+      'title' => 'Tenemos una solución',
       'card' => [
-         '1' => 'Работаем качественно и 6 дней в неделю.',
-         '2' => 'Выезжаем на место и консультируем как сделать витрину яркой и продающей.',
-         '3' => 'Используем только качественные и проверенные материалы.',
-         '4' => ' Предлагаем комплексное рекламное оформление «под ключ», . Экономим ваше время и ресурсы.',
-         '5' => 'Гарантия на изделия от 3-х лет и Карта лояльности в подарок.',
-         '6' => 'Предлагаем новинки и последние технологии, чтобы вы были на шаг впереди ваших конкурентов.',
+         '1' => 'trabajamos 6 dias a la semana.',
+         '2' => 'Acudimos al lugar y aconsejamos como hacer escaparates maravillas.',
+         '3' => 'Usamos materiales probados y de alta calidad.',
+         '4' => 'Ofrecemos productos para negocios del ciclo completo incuido: impresion digital, ropa personalizada, productos promocionales.',
+         '5' => 'Garantía de productos 3 años y tarjeta de fidelidad de regalo.',
+         '6' => 'Ofrecemos novedades y las últimas tecnologías para mantenerte un paso por delante de tus competidores.',
       ],
       'free' => [
-         'title' => 'Скачай и получи 20 бесплатных советов как оформить торговую точку!',
-         'btn' => 'Скачать',
+         'title' => '¡Descárgue y obtenga 20 consejos gratuitos sobre cómo mejorar tu tienda de venta!',
+         'btn' => 'Descargar',
       ]
    ],
    'portfolio' => [
-      'title' => 'Портфолио',
-      'sub_title' => 'С нами надежно и удобно работать',
-      'sub_title_text' => 'Даем гарантии на продукцию в 3 года. В случае неисправностей восстанавливаем немедленно',
+      'title' => 'Portfolio',
+      'sub_title' => 'Es seguro y conveniente trabajar con nosotros.',
+      'sub_title_text' => 'Damos una garantía de los productos de 3 años. En caso de mal funcionamiento, reparamos inmediatamente.',
       'slides' => [
          'term_title' => 'Срок изготовления',
          '1' => [
-            'title' => 'Световой лайтбокс для магазина Rewers',
-            'text' => 'Коробка из белого акрилата 3 мм. Изображение и цвета вывески задано при помощи винила и оракала. Внутренняя подсветка по всему периметру вывески',
-            'term' => '2 недели',
+            'title' => 'Rótulo luminoso de metacrilato para tienda Rewers',
+            'text' => 'Cartel luminoso de metacrilato 3mm opaco blanco por todos lados. Se ilumina entero. A parte aplicamos vinilo impreso para conseguir el diseño',
+            'term' => '2 semanas',
          ],
          '2' => [
-            'title' => 'Вывеска с обьемными буквами для Uniformes',
-            'text' => 'Наружная вывеска для магазина одежды Uniformes. Короб выполнен из 3мм композита с уф печатью. Обьемные буквы 3 см с подсветкой контржур. Свечение нейтральное',
-            'term' => '1,5 недели',
+            'title' => 'Letras corporeas con espejo dorado',
+            'text' => 'Letras corporeas para interior con el color dorado. Hechas de pvc con frente metacrilato opaco. Luz calido retroiluminado',
+            'term' => '2 semanas',
          ],
          '3' => [
-            'title' => 'Вывеча для ресторана Terraza в Барселоне',
-            'text' => 'Изготовление вывески с обьемными буквами. Обьем букв 3,5 см. Обклеенные виниловой пленкой. Внутрянняя подсветка с теплым свечением',
-            'term' => '2,5 недели',
+            'title' => 'Rótulo luminoso para restaurante Terraza en Barcelona',
+            'text' => 'Rótulo bandeja de dibond con montadas letras corporeas luminosas de 25mm',
+            'term' => '2,5 semanas',
          ],
          '4' => [
-            'title' => 'Световая вывеска для Olga Belmonte',
-            'text' => 'Вывеска для салона красоты в Барселоне Olga Belmonte. Короб выполнен из черного 3 мм композита. 25 мм обьемные буквы с внутренним свечение и накладками.',
-            'term' => '3 недели',
+            'title' => 'Fabricacion de bandeja calada con letras corporeas para Olga Belmonte ',
+            'text' => 'Bandeja de compisite negro mate fresado y iluminado por dentro. Las letras con luz fabricadas de pvc 20 mm y pintadas en color el dorado',
+            'term' => '3 semanas',
          ],
          '5' => [
-            'title' => 'Вывеска для салоан красоты ICON',
-            'text' => 'Короб из белого композита с уф печатью. Буквы ICON выполненны из пвх, с подсветкой контражур. Лицевая часть букв покрыта черным глянцевым акрилатом',
-            'term' => '2,5 недели',
+            'title' => 'Rotulo con letras retroiluminadas para salon de belleza Icon',
+            'text' => 'Rótulo esta fabricado de dibond blanco brillo. Letras corporeas hechas de PVC de 35 mm del grosor con separados 20 mm',
+            'term' => '2,5 semanas',
          ],
          '6' => [
-            'title' => 'Арка для чемпионата по гимнастике',
-            'text' => 'Разборная декоративная акра для выхода спортсменов. Размер 2200*2000 мм. Основа выполенена из МДФ с опорами и уф печать',
-            'term' => '	2 недели',
+            'title' => 'Estructura para campeonato de gimnasia rítmica',
+            'text' => 'La estructura Arco fabricada para campeonato de gimnasia rítmica en Playa de Aro. La base es MDF con listones de abeto. Frente esta tapado de pvc impreso',
+            'term' => '2 semanas',
          ],
          '7' => [
-            'title' => 'Вывеска R Style beauty',
-            'text' => 'Наружная вывеска из композита с фрейзерной резкой. Внутренняя подсветка',
-            'term' => '1,5 недели',
+            'title' => 'Cajon fresado luminosa para salon de belleza R Style',
+            'text' => 'Bandeja de dibond impreso en color y fresado segun el logo y iluminado por dentro para salon de belleza R- Style Beauty',
+            'term' => '1,5 semanas',
          ],
          '8' => [
-            'title' => 'Вывеска для бутика женской одежды Suknja',
-            'text' => 'Короб из белого композита размером 2650*500 мм. Буквы выполненны из черного ПВХ 19 мм с подсветкой контражур. Установленны разделительные супорты 20 мм',
-            'term' => '3 недели',
+            'title' => 'Rotulo con letras de PVC para show room Suknja',
+            'text' => 'Rótulo con letras corporeas. La base es el cajon de composite 3 mm blanco mate. Letras corporeas fabricadas de PVC negro 19 mm con luz retroiluminado',
+            'term' => '3 semanas',
          ],
          '9' => [
-            'title' => 'Brand wall для презентации',
-            'text' => 'Изготовление рекламного бренд wall с ресепшен для презентации',
-            'term' => '1 неделя',
+            'title' => 'Photocall para una feria en Barcelona',
+            'text' => 'Photocall 229*300 mm con estructura de aluminio. Tela 180 gr con impresin digital',
+            'term' => '1 semanas',
          ],
          '10' => [
-            'title' => 'Вывеска со светом для Ивент агентства',
-            'text' => 'Вывеска для ивент агентства Butterfly Sant Cugat. Основа короб из композита. Монтированны обьемные буквы 19 мм с подсветкой контражур',
-            'term' => '2,5 недели',
+            'title' => 'Rotulo luminoso para event agencia Butterfly',
+            'text' => 'Rótulo exterior de composite con letras de pvc 19 mm retroiluminadas. Letras montadas con separadores 20 mm',
+            'term' => '2,5 semanas',
          ],
          '11' => [
-            'title' => 'Внутренние буквы Babolat',
-            'text' => 'Изготовление обьемных букв для спортивного бренда Babolat. Буквы из пвх 30 мм. Без подсветки с разделительными держателями 20 см',
-            'term' => '7 дней',
+            'title' => 'Lertas corporeas de PVC para marca deportiva Babolat',
+            'text' => 'Letras corporeas sin luz con separadores de 20 mm. Fabricado para una marca deportiva Babolat',
+            'term' => '7 dias',
          ],
          '12' => [
-            'title' => 'Внутренний световой логотип Butterfly',
-            'text' => 'Обьемные крылья из пвх 19 мм с контражурной подсветкой. Лицевая часть крыльев покрыта зеркальным золотым алюминием. Фрезерная резка каждого элемента',
-            'term' => '3 недели',
+            'title' => 'Alas con luz retroiluminado para event agencia',
+            'text' => 'Las alas retrouliminadas con aliminio dorado esta hecho para event agencia en Sant Cugat Betterfly events',
+            'term' => '3 semanas',
          ],
          '13' => [
-            'title' => 'Обьемные буквы Marista',
-            'text' => 'Обьемные буквы для клиники Marista в Барселоне. Буквы выполененны из пвх материала с виниловыми обклейкой. С дополнительным вставками золотого зеркального алюминия',
-            'term' => '2 недели ',
+            'title' => 'Rótulo con letras corporeas para tienda Uniformes',
+            'text' => 'Cajon de dibond con letras corporeas de 30 mm. Letras pintadas en negro mate y retroiluminadas para tienda de ropa Uniformes',
+            'term' => '1,5 semanas',
          ],
          '14' => [
             'title' => '',
@@ -130,35 +130,35 @@ return [
 
    ],
    'gift' => [
-      'title' => 'Давайте посотрудничаем',
-      'sub_title' => 'Оставляйте заявку и <b>ПОЛУЧИТЕ БОНУС (кофту с вашим логотипом)</b> по завершению проекта в подарок!',
+      'title' => '¿Cooperemos?',
+      'sub_title' => 'Deje una solicitud y OBTENGA UN BONO: ¡una sudadera (camiseta) con su logotipo personalizado como regalo al finalizar el proyecto!',
       'btn' => 'Получить бонус',
    ],
    'video' => [
-      'title' => 'Взгляние на <span>процесс изгтовления</span> букв и контструкции изнутри ',
+      'title' => 'Echa un vistazo al proceso de produccion de letras y rótulos desde interior',
       'list' => [
-         '1' => 'Печать. В наличии имеем широкоформатный уф принтер с максимальным размером листовой печати 3х2 м, разрешением 1440 dpi и скоростью печати до 30 кв.м в час.',
-         '2' => 'Резка. При помощи фрезерного ЧПУ станка размером 3х2 м возможно обработка такого материала: дерева, ДСП, МДФ, фанеры, искусственный камень, акриловое стекло и оргстекло, модельный пластик.',
-         '3' => 'Команда. Обладаем специалистами с опытом работы в изготовление рекламных конструкции более 10 лет.',
+         '1' => 'Impresion.Disponemos de una impresora UV de gran formato con un tamaño máximo de impresión de 3x2 m, resolución de 1440 dpi y una velocidad de impresión hasta 20 m2 por hora.',
+         '2' => 'Corte. Con una fresadora de tamaño 3x2 m, es posible procesar y cortar  materiales como: madera, aglomerado, MDF, madera contrachapada, piedra artificial, vidrio acrílico y plexiglás, plástico para modelar.',
+         '3' => 'Equipo. Contamos con especialistas con más de 10 años de experiencia en la fabricación de estructuras publicitarias, rótulos y impresion digital',
       ],
    ],
    'result' => [
-      'title' => 'Результат',
+      'title' => 'Resultado',
       'card' => [
-         '1' => 'Готовая вывеска «под ключ» от разработки дизайна до изготовления и установки.',
-         '2' => 'Яркая привлекательная вывеска, которая вас выделяет.',
-         '3' => 'Индивидуальный дизайн и стиль.',
-         '4' => 'Прохожие обращают на вас внимание и не могут пройти мимо.',
-         '5' => 'Конкуренты остались позади.',
-         '6' => 'Обновление информации об акциях и новинках по вашему запросу.',
-         '7' => 'Гарантия на рекламное оформление 3 года.',
-         '8' => 'Постгарантийное сервисное обслуживание.',
-         '9' => 'Комплексное сопровождение, включая полиграфию и брендированную продукцию.',
-         '10' => 'Карта лояльности в подарок.',
+         '1' => 'Rótulos acabados desde desarollo del diseño hasta la fabricación e instalación.',
+         '2' => 'Un letrero brillante y llamativo que te hace destacar.',
+         '3' => 'Diseño y estilo individual.',
+         '4' => 'Los transeúntes te hacen caso y no pueden pasar.',
+         '5' => 'Los competidores se quedaron atrás.',
+         '6' => 'Actualización de información sobre promociones y nuevos productos a petición suya.',
+         '7' => 'Garantía de productos 3 años.',
+         '8' => 'Mantemiento y post servicio.',
+         '9' => 'Servicio de rotulacion por ciclo completo incluendo impresion digital y productos perzonalizados.',
+         '10' => 'Tarjeta de fidelidad de regalo.',
       ],
    ],
    'reviews' => [
-      'title' => 'Что говорят о нас клиенты',
+      'title' => 'Que dicen sobre nosotros?',
       'ecotown' => [
             'text' => '<p>Colorit agency -  mejor agencia de publicidad e marketing en Barcelona.</p><p>Estamos trabajando juntos ya 3 años. Contentos.</p>',
             'name' => '<p>Vyacheslav <span>¨Ecotown¨</span></p>',
@@ -209,49 +209,49 @@ return [
       ],
    ],
    'questions' => [
-      'title' => 'Возможно вы найдете здесь ответ на ваш вопрос',
+      'title' => 'Preguntas frecuentes',
       '1' => [
-         'question' => ' С чего начинаем?',
-         'answer' => 'Работу над изготовлением вывески мы начинаем с выезда на объект где обсуждаем пожелания заказчика, варианты рекламного оформления, оцениваем техническую возможность. Также делаем замеры для предварительного расчета стоимости. И обсуждаем дизайн для составления технического задания дизайнеру. '
+         'question' => '¿Cómo empezamos?',
+         'answer' => 'Comenzamos a trabajar en la producción de un letrero con una visita al sitio donde discutimos los deseos del cliente, las opciones para el diseño publicitario y evaluamos la viabilidad técnica. También tomamos las dimensiones para hacer el presupuesto. Y comunicamos sobre el diseño para elaborar una tarea técnica para el diseñador.'
       ],
       '2' => [
-         'question' => 'Сколько стоит выезд на место? ',
-         'answer' => 'Выезд на место нашего специалиста бесплатно.'
+         'question' => '¿Cuánto cuesta la visita de rotulista?',
+         'answer' => 'La salida al lugar de nuestro especialista es gratuita.'
       ],
       '3' => [
-         'question' => 'Можете ли вы разработать дизайн, логотип, фирменный стиль? ',
-         'answer' => 'В нашей компании работают опытные дизайнеры, которые разработают для вас фирменный стиль, логотип, дизайн вывески, оформление витрин, внутренне оформление, полиграфическую продукцию (визитки, буклеты, флаеры, брошюры и пр.) '
+         'question' => '¿Puede desarollar el logotipo o diseño del rotulo?',
+         'answer' => 'Nuestra empresa emplea a diseñadores experimentados que desarrollarán para usted una identidad corporativa, logotipo, diseño de letreros, decoración de escaparates, diseño de interiores, productos de impresión (tarjetas de visita, folletos, camisetas etc.)'
       ],
       '4' => [
-         'question' => 'Когда оплачивать? ',
-         'answer' => 'После согласования макетов вы оплачиваете 50%. Остаток после сдачи заказа. '
+         'question' => '¿Cuándo se realiza el pago?',
+         'answer' => 'Despues de cormirmacion del diseño esperamos el pago adelantado de 50%. El resto del pago al finalizacion del trabajo'
       ],
       '5' => [
-         'question' => 'Где можно посмотреть ваши работы? ',
-         'answer' => 'Наши работы вы можете посмотреть на сайте в разделе Портфолио.'
+         'question' => '¿Donde podria ver vuestros trabajos?',
+         'answer' => 'Puedes ver nuestro trabajo en la web en la sección Portfolio'
       ],
       '6' => [
-         'question' => 'Где можно посмотреть материал и варианты вывесок? ',
-         'answer' => 'При встрече мы покажем вам примеры материалов и варианты вывесок. '
+         'question' => '¿Dónde puedo ver el material y las opciones de rótulos?',
+         'answer' => 'En la reunión, le mostraremos ejemplos de materiales y opciones de fabricacion.'
       ],
       '7' => [
-         'question' => 'Как долго делается реклама? ',
-         'answer' => 'Срок изготовления рекламы зависит от объема работы и сложности вывески. Объемные буквы, вывески с подсветкой или неоновые вывески делаются 2-3 недели. Вывески на пластике и печать на пленке и баннере делается в течение 1 недели. '
+         'question' => '¿Cuánto tarda la produccion del rotulo?',
+         'answer' => 'El plazo de producción de la publicidad depende de la cantidad de trabajo y la complejidad rotulo. Las letras corporeas, los rótulos retroiluminados o los rótulos de neón se realizan en 2-3 semanas. Los letreros en plástico y la impresión en vinilo o lonas de gran formato se realizan en 1 semana.'
       ],
       '8' => [
-         'question' => 'Что еще вы делаете? ',
-         'answer' => 'К вашим услугам мы рады предложить печать на футболках, свитшотах, шоперах, брендирование чашек, ручек, блокнотов, изготовление пакетов, подставки из пластика, флаги, выставочные стенды. Более детально о всех наших услугах вы можете ознакомиться в разделе Услуги.'
+         'question' => '¿Qué más haceis?',
+         'answer' => 'A su servicio, nos gustaria ofrecer la impresión de camisetas, sudaderas, bolsas de tela, tazas, bolígrafos, cuadernos, bolsas de papel, posavasos de plástico, banderas, stands de exposición. Puede encontrar más detalles sobre todos nuestros servicios en la sección Servicios.'
       ],
    ],
    'about' =>[
-      'title' => 'Заголовок текста',
-      'text' => 'Добро пожаловать на сайт нашего рекламного агентства! Мы рады предложить вам широкий спектр услуг в области наружной рекламы и изготовления рекламных конструкций в Барселоне и по всей Испании. Наша компания специализируется на производстве вывесок, обеспечивая качественное изготовление, а также монтаж на объекте заказчика.<br><br>Если вам нужна вывеска для магазина, мы готовы предложить вам множество вариантов. Мы можем изготовить вывеску с подсветкой, лайтбокс или неоновую вывеску. Выбор материалов и элементов конструкции зависит от ваших требований и предпочтений. Мы также предлагаем заказать вывеску на заказ, которая будет уникальной и соответствующей вашим потребностям.<br><br>Кроме того, мы можем изготовить для вас обьемные буквы или оклейку виниловой пленкой. Это отличный способ привлечь внимание к вашему бренду и привлечь новых клиентов. Если вы хотите, чтобы ваша рекламная вывеска была светящейся, мы можем предложить вам led вывески, неон, лайтбоксы или обьемные буквы с подсветкой которые будут привлекать взгляды даже в темное время суток.<br><br>Также мы предлагаем услуги по изготовлению стендов для презентаций и выставочных стендов. Мы можем оформить выставочный стенд под заказ с учетом всех ваших потребностей и пожеланий, чтобы ваша компания могла выделиться на выставке и привлечь новых клиентов. Заказать стенд на выставку у нас – значит обеспечить себе успешное выступление на мероприятии.<br><br>Наше рекламное агентство имеет многолетний опыт работы и готово предоставить вам услуги высокого качества. Мы гарантируем, что ваша рекламная конструкция будет выполнена с срок и по самым высоким стандартам',
+      'title' => '',
+      'text' => '¡Bienvenido a nuestra agencia de publicidad! Nos complace ofrecerle una amplia gama de servicios en el campo de la publicidad exterior y la producción de estructuras publicitarias en Barcelona y en toda España. Nuestra empresa se especializa en la producción de letreros, brindando una producción de alta calidad, así como la instalación en el sitio del cliente.<br><br>Si necesita un letrero para su tienda, tenemos una variedad de opciones para usted. Podemos producir letreros luminosos, cajas de luz o letreros de neón. La elección de materiales y elementos estructurales depende de sus requisitos y preferencias. También ofrecemos rótulos personalizados que es único y adaptada a sus necesidades.<br><br>Además, podemos producir letras volumétricas o rotulacion de vinilo para usted. Esta es una excelente manera de llamar la atención sobre su marca y atraer nuevos clientes. Si quieres que tu rótulo publicitario sea luminoso, podemos ofrecerte rótulos de led, neón, lightboxes o letras volumétricas retroiluminadas que atraerán la mirada incluso en la oscuridad.<br><br>También ofrecemos servicios para la producción de stands para presentaciones, ferias y stands de exposición. Podemos diseñar un stand de exposición por encargo, teniendo en cuenta todas sus necesidades y deseos, para que su empresa pueda destacarse en la exposición y atraer nuevos clientes. Encargar un stand para una exposición con nosotros significa garantizar un desempeño exitoso en el evento.<br><br>Nuestra agencia de publicidad tiene muchos años de experiencia y está lista para brindarle servicios de alta calidad. Le garantizamos que su estructura publicitaria se completará a tiempo y con los más altos estándares.',
       'btn' => 'Читать дальше <span>&rarr;</span>'
    ],
    'lead' => [
-      'title' => 'Остались вопросы?',
-      'text' => 'Оставьте заявку и мы вам перезвоним в течении часа!',
-      'btn' => 'Оставить заявку',
+      'title' => '¿Tienes mas preguntas?',
+      'text' => '¡Deje una solicitud y te llamaremos en una hora!',
+      'btn' => 'Dejar solicitud',
    ],
 ]
 
