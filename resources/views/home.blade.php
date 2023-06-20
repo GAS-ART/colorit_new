@@ -19,9 +19,9 @@
             <source type="image/webp" srcset="{{ asset('img/home/ru/1mob_.webp') }}">
             @endif
             @if(App::isLocale('es'))
-            <img src="{{ asset('img/home/es/1_.webp') }}" alt="@lang('alt.baner_icon')">
+            <img src="{{ asset('img/home/es/1_.webp') }}" alt="@lang('alt.home.baner_icon')">
             @elseif(App::isLocale('ru'))
-            <img src="{{ asset('img/home/ru/1_.webp') }}" alt="@lang('alt.baner_icon')">
+            <img src="{{ asset('img/home/ru/1_.webp') }}" alt="@lang('alt.home.baner_icon')">
             @endif
         </picture>
     </div>
@@ -62,9 +62,9 @@
                     <div data-quiz="signboards" class="swiper-slide">
                         <div class="item-quiz__img">
                             @if(App::isLocale('es'))
-                            <img src="{{ asset('img/home/quiz/es/1_.webp') }}" alt="@lang('alt.quiz.1')">
+                            <img src="{{ asset('img/home/quiz/es/1_.webp') }}" alt="@lang('alt.home.quiz.1')">
                             @elseif(App::isLocale('ru'))
-                            <img src="{{ asset('img/home/quiz/ru/1_.webp') }}" alt="@lang('alt.quiz.1')">
+                            <img src="{{ asset('img/home/quiz/ru/1_.webp') }}" alt="@lang('alt.home.quiz.1')">
                             @endif
                         </div>
                         <h3 class="item-quiz__title">@lang('home.quiz.body.signboards.title')</h3>
@@ -72,9 +72,9 @@
                     <div data-quiz="letters" class="swiper-slide">
                         <div class="item-quiz__img">
                             @if(App::isLocale('es'))
-                            <img src="{{ asset('img/home/quiz/es/2_.webp') }}" alt="@lang('alt.quiz.2')">
+                            <img src="{{ asset('img/home/quiz/es/2_.webp') }}" alt="@lang('alt.home.quiz.2')">
                             @elseif(App::isLocale('ru'))
-                            <img src="{{ asset('img/home/quiz/ru/2_.webp') }}" alt="@lang('alt.quiz.2')">
+                            <img src="{{ asset('img/home/quiz/ru/2_.webp') }}" alt="@lang('alt.home.quiz.2')">
                             @endif
                         </div>
                         <h3 class="item-quiz__title">@lang('home.quiz.body.letters.title')</h3>
@@ -82,9 +82,9 @@
                     <div data-quiz="vinyl" class="swiper-slide">
                         <div class="item-quiz__img">
                             @if(App::isLocale('es'))
-                            <img src="{{ asset('img/home/quiz/es/3_.webp') }}" alt="@lang('alt.quiz.3')">
+                            <img src="{{ asset('img/home/quiz/es/3_.webp') }}" alt="@lang('alt.home.quiz.3')">
                             @elseif(App::isLocale('ru'))
-                            <img src="{{ asset('img/home/quiz/ru/3_.webp') }}" alt="@lang('alt.quiz.3')">
+                            <img src="{{ asset('img/home/quiz/ru/3_.webp') }}" alt="@lang('alt.home.quiz.3')">
                             @endif
                         </div>
                         <h3 class="item-quiz__title">@lang('home.quiz.body.vinyl.title')</h3>
@@ -92,9 +92,9 @@
                     <div data-popup-id="quiz" data-popup-payload="Event" class="swiper-slide link-on-popup">
                         <div class="item-quiz__img">
                             @if(App::isLocale('es'))
-                            <img src="{{ asset('img/home/quiz/es/4_.webp') }}" alt="@lang('alt.quiz.4')">
+                            <img src="{{ asset('img/home/quiz/es/4_.webp') }}" alt="@lang('alt.home.quiz.4')">
                             @elseif(App::isLocale('ru'))
-                            <img src="{{ asset('img/home/quiz/ru/4_.webp') }}" alt="@lang('alt.quiz.4')">
+                            <img src="{{ asset('img/home/quiz/ru/4_.webp') }}" alt="@lang('alt.home.quiz.4')">
                             @endif
                         </div>
                         <h3 class="item-quiz__title">@lang('home.quiz.body.event.title')</h3>
