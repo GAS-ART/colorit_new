@@ -1341,7 +1341,7 @@
   }
 
   &__img {
-    align-self: flex-end;
+    align-self: center;
     @include adaptiveValueREM('margin-left', 80, 0, 1920, 992, 1);
     @include adaptiveValueREM('margin-right', 130, 20, 1920, 992, 1);
     @media (max-width: $tablet) {
@@ -1367,7 +1367,7 @@
     display: grid;
     grid-template-columns: 350px 350px;
     grid-template-rows: repeat(4, auto);
-    gap: 32px 40px;
+    gap: 20px 40px;
     @media (max-width: $mobile) {
       grid-template-columns: minmax(300px, 350px);
       justify-content: center;
@@ -1385,7 +1385,7 @@
     font-weight: 500;
     line-height: 150%;
     color: #FFFFFF;
-    margin-bottom: 24px;
+    //margin-bottom: 24px;
     width: fit-content;
     cursor: pointer;
     &::before{

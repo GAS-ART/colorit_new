@@ -188,6 +188,7 @@
     padding: 13px 0 13px 16px;
     max-width: 500px;
     outline-color: $purple;
+    border: 1px solid rgba(23, 22, 26, .5);
     &::placeholder{
       font-weight: 300;
       font-size: 14px;
@@ -229,6 +230,7 @@
     padding: 13px 0;
     color: $mainColor;
     outline-color: $purple;
+    border: 1px solid rgba(23, 22, 26, .5);
     option{
       &:not(:last-child){
         margin-bottom: 8px;

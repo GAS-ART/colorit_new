@@ -302,8 +302,6 @@ aboutbtn.addEventListener('click', (e) => {
   }
   aboutText.classList.toggle('active');
 
-  //e.target.innerText == 'Читать дальше →' || e.target.innerHTML == 'Читать дальше →' ? e.target.innerHTML = '<span>&larr;</span> Скрыть текст' : e.target.innerHTML = 'Читать дальше <span>&rarr;</span>';
-
   switch (e.target.innerText) {
     case 'Читать дальше →':
       e.target.innerHTML = '<span>&larr;</span> Скрыть текст';
@@ -336,19 +334,19 @@ let stop = false;
 let scrol = false;
 function stopAnimation() { stop = true; }
 const scrolling = (selectorBtn) => {
-  //const btnUp = document.querySelector(selectorBtn);
+  const btnUp = document.querySelector(selectorBtn);
 
   const links = document.querySelectorAll(".ancor");
   let speed = 0.3;
   const headerHeight = document.querySelector('.header__top').offsetHeight;
 
-  /*window.addEventListener("scroll", () => {
+  window.addEventListener("scroll", () => {
     if (document.documentElement.scrollTop > 1600) {
-      btnUp.style.opacity = "1";
+      btnUp.classList.add('active');
     } else {
-      btnUp.style.opacity = "0";
+      btnUp.classList.remove('active');
     }
-  });*/
+  });
 
   for (let i = 0; i < links.length; i++) {
     links[i].addEventListener("click", function (event) {
@@ -392,4 +390,6 @@ const scrolling = (selectorBtn) => {
   }
 };
 
-scrolling(/*".pageup"*/);
+scrolling(".scroll-top");
+
+

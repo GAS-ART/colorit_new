@@ -17,6 +17,7 @@ return [
       'contacts' => 'Контакты',
     ],
   ],
+  'scrollTop' => 'Arriba',
 ]
 
 ?>

@@ -1,5 +1,5 @@
 @section('header')
-<header class="header">
+<header id="header" class="header">
    <div class="header__wrapper">
       <div class="header__top">
          <div class="header__body">

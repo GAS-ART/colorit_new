@@ -10,6 +10,7 @@
       </main>
       @include('inc.footer')
    </div>
+   @include('inc.scroll_top')
    @include('inc.popup')
    @vite(['resources/js/app.js'])
 </body>
