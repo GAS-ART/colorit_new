@@ -29,9 +29,8 @@ languageBtn.addEventListener('click', function (e) {
 //Async form sending
 const forms = document.querySelectorAll('form');
 const errorsMessagesUA = {
-  name: ['Не заполнено поле "ВАШЕ ИМЯ"', 'Не заповнено поле "ВАШЕ ІМ\'Я"', 'Поле \"ИМЯ\" должно иметь 2 или больше символов', 'Поле "ІМ\'Я" повинно мати 2 або більше символів', 'Поле \"ИМЯ\" должно иметь не больше 80 символов', 'Поле "ІМ\'Я" повинно мати не більше 80 символів', 'Поле \"ИМЯ\" не может содержать цифры', 'Поле "ІМ\'Я" не може містити цифри'],
-  phone: ['Не верный формат номера телефона', 'Невірний формат номеру телефона', 'Не заполнено поле "Номер телефона"', 'Не заповнено поле "Номер телефону"',],
-  text: ['Вы ввели слишком много символов в поле "Сообщение"', 'Ви ввели занадто багато символів у полі "Повідомлення"']
+  name: ['Не заполнено поле "ВАШЕ ИМЯ"', 'El campo Nombre no esta rellenado"', 'Поле \"ИМЯ\" должно иметь 2 или больше символов', 'Campo "Nombre" Debe contener 2 o mas simbolos', 'Поле \"ИМЯ\" должно иметь не больше 80 символов', 'Campo "Nombre" no puede contener mas de 80 simbolos', 'Поле \"ИМЯ\" не может содержать цифры', 'Campo "Nombre" no puede contener los números'],
+  phone: ['Не верный формат номера телефона', 'Introduce un telefono válido', 'Не заполнено поле "Номер телефона"', 'El campo no esta rellenado telefono',],
 }
 
 forms.forEach(form => {
@@ -104,20 +103,6 @@ forms.forEach(form => {
             phoneError.previousElementSibling.classList.remove('error');
             phoneError.previousElementSibling.previousElementSibling.classList.remove('error');
           }
-          if (data.errors?.text) {
-            textError.innerText = data.errors?.text[0];
-            textError.classList.add('error');
-            textError.previousElementSibling.classList.add('error');
-            textError.previousElementSibling.previousElementSibling.classList.add('error');
-          } else if (!data.errors?.text && textError) {
-            textError.innerText = '';
-            textError.classList.remove('error');
-            textError.previousElementSibling.classList.remove('error');
-            textError.previousElementSibling.previousElementSibling.classList.remove('error');
-          }
-          //data.errors?.name ? mainForm.querySelector('.error-name').innerText = data.errors?.name[0] : mainForm.querySelector('.error-name').innerText = "";
-          //data.errors?.phone ? mainForm.querySelector('.error-phone').innerText = data.errors?.phone[0] : mainForm.querySelector('.error-phone').innerText = "";
-          //data.errors?.text ? mainForm.querySelector('.error-text').innerText = data.errors?.text[0] : mainForm.querySelector('.error-text').innerText = "";
         } else {
           if (data.errors?.name) {
             nameError.innerText = errorsMessagesUA.name[errorsMessagesUA.name.findIndex(msg => msg == data.errors.name[0]) + 1];
@@ -141,20 +126,6 @@ forms.forEach(form => {
             phoneError.previousElementSibling.classList.remove('error');
             phoneError.previousElementSibling.previousElementSibling.classList.remove('error');
           }
-          if (data.errors?.text) {
-            textError.innerText = errorsMessagesUA.text[errorsMessagesUA.text.findIndex(msg => msg == data.errors.text[0]) + 1];
-            textError.classList.add('error');
-            textError.previousElementSibling.classList.add('error');
-            textError.previousElementSibling.previousElementSibling.classList.add('error');
-          } else if (!data.errors?.text && textError) {
-            textError.innerText = '';
-            textError.classList.remove('error');
-            textError.previousElementSibling.classList.remove('error');
-            textError.previousElementSibling.previousElementSibling.classList.remove('error');
-          }
-          // data.errors?.name ? mainForm.querySelector('.error-name').innerText = errorsMessagesUA.name[errorsMessagesUA.name.findIndex(msg => msg == data.errors.name[0]) + 1] : mainForm.querySelector('.error-name').innerText = "";
-          // data.errors?.phone ? mainForm.querySelector('.error-phone').innerText = errorsMessagesUA.phone[errorsMessagesUA.phone.findIndex(msg => msg == data.errors.phone[0]) + 1] : mainForm.querySelector('.error-phone').innerText = "";
-          // data.errors?.text ? mainForm.querySelector('.error-text').innerText = errorsMessagesUA.text[errorsMessagesUA.text.findIndex(msg => msg == data.errors.text[0]) + 1] : mainForm.querySelector('.error-text').innerText = "";
         }
       }
     } catch (e) {
@@ -331,7 +302,30 @@ aboutbtn.addEventListener('click', (e) => {
   }
   aboutText.classList.toggle('active');
 
-  e.target.innerText == 'Читать дальше →' || e.target.innerHTML == 'Читать дальше →' ? e.target.innerHTML = '<span>&larr;</span> Скрыть текст' : e.target.innerHTML = 'Читать дальше <span>&rarr;</span>';
+  //e.target.innerText == 'Читать дальше →' || e.target.innerHTML == 'Читать дальше →' ? e.target.innerHTML = '<span>&larr;</span> Скрыть текст' : e.target.innerHTML = 'Читать дальше <span>&rarr;</span>';
+
+  switch (e.target.innerText) {
+    case 'Читать дальше →':
+      e.target.innerHTML = '<span>&larr;</span> Скрыть текст';
+      break;
+
+    case '← Скрыть текст':
+      e.target.innerHTML = 'Читать дальше <span>&rarr;</span>';
+      break;
+
+    case 'Leer mas →':
+      e.target.innerHTML = '<span>&larr;</span> Cerrar';
+      break;
+
+    case '← Cerrar':
+      e.target.innerHTML = 'Leer mas <span>&rarr;</span>';
+      break;
+
+    default:
+      break;
+  }
+
+
 
   e.target.classList.add('active');
   setTimeout(() => { e.target.classList.remove('active') }, 300)

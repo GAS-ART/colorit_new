@@ -55,7 +55,7 @@ return [
       'sub_title' => 'Es seguro y conveniente trabajar con nosotros.',
       'sub_title_text' => 'Damos una garantía de los productos de 3 años. En caso de mal funcionamiento, reparamos inmediatamente.',
       'slides' => [
-         'term_title' => 'Срок изготовления',
+         'term_title' => 'tiempo de producción',
          '1' => [
             'title' => 'Rótulo luminoso de metacrilato para tienda Rewers',
             'text' => 'Cartel luminoso de metacrilato 3mm opaco blanco por todos lados. Se ilumina entero. A parte aplicamos vinilo impreso para conseguir el diseño',
@@ -132,7 +132,7 @@ return [
    'gift' => [
       'title' => '¿Cooperemos?',
       'sub_title' => 'Deje una solicitud y OBTENGA UN BONO: ¡una sudadera (camiseta) con su logotipo personalizado como regalo al finalizar el proyecto!',
-      'btn' => 'Получить бонус',
+      'btn' => 'Obtener bono',
    ],
    'video' => [
       'title' => 'Echa un vistazo al proceso de produccion de letras y rótulos desde interior',
@@ -246,7 +246,7 @@ return [
    'about' =>[
       'title' => '',
       'text' => '¡Bienvenido a nuestra agencia de publicidad! Nos complace ofrecerle una amplia gama de servicios en el campo de la publicidad exterior y la producción de estructuras publicitarias en Barcelona y en toda España. Nuestra empresa se especializa en la producción de letreros, brindando una producción de alta calidad, así como la instalación en el sitio del cliente.<br><br>Si necesita un letrero para su tienda, tenemos una variedad de opciones para usted. Podemos producir letreros luminosos, cajas de luz o letreros de neón. La elección de materiales y elementos estructurales depende de sus requisitos y preferencias. También ofrecemos rótulos personalizados que es único y adaptada a sus necesidades.<br><br>Además, podemos producir letras volumétricas o rotulacion de vinilo para usted. Esta es una excelente manera de llamar la atención sobre su marca y atraer nuevos clientes. Si quieres que tu rótulo publicitario sea luminoso, podemos ofrecerte rótulos de led, neón, lightboxes o letras volumétricas retroiluminadas que atraerán la mirada incluso en la oscuridad.<br><br>También ofrecemos servicios para la producción de stands para presentaciones, ferias y stands de exposición. Podemos diseñar un stand de exposición por encargo, teniendo en cuenta todas sus necesidades y deseos, para que su empresa pueda destacarse en la exposición y atraer nuevos clientes. Encargar un stand para una exposición con nosotros significa garantizar un desempeño exitoso en el evento.<br><br>Nuestra agencia de publicidad tiene muchos años de experiencia y está lista para brindarle servicios de alta calidad. Le garantizamos que su estructura publicitaria se completará a tiempo y con los más altos estándares.',
-      'btn' => 'Читать дальше <span>&rarr;</span>'
+      'btn' => 'Leer mas <span>&rarr;</span>'
    ],
    'lead' => [
       'title' => '¿Tienes mas preguntas?',

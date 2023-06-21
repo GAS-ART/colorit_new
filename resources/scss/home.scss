@@ -1501,6 +1501,7 @@
     span{
       font-weight: 400;
       font-size: 16px;
+      pointer-events: none;
     }
     &.active{
       opacity: 0;

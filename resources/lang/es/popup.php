@@ -1,24 +1,24 @@
 <?php
 
 return [
-  'title' => 'Заполните форму',
-  'name' => 'Имя <span>*</span>',
-  'name_placeholder' => 'Введите ваше имя',
-  'phone' => 'Телефон <span>*</span>',
-  'phone_placeholder' => 'Введите ваш телефон',
-  'email' => 'Email',
-  'email_placeholder' => 'Введите ваш Email',
-  'btn' => 'Оставить заявку',
-  'service' => 'Услуга',
-  'file' => 'Прикрепить файл',
-  'select_placeholder' => 'Выберите что хотите заказать',
+  'title' => 'RELLENA EL FORMULARIO',
+  'name' => 'Nombre<span>*</span>',
+  'name_placeholder' => 'Indica su nombre',
+  'phone' => 'Mobil<span>*</span>',
+  'phone_placeholder' => 'Indica su numero de mobil',
+  'email' => 'Correo electronico',
+  'email_placeholder' => 'Іndica su correo',
+  'btn' => 'Enviar solicitud',
+  'service' => 'Servico',
+  'file' => 'Adjuntar el archivo',
+  'select_placeholder' => 'Elige el servicio',
   'success' => [
-    'title' => 'Данные отправлены!<br><br>Мы свяжемся с вами в ближайщее время',
+    'title' => 'Gracias!<br><br>Encantados de conocerte.<br><br>En breve te llamaremos.',
     'btn' => 'ОК',
   ],
   'gift' => [
-    'title' => 'Получить <span>подарок</span>',
-    'sub_title' => 'Получите кофту с вашим логотипом заполнив данные',
+    'title' => 'Obtener un <span>regalo</span>',
+    'sub_title' => 'Obtenga una chaqueta con tu logo rellenando los datos',
   ],
 ]
 
