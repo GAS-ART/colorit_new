@@ -146,6 +146,8 @@
   }
 
   &__btn {
+    display: inline-block;
+    position: relative;
     padding: 24px 40px;
     font-weight: 700;
     font-size: 18px;
@@ -154,6 +156,7 @@
     transition: all 0.3s ease 0s;
     background-color: $mainColor;
     white-space: nowrap;
+    overflow: hidden;
     @media (pointer: fine) {
       @media (pointer: fine) {
         &:hover {
@@ -641,6 +644,9 @@
   }
 
   &__free-btn {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
     padding: 24px 80px;
     background-color: #FFFFFF;
     font-weight: 700;
@@ -940,6 +946,9 @@
   }
 
   &__btn {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
     padding: 24px 40px;
     font-weight: 700;
     font-size: 18px;
@@ -1550,6 +1559,9 @@
   }
 
   &__btn {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
     padding: 24px 40px;
     font-weight: 700;
     font-size: 18px;

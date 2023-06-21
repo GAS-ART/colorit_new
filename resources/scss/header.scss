@@ -154,6 +154,8 @@
     transition: all 0.3s ease 0s;
     cursor: pointer;
     white-space: nowrap;
+    position: relative;
+    overflow-x: hidden;
     @media (pointer: fine) {
       &:hover {
         background: $purple;
@@ -166,6 +168,19 @@
     @media (max-width: $mobile) {
       display: none;
     } 
+    //animation: pulseAnimation 1s infinite;
+  }
+
+  @keyframes pulseAnimation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
   }
 
   &__menu {

@@ -35,7 +35,7 @@
                 <li class="main__list-item">@lang('home.main.list-3')</li>
                 <li class="main__list-item">@lang('home.main.list-4')</li>
             </ul>
-            <a href="#quizSection" class="main__btn ancor">@lang('home.main.btn')</a>
+            <a href="#quizSection" class="main__btn ancor">@lang('home.main.btn')<span class="flare white"></span></a>
         </div>
     </div>
 
@@ -126,7 +126,7 @@
                         <img src="{{asset('img/home/es/solution/card.svg')}}" alt="">
                     </div>
                     <div class="solution__card-text">
-                        @lang('home.solution.card.2')
+                        @lang('home.solution.card.5')
                     </div>
                 </div>
                 <div class="solution__card">
@@ -150,7 +150,7 @@
                         <img src="{{asset('img/home/es/solution/card.svg')}}" alt="">
                     </div>
                     <div class="solution__card-text">
-                        @lang('home.solution.card.5')
+                        @lang('home.solution.card.2')
                     </div>
                 </div>
                 <div class="solution__card">
@@ -166,7 +166,8 @@
                 <div class="solution__free-content">
                     <h3 class="solution__free-text">@lang('home.solution.free.title')</h3>
                     {{-- <a href="/docs/fiwhcd050c.pdf" download>@lang('home.solution.free.btn')</a> --}}
-                    <a href="/docs/20-gaid.pdf" download class="solution__free-btn">@lang('home.solution.free.btn')</a>
+                    <a href="/docs/20-gaid.pdf" download class="solution__free-btn">@lang('home.solution.free.btn')<span
+                            class="flare"></span></a>
                 </div>
                 <div class="solution__free-img">
                     <img src="{{asset('img/home/es/solution/tablet-full.svg')}}" alt="">
@@ -518,7 +519,7 @@
                 </div>
             </div>
             <button data-popup-id="gift" class="gift__btn link-on-popup">
-                @lang('home.gift.btn')
+                @lang('home.gift.btn')<span class="flare white"></span>
             </button>
         </div>
     </div>
@@ -831,7 +832,7 @@
                 <p class="lead__text">@lang('home.lead.text')</p>
             </div>
             <button data-popup-id="main" class="lead__btn link-on-popup">
-                @lang('home.lead.btn')
+                @lang('home.lead.btn')<span class="flare white"></span>
             </button>
         </div>
     </div>

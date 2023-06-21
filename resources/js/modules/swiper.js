@@ -99,9 +99,9 @@ function quiz(quizeInitBtns) {
       }
 
       if (e.target.dataset.quiz == 'layout') {
-        lang == "es" ? quizTitle.innerText = 'У вас есть гововый макет?' : quizTitle.innerText = 'У вас есть гововый макет?'
+        lang == "es" ? quizTitle.innerText = 'Tienes ya el diseño?' : quizTitle.innerText = 'У вас есть гововый макет?'
       } else {
-        lang == "es" ? quizTitle.innerText = 'Что именно вам нужно?' : quizTitle.innerText = 'Что именно вам нужно?'
+        lang == "es" ? quizTitle.innerText = '¿Qué es exactamente lo que necesita?' : quizTitle.innerText = 'Что именно вам нужно?'
       }
 
       await new Promise(resolve => {

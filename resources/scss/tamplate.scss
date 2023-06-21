@@ -14,3 +14,31 @@
     margin-bottom: 80px;
   }
 }
+
+.flare {
+  position: absolute;
+  top: 0;
+  left: -0%;
+  width: 45px;
+  height: 100%;
+  transform: skewX(45deg);
+  background: linear-gradient(90deg, rgba(137, 54, 142, 0.1), rgba(137, 54, 142, 0.4));
+  animation: flareAnimation 4s infinite linear;
+  &.white{
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.4));
+  }
+}
+
+@keyframes flareAnimation {
+  0% {
+    left: -50%;
+    opacity: 1;
+  }
+  50% {
+    left: 120%;
+    opacity: 1;
+  }
+  51%, 100%{
+    opacity: 0;
+  }
+}

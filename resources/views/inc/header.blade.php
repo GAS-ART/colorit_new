@@ -72,9 +72,10 @@
                      <!--Для выпадающего списка языков-->
                   </div>
                </div>
-               <div data-popup-id="main" class="info-header__lead link-on-popup">
-                  @lang('header.lead')
-               </div>
+               <button data-popup-id="main" class="info-header__lead link-on-popup">
+                  @lang('header.lead')<span class="flare"></span>
+               </button>
+               </button>
                <div class="info-header__menu">
                   <span></span>
                </div>
