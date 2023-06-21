@@ -73,7 +73,7 @@
                   </div>
                </div>
                <button data-popup-id="main" class="info-header__lead link-on-popup">
-                  @lang('header.lead')<span class="flare"></span>
+                  @lang('header.lead')<span class="flare-header"></span>
                </button>
                </button>
                <div class="info-header__menu">

@@ -24,6 +24,7 @@
   transform: skewX(45deg);
   background: linear-gradient(90deg, rgba(137, 54, 142, 0.1), rgba(137, 54, 142, 0.4));
   animation: flareAnimation 4s infinite linear;
+  pointer-events: none;
   &.white{
     background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.4));
   }
@@ -40,5 +41,31 @@
   }
   51%, 100%{
     opacity: 0;
+  }
+}
+
+.flare-header {
+  position: absolute;
+  top: 0;
+  left: -50%;
+  width: 45px;
+  height: 100%;
+  transform: skewX(45deg);
+  background: linear-gradient(90deg, rgba(137, 54, 142, 0.1), rgba(137, 54, 142, 0.4));
+  animation: flareHeaderAnimation 9s infinite linear;
+  pointer-events: none;
+}
+
+@keyframes flareHeaderAnimation {
+  0% {
+    left: -100%;
+    opacity: 1;
+  }
+  70% {
+    left: -40%;
+    opacity: 1;
+  }
+  100%{
+    left: 120%;
   }
 }
