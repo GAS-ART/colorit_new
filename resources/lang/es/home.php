@@ -2,7 +2,7 @@
 
 return [
    'main'=> [
-      'title' => 'Rótulos<br> letras córporeas <span>en Barcelona</span> ',
+      'title' => 'Rótulos<br> Letras corpóreas <span>en Barcelona</span> ',
       'list-1' => '— trabajo individual con cada cliente',
       'list-2' => '— garantia 3 años de los productos',
       'list-3' => '— fabricación propia',
