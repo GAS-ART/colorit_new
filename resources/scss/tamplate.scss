@@ -52,7 +52,7 @@
   height: 100%;
   transform: skewX(45deg);
   background: linear-gradient(90deg, rgba(137, 54, 142, 0.1), rgba(137, 54, 142, 0.4));
-  animation: flareHeaderAnimation 9s infinite linear;
+  animation: flareHeaderAnimation 8s infinite linear;
   pointer-events: none;
 }
 
@@ -61,7 +61,7 @@
     left: -100%;
     opacity: 1;
   }
-  70% {
+  83% {
     left: -40%;
     opacity: 1;
   }
