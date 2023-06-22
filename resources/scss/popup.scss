@@ -189,6 +189,7 @@
     max-width: 500px;
     outline-color: $purple;
     border: 1px solid rgba(23, 22, 26, .5);
+    font-family: 'Jost';
     &::placeholder{
       font-weight: 300;
       font-size: 14px;
@@ -216,7 +217,10 @@
       line-height: 24px;
       color: $mainColor;
       padding: 0 0 0 16px;
+      font-family: 'Jost';
+      opacity: 0.8;
       z-index: 2;
+      top: 14px;
       &.inactive{
         display: none;
       }
@@ -231,6 +235,7 @@
     color: $mainColor;
     outline-color: $purple;
     border: 1px solid rgba(23, 22, 26, .5);
+    font-family: 'Jost';
     option{
       &:not(:last-child){
         margin-bottom: 8px;
