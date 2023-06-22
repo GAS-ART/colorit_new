@@ -1,6 +1,9 @@
 .scroll-top {
    position: fixed;
    right: 0px;
+   .lock &{
+      padding-right: var(--scrollbar-width);
+   }
    bottom: 50px;
    display: block;
    cursor: pointer;
@@ -15,9 +18,6 @@
       visibility: visible;
       pointer-events: auto;
       z-index: 2;
-   }
-   @media (max-width: em(1700)) {
-      right: -36px;
    }
    span {
    display: block;

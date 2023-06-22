@@ -994,7 +994,7 @@
     @include adaptiveValueREM('margin-right', 80, 20, 1920, 992, 1);
     max-width: 540px;
     @media (max-width: $tablet) {
-      margin-bottom: 40px;
+      margin: 0 auto 40px auto;
     }
   }
 
@@ -1337,6 +1337,7 @@
     @media (max-width: $mobile) {
       padding-bottom: 80px;
       padding-top: 80px;
+      justify-content: center;
     }
   }
 

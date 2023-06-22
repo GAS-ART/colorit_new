@@ -12,6 +12,10 @@
   &__body {
       display: flex;
       padding: 0 20px;
+      .lock &{
+        padding: 0 calc(20px + var(--scrollbar-width)) 0 20px;
+      }
+      
   }
 
   &__top {
@@ -22,6 +26,7 @@
     width: 100%;
     background-color: #ffffff;
     z-index: 10;
+
   }
 
   &__content {

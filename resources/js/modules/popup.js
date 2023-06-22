@@ -15,8 +15,13 @@ export function popUp(popupId, payload, uploadFile) {
 	if (uploadFile) {
 		inputFile.classList.remove('disabled');
 	}
+
+	const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
+	document.documentElement.style.setProperty('--scrollbar-width', `${scrollbarWidth}px`);
+
+	bodyLock.classList.add('lock');
 	popUp.classList.add('open');
-	//bodyLock.classList.add('lock');
+
 
 	popupCloseIcon.addEventListener('click', function (e) {
 		popupClose(popUp);
@@ -29,7 +34,8 @@ export function popUp(popupId, payload, uploadFile) {
 
 	function popupClose(popupActive) {
 		popupActive.classList.remove('open');
-		bodyLock.classList.remove("lock");
+		setTimeout(() => bodyLock.classList.remove("lock"), 500)
+		//bodyLock.classList.remove("lock");
 		popUp.classList.remove('sent');
 		inputs.forEach(input => {
 			if (!input.value) {
