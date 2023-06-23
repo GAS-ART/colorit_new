@@ -23,7 +23,25 @@
       <img src="{{ asset('img/letters/ru/main.jpg') }}" alt="@lang('alt.home.baner_icon')">
       @endif
     </picture>
-    <h1 class="main__baner--title">@lang('letters.title')</h1>
+    <h1 class="main__baner--title"><span>@lang('letters.title')</span></h1>
+    <div class="main__circle">
+      <div class="main__circle--content">@lang('letters.circle')</div>
+      <div class="main__circle--small"></div>
+      <div class="main__circle--big"></div>
+    </div>
+  </div>
+</section>
+<section class="bread-crambs">
+  <div class="bread-crambs__body">
+    <a href="{{ route('home', ['locale' => __('lang.current')]) }}">@lang('crumbs.home')</a> -
+    <span>@lang('crumbs.letters')</span>
+  </div>
+</section>
+<section class="letters-text">
+  <div class="letters-text__container">
+    <div class="letters-text__body">
+      @lang('letters.text');
+    </div>
   </div>
 </section>
 @endsection

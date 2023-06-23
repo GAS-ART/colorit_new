@@ -1,9 +1,115 @@
-.main__baner--title{
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  @extend %title;
-  color: #fff;
-  text-transform: uppercase;
-  //font-family: 'Geometria';
+
+
+.main {
+  margin-bottom: 0;
+  @media (max-width: $mobile) {
+    margin-bottom: 130px;
+  }
+  @media (max-width: $mobileSmall) {
+    margin-bottom: 120px;
+  }
+  &__baner--title{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @extend %title;
+    color: #fff;
+    text-transform: uppercase;
+    span{
+      padding: 60px 100px;
+      color: #ffffff;
+      border-radius: 8px;
+      background: rgba(23, 22, 26, 0.80);
+      @media (max-width: $mobile) {
+        padding: 20px 20px;
+      }
+      @media (max-width: $mobileSmall) {
+        padding: 20px 10px;
+      }
+    }
+   
+  }
+  &__circle {
+    position: absolute;
+    bottom: 0px;
+    transform: translateY(50%);
+    right: 80px;
+    @include adaptiveValueREM('width', 280, 140, 1920, 360, 1);
+    @include adaptiveValueREM('height', 280, 140, 1920, 360, 1);
+    background-color: $purple;
+    border-radius: 50%;
+    color: #ffffff;
+    @include adaptiveValueREM('font-size', 24, 14, 1920, 360, 1);
+    font-family: Jost;
+    font-weight: 700;
+    line-height: 120%;
+    text-align: center;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media (max-width: $mobile) {
+      right: 54px;
+    }
+    &--content{
+      position: relative;
+      z-index: 3;
+      max-width: 155px;
+      width: fit-content;
+      @media (max-width: $mobile) {
+        max-width: 91px;
+      }
+    }
+    &--small{
+      position: absolute;
+      @include adaptiveValueREM('width', 340, 170, 1920, 360, 1);
+      @include adaptiveValueREM('height', 340, 170, 1920, 360, 1);
+      border-radius: 50%;
+      opacity: 0.2;
+      background-color: $purple;
+      z-index: 2;
+    }
+    &--big{
+      position: absolute;
+      @include adaptiveValueREM('width', 400, 200, 1920, 360, 1);
+      @include adaptiveValueREM('height', 400, 200, 1920, 360, 1);
+      border-radius: 50%;
+      opacity: 0.1;
+      background-color: $purple;
+      z-index: 1;
+    }
+  }
 }
+
+.bread-crambs {
+  margin-left: 20px;
+  @extend %section;
+  @media (max-width: $mobile) {
+    margin-left: 0;
+  }
+  &__body {
+    padding: 16px 24px;
+    a{
+      color: $grey3;
+      line-height: 120%;
+      transition: all 0.3s ease 0s;
+      @media (pointer: fine) {
+        &:hover {
+          color: $pink;
+          font-weight: 700;
+        }
+      }
+    }
+    span{
+      font-weight: 700;
+      color: $purple;
+      line-height: 120%;
+    }
+  }
+}
+

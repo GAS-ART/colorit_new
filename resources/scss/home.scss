@@ -48,7 +48,7 @@
       transform: translate(-50%, -50%);
     }
     @media (max-width: $mobileSmall) {
-      top: 172px;
+      top: 162px;
       transform: translateX(-53%);
     }
   }
@@ -82,8 +82,8 @@
       position: relative;
       object-fit: cover;
       max-height: 680px;
-      object-position: 0px 40px;
-      top: -40px;
+      /* object-position: 0px 40px;
+      top: -40px; */
     }
     @media (max-width: $mobileSmall) {
       object-position: 0 0;
