@@ -1,0 +1,9 @@
+.main__baner--title{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  @extend %title;
+  color: #fff;
+  text-transform: uppercase;
+  //font-family: 'Geometria';
+}

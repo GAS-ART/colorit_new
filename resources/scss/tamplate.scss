@@ -2,7 +2,7 @@
   font-family: 'Jost';
   font-weight: 700;
   font-size: 60px;
-  @include adaptiveValueREM('font-size', 60, 36, 1920, 360, 1);
+  @include adaptiveValueREM('font-size', 150, 36, 1920, 360, 1);
   span{
     color: $purple;
   }

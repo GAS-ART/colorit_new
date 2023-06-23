@@ -46,6 +46,21 @@ Route::get('/', function () {
     }
   })->name('home');
 
+  Route::get('/{locale}/letters', function ($locale) {
+    if (!in_array($locale, ['es', 'ru'])) {
+  
+      abort(404);
+    } else if ($locale == 'es') {
+  
+      App::setLocale('es');
+      return view('letters');
+    } else if ($locale == 'ru') {
+  
+      App::setLocale('ru');
+      return view('letters');
+    }
+  })->name('letters');
+
 
   Route::get('/{locale}/form', function ($locale) {
     if (!in_array($locale, ['es', 'ru'])) {

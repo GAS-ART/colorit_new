@@ -88,7 +88,7 @@
                <ul class="header-menu__list">
                   <li class="header-menu__list-item"><a href="#"
                         class="header-menu__list-link">@lang('main.menu.signboards')</a></li>
-                  <li class="header-menu__list-item"><a href="#"
+                  <li class="header-menu__list-item"><a href="{{ route('letters', ['locale' => __('lang.current')]) }}"
                         class="header-menu__list-link">@lang('main.menu.letters')</a></li>
                   <li class="header-menu__list-item"><a href="#"
                         class="header-menu__list-link">@lang('main.menu.vinyl')</a></li>

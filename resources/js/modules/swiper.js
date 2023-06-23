@@ -202,46 +202,48 @@ new Swiper('.slider-portfolio', {
 const portfolioSliderImgHeight = document.querySelector('.portfolio-slide__img img');
 const portfolioSlideImgBody = document.querySelectorAll('.portfolio-slide__img');
 
-portfolioSliderImgHeight.addEventListener('load', () => { setHeight() });
+if (portfolioSliderImgHeight) {
+  portfolioSliderImgHeight.addEventListener('load', () => { setHeight() });
 
-function debounce(func, delay) {
-  let timeoutId;
-  let isFirstCall = true;
+  function debounce(func, delay) {
+    let timeoutId;
+    let isFirstCall = true;
 
-  return function (/* ...args */) {
-    if (isFirstCall) {
-      //func.apply(this, args);
-      func();
-      isFirstCall = false;
-    } else {
-      clearTimeout(timeoutId);
-    }
+    return function (/* ...args */) {
+      if (isFirstCall) {
+        //func.apply(this, args);
+        func();
+        isFirstCall = false;
+      } else {
+        clearTimeout(timeoutId);
+      }
 
-    timeoutId = setTimeout(() => {
-      isFirstCall = true;
-      setHeight();
-    }, delay);
+      timeoutId = setTimeout(() => {
+        isFirstCall = true;
+        setHeight();
+      }, delay);
+    };
+  }
+
+  const resetImageHeight = () => {
+    portfolioSlideImgBody.forEach((imgBody) => {
+      imgBody.style.removeProperty('height');
+    });
   };
+
+  const setHeight = () => {
+    const height = portfolioSliderImgHeight.offsetHeight;
+    portfolioSlideImgBody.forEach((imgBody, index) => {
+      if (index !== 0) {
+        imgBody.style.height = height + 'px';
+      }
+    });
+  }
+
+  const debouncedResetImageHeight = debounce(resetImageHeight, 1000);
+
+  window.addEventListener('resize', debouncedResetImageHeight);
 }
-
-const resetImageHeight = () => {
-  portfolioSlideImgBody.forEach((imgBody) => {
-    imgBody.style.removeProperty('height');
-  });
-};
-
-const setHeight = () => {
-  const height = portfolioSliderImgHeight.offsetHeight;
-  portfolioSlideImgBody.forEach((imgBody, index) => {
-    if (index !== 0) {
-      imgBody.style.height = height + 'px';
-    }
-  });
-}
-
-const debouncedResetImageHeight = debounce(resetImageHeight, 1000);
-
-window.addEventListener('resize', debouncedResetImageHeight);
 
 
 

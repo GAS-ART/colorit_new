@@ -292,42 +292,41 @@ function toggleAnswer(answer) {
 const aboutText = document.querySelector('.about__text');
 const aboutbtn = document.querySelector('.about__btn');
 
-aboutText.style.height = '180px';
+if (aboutText) {
+  aboutText.style.height = '180px';
 
-aboutbtn.addEventListener('click', (e) => {
-  if (aboutText.style.height === '180px') {
-    aboutText.style.height = aboutText.scrollHeight + 'px';
-  } else {
-    aboutText.style.height = '180px'
-  }
-  aboutText.classList.toggle('active');
+  aboutbtn.addEventListener('click', (e) => {
+    if (aboutText.style.height === '180px') {
+      aboutText.style.height = aboutText.scrollHeight + 'px';
+    } else {
+      aboutText.style.height = '180px'
+    }
+    aboutText.classList.toggle('active');
 
-  switch (e.target.innerText) {
-    case 'Читать дальше →':
-      e.target.innerHTML = '<span>&larr;</span> Скрыть текст';
-      break;
+    switch (e.target.innerText) {
+      case 'Читать дальше →':
+        e.target.innerHTML = '<span>&larr;</span> Скрыть текст';
+        break;
 
-    case '← Скрыть текст':
-      e.target.innerHTML = 'Читать дальше <span>&rarr;</span>';
-      break;
+      case '← Скрыть текст':
+        e.target.innerHTML = 'Читать дальше <span>&rarr;</span>';
+        break;
 
-    case 'Leer mas →':
-      e.target.innerHTML = '<span>&larr;</span> Cerrar';
-      break;
+      case 'Leer mas →':
+        e.target.innerHTML = '<span>&larr;</span> Cerrar';
+        break;
 
-    case '← Cerrar':
-      e.target.innerHTML = 'Leer mas <span>&rarr;</span>';
-      break;
+      case '← Cerrar':
+        e.target.innerHTML = 'Leer mas <span>&rarr;</span>';
+        break;
 
-    default:
-      break;
-  }
-
-
-
-  e.target.classList.add('active');
-  setTimeout(() => { e.target.classList.remove('active') }, 300)
-})
+      default:
+        break;
+    }
+    e.target.classList.add('active');
+    setTimeout(() => { e.target.classList.remove('active') }, 300)
+  })
+}
 
 //scroll
 let stop = false;
