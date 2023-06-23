@@ -283,3 +283,82 @@ new Swiper('.slider-review', {
     prevEl: '.slider-review__btn-prev',
   },
 });
+
+
+//LETTERS PAGE
+
+
+//MATERIAL
+const lettersMaterialSlider = document.querySelector('.slider-letters-material');
+
+if (lettersMaterialSlider) {
+  new Swiper(lettersMaterialSlider, {
+    // configure Swiper to use modules
+    modules: [Navigation],
+    simulateTouch: true,
+    slidesPerView: 1,
+    grabCursor: true,
+    spaceBetween: 20,
+    loop: true,
+    speed: 800,
+    navigation: {
+      nextEl: '.slider-letters-material__btn-next',
+      prevEl: '.slider-letters-material__btn-prev',
+    },
+    breakpoints: {
+      1240: {
+        grabCursor: true,
+        slidesPerView: 5,
+      },
+      992: {
+        slidesPerView: 4,
+        loop: false,
+      },
+      768: {
+        slidesPerView: 3,
+        loop: false,
+      },
+      500: {
+        slidesPerView: 2,
+      },
+    },
+  });
+}
+
+//THICKNESS
+
+const lettersThicknessSlider = document.querySelector('.slider-letters-thickness');
+
+if (lettersThicknessSlider) {
+  new Swiper(lettersThicknessSlider, {
+    // configure Swiper to use modules
+    modules: [Navigation],
+    simulateTouch: true,
+    slidesPerView: 1,
+    grabCursor: true,
+    spaceBetween: 20,
+    loop: true,
+    speed: 800,
+    navigation: {
+      nextEl: '.slider-letters-thickness__btn-next',
+      prevEl: '.slider-letters-thickness__btn-prev',
+    },
+    breakpoints: {
+      1240: {
+        slidesPerView: 5,
+        grabCursor: false,
+      },
+      992: {
+        slidesPerView: 4,
+        loop: false,
+      },
+      768: {
+        slidesPerView: 3,
+        loop: false,
+      },
+      500: {
+        slidesPerView: 2,
+      },
+    },
+  });
+}
