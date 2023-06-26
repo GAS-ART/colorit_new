@@ -747,94 +747,9 @@
         </div>
     </div>
 </section>
-<section class="questions">
-    <div class="questions__container">
-        <div class="questions__body">
-            <div class="questions__img">
-                <img src="{{asset('img/icons/question.svg')}}" alt="">
-            </div>
-            <div class="questions__content content-questions">
-                <h2 class="content-questions__title">@lang('home.questions.title')</h2>
-                <div class="content-questions__body">
-                    <div class="content-questions__card">
-                        <div class="content-questions__question">@lang('home.questions.1.question')
-                        </div>
-                        <div class="content-questions__answer">@lang('home.questions.1.answer')</div>
-                        <div class="content-questions__arrow">
-                            <div></div>
-                        </div>
-                    </div>
-                    <div class="content-questions__card">
-                        <div class="content-questions__question">@lang('home.questions.2.question')</div>
-                        <div class="content-questions__answer">@lang('home.questions.2.answer')</div>
-                        <div class="content-questions__arrow">
-                            <div></div>
-                        </div>
-                    </div>
-                    <div class="content-questions__card">
-                        <div class="content-questions__question">@lang('home.questions.3.question')</div>
-                        <div class="content-questions__answer">@lang('home.questions.3.answer')</div>
-                        <div class="content-questions__arrow">
-                            <div></div>
-                        </div>
-                    </div>
-                    <div class="content-questions__card">
-                        <div class="content-questions__question">@lang('home.questions.4.question')</div>
-                        <div class="content-questions__answer">@lang('home.questions.4.answer')</div>
-                        <div class="content-questions__arrow">
-                            <div></div>
-                        </div>
-                    </div>
-                    <div class="content-questions__card">
-                        <div class="content-questions__question">@lang('home.questions.5.question')</div>
-                        <div class="content-questions__answer">@lang('home.questions.5.answer')</div>
-                        <div class="content-questions__arrow">
-                            <div></div>
-                        </div>
-                    </div>
-                    <div class="content-questions__card">
-                        <div class="content-questions__question">@lang('home.questions.6.question')</div>
-                        <div class="content-questions__answer">@lang('home.questions.6.answer')</div>
-                        <div class="content-questions__arrow">
-                            <div></div>
-                        </div>
-                    </div>
-                    <div class="content-questions__card">
-                        <div class="content-questions__question">@lang('home.questions.7.question')</div>
-                        <div class="content-questions__answer">@lang('home.questions.7.answer')</div>
-                        <div class="content-questions__arrow">
-                            <div></div>
-                        </div>
-                    </div>
-                    <div class="content-questions__card">
-                        <div class="content-questions__question">@lang('home.questions.8.question')</div>
-                        <div class="content-questions__answer">@lang('home.questions.8.answer')</div>
-                        <div class="content-questions__arrow">
-                            <div></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="about">
-    <div class="about__container">
-        <div class="about__text">@lang('home.about.text')</div>
-        <div class="about__btn">@lang('home.about.btn')</div>
-    </div>
-</section>
-<section class="lead">
-    <div class="lead__container">
-        <div class="lead__body">
-            <div class="lead__content">
-                <h2 class="lead__title">@lang('home.lead.title')</h2>
-                <p class="lead__text">@lang('home.lead.text')</p>
-            </div>
-            <button data-popup-id="main" class="lead__btn link-on-popup">
-                @lang('home.lead.btn')<span class="flare white"></span>
-            </button>
-        </div>
-    </div>
-</section>
+@include('inc.questions')
+<x-about>
+    @lang('home.about.text')
+</x-about>
+@include('inc.lead')
 @endsection
