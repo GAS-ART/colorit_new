@@ -130,10 +130,16 @@
   }
   .btns-slider {
     .slider-btn-prev {
-      background-color: $mainColor;
+      background-color: $purple;
+      &.swiper-button-disabled{
+        background-color: $grey3;
+      }
     }
     .slider-btn-next {
-      background-color: $mainColor;
+      background-color: $purple;
+      &.swiper-button-disabled{
+        background-color: $grey3;
+      }
     }
   }
 }
@@ -150,11 +156,9 @@
 
   &__img {
     margin-bottom: 16px;
-    background-color: $purple;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px 0;
   }
 
   &__img-title {
