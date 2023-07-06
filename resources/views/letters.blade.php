@@ -251,7 +251,7 @@
       <img src="{{ asset('img/portfolio/ru/Буквы-с-вырезанные-из-пвх-пластика-10-мм.webp') }}"
         alt="@lang('alt.letters.portfolio.1')">
       @endif
-      <h3 class="portfolio__img-title">@lang('portfolio.img.1')</h3>
+      <h3 class="portfolio__img-title">@lang('portfolio.letters.1')</h3>
     </div>
     <div class="portfolio__img">
       @if(App::isLocale('es'))
@@ -261,7 +261,7 @@
       <img src="{{ asset('img/portfolio/ru/Буквы-обьемные-20-мм-из-пвх-покрашеннные.webp') }}"
         alt="@lang('alt.letters.portfolio.2')">
       @endif
-      <h3 class="portfolio__img-title">@lang('portfolio.img.2')</h3>
+      <h3 class="portfolio__img-title">@lang('portfolio.letters.2')</h3>
     </div>
     <div class="portfolio__img">
       @if(App::isLocale('es'))
@@ -271,7 +271,7 @@
       <img src="{{ asset('img/portfolio/ru/Буквы-для-салона-красоты-из-пвх-19-мм.webp') }}"
         alt="@lang('alt.letters.portfolio.3')">
       @endif
-      <h3 class="portfolio__img-title">@lang('portfolio.img.3')</h3>
+      <h3 class="portfolio__img-title">@lang('portfolio.letters.3')</h3>
     </div>
     <div class="portfolio__img">
       @if(App::isLocale('es'))
@@ -282,7 +282,7 @@
         src="{{ asset('img/portfolio/ru/Буквы-обьемные-30-мм-из-пвх-с-фронтальными-накладками-из-глянцевого-акрила.webp') }}"
         alt="@lang('alt.letters.portfolio.4')">
       @endif
-      <h3 class="portfolio__img-title">@lang('portfolio.img.4')</h3>
+      <h3 class="portfolio__img-title">@lang('portfolio.letters.4')</h3>
     </div>
     <div class="portfolio__img">
       @if(App::isLocale('es'))
@@ -292,7 +292,7 @@
       <img src="{{ asset('img/portfolio/ru/Буквы-пвх-с-основой-из-акрилата.webp') }}"
         alt="@lang('alt.letters.portfolio.5')">
       @endif
-      <h3 class="portfolio__img-title">@lang('portfolio.img.5')</h3>
+      <h3 class="portfolio__img-title">@lang('portfolio.letters.5')</h3>
     </div>
     <div class="portfolio__img">
       @if(App::isLocale('es'))
@@ -302,7 +302,7 @@
       <img src="{{ asset('img/portfolio/ru/Объемные-буквы-30-мм-из-пвх-с-глянцевыми-накладками-из-акрилата.webp') }}"
         alt="@lang('alt.letters.portfolio.6')">
       @endif
-      <h3 class="portfolio__img-title">@lang('portfolio.img.6')</h3>
+      <h3 class="portfolio__img-title">@lang('portfolio.letters.6')</h3>
     </div>
     <div class="portfolio__img">
       @if(App::isLocale('es'))
@@ -312,7 +312,7 @@
       <img src="{{ asset('img/portfolio/ru/Объемные-буквы-из-пвх-19-мм-черного-цвета.webp') }}"
         alt="@lang('alt.letters.portfolio.7')">
       @endif
-      <h3 class="portfolio__img-title">@lang('portfolio.img.7')</h3>
+      <h3 class="portfolio__img-title">@lang('portfolio.letters.7')</h3>
     </div>
     <div class="portfolio__img">
       @if(App::isLocale('es'))
@@ -321,7 +321,7 @@
       <img src="{{ asset('img/portfolio/ru/Обьемные-буквы-10-мм-из-материала-пвх.webp') }}"
         alt="@lang('alt.letters.portfolio.8')">
       @endif
-      <h3 class="portfolio__img-title">@lang('portfolio.img.8')</h3>
+      <h3 class="portfolio__img-title">@lang('portfolio.letters.8')</h3>
     </div>
     <div class="portfolio__img">
       @if(App::isLocale('es'))
@@ -331,7 +331,7 @@
       <img src="{{ asset('img/portfolio/ru/Объемные-буквы-30-мм-из-белого-пвх.webp') }}"
         alt="@lang('alt.letters.portfolio.9')">
       @endif
-      <h3 class="portfolio__img-title">@lang('portfolio.img.8')</h3>
+      <h3 class="portfolio__img-title">@lang('portfolio.letters.8')</h3>
     </div>
   </div>
 </section>
