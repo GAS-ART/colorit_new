@@ -1,8 +1,8 @@
 <?php
 
 return [
-   'home'=>'Главная',
-   'letters'=>'Объемные буквы без света',
+   'home'=>'Inicio',
+   'letters'=>'Letras córporeas sin iluminacion',
 ]
 
 ?>
