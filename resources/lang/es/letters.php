@@ -13,8 +13,8 @@ return [
     'text_title' => 'En la fabricación de letras córporeas se utilizan materiales de alta calidad y contrastados,',
     'text_text' => 'avalados por certificados europeos',
     'img' => [
-      '1' => 'Madera',
-      '2' => 'PVC',
+      '1' => 'PVC',
+      '2' => 'Madera',
       '3' => 'Metacrilato',
       '4' => 'Composito',
       '5' => 'Metal',
