@@ -696,14 +696,14 @@
   &__text {
   }
 
-  &__title {
+/*   &__title {
     @extend %title;
     padding-top: 45px;
     margin-bottom: 94px;
     @media (max-width: $mobile) {
       margin-bottom: 24px;
     }
-  }
+  } */
 
   &__description {
     position: absolute;

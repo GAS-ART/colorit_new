@@ -1,9 +1,9 @@
 <?php
 
 return [
-   'title' => 'Портфолио',
-   'text_title' => 'С нами надежно и удобно работать',
-   'text' => 'Даем гарантии на продукцию в 3 года.',
+   'title' => 'Portfolio',
+   'text_title' => 'Es seguro y conveniente trabajar con nosotros.',
+   'text' => 'Damos una garantía de los productos de 3 años.',
    'letters' => [
       '1' => 'Letras a la pared de PVC 10 mm',
       '2' => 'Letras para ferias con frente metacrilato',

@@ -177,14 +177,14 @@
     </div>
 </section>
 <section class="portfolio">
-    <div class="portfolio__container">
+    <div class="portfolio__conent">
+        <h2 class="portfolio__title">@lang('portfolio.title')</h2>
         <div class="portfolio__text">
-            <h2 class="portfolio__title">@lang('home.portfolio.title')</h2>
-            <div class="portfolio__description">
-                <h3 class="portfolio__sub-title">@lang('home.portfolio.sub_title')</h3>
-                <p class="portfolio__sub-text">@lang('home.portfolio.sub_title_text')</p>
-            </div>
+            <h3 class="portfolio__text-title">@lang('portfolio.text_title')</h3>
+            <h4 class="portfolio__text-text">@lang('portfolio.text')</h4>
         </div>
+    </div>
+    <div class="portfolio__container">
         <div class="portfolio__slider slider-portfolio swiper">
             <div class="swiper-wrapper slider-portfolio__wrapper">
                 <div class="swiper-slide slider-portfolio__slide portfolio-slide">
