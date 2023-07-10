@@ -391,5 +391,3 @@ const scrolling = (selectorBtn) => {
 };
 
 scrolling(".scroll-top");
-
-

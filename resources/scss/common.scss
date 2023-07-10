@@ -20,6 +20,7 @@
     @extend %title;
     color: #fff;
     text-transform: uppercase;
+    z-index: 2;
     span{
       padding: 60px 100px;
       color: #ffffff;
@@ -32,7 +33,11 @@
         padding: 20px 10px;
       }
     }
-   
+   &.service{
+    @media (max-width: $mobile) {
+      position: relative;
+    }
+   }
   }
   &__circle {
     position: absolute;
@@ -208,8 +213,13 @@
     display: block; */
   }
 
+  .gallery-item{
+    cursor: zoom-in;
+  }
+
   &__img {
     position: relative;
+    
     @media (max-width: em(1270)) {
 /*       &:last-child{
         grid-column: span 2;

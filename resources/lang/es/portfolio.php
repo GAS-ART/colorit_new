@@ -12,7 +12,7 @@ return [
       '5' => 'Letras metacrilato 20 mm para feria en Barcelona',
       '6' => 'Letras para pared sin iluminadas con frente de metacrilato',
       '7' => 'Letras para letrero de PVC 19 mm acabado negro con separadores',
-      '8' => 'Letras PVC 10 mm con acabado negro para salon de belleza en Barcelona',
+      '8' => 'Letras PVC 19 mm con acabado negro para salon de belleza en Barcelona',
       '9' => 'Letras volumétricas PVC 30 mm con separadores',
    ],
 ]

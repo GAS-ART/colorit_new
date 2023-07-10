@@ -26,16 +26,23 @@ return [
     ]
   ],
   'letters' => [
+    'material'=> [
+      '1' => 'Fabricacion letras de pvc en Barcelona',
+      '2' => 'Fabricacion letras de madera en Barcelona',
+      '3' => 'Fabricacion letras de metacrilato en Barcelona',
+      '4' => 'Fabricacion letras de dibond en Barcelona',
+      '5' => 'Fabricacion letras de acero en Barcelona',
+    ],
     'portfolio' => [
-      '1' => 'Letras a la pared de PVC 10 mm',
-      '2' => 'Letras para ferias con frente metacrilato',
-      '3' => 'Letras volumétricas acabado negro mate para salon de belleza Muy Nice ',
-      '4' => 'Letras de metacrilato brillo 30 mm de grosor',
-      '5' => 'Letras metacrilato 20 mm para feria en Barcelona',
-      '6' => 'Letras para pared sin iluminadas con frente de metacrilato',
-      '7' => 'Letras para letrero de PVC 19 mm acabado negro con separadores',
-      '8' => 'Letras PVC 10 mm con acabado negro para salon de belleza en Barcelona',
-      '9' => 'Letras volumétricas PVC 30 mm con separadores',
+      '1' => 'Letras de PVC para interior',
+      '2' => 'Letras corpóreas para ferias en Barcelona',
+      '3' => 'Letras volumétricas acabado negro para fachada',
+      '4' => 'Letras corpóreas de pvc retroiluminadas',
+      '5' => 'Letras de pvc con frente de metacrilato',
+      '6' => 'Letras interiores pintados en color naranja',
+      '7' => 'Letras para letrero de pvc 19 mm son separadores',
+      '8' => 'Letras para pared de pvc negro mate 19 mm',
+      '9' => 'Letras corpóreas de pvc 30 mm con separadores',
     ],
   ],
 ]
