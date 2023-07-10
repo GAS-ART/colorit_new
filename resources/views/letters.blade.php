@@ -243,95 +243,119 @@
     </div>
   </div>
   <div class="portfolio__img-body">
-    <div class="portfolio__img">
-      @if(App::isLocale('es'))
-      <img src="{{ asset('img/portfolio/es/Letras-de-pvc-10-mm-blancas.webp') }}"
-        alt="@lang('alt.letters.portfolio.1')">
-      @elseif(App::isLocale('ru'))
-      <img src="{{ asset('img/portfolio/ru/Буквы-с-вырезанные-из-пвх-пластика-10-мм.webp') }}"
-        alt="@lang('alt.letters.portfolio.1')">
-      @endif
-      <h3 class="portfolio__img-title">@lang('portfolio.letters.1')</h3>
-    </div>
-    <div class="portfolio__img">
-      @if(App::isLocale('es'))
-      <img src="{{ asset('img/portfolio/es/Letras-corporeas-de-metacrilato.webp') }}"
-        alt="@lang('alt.letters.portfolio.2')">
-      @elseif(App::isLocale('ru'))
-      <img src="{{ asset('img/portfolio/ru/Буквы-обьемные-20-мм-из-пвх-покрашеннные.webp') }}"
-        alt="@lang('alt.letters.portfolio.2')">
-      @endif
-      <h3 class="portfolio__img-title">@lang('portfolio.letters.2')</h3>
-    </div>
-    <div class="portfolio__img">
-      @if(App::isLocale('es'))
-      <img src="{{ asset('img/portfolio/es/letras-de-pvc-19-mm-sin-uluminacion.webp') }}"
-        alt="@lang('alt.letters.portfolio.3')">
-      @elseif(App::isLocale('ru'))
-      <img src="{{ asset('img/portfolio/ru/Буквы-для-салона-красоты-из-пвх-19-мм.webp') }}"
-        alt="@lang('alt.letters.portfolio.3')">
-      @endif
-      <h3 class="portfolio__img-title">@lang('portfolio.letters.3')</h3>
-    </div>
-    <div class="portfolio__img">
-      @if(App::isLocale('es'))
-      <img src="{{ asset('img/portfolio/es/Letras-corporeas-30-mm-de-pvc-con-acabado-brillo.webp') }}"
-        alt="@lang('alt.letters.portfolio.4')">
-      @elseif(App::isLocale('ru'))
-      <img
-        src="{{ asset('img/portfolio/ru/Буквы-обьемные-30-мм-из-пвх-с-фронтальными-накладками-из-глянцевого-акрила.webp') }}"
-        alt="@lang('alt.letters.portfolio.4')">
-      @endif
-      <h3 class="portfolio__img-title">@lang('portfolio.letters.4')</h3>
-    </div>
-    <div class="portfolio__img">
-      @if(App::isLocale('es'))
-      <img src="{{ asset('img/portfolio/es/Letras-de-pvc-con-frente-brillo.webp') }}"
-        alt="@lang('alt.letters.portfolio.5')">
-      @elseif(App::isLocale('ru'))
-      <img src="{{ asset('img/portfolio/ru/Буквы-пвх-с-основой-из-акрилата.webp') }}"
-        alt="@lang('alt.letters.portfolio.5')">
-      @endif
-      <h3 class="portfolio__img-title">@lang('portfolio.letters.5')</h3>
-    </div>
-    <div class="portfolio__img">
-      @if(App::isLocale('es'))
-      <img src="{{ asset('img/portfolio/es/Letras-de-pvc-con-frente-de-metacrilato.webp') }}"
-        alt="@lang('alt.letters.portfolio.6')">
-      @elseif(App::isLocale('ru'))
-      <img src="{{ asset('img/portfolio/ru/Объемные-буквы-30-мм-из-пвх-с-глянцевыми-накладками-из-акрилата.webp') }}"
-        alt="@lang('alt.letters.portfolio.6')">
-      @endif
-      <h3 class="portfolio__img-title">@lang('portfolio.letters.6')</h3>
-    </div>
-    <div class="portfolio__img">
-      @if(App::isLocale('es'))
-      <img src="{{ asset('img/portfolio/es/Letras-corporeas-19-mm-de-metacrilato-negro.webp') }}"
-        alt="@lang('alt.letters.portfolio.7')">
-      @elseif(App::isLocale('ru'))
-      <img src="{{ asset('img/portfolio/ru/Объемные-буквы-из-пвх-19-мм-черного-цвета.webp') }}"
-        alt="@lang('alt.letters.portfolio.7')">
-      @endif
-      <h3 class="portfolio__img-title">@lang('portfolio.letters.7')</h3>
-    </div>
-    <div class="portfolio__img">
-      @if(App::isLocale('es'))
-      <img src="{{ asset('img/portfolio/es/Letras-de-pvc-10-mm-negras.webp') }}" alt="@lang('alt.letters.portfolio.8')">
-      @elseif(App::isLocale('ru'))
-      <img src="{{ asset('img/portfolio/ru/Обьемные-буквы-10-мм-из-материала-пвх.webp') }}"
-        alt="@lang('alt.letters.portfolio.8')">
-      @endif
-      <h3 class="portfolio__img-title">@lang('portfolio.letters.8')</h3>
-    </div>
-    <div class="portfolio__img">
-      @if(App::isLocale('es'))
-      <img src="{{ asset('img/portfolio/es/Letras-corporeas-30-mm-de-grosor-PVC.webp') }}"
-        alt="@lang('alt.letters.portfolio.9')">
-      @elseif(App::isLocale('ru'))
-      <img src="{{ asset('img/portfolio/ru/Объемные-буквы-30-мм-из-белого-пвх.webp') }}"
-        alt="@lang('alt.letters.portfolio.9')">
-      @endif
-      <h3 class="portfolio__img-title">@lang('portfolio.letters.8')</h3>
+    <div class="portfolio__slider-product product-portfolio swiper">
+      <div id="dynamic-gallery" class="swiper-wrapper product-portfolio__wrapper gallery">
+        <div class="swiper-slide product-portfolio__slide gallery-item">
+          <div class="portfolio__img">
+            @if(App::isLocale('es'))
+            <img src="{{ asset('img/portfolio/es/Letras-de-pvc-10-mm-blancas.webp') }}"
+              alt="@lang('alt.letters.portfolio.1')">
+            @elseif(App::isLocale('ru'))
+            <img src="{{ asset('img/portfolio/ru/Буквы-с-вырезанные-из-пвх-пластика-10-мм.webp') }}"
+              alt="@lang('alt.letters.portfolio.1')">
+            @endif
+            <h3 class="portfolio__img-title">@lang('portfolio.letters.1')</h3>
+          </div>
+        </div>
+        <div class="swiper-slide product-portfolio__slide gallery-item">
+          <div class="portfolio__img">
+            @if(App::isLocale('es'))
+            <img src="{{ asset('img/portfolio/es/Letras-corporeas-de-metacrilato.webp') }}"
+              alt="@lang('alt.letters.portfolio.2')">
+            @elseif(App::isLocale('ru'))
+            <img src="{{ asset('img/portfolio/ru/Буквы-обьемные-20-мм-из-пвх-покрашеннные.webp') }}"
+              alt="@lang('alt.letters.portfolio.2')">
+            @endif
+            <h3 class="portfolio__img-title">@lang('portfolio.letters.2')</h3>
+          </div>
+        </div>
+        <div class="swiper-slide product-portfolio__slide gallery-item">
+          <div class="portfolio__img">
+            @if(App::isLocale('es'))
+            <img src="{{ asset('img/portfolio/es/letras-de-pvc-19-mm-sin-uluminacion.webp') }}"
+              alt="@lang('alt.letters.portfolio.3')">
+            @elseif(App::isLocale('ru'))
+            <img src="{{ asset('img/portfolio/ru/Буквы-для-салона-красоты-из-пвх-19-мм.webp') }}"
+              alt="@lang('alt.letters.portfolio.3')">
+            @endif
+            <h3 class="portfolio__img-title">@lang('portfolio.letters.3')</h3>
+          </div>
+        </div>
+        <div class="swiper-slide product-portfolio__slide gallery-item">
+          <div class="portfolio__img">
+            @if(App::isLocale('es'))
+            <img src="{{ asset('img/portfolio/es/Letras-corporeas-30-mm-de-pvc-con-acabado-brillo.webp') }}"
+              alt="@lang('alt.letters.portfolio.4')">
+            @elseif(App::isLocale('ru'))
+            <img
+              src="{{ asset('img/portfolio/ru/Буквы-обьемные-30-мм-из-пвх-с-фронтальными-накладками-из-глянцевого-акрила.webp') }}"
+              alt="@lang('alt.letters.portfolio.4')">
+            @endif
+            <h3 class="portfolio__img-title">@lang('portfolio.letters.4')</h3>
+          </div>
+        </div>
+        <div class="swiper-slide product-portfolio__slide gallery-item">
+          <div class="portfolio__img">
+            @if(App::isLocale('es'))
+            <img src="{{ asset('img/portfolio/es/Letras-de-pvc-con-frente-brillo.webp') }}"
+              alt="@lang('alt.letters.portfolio.5')">
+            @elseif(App::isLocale('ru'))
+            <img src="{{ asset('img/portfolio/ru/Буквы-пвх-с-основой-из-акрилата.webp') }}"
+              alt="@lang('alt.letters.portfolio.5')">
+            @endif
+            <h3 class="portfolio__img-title">@lang('portfolio.letters.5')</h3>
+          </div>
+        </div>
+        <div class="swiper-slide product-portfolio__slide gallery-item">
+          <div class="portfolio__img">
+            @if(App::isLocale('es'))
+            <img src="{{ asset('img/portfolio/es/Letras-de-pvc-con-frente-de-metacrilato.webp') }}"
+              alt="@lang('alt.letters.portfolio.6')">
+            @elseif(App::isLocale('ru'))
+            <img
+              src="{{ asset('img/portfolio/ru/Объемные-буквы-30-мм-из-пвх-с-глянцевыми-накладками-из-акрилата.webp') }}"
+              alt="@lang('alt.letters.portfolio.6')">
+            @endif
+            <h3 class="portfolio__img-title">@lang('portfolio.letters.6')</h3>
+          </div>
+        </div>
+        <div class="swiper-slide product-portfolio__slide gallery-item">
+          <div class="portfolio__img">
+            @if(App::isLocale('es'))
+            <img src="{{ asset('img/portfolio/es/Letras-corporeas-19-mm-de-metacrilato-negro.webp') }}"
+              alt="@lang('alt.letters.portfolio.7')">
+            @elseif(App::isLocale('ru'))
+            <img src="{{ asset('img/portfolio/ru/Объемные-буквы-из-пвх-19-мм-черного-цвета.webp') }}"
+              alt="@lang('alt.letters.portfolio.7')">
+            @endif
+            <h3 class="portfolio__img-title">@lang('portfolio.letters.7')</h3>
+          </div>
+        </div>
+        <div class="swiper-slide product-portfolio__slide gallery-item">
+          <div class="portfolio__img">
+            @if(App::isLocale('es'))
+            <img src="{{ asset('img/portfolio/es/Letras-de-pvc-10-mm-negras.webp') }}"
+              alt="@lang('alt.letters.portfolio.8')">
+            @elseif(App::isLocale('ru'))
+            <img src="{{ asset('img/portfolio/ru/Обьемные-буквы-10-мм-из-материала-пвх.webp') }}"
+              alt="@lang('alt.letters.portfolio.8')">
+            @endif
+            <h3 class="portfolio__img-title">@lang('portfolio.letters.8')</h3>
+          </div>
+        </div>
+        <div class="swiper-slide product-portfolio__slide gallery-item">
+          <div class="portfolio__img">
+            @if(App::isLocale('es'))
+            <img src="{{ asset('img/portfolio/es/Letras-corporeas-30-mm-de-grosor-PVC.webp') }}"
+              alt="@lang('alt.letters.portfolio.9')">
+            @elseif(App::isLocale('ru'))
+            <img src="{{ asset('img/portfolio/ru/Объемные-буквы-30-мм-из-белого-пвх.webp') }}"
+              alt="@lang('alt.letters.portfolio.9')">
+            @endif
+            <h3 class="portfolio__img-title">@lang('portfolio.letters.8')</h3>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>

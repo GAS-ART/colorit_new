@@ -11,6 +11,7 @@
         "vite": "^4.0.0"
     },
     "dependencies": {
+        "lightgallery": "^2.7.1",
         "swiper": "^9.3.2"
     }
 }

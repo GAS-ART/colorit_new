@@ -40,7 +40,7 @@
     "src": "public/img/icons/link.svg"
   },
   "resources/js/app.js": {
-    "file": "assets/app-4c034db1.js",
+    "file": "assets/app-b156e4cc.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   },
@@ -92,6 +92,22 @@
     "file": "assets/Jost-Medium-8d58c280.woff2",
     "src": "resources/scss/fonts/fonts/Jost-Medium.woff2"
   },
+  "resources/scss/fonts/fonts/lg.svg": {
+    "file": "assets/lg-f2fe1c00.svg",
+    "src": "resources/scss/fonts/fonts/lg.svg"
+  },
+  "resources/scss/fonts/fonts/lg.ttf": {
+    "file": "assets/lg-22b72ba5.ttf",
+    "src": "resources/scss/fonts/fonts/lg.ttf"
+  },
+  "resources/scss/fonts/fonts/lg.woff": {
+    "file": "assets/lg-fefc5c0d.woff",
+    "src": "resources/scss/fonts/fonts/lg.woff"
+  },
+  "resources/scss/fonts/fonts/lg.woff2": {
+    "file": "assets/lg-965a0e5f.woff2",
+    "src": "resources/scss/fonts/fonts/lg.woff2"
+  },
   "resources/scss/fonts/icon-fonts/icomoon.eot": {
     "file": "assets/icomoon-0806e009.eot",
     "src": "resources/scss/fonts/icon-fonts/icomoon.eot"
@@ -109,7 +125,7 @@
     "src": "resources/scss/fonts/icon-fonts/icomoon.woff"
   },
   "resources/scss/style.scss": {
-    "file": "assets/style-20e52034.css",
+    "file": "assets/style-c3c01454.css",
     "isEntry": true,
     "src": "resources/scss/style.scss"
   }

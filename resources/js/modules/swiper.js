@@ -307,7 +307,6 @@ if (lettersMaterialSlider) {
     },
     breakpoints: {
       1240: {
-        grabCursor: true,
         slidesPerView: 5,
       },
       992: {
@@ -346,7 +345,6 @@ if (lettersThicknessSlider) {
     breakpoints: {
       1240: {
         slidesPerView: 5,
-        grabCursor: false,
       },
       992: {
         slidesPerView: 4,
@@ -360,5 +358,46 @@ if (lettersThicknessSlider) {
         slidesPerView: 2,
       },
     },
+  });
+}
+
+//Product Portfolio
+const productPortfolio = document.querySelector('.product-portfolio');
+
+if (productPortfolio) {
+  const swiper = new Swiper(productPortfolio, {
+    // configure Swiper to use modules
+    modules: [Navigation],
+    simulateTouch: true,
+    slidesPerView: 1,
+    grabCursor: true,
+    spaceBetween: 20,
+    loop: true,
+    speed: 800,
+
+    navigation: {
+      nextEl: '.slider-letters-thickness__btn-next',
+      prevEl: '.slider-letters-thickness__btn-prev',
+    },
+    breakpoints: {
+      1269: {
+        slidesPerView: 999,
+      },
+      768: {
+        slidesPerView: 2,
+      },
+      320: {
+        slidesPerView: 1,
+      },
+    },
+  });
+  const slides = document.querySelectorAll('.product-portfolio__slide');
+  window.addEventListener('resize', (e) => {
+    if (window.innerWidth > 1269) {
+      swiper.unsetGrabCursor()
+      slides.forEach(slide => slide.removeAttribute('style'))
+    } else {
+      swiper.setGrabCursor()
+    }
   });
 }

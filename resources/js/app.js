@@ -1,5 +1,6 @@
 //import './bootstrap';
 import './modules/swiper.js';
+import './modules/lightGalary.js';
 import { popUp } from './modules/popup.js';
 import getPopupLinks from './modules/getPoupLinks.js'
 
