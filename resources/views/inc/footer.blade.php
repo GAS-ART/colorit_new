@@ -51,14 +51,45 @@
          </div>
          <nav class="footer__links links-footer">
             <ul class="links-footer__list">
-               <li class="links-footer__item"><a href="#"
-                     class="links-footer__item-link">@lang('main.menu.signboards')</a></li>
-               <li class="links-footer__item"><a href="#"
-                     class="links-footer__item-link">@lang('main.menu.letters.title')</a>
+               <li class="links-footer__item">
+                  <h3 class="links-footer__item-title">@lang('main.menu.signboards')</h3>
+                  <ul class="links-footer__sub-list">
+                     <li class="links-footer__sub-list-item"><a
+                           href="{{ route('letters', ['locale' => __('lang.current')]) }}"
+                           class="links-footer__sub-list-link">@lang('main.menu.letters.whithout_light')</a></li>
+                     <li class="links-footer__sub-list-item"><a href=""
+                           class="links-footer__sub-list-link">@lang('main.menu.letters.whith_light')</a></li>
+                  </ul>
                </li>
-               <li class="links-footer__item"><a href="#" class="links-footer__item-link">@lang('main.menu.vinyl')</a>
+               <li class="links-footer__item">
+                  <h3 class="links-footer__item-link">@lang('main.menu.letters.title')</h3>
+                  <ul class="links-footer__sub-list">
+                     <li class="links-footer__sub-list-item"><a
+                           href="{{ route('letters', ['locale' => __('lang.current')]) }}"
+                           class="links-footer__sub-list-link">@lang('main.menu.letters.whithout_light')</a></li>
+                     <li class="links-footer__sub-list-item"><a href=""
+                           class="links-footer__sub-list-link">@lang('main.menu.letters.whith_light')</a></li>
+                  </ul>
                </li>
-               <li class="links-footer__item"><a href="#" class="links-footer__item-link">@lang('main.menu.events')</a>
+               <li class="links-footer__item">
+                  <h3 class="links-footer__item-link">@lang('main.menu.vinyl')</h3>
+                  <ul class="links-footer__sub-list">
+                     <li class="links-footer__sub-list-item"><a
+                           href="{{ route('letters', ['locale' => __('lang.current')]) }}"
+                           class="links-footer__sub-list-link">@lang('main.menu.letters.whithout_light')</a></li>
+                     <li class="links-footer__sub-list-item"><a href=""
+                           class="links-footer__sub-list-link">@lang('main.menu.letters.whith_light')</a></li>
+                  </ul>
+               </li>
+               <li class="links-footer__item">
+                  <h3 class="links-footer__item-link">@lang('main.menu.events')</h3>
+                  <ul class="links-footer__sub-list">
+                     <li class="links-footer__sub-list-item"><a
+                           href="{{ route('letters', ['locale' => __('lang.current')]) }}"
+                           class="links-footer__sub-list-link">@lang('main.menu.letters.whithout_light')</a></li>
+                     <li class="links-footer__sub-list-item"><a href=""
+                           class="links-footer__sub-list-link">@lang('main.menu.letters.whith_light')</a></li>
+                  </ul>
                </li>
             </ul>
          </nav>
