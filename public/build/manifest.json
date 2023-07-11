@@ -39,8 +39,12 @@
     "file": "assets/link-c288e4f9.svg",
     "src": "public/img/icons/link.svg"
   },
+  "public/img/lightGallery_loading.gif": {
+    "file": "assets/lightGallery_loading-298ad3ff.gif",
+    "src": "public/img/lightGallery_loading.gif"
+  },
   "resources/js/app.js": {
-    "file": "assets/app-b156e4cc.js",
+    "file": "assets/app-88ec593c.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   },
@@ -125,7 +129,7 @@
     "src": "resources/scss/fonts/icon-fonts/icomoon.woff"
   },
   "resources/scss/style.scss": {
-    "file": "assets/style-8ea96c6a.css",
+    "file": "assets/style-26bedbce.css",
     "isEntry": true,
     "src": "resources/scss/style.scss"
   }

@@ -158,7 +158,7 @@
 
     .lg-item {
         &:not(.lg-start-end-progress) {
-            background: url('../../../public/img/lightGallery_loading.gif') no-repeat scroll
+            background: url('../../public/img/lightGallery_loading.gif') no-repeat scroll
                 center center transparent;
         }
         display: none !important;

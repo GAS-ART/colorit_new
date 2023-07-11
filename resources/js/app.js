@@ -27,6 +27,8 @@ languageBtn.addEventListener('click', function (e) {
   }
 });
 
+
+
 //Async form sending
 const forms = document.querySelectorAll('form');
 const errorsMessagesUA = {
@@ -171,6 +173,35 @@ function documentActions(e) {
   if (!e.target.classList.contains('.ancor') && scrol == true) {
     body.addEventListener('click', stopAnimation);
   }
+  if (!e.target.closest('.header-menu__list-item') && window.matchMedia("(pointer: coarse)").matches) {
+    menuItems.forEach(item => item.classList.remove('active'))
+  }
+}
+
+//menu active
+const menuItems = document.querySelectorAll('.header-menu__list-item');
+if (window.matchMedia("(pointer: fine)").matches) {
+  menuItems.forEach(item => {
+    item.addEventListener('mouseenter', () => {
+      item.classList.add('active');
+    })
+    item.addEventListener('mouseleave', () => {
+      item.classList.remove('active');
+    });
+  })
+}
+
+if (window.matchMedia("(pointer: coarse)").matches) {
+  menuItems.forEach(item => {
+    item.addEventListener('click', (e) => {
+      item.classList.toggle('active');
+      menuItems.forEach(item => {
+        if (item != e.target.closest('.header-menu__list-item')) {
+          item.classList.remove('active');
+        }
+      })
+    });
+  });
 }
 
 

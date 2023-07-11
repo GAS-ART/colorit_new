@@ -5,7 +5,11 @@ return [
   'time' => '<span>Пн - Пт</span> с 9:30 до 19:00<br><span>Сб</span> с 10:00 до 18:00',
   'menu' => [
     'signboards'=> 'Вывески',
-    'letters' => "Буквы",
+    'letters' => [
+      'title' => 'Буквы',
+      'whithout_light' => 'Без подсветки',
+      'whith_light' => 'С подсветкой',
+    ],
     'vinyl' => "Винил",
     'events' => "Выставки",
     'burger' => [

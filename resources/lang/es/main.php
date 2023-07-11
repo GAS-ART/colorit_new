@@ -5,7 +5,11 @@ return [
   'time' => '<span>De Lunes a Viernes</span> de 9:30 a 19:00 <br><span>Sabado</span> de 10:00 a 18:00',
   'menu' => [
     'signboards'=> 'Rótulos',
-    'letters' => "Letras Corpóreas",
+    'letters' => [
+      'title' => 'Letras Corpóreas',
+      'whithout_light' => 'sin iluminacion',
+      'whith_light' => 'iluminadas',
+    ],
     'vinyl' => "Vinilos",
     'events' => "Ferias",
     'burger' => [

@@ -88,8 +88,26 @@
                <ul class="header-menu__list">
                   <li class="header-menu__list-item"><a href="#"
                         class="header-menu__list-link">@lang('main.menu.signboards')</a></li>
-                  <li class="header-menu__list-item"><a href="{{ route('letters', ['locale' => __('lang.current')]) }}"
-                        class="header-menu__list-link">@lang('main.menu.letters')</a></li>
+                  <li class="header-menu__list-item">
+                     {{-- <a href="{{ route('letters', ['locale' => __('lang.current')]) }}"
+                        class="header-menu__list-link">@lang('main.menu.letters')</a> --}}
+
+                     <h3 class="header-menu__title">@lang('main.menu.letters.title')
+                     </h3>
+                     <ul class="header-menu__sub-list">
+                        <li class="header-menu__sub-list-item">
+                           <a href="{{ route('letters', ['locale' => __('lang.current')]) }}"
+                              class="header-menu__sub-list-link">
+                              @lang('main.menu.letters.whithout_light')
+                           </a>
+                        </li>
+                        <li class="header-menu__sub-list-item">
+                           <a href="#" class="header-menu__sub-list-link">
+                              @lang('main.menu.letters.whith_light')
+                           </a>
+                        </li>
+                     </ul>
+                  </li>
                   <li class="header-menu__list-item"><a href="#"
                         class="header-menu__list-link">@lang('main.menu.vinyl')</a></li>
                   <li class="header-menu__list-item"><a href="#"

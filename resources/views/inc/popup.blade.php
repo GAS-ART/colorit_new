@@ -38,7 +38,7 @@
                               <select name="service" id="popupMainSelect">
                                  <option hidden disabled selected value=""></option>
                                  <option value="Вывески">@lang('main.menu.signboards')</option>
-                                 <option value="Буквы">@lang('main.menu.letters')</option>
+                                 <option value="Буквы">@lang('main.menu.letters.title')</option>
                                  <option value="Винил">@lang('main.menu.vinyl')</option>
                                  <option value="Ивенты">@lang('main.menu.events')</option>
                               </select>
@@ -111,7 +111,7 @@
                               <select name="service" id="popupMainSelect">
                                  <option hidden disabled selected value=""></option>
                                  <option value="Вывески">@lang('main.menu.signboards')</option>
-                                 <option value="Буквы">@lang('main.menu.letters')</option>
+                                 <option value="Буквы">@lang('main.menu.letters.title')</option>
                                  <option value="Винил">@lang('main.menu.vinyl')</option>
                                  <option value="Ивенты">@lang('main.menu.events')</option>
                               </select>

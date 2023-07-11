@@ -53,7 +53,8 @@
             <ul class="links-footer__list">
                <li class="links-footer__item"><a href="#"
                      class="links-footer__item-link">@lang('main.menu.signboards')</a></li>
-               <li class="links-footer__item"><a href="#" class="links-footer__item-link">@lang('main.menu.letters')</a>
+               <li class="links-footer__item"><a href="#"
+                     class="links-footer__item-link">@lang('main.menu.letters.title')</a>
                </li>
                <li class="links-footer__item"><a href="#" class="links-footer__item-link">@lang('main.menu.vinyl')</a>
                </li>

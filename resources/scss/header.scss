@@ -1,6 +1,8 @@
 //====================================================================================================
 
 .header {
+  position: relative;
+  z-index: 5;
 
   &__wrapper {
     
@@ -74,11 +76,13 @@
   &__language {
   }
   &__bottom{
+    position: relative;
     margin-top: 80px;
     padding: 18px 0;
     background-color: $mainColor;
     margin-left: 20px;
     margin-right: 20px;
+    z-index: 2;
     @media (max-width: $mobile) {
       margin-left: 0;
       margin-right: 0;
@@ -148,8 +152,8 @@
             fill: $purple;
           }
         }
-        }
       }
+    }
   }
 
   &__lead {
@@ -280,18 +284,55 @@
   }
 
   &__list-item {
+    position: relative;
+
     &:not(:last-child){
       @include adaptiveValueREM('margin-right', 150, 29, 1920, 360, 1);
     }
+    &.active{
+      .header-menu__sub-list{
+        top: calc(100% + 18px);
+        opacity: 1;
+        visibility: visible;
+        pointer-events: all;
+        @media (max-width: $mobileSmall) {
+          top: calc(100% + 5px);
+        }
+      }
+      .header-menu__title{
+        color: $pink;
+      }
+      &::before{
+        pointer-events: all;
+      }
+    }
+    &::before{
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 160px;
+      height: calc(100% + 18px);
+      pointer-events: none;
+      @media (max-width: $mobileSmall) {
+        display: none;
+      }
+    }
+    @media (max-width: $mobileSmall) {
+      position: unset;
+    }
   }
 
-  &__list-link {
+  &__list-link, &__title {
+    position: relative;
     font-family: 'Jost';
     color: #ffffff;
     font-weight: 700;
     font-size: 20px;
     line-height: 120%;
     transition: all 0.3s ease 0s;
+    cursor: pointer;
+    z-index: 3;
     @media (pointer: fine) {
       &:hover {
         color: $pink;
@@ -299,6 +340,41 @@
     }
     @media (max-width: $mobileSmall) {
       font-size: 16px;
+    }
+  }
+  &__title{
+
+  }
+  &__sub-list{
+    position: absolute;
+    top: calc(100% + 40px);
+    left: 0;
+    width: 160px;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Geometria';
+    background-color: $mainColor;
+    color: #ffffff;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: all 0.3s ease 0s;
+    li{
+      transition: all 0.3s ease 0s;
+      &:not(:last-child){
+        margin-bottom: 15px;
+      }
+      @media (pointer: fine) {
+        &:hover {
+          color: $pink;
+        }
+      }
+    }
+    @media (max-width: $mobileSmall) {
+      width: 100vw;
+      top: calc(100% + 25px);
     }
   }
 }

@@ -1,9 +1,8 @@
 @extends('layout')
-@section('title', __('titles.home.title'))
-@section('description', __('titles.home.description'))
+@section('title', __('titles.letters_whithout_light.title'))
+@section('description', __('titles.letters_whithout_light.description'))
 @section('ogTitle' ,__('titles.home.ogTitle'))
-@section('ogDescription', __('titles.home.ogDescription'))
-@section('ogUrl', __('titles.home.ogUrl'))
+@section('ogDescription', __('titles.letters_whithout_light.ogDescription'))
 @section('page', 'letters')
 
 
