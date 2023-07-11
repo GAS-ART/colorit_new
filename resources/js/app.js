@@ -176,9 +176,19 @@ function documentActions(e) {
   if (!e.target.closest('.header-menu__list-item') && window.matchMedia("(pointer: coarse)").matches) {
     menuItems.forEach(item => item.classList.remove('active'))
   }
+
+  //menu footer active
+  if (!e.target.closest('.links-footer__item')) {
+    footerMenuItems.forEach(item => {
+      item.classList.remove('active')
+      const subList = item.querySelector('.links-footer__sub-list');
+      subList.style.height = `0px`;
+    })
+  }
+
 }
 
-//menu active
+//menu header active
 const menuItems = document.querySelectorAll('.header-menu__list-item');
 if (window.matchMedia("(pointer: fine)").matches) {
   menuItems.forEach(item => {
@@ -425,28 +435,26 @@ scrolling(".scroll-top");
 
 
 // Open menu footer
-const items = document.querySelectorAll('.links-footer__item');
+const footerMenuItems = document.querySelectorAll('.links-footer__item');
 let marginHeight = 0;
-items.forEach(item => {
+footerMenuItems.forEach(item => {
   const subList = item.querySelector('.links-footer__sub-list');
-  if (subList) {
-    const subListItems = subList.querySelectorAll('li');
-    subListItems.forEach(item => marginHeight += 10);
-    const subListHeight = subList.offsetHeight + marginHeight - 10;
-    marginHeight = 0;
-    subList.style.height = `0px`;
-    item.addEventListener('click', (e) => {
-      subList.style.height == '0px' ? subList.style.height = `${subListHeight}px` : subList.style.height = `0px`
-      items.forEach(item => {
-        if (e.target.closest('.links-footer__item') != item) {
-          item.classList.remove('active');
-          const subList = item.querySelector('.links-footer__sub-list');
-          if (subList) subList.style.height = `0px`;
-        }
-      });
-      item.classList.toggle('active');
+  const subListItems = subList.querySelectorAll('li');
+  subListItems.forEach(item => marginHeight += 10);
+  const subListHeight = subList.offsetHeight + marginHeight - 10;
+  marginHeight = 0;
+  subList.style.height = `0px`;
+  item.addEventListener('click', (e) => {
+    subList.style.height == '0px' ? subList.style.height = `${subListHeight}px` : subList.style.height = `0px`
+    footerMenuItems.forEach(item => {
+      if (e.target.closest('.links-footer__item') != item) {
+        item.classList.remove('active');
+        const subList = item.querySelector('.links-footer__sub-list');
+        subList.style.height = `0px`;
+      }
     });
-  }
+    item.classList.toggle('active');
+  });
 });
 
 
