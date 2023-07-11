@@ -388,8 +388,8 @@
         <p class="letters-lead__text">@lang('letters.lead.text')</p>
       </div>
       <div class="letters-lead__action">
-        <button data-popup-id="main" class="letters-lead__btn link-on-popup">@lang('letters.lead.btn')<span
-            class="flare white"></span></button>
+        <button data-popup-id="quiz" data-popup-payload="Заказ со страницы буквы без света"
+          class="letters-lead__btn link-on-popup">@lang('letters.lead.btn')<span class="flare white"></span></button>
       </div>
     </div>
   </div>
@@ -398,5 +398,7 @@
 <x-about>
   @lang('letters.about_text')
 </x-about>
-@include('inc.lead')
+<x-lead>
+  Заказ со страницы буквы без света
+</x-lead>
 @endsection
