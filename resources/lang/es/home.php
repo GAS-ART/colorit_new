@@ -252,7 +252,7 @@ return [
       Nuestra agencia de publicidad tiene muchos años de experiencia y está lista para brindarle servicios de alta calidad. Le garantizamos que su estructura publicitaria se completará a tiempo y de acuerdo con los más altos estándares.',
       'btn' => 'Leer mas <span>&rarr;</span>'
    ],
-   'lead' => [
+   'question-lead' => [
       'title' => '¿Tienes mas preguntas?',
       'text' => '¡Deje una solicitud y te llamaremos en una hora!',
       'btn' => 'Dejar solicitud',

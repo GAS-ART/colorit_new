@@ -5,8 +5,7 @@
         <h2 class="question-lead__title">@lang('home.question-lead.title')</h2>
         <p class="question-lead__text">@lang('home.question-lead.text')</p>
       </div>
-      <button data-popup-id="main" data-popup-payload="@yield('mainPopupPayload')"
-        class="question-lead__btn link-on-popup">
+      <button data-popup-id="quiz" data-popup-payload="{{ $slot }}" class="question-lead__btn link-on-popup">
         @lang('home.question-lead.btn')<span class="flare white"></span>
       </button>
     </div>

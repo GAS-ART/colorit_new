@@ -1,13 +1,17 @@
 <section class="lead">
   <div class="lead__container">
     <div class="lead__body">
-      <div class="lead__content">
-        <h2 class="lead__title">@lang('home.lead.title')</h2>
-        <p class="lead__text">@lang('home.lead.text')</p>
+      <div class="lead__img">
+        <img src="{{asset('img/icons/phone.svg')}}" alt="">
       </div>
-      <button data-popup-id="quiz" data-popup-payload="{{ $slot }}" class="lead__btn link-on-popup">
-        @lang('home.lead.btn')<span class="flare white"></span>
-      </button>
+      <div class="lead__content">
+        <h2 class="lead__title">{{ $title }}</h2>
+        <p class="lead__text">{{ $text }}</p>
+      </div>
+      <div class="lead__action">
+        <button data-popup-id="quiz" data-popup-payload="{{ $leadInfo }}"
+          class="lead__btn link-on-popup">@lang('letters.lead.btn')<span class="flare white"></span></button>
+      </div>
     </div>
   </div>
 </section>

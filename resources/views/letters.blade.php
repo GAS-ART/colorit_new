@@ -377,28 +377,16 @@
     </div>
   </div>
 </section>
-<section class="letters-lead">
-  <div class="letters-lead__container">
-    <div class="letters-lead__body">
-      <div class="letters-lead__img">
-        <img src="{{asset('img/icons/phone.svg')}}" alt="">
-      </div>
-      <div class="letters-lead__content">
-        <h2 class="letters-lead__title">@lang('letters.lead.title')</h2>
-        <p class="letters-lead__text">@lang('letters.lead.text')</p>
-      </div>
-      <div class="letters-lead__action">
-        <button data-popup-id="quiz" data-popup-payload="Заказ со страницы буквы без света"
-          class="letters-lead__btn link-on-popup">@lang('letters.lead.btn')<span class="flare white"></span></button>
-      </div>
-    </div>
-  </div>
-</section>
+<x-lead>
+  <x-slot name="title">@lang('letters.lead.title')</x-slot>
+  <x-slot name="text">@lang('letters.lead.text')</x-slot>
+  <x-slot name="leadInfo">БУКВЫ БЕЗ СВЕТА ({{ url()->current() }})</x-slot>
+</x-lead>
 @include('inc.questions')
 <x-about>
   @lang('letters.about_text')
 </x-about>
-<x-lead>
+<x-questionLead>
   БУКВЫ БЕЗ СВЕТА ({{ url()->current() }})
-</x-lead>
+</x-questionLead>
 @endsection
