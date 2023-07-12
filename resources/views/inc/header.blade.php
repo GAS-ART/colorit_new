@@ -72,7 +72,8 @@
                      <!--Для выпадающего списка языков-->
                   </div>
                </div>
-               <button data-popup-id="main" class="info-header__lead link-on-popup">
+               <button data-popup-id="main" data-popup-payload="@yield('mainPopupPayload')"
+                  class="info-header__lead link-on-popup">
                   @lang('header.lead')<span class="flare-header"></span>
                </button>
                </button>

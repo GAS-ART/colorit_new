@@ -16,6 +16,7 @@
                      <form action="{{route('sendMainForm')}}" method="POST" name="mainForm" id="mainForm"
                         class="@lang('lang.current')">
                         @csrf
+                        <input class="quiz-service-data" name="payload" type="hidden" value="">
                         <div class="popup__item">
                            <label for="name">@lang('popup.name')</label>
                            <input id="name" name="name" type="text" placeholder="@lang('popup.name_placeholder')">
@@ -159,7 +160,7 @@
                      <form action="{{route('sendMainForm')}}" method="POST" name="mainForm" id="mainForm"
                         class="@lang('lang.current')">
                         @csrf
-                        <input class="quiz-service-data" type="hidden" value="">
+                        <input class="quiz-service-data" name="payload" type="hidden" value="">
                         <div class="popup__item">
                            <label for="name">@lang('popup.name')</label>
                            <input id="quizName" name="name" type="text" placeholder="@lang('popup.name_placeholder')">

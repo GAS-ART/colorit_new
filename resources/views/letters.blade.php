@@ -4,7 +4,7 @@
 @section('ogTitle' ,__('titles.home.ogTitle'))
 @section('ogDescription', __('titles.letters_whithout_light.ogDescription'))
 @section('page', 'letters')
-
+@section('mainPopupPayload', 'Заказ со страницы БУКВЫ БЕЗ СВЕТА (' . url()->current() . ')')
 
 @section('content')
 <section class="main ">

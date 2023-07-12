@@ -5,6 +5,7 @@
 @section('ogDescription', __('titles.home.ogDescription'))
 @section('ogUrl', __('titles.home.ogUrl'))
 @section('page', 'home')
+@section('mainPopupPayload', 'Заказ с главной страницы (' . url()->current() . ')')
 
 @section('content')
 
