@@ -7,8 +7,8 @@ return [
     'signboards'=> 'Rótulos',
     'letters' => [
       'title' => 'Letras Corpóreas',
-      'whithout_light' => 'sin iluminacion',
-      'whith_light' => 'iluminadas',
+      'whithout_light' => 'Sin iluminacion',
+      'whith_light' => 'Iluminadas',
     ],
     'vinyl' => "Vinilos",
     'events' => "Ferias",
