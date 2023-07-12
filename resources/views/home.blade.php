@@ -5,7 +5,7 @@
 @section('ogDescription', __('titles.home.ogDescription'))
 @section('ogUrl', __('titles.home.ogUrl'))
 @section('page', 'home')
-@section('mainPopupPayload', 'Заказ с главной страницы (' . url()->current() . ')')
+@section('mainPopupPayload', 'Главная страница (' . url()->current() . ')')
 
 @section('content')
 
@@ -90,7 +90,8 @@
                         </div>
                         <h3 class="item-quiz__title">@lang('home.quiz.body.vinyl.title')</h3>
                     </div>
-                    <div data-popup-id="quiz" data-popup-payload="Event" class="swiper-slide link-on-popup">
+                    <div data-popup-id="quiz" data-popup-payload="ОПРОСНИК: выставки"
+                        class="swiper-slide link-on-popup">
                         <div class="item-quiz__img">
                             @if(App::isLocale('es'))
                             <img src="{{ asset('img/home/quiz/es/4_.webp') }}" alt="@lang('alt.home.quiz.4')">
