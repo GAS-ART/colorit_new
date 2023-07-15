@@ -26,6 +26,7 @@ return [
     ]
   ],
   'letters' => [
+    'baner' => 'Letras corpóreas en Barcelona',
     'material'=> [
       '1' => 'Fabricacion letras de pvc en Barcelona',
       '2' => 'Fabricacion letras de madera en Barcelona',
@@ -43,6 +44,9 @@ return [
       '7' => 'Letras para letrero de pvc 19 mm son separadores',
       '8' => 'Letras para pared de pvc negro mate 19 mm',
       '9' => 'Letras corpóreas de pvc 30 mm con separadores',
+    ],
+    'whith_light' => [
+      'baner' => 'Letras corpóreas iluminadas en Barcelona'
     ],
   ],
 ]

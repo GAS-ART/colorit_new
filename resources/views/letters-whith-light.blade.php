@@ -1,24 +1,24 @@
 @extends('layout')
-@section('title', __('titles.letters_whithout_light.title'))
-@section('description', __('titles.letters_whithout_light.description'))
-@section('ogTitle' ,__('titles.letters_whithout_light.ogTitle'))
-@section('ogDescription', __('titles.letters_whithout_light.ogDescription'))
+@section('title', __('titles.letters_whith_light.title'))
+@section('description', __('titles.letters_whith_light.description'))
+@section('ogTitle' ,__('titles.home.letters_whith_light.ogTitle'))
+@section('ogDescription', __('titles.letters_whith_light.ogDescription'))
 @section('page', 'letters')
-@section('mainPopupPayload', 'БУКВЫ БЕЗ СВЕТА (' . url()->current() . ')')
+@section('mainPopupPayload', 'БУКВЫ СО СВЕТОМ (' . url()->current() . ')')
 
 @php
 $mainBaner = [
 'title' => __('letters.whith_light.title'),
 'es' => [
-'imgBig' => 'img/letters/es/Letras-córporeas-de-pvc-negro-mate-para-ferias.webp',
-'imgMin' => 'img/letters/es/letras-córporeas-sin-iluminadas.webp',
+'imgBig' => 'img/letters/es/whith_light/Letras-corpóreas-frente-dorado-espejo-retroiluminadas.webp',
+'imgMin' => 'img/letters/es/whith_light/Letras-corpóreas-frente-dorado-espejo-retroiluminadas_.webp',
 ],
 'ru' => [
-'imgBig' => 'img/letters/ru/Объемные-буквы-из-пвх-для-выставки.webp',
-'imgMin' => 'img/letters/ru/Обьемные-буквы-без-света.webp',
+'imgBig' => 'img/letters/ru/whith_light/Буквы-обьемные-зеркальные-накладки-с-подсветкой-контражур.webp',
+'imgMin' => 'img/letters/ru/whith_light/Буквы-обьемные-зеркальные-накладки-с-подсветкой-контражур_.webp',
 ],
-'alt' => __('alt.letters.baner'),
-'circle_text' => __('letters.circle')
+'alt' => __('alt.letters.whith_light.baner'),
+'circle_text' => __('letters.whith_light.circle')
 ];
 
 $breadCrumbs = [
@@ -29,9 +29,26 @@ $breadCrumbs = [
 ],
 // Add other breadcrumb elements as needed
 ],
-'currentPage' => __('crumbs.letters')
+'currentPage' => __('crumbs.letters_whith_light')
 ];
-
+$lights = [
+'title' => __('letters.whith_light.lights.title'),
+'text' => __('letters.whith_light.lights.text'),
+'img' => [
+[
+'es' => 'img/letters/es/whith_light/lights/Letras-corpóreas-iluminadas.webp',
+'ru' => 'img/letters/ru/whith_light/lights/Обьемные-буквы-с-подсветкой.webp',
+'img_title' => __('letters.whith_light.lights.img.1'),
+'alt' => '',
+],
+[
+'es' => 'img/letters/es/whith_light/lights/Letras-corpóreas-retroiluminadas.webp',
+'ru' => 'img/letters/ru/whith_light/lights/Объемные-буквы-с-подсветкой-контражур.webp',
+'img_title' => __('letters.whith_light.lights.img.2'),
+'alt' => '',
+],
+],
+];
 $mounts = [
 'title' => __('letters.mounts.title'),
 'text' => __('letters.mounts.text'),
@@ -50,16 +67,50 @@ $mounts = [
 ],
 ],
 ];
+$questions = [
+[
+'question' => __('letters.whith_light.questions.1.question'),
+'answer' => __('letters.whith_light.questions.1.answer'),
+],
+[
+'question' => __('letters.whith_light.questions.2.question'),
+'answer' => __('letters.whith_light.questions.2.answer'),
+],
+[
+'question' => __('letters.whith_light.questions.3.question'),
+'answer' => __('letters.whith_light.questions.3.answer'),
+],
+[
+'question' => __('letters.whith_light.questions.4.question'),
+'answer' => __('letters.whith_light.questions.4.answer'),
+],
+[
+'question' => __('letters.whith_light.questions.5.question'),
+'answer' => __('letters.whith_light.questions.5.answer'),
+],
+[
+'question' => __('letters.whith_light.questions.6.question'),
+'answer' => __('letters.whith_light.questions.6.answer'),
+],
+[
+'question' => __('letters.whith_light.questions.7.question'),
+'answer' => __('letters.whith_light.questions.7.answer'),
+],
+[
+'question' => __('letters.whith_light.questions.8.question'),
+'answer' => __('letters.whith_light.questions.8.answer'),
+],
+];
 @endphp
 
 @section('content')
 <x-main-baner :baner="$mainBaner" />
 <x-bread-crumbs :crumbs="$breadCrumbs" />
 <x-main-text>
-  @lang('letters.text')
+  @lang('letters.whith_light.text')
 </x-main-text>
 @include('inc.letters.material')
-<section class="letters-thickness">
+<section class="letters-thickness whith-light">
   <div class="letters-thickness__container">
     <div class="letters-thickness__body">
       <h2 class="letters-thickness__title">@lang('letters.thickness.title')</h2>
@@ -67,42 +118,6 @@ $mounts = [
       <div class="letters-thickness__slider-body">
         <div class="letters-thickness__slider slider-letters-thickness swiper">
           <div class="slider-letters-thickness__wrapper swiper-wrapper">
-            <div class="swiper-slide slider-letters-thickness__slide letters-thickness-slide">
-              <div class="letters-thickness-slide__body">
-                <div class="letters-thickness-slide__img">
-                  @if(App::isLocale('es'))
-                  <img src="{{ asset('img/letters/es/thickness/2.webp') }}" alt="">
-                  @elseif(App::isLocale('ru'))
-                  <img src="{{ asset('img/letters/ru/thickness/2.webp') }}" alt="">
-                  @endif
-                </div>
-                <h4 class="letters-thickness-slide__img-title">@lang('letters.thickness.img.1')</h4>
-              </div>
-            </div>
-            <div class="swiper-slide slider-letters-thickness__slide letters-thickness-slide">
-              <div class="letters-thickness-slide__body">
-                <div class="letters-thickness-slide__img">
-                  @if(App::isLocale('es'))
-                  <img src="{{ asset('img/letters/es/thickness/1.webp') }}" alt="">
-                  @elseif(App::isLocale('ru'))
-                  <img src="{{ asset('img/letters/ru/thickness/1.webp') }}" alt="">
-                  @endif
-                </div>
-                <h4 class="letters-thickness-slide__img-title">@lang('letters.thickness.img.2')</h4>
-              </div>
-            </div>
-            <div class="swiper-slide slider-letters-thickness__slide letters-thickness-slide">
-              <div class="letters-thickness-slide__body">
-                <div class="letters-thickness-slide__img">
-                  @if(App::isLocale('es'))
-                  <img src="{{ asset('img/letters/es/thickness/3.webp') }}" alt="">
-                  @elseif(App::isLocale('ru'))
-                  <img src="{{ asset('img/letters/ru/thickness/3.webp') }}" alt="">
-                  @endif
-                </div>
-                <h4 class="letters-thickness-slide__img-title">@lang('letters.thickness.img.3')</h4>
-              </div>
-            </div>
             <div class="swiper-slide slider-letters-thickness__slide letters-thickness-slide">
               <div class="letters-thickness-slide__body">
                 <div class="letters-thickness-slide__img">
@@ -136,6 +151,7 @@ $mounts = [
       </div>
     </div>
 </section>
+<x-letters.two-images-section :data="$lights" />
 <x-letters.two-images-section :data="$mounts" />
 <section class="portfolio letters-portfolio">
   <div class="portfolio__conent">
@@ -262,15 +278,13 @@ $mounts = [
   </div>
 </section>
 <x-lead>
-  <x-slot name="title">@lang('letters.lead.title')</x-slot>
+  <x-slot name="title">@lang('letters.whith_light.lead.title')</x-slot>
   <x-slot name="text">@lang('letters.lead.text')</x-slot>
-  <x-slot name="leadInfo">БУКВЫ БЕЗ СВЕТА ({{ url()->current() }})</x-slot>
+  <x-slot name="leadInfo">БУКВЫ CO СВЕТОМ ({{ url()->current() }})</x-slot>
 </x-lead>
-@include('inc.questions')
+<x-questions :questions="$questions" />
 <x-about>
-  @lang('letters.about_text')
+  @lang('letters.whith_light.about_text')
 </x-about>
-<x-questionLead>
-  БУКВЫ БЕЗ СВЕТА ({{ url()->current() }})
-</x-questionLead>
+
 @endsection

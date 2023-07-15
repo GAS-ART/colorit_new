@@ -114,7 +114,8 @@
                            </a>
                         </li>
                         <li class="header-menu__sub-list-item">
-                           <a href="#" class="header-menu__sub-list-link">
+                           <a href="{{ route('letters_with_light', ['locale' => __('lang.current')]) }}"
+                              class="header-menu__sub-list-link">
                               @lang('main.menu.letters.whith_light')
                            </a>
                         </li>

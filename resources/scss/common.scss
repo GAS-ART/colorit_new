@@ -91,7 +91,7 @@
   }
 }
 
-.bread-crambs {
+.bread-crumbs {
   margin-left: 20px;
   @extend %section;
   @media (max-width: $mobile) {
@@ -265,4 +265,16 @@
 }
 /*================PORTFOLIO================*/
 
+/*================MAIN-TEXT================*/
+.main-text {
+  @extend %section;
+    &__container {
+    }
+  
+    &__body {
+      margin: 0 auto;
+      max-width: 900px;
+      line-height: 180%;
+    }
+  }
 

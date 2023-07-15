@@ -87,7 +87,8 @@
                      <li class="links-footer__sub-list-item"><a
                            href="{{ route('letters', ['locale' => __('lang.current')]) }}"
                            class="links-footer__sub-list-link">@lang('main.menu.letters.whithout_light')</a></li>
-                     <li class="links-footer__sub-list-item"><a href=""
+                     <li class="links-footer__sub-list-item"><a
+                           href="{{ route('letters_with_light', ['locale' => __('lang.current')]) }}"
                            class="links-footer__sub-list-link">@lang('main.menu.letters.whith_light')</a></li>
                   </ul>
                </li>

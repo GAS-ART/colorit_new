@@ -299,7 +299,6 @@ if (lettersMaterialSlider) {
     slidesPerView: 1,
     grabCursor: true,
     spaceBetween: 20,
-    loop: true,
     speed: 800,
     navigation: {
       nextEl: '.slider-letters-material__btn-next',
@@ -336,7 +335,6 @@ if (lettersThicknessSlider) {
     slidesPerView: 1,
     grabCursor: true,
     spaceBetween: 20,
-    loop: true,
     speed: 800,
     navigation: {
       nextEl: '.slider-letters-thickness__btn-next',
@@ -348,11 +346,9 @@ if (lettersThicknessSlider) {
       },
       992: {
         slidesPerView: 4,
-        loop: false,
       },
       768: {
         slidesPerView: 3,
-        loop: false,
       },
       500: {
         slidesPerView: 2,
