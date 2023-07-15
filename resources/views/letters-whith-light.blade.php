@@ -1,7 +1,7 @@
 @extends('layout')
 @section('title', __('titles.letters_whith_light.title'))
 @section('description', __('titles.letters_whith_light.description'))
-@section('ogTitle' ,__('titles.home.letters_whith_light.ogTitle'))
+@section('ogTitle' ,__('titles.letters_whith_light.ogTitle'))
 @section('ogDescription', __('titles.letters_whith_light.ogDescription'))
 @section('page', 'letters')
 @section('mainPopupPayload', 'БУКВЫ СО СВЕТОМ (' . url()->current() . ')')
