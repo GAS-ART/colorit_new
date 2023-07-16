@@ -1,6 +1,6 @@
 <section class="main">
   <div class="main__baner">
-    <h1 class="main__baner--title service"><span>{{ $baner['title'] }}</span></h1>
+    <h1 class="main__baner--title-service"><span>{{ $baner['title'] }}</span></h1>
     <picture>
       @if(App::isLocale('es'))
       <source type="image/webp" srcset="{{ asset($baner['es']['imgBig']) }}" media="(min-width: 768px)">

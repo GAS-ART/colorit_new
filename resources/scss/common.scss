@@ -2,11 +2,15 @@
 
 .main {
   margin-bottom: 0;
+  
   @media (max-width: $mobile) {
     margin-bottom: 130px;
   }
   @media (max-width: $mobileSmall) {
     margin-bottom: 120px;
+  }
+  &__baner{
+    position: relative;
   }
   &__baner--title{
     position: absolute;
@@ -33,11 +37,42 @@
         padding: 20px 10px;
       }
     }
+/*     &.service{
+      @media (max-width: $mobile) {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 100%;
+        width: unset;
+        height: unset;
+        bottom: 50%;
+      }
+    } */
    &.service{
     @media (max-width: $mobile) {
-      position: relative;
+      //position: relative;
     }
    }
+  }
+  &__baner--title-service{
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    z-index: 2;
+    font-weight: 700;
+    line-height: 100%;
+    font-family: 'Jost';
+    padding: 32px 40px;
+    background: rgba(23, 22, 26, 0.80);
+    transform: translate(0%, -100%);
+    @include adaptiveValueREM('font-size', 60, 18,  1920, 768, 1);
+    color: #ffffff;
+    white-space: nowrap;
+    @media (max-width: $mobile) {
+      transform: translate(-50%, -50%);
+      top: 50%;
+      left: 50%;
+      padding: 24px 40px;
+    }
   }
   &__circle {
     position: absolute;

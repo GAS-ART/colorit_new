@@ -8,7 +8,7 @@
 
 @php
 $mainBaner = [
-'title' => __('letters.whith_light.title'),
+'title' => __('letters.title'),
 'es' => [
 'imgBig' => 'img/letters/es/Letras-córporeas-de-pvc-negro-mate-para-ferias.webp',
 'imgMin' => 'img/letters/es/letras-córporeas-sin-iluminadas.webp',

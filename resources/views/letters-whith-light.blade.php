@@ -282,7 +282,7 @@ $questions = [
   <x-slot name="text">@lang('letters.lead.text')</x-slot>
   <x-slot name="leadInfo">БУКВЫ CO СВЕТОМ ({{ url()->current() }})</x-slot>
 </x-lead>
-<x-questions :questions="$questions" />
+<x-questions :$questions />
 <x-about>
   @lang('letters.whith_light.about_text')
 </x-about>
