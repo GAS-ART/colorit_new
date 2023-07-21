@@ -46,7 +46,40 @@ return [
   Ya sea que necesite letras para el interior o exterior, nuestras soluciones lo harán sobresalir de la competencia. Garantizamos una fabricación e instalación de alta calidad y ofrecemos una amplia gama de servicios adicionales, incluidos el diseño, la consulta y el soporte tecnico.<br><br>
   Al contactarnos, puede estar seguro de que recibirá letras volumétricas que superarán sus expectativas. Nuestro objetivo es ayudar a su empresa a atraer más clientes y establecerse como líder del mercado. ¡Pídanos letras volumétricas ahora mismo y asegúrese de su máxima calidad!<br><br>
   Las letras volumétricas no son solo nuestro negocio, ¡este es nuestro arte! Haz que tu publicidad sea inolvidable con nuestras letras de pared, letras córporeas y otras soluciones para tu señalética. Contáctenos hoy y comience a transformar su negocio hoy.',
-  
+  'questions' => [
+    '1' => [
+      'question' => 'Что такое световые объемные буквы?',
+      'answer' => 'Световые объемные буквы представляют собой трехмерные элементы с открытой передней частью, изготовленные из различных материалов и освещенные внутри для создания эффекта подсветки и улучшения видимости.',
+    ],
+    '2' => [
+      'question' => 'Какие материалы обычно используются для создания световых объемных букв?',
+      'answer' => 'Для изготовления световых объемных букв могут использоваться различные материалы, включая акрил, алюминий, нержавеющую сталь, дерево и др.',
+    ],
+    '3' => [
+      'question' => 'Как происходит процесс изготовления световых объемных букв?',
+      'answer' => 'Процесс изготовления световых объемных букв включает такие этапы, как проектирование и создание дизайна, фрезеровку или лазерную резку материала, сборку, установку осветительных элементов и проводку.',
+    ],
+    '4' => [
+      'question' => 'Каким образом свет подается на световые объемные буквы?',
+      'answer' => 'Свет может подаваться на световые объемные буквы с помощью внутренних светодиодов (LED), которые располагаются внутри буквы и обеспечивают равномерную подсветку.',
+    ],
+    '5' => [
+      'question' => 'Какие типы освещения чаще всего используются для световых объемных букв?',
+      'answer' => 'Самым распространенным типом освещения для световых объемных букв являются фронтальная подсветка, где свет подается на лицевую часть буквы и подтветка контражур, где свет подается на заднюю часть буквы создавая эффект ореола.',
+    ],
+    '6' => [
+      'question' => 'Каковы преимущества использования световых объемных букв для рекламных целей? ',
+      'answer' => 'Световые объемные буквы обладают высокой видимостью и привлекательным внешним видом, что делает их эффективным инструментом для рекламы и привлечения внимания к бизнесу или марке.',
+    ],
+    '7' => [
+      'question' => 'Потребление электроэнергии?',
+      'answer' => 'Благодаря современным технологиям LED ленты оснащеннны энергосберигающими модулями которые в раза уменьшают потребление электроэнергии.',
+    ],
+    '8' => [
+      'question' => 'Как поддерживать и ухаживать за световыми объемными буквами, чтобы сохранить их эффективность и внешний вид?',
+      'answer' => 'Регулярное очищение от пыли и грязи, проверка работоспособности и замена неисправных осветительных элементов (LED) помогут сохранить эффективность и внешний вид световых объемных букв.',
+    ],
+  ],
   'whith_light' => [
       'title' => 'Letras corpóreas iluminadas',
       'circle' => 'Producción hasta 8-14 días',

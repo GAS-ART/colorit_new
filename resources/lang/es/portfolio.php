@@ -4,6 +4,7 @@ return [
    'title' => 'Portfolio',
    'text_title' => 'Es seguro y conveniente trabajar con nosotros.',
    'text' => 'Damos una garantía de los productos de 3 años.',
+   'show_more' => 'Ver mas trabajos',
    'letters' => [
       '1' => 'Letras a la pared de PVC 10 mm',
       '2' => 'Letras para ferias con frente metacrilato',

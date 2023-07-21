@@ -64,7 +64,7 @@
     padding: 32px 40px;
     background: rgba(23, 22, 26, 0.80);
     transform: translate(0%, -100%);
-    @include adaptiveValueREM('font-size', 60, 18,  1920, 768, 1);
+    @include adaptiveValueREM('font-size', 45, 18,  1920, 768, 1);
     color: #ffffff;
     white-space: nowrap;
     @media (max-width: $mobile) {
@@ -206,7 +206,9 @@
       font-size: 14px;
     }
   }
-
+  &__img-body{
+    margin-bottom: 25px;
+  }
   .product-portfolio__wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -295,6 +297,21 @@
       bottom: 2%;
       left: 2%;
       font-size: 18px;
+    }
+  }
+  &__show-more{
+    text-align: center;
+    &-link{
+      font-size: 20px;
+      color: $purple;
+      font-weight: 700;
+      font-family: 'Jost';
+      span{
+        display: inline-block;
+        position: relative;
+        top: 1.07px;
+        font-size: 24px;
+      }
     }
   }
 }

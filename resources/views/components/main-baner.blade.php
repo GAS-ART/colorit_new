@@ -2,18 +2,9 @@
   <div class="main__baner">
     <h1 class="main__baner--title-service"><span>{{ $baner['title'] }}</span></h1>
     <picture>
-      @if(App::isLocale('es'))
-      <source type="image/webp" srcset="{{ asset($baner['es']['imgBig']) }}" media="(min-width: 768px)">
-      <source type="image/webp" srcset="{{ asset($baner['es']['imgMin']) }}">
-      @elseif(App::isLocale('ru'))
-      <source type="image/webp" srcset="{{ asset($baner['ru']['imgBig']) }}" media="(min-width: 768px)">
-      <source type="image/webp" srcset="{{ asset($baner['ru']['imgMin']) }}">
-      @endif
-      @if(App::isLocale('es'))
-      <img src="{{ asset($baner['es']['imgBig']) }}" alt="{{ $baner['alt'] }}">
-      @elseif(App::isLocale('ru'))
-      <img src="{{ asset($baner['ru']['imgMin']) }}" alt="{{ $baner['alt'] }}">
-      @endif
+      <source type="image/webp" srcset="{{ asset($baner[App::currentLocale()]['imgBig']) }}" media="(min-width: 768px)">
+      <source type="image/webp" srcset="{{ asset($baner[App::currentLocale()]['imgMin']) }}">
+      <img src="{{ asset($baner[App::currentLocale()]['imgBig']) }}" alt="{{ $baner['alt'] }}">
     </picture>
     <div class="main__circle">
       <div class="main__circle--content">{{ $baner['circle_text'] }}</div>

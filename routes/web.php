@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,15 +15,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-/* Route::get('/', function () {
-    return view('welcome');
-}); */
-
-
 Route::get('/locale/{locale}',  'App\Http\Controllers\LanguagesController@changeLocale')->name('locale');
 Route::post('/send-main-form', 'App\Http\Controllers\sendController@submit')->name('sendMainForm');
 
-Route::get('/', function () {
+Route::get('/', [HomeController::class, 'index'])->name('index.lang');
+Route::get('/{locale}', [HomeController::class, 'index'])->name('home');
+
+
+/* Route::get('/', function () {
     App::setLocale('es');
     return view('home');
   })->name('index.lang');
@@ -44,7 +44,7 @@ Route::get('/', function () {
       App::setLocale('ru');
       return view('home');
     }
-  })->name('home');
+  })->name('home'); */
 
   Route::get('/{locale}/letters-whithout-light', function ($locale) {
     if (!in_array($locale, ['es', 'ru'])) {
@@ -76,18 +76,17 @@ Route::get('/', function () {
     }
   })->name('letters_with_light');
 
-
-  Route::get('/{locale}/form', function ($locale) {
+  Route::get('/{locale}/portfolio', function ($locale) {
     if (!in_array($locale, ['es', 'ru'])) {
   
       abort(404);
     } else if ($locale == 'es') {
   
       App::setLocale('es');
-      return view('form');
+      return view('portfolio');
     } else if ($locale == 'ru') {
   
       App::setLocale('ru');
-      return view('form');
+      return view('portfolio');
     }
-  })->name('form');
+  })->name('portfolio');

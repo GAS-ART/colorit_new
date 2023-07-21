@@ -50,6 +50,41 @@ $mounts = [
 ],
 ],
 ];
+
+$questions = [
+[
+'question' => __('letters.questions.1.question'),
+'answer' => __('letters.questions.1.answer'),
+],
+[
+'question' => __('letters.questions.2.question'),
+'answer' => __('letters.questions.2.answer'),
+],
+[
+'question' => __('letters.questions.3.question'),
+'answer' => __('letters.questions.3.answer'),
+],
+[
+'question' => __('letters.questions.4.question'),
+'answer' => __('letters.questions.4.answer'),
+],
+[
+'question' => __('letters.questions.5.question'),
+'answer' => __('letters.questions.5.answer'),
+],
+[
+'question' => __('letters.questions.6.question'),
+'answer' => __('letters.questions.6.answer'),
+],
+[
+'question' => __('letters.questions.7.question'),
+'answer' => __('letters.questions.7.answer'),
+],
+[
+'question' => __('letters.questions.8.question'),
+'answer' => __('letters.questions.8.answer'),
+],
+];
 @endphp
 
 @section('content')
@@ -147,7 +182,7 @@ $mounts = [
   </div>
   <div class="portfolio__img-body">
     <div class="portfolio__slider-product product-portfolio swiper">
-      <div id="dynamic-gallery" class="swiper-wrapper product-portfolio__wrapper gallery">
+      <div id="dynamic-gallery" data-path="letters/portfolio" class="swiper-wrapper product-portfolio__wrapper gallery">
         <div class="swiper-slide product-portfolio__slide gallery-item">
           <div class="portfolio__img">
             @if(App::isLocale('es'))
@@ -260,13 +295,18 @@ $mounts = [
       </div>
     </div>
   </div>
+  <div class="portfolio__show-more">
+    <a class="portfolio__show-more-link"
+      href="{{ route('portfolio', ['locale' => __('lang.current')]) }}">@lang('portfolio.show_more')
+      <span>&rarr;</span></a>
+  </div>
 </section>
 <x-lead>
   <x-slot name="title">@lang('letters.lead.title')</x-slot>
   <x-slot name="text">@lang('letters.lead.text')</x-slot>
   <x-slot name="leadInfo">БУКВЫ БЕЗ СВЕТА ({{ url()->current() }})</x-slot>
 </x-lead>
-@include('inc.questions')
+<x-questions :$questions />
 <x-about>
   @lang('letters.about_text')
 </x-about>

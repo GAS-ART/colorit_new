@@ -5,16 +5,20 @@ import lgThumbnail from 'lightgallery/plugins/thumbnail'
 import lgZoom from 'lightgallery/plugins/zoom'
 
 const gallery = document.getElementById('dynamic-gallery');
+
 if (gallery) {
+  const baseDir = `${window.location.protocol}//${window.location.host}`;
+  const path = gallery.dataset.path;
   const galleryImages = gallery.querySelectorAll('img');
   const galleryData = [];
 
-  galleryImages.forEach(img => {
-    const src = img.src;
+  galleryImages.forEach((img, index) => {
+    const src = `${baseDir}/img/${path}/${index}.webp`;
+    const thumb = img.src;
     const subHtml = img.alt;
     galleryData.push({
       src,
-      thumb: src,
+      thumb,
       subHtml
     });
   });
