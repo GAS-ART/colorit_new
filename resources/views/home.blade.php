@@ -669,10 +669,11 @@
         </div>
     </div>
 </section>
-@include('inc.questions')
 <x-questions :$questions />
 <x-about>
     @lang('home.about.text')
 </x-about>
-@include('inc.lead')
+<x-questionLead>
+    ГЛАВНАЯ СТРАНИЦА ({{ url()->current() }})
+</x-questionLead>
 @endsection

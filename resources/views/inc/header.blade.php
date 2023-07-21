@@ -91,7 +91,7 @@
                      <h3 class="header-menu__title">@lang('main.menu.signboards')</h3>
                      <ul class="header-menu__sub-list">
                         <li class="header-menu__sub-list-item">
-                           <a href="{{ route('letters', ['locale' => __('lang.current')]) }}"
+                           <a href="{{ route('letters_without_light', ['locale' => __('lang.current')]) }}"
                               class="header-menu__sub-list-link">
                               @lang('main.menu.letters.whithout_light')
                            </a>
@@ -108,7 +108,7 @@
                      </h3>
                      <ul class="header-menu__sub-list">
                         <li class="header-menu__sub-list-item">
-                           <a href="{{ route('letters', ['locale' => __('lang.current')]) }}"
+                           <a href="{{ route('letters_without_light', ['locale' => __('lang.current')]) }}"
                               class="header-menu__sub-list-link">
                               @lang('main.menu.letters.whithout_light')
                            </a>
@@ -125,7 +125,7 @@
                      <h3 class="header-menu__title">@lang('main.menu.vinyl')</h3>
                      <ul class="header-menu__sub-list">
                         <li class="header-menu__sub-list-item">
-                           <a href="{{ route('letters', ['locale' => __('lang.current')]) }}"
+                           <a href="{{ route('letters_without_light', ['locale' => __('lang.current')]) }}"
                               class="header-menu__sub-list-link">
                               @lang('main.menu.letters.whithout_light')
                            </a>
@@ -141,7 +141,7 @@
                      <h3 class="header-menu__title">@lang('main.menu.events')</h3>
                      <ul class="header-menu__sub-list">
                         <li class="header-menu__sub-list-item">
-                           <a href="{{ route('letters', ['locale' => __('lang.current')]) }}"
+                           <a href="{{ route('letters_without_light', ['locale' => __('lang.current')]) }}"
                               class="header-menu__sub-list-link">
                               @lang('main.menu.letters.whithout_light')
                            </a>

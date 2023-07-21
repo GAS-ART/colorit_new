@@ -2,7 +2,10 @@
 
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\HomeController;
+use App\Http\Controllers\Pages\HomeController;
+use App\Http\Controllers\Pages\LettersWhithoutLightController;
+use App\Http\Controllers\Pages\LettersWhithLightController;
+use App\Http\Controllers\Pages\PortfolioController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,72 +24,6 @@ Route::post('/send-main-form', 'App\Http\Controllers\sendController@submit')->na
 Route::get('/', [HomeController::class, 'index'])->name('index.lang');
 Route::get('/{locale}', [HomeController::class, 'index'])->name('home');
 
-
-/* Route::get('/', function () {
-    App::setLocale('es');
-    return view('home');
-  })->name('index.lang');
-  Route::get('/es', function () {
-    App::setLocale('es');
-    return  redirect('/');
-  });
-  
-  Route::get('/{locale}', function ($locale) {
-    if (!in_array($locale, ['es', 'ru'])) {
-  
-      abort(404);
-    } else if ($locale == 'es') {
-  
-      App::setLocale('es');
-      return view('home');
-    } else if ($locale == 'ru') {
-  
-      App::setLocale('ru');
-      return view('home');
-    }
-  })->name('home'); */
-
-  Route::get('/{locale}/letters-whithout-light', function ($locale) {
-    if (!in_array($locale, ['es', 'ru'])) {
-  
-      abort(404);
-    } else if ($locale == 'es') {
-  
-      App::setLocale('es');
-      return view('letters');
-    } else if ($locale == 'ru') {
-  
-      App::setLocale('ru');
-      return view('letters');
-    }
-  })->name('letters');
-
-  Route::get('/{locale}/letters-whith-light', function ($locale) {
-    if (!in_array($locale, ['es', 'ru'])) {
-  
-      abort(404);
-    } else if ($locale == 'es') {
-  
-      App::setLocale('es');
-      return view('letters-whith-light');
-    } else if ($locale == 'ru') {
-  
-      App::setLocale('ru');
-      return view('letters-whith-light');
-    }
-  })->name('letters_with_light');
-
-  Route::get('/{locale}/portfolio', function ($locale) {
-    if (!in_array($locale, ['es', 'ru'])) {
-  
-      abort(404);
-    } else if ($locale == 'es') {
-  
-      App::setLocale('es');
-      return view('portfolio');
-    } else if ($locale == 'ru') {
-  
-      App::setLocale('ru');
-      return view('portfolio');
-    }
-  })->name('portfolio');
+Route::get('/{locale}/letters-whithout-light', [LettersWhithoutLightController::class, 'index'])->name('letters_without_light');
+Route::get('/{locale}/letters-whith-light', [LettersWhithLightController::class, 'index'])->name('letters_with_light');
+Route::get('/{locale}/portfolio', [PortfolioController::class, 'index'])->name('portfolio');

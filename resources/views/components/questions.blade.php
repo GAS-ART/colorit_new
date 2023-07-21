@@ -9,9 +9,9 @@
         <div class="content-questions__body">
           @foreach($questions as $question)
           <div class="content-questions__card">
-            <div class="content-questions__question">{{$question['question']}}
+            <div class="content-questions__question">{{__($question['question'])}}
             </div>
-            <div class="content-questions__answer">{{$question['answer']}}</div>
+            <div class="content-questions__answer">{{__($question['answer'])}}</div>
             <div class="content-questions__arrow">
               <div></div>
             </div>

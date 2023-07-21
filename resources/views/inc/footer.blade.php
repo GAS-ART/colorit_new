@@ -55,7 +55,7 @@
                   <h3 class="links-footer__item-title">@lang('main.menu.signboards')</h3>
                   <ul class="links-footer__sub-list">
                      <li class="links-footer__sub-list-item"><a
-                           href="{{ route('letters', ['locale' => __('lang.current')]) }}"
+                           href="{{ route('letters_without_light', ['locale' => __('lang.current')]) }}"
                            class="links-footer__sub-list-link">@lang('main.menu.letters.whithout_light')</a></li>
                      <li class="links-footer__sub-list-item"><a href=""
                            class="links-footer__sub-list-link">@lang('main.menu.letters.whith_light')</a></li>
@@ -65,9 +65,10 @@
                   <h3 class="links-footer__item-link">@lang('main.menu.letters.title')</h3>
                   <ul class="links-footer__sub-list">
                      <li class="links-footer__sub-list-item"><a
-                           href="{{ route('letters', ['locale' => __('lang.current')]) }}"
+                           href="{{ route('letters_without_light', ['locale' => __('lang.current')]) }}"
                            class="links-footer__sub-list-link">@lang('main.menu.letters.whithout_light')</a></li>
-                     <li class="links-footer__sub-list-item"><a href=""
+                     <li class="links-footer__sub-list-item"><a
+                           href="{{ route('letters_with_light', ['locale' => __('lang.current')]) }}"
                            class="links-footer__sub-list-link">@lang('main.menu.letters.whith_light')</a></li>
                   </ul>
                </li>
@@ -75,7 +76,7 @@
                   <h3 class="links-footer__item-link">@lang('main.menu.vinyl')</h3>
                   <ul class="links-footer__sub-list">
                      <li class="links-footer__sub-list-item"><a
-                           href="{{ route('letters', ['locale' => __('lang.current')]) }}"
+                           href="{{ route('letters_without_light', ['locale' => __('lang.current')]) }}"
                            class="links-footer__sub-list-link">@lang('main.menu.letters.whithout_light')</a></li>
                      <li class="links-footer__sub-list-item"><a href=""
                            class="links-footer__sub-list-link">@lang('main.menu.letters.whith_light')</a></li>
@@ -85,7 +86,7 @@
                   <h3 class="links-footer__item-link">@lang('main.menu.events')</h3>
                   <ul class="links-footer__sub-list">
                      <li class="links-footer__sub-list-item"><a
-                           href="{{ route('letters', ['locale' => __('lang.current')]) }}"
+                           href="{{ route('letters_without_light', ['locale' => __('lang.current')]) }}"
                            class="links-footer__sub-list-link">@lang('main.menu.letters.whithout_light')</a></li>
                      <li class="links-footer__sub-list-item"><a
                            href="{{ route('letters_with_light', ['locale' => __('lang.current')]) }}"
