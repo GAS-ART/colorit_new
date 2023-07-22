@@ -483,14 +483,31 @@
       align-items: center;
       gap: 5px;
     }
-
+    &::before{
+      content: '';
+      position: absolute;
+      top: -20px;
+      left: 0;
+      width: calc(100% + 55px);
+      height: calc(100% + 40px) ;
+      pointer-events: none;
+      @media (max-width: em(1449)) {
+        display: none;
+      }
+    }
     @media (pointer: fine) {
       &:hover {
+        &::before{
+          pointer-events: all;
+        }
         .language-btn__select:last-child {
           opacity: 1;
           visibility: visible;
           pointer-events: all;
-          transform: translate(0, 0px);
+          transform: translate(55px, 0px);
+          @media (max-width: em(1449)) {
+            transform: translate(0px, 0px);
+          }
         }
       }
     }
@@ -500,7 +517,10 @@
         opacity: 1;
         visibility: visible;
         pointer-events: all;
-        transform: translate(0, 0px);
+        transform: translate(55px, 0px);
+        @media (max-width: em(1449)) {
+          transform: translate(0px, 0px);
+        }
       }
     }
   }
@@ -522,12 +542,19 @@
     &.ru {
       background-image: url("../../public/img/flags/ru/ru.svg");
       top: -2px;
+      @media (max-width: em(1449)) {
+        left: -1px;
+      }
     }
     &.es {
       background-image: url("../../public/img/flags/es/es.svg");
-      background-size: contain;
+      //background-size: contain;
+      background-size: cover;
       background-repeat: no-repeat;
-      top: 2px;
+      //top: 2px;
+      @media (max-width: em(1449)) {
+        left: -2px;
+      }
     }
     @media (max-width: em(400)) {
       display: none;
@@ -543,13 +570,17 @@
 
   &__select:last-child {
     position: absolute;
-    bottom: -30px;
+    bottom: 0px;
     display: flex;
     align-items: center;
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-    transform: translate(0, 15px);
+    transform: translate(45px, 0px);
+    @media (max-width: em(1449)) {
+      bottom: -25px;
+      transform: translate(0px, 35px);
+    }
     padding: 10px 0 0 0;
   }
 }

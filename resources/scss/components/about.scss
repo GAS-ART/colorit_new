@@ -1,0 +1,46 @@
+/*============ABOUT============*/
+.about {
+  @extend %section;
+    &__container {
+    }
+  
+    &__title {
+      font-size: 24px;
+      line-height: 150%;
+      font-weight: 700;
+      color: #4F4F4F;
+    }
+  
+    &__text {
+      line-height: 180%;
+      height: 180px;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #F7F8FA 90.74%), #17161A;
+      //background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 16px;
+      transition: height 0.3s ease 0s;
+      &.active{
+        -webkit-background-clip: unset;
+        -webkit-text-fill-color: unset;
+        background: transparent
+      }
+    }
+    &__btn{
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 24px;
+      color: $purple;
+      cursor: pointer;
+      span{
+        font-weight: 400;
+        font-size: 16px;
+        pointer-events: none;
+      }
+      &.active{
+        opacity: 0;
+        visibility: hidden;
+      }
+    }
+  }
+  /*============ABOUT============*/

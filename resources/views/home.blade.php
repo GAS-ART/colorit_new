@@ -673,7 +673,7 @@
 <x-about>
     @lang('home.about.text')
 </x-about>
-<x-questionLead>
+<x-question-lead>
     ГЛАВНАЯ СТРАНИЦА ({{ url()->current() }})
-</x-questionLead>
+</x-question-lead>
 @endsection

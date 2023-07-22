@@ -36,7 +36,7 @@ return [
     ],
   ],
   'lead' => [
-    'title' => 'Deje una solicitud para la producción de un rotulo',
+    'title' => 'Deja una solicitud para fabricar tus letras corpóreas',
     'text' => 'Nos ponemos en contacto en 30 minutos',
     'btn' => 'Dejar solicitud',
   ],
@@ -86,7 +86,7 @@ return [
       'text' => 'Световые буквы - это яркий и эффективный способ привлечения внимания. Изготовленные из различных материалов и оснащенные светодиодами, они создают равномерное и яркое освещение, делая ваше сообщение заметным даже в темное время суток. Гибкость световых букв позволяет легко интегрировать их в различные дизайнерские концепции, помогая создать привлекательную и профессиональную атмосферу. В результате, световые буквы становятся эффективным инструментом маркетинга, помогая вашему бренду выделиться и оставить яркое впечатление.',
       'lights' => [
         'title' => 'Подсветка',
-        'text' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.!!!!!!!!!!!!!!!!!!!!!',
+        'text' => 'En producción de letras corpóreas iluminadas utilizamos dos tipos de iluminación',
         'img' => [
           '1' => 'Фронтальный свет',
           '2' => 'Контажурный свет',

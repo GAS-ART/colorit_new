@@ -1,0 +1,28 @@
+/*============BREAD-CRUMBS============*/
+.bread-crumbs {
+  margin-left: 20px;
+  @extend %section;
+  @media (max-width: $mobile) {
+    margin-left: 0;
+  }
+  &__body {
+    padding: 16px 24px;
+    a{
+      color: $grey3;
+      line-height: 120%;
+      transition: all 0.3s ease 0s;
+      @media (pointer: fine) {
+        &:hover {
+          color: $pink;
+          font-weight: 700;
+        }
+      }
+    }
+    span{
+      font-weight: 700;
+      color: $purple;
+      line-height: 120%;
+    }
+  }
+}
+/*============BREAD-CRUMBS============*/

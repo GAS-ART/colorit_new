@@ -66,4 +66,7 @@
 <x-about>
   @lang('letters.whith_light.about_text')
 </x-about>
+<x-question-lead>
+  БУКВЫ СО СВЕТОМ ({{ url()->current() }})
+</x-question-lead>
 @endsection

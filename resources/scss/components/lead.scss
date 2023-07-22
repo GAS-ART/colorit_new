@@ -1,0 +1,83 @@
+/*================LEAD================*/
+.lead {
+  @extend %section;
+
+  &__container {
+  }
+
+  &__body {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 60px 40px;
+    background-color: $purple;
+    overflow: hidden;
+    @media (max-width: $tablet) {
+      flex-direction: column;
+      padding: 60px 24px 0 24px;
+    }
+  }
+
+  &__img {
+    position: absolute;
+    bottom: -52%;
+    @media (max-width: $tablet) {
+      position: relative;
+      @include adaptiveValueREM('bottom', -44, -22, 991, 360, 1);
+      order: 3;
+      img{
+       @include adaptiveValueREM('width', 365, 165, 991, 360, 1);
+      }
+    }
+  }
+
+  &__content {
+    max-width: 545px;
+    margin-left: 310px;
+    @media (max-width: $tablet) {
+      margin-left: 0;
+      order: 1;
+      margin-bottom: 24px;
+    }
+  }
+
+  &__title {
+    @extend %title50;
+    color: #ffffff;
+    line-height: 120%;
+  }
+
+  &__text {
+    font-weight: 500;
+    line-height: 150%;
+    @include adaptiveValueREM('font-size', 24, 18, 1920, 360, 1 );
+    color: #ffffff;
+  }
+
+  &__action{
+    flex: 1 1 auto;
+    text-align: right;
+    @media (max-width: $tablet) {
+      order: 2;
+      align-self: stretch;
+      margin-bottom: 40px;
+    }
+  }
+
+  &__btn {
+    position: relative;
+    overflow: hidden;
+    width: fit-content;
+    background-color: $mainColor;
+    padding: 24px 40px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 24px;
+    white-space: nowrap;
+    @media (max-width: $tablet) {
+      width: 100%;
+    }
+  }
+}
+/*================LEAD================*/

@@ -101,7 +101,7 @@
 <x-about>
   @lang('letters.about_text')
 </x-about>
-<x-questionLead>
+<x-question-lead>
   БУКВЫ БЕЗ СВЕТА ({{ url()->current() }})
-</x-questionLead>
+</x-question-lead>
 @endsection
