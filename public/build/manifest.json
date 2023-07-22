@@ -88,6 +88,14 @@
     "file": "assets/Jost-Bold-9f8112a7.woff2",
     "src": "resources/scss/fonts/fonts/Jost-Bold.woff2"
   },
+  "resources/scss/fonts/fonts/Jost-ExtraBold.woff": {
+    "file": "assets/Jost-ExtraBold-e852c181.woff",
+    "src": "resources/scss/fonts/fonts/Jost-ExtraBold.woff"
+  },
+  "resources/scss/fonts/fonts/Jost-ExtraBold.woff2": {
+    "file": "assets/Jost-ExtraBold-8841ba8f.woff2",
+    "src": "resources/scss/fonts/fonts/Jost-ExtraBold.woff2"
+  },
   "resources/scss/fonts/fonts/Jost-Medium.woff": {
     "file": "assets/Jost-Medium-31a6f555.woff",
     "src": "resources/scss/fonts/fonts/Jost-Medium.woff"
@@ -129,7 +137,7 @@
     "src": "resources/scss/fonts/icon-fonts/icomoon.woff"
   },
   "resources/scss/style.scss": {
-    "file": "assets/style-7156ecc3.css",
+    "file": "assets/style-9bc15ccf.css",
     "isEntry": true,
     "src": "resources/scss/style.scss"
   }

@@ -12,10 +12,21 @@
 <section class="main">
     <div class="main__baner">
         <picture>
-            <source type="image/webp" srcset="{{ asset('img/home/'.App::currentLocale().'/1_.webp') }}"
+            @if(App::isLocale('es'))
+            <source type="image/webp"
+                srcset="{{ asset('img/home/es/Rotulos-y-letras-copróreas-fabricacion-en-barcelona.webp') }}"
                 media="(min-width: 768px)">
-            <source type="image/webp" srcset="{{ asset('img/home/'.App::currentLocale().'/1mob_.webp') }}">
-            <img src="{{ asset('img/home/'.App::currentLocale().'/1_.webp') }}" alt="@lang('alt.home.baner_icon')">
+            <source type="image/webp"
+                srcset="{{ asset('img/home/es/Rotulos-y-letras-copróreas-fabricacion-en-barcelona_.webp') }}">
+            <img src="{{ asset('img/home/es/1_.webp') }}" alt="@lang('alt.home.baner_icon')">
+            @elseif(App::isLocale('ru'))
+            <source type="image/webp"
+                srcset="{{ asset('img/home/ru/Изготовление-вывесок-и-обьемных-букв-в-барселоне.webp') }}"
+                media="(min-width: 768px)">
+            <source type="image/webp"
+                srcset="{{ asset('img/home/ru/Изготовление-вывесок-и-обьемных-букв-в-барселоне_.webp') }}">
+            <img src="{{ asset('img/home/ru/1_.webp') }}" alt="@lang('alt.home.baner_icon')">
+            @endif
         </picture>
     </div>
     <div class="main__content">
@@ -52,38 +63,19 @@
             <h4 class="quiz-body__title">@lang('home.quiz.body.title')</h4>
             <div class="quiz-body__slider swiper">
                 <div class="swiper-wrapper">
-                    <div data-quiz="signboards" class="swiper-slide">
+                    @foreach ($quizData as $quiz)
+                    <div {!! implode(" ", $quiz['data']) !!} class=" swiper-slide {{$quiz['class'] ?? null}}">
                         <div class="item-quiz__img">
-                            <img src="{{ asset('img/home/quiz/'.App::currentLocale().'/1_.webp') }}"
-                                alt="@lang('alt.home.quiz.1')">
+                            <img src="{{ asset($quiz[App::currentLocale()]) }}" alt="{{__($quiz['alt'])}}">
                         </div>
-                        <h3 class="item-quiz__title">@lang('home.quiz.body.signboards.title')</h3>
+                        <h3 class="item-quiz__title">{{__($quiz['title'])}}</h3>
                     </div>
-                    <div data-quiz="letters" class="swiper-slide">
-                        <div class="item-quiz__img">
-                            <img src="{{ asset('img/home/quiz/'.App::currentLocale().'/2_.webp') }}"
-                                alt="@lang('alt.home.quiz.2')">
-                        </div>
-                        <h3 class="item-quiz__title">@lang('home.quiz.body.letters.title')</h3>
-                    </div>
-                    <div data-quiz="vinyl" class="swiper-slide">
-                        <div class="item-quiz__img">
-                            <img src="{{ asset('img/home/quiz/'.App::currentLocale().'/3_.webp') }}"
-                                alt="@lang('alt.home.quiz.3')">
-                        </div>
-                        <h3 class="item-quiz__title">@lang('home.quiz.body.vinyl.title')</h3>
-                    </div>
-                    <div data-popup-id="quiz" data-popup-payload="ОПРОСНИК: выставки"
-                        class="swiper-slide link-on-popup">
-                        <div class="item-quiz__img">
-                            <img src="{{ asset('img/home/quiz/'.App::currentLocale().'/4_.webp') }}"
-                                alt="@lang('alt.home.quiz.4')">
-                        </div>
-                        <h3 class="item-quiz__title">@lang('home.quiz.body.event.title')</h3>
-                    </div>
+                    @endforeach
                 </div>
-                <div class="swiper-button-prev swiper-button"></div>
-                <div class="swiper-button-next swiper-button"></div>
+            </div>
+            <div class="quiz-body__slider-btns">
+                <div class="swiper-button-prev swiper-button">&larr;</div>
+                <div class="swiper-button-next swiper-button">&rarr;</div>
             </div>
             <button data-quiz="init" class="quiz-body__back-btn disabled"><span class="arrow">&larr;</span><span
                     class="text">@lang('home.quiz.back_btn')</span></button>
@@ -173,10 +165,10 @@
                     <div class="portfolio-slide__body">
                         <div class="portfolio-slide__img">
                             @if(App::isLocale('es'))
-                            <img src="{{ asset('img/home/es/portfolio/01.webp') }}"
+                            <img src="{{ asset('img/home/es/portfolio/Rotulo-luminoso-de-metacrilato-para-una-tienda-rewers.webp') }}"
                                 alt="@lang('alt.home.posrtfolio.1')">
                             @elseif(App::isLocale('ru'))
-                            <img src="{{ asset('img/home/ru/portfolio/01.webp') }}"
+                            <img src="{{ asset('img/home/ru/portfolio/Лайтбокс-10-см-из-акрилата-с-внутренней-подсветкой.webp') }}"
                                 alt="@lang('alt.home.posrtfolio.1')">
                             @endif
                         </div>
@@ -195,8 +187,13 @@
                 <div class="swiper-slide slider-portfolio__slide portfolio-slide">
                     <div class="portfolio-slide__body">
                         <div class="portfolio-slide__img">
-                            <img src="{{ asset('img/home/'.App::currentLocale().'/portfolio/02.webp') }}"
+                            @if(App::isLocale('es'))
+                            <img src="{{ asset('img/home/es/portfolio/Letras-volumetricas-iluminadas-con-frente-dorado.webp') }}"
                                 alt="@lang('alt.home.posrtfolio.2')" loading="lazy">
+                            @elseif(App::isLocale('ru'))
+                            <img src="{{ asset('img/home/ru/portfolio/Буквы-обьемные-световые-с-зеркальными-золотыми-накладками.webp') }}"
+                                alt="@lang('alt.home.posrtfolio.2')" loading="lazy">
+                            @endif
                             <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="portfolio-slide__content">
@@ -214,8 +211,13 @@
                 <div class="swiper-slide slider-portfolio__slide portfolio-slide">
                     <div class="portfolio-slide__body">
                         <div class="portfolio-slide__img">
-                            <img src="{{ asset('img/home/'.App::currentLocale().'/portfolio/03.webp') }}"
+                            @if(App::isLocale('es'))
+                            <img src="{{ asset('img/home/es/portfolio/Rotulo-de-dibond-con-letras-corporeas-luminosas.webp') }}"
                                 alt="@lang('alt.home.posrtfolio.3')" loading="lazy">
+                            @elseif(App::isLocale('ru'))
+                            <img src="{{ asset('img/home/ru/portfolio/Вывеска-из-композита-со-световыми-буквами.webp') }}"
+                                alt="@lang('alt.home.posrtfolio.3')" loading="lazy">
+                            @endif
                             <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="portfolio-slide__content">
@@ -233,8 +235,13 @@
                 <div class="swiper-slide slider-portfolio__slide portfolio-slide">
                     <div class="portfolio-slide__body">
                         <div class="portfolio-slide__img">
-                            <img src="{{ asset('img/home/'.App::currentLocale().'/portfolio/04.webp') }}"
+                            @if(App::isLocale('es'))
+                            <img src="{{ asset('img/home/es/portfolio/Bandeja-calada-con-letras-de-metacrilato-20-mm.webp') }}"
                                 alt="@lang('alt.home.posrtfolio.4')" loading="lazy">
+                            @elseif(App::isLocale('ru'))
+                            <img src="{{ asset('img/home/ru/portfolio/Вывеска-с-фрезерной-резкой-и-акриловыми-буквами-20-mm.webp') }}"
+                                alt="@lang('alt.home.posrtfolio.4')" loading="lazy">
+                            @endif
                             <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="portfolio-slide__content">
@@ -252,8 +259,13 @@
                 <div class="swiper-slide slider-portfolio__slide portfolio-slide">
                     <div class="portfolio-slide__body">
                         <div class="portfolio-slide__img">
-                            <img src="{{ asset('img/home/'.App::currentLocale().'/portfolio/05.webp') }}"
+                            @if(App::isLocale('es'))
+                            <img src="{{ asset('img/home/es/portfolio/Rotulo-exterior-de-dibond-blanco-con-letras-corporeas.webp') }}"
                                 alt="@lang('alt.home.posrtfolio.5')" loading="lazy">
+                            @elseif(App::isLocale('ru'))
+                            <img src="{{ asset('img/home/ru/portfolio/Наружная-вывеска-из-белого-композита-с-буквами-обьемными.webp') }}"
+                                alt="@lang('alt.home.posrtfolio.5')" loading="lazy">
+                            @endif
                             <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="portfolio-slide__content">
@@ -271,8 +283,13 @@
                 <div class="swiper-slide slider-portfolio__slide portfolio-slide">
                     <div class="portfolio-slide__body">
                         <div class="portfolio-slide__img">
-                            <img src="{{ asset('img/home/'.App::currentLocale().'/portfolio/06.webp') }}"
+                            @if(App::isLocale('es'))
+                            <img src="{{ asset('img/home/es/portfolio/Arco-para-feria-de-mdf-impreso-y-madera.webp') }}"
                                 alt="@lang('alt.home.posrtfolio.6')" loading="lazy">
+                            @elseif(App::isLocale('ru'))
+                            <img src="{{ asset('img/home/ru/portfolio/Арка-для-выставки-из-пвх-с-печатью-и-структурой-из-мдф.webp') }}"
+                                alt="@lang('alt.home.posrtfolio.6')" loading="lazy">
+                            @endif
                             <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="portfolio-slide__content">
@@ -290,8 +307,13 @@
                 <div class="swiper-slide slider-portfolio__slide portfolio-slide">
                     <div class="portfolio-slide__body">
                         <div class="portfolio-slide__img">
-                            <img src="{{ asset('img/home/'.App::currentLocale().'/portfolio/07.webp') }}"
+                            @if(App::isLocale('es'))
+                            <img src="{{ asset('img/home/es/portfolio/Bandeja-fresada-con-la-luz-para-salon-de-belleza.webp') }}"
                                 alt="@lang('alt.home.posrtfolio.7')" loading="lazy">
+                            @elseif(App::isLocale('ru'))
+                            <img src="{{ asset('img/home/ru/portfolio/Вывеска-из-композита-с-резкой-и-внутренней-подсветкой.webp') }}"
+                                alt="@lang('alt.home.posrtfolio.7')" loading="lazy">
+                            @endif
                             <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="portfolio-slide__content">
@@ -309,8 +331,13 @@
                 <div class="swiper-slide slider-portfolio__slide portfolio-slide">
                     <div class="portfolio-slide__body">
                         <div class="portfolio-slide__img">
-                            <img src="{{ asset('img/home/'.App::currentLocale().'/portfolio/08.webp') }}"
+                            @if(App::isLocale('es'))
+                            <img src="{{ asset('img/home/es/portfolio/Letras-corporeas-retroiliminadas-de-pvc-negro-mate.webp') }}"
                                 alt="@lang('alt.home.posrtfolio.8')" loading="lazy">
+                            @elseif(App::isLocale('ru'))
+                            <img src="{{ asset('img/home/ru/portfolio/Буквы-обьемные-черные-с-подсветкой-контражур.webp') }}"
+                                alt="@lang('alt.home.posrtfolio.8')" loading="lazy">
+                            @endif
                             <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="portfolio-slide__content">
@@ -328,8 +355,13 @@
                 <div class="swiper-slide slider-portfolio__slide portfolio-slide">
                     <div class="portfolio-slide__body">
                         <div class="portfolio-slide__img">
-                            <img src="{{ asset('img/home/'.App::currentLocale().'/portfolio/09.webp') }}"
+                            @if(App::isLocale('es'))
+                            <img src="{{ asset('img/home/es/portfolio/Photocall-300-cm-con-la-estructura-de-aluminio-para-ferias.webp') }}"
                                 alt="@lang('alt.home.posrtfolio.9')" loading="lazy">
+                            @elseif(App::isLocale('ru'))
+                            <img src="{{ asset('img/home/ru/portfolio/Фотозона-300-см-с-алюминиевой-конструкцией-для-презентации.webp') }}"
+                                alt="@lang('alt.home.posrtfolio.9')" loading="lazy">
+                            @endif
                             <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="portfolio-slide__content">
@@ -347,8 +379,13 @@
                 <div class="swiper-slide slider-portfolio__slide portfolio-slide">
                     <div class="portfolio-slide__body">
                         <div class="portfolio-slide__img">
-                            <img src="{{ asset('img/home/'.App::currentLocale().'/portfolio/10.webp') }}"
+                            @if(App::isLocale('es'))
+                            <img src="{{ asset('img/home/es/portfolio/Letras-volumetricas-iluminadas-para-tienda.webp') }}"
                                 alt="@lang('alt.home.posrtfolio.10')" loading="lazy">
+                            @elseif(App::isLocale('ru'))
+                            <img src="{{ asset('img/home/ru/portfolio/Буквы-с-подсветкой-на-алюминиевом-коробе.webp') }}"
+                                alt="@lang('alt.home.posrtfolio.10')" loading="lazy">
+                            @endif
                             <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="portfolio-slide__content">
@@ -366,8 +403,13 @@
                 <div class="swiper-slide slider-portfolio__slide portfolio-slide">
                     <div class="portfolio-slide__body">
                         <div class="portfolio-slide__img">
-                            <img src="{{ asset('img/home/'.App::currentLocale().'/portfolio/11.webp') }}"
+                            @if(App::isLocale('es'))
+                            <img src="{{ asset('img/home/es/portfolio/Letras-corporeas-de-pvc-blanco-30-mm-con-separadores.webp') }}"
                                 alt="@lang('alt.home.posrtfolio.11')" loading="lazy">
+                            @elseif(App::isLocale('ru'))
+                            <img src="{{ asset('img/home/ru/portfolio/Обьемные-буквы-из-белого-пвх-30-мм-с-креплениями.webp') }}"
+                                alt="@lang('alt.home.posrtfolio.11')" loading="lazy">
+                            @endif
                             <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="portfolio-slide__content">
@@ -385,8 +427,13 @@
                 <div class="swiper-slide slider-portfolio__slide portfolio-slide">
                     <div class="portfolio-slide__body">
                         <div class="portfolio-slide__img">
-                            <img src="{{ asset('img/home/'.App::currentLocale().'/portfolio/12.webp') }}"
+                            @if(App::isLocale('es'))
+                            <img src="{{ asset('img/home/es/portfolio/Alas-retroiliminadas-de-pvc-blanco-19-mm-con-espejo-dorado.webp') }}"
                                 alt="@lang('alt.home.posrtfolio.12')" loading="lazy">
+                            @elseif(App::isLocale('ru'))
+                            <img src="{{ asset('img/home/ru/portfolio/Обьемные-световые-крылья-из-золотого-алюминия-и-подсветкой-контражур.webp') }}"
+                                alt="@lang('alt.home.posrtfolio.12')" loading="lazy">
+                            @endif
                             <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="portfolio-slide__content">
@@ -404,8 +451,13 @@
                 <div class="swiper-slide slider-portfolio__slide portfolio-slide">
                     <div class="portfolio-slide__body">
                         <div class="portfolio-slide__img">
-                            <img src="{{ asset('img/home/'.App::currentLocale().'/portfolio/13.webp') }}"
+                            @if(App::isLocale('es'))
+                            <img src="{{ asset('img/home/es/portfolio/Rotulo-con-letras-retroiluminadas-para-tienda-en-barcelona.webp') }}"
                                 alt="@lang('alt.home.posrtfolio.13')" loading="lazy">
+                            @elseif(App::isLocale('ru'))
+                            <img src="{{ asset('img/home/ru/portfolio/Вывеска-с-объемными-световыми-25-мм-буквами.webp') }}"
+                                alt="@lang('alt.home.posrtfolio.13')" loading="lazy">
+                            @endif
                             <div class="swiper-lazy-preloader"></div>
                         </div>
                         <div class="portfolio-slide__content">

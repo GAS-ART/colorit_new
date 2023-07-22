@@ -1,0 +1,122 @@
+/*================MAIN-BANER================*/
+.main-baner {
+  margin-bottom: 0;
+  
+  @media (max-width: $mobile) {
+    margin-bottom: 130px;
+  }
+  @media (max-width: $mobileSmall) {
+    margin-bottom: 120px;
+  }
+  &__baner{
+    position: relative;
+    top: 0;
+    left: 20px;
+    width: calc(100% - 40px) ;
+    padding-bottom: 33.8545%;
+    min-height: 465px;
+    min-height: 510px;
+    @media (max-width: $mobile) {
+      min-height: unset;
+      padding-bottom: 0;
+      width: 100%;
+      min-height: unset;
+      left: 0;
+    }
+    img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    @media (max-width: em(1200)) {
+      object-fit: cover;
+    }
+    @media (max-width: $mobile) {
+      position: relative;
+      object-fit: cover;
+      max-height: 680px;
+      /* object-position: 0px 40px;
+      top: -40px; */
+    }
+    @media (max-width: $mobileSmall) {
+      object-position: 0 0;
+      top: 0;
+    }
+    }
+  }
+  &__baner--title{
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    z-index: 2;
+    font-weight: 700;
+    line-height: 100%;
+    font-family: 'Jost';
+    padding: 32px 40px;
+    background: rgba(23, 22, 26, 0.80);
+    transform: translate(0%, -100%);
+    @include adaptiveValueREM('font-size', 45, 18,  1920, 768, 1);
+    color: #ffffff;
+    white-space: nowrap;
+    @media (max-width: $mobile) {
+      transform: translate(-50%, -50%);
+      top: 50%;
+      left: 50%;
+      padding: 24px 40px;
+    }
+  }
+
+  &__circle {
+    position: absolute;
+    bottom: 0px;
+    transform: translateY(50%);
+    right: 80px;
+    @include adaptiveValueREM('width', 280, 140, 1920, 360, 1);
+    @include adaptiveValueREM('height', 280, 140, 1920, 360, 1);
+    background-color: $purple;
+    border-radius: 50%;
+    color: #ffffff;
+    @include adaptiveValueREM('font-size', 24, 14, 1920, 360, 1);
+    font-family: Jost;
+    font-weight: 700;
+    line-height: 120%;
+    text-align: center;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media (max-width: $mobile) {
+      right: 54px;
+    }
+    &--content{
+      position: relative;
+      z-index: 3;
+      max-width: 155px;
+      width: fit-content;
+      @media (max-width: $mobile) {
+        max-width: 91px;
+      }
+    }
+    &--small{
+      position: absolute;
+      @include adaptiveValueREM('width', 340, 170, 1920, 360, 1);
+      @include adaptiveValueREM('height', 340, 170, 1920, 360, 1);
+      border-radius: 50%;
+      opacity: 0.2;
+      background-color: $purple;
+      z-index: 2;
+    }
+    &--big{
+      position: absolute;
+      @include adaptiveValueREM('width', 400, 200, 1920, 360, 1);
+      @include adaptiveValueREM('height', 400, 200, 1920, 360, 1);
+      border-radius: 50%;
+      opacity: 0.1;
+      background-color: $purple;
+      z-index: 1;
+    }
+  }
+}
+/*================MAIN-BANER================*/
