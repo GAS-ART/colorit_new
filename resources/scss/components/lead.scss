@@ -20,7 +20,7 @@
 
   &__img {
     position: absolute;
-    bottom: -52%;
+    bottom: -157px;
     @media (max-width: $tablet) {
       position: relative;
       @include adaptiveValueREM('bottom', -44, -22, 991, 360, 1);

@@ -6,7 +6,7 @@
             <div class="header__content">
                <div class="header__logo">
                   <a href="{{ route('home', ['locale' => __('lang.current')]) }}">
-                     <img src="{{ asset('img/colorit-logo.webp') }}" alt="">
+                     <img src="{{ asset('img/colorit-logo.svg') }}" alt="">
                   </a>
                </div>
                <h2>@lang('header.title')</h2>
