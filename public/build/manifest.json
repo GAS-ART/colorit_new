@@ -44,7 +44,7 @@
     "src": "public/img/lightGallery_loading.gif"
   },
   "resources/js/app.js": {
-    "file": "assets/app-3d45d187.js",
+    "file": "assets/app-6ff7dbe9.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   },
@@ -137,7 +137,7 @@
     "src": "resources/scss/fonts/icon-fonts/icomoon.woff"
   },
   "resources/scss/style.scss": {
-    "file": "assets/style-9bc15ccf.css",
+    "file": "assets/style-281aedcc.css",
     "isEntry": true,
     "src": "resources/scss/style.scss"
   }
