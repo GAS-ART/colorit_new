@@ -39,7 +39,7 @@ class HomeController extends Controller
                 'ru' => $quizBaseDir . 'ru/Выставочная-конструкция-арка-для-чемпионата-по-спортивной-гимнастике.webp',
                 'alt' => $quizAlt . '4',
                 'title' => 'home.quiz.body.event.title',
-                'data' => ['data-popup-id="quiz" ', 'data-popup-payload="ОПРОСНИК: выставки"',],
+                'data' => ['data-popup-id="main" ', 'data-popup-payload="ОПРОСНИК: выставки"', 'data-popup-show-select=""'],
                 'class' => 'link-on-popup',
             ],
         ];

@@ -1,19 +1,38 @@
-export function popUp(popupId, payload, uploadFile) {
+export async function popUp(popupId, payload, uploadFile, showSelect = true, gift) {
 	const popUp = document.getElementById(popupId);
 	const bodyLock = document.getElementById('body');
 	const popupCloseIcon = popUp.querySelector('.close-popup');
 	const popupBtn = popUp.querySelector('.popup__button');
 	const popupLoading = popUp.querySelector('.popup__loading');
 	const filePreview = popUp.querySelector('.preview-file') || false;
-	const inputs = popUp.querySelectorAll('input');
+	const inputs = popUp.querySelectorAll('.input');
 	const inputFile = document.querySelector('.popup-download');
+	const iconTitle = document.querySelector('.popup__title-icon');
+	const giftTitle = popUp.querySelector('.popup__title-gift');
+	const giftSubTitle = popUp.querySelector('.popup__title-sub-gift');
+	const iconImg = popUp.querySelector('.popup__img-body-icon');
+	const giftImg = popUp.querySelector('.popup__img-body-gift');
+	const select = popUp.querySelector('.popup__item-select-body');
 
 	if (payload) {
-		const inputDataQuiz = popUp.querySelector('.quiz-service-data');
-		inputDataQuiz.value = payload;
+		const payloadInput = popUp.querySelector('.payload');
+		payloadInput.value = payload;
 	}
 	if (uploadFile) {
 		inputFile.classList.remove('disabled');
+	}
+	if (!showSelect) {
+		select.classList.add('disabled');
+	}
+	if (gift) {
+		iconTitle.classList.add('disabled');
+		giftTitle.classList.add('active');
+		giftSubTitle.classList.add('active');
+		iconImg.classList.add('disabled');
+		giftImg.classList.add('active');
+	}
+	if (!uploadFile && !showSelect) {
+		iconImg.classList.add('three-inputs');
 	}
 
 	const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
@@ -35,8 +54,8 @@ export function popUp(popupId, payload, uploadFile) {
 	function popupClose(popupActive) {
 		popupActive.classList.remove('open');
 		setTimeout(() => bodyLock.classList.remove("lock"), 500)
-		//bodyLock.classList.remove("lock");
 		popUp.classList.remove('sent');
+
 		inputs.forEach(input => {
 			if (!input.value) {
 				input.previousElementSibling.classList.remove('error');
@@ -47,6 +66,25 @@ export function popUp(popupId, payload, uploadFile) {
 			if (uploadFile) {
 				setTimeout(() => {
 					inputFile.classList.add('disabled');
+				}, 500)
+			}
+			if (gift) {
+				setTimeout(() => {
+					iconTitle.classList.remove('disabled');
+					giftTitle.classList.remove('active');
+					giftSubTitle.classList.remove('active');
+					iconImg.classList.remove('disabled');
+					giftImg.classList.remove('active');
+				}, 500)
+			}
+			if (!showSelect) {
+				setTimeout(() => {
+					select.classList.remove('disabled');
+				}, 500)
+			}
+			if (!uploadFile && !showSelect) {
+				setTimeout(() => {
+					iconImg.classList.remove('three-inputs');
 				}, 500)
 			}
 		});

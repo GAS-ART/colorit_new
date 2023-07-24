@@ -492,7 +492,7 @@
                     <h3 class="gift__sub-title">@lang('home.gift.sub_title')</h3>
                 </div>
             </div>
-            <button data-popup-id="gift" class="gift__btn link-on-popup">
+            <button data-popup-id="main" data-popup-gift="true" class="gift__btn link-on-popup">
                 @lang('home.gift.btn')<span class="flare white"></span>
             </button>
         </div>

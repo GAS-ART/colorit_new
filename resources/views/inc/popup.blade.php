@@ -10,29 +10,34 @@
             <div class="popup__form">
                <div class="popup__form-body">
                   <div class="popup__title">
-                     <h4>@lang('popup.title')</h4>
+                     <h4 class="popup__title-icon">@lang('popup.title')</h4>
+                     <h4 class="popup__title-gift">@lang('popup.gift.title')</h4>
+                     <h5 class="popup__title-sub-gift">@lang('popup.gift.sub_title')</h5>
                   </div>
                   <div class="popup__text">
                      <form action="{{route('sendMainForm')}}" method="POST" name="mainForm" id="mainForm"
                         class="@lang('lang.current')">
                         @csrf
-                        <input class="quiz-service-data" name="payload" type="hidden" value="">
+                        <input class="payload" name="payload" type="hidden" value="">
                         <div class="popup__item">
                            <label for="name">@lang('popup.name')</label>
-                           <input id="name" name="name" type="text" placeholder="@lang('popup.name_placeholder')">
+                           <input id="name" name="name" class="input" type="text"
+                              placeholder="@lang('popup.name_placeholder')">
                            <p class="error-name"></p>
                         </div>
                         <div class="popup__item">
                            <label for="phone">@lang('popup.phone')</label>
-                           <input id="phone" name="phone" type="text" placeholder="@lang('popup.phone_placeholder')">
+                           <input id="phone" name="phone" class="input" type="text"
+                              placeholder="@lang('popup.phone_placeholder')">
                            <p class="error-phone"></p>
                         </div>
                         <div class="popup__item">
                            <label for="email">@lang('popup.email')</label>
-                           <input id="email" name="email" type="text" placeholder="@lang('popup.email_placeholder')">
+                           <input id="email" name="email" class="input" type="text"
+                              placeholder="@lang('popup.email_placeholder')">
                            <p class="error-email"></p>
                         </div>
-                        <div class="popup__item">
+                        <div class="popup__item popup__item-select-body">
                            <label for="select">@lang('popup.service')</label>
                            <div class="popup__item-select">
                               <span class="select-placeholder">@lang('popup.select_placeholder')</span>
@@ -46,6 +51,17 @@
                            </div>
                            <p class="error-email"></p>
                         </div>
+                        <div class="popup__item popup-download disabled">
+                           <div class="file">
+                              <span></span>
+                              <input id="fileImage" type="file" name="filename" class="popup-file">
+                              <span></span>
+                              <span></span>
+                              <div class="file-button">@lang('popup.file')</div>
+                              <p class="file-error error"></p>
+                           </div>
+                           <div id="filePreview" class="preview-file"></div>
+                        </div>
                         <button class="popup__btn" type="submit">@lang('popup.btn')</button>
                      </form>
                   </div>
@@ -57,20 +73,29 @@
                   </button>
                </div>
             </div>
-            <div class="popup__img">
-               @if(App::isLocale('es'))
-               <img src="{{ asset('img/popup/es/1_.webp') }}" alt="">
-               @elseif(App::isLocale('ru'))
-               <img src="{{ asset('img/popup/ru/1_.webp') }}" alt="">
-               @endif
+            @if(App::isLocale('es'))
+            <div class="popup__img-body">
+               <div class="popup__img-body-icon">
+               </div>
+               <div class="popup__img-body-gift">
+               </div>
             </div>
+            @elseif(App::isLocale('ru'))
+            <div class="popup__img-body">
+               <div class="popup__img-body-icon">
+               </div>
+               <div class="popup__img-body-gift">
+               </div>
+            </div>
+            @endif
          </div>
       </div>
    </div>
 </div>
+</div>
 
 
-<div id="gift" class="popup">
+{{-- <div id="gift" class="popup">
    <div class="popup__body">
       <div class="popup__content">
          <div class="popup__loading">
@@ -210,4 +235,4 @@
          </div>
       </div>
    </div>
-</div>
+</div> --}}

@@ -9,7 +9,7 @@
         <p class="lead__text">{{ $text }}</p>
       </div>
       <div class="lead__action">
-        <button data-popup-id="quiz" data-popup-payload="{{ $leadInfo }}"
+        <button data-popup-id="main" data-popup-show-select="" data-popup-payload="{{ $leadInfo }}"
           class="lead__btn link-on-popup">@lang('letters.lead.btn')<span class="flare white"></span></button>
       </div>
     </div>
