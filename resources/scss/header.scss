@@ -285,6 +285,7 @@
 
   &__list-item {
     position: relative;
+    text-align: center;
 
     &:not(:last-child){
       @include adaptiveValueREM('margin-right', 150, 29, 1920, 360, 1);
