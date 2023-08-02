@@ -311,7 +311,7 @@
       position: absolute;
       top: 0;
       left: 0;
-      width: 190px;
+      width: 210px;
       height: calc(100% + 18px);
       pointer-events: none;
       @media (max-width: $mobileSmall) {
@@ -323,7 +323,7 @@
     }
     &:nth-child(3){
       ul{
-        padding: 10px;
+        //padding: 10px;
       }
     }
   }
@@ -354,7 +354,7 @@
     position: absolute;
     top: calc(100% + 40px);
     left: 0;
-    width: 190px;
+    width: 210px;
     padding: 20px;
     font-weight: 400;
     font-size: 18px;
@@ -366,6 +366,7 @@
     visibility: hidden;
     pointer-events: none;
     transition: all 0.3s ease 0s;
+    text-align: left;
     li{
       transition: all 0.3s ease 0s;
       &:not(:last-child){
