@@ -3,7 +3,7 @@
 @section('description', __('titles.letters_whith_light.description'))
 @section('ogTitle' ,__('titles.letters_whith_light.ogTitle'))
 @section('ogDescription', __('titles.letters_whith_light.ogDescription'))
-@section('page', 'letters')
+@section('letters_whith_light', 'active')
 @section('mainPopupPayload', 'БУКВЫ СО СВЕТОМ (' . url()->current() . ')')
 
 @section('content')

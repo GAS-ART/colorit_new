@@ -184,6 +184,7 @@ function documentActions(e) {
       item.classList.remove('active')
       const subList = item.querySelector('.links-footer__sub-list');
       subList.style.height = `0px`;
+      footerBody.removeAttribute('style');
     })
   }
 
@@ -437,6 +438,8 @@ scrolling(".scroll-top");
 
 // Open menu footer
 const footerMenuItems = document.querySelectorAll('.links-footer__item');
+const footerBody = document.querySelector('.footer__body');
+const footerBodyMarginBottom = parseFloat(getComputedStyle(footerBody).marginBottom);
 let marginHeight = 0;
 footerMenuItems.forEach(item => {
   const subList = item.querySelector('.links-footer__sub-list');
@@ -446,7 +449,13 @@ footerMenuItems.forEach(item => {
   marginHeight = 0;
   subList.style.height = `0px`;
   item.addEventListener('click', (e) => {
-    subList.style.height == '0px' ? subList.style.height = `${subListHeight}px` : subList.style.height = `0px`
+    if (subList.style.height == '0px') {
+      subList.style.height = `${subListHeight}px`;
+      footerBody.style.marginBottom = `${footerBodyMarginBottom + subListHeight}px`;
+    } else {
+      subList.style.height = `0px`;
+      footerBody.removeAttribute('style');
+    }
     footerMenuItems.forEach(item => {
       if (e.target.closest('.links-footer__item') != item) {
         item.classList.remove('active');

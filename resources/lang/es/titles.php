@@ -19,6 +19,102 @@ return [
       'ogTitle' => 'Лайтбокс, световые буквы на заказ.',
       'ogDescription' => 'Производство световых лайтбоксов и объемных букв с контражурной подсветкой для вашего бизнеса. Доставка по всей Испании.',
    ],
+   'signboards_whithout_light'=> [
+      'title' => '',
+      'description' => '',
+      'ogTitle' => '',
+      'ogDescription' => '',
+   ],
+   'signboards_whith_light'=> [
+      'title' => '',
+      'description' => '',
+      'ogTitle' => '',
+      'ogDescription' => '',
+   ],
+   'side_box'=> [
+      'title' => '',
+      'description' => '',
+      'ogTitle' => '',
+      'ogDescription' => '',
+   ],
+   'neon'=> [
+      'title' => '',
+      'description' => '',
+      'ogTitle' => '',
+      'ogDescription' => '',
+   ],
+   'vinyl_regular'=> [
+      'title' => '',
+      'description' => '',
+      'ogTitle' => '',
+      'ogDescription' => '',
+   ],
+   'vinyl_perforated'=> [
+      'title' => '',
+      'description' => '',
+      'ogTitle' => '',
+      'ogDescription' => '',
+   ],
+   'sandblast_film'=> [
+      'title' => '',
+      'description' => '',
+      'ogTitle' => '',
+      'ogDescription' => '',
+   ],
+   'vinyl_car_wrapping'=> [
+      'title' => '',
+      'description' => '',
+      'ogTitle' => '',
+      'ogDescription' => '',
+   ],
+   'expos_stands'=> [
+      'title' => '',
+      'description' => '',
+      'ogTitle' => '',
+      'ogDescription' => '',
+   ],
+   'expos_wall_banner'=> [
+      'title' => '',
+      'description' => '',
+      'ogTitle' => '',
+      'ogDescription' => '',
+   ],
+   'expos_banner'=> [
+      'title' => '',
+      'description' => '',
+      'ogTitle' => '',
+      'ogDescription' => '',
+   ],
+   'expos_roll_up'=> [
+      'title' => '',
+      'description' => '',
+      'ogTitle' => '',
+      'ogDescription' => '',
+   ],
+   'expos_figures'=> [
+      'title' => '',
+      'description' => '',
+      'ogTitle' => '',
+      'ogDescription' => '',
+   ],
+   'expos_dimensional_letters'=> [
+      'title' => '',
+      'description' => '',
+      'ogTitle' => '',
+      'ogDescription' => '',
+   ],
+   'expos_clothing'=> [
+      'title' => '',
+      'description' => '',
+      'ogTitle' => '',
+      'ogDescription' => '',
+   ],
+   'expos_badges'=> [
+      'title' => '',
+      'description' => '',
+      'ogTitle' => '',
+      'ogDescription' => '',
+   ],
 ]
 
 ?>

@@ -52,45 +52,97 @@
          <nav class="footer__links links-footer">
             <ul class="links-footer__list">
                <li class="links-footer__item">
-                  <h3 class="links-footer__item-title">@lang('main.menu.signboards')</h3>
+                  <h3 class="links-footer__item-title">@lang('main.menu.signboards.title')</h3>
                   <ul class="links-footer__sub-list">
-                     <li class="links-footer__sub-list-item"><a
-                           href="{{ route('letters_without_light', ['locale' => __('lang.current')]) }}"
-                           class="links-footer__sub-list-link">@lang('main.menu.letters.whithout_light')</a></li>
-                     <li class="links-footer__sub-list-item"><a href=""
-                           class="links-footer__sub-list-link">@lang('main.menu.letters.whith_light')</a></li>
+                     <li class="links-footer__sub-list-item @yield('signboards_whithout_light')">
+                        <a href="{{ route('signboards_whithout_light', ['locale' => __('lang.current')]) }}"
+                           class="links-footer__sub-list-link">@lang('main.menu.signboards.whithout_light')</a>
+                     </li>
+                     <li class="links-footer__sub-list-item @yield('signboards_whith_light')">
+                        <a href="{{ route('signboards_whith_light', ['locale' => __('lang.current')]) }}"
+                           class="links-footer__sub-list-link">@lang('main.menu.signboards.whith_light')</a>
+                     </li>
+                     <li class="links-footer__sub-list-item @yield('lightbox')">
+                        <a href="{{ route('lightbox', ['locale' => __('lang.current')]) }}"
+                           class="links-footer__sub-list-link">@lang('main.menu.signboards.lightbox')</a>
+                     </li>
+                     <li class="links-footer__sub-list-item @yield('side_box')">
+                        <a href="{{ route('side_box', ['locale' => __('lang.current')]) }}"
+                           class="links-footer__sub-list-link">@lang('main.menu.signboards.side_box')</a>
+                     </li>
+                     <li class="links-footer__sub-list-item @yield('neon')">
+                        <a href="{{ route('neon', ['locale' => __('lang.current')]) }}"
+                           class="links-footer__sub-list-link">@lang('main.menu.signboards.neon')</a>
+                     </li>
                   </ul>
                </li>
                <li class="links-footer__item">
                   <h3 class="links-footer__item-link">@lang('main.menu.letters.title')</h3>
                   <ul class="links-footer__sub-list">
-                     <li class="links-footer__sub-list-item"><a
+                     <li class="links-footer__sub-list-item @yield('letters_whithout_light')"><a
                            href="{{ route('letters_without_light', ['locale' => __('lang.current')]) }}"
                            class="links-footer__sub-list-link">@lang('main.menu.letters.whithout_light')</a></li>
-                     <li class="links-footer__sub-list-item"><a
+                     <li class="links-footer__sub-list-item @yield('letters_whith_light')"><a
                            href="{{ route('letters_with_light', ['locale' => __('lang.current')]) }}"
                            class="links-footer__sub-list-link">@lang('main.menu.letters.whith_light')</a></li>
                   </ul>
                </li>
                <li class="links-footer__item">
-                  <h3 class="links-footer__item-link">@lang('main.menu.vinyl')</h3>
+                  <h3 class="links-footer__item-link">@lang('main.menu.vinyl.title')</h3>
                   <ul class="links-footer__sub-list">
-                     <li class="links-footer__sub-list-item"><a
-                           href="{{ route('letters_without_light', ['locale' => __('lang.current')]) }}"
-                           class="links-footer__sub-list-link">@lang('main.menu.letters.whithout_light')</a></li>
-                     <li class="links-footer__sub-list-item"><a href=""
-                           class="links-footer__sub-list-link">@lang('main.menu.letters.whith_light')</a></li>
+                     <li class="links-footer__sub-list-item @yield('vinyl_regular')">
+                        <a href="{{ route('vinyl_regular', ['locale' => __('lang.current')]) }}"
+                           class="links-footer__sub-list-link">@lang('main.menu.vinyl.regular')</a>
+                     </li>
+                     <li class="links-footer__sub-list-item @yield('vinyl_perforated')">
+                        <a href="{{ route('vinyl_perforated', ['locale' => __('lang.current')]) }}"
+                           class="links-footer__sub-list-link">@lang('main.menu.vinyl.perforated')</a>
+                     </li>
+                     <li class="links-footer__sub-list-item @yield('sandblast_film')">
+                        <a href="{{ route('sandblast_film', ['locale' => __('lang.current')]) }}"
+                           class="links-footer__sub-list-link">@lang('main.menu.vinyl.sandblast_film')</a>
+                     </li>
+                     <li class="links-footer__sub-list-item @yield('vinyl_car_wrapping')">
+                        <a href="{{ route('vinyl_car_wrapping', ['locale' => __('lang.current')]) }}"
+                           class="links-footer__sub-list-link">@lang('main.menu.vinyl.car_wrapping')</a>
+                     </li>
                   </ul>
                </li>
                <li class="links-footer__item">
-                  <h3 class="links-footer__item-link">@lang('main.menu.events')</h3>
+                  <h3 class="links-footer__item-link">@lang('main.menu.expos.title')</h3>
                   <ul class="links-footer__sub-list">
-                     <li class="links-footer__sub-list-item"><a
-                           href="{{ route('letters_without_light', ['locale' => __('lang.current')]) }}"
-                           class="links-footer__sub-list-link">@lang('main.menu.letters.whithout_light')</a></li>
-                     <li class="links-footer__sub-list-item"><a
-                           href="{{ route('letters_with_light', ['locale' => __('lang.current')]) }}"
-                           class="links-footer__sub-list-link">@lang('main.menu.letters.whith_light')</a></li>
+                     <li class="links-footer__sub-list-item @yield('expos_stands')">
+                        <a href="{{ route('expos_stands', ['locale' => __('lang.current')]) }}"
+                           class="links-footer__sub-list-link">@lang('main.menu.expos.stands')</a>
+                     </li>
+                     <li class="links-footer__sub-list-item @yield('expos_wall_banner')">
+                        <a href="{{ route('expos_wall_banner', ['locale' => __('lang.current')]) }}"
+                           class="links-footer__sub-list-link">@lang('main.menu.expos.wall_banner')</a>
+                     </li>
+                     <li class="links-footer__sub-list-item @yield('expos_banner')">
+                        <a href="{{ route('expos_banner', ['locale' => __('lang.current')]) }}"
+                           class="links-footer__sub-list-link">@lang('main.menu.expos.banner')</a>
+                     </li>
+                     <li class="links-footer__sub-list-item @yield('expos_roll_up')">
+                        <a href="{{ route('expos_roll_up', ['locale' => __('lang.current')]) }}"
+                           class="links-footer__sub-list-link">@lang('main.menu.expos.roll_up')</a>
+                     </li>
+                     <li class="links-footer__sub-list-item @yield('expos_figures')">
+                        <a href="{{ route('expos_figures', ['locale' => __('lang.current')]) }}"
+                           class="links-footer__sub-list-link">@lang('main.menu.expos.figures')</a>
+                     </li>
+                     <li class="links-footer__sub-list-item @yield('expos_dimensional_letters')">
+                        <a href="{{ route('expos_dimensional_letters', ['locale' => __('lang.current')]) }}"
+                           class="links-footer__sub-list-link">@lang('main.menu.expos.dimensional_letters')</a>
+                     </li>
+                     <li class="links-footer__sub-list-item @yield('expos_clothing')">
+                        <a href="{{ route('expos_clothing', ['locale' => __('lang.current')]) }}"
+                           class="links-footer__sub-list-link">@lang('main.menu.expos.clothing')</a>
+                     </li>
+                     <li class="links-footer__sub-list-item @yield('expos_badges')">
+                        <a href="{{ route('expos_badges', ['locale' => __('lang.current')]) }}"
+                           class="links-footer__sub-list-link">@lang('main.menu.expos.badges')</a>
+                     </li>
                   </ul>
                </li>
             </ul>

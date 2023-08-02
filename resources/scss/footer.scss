@@ -11,6 +11,7 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 65px;
+    transition: margin-bottom 0.3s ease 0s;
     @media (max-width: $mobile) {
       grid-template-columns: 1fr;
       grid-template-rows: repeat(4, auto);
@@ -199,6 +200,14 @@
           color: $pink;
         }
       }
+    }
+  }
+  &__sub-list-item{
+    &.active{
+      color: darken($pink, 20%);
+      /* &:hover{
+        color: $pink;
+      } */
     }
   }
 }

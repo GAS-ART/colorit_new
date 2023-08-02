@@ -3,7 +3,7 @@
 @section('description', __('titles.letters_whithout_light.description'))
 @section('ogTitle' ,__('titles.letters_whithout_light.ogTitle'))
 @section('ogDescription', __('titles.letters_whithout_light.ogDescription'))
-@section('page', 'letters')
+@section('letters_whithout_light', 'active')
 @section('mainPopupPayload', 'БУКВЫ БЕЗ СВЕТА (' . url()->current() . ')')
 
 @section('content')

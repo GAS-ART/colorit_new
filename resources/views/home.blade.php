@@ -4,7 +4,6 @@
 @section('ogTitle' ,__('titles.home.ogTitle'))
 @section('ogDescription', __('titles.home.ogDescription'))
 @section('ogUrl', __('titles.home.ogUrl'))
-@section('page', 'home')
 @section('mainPopupPayload', 'Главная страница (' . url()->current() . ')')
 
 @section('content')
