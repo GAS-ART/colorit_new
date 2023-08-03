@@ -2,17 +2,12 @@
 
 namespace App\Http\Controllers\Pages;
 
-use App\Http\Controllers\Controller;
-use Illuminate\Support\Facades\App;
+use App\Http\Controllers\SetLangAndViewController;
 
-class PortfolioController extends Controller
+class PortfolioController extends SetLangAndViewController
 {
     public function index($locale)
     {
-        if (!in_array($locale, ['es', 'ru'])) {
-            abort(404);
-        }
-        App::setLocale($locale);
-        return view('portfolio');
+        return $this->setLocaleAndView($locale, 'portfolio', []);
     }
 }

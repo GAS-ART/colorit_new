@@ -2,11 +2,9 @@
 
 namespace App\Http\Controllers\pages;
 
-use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\App;
+use App\Http\Controllers\SetLangAndViewController;
 
-class LettersWhithLightController extends Controller
+class LettersWhithLightController extends SetLangAndViewController
 {
     public function index($locale)
     {
@@ -274,10 +272,6 @@ class LettersWhithLightController extends Controller
                 'answer' => 'letters.whith_light.questions.' . $i . '.answer',
             ];
         }
-        if (!in_array($locale, ['es', 'ru'])) {
-            abort(404);
-        }
-        App::setLocale($locale);
-        return view('letters-whith-light', compact('banner', 'breadCrumbs', 'lights', 'mounts', 'portfolioImages', 'questions'));
+        return $this->setLocaleAndView($locale, 'letters-whith-light', compact('banner', 'breadCrumbs', 'lights', 'mounts', 'portfolioImages', 'questions'));
     }
 }

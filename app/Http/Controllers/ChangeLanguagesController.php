@@ -2,13 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\App;
-use mysql_xdevapi\Session;
 use Illuminate\Support\Facades\URL;
 use Illuminate\Support\Str;
 
-class languagesController extends Controller
+class ChangeLanguagesController extends Controller
 {
 
     public function changeLocale($locale) {

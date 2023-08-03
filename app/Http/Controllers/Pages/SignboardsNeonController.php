@@ -2,17 +2,11 @@
 
 namespace App\Http\Controllers\Pages;
 
-use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\App;
+use App\Http\Controllers\SetLangAndViewController;
 
-class SignboardsNeonController extends Controller
+class SignboardsNeonController extends SetLangAndViewController
 {
     public function index($locale) {
-        if (!in_array($locale, ['es', 'ru'])) {
-            abort(404);
-        }
-        App::setLocale($locale);
-        return view('signboards-neon');
+        return $this->setLocaleAndView($locale, 'signboards-neon', []);
     }
 }

@@ -2,11 +2,9 @@
 
 namespace App\Http\Controllers\Pages;
 
-use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\App;
+use App\Http\Controllers\SetLangAndViewController;
 
-class SignboardsWithoutLightController extends Controller
+class SignboardsWithoutLightController extends SetLangAndViewController
 {
     public function index($locale) 
     {
@@ -186,11 +184,6 @@ class SignboardsWithoutLightController extends Controller
                 'answer' => 'signboards.whithout_light.questions.' . $i . '.answer',
             ];
         }
-
-        if (!in_array($locale, ['es', 'ru'])) {
-            abort(404);
-        }
-        App::setLocale($locale);
-        return view('signboards-whithout-light', compact('banner', 'breadCrumbs', 'material', 'mounts', 'portfolioImages', 'questions'));
+        return $this->setLocaleAndView($locale, 'signboards-whithout-light', compact('banner', 'breadCrumbs', 'material', 'mounts', 'portfolioImages', 'questions'));
     }
 }

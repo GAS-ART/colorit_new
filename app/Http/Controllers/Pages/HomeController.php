@@ -2,13 +2,11 @@
 
 namespace App\Http\Controllers\Pages;
 
-use Illuminate\Support\Facades\App;
-use Illuminate\Http\Request;
-use App\Http\Controllers\Controller;
+use App\Http\Controllers\SetLangAndViewController;
 
-class HomeController extends Controller
+class HomeController extends SetLangAndViewController
 {
-    public function index(Request $request, $locale = null)
+    public function index($locale = null)
     {   
         $quizAlt = 'alt.home.quiz.';
         $quizBaseDir = 'img/home/quiz/';
@@ -50,19 +48,6 @@ class HomeController extends Controller
                 'answer' => 'home.questions.' . $i . '.answer',
             ];
         }
-        $isHomePage = $request->path() === '/';
-        if ($locale === 'ru') {
-            App::setLocale('ru');
-            return view('home', compact('questions', 'quizData'));
-        } elseif ($locale === 'es') {
-            App::setLocale('es');
-            return redirect('/');
-        } elseif ($isHomePage) {
-            App::setLocale('es');
-            return view('home', compact('questions', 'quizData'));
-        }
-        else {
-            abort(404);
-        }
+        return $this->setLocaleAndView($locale, 'home', compact('questions', 'quizData'));
     }
 }
