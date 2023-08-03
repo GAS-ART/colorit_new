@@ -10,7 +10,7 @@ class LettersWhithLightController extends Controller
 {
     public function index($locale)
     {
-        $baner = [
+        $banner = [
             'title' => 'letters.whith_light.title',
             'es' => [
             'imgBig' => 'img/letters/es/whith_light/Letras-corpóreas-frente-dorado-espejo-retroiluminadas.webp',
@@ -278,6 +278,6 @@ class LettersWhithLightController extends Controller
             abort(404);
         }
         App::setLocale($locale);
-        return view('letters-whith-light', compact('baner', 'breadCrumbs', 'lights', 'mounts', 'portfolioImages', 'questions'));
+        return view('letters-whith-light', compact('banner', 'breadCrumbs', 'lights', 'mounts', 'portfolioImages', 'questions'));
     }
 }

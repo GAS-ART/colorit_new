@@ -6,11 +6,11 @@
       </div>
       <div class="lead__content">
         <h2 class="lead__title">{{ $title }}</h2>
-        <p class="lead__text">{{ $text }}</p>
+        <p class="lead__text">@lang('lead.text')</p>
       </div>
       <div class="lead__action">
         <button data-popup-id="main" data-popup-show-select="" data-popup-payload="{{ $leadInfo }}"
-          class="lead__btn link-on-popup">@lang('letters.lead.btn')<span class="flare white"></span></button>
+          class="lead__btn link-on-popup">@lang('lead.btn')<span class="flare white"></span></button>
       </div>
     </div>
   </div>

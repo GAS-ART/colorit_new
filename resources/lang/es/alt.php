@@ -49,6 +49,11 @@ return [
       'baner' => 'Letras corpóreas iluminadas en Barcelona'
     ],
   ],
+  'signboards' => [
+    'whithout_light' => [
+      'banner' => '',
+    ],
+  ],
 ]
 
 ?>

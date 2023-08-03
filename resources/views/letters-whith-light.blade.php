@@ -7,7 +7,7 @@
 @section('mainPopupPayload', 'БУКВЫ СО СВЕТОМ (' . url()->current() . ')')
 
 @section('content')
-<x-main-baner :$baner />
+<x-main-banner :$banner />
 <x-bread-crumbs :$breadCrumbs />
 <x-main-text>
   @lang('letters.whith_light.text')
@@ -54,12 +54,11 @@
       </div>
     </div>
 </section>
-<x-letters.two-images-section :data="$lights" />
-<x-letters.two-images-section :data="$mounts" />
+<x-two-images-section :data="$lights" />
+<x-two-images-section :data="$mounts" />
 <x-portfolio :$portfolioImages />
 <x-lead>
   <x-slot name="title">@lang('letters.whith_light.lead.title')</x-slot>
-  <x-slot name="text">@lang('letters.lead.text')</x-slot>
   <x-slot name="leadInfo">БУКВЫ CO СВЕТОМ ({{ url()->current() }})</x-slot>
 </x-lead>
 <x-questions :$questions />

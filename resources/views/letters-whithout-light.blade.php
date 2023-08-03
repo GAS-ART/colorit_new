@@ -7,7 +7,7 @@
 @section('mainPopupPayload', 'БУКВЫ БЕЗ СВЕТА (' . url()->current() . ')')
 
 @section('content')
-<x-main-baner :$baner />
+<x-main-banner :$banner />
 <x-bread-crumbs :$breadCrumbs />
 <x-main-text>
   @lang('letters.text')
@@ -90,11 +90,10 @@
       </div>
     </div>
 </section>
-<x-letters.two-images-section :data="$mounts" />
+<x-two-images-section :data="$mounts" />
 <x-portfolio :$portfolioImages />
 <x-lead>
   <x-slot name="title">@lang('letters.lead.title')</x-slot>
-  <x-slot name="text">@lang('letters.lead.text')</x-slot>
   <x-slot name="leadInfo">БУКВЫ БЕЗ СВЕТА ({{ url()->current() }})</x-slot>
 </x-lead>
 <x-questions :$questions />

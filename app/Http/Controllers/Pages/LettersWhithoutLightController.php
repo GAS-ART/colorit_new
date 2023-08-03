@@ -9,7 +9,7 @@ class LettersWhithoutLightController extends Controller
 {
     public function index($locale)
     {
-        $baner = [
+        $banner = [
             'title' => 'letters.title',
             'es' => [
             'imgBig' => 'img/letters/es/Letras-córporeas-de-pvc-negro-mate-para-ferias.webp',
@@ -167,6 +167,6 @@ class LettersWhithoutLightController extends Controller
             abort(404);
         }
         App::setLocale($locale);
-        return view('letters-whithout-light', compact('baner', 'breadCrumbs', 'mounts', 'portfolioImages', 'questions'));
+        return view('letters-whithout-light', compact('banner', 'breadCrumbs', 'mounts', 'portfolioImages', 'questions'));
     }
 }

@@ -1,5 +1,5 @@
-/*================MAIN-BANER================*/
-.main-baner {
+/*================MAIN-BANNER================*/
+.main-banner {
   margin-bottom: 0;
   
   @media (max-width: $mobile) {
@@ -8,7 +8,7 @@
   @media (max-width: $mobileSmall) {
     margin-bottom: 120px;
   }
-  &__baner{
+  &__banner{
     position: relative;
     top: 0;
     left: 20px;
@@ -46,7 +46,7 @@
     }
     }
   }
-  &__baner--title{
+  &__banner--title{
     position: absolute;
     top: 100%;
     left: 0%;
@@ -119,4 +119,4 @@
     }
   }
 }
-/*================MAIN-BANER================*/
+/*================MAIN-BANNER================*/

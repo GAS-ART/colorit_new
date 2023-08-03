@@ -4,6 +4,7 @@ return [
    'home'=>'Главная',
    'letters'=>'Объемные буквы без света',
    'letters_whith_light' => 'Объемные буквы со светом',
+   'signboards_whithout_light' => 'Вывески без света',
 ]
 
 ?>

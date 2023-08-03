@@ -7,7 +7,23 @@
 @section('mainPopupPayload', 'ВЫВЕСКИ БЕЗ СВЕТА (' . url()->current() . ')')
 
 @section('content')
-<section style="text-align: center; font-size: 60px; font-weight:700; color: #89368E;" class="test__container">
-  ВЫВЕСКИ БЕЗ СВЕТА
-</section>
+<x-main-banner :$banner />
+<x-bread-crumbs :$breadCrumbs />
+<x-main-text>
+  @lang('signboards.whithout_light.text')
+</x-main-text>
+<x-two-images-section :data="$material" />
+<x-two-images-section :data="$mounts" />
+<x-portfolio :$portfolioImages />
+<x-lead>
+  <x-slot name="title">@lang('signboards.whithout_light.lead.title')</x-slot>
+  <x-slot name="leadInfo">ВЫВЕСКИ БЕЗ СВЕТА ({{ url()->current() }})</x-slot>
+</x-lead>
+<x-questions :$questions />
+<x-about>
+  @lang('signboards.whithout_light.about_text')
+</x-about>
+<x-question-lead>
+  ВЫВЕСКИ БЕЗ СВЕТА ({{ url()->current() }})
+</x-question-lead>
 @endsection
