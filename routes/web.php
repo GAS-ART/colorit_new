@@ -20,7 +20,6 @@ use App\Http\Controllers\Pages\ExposWallBannerController;
 use App\Http\Controllers\Pages\ExposBannerController;
 use App\Http\Controllers\Pages\ExposRollUpController;
 use App\Http\Controllers\Pages\ExposFiguresController;
-use App\Http\Controllers\Pages\ExposDimensionalLettersController;
 use App\Http\Controllers\Pages\ExposClothingController;
 use App\Http\Controllers\Pages\ExposBadgesController;
 
@@ -58,6 +57,5 @@ Route::get('/{locale}/brandwall', [ExposWallBannerController::class, 'index'])->
 Route::get('/{locale}/exhibition-banners', [ExposBannerController::class, 'index'])->name('expos_banner');
 Route::get('/{locale}/roll-up', [ExposRollUpController::class, 'index'])->name('expos_roll_up');
 Route::get('/{locale}/exhibition-figures', [ExposFiguresController::class, 'index'])->name('expos_figures');
-Route::get('/{locale}/dimensional-letters', [ExposDimensionalLettersController::class, 'index'])->name('expos_dimensional_letters');
 Route::get('/{locale}/corporate-apparel', [ExposClothingController::class, 'index'])->name('expos_clothing');
 Route::get('/{locale}/name-badges', [ExposBadgesController::class, 'index'])->name('expos_badges');

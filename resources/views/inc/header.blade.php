@@ -202,12 +202,6 @@
                               @lang('main.menu.expos.figures')
                            </a>
                         </li>
-                        <li class="header-menu__sub-list-item @yield('expos_dimensional_letters')">
-                           <a href="{{ route('expos_dimensional_letters', ['locale' => __('lang.current')]) }}"
-                              class="header-menu__sub-list-link">
-                              @lang('main.menu.expos.dimensional_letters')
-                           </a>
-                        </li>
                         <li class="header-menu__sub-list-item @yield('expos_clothing')">
                            <a href="{{ route('expos_clothing', ['locale' => __('lang.current')]) }}"
                               class="header-menu__sub-list-link">
