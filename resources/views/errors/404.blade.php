@@ -1,5 +1,5 @@
-<?php
-$languages = ['ru', 'ua' ];
+@php
+$languages = ['es', 'ru' ];
 $url = url()->current();
 $protacol = Str::before($url, '://') . "://";
 $urlPart = Str::of($url)->after($protacol);
@@ -7,11 +7,11 @@ $domain = Str::before( $urlPart, '/') . "/";
 $urlPart = Str::after($urlPart, $domain);
 $urlLanguagePrefix = Str::substr($urlPart, 0, 2);
 if(Str::contains($urlLanguagePrefix, $languages)){
-   app()->setLocale($urlLanguagePrefix);
+app()->setLocale($urlLanguagePrefix);
 } else {
-   app()->setLocale("ua");
+app()->setLocale("es");
 }
-?>
+@endphp
 @extends('layout')
 @section('title', __('404.tittle'))
 @section('description', __('404.text'))
@@ -29,7 +29,8 @@ if(Str::contains($urlLanguagePrefix, $languages)){
             <p>@lang('404.text')</p>
          </div>
          <div class="page-404__button">
-            <a href="{{ route('home', ['locale' => __('lang.current')]) }}" class="button button-404">@lang('404.link')</a>
+            <a href="{{ route('home', ['locale' => __('lang.current')]) }}"
+               class="button button-404">@lang('404.link')</a>
          </div>
       </div>
    </div>

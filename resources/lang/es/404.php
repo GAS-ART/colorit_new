@@ -2,8 +2,8 @@
 
 return [
    'tittle' => '404',
-   'text' => 'Схоже, що такої сторінки немає...',
-   'link' => '&#8656 Повернутись на сайт',
+   'text' => 'Ups, esta página no encontrada...',
+   'link' => '&#8656 Ir a la portada',
 ]
 
 ?>
