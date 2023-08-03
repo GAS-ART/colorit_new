@@ -97,12 +97,6 @@ return [
       'ogTitle' => '',
       'ogDescription' => '',
    ],
-   'expos_dimensional_letters'=> [
-      'title' => '',
-      'description' => '',
-      'ogTitle' => '',
-      'ogDescription' => '',
-   ],
    'expos_clothing'=> [
       'title' => '',
       'description' => '',
