@@ -80,5 +80,12 @@ return [
     Illum, nesciunt quo dolorem quos dolorum, dicta recusandae velit possimus nam magnam nihil neque facere. Illum magni accusantium cupiditate dignissimos nam ratione neque ipsam magnam architecto nulla, excepturi provident ut?
     Velit in enim minus numquam cumque itaque quos, autem, quasi omnis perferendis illo ad soluta minima asperiores saepe eos sit. Voluptatem suscipit repellendus, ipsa harum accusantium fugiat error tempora a!'
   ],
+  'whith_light' => [
+    'banner' => [
+      'title' => 'Rótulos luminosos',
+      'circle_text' => 'Producción 14 - 21 días',
+    ],
+    'text' => 'Использование световых вывесок дает много преимуществ: увеличивает видимость вашего заведения в темное время суток, создает эффектную и запоминающуюся рекламу, а также позволяет привлечь больше потенциальных клиентов. Это может быть ла представляет собой короб из пластика и акрилата с подсветкой светодиодными лампами, короб из композитных панелей или вывеска с прожекторами.',
+  ],
 ]
 ?>

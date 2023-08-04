@@ -53,6 +53,9 @@ return [
     'whithout_light' => [
       'banner' => '',
     ],
+    'whith_light' => [
+      'banner' => '',
+    ],
   ],
 ]
 

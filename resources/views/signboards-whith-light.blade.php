@@ -7,7 +7,9 @@
 @section('mainPopupPayload', 'ВЫВЕСКИ СО СВЕТОМ (' . url()->current() . ')')
 
 @section('content')
-<section style="text-align: center; font-size: 60px; font-weight:700; color: #89368E;" class="test__container">
-  ВЫВЕСКИ СО СВЕТОМ
-</section>
+<x-main-banner :$banner />
+<x-bread-crumbs :$breadCrumbs />
+<x-main-text>
+  @lang('signboards.whith_light.text')
+</x-main-text>
 @endsection
