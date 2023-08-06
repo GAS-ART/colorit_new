@@ -153,14 +153,18 @@ burgerBtn.addEventListener('click', () => {
 const burgerServices = document.querySelector('.header-burger__sub-list');
 const burgerServicesHeight = burgerServices.scrollHeight;
 const burgerServicesBtn = document.querySelector('button.header-burger__list-link');
+const headerBurgerMenu = document.querySelector('.header-burger__menu');
+
 burgerServicesBtn.addEventListener('click', () => {
   if (!burgerServices.style.height) {
     burgerServices.style.height = `${burgerServicesHeight + 10}px`;
     burgerServices.classList.add('active');
     burger.classList.add('show-services');
+    headerBurgerMenu.classList.add('service-active');
   } else {
     burgerServices.removeAttribute('style');
     burger.classList.remove('show-services');
+    headerBurgerMenu.classList.remove('service-active');
   }
 });
 

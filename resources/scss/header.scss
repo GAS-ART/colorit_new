@@ -452,6 +452,15 @@
 
   &__menu {
     //align-self: center;
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.5s ease 0s;
+    &.service-active{
+      top: 80px;
+      transform: translateY(0);
+    }
   }
 
   &__list {
