@@ -477,6 +477,11 @@
                 <div class="slider-portfolio__btn-next">&rarr;</div>
             </div>
         </div>
+        <div class="portfolio-product__show-more">
+            <a class="portfolio-product__show-more-link"
+                href="{{ route('portfolio', ['locale' => __('lang.current')]) }}">@lang('portfolio.show_more')
+                <span>&rarr;</span></a>
+        </div>
     </div>
 </section>
 <section class="gift">
