@@ -146,6 +146,22 @@ const burgerBtn = document.querySelector('.info-header__menu');
 burgerBtn.addEventListener('click', () => {
   burger.classList.toggle('active');
   burgerBtn.classList.toggle('active');
+  body.classList.toggle('lock');
+});
+
+//Show services in burger menu
+const burgerServices = document.querySelector('.header-burger__sub-list');
+const burgerServicesHeight = burgerServices.scrollHeight;
+const burgerServicesBtn = document.querySelector('button.header-burger__list-link');
+burgerServicesBtn.addEventListener('click', () => {
+  if (!burgerServices.style.height) {
+    burgerServices.style.height = `${burgerServicesHeight + 10}px`;
+    burgerServices.classList.add('active');
+    burger.classList.add('show-services');
+  } else {
+    burgerServices.removeAttribute('style');
+    burger.classList.remove('show-services');
+  }
 });
 
 //select
@@ -450,7 +466,7 @@ footerMenuItems.forEach(item => {
   subList.style.height = `0px`;
   item.addEventListener('click', (e) => {
     if (subList.style.height == '0px') {
-      subList.style.height = `${subListHeight}px`;
+      subList.style.height = `${subListHeight + 10}px`;
       footerBody.style.marginBottom = `${footerBodyMarginBottom + subListHeight}px`;
     } else {
       subList.style.height = `0px`;

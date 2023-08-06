@@ -116,6 +116,18 @@ return [
       'ogTitle' => 'Lanyard personalizados para eventos y ferias.',
       'ogDescription' => 'Impresion perzonalizada en lanyards para tu negocio. Proponemos diferentes modelos y colores con fabricacion rapida.',
    ],
+   'about_us' =>[
+      'title' => '',
+      'description' => '',
+      'ogTitle' => '',
+      'ogDescription' => ''
+   ],
+   'portfolio' =>[
+      'title' => '',
+      'description' => '',
+      'ogTitle' => '',
+      'ogDescription' => ''
+   ],
 ]
 
 ?>

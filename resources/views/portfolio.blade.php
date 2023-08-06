@@ -4,8 +4,10 @@
 @section('ogTitle' ,__('titles.letters_whithout_light.ogTitle'))
 @section('ogDescription', __('titles.letters_whithout_light.ogDescription'))
 @section('page', 'letters')
-@section('mainPopupPayload', 'БУКВЫ БЕЗ СВЕТА (' . url()->current() . ')')
+@section('mainPopupPayload', 'ПОРТФОЛИО (' . url()->current() . ')')
 
 @section('content')
-ПОРТФОЛИО!
+<section style="text-align: center; font-size: 60px; font-weight:700; color: #89368E;" class="test__container">
+  ПОРТФОЛИО
+</section>
 @endsection

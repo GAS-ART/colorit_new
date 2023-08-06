@@ -16,10 +16,11 @@
       height: 180px;
       background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #F7F8FA 90.74%), #17161A;
       //background-clip: text;
+      overflow: hidden;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       margin-bottom: 16px;
-      transition: height 0.3s ease 0s;
+      transition: height 0.5s ease 0s;
       &.active{
         -webkit-background-clip: unset;
         -webkit-text-fill-color: unset;

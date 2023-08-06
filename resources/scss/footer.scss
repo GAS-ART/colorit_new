@@ -153,6 +153,7 @@
           opacity: 1;
           visibility: visible;
           pointer-events: all;
+          overflow: hidden;
           &-item{
             &:first-child{
               margin-top: 10px;

@@ -398,7 +398,7 @@
 
   &__burger {
     position: fixed;
-    top: 0;
+    top: 0px;
     left: 0;
     width: 100vw;
     height: 100vh;
@@ -410,8 +410,14 @@
     padding: 0 40px;
     transform: translateX(115vw);
     transition: all 0.5s ease 0s;
+    padding-top: 80px;
+    overflow: auto;
+    transition: all 0.5s ease 0s;
     &.active{
       transform: translateX(0vw);
+    }
+    &.show-services{
+      align-items: flex-start;
     }
     @media (max-width: $mobile) {
       justify-content: center;
@@ -438,12 +444,14 @@
     text-transform: uppercase;
     color: $purple;
     opacity: 0.1;
+    align-self: center;
     @media (max-width: $mobile) {
       display: none;
     }
   }
 
   &__menu {
+    //align-self: center;
   }
 
   &__list {
@@ -473,6 +481,67 @@
     line-height: 120%;
   }
 }
+
+.header-burger {
+
+  &__sub-list {
+    transition: height 0.5s ease 0s;
+    height: 0;
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+    &.active{
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+
+  &__sub-list-item {
+    color: $mainColor;
+    &:not(:last-child){
+      margin-bottom: 25px;
+    }
+  }
+
+  &__sub-list-item-title {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: left;
+    &:first-child{
+      //margin-top: 15px;
+    }
+  }
+
+  &__sub-sub-list {
+  }
+
+  &__sub-sub-list-item {
+    text-align: left;
+    padding-left: 15px;
+    &:not(:last-child){
+      margin-bottom: 10px;
+      @media (max-width: $mobile) {
+        margin-bottom: 20px;
+      }
+    }
+    transition: all 0.3s ease 0s;
+    &.active{
+      color: darken($pink, 20%);
+      &:hover{
+        color: darken($pink, 20%);
+      }
+    }
+    &:hover{
+      color: $pink;
+    }
+  }
+
+  &__sub-sub-list-link {
+    
+  }
+}
+
 
 
 
