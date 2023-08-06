@@ -14,8 +14,8 @@ return [
    ],
     'letters' => [
       'title' => 'Letras Corpóreas',
-      'whithout_light' => 'Sin iluminacion',
-      'whith_light' => 'Iluminadas',
+      'whithout_light' => 'Letras corpóreas sin luz',
+      'whith_light' => 'Letras corpóreas luminosas',
     ],
     'vinyl' => [
       'title' => 'Vinilos',

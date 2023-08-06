@@ -10,7 +10,7 @@ return [
       'btn' => 'Pedir el presupuesto',
    ],
    'quiz' => [
-      'title'=>'<span>80% вывесок</span> выглядят бледно и не эффективно!<br>Клиенты проходят мимо вас!',
+      'title'=>'Atraiga la atención de sus clientes con <span>rótulos deslumbrantes  y exclusivos!</span>',
       'sub-title'=>'Ayúdanos a hacer el mejor producto para tu negocio <span>respondiendo un par de preguntas</span>',
       'count'=> 'Pregunta  <span class="quiz-count">0</span> de 3',
       'body'=>[
@@ -228,7 +228,7 @@ return [
       ],
       '5' => [
          'question' => '¿Donde podria ver vuestros trabajos?',
-         'answer' => 'Puedes ver nuestro trabajo en la web en la sección Portfolio'
+         'answer' => 'Puedes ver nuestro trabajo en la web en la sección <a class="content-questions__answer-link" href="' . route('portfolio', ['locale' => __('lang.current')])   . '">Portfolio</a>',
       ],
       '6' => [
          'question' => '¿Dónde puedo ver el material y las opciones de rótulos?',

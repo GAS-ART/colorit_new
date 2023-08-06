@@ -14,8 +14,8 @@ return [
    ],
     'letters' => [
       'title' => 'Буквы',
-      'whithout_light' => 'Без подсветки',
-      'whith_light' => 'С подсветкой',
+      'whithout_light' => 'Буквы без подсветки',
+      'whith_light' => 'Буквы с подсветкой',
     ],
     'vinyl' => [
       'title' => 'Винил',
