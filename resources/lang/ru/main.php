@@ -40,7 +40,7 @@ return [
       'about' => 'О нас',
       'services' => 'Услуги',
       'portfolio' => 'Портфолио',
-      'presentation' => 'Презентации',
+      'reviews' => 'Отзывы',
       'contacts' => 'Контакты',
     ],
   ],

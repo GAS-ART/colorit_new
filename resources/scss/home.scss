@@ -1245,6 +1245,12 @@
 /*============REVIEW============*/
 .review {
   @extend %section;
+  position: relative;
+  #review-ancor{
+    position: absolute;
+    top: -80px;
+    left: 0;
+  }
   &__container {
   }
 

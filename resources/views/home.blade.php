@@ -637,7 +637,8 @@
     </div>
 
 </section>
-<section class="review">
+<section id="review" class="review">
+    <div id="review-ancor"></div>
     <div class="review__container">
         <div class="review__title">
             @lang('home.reviews.title')

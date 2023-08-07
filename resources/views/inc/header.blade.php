@@ -329,8 +329,15 @@
                <li class="header-burger__list-item @yield('portfolio')"><a
                      href="{{route('portfolio', ['locale' => __('lang.current')])}}"
                      class="header-burger__list-link">@lang('main.menu.burger.portfolio')</a></li>
-               <li class="header-burger__list-item"><a href="#"
-                     class="header-burger__list-link">@lang('main.menu.burger.presentation')</a></li>
+               <li class="header-burger__list-item">
+                  @if(Route::is('home') || Route::is('index.lang'))
+                  <a href="#review" class="header-burger__list-link ancor">@lang('main.menu.burger.reviews')</a>
+                  @else
+                  <a class="header-burger__list-link"
+                     href="{{ route('home', ['locale' => __('lang.current')]) }}#review-ancor">@lang('main.menu.burger.reviews')</a>
+                  @endif
+                  {{-- <a href="#" class="header-burger__list-link">@lang('main.menu.burger.reviews')</a> --}}
+               </li>
                <li class="header-burger__list-item"><a href="#"
                      class="header-burger__list-link">@lang('main.menu.burger.contacts')</a></li>
             </ul>

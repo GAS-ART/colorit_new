@@ -8,7 +8,7 @@ document.addEventListener('click', documentActions);
 
 //Set CSS --scrollbar-width variable
 const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
-const styleTag = document.querySelector('style');
+const styleTag = document.querySelector('head style');
 styleTag.innerHTML += `:root { --scrollbar-width: ${scrollbarWidth}px; }`;
 
 //PopUp
@@ -406,7 +406,7 @@ const scrolling = (selectorBtn) => {
   const btnUp = document.querySelector(selectorBtn);
 
   const links = document.querySelectorAll(".ancor");
-  let speed = 0.3;
+  let speed = 0.2;
   const headerHeight = document.querySelector('.header__top').offsetHeight;
 
   window.addEventListener("scroll", () => {
@@ -420,6 +420,11 @@ const scrolling = (selectorBtn) => {
   for (let i = 0; i < links.length; i++) {
     links[i].addEventListener("click", function (event) {
       event.preventDefault();
+
+      burger.classList.remove('active');
+      burgerBtn.classList.remove('active');
+      body.classList.remove('lock');
+
       let widthTop = Math.round(
         document.documentElement.scrollTop || document.body.scrollTop
       ),
