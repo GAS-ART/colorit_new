@@ -54,7 +54,9 @@ class LettersWhithoutLightController extends SetLangAndViewController
         $portfolioDirRu = 'img/portfolio/ru/';
         $portfolioLocaleAltPath = 'alt.letters.portfolio.';
         $portfolioLocaleTitlePath = 'portfolio.letters.';
+
         $portfolioImages = [
+            'gallery-image-path' => 'letters/portfolio',
             [
                 'es' => [
                     'src' => $portfolioDirEs . 'Letras-de-pvc-10-мм-para-salon-de-belleza.webp',

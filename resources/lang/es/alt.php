@@ -46,7 +46,18 @@ return [
       '9' => 'Letras corpóreas de pvc 30 mm con separadores',
     ],
     'whith_light' => [
-      'baner' => 'Letras corpóreas iluminadas en Barcelona'
+      'baner' => 'Letras corpóreas iluminadas en Barcelona',
+      'portfolio' => [
+        '1' => 'Letras volumetricas luminosas con acabado dorado para salon de belleza',
+        '2' => 'Letras de pvc luminosas LED en Barcelona',
+        '3' => 'Letras corporeas pintadas con luz trasero para restaurante en Barcelona',
+        '4' => 'Letras corpóreas iluminadas con frente dorado para salon de belleza',
+        '5' => 'Letras volumetricas de PVC con luz y estructura',
+        '6' => 'Letras de PVC 35 mm de grosos con luz trasero',
+        '7' => 'Letras volumetricas doradas con luz calido',
+        '8' => 'Letras negras de pvc 19 mm con luz trasero',
+        '9' => 'Letras corpóreas con acabado lila retroiluminadas',
+      ],
     ],
   ],
   'signboards' => [

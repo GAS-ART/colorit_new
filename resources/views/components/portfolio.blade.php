@@ -8,14 +8,17 @@
   </div>
   <div class="portfolio-product__img-body">
     <div class="portfolio-product__slider-product product-portfolio swiper">
-      <div id="dynamic-gallery" data-path="letters/portfolio" class="swiper-wrapper product-portfolio__wrapper gallery">
+      <div id="dynamic-gallery" data-path="{{$portfolioImages['gallery-image-path']}}"
+        class="swiper-wrapper product-portfolio__wrapper gallery">
         @foreach ($portfolioImages as $image)
+        @if(is_array($image))
         <div class="swiper-slide product-portfolio__slide gallery-item">
           <div class="product-portfolio__img">
             <img src="{{ asset($image[App::currentLocale()]['src']) }}" alt="{{__($image['alt'])}}">
             <h3 class="product-portfolio__img-title">{{__($image['title'])}}</h3>
           </div>
         </div>
+        @endif
         @endforeach
       </div>
     </div>

@@ -76,6 +76,7 @@ class SignboardsWithoutLightController extends SetLangAndViewController
         $portfolioLocaleAltPath = 'alt.letters.portfolio.';
         $portfolioLocaleTitlePath = 'portfolio.letters.';
         $portfolioImages = [
+            'gallery-image-path' => 'letters/portfolio',
             [
                 'es' => [
                     'src' => $portfolioDirEs . 'Letras-de-pvc-10-мм-para-salon-de-belleza.webp',
