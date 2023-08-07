@@ -83,7 +83,7 @@ return [
   'whith_light' => [
       'title' => 'Letras corpóreas iluminadas',
       'circle' => 'Producción hasta 8-14 días',
-      'text' => 'Световые буквы - это яркий и эффективный способ привлечения внимания. Изготовленные из различных материалов и оснащенные светодиодами, они создают равномерное и яркое освещение, делая ваше сообщение заметным даже в темное время суток. Гибкость световых букв позволяет легко интегрировать их в различные дизайнерские концепции, помогая создать привлекательную и профессиональную атмосферу. В результате, световые буквы становятся эффективным инструментом маркетинга, помогая вашему бренду выделиться и оставить яркое впечатление.',
+      'text' => 'Las letras iluminadas son una forma brillante y efectiva de llamar la atención. Fabricados con una variedad de materiales y equipados con LED, crean una luz uniforme y brillante, haciendo que su mensaje sea visible incluso en la oscuridad. La flexibilidad de las letras iluminadas les permite integrarse fácilmente en varios conceptos de diseño, lo que ayuda a crear un ambiente acogedor y profesional. Como resultado, las letras iluminadas se convierten en una herramienta de marketing eficaz que ayuda a que su marca se destaque y deje una fuerte impresión.',
       'lights' => [
         'title' => 'Iluminacion',
         'text' => 'En producción de letras corpóreas iluminadas utilizamos dos tipos de iluminación',
@@ -97,36 +97,36 @@ return [
       ],
       'questions' => [
         '1' => [
-          'question' => 'Что такое световые объемные буквы?',
-          'answer' => 'Световые объемные буквы представляют собой трехмерные элементы с открытой передней частью, изготовленные из различных материалов и освещенные внутри для создания эффекта подсветки и улучшения видимости.',
+          'question' => '¿Qué son las letras corpóreas iluminadas?',
+          'answer' => 'Las letras corpóreas iluminadas son elementos 3D con frente abierto hechos de una variedad de materiales e iluminados internamente para crear un efecto retroiluminado y mejorar la visibilidad.',
         ],
         '2' => [
-          'question' => 'Какие материалы обычно используются для создания световых объемных букв?',
-          'answer' => 'Для изготовления световых объемных букв могут использоваться различные материалы, включая акрил, алюминий, нержавеющую сталь, дерево и др.',
+          'question' => '¿Cómo fabrican letras volumétricas iluminadas?',
+          'answer' => 'El proceso de fabricación de letras volumétricas iluminadas incluye etapas tales como creación de diseño, fresado o corte por láser de material, montaje, instalación de elementos de iluminación y cableado.',
         ],
         '3' => [
-          'question' => 'Как происходит процесс изготовления световых объемных букв?',
-          'answer' => 'Процесс изготовления световых объемных букв включает такие этапы, как проектирование и создание дизайна, фрезеровку или лазерную резку материала, сборку, установку осветительных элементов и проводку.',
+          'question' => '¿Qué tipos de iluminación estan mas utilizados para letras 3D iluminadas?',
+          'answer' => 'El tipo de iluminación más común para las letras volumétricas iluminadas es la iluminación frontal, donde la luz se suministra al frente de la letra, y la retroiluminación, donde la luz se suministra al reverso de la letra, creando un efecto de halo.',
         ],
         '4' => [
-          'question' => 'Каким образом свет подается на световые объемные буквы?',
-          'answer' => 'Свет может подаваться на световые объемные буквы с помощью внутренних светодиодов (LED), которые располагаются внутри буквы и обеспечивают равномерную подсветку.',
+          'question' => '¿Consumo de electricidad?',
+          'answer' => 'Gracias a las tecnologías modernas, las tiras de LED están equipadas con módulos de ahorro de energía que reducen varias veces el consumo de energía.',
         ],
         '5' => [
-          'question' => 'Какие типы освещения чаще всего используются для световых объемных букв?',
-          'answer' => 'Самым распространенным типом освещения для световых объемных букв являются фронтальная подсветка, где свет подается на лицевую часть буквы и подтветка контражур, где свет подается на заднюю часть буквы создавая эффект ореола.',
+          'question' => '¿Qué materiales se utilizan para crear letras 3D iluminadas?',
+          'answer' => 'Para fabricar las letras corpóreas iluminadas utilizamos materiales como PVC, madera, metacrilato, dibon, aluminio',
         ],
         '6' => [
-          'question' => 'Каковы преимущества использования световых объемных букв для рекламных целей? ',
-          'answer' => 'Световые объемные буквы обладают высокой видимостью и привлекательным внешним видом, что делает их эффективным инструментом для рекламы и привлечения внимания к бизнесу или марке.',
+          'question' => '¿Cómo se suministra luz a las letras volumétricas iluminadas?',
+          'answer' => 'La luz se puede suministrar a las letras iluminadas mediante con diodos  (LED) internos, que se encuentran dentro de la letra y proporcionan una iluminación uniforme.',
         ],
         '7' => [
-          'question' => 'Потребление электроэнергии?',
-          'answer' => 'Благодаря современным технологиям LED ленты оснащеннны энергосберигающими модулями которые в раза уменьшают потребление электроэнергии.',
+          'question' => '¿Cuáles son las ventasjas de usar letras 3D iluminadas?',
+          'answer' => 'Las letras iluminadas tienen una alta visibilidad y una apariencia atractiva, lo que las convierte en una herramienta eficaz para llamar la atención sobre un negocio o una marca',
         ],
         '8' => [
-          'question' => 'Как поддерживать и ухаживать за световыми объемными буквами, чтобы сохранить их эффективность и внешний вид?',
-          'answer' => 'Регулярное очищение от пыли и грязи, проверка работоспособности и замена неисправных осветительных элементов (LED) помогут сохранить эффективность и внешний вид световых объемных букв.',
+          'question' => '¿Cómo mantener y cuidar las letras volumétricas iluminadas para mantener su eficacia y apariencia?',
+          'answer' => 'La limpieza periódica del polvo y la suciedad, mantemiento de la funcionalidad y la sustitución de los elementos de iluminación (LED) defectuosos ayudarán a mantener la eficacia y el aspecto de las letras 3D iluminadas.',
         ],
       ],
       'about_text' => 'Преимущество обьемных букв со светом – это их невероятная видимость даже в темное время суток. Они сияют ярким светом, привлекая взгляды прохожих и потенциальных клиентов. Благодаря световым эффектам, буквы со светом могут создать атмосферу и привлечь внимание даже в самой оживленной улице.<br><br>
