@@ -6,6 +6,11 @@ import getPopupLinks from './modules/getPoupLinks.js'
 
 document.addEventListener('click', documentActions);
 
+//Set CSS --scrollbar-width variable
+const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
+const styleTag = document.querySelector('style');
+styleTag.innerHTML += `:root { --scrollbar-width: ${scrollbarWidth}px; }`;
+
 //PopUp
 getPopupLinks();
 

@@ -1,6 +1,7 @@
 import { popUp } from './popup.js';
 
 const getPopupLinks = () => {
+  // document.documentElement.style.setProperty('--scrollbar-width', `${scrollbarWidth}px`);
   const popupButtons = document.querySelectorAll('.link-on-popup');
   popupButtons.forEach(btn => {
     btn.addEventListener('click', (e) => {

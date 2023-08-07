@@ -35,9 +35,6 @@ export async function popUp(popupId, payload, uploadFile, showSelect = true, gif
 		iconImg.classList.add('three-inputs');
 	}
 
-	const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
-	document.documentElement.style.setProperty('--scrollbar-width', `${scrollbarWidth}px`);
-
 	bodyLock.classList.add('lock');
 	popUp.classList.add('open');
 

@@ -209,7 +209,7 @@
 
   &__container {
     &.pad0{
-      padding: 0 rem( calc(math.div($containerPadding, 2) - 1 ) )
+     padding: 0 rem( calc(math.div($containerPadding, 2) - 1 ) )
     }
   }
 
@@ -1143,10 +1143,12 @@
   @extend %section;
   background-image: url("../../public/img/home/es/solution/background.webp");
   background-repeat: no-repeat;
-  //background-size: 100% 86.164%;
+  background-size: 100% 100%;
+  padding-bottom: 3%;
   @media (max-width: em(1300)) {
     background-size: cover;
     background-position: -1000px;
+    padding-bottom: 0%;
   }
   @media (max-width: $mobile) {
     background-image: url("../../public/img/home/es/solution/background_mobile.webp");
