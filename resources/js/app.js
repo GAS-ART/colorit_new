@@ -155,12 +155,13 @@ burgerBtn.addEventListener('click', () => {
 });
 
 //Show services in burger menu
-const burgerServices = document.querySelector('.header-burger__sub-list');
-const burgerServicesHeight = burgerServices.scrollHeight;
 const burgerServicesBtn = document.querySelector('button.header-burger__list-link');
-const headerBurgerMenu = document.querySelector('.header-burger__menu');
 
 burgerServicesBtn.addEventListener('click', () => {
+  const burgerServices = document.querySelector('.header-burger__sub-list');
+  const burgerServicesHeight = burgerServices.scrollHeight;
+  const headerBurgerMenu = document.querySelector('.header-burger__menu');
+
   if (!burgerServices.style.height) {
     burgerServices.style.height = `${burgerServicesHeight + 10}px`;
     burgerServices.classList.add('active');
@@ -465,18 +466,17 @@ scrolling(".scroll-top");
 const footerMenuItems = document.querySelectorAll('.links-footer__item');
 const footerBody = document.querySelector('.footer__body');
 const footerBodyMarginBottom = parseFloat(getComputedStyle(footerBody).marginBottom);
-let marginHeight = 0;
 footerMenuItems.forEach(item => {
   const subList = item.querySelector('.links-footer__sub-list');
-  const subListItems = subList.querySelectorAll('li');
-  subListItems.forEach(item => marginHeight += 10);
-  const subListHeight = subList.offsetHeight + marginHeight - 10;
-  marginHeight = 0;
   subList.style.height = `0px`;
   item.addEventListener('click', (e) => {
     if (subList.style.height == '0px') {
-      subList.style.height = `${subListHeight + 10}px`;
-      footerBody.style.marginBottom = `${footerBodyMarginBottom + subListHeight}px`;
+      let marginItems = 0;
+      const list = e.target.nextElementSibling;
+      list.querySelectorAll('li').forEach(item => marginItems += 10);
+      subList.style.height = `${list.scrollHeight + marginItems}px`;
+      footerBody.style.marginBottom = `${footerBodyMarginBottom + list.scrollHeight + marginItems}px`;
+      marginItems = 0
     } else {
       subList.style.height = `0px`;
       footerBody.removeAttribute('style');

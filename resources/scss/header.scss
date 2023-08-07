@@ -460,6 +460,19 @@
     &.service-active{
       top: 80px;
       transform: translateY(0);
+       button.header-burger__list-link{
+        margin-bottom: 25px;
+       }
+    }
+    @media (max-width: $mobile) {
+      right: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      &.service-active{
+        top: 80px;
+        transform: translateY(0);
+        transform: translateX(-50%);
+      }
     }
   }
 
@@ -499,6 +512,10 @@
     opacity: 0;
     visibility: hidden;
     overflow: hidden;
+    text-align: left;
+    @media (max-width: $mobile) {
+      text-align: center;
+    }
     &.active{
       opacity: 1;
       visibility: visible;
@@ -516,7 +533,7 @@
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 10px;
-    text-align: left;
+    //text-align: left;
     &:first-child{
       //margin-top: 15px;
     }
@@ -526,7 +543,7 @@
   }
 
   &__sub-sub-list-item {
-    text-align: left;
+    //text-align: left;
     padding-left: 15px;
     &:not(:last-child){
       margin-bottom: 10px;

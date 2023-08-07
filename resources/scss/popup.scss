@@ -10,6 +10,7 @@
   visibility: hidden;
   transition: all 0.5s ease 0s;
   overflow-y: scroll;
+  pointer-events: none;
 &__send-load {
 }
 
@@ -26,6 +27,7 @@
 &.open{
   opacity: 1;
   visibility: visible;
+  pointer-events: all;
   //overflow: auto;
 .popup__body {
   transform: translate(-50%, -50%);
