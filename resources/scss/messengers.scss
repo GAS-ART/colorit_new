@@ -8,6 +8,9 @@
    z-index: 5;
    @media (max-width: em(1700)) {
       right: 50px;
+      .lock &{
+         right: calc(50px + var(--scrollbar-width));
+      }
    }
 }
 .svg-messengers {
@@ -16,8 +19,8 @@
       position: relative;
       width: 50px;
       height: 50px;
-      //background: linear-gradient( #F8B145, 65%, #67358C); 
-      background: linear-gradient( $purple, 65%, $pink); 
+      background: linear-gradient( #F8B145, 65%, #67358C); 
+      //background: linear-gradient( $purple, 65%, $pink); 
       border-radius: 50%;
       z-index: 2;
       cursor: pointer;
