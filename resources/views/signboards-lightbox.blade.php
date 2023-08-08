@@ -10,4 +10,8 @@
 <section style="text-align: center; font-size: 60px; font-weight:700; color: #89368E;" class="test__container">
   ЛАЙТБОКС ИЗ КОМПОЗИТА
 </section>
+<x-questions :$questions />
+<x-question-lead>
+  ЛАЙТБОКС ИЗ КОМПОЗИТА ({{ url()->current() }})
+</x-question-lead>
 @endsection

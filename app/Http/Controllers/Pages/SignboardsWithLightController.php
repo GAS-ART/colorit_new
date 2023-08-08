@@ -30,6 +30,15 @@ class SignboardsWithLightController extends SetLangAndViewController
             ],
             'currentPage' => __('crumbs.signboards_whith_light')
         ];
-        return $this->setLocaleAndView($locale, 'signboards-whith-light', compact('banner', 'breadCrumbs'));
+
+        $questions = [];
+        for ($i = 1; $i <= 8; $i++) {
+            $questions[] = [
+                'question' => 'signboards.whith_light.questions.' . $i . '.question',
+                'answer' => 'signboards.whith_light.questions.' . $i . '.answer',
+            ];
+        }
+
+        return $this->setLocaleAndView($locale, 'signboards-whith-light', compact('banner', 'breadCrumbs', 'questions'));
     }
 }
