@@ -2,6 +2,9 @@
    position: fixed;
    bottom: 40px;
    right: 130px;
+   .lock &{
+      right: calc(130px + var(--scrollbar-width));
+   }
    z-index: 5;
    @media (max-width: em(1700)) {
       right: 50px;
@@ -13,7 +16,8 @@
       position: relative;
       width: 50px;
       height: 50px;
-      background: linear-gradient( #F8B145, 65%, #67358C) ; 
+      //background: linear-gradient( #F8B145, 65%, #67358C); 
+      background: linear-gradient( $pink, 65%, $mainColor); 
       border-radius: 50%;
       z-index: 2;
       cursor: pointer;
@@ -115,7 +119,7 @@
          display: block;
          transition: all 0.1s ease 0s;
          position: absolute;
-         font-family: "Muller";
+         font-family: "Jost";
          font-size: 13px;
          border: 1px solid rgb(226, 226, 226);
          padding: 4px 9px 6px;
@@ -138,7 +142,7 @@
    }
    &__label-btn{
       position: absolute;
-      font-family: "Muller";
+      //font-family: "Jost";
       font-size: 14px;
       right: calc(100% + 20px);
       top: 50%;
