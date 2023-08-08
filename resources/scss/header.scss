@@ -467,7 +467,7 @@
     @media (max-width: $mobile) {
       right: 0;
       left: 50%;
-      transform: translate(-50%, calc(-50% + 40px));
+      transform: translate(-50%, -50%);
       &.service-active{
         top: 80px;
         transform: translateY(0);
