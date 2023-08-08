@@ -6,12 +6,15 @@
 
   &__body {
     display: grid;
-    grid-template-columns: min-content 272px 158px min-content;
+    grid-template-columns: min-content 272px 158px 155px;
     grid-template-rows: auto;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 65px;
     transition: margin-bottom 0.3s ease 0s;
+    @media (max-width: $tablet) {
+      grid-template-columns: min-content 200px 158px 155px;
+    }
     @media (max-width: $mobile) {
       grid-template-columns: 1fr;
       grid-template-rows: repeat(4, auto);
@@ -40,7 +43,6 @@
   &__contact {
     @media (max-width: em(1349)) {
       position: relative;
-      left: -30px;
     }
     @media (max-width: $mobile) {
       left: 0;
@@ -133,7 +135,6 @@
 
   @media (max-width: em(1349)) {
     position: relative;
-    left: -30px;
   }
   @media (max-width: $tablet) {
     left: 0;
