@@ -19,8 +19,8 @@ return [
     'mounts' => [
       'title' => 'Крепления',
       'text' => 'Для крепления вывесок без подсветки мы используем металлические направляющие и специальный крепеж.',
-      'img_1_title' => 'Металлические направляющие',
-      'img_2_title' => 'Суппорты',
+      'img_1_title' => 'Алюминиевые направляющие',
+      'img_2_title' => 'Разделительные крепежи',
     ],
     'lead' => [
       'title' => 'Оставьте заявку на изготовление вывески без света',
@@ -66,26 +66,11 @@ return [
         'answer' => 'Да, мы предоставляем услуги по разработке дизайна для вывесок и наружного рекламного оформления. Наша команда профессионалов способна создать эффективные и привлекательные дизайнерские концепции, которые будут соответствовать вашим потребностям и целям. Мы учитываем ваши предпочтения и контекст окружающей среды, чтобы создать уникальное и запоминающееся рекламное решение.',
       ],
     ],
-    'about_text' => 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere asperiores at perferendis? Delectus, nam assumenda molestias velit, sint autem vel quis, ipsa eligendi odit quasi tempore quidem totam neque alias.
-    Cum culpa sapiente minus ad officiis, beatae fugit? Doloribus numquam voluptate expedita nam dolorem praesentium ipsam quaerat atque obcaecati, molestias consequuntur vel distinctio dicta rem repellat quidem, sapiente, dolorum voluptas!
-    Neque, assumenda sequi nisi voluptatum quod magnam fuga a facilis tenetur. Nostrum similique sunt architecto odit exercitationem rem beatae incidunt, quis vero veniam corporis voluptates dolorum optio commodi obcaecati nam.
-    Similique maiores saepe reiciendis assumenda optio quia ipsam, a quam recusandae minima. Qui officiis atque nam assumenda, optio ipsa ex consequuntur rem, quos molestiae cum nemo eveniet commodi dolore architecto.
-    Facilis perferendis veniam et enim natus eligendi nesciunt quidem dolorem rerum repellendus maiores aliquam reprehenderit fugiat, inventore quia facere? Minima qui ad accusamus voluptate recusandae maxime nobis quia similique reiciendis!
-    Laudantium facilis obcaecati ex doloribus? Nesciunt, accusantium fuga dolores ipsa deleniti, animi aliquam dolorum, laborum cupiditate illum eos velit vitae expedita in! Consequatur architecto harum atque soluta eligendi omnis ipsa!
-    Quos sed necessitatibus voluptas quod nemo eos harum, animi, facere mollitia ipsam temporibus eaque placeat sint itaque, dolorum dicta quam expedita! Unde hic cupiditate a, optio distinctio animi eligendi consectetur.
-    Sunt fugiat blanditiis vel aliquam odio molestiae. Earum deleniti quo quisquam eligendi nesciunt dicta ea, ullam vel provident suscipit non voluptates, omnis aspernatur! Dolorem temporibus aperiam tenetur itaque, quasi repudiandae!
-    Reprehenderit ut inventore sint a excepturi eveniet ipsa fugiat vitae tempora! Neque commodi vero facere obcaecati consectetur voluptas distinctio sit, sunt id! Asperiores quia aspernatur ad dignissimos quam, ut repellat.
-    Dignissimos, molestias? Maiores beatae illum nemo inventore quasi! Voluptate vero labore dignissimos quo quia! Nulla necessitatibus cumque architecto repellendus nemo molestiae atque ut, autem illum harum, veritatis, repellat eum? Vel.
-    Ipsam corrupti nemo quasi ea id? Magnam harum sit aliquam, illum est mollitia velit aut reprehenderit cum, beatae exercitationem voluptates dolores odit omnis voluptatem amet dignissimos consequuntur iusto in aperiam!
-    Fugit obcaecati sequi velit omnis eos voluptatem, recusandae earum eius culpa id voluptas quisquam reiciendis modi nisi. Et nisi, aut explicabo ex sunt adipisci labore eum vitae harum accusantium facilis.
-    Odit, adipisci deleniti quos debitis quidem repellendus at dolorum reprehenderit similique, repudiandae quaerat? Iure officiis quos aliquam reiciendis vitae praesentium. Ea earum quisquam laborum quasi in recusandae atque, blanditiis molestias.
-    Harum neque culpa perspiciatis veniam natus possimus quia omnis laborum unde necessitatibus totam, dicta libero consectetur consequatur vitae quam. Magnam, placeat? Officia architecto aspernatur, voluptatem mollitia modi labore ratione? Ducimus.
-    Quod voluptas quae hic earum et officiis iste placeat dolores commodi harum deserunt, error aliquam. Voluptatum doloribus sapiente molestias, aliquam ad ipsa repellat ex repellendus deleniti totam. Sed, nulla tempora.
-    Necessitatibus, incidunt! Maiores doloremque, dolorem harum vel qui porro accusantium commodi officiis, a dolores minima veniam saepe cum dicta magni quia repellat nam quos ullam ex cupiditate architecto vitae? Non?
-    Nostrum, velit qui. Placeat, at adipisci atque mollitia esse totam ipsa incidunt modi deleniti quaerat voluptates quia error quisquam voluptate voluptatum voluptatibus odio facere dolorem? Sapiente aperiam ducimus dignissimos asperiores?
-    Harum temporibus animi doloribus quam voluptates unde blanditiis delectus beatae optio minima doloremque vel incidunt voluptatibus dolore itaque laudantium, sequi qui, obcaecati, inventore ab! Nihil inventore temporibus dicta hic modi?
-    Illum, nesciunt quo dolorem quos dolorum, dicta recusandae velit possimus nam magnam nihil neque facere. Illum magni accusantium cupiditate dignissimos nam ratione neque ipsam magnam architecto nulla, excepturi provident ut?
-    Velit in enim minus numquam cumque itaque quos, autem, quasi omnis perferendis illo ad soluta minima asperiores saepe eos sit. Voluptatem suscipit repellendus, ipsa harum accusantium fugiat error tempora a!'
+    'about_text' => 'Мы приглашаем вас погрузиться в мир уникальных рекламных решений и выразительных вывесок без света. Команда Colorit agency готова создать для вас наружные рекламные вывески без света, которые выделяются на фоне и привлекают внимание.<br>
+    Мы понимаем, что каждый бизнес имеет свою индивидуальность, и поэтому наш подход всегда индивидуален. Мы разрабатываем дизайн, который наилучшим образом отражает дух вашей компании и целевую аудиторию. Наш опыт и профессиональные навыки гарантируют высокое качество изготовления.<br>
+    Мы предлагаем вам возможность заказать вывеску без света по доступной цене. Наша политика прозрачности означает, что вы всегда будете в курсе расходов. Мы стремимся предоставить вам наилучшее соотношение цены и качества.<br>
+    Рекламная вывеска - это ключевой элемент вашей компании. Она помогает сделать ваш бизнес узнаваемым и заявить о себе. Наша задача - сделать этот процесс максимально простым и результативным. Вы можете полностью полагаться на нас в создании эффективной и выразительной вывески.<br>
+    Не упустите возможность улучшить визуальное представление вашего бизнеса с помощью наших рекламных вывесок без света. Закажите вывеску у нас, и вы получите высокое качество, индивидуальный дизайн и привлекательную цену. Стоимоть рекламных вывесок без света вы можете уточнить у наших специалистов.'
   ],
   'whith_light' => [
     'banner' => [

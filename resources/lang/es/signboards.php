@@ -6,21 +6,21 @@ return [
       'title' => 'Rótulos sin iluminacion',
       'circle_text' => 'Producción hasta 8-14 días',
     ],
-    'text' => 'Наша компания предлагает вам эффективное решение наружного рекламного оформления вашего бизнеса.<br><br>
-    Вывески без света мы изготавливаем из качественного пластика или акрилата с полноцветной УФ печатью, которая обеспечивает яркий и четкий внешний вид. Также это могут быть буквы, объемные или плоские, из пластика ПВХ и акрилата различной толщины.<br><br>
-    Вывески без света широко используются для заведений, которые не работают в ночное время, а также для внутреннего оформления офисов и салонов.<br><br>
-    Часто такими вывесками без света оформляются элементы выставочных стендов и декораций на мероприятиях. Они помогут привлечь внимание и подчеркнуть вашу уникальность.',
+    'text' => 'Nuestra empresa le ofrece una solución eficaz para publicidad exterior de su negocio.<br><br>
+    Los rótulos sin luz están fabricados de plástico o metacrilato de alta calidad con impresión UV a todo color, lo que proporciona un aspecto brillante y claro. También pueden ser letras corpóreas o planas, fabricadas en plástico PVC y metacrilato de varios espesores.<br><br>
+    Los rótulos sin luz son muy utilizados para negocios que no trabajan de noche, así como para el interiorismo de oficinas y salones.<br><br>
+    A menudo, estos letreros sin luz se utilizan para decorar elementos de stands de ferias y decoraciones en eventos. Ayudarán a llamar la atención y enfatizar su singularidad.',
     'material' => [
-      'title' => 'Материал',
-      'text' => 'При создании несветовых вывесок мы используем пластик ПВХ и акрилат толщиной от 5 до 10 мм. Эти материалы отлично подходят для наружного использования, обладают высокой стойкостью к различным погодным условиям, перепадам температуры и осадкам.',
-      'img_1_title' => 'Акрилат',
-      'img_2_title' => 'ПВХ',
+      'title' => 'Material',
+      'text' => 'En la creación de rótulos no luminosos utilizamos material PVC y metacrilato con un grosor de 5 a 10 mm. Estos materiales son excelentes para usos exteriores, son altamente resistentes a diversas condiciones climáticas, temperaturas extremas y precipitaciones.',
+      'img_1_title' => 'Metacrilato',
+      'img_2_title' => 'PVC',
     ],
     'mounts' => [
-      'title' => 'Крепления',
-      'text' => 'Для крепления вывесок без подсветки мы используем металлические направляющие и специальный крепеж.',
-      'img_1_title' => 'Металлические направляющие',
-      'img_2_title' => 'Суппорты',
+      'title' => 'Sujeción',
+      'text' => 'Para instalacion de carteles o letreros sin luz utilizamos aquellos soportes.',
+      'img_1_title' => 'Perfiles de aluminio',
+      'img_2_title' => 'Separadores 20 mm',
     ],
     'lead' => [
       'title' => 'Deja una solicitud para fabricar tu rótulo perzonalizado',
@@ -59,26 +59,11 @@ return [
         'answer' => '',
       ],
     ],
-    'about_text' => 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere asperiores at perferendis? Delectus, nam assumenda molestias velit, sint autem vel quis, ipsa eligendi odit quasi tempore quidem totam neque alias.
-    Cum culpa sapiente minus ad officiis, beatae fugit? Doloribus numquam voluptate expedita nam dolorem praesentium ipsam quaerat atque obcaecati, molestias consequuntur vel distinctio dicta rem repellat quidem, sapiente, dolorum voluptas!
-    Neque, assumenda sequi nisi voluptatum quod magnam fuga a facilis tenetur. Nostrum similique sunt architecto odit exercitationem rem beatae incidunt, quis vero veniam corporis voluptates dolorum optio commodi obcaecati nam.
-    Similique maiores saepe reiciendis assumenda optio quia ipsam, a quam recusandae minima. Qui officiis atque nam assumenda, optio ipsa ex consequuntur rem, quos molestiae cum nemo eveniet commodi dolore architecto.
-    Facilis perferendis veniam et enim natus eligendi nesciunt quidem dolorem rerum repellendus maiores aliquam reprehenderit fugiat, inventore quia facere? Minima qui ad accusamus voluptate recusandae maxime nobis quia similique reiciendis!
-    Laudantium facilis obcaecati ex doloribus? Nesciunt, accusantium fuga dolores ipsa deleniti, animi aliquam dolorum, laborum cupiditate illum eos velit vitae expedita in! Consequatur architecto harum atque soluta eligendi omnis ipsa!
-    Quos sed necessitatibus voluptas quod nemo eos harum, animi, facere mollitia ipsam temporibus eaque placeat sint itaque, dolorum dicta quam expedita! Unde hic cupiditate a, optio distinctio animi eligendi consectetur.
-    Sunt fugiat blanditiis vel aliquam odio molestiae. Earum deleniti quo quisquam eligendi nesciunt dicta ea, ullam vel provident suscipit non voluptates, omnis aspernatur! Dolorem temporibus aperiam tenetur itaque, quasi repudiandae!
-    Reprehenderit ut inventore sint a excepturi eveniet ipsa fugiat vitae tempora! Neque commodi vero facere obcaecati consectetur voluptas distinctio sit, sunt id! Asperiores quia aspernatur ad dignissimos quam, ut repellat.
-    Dignissimos, molestias? Maiores beatae illum nemo inventore quasi! Voluptate vero labore dignissimos quo quia! Nulla necessitatibus cumque architecto repellendus nemo molestiae atque ut, autem illum harum, veritatis, repellat eum? Vel.
-    Ipsam corrupti nemo quasi ea id? Magnam harum sit aliquam, illum est mollitia velit aut reprehenderit cum, beatae exercitationem voluptates dolores odit omnis voluptatem amet dignissimos consequuntur iusto in aperiam!
-    Fugit obcaecati sequi velit omnis eos voluptatem, recusandae earum eius culpa id voluptas quisquam reiciendis modi nisi. Et nisi, aut explicabo ex sunt adipisci labore eum vitae harum accusantium facilis.
-    Odit, adipisci deleniti quos debitis quidem repellendus at dolorum reprehenderit similique, repudiandae quaerat? Iure officiis quos aliquam reiciendis vitae praesentium. Ea earum quisquam laborum quasi in recusandae atque, blanditiis molestias.
-    Harum neque culpa perspiciatis veniam natus possimus quia omnis laborum unde necessitatibus totam, dicta libero consectetur consequatur vitae quam. Magnam, placeat? Officia architecto aspernatur, voluptatem mollitia modi labore ratione? Ducimus.
-    Quod voluptas quae hic earum et officiis iste placeat dolores commodi harum deserunt, error aliquam. Voluptatum doloribus sapiente molestias, aliquam ad ipsa repellat ex repellendus deleniti totam. Sed, nulla tempora.
-    Necessitatibus, incidunt! Maiores doloremque, dolorem harum vel qui porro accusantium commodi officiis, a dolores minima veniam saepe cum dicta magni quia repellat nam quos ullam ex cupiditate architecto vitae? Non?
-    Nostrum, velit qui. Placeat, at adipisci atque mollitia esse totam ipsa incidunt modi deleniti quaerat voluptates quia error quisquam voluptate voluptatum voluptatibus odio facere dolorem? Sapiente aperiam ducimus dignissimos asperiores?
-    Harum temporibus animi doloribus quam voluptates unde blanditiis delectus beatae optio minima doloremque vel incidunt voluptatibus dolore itaque laudantium, sequi qui, obcaecati, inventore ab! Nihil inventore temporibus dicta hic modi?
-    Illum, nesciunt quo dolorem quos dolorum, dicta recusandae velit possimus nam magnam nihil neque facere. Illum magni accusantium cupiditate dignissimos nam ratione neque ipsam magnam architecto nulla, excepturi provident ut?
-    Velit in enim minus numquam cumque itaque quos, autem, quasi omnis perferendis illo ad soluta minima asperiores saepe eos sit. Voluptatem suscipit repellendus, ipsa harum accusantium fugiat error tempora a!'
+    'about_text' => 'Мы приглашаем вас погрузиться в мир уникальных рекламных решений и выразительных вывесок без света. Команда Colorit agency готова создать для вас наружные рекламные вывески без света, которые выделяются на фоне и привлекают внимание.<br>
+    Мы понимаем, что каждый бизнес имеет свою индивидуальность, и поэтому наш подход всегда индивидуален. Мы разрабатываем дизайн, который наилучшим образом отражает дух вашей компании и целевую аудиторию. Наш опыт и профессиональные навыки гарантируют высокое качество изготовления.<br>
+    Мы предлагаем вам возможность заказать вывеску без света по доступной цене. Наша политика прозрачности означает, что вы всегда будете в курсе расходов. Мы стремимся предоставить вам наилучшее соотношение цены и качества.<br>
+    Рекламная вывеска - это ключевой элемент вашей компании. Она помогает сделать ваш бизнес узнаваемым и заявить о себе. Наша задача - сделать этот процесс максимально простым и результативным. Вы можете полностью полагаться на нас в создании эффективной и выразительной вывески.<br>
+    Не упустите возможность улучшить визуальное представление вашего бизнеса с помощью наших рекламных вывесок без света. Закажите вывеску у нас, и вы получите высокое качество, индивидуальный дизайн и привлекательную цену. Стоимоть рекламных вывесок без света вы можете уточнить у наших специалистов.'
   ],
   'whith_light' => [
     'banner' => [
