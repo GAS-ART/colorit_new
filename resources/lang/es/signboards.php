@@ -80,36 +80,38 @@ return [
       'text' => 'Использование световых вывесок дает много преимуществ: увеличивает видимость вашего заведения в темное время суток, создает эффектную и запоминающуюся рекламу, а также позволяет привлечь больше потенциальных клиентов. Это может быть ла представляет собой короб из пластика и акрилата с подсветкой светодиодными лампами, короб из композитных панелей или вывеска с прожекторами.',
       'questions' => [
         '1' => [
-          'question' => 'Каковы варианты подсветки используют в рекламных вывесках?',
-          'answer' => '',
+          'question' => '¿Qué tipos de iluminación se utilizan para los rotulos?',
+          'answer' => 'La forma más económica, duradera y práctica de iluminar rótulos son los módulos LED y el neón. Varias opciones para su instalación le permiten obtener diferentes efectos de iluminación. Lo ayudaremos a elegir la mejor iluminación y a hacer un letrero brillante y hermoso.',
         ],
         '2' => [
-          'question' => 'Как долго служат светодиоды, используемые в подсветке вывесок?',
-          'answer' => '',
+          'question' => '¿Cuánto tiempo duran los LED ?',
+          'answer' => 'Los LED pueden durar entre 50 000 y 100 000 horas o más. Es decir que al trabajar un promedio de 8 horas diarias, pueden durar muchos años.<br>
+          Pero debe tenerse en cuenta que la vida útil de los LED puede reducirse por sobrecalentamiento, alta humedad, encendidos y apagados frecuentes, tensión de alimentación inestable e incorrecta.<br>
+          Para obtener la máxima longevidad de los LED, se recomienda elegir los LED correctos, instalarlos de acuerdo con las recomendaciones del fabricante, proporcionar una buena refrigeración y una fuente de alimentación estable.',
         ],
         '3' => [
-          'question' => 'Есть ли возможность регулировать яркость подсветки вывески?',
-          'answer' => '',
+          'question' => '¿Es posible bajar el brillo de la luminación del letrero?',
+          'answer' => 'Para bajar la tension de brillo solo es posible en cintas de neón con un control de mando especial. En los módulos LED, no existe tal posibilidad.',
         ],
         '4' => [
-          'question' => 'Как вывеска будет выглядеть в дневное время, когда подсветка неактивна?',
-          'answer' => '',
+          'question' => '¿Cómo se verá el letrero durante el día cuando estara sin luz?',
+          'answer' => 'Cada letrero está diseñado para ser atractivo y visible incluso durante el día.',
         ],
         '5' => [
-          'question' => 'Как обстоит дело с ремонтом и обслуживанием подсветки, если что-то случится?',
-          'answer' => '',
+          'question' => '¿Cómo esta la reparación y mantenimiento de letrero si pasa algo?',
+          'answer' => 'Si su letrero no funciona, nuestros expertos pueden ir para diagnosticar los problemas y luego arreglar la avería. Reparamos a letreros que están en garantía de forma gratuita y fuera de turno.',
         ],
         '6' => [
-          'question' => 'Каковы сроки изготовления и установки световой вывески?',
-          'answer' => '',
+          'question' => '¿Cuál es el tiempo para la producción e instalación de un letrero luminoso?',
+          'answer' => 'El tiempo de entrega para la letrero puede tardar de dos a tres semanas.',
         ],
         '7' => [
-          'question' => 'Можете ли вы предоставить примеры световых вывесок, которые вы уже создали?',
-          'answer' => '',
+          'question' => '¿Puede monstrar ejemplos de los rótulos luminosos que ya ha hechos?',
+          'answer' => 'Puedes ver nuestro trabajo en la sección Portfolio.',
         ],
         '8' => [
-          'question' => 'Что еще вы делаете кроме световых вывесок?',
-          'answer' => '',
+          'question' => '¿Qué más haceis además de los letreros luminosos?',
+          'answer' => 'Nuestra agencia se especializa en la producción de todo tipo de publicidad exterior: rotulacion de vinilo, impresión digital, decoración de ventanas, producción de stands, banderas, etc. A su servicio, nos complace ofrecer la impresión de camisetas, sudaderas, compradores, vasos de marca, bolígrafos, cuadernos, bolsas de fabricación y productos impresos.',
         ],
     ],
   ],

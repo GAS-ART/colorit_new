@@ -12,6 +12,7 @@
 <x-main-text>
   @lang('signboards.whith_light.text')
 </x-main-text>
+<x-portfolio :$portfolioImages />
 <x-questions :$questions />
 <x-question-lead>
   ВЫВЕСКИ СО СВЕТОМ ({{ url()->current() }})
