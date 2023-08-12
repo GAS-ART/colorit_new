@@ -27,36 +27,43 @@ return [
     ],
     'questions' => [
       '1' => [
-        'question' => 'Чем отличаются акрилат и ПВХ?',
-        'answer' => '',
+        'question' => '¿Cuál es la diferencia entre el acrilato y el PVC?',
+        'answer' => 'El metacrilato tiene una alta resistencia a los UV. Tiene una gran gama de colores.<br>
+        El PVC es flexible, muy resistente a los productos químicos ya la humedad, y más resistente a los impactos. El PVC no tiene muchos colores, pero se puede pintar en cualquier color. Ambos materiales son fáciles de cortar, pegar y procesar.<br>
+        El acrilato suele ser más caro en comparación con el PVC.<br>
+        Según los requisitos específicos del proyecto y las preferencias visuales, se puede elegir entre estos materiales para crear varios productos publicitarios y de diseño.',
       ],
       '2' => [
-        'question' => 'Где можно посмотреть каталог цветов акрилата?',
-        'answer' => '',
+        'question' => '¿Es posible imprimir una imagen en PVC o metacrilato?',
+        'answer' => 'Sí, la imagen se puede imprimir en plástico gracias a nuestra maquina con la tecnología de impresión UV. La impresión UV proporciona alta precisión y detalle de imagen, así como una amplia gama de colores. Las imágenes impresas con impresión UV tienen una excelente resistencia a los arañazos, la radiación UV, los productos químicos y la humedad.',
       ],
       '3' => [
-        'question' => 'Можно ли напечатать изображение на пластике?',
-        'answer' => 'Да, изображение можно напечатать на пластике с использованием технологии УФ-печати. УФ-печать обеспечивает высокую точность и детализацию изображения, а также широкий цветовой диапазон.  Изображения, напечатанные с помощью УФ-печати, обладают отличной стойкостью к царапинам, ультрафиолетовому излучению, химическим веществам и влаге.',
+        'question' => '¿Qué es mejor, un letrero iluminado o sin luz?',
+        'answer' => 'Los letreros iluminados siempre se ven más brillantes y atractivos.',
       ],
       '4' => [
-        'question' => 'У нас уже есть старая вывеска, можно ли ее использовать?',
-        'answer' => '',
+        'question' => '¿El letrero es resistente a las altas temperaturas y la decoloración?',
+        'answer' => 'Los materiales seleccionados adecuadamente en la fabricación del letrero, los sujetadores adicionales y la estructura de metal aseguran una larga vida útil del letrero.<br>
+        El acrilato suele soportar bien las temperaturas en el rango de -20 °C a +70 °C. Esto significa que puede funcionar de manera estable en condiciones climáticas frías y moderadamente cálidas. El PVC suele soportar temperaturas de -20°C a +60°C.<br>
+        Si el letrero estará expuesto a temperaturas extremadamente bajas o altas, es importante elegir un material que cumpla con estas condiciones. También vale la pena considerar que la exposición intensa a la luz solar y las altas temperaturas pueden afectar la apariencia y el color de los materiales con el tiempo.',
       ],
       '5' => [
-        'question' => 'Что лучше – вывеска со светом или без подсветки?',
-        'answer' => '',
+        'question' => '¿Dónde puedo ver las muestras de colores de acrilato?',
+        'answer' => 'En la reunión, mostramos opciones de colores de metacrilato.',
       ],
       '6' => [
-        'question' => 'Как долго прослужит вывеска из акрилата или ПВХ?',
-        'answer' => '',
+        'question' => 'Ya tenemos un letrero antiguo, ¿podemos usarlo?',
+        'answer' => 'La experiencia demuestra que la restauración de un rótulo antiguo con la sustitución de una imagen o letras cuesta tanto como la producción de uno nuevo. Consideramos cada caso individualmente y decidimos juntos qué opción será más económica y conveniente: la restauración de un letrero antiguo o la fabricación de uno nuevo.',
       ],
       '7' => [
-        'question' => 'Насколько вывеска устойчива к высоким температурам и выгоранию?',
-        'answer' => '',
+        'question' => '¿Cuánto dura un rótulo de metacrilato o PVC?',
+        'answer' => 'Las condiciones de funcionamiento es cosa muy importante. Si el letrero se instala en el lado soleado del edificio y se expone a una intensa radiación ultravioleta, su vida útil puede acortarse. Además, el cuidado y el mantenimiento regulares pueden prolongar significativamente la vida útil del letrero.<br>
+        Un letrero hecho de acrilato o PVC, con el cuidado y la instalación adecuados, puede durar de 5 a 10 años o incluso más.<br>
+        La elección del material, el diseño adecuado y la calidad de fabricación también pueden afectar significativamente la durabilidad de un letrero.',
       ],
       '8' => [
-        'question' => 'Делаете ли вы дизайн вывески и наружного рекламного оформления?',
-        'answer' => '',
+        'question' => '¿Diseñais la rotulación y publicidad exterior?',
+        'answer' => 'Sí, ofrecemos el servicio de diseño de señalización y publicidad exterior. Nuestro equipo de profesionales es capaz de crear conceptos de diseño efectivos y atractivos que satisfarán sus necesidades y objetivos. Consideramos sus preferencias y el contexto ambiental para crear una solución publicitaria única y memorable.',
       ],
     ],
     'about_text' => 'Мы приглашаем вас погрузиться в мир уникальных рекламных решений и выразительных вывесок без света. Команда Colorit agency готова создать для вас наружные рекламные вывески без света, которые выделяются на фоне и привлекают внимание.<br>

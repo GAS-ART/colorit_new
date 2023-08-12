@@ -48,36 +48,36 @@ return [
   Las letras volumétricas no son solo nuestro negocio, ¡este es nuestro arte! Haz que tu publicidad sea inolvidable con nuestras letras de pared, letras córporeas y otras soluciones para tu señalética. Contáctenos hoy y comience a transformar su negocio hoy.',
   'questions' => [
     '1' => [
-      'question' => 'Какие материалы можно использовать для изготовления объемных букв?',
-      'answer' => 'Для изготовления объемных букв используются различные материалы, такие как дерево, пластик, металл, алюминий, акрил, пенопласт, пенокартон и др.',
+      'question' => '¿Qué materiales utilizais para hacer letras volumétricas?',
+      'answer' => 'Para la fabricación de letras corpóreas se utilizan diferentes materiales como pvc, madera, dibond, aluminio, metacrilatoy etc.',
     ],
     '2' => [
-      'question' => 'Как выбрать подходящий материал для своих объемных букв?',
-      'answer' => 'При выборе материала учитывайте местоположение букв (внутри помещения или на улице), дизайн, бюджет, прочность материала и его устойчивость к воздействию окружающей среды.',
+      'question' => '¿Como fabrican las letras volumétricas?',
+      'answer' => 'Las letras volumétricas fabrican con maquina fresadora, corte por láser, doblado en caliente de plástico, fundición.',
     ],
     '3' => [
-      'question' => 'Какими способами можно изготовить объемные буквы?',
-      'answer' => 'Объемные буквы можно изготовить с помощью фрезерной резки, лазерной резки, горячего изгиба пластика, литья.',
+      'question' => '¿Cómo se instalan letras volumétricas?',
+      'answer' => 'La instalación depende del tipo y tamaño de las letras. Por lo general, se inslalan con pegamento o con tornillos. Las letras grandes para exterior pueden requerir un refuerzo adicional y una sujeción especial como la estrucruta.',
     ],
     '4' => [
-      'question' => 'Каким образом можно осветить объемные буквы?',
-      'answer' => 'Для освещения объемных букв можно использовать светодиоды, неоновые или люминесцентные трубки, а также ретро-светильники. Светодиоды наиболее популярны из-за их эффективности и долговечности.',
+      'question' => '¿Qué diseño iria mejor para letras volumétricas?',
+      'answer' => 'El diseño depende de tus preferencias, identidad de marca y contexto. Mas importante de que las letras deben tener el tamaño minimo para meter las tiras de led',
     ],
     '5' => [
-      'question' => 'Как происходит установка объемных букв?',
-      'answer' => 'Установка зависит от типа и размера букв. Обычно они крепятся к стене или другой поверхности с помощью кронштейнов или клея. Большие буквы для улицы могут требовать дополнительного армирования и специального крепления.',
+      'question' => '¿Que material eligir  para mis letras 3D?',
+      'answer' => 'Al elegir un material, ten en cuenta la ubicación de las letras (interiores o exteriores), el diseño, el presupuesto, la resistencia del material y la resistencia ambiental.',
     ],
     '6' => [
-      'question' => 'Могут ли объемные буквы быть различной формы и размера?',
-      'answer' => 'Да, объемные буквы могут быть различной формы и размера. Они могут быть выполнены в любом шрифте и даже имитировать логотипы или уникальные дизайны.',
+      'question' => '¿Cómo se iluminan las letras volumétricas?',
+      'answer' => 'Para iluminar letras volumétricas utilizamos tiras de LED, neón o tubos. Los LED son los más populares debido a su eficiencia y durabilidad.',
     ],
     '7' => [
-      'question' => 'Какой дизайн лучше выбрать для объемных букв?',
-      'answer' => 'Дизайн зависит от ваших предпочтений, брендовой идентичности и контекста. Важно, чтобы дизайн букв отражал вашу компанию или сообщение, и был хорошо виден для вашей целевой аудитории.',
+      'question' => '¿Pueden las letras volumétricas ser de varias formas y tamaños?',
+      'answer' => 'Sí, las letras volumétricas pueden ser de varias formas y tamaños. Se pueden hacer en cualquier tipo de letra e incluso imitar logotipos o diseños únicos.',
     ],
     '8' => [
-      'question' => 'Есть ли у объемных букв срок годности?',
-      'answer' => 'Объемные буквы, как таковые, не имеют точного срока годности, как у продуктов питания или медикаментов. Срок службы объемных букв определяется прочностью материала и его устойчивостью к воздействию окружающей среды. Металлические буквы из нержавеющей стали или алюминия, могут прослужить десятилетиями, в то время как буквы из менее прочных материалов, таких как пластик или пенопласт, могут иметь ограниченный срок службы 3-5 лет.',
+      'question' => '¿Las letras volumétricas tienen fecha de caducidad?',
+      'answer' => 'Las letras corpóreas no tienen una fecha de caducidad exacta, como los alimentos o los medicamentos. La vida útil de las letras volumetricas está determinada por la fuerza del material y su resistencia a las influencias ambientales. Las letras de metal hechas de acero inoxidable o aluminio pueden durar décadas, mientras que las letras hechas de materiales menos duraderos como el plástico o la espuma pueden tener una vida útil limitada de 3 a 5 años.',
     ],
   ],
   'whith_light' => [
