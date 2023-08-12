@@ -86,7 +86,7 @@ class SignboardsWithLightController extends SetLangAndViewController
                     'src' => $portfolioDirEs . 'Calon-de-composite-fresado-iluminado.webp',
                 ],
                 'ru' => [
-                    'src' => $portfolioDirRu . 'Световая-вывеска-из-композита-с-резкой-и-подсветкой-в-Барселоне.webp',
+                    'src' => $portfolioDirRu . 'световая-вывеска-из-композита-с-резкой-и-подсветкой-в-Барселоне.webp',
                     
                 ],
                 'alt' => $portfolioLocaleAltPath . '5',
