@@ -62,7 +62,7 @@ return [
   ],
   'signboards' => [
     'whithout_light' => [
-      'banner' => '',
+      'banner' => 'Rotulos perzonalizados sin luz en barcelona rapido',
       'portfolio' => [
         '1' => 'Rotulo de metacrilato 10 mm con impresion digital en Barcelona',
         '2' => 'Letrero exterior con impresion digital en pvc para salon de belleza',

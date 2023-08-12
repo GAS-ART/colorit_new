@@ -11,12 +11,12 @@ class SignboardsWithoutLightController extends SetLangAndViewController
         $banner = [
             'title' => 'signboards.whithout_light.banner.title',
             'es' => [
-            'imgBig' => 'img/signboards/whithout_light/es/main.webp',
-            'imgMin' => 'img/signboards/whithout_light/es/main_.webp',
+            'imgBig' => 'img/signboards/whithout_light/es/Rotulo-sin-luz-de-PVC-10-mm-con-estructura-metalica.webp',
+            'imgMin' => 'img/signboards/whithout_light/es/Rotulo-sin-luz-de-PVC-10-mm-con-estructura-metalica_.webp',
             ],
             'ru' => [
-            'imgBig' => 'img/signboards/whithout_light/ru/main.webp',
-            'imgMin' => 'img/signboards/whithout_light/ru/main_.webp',
+            'imgBig' => 'img/signboards/whithout_light/ru/Вывеска-без-света-из-пвх-10-мм-с-металлической-конструкцией.webp',
+            'imgMin' => 'img/signboards/whithout_light/ru/Вывеска-без-света-из-пвх-10-мм-с-металлической-конструкцией_.webp',
             ],
             'alt' => 'alt.signboards.whithout_light.banner',
             'circle_text' => 'signboards.whithout_light.banner.circle_text',
