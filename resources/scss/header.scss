@@ -417,7 +417,7 @@
       transform: translateX(0vw);
     }
     &.show-services{
-      align-items: flex-start;
+      //align-items: flex-start;
     }
     @media (max-width: $mobile) {
       justify-content: center;
@@ -452,19 +452,34 @@
 
   &__menu {
     //align-self: center;
-    position: absolute;
+    /* position: absolute;
     right: 40px;
     top: 50%;
     transform: translateY(-50%);
-    transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s; */
     &.service-active{
-      top: 80px;
-      transform: translateY(0);
+      //top: 80px;
+      //transform: translateY(0);
        button.header-burger__list-link{
-        margin-bottom: 25px;
+       // margin-bottom: 25px;
        }
     }
+    @media (max-width: $tablet) {
+      position: absolute;
+      right: 40px;
+      top: 50%;
+      transform: translateY(-50%);
+      transition: all 0.5s ease 0s;
+      &.service-active{
+        top: 80px;
+        transform: translateY(0);
+         button.header-burger__list-link{
+          margin-bottom: 25px;
+         }
+      }
+    }
     @media (max-width: $mobile) {
+      position: absolute;
       right: 0;
       left: 50%;
       transform: translate(-50%, -50%);
@@ -507,13 +522,29 @@
 .header-burger {
 
   &__sub-list {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     transition: height 0.5s ease 0s;
     height: 0;
     opacity: 0;
     visibility: hidden;
     overflow: hidden;
     text-align: left;
+    display: flex;
+    @media (max-width: em(1199)) {
+      left: 1%;
+      transform: translate(0%, -50%);
+    }
+    @media (max-width: $tablet) {
+      position: relative;
+      display: block;
+      transform: translate(0%, 0%);
+      left: 0;
+    }
     @media (max-width: $mobile) {
+      position: relative;
       text-align: center;
     }
     &.active{
@@ -524,8 +555,20 @@
 
   &__sub-list-item {
     color: $mainColor;
+    width: 272px;
+    @include adaptiveValueREM('width', 272, 230, 1500, 1200, 1);
     &:not(:last-child){
       margin-bottom: 25px;
+      @include adaptiveValueREM('margin-right', 50, 20, 1500, 1200, 1);
+    }
+    @media (max-width: em(1199)) {
+      white-space: nowrap;
+      width: fit-content;
+    }
+    @media (max-width: $tablet) {
+      margin-right: 0 !important;
+      white-space: unset;
+      width: unset;
     }
   }
 
@@ -560,6 +603,9 @@
     }
     &:hover{
       color: $pink;
+    }
+    @media (max-width: $tablet) {
+      padding-left: 0;
     }
   }
 
