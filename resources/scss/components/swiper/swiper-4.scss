@@ -1,4 +1,4 @@
-.swiper-3 {
+.swiper-4 {
   @extend %section;
 
   &__container {
@@ -32,7 +32,7 @@
 
   &__slide-img {
     position: relative;
-    max-width: 400px;
+    max-width: 295px;
     max-height: 250px;
     margin-bottom: 16px;
     @media (max-width: $mobileSmall) {

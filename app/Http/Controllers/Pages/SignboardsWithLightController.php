@@ -31,31 +31,105 @@ class SignboardsWithLightController extends SetLangAndViewController
             'currentPage' => __('crumbs.signboards_whith_light')
         ];
 
-        $swiper3DirEs = 'img/signboards/whith_light/es/variants/';
-        $swiper3DirRu = 'img/signboards/whith_light/ru/variants/';
-        $swiper3ImgTitleLangDir = 'signboards.whith_light.variants.image_titles';
-        $swiper3 = [
+        $variantsDirEs = 'img/signboards/whith_light/es/variants/';
+        $variantsDirRu = 'img/signboards/whith_light/ru/variants/';
+        $variantsImgTitleLangDir = 'signboards.whith_light.variants.image_titles';
+        $variants = [
             'title' => 'signboards.whith_light.variants.title',
-            'text' => null,
+            'text' => '',
             'spaceBetween' => '20',
+            'btn_prefix' => 'variants-',
             'slides' => [
                 [
-                    'es' => $swiper3DirEs .  '1.webp',
-                    'ru' => $swiper3DirRu .  '1.webp',
-                    'title' => $swiper3ImgTitleLangDir . '.1',
-                    'alt' => null,
+                    'es' => $variantsDirEs .  '1.webp',
+                    'ru' => $variantsDirRu .  '1.webp',
+                    'title' => $variantsImgTitleLangDir . '.1',
+                    'alt' => '',
                 ],
                 [
-                    'es' => $swiper3DirEs .  '2.webp',
-                    'ru' => $swiper3DirRu .  '2.webp',
-                    'title' => $swiper3ImgTitleLangDir . '.2',
-                    'alt' => null,
+                    'es' => $variantsDirEs .  '2.webp',
+                    'ru' => $variantsDirRu .  '2.webp',
+                    'title' => $variantsImgTitleLangDir . '.2',
+                    'alt' => '',
                 ],
                 [
-                    'es' => $swiper3DirEs .  '3.webp',
-                    'ru' => $swiper3DirRu .  '3.webp',
-                    'title' => $swiper3ImgTitleLangDir . '.3',
-                    'alt' => null,
+                    'es' => $variantsDirEs .  '3.webp',
+                    'ru' => $variantsDirRu .  '3.webp',
+                    'title' => $variantsImgTitleLangDir . '.3',
+                    'alt' => '',
+                ],
+            ],
+        ];
+
+        $thiknes = [
+            'title' => 'signboards.whith_light.thiknes.title',
+            'text' => 'signboards.whith_light.thiknes.text',
+            'img' => [
+                [
+                'es' => 'img/signboards/whith_light/es/thiknes/Rotulos-de-grosor-de-12mm.webp',
+                'ru' => 'img/signboards/whith_light/ru/thiknes/световой-лайбокс-8-см-глубиной.webp',
+                'img_title' => 'signboards.whith_light.thiknes.img.1',
+                'alt' => '',
+                ],
+                [
+                'es' => 'img/signboards/whith_light/es/thiknes/Rotulos-de-grosor-de-12mm.webp',
+                'ru' => 'img/signboards/whith_light/ru/thiknes/световой-лайбокс-12-см-глубиной.webp',
+                'img_title' => 'signboards.whith_light.thiknes.img.2',
+                'alt' => '',
+                ],
+            ],
+        ];
+
+        $backlight = [
+            'title' => 'signboards.whith_light.backlight.title',
+            'text' => 'signboards.whith_light.backlight.text',
+            'img' => [
+                [
+                'es' => 'img/signboards/whith_light/es/backlight/led-modelos-para-rotulos-luminosos.webp',
+                'ru' => 'img/signboards/whith_light/ru/backlight/светодиоды-модули-для-изготовления-наружной-рекламы.webp',
+                'img_title' => 'signboards.whith_light.backlight.img.1',
+                'alt' => '',
+                ],
+                [
+                'es' => 'img/signboards/whith_light/es/backlight/luz-para-rotulos-exteriores.webp',
+                'ru' => 'img/signboards/whith_light/ru/backlight/Наружные-лампы-для-подсветки.webp',
+                'img_title' => 'signboards.whith_light.backlight.img.2',
+                'alt' => '',
+                ],
+            ],
+        ];
+
+        $materialTitleLangDir = 'img/signboards/whith_light/es/material/';
+        $materialDirRu = 'img/signboards/whith_light/ru/material/';
+        $materialImgTitleLangDir = 'signboards.whith_light.material.image_titles';
+        $material = [
+            'title' => 'signboards.whith_light.material.title',
+            'text' => 'signboards.whith_light.material.text',
+            'btn_prefix' => 'material-',
+            'slides' => [
+                [
+                    'es' => $materialTitleLangDir .  'pcv-material-rotulos.webp',
+                    'ru' => $materialDirRu .  'пвх-материал-для-вывесок.webp',
+                    'title' => $materialImgTitleLangDir . '.1',
+                    'alt' => '',
+                ],
+                [
+                    'es' => $materialTitleLangDir .  'metacrilat.webp',
+                    'ru' => $materialDirRu .  'акрилат-материал-для-изготовления-вывесок.webp',
+                    'title' => $materialImgTitleLangDir . '.2',
+                    'alt' => '',
+                ],
+                [
+                    'es' => $materialTitleLangDir .  'madera.webp',
+                    'ru' => $materialDirRu .  'дерево.webp',
+                    'title' => $materialImgTitleLangDir . '.3',
+                    'alt' => '',
+                ],
+                [
+                    'es' => $materialTitleLangDir .  'Meterial-dibond-para-rotulos-letreros.webp',
+                    'ru' => $materialDirRu .  'алюминий-материал-для-изготовления-вывесок.webp',
+                    'title' => $materialImgTitleLangDir . '.4',
+                    'alt' => '',
                 ],
             ],
         ];
@@ -175,6 +249,6 @@ class SignboardsWithLightController extends SetLangAndViewController
             ];
         }
 
-        return $this->setLocaleAndView($locale, 'signboards-whith-light', compact('banner', 'breadCrumbs', 'questions', 'portfolioImages', 'swiper3'));
+        return $this->setLocaleAndView($locale, 'signboards-whith-light', compact('banner', 'breadCrumbs', 'questions', 'portfolioImages', 'variants', 'material', 'thiknes', 'backlight'));
     }
 }

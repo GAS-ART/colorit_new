@@ -1,5 +1,3 @@
-@php $locale = app()->getLocale(); @endphp
-
 <section class="two-images">
   <div class="two-images__container">
     <div class="two-images__body">
@@ -8,7 +6,7 @@
       <div class="two-images__img-body">
         @foreach($data['img'] as $item)
         <div class="two-images__img">
-          <img src="{{ asset($item[$locale]) }}" alt="{{__($item['alt'])}}">
+          <img src="{{ asset($item[App::currentLocale()]) }}" alt="{{__($item['alt'])}}">
           <h4 class="two-images__img-title">{{__($item['img_title'])}}</h4>
         </div>
         @endforeach

@@ -366,11 +366,43 @@ if (lettersThicknessSlider) {
 }
 
 //Swiper-3
-const swiper_3 = document.querySelector('.swiper3__slider');
+const swiper_3 = document.querySelector('.swiper-3__slider');
 
 if (swiper_3) {
   const spaceBetween = +swiper_3.dataset.spaceBetween;
+  const btnPrefix = swiper_3.dataset.btnPrefix;
+
   new Swiper(swiper_3, {
+    // configure Swiper to use modules
+    modules: [Navigation],
+    //simulateTouch: true,
+    slidesPerView: 1,
+    spaceBetween,
+    loop: true,
+    speed: 800,
+    width: null,
+    navigation: {
+      nextEl: `.${btnPrefix}swiper-3__btn-next`,
+      prevEl: `.${btnPrefix}swiper-3__btn-prev`,
+    },
+    breakpoints: {
+      992: {
+        slidesPerView: 3,
+      },
+      768: {
+        slidesPerView: 2,
+        loop: false,
+      },
+    },
+  });
+}
+
+//Swiper-4
+const swiper_4 = document.querySelector('.swiper-4__slider');
+
+if (swiper_4) {
+  const btnPrefix = swiper_4.dataset.btnPrefix;
+  new Swiper(swiper_4, {
     // configure Swiper to use modules
     modules: [Navigation],
     //simulateTouch: true,
@@ -380,16 +412,16 @@ if (swiper_3) {
     speed: 800,
     width: null,
     navigation: {
-      nextEl: '.swiper3__btn-next',
-      prevEl: '.swiper3__btn-prev',
+      nextEl: `.${btnPrefix}swiper-4__btn-next`,
+      prevEl: `.${btnPrefix}swiper-4__btn-prev`,
     },
     breakpoints: {
       992: {
-        slidesPerView: 3,
+        slidesPerView: 4,
       },
       768: {
         slidesPerView: 2,
-        loop: false,
+        //loop: false,
       },
     },
   });

@@ -12,9 +12,15 @@
 <x-main-text>
   @lang('signboards.whith_light.text')
 </x-main-text>
-<x-swiper.swiper-3 :$swiper3 />
+<x-swiper.swiper-3 :swiper3="$variants" />
+<x-swiper.swiper-4 :swiper4="$material" />
+<x-two-images-section :data="$thiknes" />
+<x-two-images-section :data="$backlight" />
 <x-portfolio :$portfolioImages />
 <x-questions :$questions />
+<x-about>
+  @lang('signboards.whith_light.about_text')
+</x-about>
 <x-question-lead>
   ВЫВЕСКИ СО СВЕТОМ ({{ url()->current() }})
 </x-question-lead>
