@@ -183,21 +183,24 @@ quiz(quizeInitBtns);
 
 
 
+const portfolioSlider = document.querySelector('.slider-portfolio');
 
-new Swiper('.slider-portfolio', {
-  // configure Swiper to use modules
-  modules: [Navigation],
-  simulateTouch: true,
-  slidesPerView: 1,
-  grabCursor: true,
-  lazyPreloadPrevNext: 1,
-  loop: true,
-  speed: 800,
-  navigation: {
-    nextEl: '.slider-portfolio__btn-next',
-    prevEl: '.slider-portfolio__btn-prev',
-  },
-});
+if (portfolioSlider) {
+  new Swiper(portfolioSlider, {
+    // configure Swiper to use modules
+    modules: [Navigation],
+    simulateTouch: true,
+    slidesPerView: 1,
+    grabCursor: true,
+    lazyPreloadPrevNext: 1,
+    loop: true,
+    speed: 800,
+    navigation: {
+      nextEl: '.slider-portfolio__btn-next',
+      prevEl: '.slider-portfolio__btn-prev',
+    },
+  });
+}
 
 const portfolioSliderImgHeight = document.querySelector('.portfolio-slide__img img');
 const portfolioSlideImgBody = document.querySelectorAll('.portfolio-slide__img');
@@ -245,44 +248,49 @@ if (portfolioSliderImgHeight) {
   window.addEventListener('resize', debouncedResetImageHeight);
 }
 
+const resultSlider = document.querySelector('.slider-result');
 
-
-new Swiper('.slider-result', {
-  // configure Swiper to use modules
-  modules: [Navigation, Scrollbar],
-  //simulateTouch: true,
-  slidesPerView: 1,
-  spaceBetween: 20,
-  loop: true,
-  speed: 800,
-  width: null,
-  scrollbar: {
-    el: '.swiper-scrollbar',
-  },
-  breakpoints: {
-    768: {
-      width: 232,
-      spaceBetween: 0,
-      scrollbar: false,
+if (resultSlider) {
+  new Swiper(resultSlider, {
+    // configure Swiper to use modules
+    modules: [Navigation, Scrollbar],
+    //simulateTouch: true,
+    slidesPerView: 1,
+    spaceBetween: 20,
+    loop: true,
+    speed: 800,
+    width: null,
+    scrollbar: {
+      el: '.swiper-scrollbar',
     },
-  },
-});
+    breakpoints: {
+      768: {
+        width: 232,
+        spaceBetween: 0,
+        scrollbar: false,
+      },
+    },
+  });
+}
 
+const reviewSlider = document.querySelector('.slider-review');
 
-new Swiper('.slider-review', {
-  // configure Swiper to use modules
-  modules: [Navigation],
-  simulateTouch: true,
-  slidesPerView: 1,
-  grabCursor: true,
-  spaceBetween: 20,
-  loop: true,
-  speed: 800,
-  navigation: {
-    nextEl: '.slider-review__btn-next',
-    prevEl: '.slider-review__btn-prev',
-  },
-});
+if (reviewSlider) {
+  new Swiper('.slider-review', {
+    // configure Swiper to use modules
+    modules: [Navigation],
+    simulateTouch: true,
+    slidesPerView: 1,
+    grabCursor: true,
+    spaceBetween: 20,
+    loop: true,
+    speed: 800,
+    navigation: {
+      nextEl: '.slider-review__btn-next',
+      prevEl: '.slider-review__btn-prev',
+    },
+  });
+}
 
 
 //LETTERS PAGE
@@ -357,6 +365,36 @@ if (lettersThicknessSlider) {
   });
 }
 
+//Swiper-3
+const swiper_3 = document.querySelector('.swiper3__slider');
+
+if (swiper_3) {
+  const spaceBetween = +swiper_3.dataset.spaceBetween;
+  new Swiper(swiper_3, {
+    // configure Swiper to use modules
+    modules: [Navigation],
+    //simulateTouch: true,
+    slidesPerView: 1,
+    spaceBetween: 20,
+    loop: true,
+    speed: 800,
+    width: null,
+    navigation: {
+      nextEl: '.swiper3__btn-next',
+      prevEl: '.swiper3__btn-prev',
+    },
+    breakpoints: {
+      992: {
+        slidesPerView: 3,
+      },
+      768: {
+        slidesPerView: 2,
+        loop: false,
+      },
+    },
+  });
+}
+
 //Product Portfolio
 const productPortfolio = document.querySelector('.product-portfolio');
 
@@ -392,3 +430,8 @@ if (productPortfolio) {
     }
   });
 }
+
+
+
+
+

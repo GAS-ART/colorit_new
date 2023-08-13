@@ -31,6 +31,35 @@ class SignboardsWithLightController extends SetLangAndViewController
             'currentPage' => __('crumbs.signboards_whith_light')
         ];
 
+        $swiper3DirEs = 'img/signboards/whith_light/es/variants/';
+        $swiper3DirRu = 'img/signboards/whith_light/ru/variants/';
+        $swiper3ImgTitleLangDir = 'signboards.whith_light.variants.image_titles';
+        $swiper3 = [
+            'title' => 'signboards.whith_light.variants.title',
+            'text' => null,
+            'spaceBetween' => '20',
+            'slides' => [
+                [
+                    'es' => $swiper3DirEs .  '1.webp',
+                    'ru' => $swiper3DirRu .  '1.webp',
+                    'title' => $swiper3ImgTitleLangDir . '.1',
+                    'alt' => null,
+                ],
+                [
+                    'es' => $swiper3DirEs .  '2.webp',
+                    'ru' => $swiper3DirRu .  '2.webp',
+                    'title' => $swiper3ImgTitleLangDir . '.2',
+                    'alt' => null,
+                ],
+                [
+                    'es' => $swiper3DirEs .  '3.webp',
+                    'ru' => $swiper3DirRu .  '3.webp',
+                    'title' => $swiper3ImgTitleLangDir . '.3',
+                    'alt' => null,
+                ],
+            ],
+        ];
+
         $portfolioDirEs = 'img/signboards/whith_light/es/portfolio/';
         $portfolioDirRu = 'img/signboards/whith_light/ru/portfolio/';
         $portfolioLocaleAltPath = 'alt.signboards.whith_light.portfolio.';
@@ -146,6 +175,6 @@ class SignboardsWithLightController extends SetLangAndViewController
             ];
         }
 
-        return $this->setLocaleAndView($locale, 'signboards-whith-light', compact('banner', 'breadCrumbs', 'questions', 'portfolioImages'));
+        return $this->setLocaleAndView($locale, 'signboards-whith-light', compact('banner', 'breadCrumbs', 'questions', 'portfolioImages', 'swiper3'));
     }
 }

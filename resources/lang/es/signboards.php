@@ -77,7 +77,16 @@ return [
       'title' => 'Rótulos luminosos',
       'circle_text' => 'Producción 14 - 21 días',
     ],
-      'text' => 'Использование световых вывесок дает много преимуществ: увеличивает видимость вашего заведения в темное время суток, создает эффектную и запоминающуюся рекламу, а также позволяет привлечь больше потенциальных клиентов. Это может быть ла представляет собой короб из пластика и акрилата с подсветкой светодиодными лампами, короб из композитных панелей или вывеска с прожекторами.',
+      'text' => 'El uso de rótulos luminosos aporta muchas ventajas:
+      aumenta la visibilidad de su establecimiento por la noche, crea una publicidad eficaz y memorable y además le permite atraer a más clientes potenciales. Eso puede ser una caja luminosa, o una caja de  metacrilato retroiluminada con cintas de LED o una caja de paneles compuestos o un letrero con focos.',
+      'variants' => [
+        'title' => 'Tipos de rotulos luminosos',
+        'image_titles' => [
+          '1' => 'Rotulo de metacrilato',
+          '2' => 'Bandeja calada',
+          '3' => 'Letrero con foco',
+        ],
+      ],
       'questions' => [
         '1' => [
           'question' => '¿Qué tipos de iluminación se utilizan para los rotulos?',
