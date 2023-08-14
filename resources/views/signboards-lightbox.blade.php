@@ -12,6 +12,9 @@
 <x-main-text>
   @lang('signboards.lightbox.text')
 </x-main-text>
+<x-one-image-section :data="$material" />
+<x-five-image-section :data="$types" />
+<x-one-image-section :data="$led" />
 <x-portfolio :$portfolioImages />
 <x-lead>
   <x-slot name="title">@lang('signboards.lightbox.lead.title')</x-slot>

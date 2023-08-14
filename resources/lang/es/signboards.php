@@ -170,6 +170,25 @@ return [
     'lead' => [
       'title' => 'Deja una solicitud para fabricar tu rotulo de bandeja calada',
     ],
+    'material' => [
+      'title' => 'Material',
+      'text' => 'Paneles de composite compuesto por dos placas de aluminio y un núcleo de polietileno (plástico duro). En fabricación de rótulosy stands utilizamos un composite con un grosor de 3 o 4 mm',
+    ],
+    'types' => [
+      'title' => 'Tipos de composite',
+      'text' => 'На сегодняшний день композит имеет множество оттенков. Наиболее часто используемые цвета - черный, белый, серебро браш, стальной, золото.',
+      'img_titles' => [
+        '1' => 'Negro mate',
+        '2' => 'Blanco brillo',
+        '3' => 'Plata cepillado',
+        '4' => 'Plata',
+        '5' => 'Dorado',
+      ],
+    ],
+    'led'=> [
+      'title' => 'Modulos LED',
+      'text' => 'Las cajas de bandeja calada se iluminan con módulos de led con un consumo de energía de 0,5 W a 3 W por módulo con un ángulo de haz de 120 a 160°, la vida útil suele ser de 30 000 a 50 000 horas',
+    ],
     'questions' => [
       '1' => [
         'question' => '¿Cuánto tiempo tarda fabricar un letrero de composite?',

@@ -33,6 +33,63 @@ class SignboardsLightboxController extends SetLangAndViewController
             'currentPage' => __('crumbs.lightbox')
         ];
 
+        $material = [
+            'title' => 'signboards.lightbox.material.title',
+            'text' => 'signboards.lightbox.material.text',
+            'es' => 'img/signboards/сomposite_lightbox/es/material/dibond-de-color-plata-para-rotulos-en-barcelona.webp',
+            'ru' => 'img/signboards/сomposite_lightbox/ru/material/композит-серебро-для-изготовление-наружной-рекламы.webp',
+            'alt' => 'alt.signboards.lightbox.material',
+        ];
+
+        $typesDirEs = 'img/signboards/сomposite_lightbox/es/types/';
+        $typesDirRu = 'img/signboards/сomposite_lightbox/ru/types/';
+        $typesLocaleAltPath = 'alt.signboards.lightbox.types.';
+        $typesLocaleTitleImagePath = 'signboards.lightbox.types.img_titles.';
+        $types = [
+            'title' => 'signboards.lightbox.types.title',
+            'text' => 'signboards.lightbox.types.text',
+            'images' => [
+                [
+                    'es' => $typesDirEs . 'material-composite-negro-mate-para-bandeja-calada.webp',
+                    'ru' => $typesDirRu . 'черный-композит-для-изготовление-световых-вывесок-и-лайтбоксов.webp',
+                    'alt' => $typesLocaleAltPath . '1',
+                    'title' => $typesLocaleTitleImagePath . '1',
+                ],
+                [
+                    'es' => $typesDirEs . 'rotulo-de-dibond-blanco-con-acabado-brillo.webp',
+                    'ru' => $typesDirRu . 'белый-композит-для-изготовление-световых-вывесок-и-лайтбоксов.webp',
+                    'alt' => $typesLocaleAltPath . '2',
+                    'title' => $typesLocaleTitleImagePath . '2',
+                ],
+                [
+                    'es' => $typesDirEs . 'letrero-de-composite-de-color-plata-en-barcelona.webp',
+                    'ru' => $typesDirRu . 'композит-серебрянный-для-изготовление-световых-вывесок.webp',
+                    'alt' => $typesLocaleAltPath . '3',
+                    'title' => $typesLocaleTitleImagePath . '3',
+                ],
+                [
+                    'es' => $typesDirEs . 'Rotulos-brillantes-de-composite-plata-cepillado-en-barcelona.webp',
+                    'ru' => $typesDirRu . 'вывеска-из-композита-серебро-браш-со-светом-в-барселоне.webp',
+                    'alt' => $typesLocaleAltPath . '4',
+                    'title' => $typesLocaleTitleImagePath . '4',
+                ],
+                [
+                    'es' => $typesDirEs . 'Rotulos-bonitos-de-composite-dorado-cepillado-en-barcelona.webp',
+                    'ru' => $typesDirRu . 'изготовление-вывесок-из-золотого-композита-на-заказ.webp',
+                    'alt' => $typesLocaleAltPath . '5',
+                    'title' => $typesLocaleTitleImagePath . '5',
+                ],
+            ],
+        ];
+
+        $led = [
+            'title' => 'signboards.lightbox.led.title',
+            'text' => 'signboards.lightbox.led.text',
+            'es' => 'img/signboards/сomposite_lightbox/es/led/1.webp',
+            'ru' => 'img/signboards/сomposite_lightbox/ru/led/1.webp',
+            'alt' => '',
+        ];
+
         $portfolioDirEs = 'img/signboards/сomposite_lightbox/es/portfolio/';
         $portfolioDirRu = 'img/signboards/сomposite_lightbox/ru/portfolio/';
         $portfolioLocaleAltPath = 'alt.signboards.lightbox.portfolio.';
@@ -148,6 +205,6 @@ class SignboardsLightboxController extends SetLangAndViewController
             ];
         }
 
-        return $this->setLocaleAndView($locale, 'signboards-lightbox', compact('questions', 'banner', 'breadCrumbs', 'portfolioImages'));
+        return $this->setLocaleAndView($locale, 'signboards-lightbox', compact('questions', 'banner', 'breadCrumbs', 'portfolioImages', 'material', 'types', 'led'));
     }
 }

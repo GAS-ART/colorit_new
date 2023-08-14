@@ -91,6 +91,14 @@ return [
     ],
     'lightbox' => [
       'baner' => 'Fabricar rotulo en Barcelona. Rotulos de bandeja calada con iluminacion. Entrega por toda España',
+      'material' => 'Rotulo brillante luminoso de alimiunio en Barcelona',
+      'types' => [
+        '1' => 'Letrero de dibond negro mate. Con letras corporeas o sin',
+        '2' => 'Fabricacion de rotulos y letreros de dibond blanco mate o brillo en Barcelona',
+        '3' => 'Rotulos de color plata o dorado. Iluminados con fabricacion y entrega rapida',
+        '4' => 'Rotulo de dibond plata cepillado con iluminacion. Entrega por toda España',
+        '5' => 'Rotulos luminosos con efecto dorado. Luminacion de led. Fabricacion en Barcelona',
+      ],
       'portfolio' => [
         '1' => 'Fabricacion de letreros y rotulos de dibond para tiendas y oficinas',
         '2' => 'Letreros exteriores para agencias inmobiliarias. Produccion rapida en Barcelona',
