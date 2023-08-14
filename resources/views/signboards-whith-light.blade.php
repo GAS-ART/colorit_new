@@ -12,8 +12,8 @@
 <x-main-text>
   @lang('signboards.whith_light.text')
 </x-main-text>
-<x-swiper.swiper-3 :swiper3="$variants" />
-<x-swiper.swiper-4 :swiper4="$material" />
+<x-swiper.swiper-3 :data="$variants" />
+<x-swiper.swiper-4 :data="$material" />
 <x-two-images-section :data="$thiknes" />
 <x-two-images-section :data="$backlight" />
 <x-portfolio :$portfolioImages />
