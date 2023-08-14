@@ -7,7 +7,8 @@ return [
    'signboards_whithout_light' => 'Rótulos sin iluminacion',
    'signboards_whith_light' => 'Rótulos luminosos',
    'lightbox'=> 'Rótulos cajon fresado',
-   'side_box' => 'Banderolas'
+   'side_box' => 'Banderolas',
+   'neon' => 'Neon',
 ]
 
 ?>

@@ -283,5 +283,12 @@ return [
     Привлекательная наружная реклама может стимулировать прохожих зайти в ваш магазин даже без предварительных планов. Она может действовать как магнит, привлекая людей и способствуя увеличению потока клиентов. Таким образом, она может влиять на уровень продаж и общий успех бизнеса.<br><br>
     Световая боковая вывеска - это не просто рекламный инструмент, это способ создать уникальную и привлекательную атмосферу в вашем магазине. Она привлекает внимание, подчеркивает бренд, повышает продажи и создает незабываемый опыт для клиентов. Вкладываясь в качественную световую вывеску, вы вкладываете в успех своего бизнеса и его узнаваемость в глазах клиентов.',
   ],
+  'neon' => [
+    'banner' => [
+      'title' => 'Neon',
+      'circle_text' => 'Producción 10 - 14 días',
+    ],
+    'text' => 'El neón flexible es un producto moderno que imita el efecto del neón clásico pero es flexible y fácil de instalar. Consiste en un tubo de plástico flexible lleno de tira de LED que producen una iluminación brillante y uniforme. Es ideal para decorar las fachadas de tiendas, restaurantes, cafés y otras instalaciones comerciales. Con él, puede crear una inscripción de neón, un logotipo o elementos rizados atractivos y originales a pedido. Nuestro portfolio incluye una gran cantidad de letreros de neón implementados.',
+  ],
 ]
 ?>

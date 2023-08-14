@@ -7,7 +7,8 @@ return [
    'signboards_whithout_light' => 'Вывески без света',
    'signboards_whith_light' => 'Вывески со светом',
    'lightbox'=> 'Лайтбокс из композита',
-   'side_box' => 'Боковой лайтбокс'
+   'side_box' => 'Боковой лайтбокс',
+   'neon' => 'Неон',
 ]
 
 ?>

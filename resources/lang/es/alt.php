@@ -114,6 +114,9 @@ return [
     'side_box' => [
       'baner' => 'Pedir rotulos, banderolas, letras corporeas en Barcelona. Presupuesto sin compromiso con visita gratuita',
     ],
+    'neon' => [
+      'baner' => 'Neones personalizados para negocios y tiendas rapido con el mejor precio. fabricacion en Barcelona',
+    ],
   ],
 ]
 
