@@ -89,6 +89,20 @@ return [
         '9' => 'Caja de dibond fresado iluminado',
       ],
     ],
+    'lightbox' => [
+      'baner' => 'Fabricar rotulo en Barcelona. Rotulos de bandeja calada con iluminacion. Entrega por toda España',
+      'portfolio' => [
+        '1' => 'Fabricacion de letreros y rotulos de dibond para tiendas y oficinas',
+        '2' => 'Letreros exteriores para agencias inmobiliarias. Produccion rapida en Barcelona',
+        '3' => 'Cajon fresado de composite con letras corporeas de 20 mm iliminadas',
+        '4' => 'Pedir rotulo de bandeja calada limunosa en Barcelona. Rapida fabricacion con entrega por toda España',
+        '5' => 'Fabricacion rotulos con ilumionacion para negocio en España. Presupuesto sin compromiso con entrega rapida',
+        '6' => 'Rotulos perzonalizados. Luminosas con garantia de calidad. Fabricacion en Barcelona.',
+        '7' => 'Rotulos de dibond para restaurantes y bares. Garantia hasta 3 años. Presupuesto rapido con entrega por toda España',
+        '8' => 'Rotulos de metacrilato y composite iluminados. Fabricacion propia en Barcelona. Visita gratuita con presupuesto rapido',
+        '9' => 'Letrero de dibond fresado iluminado. Letras volumetricas de 20 mm. Produccion rapida en Barcelona',
+      ],
+    ],
   ],
 ]
 

@@ -17,6 +17,10 @@
 <x-two-images-section :data="$thiknes" />
 <x-two-images-section :data="$backlight" />
 <x-portfolio :$portfolioImages />
+<x-lead>
+  <x-slot name="title">@lang('signboards.whith_light.lead.title')</x-slot>
+  <x-slot name="leadInfo">ВЫВЕСКИ СО СВЕТОМ ({{ url()->current() }})</x-slot>
+</x-lead>
 <x-questions :$questions />
 <x-about>
   @lang('signboards.whith_light.about_text')

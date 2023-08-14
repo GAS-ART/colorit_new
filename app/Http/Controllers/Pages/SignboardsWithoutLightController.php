@@ -25,7 +25,7 @@ class SignboardsWithoutLightController extends SetLangAndViewController
         $breadCrumbs = [
             'links' => [
             [
-            'route' => route('signboards_whithout_light', ['locale' => $locale]),
+            'route' => route('home', ['locale' => $locale]),
             'label' => __('crumbs.home')
             ],
             // Add other breadcrumb elements as needed

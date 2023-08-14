@@ -113,6 +113,9 @@ return [
           '2' => 'Foco',
         ],
       ],
+      'lead' => [
+        'title' => 'Deja una solicitud para fabricar rotulo luminoso',
+      ],
       'questions' => [
         '1' => [
           'question' => '¿Qué tipos de iluminación se utilizan para los rotulos?',
@@ -159,40 +162,56 @@ return [
     В заключение, световые вывески играют решающую роль в успешной рекламной стратегии бизнеса. Они помогают привлечь клиентов, укрепить бренд и создать узнаваемость на рынке. Современные технологии и креативный подход позволяют максимально эффективно использовать световые вывески для достижения бизнес-целей.',
   ],
   'lightbox' => [
+    'banner' => [
+      'title' => 'Rótulos cajon fresado',
+      'circle_text' => 'Producción hasta 9 días',
+    ],
+    'text' => 'Las cajas de luz hechas de dibond (paneles composite de aluminio) se usan comúnmente para publicidad exterior, stands de ferias y estructuras publicitarias individuales. Todos los productos compuestos son duraderos, livianos, prácticos, resistentes a la intemperie y duraderos. Las cajas de luz están iluminadas por modulos LED, que proporcionan una iluminación brillante, económica y uniforme del letrero. Este es un tipo de caja de luz: liviano y duradero tiene una apariencia estética.',
+    'lead' => [
+      'title' => 'Deja una solicitud para fabricar tu rotulo de bandeja calada',
+    ],
     'questions' => [
       '1' => [
-        'question' => 'Как долго делается вывеска из композита?',
-        'answer' => '',
+        'question' => '¿Cuánto tiempo tarda fabricar un letrero de composite?',
+        'answer' => 'Tiempo de fabricación de letreros de bandeja calada: hasta dos semanas',
       ],
       '2' => [
-        'question' => 'Где можно посмотреть все цвета композита?',
-        'answer' => '',
+        'question' => '¿Dónde puedo ver todos los colores del composite?',
+        'answer' => 'Los colores del dibond se puede ver en las muestras en la reunión.',
       ],
       '3' => [
-        'question' => 'Как долго прослужит такая вывеска?',
-        'answer' => '',
+        'question' => '¿Cuánto tiempo durará ese rotulo?',
+        'answer' => 'Con el cuidado y mantenimiento a su tiempo, un letrero de panel composite de aluminio puede durar de 7 a 10 años o más. Este material generalmente se adapta bien al medio ambiente, es resistente a la humedad, la radiación UV y los cambios de temperatura.<br>Es importante controlar el estado de los paneles, limpiarlos periódicamente de la suciedad y el polvo y realizar las reparaciones necesarias en caso de daños.',
       ],
       '4' => [
-        'question' => 'Выгорает ли композит на солнце?',
-        'answer' => '',
+        'question' => '¿El dibond se desvanece con el sol?',
+        'answer' => 'Los paneles compuestos de aluminio tienen buena resistencia a los rayos UV y al sol. Tienen un revestimiento especial que protege contra la decoloración y mantiene el brillo y la estabilidad del color durante mucho tiempo.',
       ],
       '5' => [
-        'question' => 'Насколько лайтбокс из копозита устойчив к высоким температурам?',
-        'answer' => '',
+        'question' => '¿Es resistente en las altas temperaturas?',
+        'answer' => 'El composite tiene buena estabilidad térmica y resistencia a altas temperaturas. A menudo se usa no solo en publicidad, sino también en la construcción, donde puede estar expuesto a la luz solar y a temperaturas elevadas.',
       ],
       '6' => [
-        'question' => 'Из чего делаются буквы в таком лайтбоксе?',
-        'answer' => '',
+        'question' => '¿De qué materiales están hechas las letras de esta caja de luz?',
+        'answer' => 'En cajas de luz hechas de paneles compuestos de aluminio, las inscripciones se cortan mediante fresado. Encima se instalan letras de acrilato opaco o de color.',
       ],
       '7' => [
-        'question' => 'Какой максимальный размер лайтбокса из композита можно изготовить?',
-        'answer' => '',
+        'question' => '¿Cuál es el tamaño máximo de una caja de luz?',
+        'answer' => 'El tamaño maximo de una panel de dibond es 4000*2500 mm. Para fabricar los rotulos luminosos con cajon fresado mas grande por ejempo 4500*1000 o digamos 6000*1000 mm hacemos dos cajones con ua estructura reforzada',
       ],
       '8' => [
-        'question' => 'Можно ли заказать из композита табличку, буквы или декор?',
-        'answer' => '',
+        'question' => '¿Es posible pedir un cartel, letras o decoración de dibond?',
+        'answer' => 'Las placas de composite con el nombre de la empresa o con horarios son muy populares. Siempre se ven muy estéticamente agradables, caros y hermosos. Por medio podemos fresar las letras o logotipos.<br>
+        Este material se puede utilizar para hacer las estructuras no estándar, detalles de interiores y stands de ferias. Van perfecto con plásticos, vinilos y modulos de led.',
       ],
     ],
+    'about_text' => 'Вывески из композитных материалов с фрезерной резкой: искусство привлечения взглядов и укрепления бренда.<br><br>
+    Современный бизнес не может обойтись без эффективной визуальной коммуникации. В этом контексте заказать вывеску из алюминия с фрезерной резкой будет настоящим орудием в борьбе за внимание.<br><br>
+    Дибонд (композитные панели) – состоит из двух слоев алюминия между которыми прослойка пластика или поликарбоната, обладающие высокой прочностью, легкостью и устойчивостью к воздействию окружающей среды. Именно такие свойства делают их идеальным выбором для создания вывесок, которые должны прослужить долгие годы, подчеркивая корпоративный стиль и привлекая внимание клиентов.<br><br>
+    Фрезерная резка добавляет этим вывескам элемент индивидуальности и изысканности. Она позволяет создавать сложные формы, объемные буквы и изображения, а также играть с текстурами и глубиной. Это дает брендам возможность выделиться на фоне конкурентов и создать неповторимый облик.<br><br>
+    Для постветки наружных вывесок используются LED модули 12V которые дает отличный угол рассеивание и яркости.<br><br>
+    Кроме того, такие вывески отличаются высокой устойчивостью к погодным условиям и внешним воздействиям, что обеспечивает долгий срок службы и минимизирует затраты на обслуживание. Таким образом, вывески со светом из композита с фрезерной резкой – это инвестиция в эффективную рекламу и укрепление имиджа. Они способны привлечь внимание, создать положительное впечатление и оставить долговременное впечатление в сердцах и уме каждого прохожего.<br><br>
+    Изготовить красивую вывеску из алюминия со светом вам помогут наши специалисты.',
   ],
   'side_box' => [
     'questions' => [
