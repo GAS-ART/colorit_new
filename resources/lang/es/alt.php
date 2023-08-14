@@ -111,6 +111,9 @@ return [
         '9' => 'Letrero de dibond fresado iluminado. Letras volumetricas de 20 mm. Produccion rapida en Barcelona',
       ],
     ],
+    'side_box' => [
+      'baner' => 'Pedir rotulos, banderolas, letras corporeas en Barcelona. Presupuesto sin compromiso con visita gratuita',
+    ],
   ],
 ]
 

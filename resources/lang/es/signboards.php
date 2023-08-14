@@ -233,40 +233,55 @@ return [
     Изготовить красивую вывеску из алюминия со светом вам помогут наши специалисты.',
   ],
   'side_box' => [
+    'banner' => [
+      'title' => 'Banderolas',
+      'circle_text' => 'Producción 14 - 21 días',
+    ],
+    'text' => 'Banderola luminosa, también conocida como lightbox - es un tipo de rótulo luminoso, que suele colocarse en la pared de un edificio o punto de venta de forma que su parte principal mire hacia las personas o esquinas. Se fabrica de formas estándar - cuadrado, circulo, rectangular y no estándar. Las cajas de luz doble cara se utilizan ampliamente para anunciar negocios, tiendas, restaurantes y otros establecimientos, así como en exposiciones y eventos.',
+    'lead' => [
+      'title' => 'Оставьте заявку на изготовление бокового лайтбокса',
+    ],
     'questions' => [
       '1' => [
-        'question' => 'В каких случаях важно устанавливать такой торцевой лайтбокс?',
-        'answer' => '',
+        'question' => '¿En qué casos es importante instalar una banderola luminosa?',
+        'answer' => 'Se debe instalar la banderola luminosa si la entrada está ubicada en la esquina del edificio y no es visible desde la carretera. Cuando quieras colocar información adicional sobre tus servicios y complementar el cartel principal. Tal letrero luminoso mejorará significativamente la visibilidad de su negocio y atraerá más la atención de los clientes potenciales que pasan.',
       ],
       '2' => [
-        'question' => 'Возможно изготовление по нашим эскизам или вы делаете только стандартные варианты?',
-        'answer' => '',
+        'question' => '¿Es posible fabricar banderola con una forma especial o solo hacen de forma estándar?',
+        'answer' => 'Damos vida a cualquier opción no estándar. Habiendo valorado previamente todas las capacidades y recursos técnicos, le ofrecemos la mejor opción de fabricación.',
       ],
       '3' => [
-        'question' => 'Выезжает ли ваш специалист для осмотра объекта перед изготовлением и установкой?',
-        'answer' => '',
+        'question' => '¿Su especialista visita a el objeto antes de la fabricación e instalación?',
+        'answer' => 'Si es necesario, nuestro especialista visita el sitio para evaluar las condiciones técnicas para instalar un letrero.',
       ],
       '4' => [
-        'question' => 'Как много электроэнергии потребляет такой лайтбокс?',
-        'answer' => '',
+        'question' => '¿Cuánta electricidad consume esta caja de luz?',
+        'answer' => 'Dado que los módulos LED que iluminan la caja de luz tienen un consumo de energía muy económico, el consumo de energía de dicho letrero no es alto. La cifra exacta de consumo se puede decir en función del tamaño de la caja de luz.',
       ],
       '5' => [
-        'question' => 'Возможно заказать только изготовление лайтбокса без установки?',
-        'answer' => '',
+        'question' => '¿Es posible pedir solo la producción de una caja de luz sin instalación?',
+        'answer' => 'Sí, es posible ordenar solo producción. En este caso, la garantía de la parte ligera no se aplica. Dado que es importante que nuestros especialistas instalen y conecten el letrero de acuerdo con todos los requisitos técnicos.',
       ],
       '6' => [
-        'question' => 'Мы только открылись и хотели бы максимально привлечь внимание к нашему магазину. Какой вариант вы порекомендуете?',
-        'answer' => '',
+        'question' => 'Acabamos de abrir y nos gustaría llamar la atención sobre nuestra tienda tanto como sea posible. ¿Qué opción recomiendas?',
+        'answer' => 'Los letreros hechos de acrilato opaco o de dinond fresado con LED en dinámica funcionan mejor para llamar la atención.',
       ],
       '7' => [
-        'question' => 'Можно ли заменить изображение на старом лайтбоксе?',
-        'answer' => '',
+        'question' => '¿Es posible reemplazar la imagen en una caja de luz antigua?',
+        'answer' => 'Depende del método de aplicación de la imagen y del plazo de prescripción para la fabricación de la caja de luz. Es posible evaluar la condición a partir de una foto o en una reunión en sus instalaciones.',
       ],
       '8' => [
-        'question' => 'Возможно ли сделать торцевой лайтбокс с неоном с двух сторон?',
-        'answer' => '',
+        'question' => '¿Es posible de que banderola sea con luz de ambos lados?',
+        'answer' => 'Ciertamente. La estructura de la caja de luz tiene dos lados hechos de metacrílico opaco translucido. Por lo tanto, la luz de fondo será de dos caras.',
       ],
     ],
+    'about_text' => 'В современном мире розничной торговли, где конкуренция становится все более жесткой, создание уникальной и привлекательной атмосферы в магазине играет важную роль в привлечении и удержании клиентов. Боковой лайтбокс – это инструмент, способный преобразовать ваш магазин и создать неповторимую визуальную атмосферу.<br><br>
+    Световая боковая вывеска обладает уникальной способностью привлекать внимание даже в оживленных торговых улицах. Она выделяется своим ярким светом, который сразу же привлекает взгляды прохожих и потенциальных клиентов. Это позволяет вашему магазину выделяться на фоне остальных и создавать первое впечатление, которое может повлиять на решение о посещении.<br><br>
+    Наружная вывеска - это искусство визуального маркетинга. Она позволяет вам выразить уникальность вашего бренда и создать определенный стиль или атмосферу. Вы можете подчеркнуть корпоративные цвета, логотип или даже использовать креативные формы и эффекты, чтобы сделать ваш магазин более привлекательным и запоминающимся.<br><br>
+    Когда клиенты видят вашу вывеску, они мгновенно ассоциируют ее с вашим брендом. Это может помочь создать лояльность клиентов, так как они будут ассоциировать вывеску с положительными впечатлениями и покупками.<br><br>
+    Лайтбокс двустороний не только привлекает дневное внимание, но и обеспечивает ночную видимость вашего магазина. В темное время суток он становится ярким ориентиром, указывая на местоположение вашего магазина и создавая чувство безопасности и комфорта для клиентов.<br><br>
+    Привлекательная наружная реклама может стимулировать прохожих зайти в ваш магазин даже без предварительных планов. Она может действовать как магнит, привлекая людей и способствуя увеличению потока клиентов. Таким образом, она может влиять на уровень продаж и общий успех бизнеса.<br><br>
+    Световая боковая вывеска - это не просто рекламный инструмент, это способ создать уникальную и привлекательную атмосферу в вашем магазине. Она привлекает внимание, подчеркивает бренд, повышает продажи и создает незабываемый опыт для клиентов. Вкладываясь в качественную световую вывеску, вы вкладываете в успех своего бизнеса и его узнаваемость в глазах клиентов.',
   ],
 ]
 ?>

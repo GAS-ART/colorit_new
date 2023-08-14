@@ -7,10 +7,20 @@
 @section('mainPopupPayload', 'БОКОВОЙ ЛАЙТБОКС (' . url()->current() . ')')
 
 @section('content')
-<section style="text-align: center; font-size: 60px; font-weight:700; color: #89368E;" class="test__container">
-  БОКОВОЙ ЛАЙТБОКС
-</section>
+<x-main-banner :$banner />
+<x-bread-crumbs :$breadCrumbs />
+<x-main-text>
+  @lang('signboards.side_box.text')
+</x-main-text>
+<x-portfolio :$portfolioImages />
+<x-lead>
+  <x-slot name="title">@lang('signboards.side_box.lead.title')</x-slot>
+  <x-slot name="leadInfo">БОКОВОЙ ЛАЙТБОКС ({{ url()->current() }})</x-slot>
+</x-lead>
 <x-questions :$questions />
+<x-about>
+  @lang('signboards.side_box.about_text')
+</x-about>
 <x-question-lead>
   БОКОВОЙ ЛАЙТБОКС ({{ url()->current() }})
 </x-question-lead>
