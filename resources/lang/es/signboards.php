@@ -316,11 +316,63 @@ return [
       'text' => 'El neón personalizado flexible se fabrican con una variedad de materiales, que incluyen metacrilato, madera y  PVC. Además, el neón flexible le permite cambiar el color y el brillo en un letrero usando mando de control.',
       'img' => [
         '1' => 'Metacrilato',
-        'alt_1' => '',
+        'alt_1' => 'Rotulos de neon con tu diseño personalizado. Fabricaion de neones en Barcelona',
         '2' => 'Madera',
+        'alt_2' => 'Neones flexibles fabricacion en Barcelona con metacrilato transparente 5mm',
+      ],
+    ],
+    'mounts' => [
+      'title' => 'Sujeción',
+      'text' => 'Rotulos de neon flexible se fijan mediante con fijaciónes especiales. Las fijaciones pueden estar ocultas y visibles, según el diseño y los requisitos de un proyecto en particular, las fijaciones seleccionadas correctamente garantizan la resistencia, la seguridad y la estabilidad de la rotulo durante mucho tiempo.',
+      'img' => [
+        '1' => 'A pared',
+        'alt_1' => '',
+        '2' => 'Colgante',
         'alt_2' => '',
       ],
     ],
+    'lead' => [
+      'title' => 'Deja una solicitud para fabricar tu neon personalizado',
+    ],
+    'questions' => [
+      '1' => [
+        'question' => '¿Cuántos colores hay en neón?',
+        'answer' => 'Hasta hoy, los fabricantes de neón ofrecen una gran selección de colores. Estos son los colores populares, como el blanco, amarillo, rojo, azul, verde, rosa, así como varias de sus tonalidades. En cada pedido, te ayudamos a elegir el color que mejor se adapte a tu petición.',
+      ],
+      '2' => [
+        'question' => '¿El precio depende del color del neón?',
+        'answer' => 'El precio de neón depende del color seleccionado, la longitud del tubo de neón y la base sobre la que se coloce el neón.',
+      ],
+      '3' => [
+        'question' => '¿Es posible hacer que un letrero de neón cambie varios colores?',
+        'answer' => 'Sí, existe tal posibilidad. Para esto, se utilizan neón multicanal y un mando especial para cambiar de color.',
+      ],
+      '4' => [
+        'question' => '¿Cuánta electricidad consume en letrero de neón?',
+        'answer' => 'El consumo de electricidad de neón depende de varios factores, como el tamaño del letrero, la cantidad de tubos de neón y largo de tubos. En promedio, un letrero de neón consume de 50 a 150 W por 1 metro de longitud. Por ejemplo, un letrero de 100*50 cm  puede consumir aproximadamente de 50 a 100 W.',
+      ],
+      '5' => [
+        'question' => '¿Cuál es el período de garantía para el letrero de neón?',
+        'answer' => 'Para letreros de neón, ofrecemos una garantía de 2 años, sujeta a todas las condiciones de funcionamiento.',
+      ],
+      '6' => [
+        'question' => '¿Existen condiciones por cuales no se recomienda hacer neón flexible?',
+        'answer' => 'El neón flexible prácticamente no tiene contraindicaciones para la instalación. Antes de realizar un rotulo de este tipo, nuestros especialistas responderán a todas sus preguntas y recomendarán la mejor solución técnica.',
+      ],
+      '7' => [
+        'question' => '¿Hacéis iluminación interior con neón?',
+        'answer' => 'Sí, podemos hacer luces de neón en el interior. Neon crea una atmósfera especial y enfatiza los detalles del interior. El neón puede iluminar el techo, las columnas, la recepción, los marcos. También pueden decorar escaparates, stand de exposición o publicidad.',
+      ],
+      '8' => [
+        'question' => '¿Se notará el neón si está apagado?',
+        'answer' => 'Dado que el tubo de neón lleva varios colores en frontal, el diseño del letrero debe diseñarse de tal manera que sea atractivo en cualquier momento del día. Nuestros diseñadores le ayudarán en este asunto.',
+      ],
+    ],
+    'about_text' => '<h2>Вывески из неона: Искусство Света и Рекламы<h2><br>
+    Неоновая вывеска под заказ – это не только искусство, но и мощный инструмент рекламы, способный привлечь внимание, создать уникальную атмосферу и оставить незабываемое впечатление. Они служат символом ночных улиц, мест развлечений и бизнеса.<br><br>
+    Процесс создания неоновых вывесок – это настоящее искусство, требующее мастерства и креативности. Сначала создается дизайн вывески, затем c помощь фрезерного станка вырезаются каналы размером 6 мм, где закладываются гибкие неоновые трубки одного или разных цветов и с помощью пайки подключаются к питанию. Мастера неоновых вывесок владеют уникальными навыками работы с материалами, фрезерными станками или пайкой, что позволяет им создавать удивительные произведения искусства.<br><br>
+    Неоновые вывески имеют огромное значение в современной рекламе и брендинге. Они способны сделать бизнес узнаваемым и привлечь клиентов. Яркие цвета и нестандартные формы позволяют выделиться на фоне других компаний и создать неповторимый имидж.Особенно популярны в индустрии развлечений, таких как ночные клубы, рестораны, казино и театры. Они создают атмосферу праздника и развлечения, привлекая гостей и создавая ощущение неповторимости.<br><br>
+    В заключение, вывески из гибкого неона – это уникальное искусство и мощный инструмент рекламы, способный создать неповторимую атмосферу и привлечь внимание. Они имеют богатую историю и считаются символом ночной жизни и развлечений. Они остаются важной частью современной культуры и бизнеса. Заказать неоновые вывески можно связавшись с нашими менеджерами.<br><br>',
   ],
 ]
 ?>

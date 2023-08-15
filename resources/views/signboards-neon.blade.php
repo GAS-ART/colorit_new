@@ -13,4 +13,17 @@
   @lang('signboards.neon.text')
 </x-main-text>
 <x-two-images-section :data="$material" />
+<x-two-images-section :data="$mounts" />
+<x-portfolio :$portfolioImages />
+<x-lead>
+  <x-slot name="title">@lang('signboards.neon.lead.title')</x-slot>
+  <x-slot name="leadInfo">НЕОН ({{ url()->current() }})</x-slot>
+</x-lead>
+<x-questions :$questions />
+<x-about>
+  @lang('signboards.neon.about_text')
+</x-about>
+<x-question-lead>
+  НЕОН ({{ url()->current() }})
+</x-question-lead>
 @endsection

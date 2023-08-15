@@ -116,6 +116,17 @@ return [
     ],
     'neon' => [
       'baner' => 'Neones personalizados para negocios y tiendas rapido con el mejor precio. fabricacion en Barcelona',
+      'portfolio' => [
+        '1' => 'Crear neon personalizado en España rapido y barato. Entrega por toda España',
+        '2' => 'Carteles de neon en Barcelona para eventos y ferias. Produccion y entrega rapida',
+        '3' => 'Neones personalizados. Letras, carteles y rotulos de neon. Entrega por toda España',
+        '4' => 'Letras neon personalizadas con entrega rapida en España',
+        '5' => 'Carteles neon en Barcelona. Diseño y fabricacion',
+        '6' => 'Pedir neon en Barcelona barato. Garantia de calidad con entrega',
+        '7' => 'Neon flexible en Barcelona por el mejor precio. Fabricacion en Barcelona',
+        '8' => 'Neon para bares y restaurantes. Precio economicos con garantia de 2 años',
+        '9' => 'Neon con tu logotipo con mejor precio en Barcelona. Entrega por toda España',
+      ],
     ],
   ],
 ]
