@@ -21,6 +21,25 @@ class SignboardsNeonController extends SetLangAndViewController
             'circle_text' => 'signboards.neon.banner.circle_text',
         ];
 
+        $material = [
+            'title' => 'signboards.neon.material.title',
+            'text' => 'signboards.neon.material.text',
+            'img' => [
+                [
+                'es' => 'img/signboards/neon/es/material/1.webp',
+                'ru' => 'img/signboards/neon/ru/material/1.webp',
+                'img_title' => 'signboards.neon.material.img.1',
+                'alt' => 'signboards.neon.material.img.alt_1',
+                ],
+                [
+                'es' => 'img/signboards/neon/es/material/2.webp',
+                'ru' => 'img/signboards/neon/ru/material/2.webp',
+                'img_title' => 'signboards.neon.material.img.2',
+                'alt' => 'signboards.neon.material.img.alt_2',
+                ],
+            ],
+        ];
+
         $breadCrumbs = [
             'links' => [
             [
@@ -32,6 +51,6 @@ class SignboardsNeonController extends SetLangAndViewController
             'currentPage' => __('crumbs.neon')
         ];
 
-        return $this->setLocaleAndView($locale, 'signboards-neon', compact('banner', 'breadCrumbs'));
+        return $this->setLocaleAndView($locale, 'signboards-neon', compact('banner', 'breadCrumbs', 'material'));
     }
 }

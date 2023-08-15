@@ -45,18 +45,21 @@ class SignboardsWithLightController extends SetLangAndViewController
                     'ru' => $variantsDirRu .  '1.webp',
                     'title' => $variantsImgTitleLangDir . '.1',
                     'alt' => '',
+                    'height' => '',
                 ],
                 [
                     'es' => $variantsDirEs .  '2.webp',
                     'ru' => $variantsDirRu .  '2.webp',
                     'title' => $variantsImgTitleLangDir . '.2',
                     'alt' => '',
+                    'height' => '',
                 ],
                 [
                     'es' => $variantsDirEs .  '3.webp',
                     'ru' => $variantsDirRu .  '3.webp',
                     'title' => $variantsImgTitleLangDir . '.3',
                     'alt' => '',
+                    'height' => '',
                 ],
             ],
         ];

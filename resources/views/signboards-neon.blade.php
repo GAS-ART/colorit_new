@@ -12,4 +12,5 @@
 <x-main-text>
   @lang('signboards.neon.text')
 </x-main-text>
+<x-two-images-section :data="$material" />
 @endsection

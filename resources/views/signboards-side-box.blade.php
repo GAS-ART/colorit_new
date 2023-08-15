@@ -12,6 +12,8 @@
 <x-main-text>
   @lang('signboards.side_box.text')
 </x-main-text>
+<x-two-images-section :data="$material" />
+<x-swiper.swiper-3 :data="$mounts" />
 <x-portfolio :$portfolioImages />
 <x-lead>
   <x-slot name="title">@lang('signboards.side_box.lead.title')</x-slot>

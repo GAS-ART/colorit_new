@@ -10,7 +10,7 @@
         @foreach ($data['slides'] as $slide)
         <div class="swiper-3__slide swiper-slide">
           <div class="swiper-3__slide-body">
-            <div class="swiper-3__slide-img">
+            <div class="swiper-3__slide-img {{$slide['height']}}">
               <img src="{{ asset($slide[App::currentLocale()]) }}" alt="@lang($slide['alt'])">
             </div>
             <h3 class="swiper-3__slide-title">@lang($slide['title'])</h3>

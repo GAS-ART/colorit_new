@@ -238,6 +238,28 @@ return [
       'circle_text' => 'Producción 14 - 21 días',
     ],
     'text' => 'Banderola luminosa, también conocida como lightbox - es un tipo de rótulo luminoso, que suele colocarse en la pared de un edificio o punto de venta de forma que su parte principal mire hacia las personas o esquinas. Se fabrica de formas estándar - cuadrado, circulo, rectangular y no estándar. Las cajas de luz doble cara se utilizan ampliamente para anunciar negocios, tiendas, restaurantes y otros establecimientos, así como en exposiciones y eventos.',
+    'material' => [
+      'title' => 'Material',
+      'text' => 'Paneles de composite compuesto por dos placas de aluminio y un núcleo de polietileno (plástico duro). En fabricación de rótulosy stands utilizamos un composite con un grosor de 3 o 4 mm',
+      'img' => [
+        '1' => 'Metacrilato',
+        'alt_1' => 'Banderola de metacrilato doble cara con modulos LED. Fabricacion en Barcelona. Entrega rapida',
+        '2' => 'Composite de aluminio',
+        'alt_2' => 'Banderolas luminosas de dibond con corte. Fabricacion en Barcelona',
+      ],
+    ],
+    'mounts' => [
+      'title' => 'Sujeción',
+      'text' => 'Hay varias opciones para el montaje de banderolas luminosas: montaje a la pared, montaje con la estructura, montaje colgante (mediante cables o cadenas)',
+      'image_titles' => [
+        '1' => 'A pared',
+        'alt_1' => 'Fabricacion y montaje de banderolas luminosas en España. Garantia 3 años',
+        '2' => 'Con estructura',
+        'alt_2' => 'Banderolas luminosas con patas produciion en Barcelona',
+        '3' => 'Colgante',
+        'alt_3' => 'Banderolas luminosas doble cara con soportes o colgantes para el montaje',
+      ],
+    ],
     'lead' => [
       'title' => 'Оставьте заявку на изготовление бокового лайтбокса',
     ],
@@ -289,6 +311,16 @@ return [
       'circle_text' => 'Producción 10 - 14 días',
     ],
     'text' => 'El neón flexible es un producto moderno que imita el efecto del neón clásico pero es flexible y fácil de instalar. Consiste en un tubo de plástico flexible lleno de tira de LED que producen una iluminación brillante y uniforme. Es ideal para decorar las fachadas de tiendas, restaurantes, cafés y otras instalaciones comerciales. Con él, puede crear una inscripción de neón, un logotipo o elementos rizados atractivos y originales a pedido. Nuestro portfolio incluye una gran cantidad de letreros de neón implementados.',
+    'material' => [
+      'title' => 'Material',
+      'text' => 'El neón personalizado flexible se fabrican con una variedad de materiales, que incluyen metacrilato, madera y  PVC. Además, el neón flexible le permite cambiar el color y el brillo en un letrero usando mando de control.',
+      'img' => [
+        '1' => 'Metacrilato',
+        'alt_1' => '',
+        '2' => 'Madera',
+        'alt_2' => '',
+      ],
+    ],
   ],
 ]
 ?>

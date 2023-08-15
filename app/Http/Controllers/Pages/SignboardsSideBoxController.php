@@ -33,6 +33,58 @@ class SignboardsSideBoxController extends SetLangAndViewController
             'currentPage' => __('crumbs.side_box')
         ];
 
+        $material = [
+            'title' => 'signboards.side_box.material.title',
+            'text' => 'signboards.side_box.material.text',
+            'img' => [
+                [
+                'es' => 'img/signboards/side_box/es/material/Fabricacion-banderolas-luminosas-doble-cara-en-barcelona.webp',
+                'ru' => 'img/signboards/side_box/ru/material/Изготовление-боковых-лайтбоксов-из-молочного-акрила-в-барселоне.webp',
+                'img_title' => 'signboards.side_box.material.img.1',
+                'alt' => 'signboards.side_box.material.img.alt_1',
+                ],
+                [
+                'es' => 'img/signboards/side_box/es/material/Fabricacion-banderolas-luminosas-doble-cara-de.dibond-en-barcelona.webp',
+                'ru' => 'img/signboards/side_box/ru/material/Изготовление-боковых-лайтбоксов-из-дибонда-в-барселоне.webp',
+                'img_title' => 'signboards.side_box.material.img.2',
+                'alt' => 'signboards.side_box.material.img.alt_2',
+                ],
+            ],
+        ];
+
+        $mountsDirEs = 'img/signboards/side_box/es/mounts/';
+        $mountsDirRu = 'img/signboards/side_box/ru/mounts/';
+        $mountsImgTitleLangDir = 'signboards.side_box.mounts.image_titles.';
+        $mounts = [
+            'title' => 'signboards.side_box.mounts.title',
+            'text' => '',
+            'spaceBetween' => '20',
+            'btn_prefix' => 'mounts-',
+            'slides' => [
+                [
+                    'es' => $mountsDirEs .  'Banderola-luminosa-para-montar-a-la-pared.webp',
+                    'ru' => $mountsDirRu .  'Боковой-лайтбокс-со-светом-для-установки-на-стену.webp',
+                    'title' => $mountsImgTitleLangDir . '1',
+                    'alt' => $mountsImgTitleLangDir . 'alt_1',
+                    'height' => 'h-300',
+                ],
+                [
+                    'es' => $mountsDirEs .  'Banderola-iluminada-con-soportes-patas.webp',
+                    'ru' => $mountsDirRu .  'Световой-лайтбокс-с-крепежем-для-установки-на-стену.webp',
+                    'title' => $mountsImgTitleLangDir . '2',
+                    'alt' => $mountsImgTitleLangDir . 'alt_2',
+                    'height' => 'h-300',
+                ],
+                [
+                    'es' => $mountsDirEs .  'Banderola-dos-caras-con-iluminacion-con-colgantes.webp',
+                    'ru' => $mountsDirRu .  'Вывески-лайбоксы-со-светом-подвесные-на-тросиках.webp',
+                    'title' => $mountsImgTitleLangDir . '3',
+                    'alt' => $mountsImgTitleLangDir . 'alt_3',
+                    'height' => 'h-300',
+                ],
+            ],
+        ];
+
         $portfolioDirEs = 'img/signboards/сomposite_lightbox/es/portfolio/';
         $portfolioDirRu = 'img/signboards/сomposite_lightbox/ru/portfolio/';
         $portfolioLocaleAltPath = 'alt.signboards.lightbox.portfolio.';
@@ -148,6 +200,6 @@ class SignboardsSideBoxController extends SetLangAndViewController
             ];
         }
 
-        return $this->setLocaleAndView($locale, 'signboards-side-box', compact('questions', 'banner', 'breadCrumbs', 'portfolioImages'));
+        return $this->setLocaleAndView($locale, 'signboards-side-box', compact('questions', 'banner', 'breadCrumbs', 'portfolioImages', 'material', 'mounts'));
     }
 }
