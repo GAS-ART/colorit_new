@@ -240,7 +240,7 @@ return [
     'text' => 'Banderola luminosa, también conocida como lightbox - es un tipo de rótulo luminoso, que suele colocarse en la pared de un edificio o punto de venta de forma que su parte principal mire hacia las personas o esquinas. Se fabrica de formas estándar - cuadrado, circulo, rectangular y no estándar. Las cajas de luz doble cara se utilizan ampliamente para anunciar negocios, tiendas, restaurantes y otros establecimientos, así como en exposiciones y eventos.',
     'material' => [
       'title' => 'Material',
-      'text' => 'Paneles de composite compuesto por dos placas de aluminio y un núcleo de polietileno (plástico duro). En fabricación de rótulosy stands utilizamos un composite con un grosor de 3 o 4 mm',
+      'text' => 'En fabricación de banderola luminosa doble cara utilizamos dos tipos de materiales: metacrílato blanco opaco de 3 mm y composite de aluminio fresado.',
       'img' => [
         '1' => 'Metacrilato',
         'alt_1' => 'Banderola de metacrilato doble cara con modulos LED. Fabricacion en Barcelona. Entrega rapida',
