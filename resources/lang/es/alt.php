@@ -26,7 +26,7 @@ return [
     ]
   ],
   'letters' => [
-    'baner' => 'Letras corpóreas en Barcelona',
+    'banner' => 'Letras corpóreas en Barcelona',
     'material'=> [
       '1' => 'Fabricacion letras de pvc en Barcelona',
       '2' => 'Fabricacion letras de madera en Barcelona',
@@ -46,7 +46,7 @@ return [
       '9' => 'Letras corpóreas de pvc 30 mm con separadores',
     ],
     'whith_light' => [
-      'baner' => 'Letras corpóreas iluminadas en Barcelona',
+      'banner' => 'Letras corpóreas iluminadas en Barcelona',
       'portfolio' => [
         '1' => 'Letras volumetricas luminosas con acabado dorado para salon de belleza',
         '2' => 'Letras de pvc luminosas LED en Barcelona',
@@ -90,7 +90,7 @@ return [
       ],
     ],
     'lightbox' => [
-      'baner' => 'Fabricar rotulo en Barcelona. Rotulos de bandeja calada con iluminacion. Entrega por toda España',
+      'banner' => 'Fabricar rotulo en Barcelona. Rotulos de bandeja calada con iluminacion. Entrega por toda España',
       'material' => 'Rotulo brillante luminoso de alimiunio en Barcelona',
       'types' => [
         '1' => 'Letrero de dibond negro mate. Con letras corporeas o sin',
@@ -112,10 +112,10 @@ return [
       ],
     ],
     'side_box' => [
-      'baner' => 'Pedir rotulos, banderolas, letras corporeas en Barcelona. Presupuesto sin compromiso con visita gratuita',
+      'banner' => 'Pedir rotulos, banderolas, letras corporeas en Barcelona. Presupuesto sin compromiso con visita gratuita',
     ],
     'neon' => [
-      'baner' => 'Neones personalizados para negocios y tiendas rapido con el mejor precio. fabricacion en Barcelona',
+      'banner' => 'Neones personalizados para negocios y tiendas rapido con el mejor precio. fabricacion en Barcelona',
       'portfolio' => [
         '1' => 'Crear neon personalizado en España rapido y barato. Entrega por toda España',
         '2' => 'Carteles de neon en Barcelona para eventos y ferias. Produccion y entrega rapida',

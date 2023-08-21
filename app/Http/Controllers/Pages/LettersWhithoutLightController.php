@@ -18,7 +18,7 @@ class LettersWhithoutLightController extends SetLangAndViewController
             'imgBig' => 'img/letters/ru/Объемные-буквы-из-пвх-для-выставки.webp',
             'imgMin' => 'img/letters/ru/Обьемные-буквы-без-света.webp',
             ],
-            'alt' => 'alt.letters.baner',
+            'alt' => 'alt.letters.banner',
             'circle_text' => 'letters.circle',
         ];
         $breadCrumbs = [

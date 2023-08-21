@@ -18,7 +18,7 @@ class LettersWhithLightController extends SetLangAndViewController
             'imgBig' => 'img/letters/ru/whith_light/Буквы-обьемные-зеркальные-накладки-с-подсветкой-контражур.webp',
             'imgMin' => 'img/letters/ru/whith_light/Буквы-обьемные-зеркальные-накладки-с-подсветкой-контражур_.webp',
             ],
-            'alt' => 'alt.letters.whith_light.baner',
+            'alt' => 'alt.letters.whith_light.banner',
             'circle_text' => 'letters.whith_light.circle',
         ];
         $breadCrumbs = [
