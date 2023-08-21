@@ -129,6 +129,20 @@ return [
       ],
     ],
   ],
+  'vinyl' => [
+    'regular' => [
+      'banner' => '',
+    ],
+    'perforated' => [
+      'banner' => '',
+    ],
+    'sandblast_film' => [
+      'banner' => '',
+    ],
+    'car_wrapping' => [
+      'banner' => '',
+    ],
+  ],
 ]
 
 ?>

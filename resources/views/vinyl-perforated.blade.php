@@ -7,7 +7,6 @@
 @section('mainPopupPayload', 'ВИНИЛ ПЕРФОРИРОВАННЫЙ (' . url()->current() . ')')
 
 @section('content')
-<section style="text-align: center; font-size: 60px; font-weight:700; color: #89368E;" class="test__container">
-  ВИНИЛ ПЕРФОРИРОВАННЫЙ
-</section>
+<x-main-banner :$banner />
+<x-bread-crumbs :$breadCrumbs />
 @endsection

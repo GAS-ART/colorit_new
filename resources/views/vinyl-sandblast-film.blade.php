@@ -7,7 +7,6 @@
 @section('mainPopupPayload', 'ПЕСКОСТРУЙНАЯ ПЛЕНКА (' . url()->current() . ')')
 
 @section('content')
-<section style="text-align: center; font-size: 60px; font-weight:700; color: #89368E;" class="test__container">
-  ПЕСКОСТРУЙНАЯ ПЛЕНКА
-</section>
+<x-main-banner :$banner />
+<x-bread-crumbs :$breadCrumbs />
 @endsection
