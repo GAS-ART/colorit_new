@@ -1,0 +1,61 @@
+.advantages {
+  @extend %section;
+
+  &__container {
+  }
+
+  &__title {
+    @extend %title;
+    padding: 40px;
+    background-color: #ffffff;
+    width: fit-content;
+    margin-bottom: 40px;
+  }
+
+  &__cards {
+    display: grid;
+    grid-template-columns: repeat(4, 295px);
+    grid-template-rows: auto;
+    gap: 20px;
+    @include adaptiveValueREM('padding-bottom', 100, 60, $maxWidthContainer, $minWidth, 1);
+    @media (max-width: em(1280)) {
+      gap: 10px;
+    }
+    @media (max-width: em(1239)) {
+      grid-template-columns: repeat(2, 295px);
+      grid-template-rows: auto auto;
+      justify-content: center;
+      gap: 20px;
+    }
+    @media (max-width: $mobile) {
+      grid-template-columns: 312px;
+      grid-template-rows: auto auto auto auto;
+    }
+  }
+
+  &__card {
+    padding: 60px 24px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    border-bottom: 4px solid $purple; 
+   
+  }
+
+  &__card-img {
+    margin-bottom: 24px; 
+  }
+
+  &__card-title {
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 150% 
+    
+  }
+
+  &__card-text {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 150%
+  }
+}

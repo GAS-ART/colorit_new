@@ -32,7 +32,7 @@ class SignboardsNeonController extends SetLangAndViewController
                 'alt' => 'signboards.neon.material.img.alt_1',
                 ],
                 [
-                'es' => 'img/signboards/neon/es/material/Neon-para-una-IT-feria-en-Barcelona.-Neon-de-color-rosa-con-base-de-metacrilato-5-mm..webp',
+                'es' => 'img/signboards/neon/es/material/Neon-para-una-IT-feria-en-Barcelona.-Neon-de-color-rosa-con-base-de-metacrilato-5-mm.webp',
                 'ru' => 'img/signboards/neon/ru/material/Неон-для-IT-выставки-в-Барселоне.-Розовый-гибкий-неон-на-базе-прозрачного-акрилата-5-мм.webp',
                 'img_title' => 'signboards.neon.material.img.2',
                 'alt' => 'signboards.neon.material.img.alt_2',

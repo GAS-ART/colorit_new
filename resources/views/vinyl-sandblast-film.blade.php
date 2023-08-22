@@ -9,4 +9,9 @@
 @section('content')
 <x-main-banner :$banner />
 <x-bread-crumbs :$breadCrumbs />
+<x-main-text>
+  @lang('vinyl.sandblast_film.text')
+</x-main-text>
+<x-swiper.swiper-3 :data="$types" />
+<x-advantages :$advantages />
 @endsection

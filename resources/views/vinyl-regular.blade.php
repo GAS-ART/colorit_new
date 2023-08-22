@@ -9,4 +9,9 @@
 @section('content')
 <x-main-banner :$banner />
 <x-bread-crumbs :$breadCrumbs />
+<x-main-text>
+  @lang('vinyl.regular.text')
+</x-main-text>
+<x-two-images-section :data="$types" />
+<x-advantages :$advantages />
 @endsection
