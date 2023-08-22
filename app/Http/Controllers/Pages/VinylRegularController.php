@@ -82,6 +82,14 @@ class VinylRegularController extends SetLangAndViewController
             ],
         ];
 
-        return $this->setLocaleAndView($locale, 'vinyl-regular', compact('banner', 'breadCrumbs', 'types', 'advantages'));
+        $questions = [];
+        for ($i = 1; $i <= 8; $i++) {
+            $questions[] = [
+                'question' => 'vinyl.regular.questions.' . $i . '.question',
+                'answer' => 'vinyl.regular.questions.' . $i . '.answer',
+            ];
+        }
+
+        return $this->setLocaleAndView($locale, 'vinyl-regular', compact('banner', 'breadCrumbs', 'types', 'advantages', 'questions'));
     }
 }

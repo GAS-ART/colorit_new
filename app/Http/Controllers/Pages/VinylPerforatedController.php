@@ -95,6 +95,14 @@ class VinylPerforatedController extends SetLangAndViewController
             ],
         ];
 
-        return $this->setLocaleAndView($locale, 'vinyl-perforated', compact('banner', 'breadCrumbs', 'types', 'advantages'));
+        $questions = [];
+        for ($i = 1; $i <= 8; $i++) {
+            $questions[] = [
+                'question' => 'vinyl.perforated.questions.' . $i . '.question',
+                'answer' => 'vinyl.perforated.questions.' . $i . '.answer',
+            ];
+        }
+
+        return $this->setLocaleAndView($locale, 'vinyl-perforated', compact('banner', 'breadCrumbs', 'types', 'advantages', 'questions'));
     }
 }
