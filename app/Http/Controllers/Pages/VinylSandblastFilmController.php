@@ -95,6 +95,14 @@ class VinylSandblastFilmController extends SetLangAndViewController
             ],
         ];
 
-        return $this->setLocaleAndView($locale, 'vinyl-sandblast-film', compact('banner', 'breadCrumbs', 'types', 'advantages'));
+        $questions = [];
+        for ($i = 1; $i <= 8; $i++) {
+            $questions[] = [
+                'question' => 'vinyl.sandblast_film.questions.' . $i . '.question',
+                'answer' => 'vinyl.sandblast_film.questions.' . $i . '.answer',
+            ];
+        }
+
+        return $this->setLocaleAndView($locale, 'vinyl-sandblast-film', compact('banner', 'breadCrumbs', 'types', 'advantages', 'questions'));
     }
 }

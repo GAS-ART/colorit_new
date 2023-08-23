@@ -95,6 +95,14 @@ class VinylCarWrappingController extends SetLangAndViewController
             ],
         ];
 
-        return $this->setLocaleAndView($locale, 'vinyl-car-wrapping', compact('banner', 'breadCrumbs', 'types', 'advantages'));
+        $questions = [];
+        for ($i = 1; $i <= 8; $i++) {
+            $questions[] = [
+                'question' => 'vinyl.car_wrapping.questions.' . $i . '.question',
+                'answer' => 'vinyl.car_wrapping.questions.' . $i . '.answer',
+            ];
+        }
+
+        return $this->setLocaleAndView($locale, 'vinyl-car-wrapping', compact('banner', 'breadCrumbs', 'types', 'advantages', 'questions'));
     }
 }
