@@ -169,10 +169,10 @@ class VinylSandblastFilmController extends SetLangAndViewController
             ],
             [
                 'es' => [
-                    'src' => $portfolioDirEs . 'pelicula-gris-mate-arenado-para-oficinas-y-vitrinas-en-barcelona.webp',
+                    'src' => $portfolioDirEs . 'pelicula-gris-mate-arenado-para-oficinas-y-vitrinas.webp',
                 ],
                 'ru' => [
-                    'src' => $portfolioDirRu . 'серая-пленка-с-эффектом-матового-стекла-купить-в-барселоне.webp',
+                    'src' => $portfolioDirRu . 'серая-пленка-с-эффектом-матового-стекла.webp',
                     
                 ],
                 'alt' => $portfolioLocaleAltPath . '7',

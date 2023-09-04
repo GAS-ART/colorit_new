@@ -185,13 +185,13 @@ return [
       'title' => 'Vinilo acido',
       'circle_text' => 'Producción hasta 7 días',
     ],
-    'text' => '',
+    'text' => 'Vinilo acido - es una pelicula especial que imita el efecto arenoso y mate. Crea un acabado mate, añadiendo atractivo visual y privacidad a los objetos a los que se aplica. En clínicas y centros dentales se puede utilizar para zonas de privacidad en mamparas o ventanas, creando un ambiente confortable para los pacientes. En despachos de abogados y oficinas se puede utilizar para decorar ventanas y puertas, creando espacios privados para reuniones y trabajo confortable. Los salones de belleza y las tiendas lo utilizan para decorar escaparates elegantes y modernos.',
     'lead' => [
       'title' => 'Deja una solicitud para fabricar vinilo acido (glaseado)',
     ],
     'types' => [
       'title' => 'Tipos y donde se usar vinilo acido (vinilo glaseado)',
-      'text' => 'Vinilo acido - es una pelicula especial que imita el efecto arenoso y mate. Crea un acabado mate, añadiendo atractivo visual y privacidad a los objetos a los que se aplica. En clínicas y centros dentales se puede utilizar para zonas de privacidad en mamparas o ventanas, creando un ambiente confortable para los pacientes. En despachos de abogados y oficinas se puede utilizar para decorar ventanas y puertas, creando espacios privados para reuniones y trabajo confortable. Los salones de belleza y las tiendas lo utilizan para decorar escaparates elegantes y modernos.',
+      'text' => '',
       'image_titles' => [
         '1' => 'Vinilo acido solo material',
         'alt_1' => '',
