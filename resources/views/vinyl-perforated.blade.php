@@ -20,9 +20,9 @@
   <x-slot name="leadInfo">ВИНИЛ ПЕРФОРИРОВАННЫЙ ({{ url()->current() }})</x-slot>
 </x-lead>
 <x-questions :$questions />
-{{-- <x-about>
+<x-about>
   @lang('vinyl.perforated.about_text')
-</x-about> --}}
+</x-about> 
 <x-question-lead>
   ВИНИЛ ПЕРФОРИРОВАННЫЙ ({{ url()->current() }})
 </x-question-lead>
