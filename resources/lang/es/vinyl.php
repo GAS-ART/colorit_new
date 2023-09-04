@@ -4,77 +4,90 @@ return [
 
   'regular' => [
     'banner' => [
-      'title' => 'Vinilo adhensivo',
+      'title' => 'Vinilo impreso',
       'circle_text' => 'Producción hasta 5 días',
     ],
-    'text' => 'Винил не заменим при создания ярких и привлекательных рекламных элементов. Он широко используется в оформлении витрин магазинов, офисов, салонов и студий. Также может быть использован для интерьерного оформления помещений, создания уникальных фотообоев, декоративных стен и перегородок. Винил можно использовать для печати полноцветных изображений и как порезку надписей и различных декоративных элементов из цветного винила.',
+    'text' => 'El vinilo adhesivo para escaparates indispensable para crear elementos publicitarios brillantes y atractivos. Es muy utilizado en escaparates de tiendas, oficinas, salones y estudios. También se puede utilizar para la decoración interior de locales, creando fotomurales únicos y paredes decorativas. El vinilo se puede utilizar para imprimir imágenes a todo color y como corte de inscripciones y diversos elementos decorativos de vinilo de colores.',
     'lead' => [
-      'title' => 'Оставьте заявку на изготовление виниловой наклейки',
+      'title' => 'Deja una solicitud para fabricar vinilos impresos para escaparates',
     ],
     'type' => [
       'title' => '',
       'text' => '',
       'img' => [
-        '1' => 'Винил с печатью',
-        'alt_1' => 'Винил с печатью',
-        '2' => 'Цветной винил с порезкой',
-        'alt_2' => 'Цветной винил с порезкой',
+        '1' => 'Vinilo adhesivo',
+        'alt_1' => 'Vinilo adhesivo impreso para escaparates en Barcelona. Fabricacion 5 dias. Instalacion rapida',
+        '2' => 'Vinilo de corte',
+        'alt_2' => 'Vinilo de corte y colocacion escaparates y tiendas en Barcelona',
       ],
     ],
     'advantages' => [
-      'title' => 'Преимущества',
+      'title' => 'Ventajas',
       '1' => [
-        'title' => 'Яркость и Визуальный Эффект',
-        'text' => 'Виниловые материалы обеспечивают насыщенные цвета и четкие изображения, делая рекламные элементы заметными и привлекательными. Что особенно важно при оформлении магазинов и выставок.',
+        'title' => 'Brillo y efecto visual',
+        'text' => 'Los materiales de vinilo proporcionan colores intensos e imágenes nítidas, lo que hace que los artículos publicitarios sean visibles y atractivos. Lo que es especialmente importante en el diseño de tiendas y exposiciones.',
       ],
       '2' => [
-        'title' => 'Гибкость<br> и Адаптивность',
-        'text' => 'Винил легко приспосабливается к различным поверхностям, будь то гладкие поверхности магазинных окон, изогнутые кузовы машин или стенды на выставках.',
+        'title' => 'Flexibilidad<br> y adaptabilidad',
+        'text' => 'El vinilo se adapta fácilmente a diversas superficies, ya sean superficies lisas de escaparates, carrocerías curvas de automóviles o stands de exposición.',
       ],
       '3' => [
-        'title' => 'Долговечность и Стойкость',
-        'text' => 'Виниловые материалы обладают хорошей стойкостью к ультрафиолетовому излучению, влаге и погодным условиям. Это гарантирует долгий срок службы рекламных элементов.',
+        'title' => 'Durabilidad y resiliencia',
+        'text' => 'Los materiales de vinilo tienen buena resistencia a los rayos UV, la humedad y la intemperie. Esto garantiza una larga vida útil de los elementos publicitarios.',
       ],
       '4' => [
-        'title' => 'Быстрая и Экономичная Замена',
-        'text' => 'Виниловые наклейки можно легко заменять, что позволяет быстро обновлять рекламное сообщение или акционные предложения.',
+        'title' => 'Reemplazo rápido y económico',
+        'text' => 'Las calcomanías de vinilo se pueden reemplazar fácilmente, lo que le permite actualizar rápidamente su mensaje publicitario o promociones.',
       ],
     ],
     'questions' => [
       '1' => [
-        'question' => 'Какие материалы и виды виниловых наклеек доступны?',
-        'answer' => '',
+        'question' => '¿Qué materiales y tipos de pegatinas de vinilo hay disponibles?',
+        'answer' => 'En nuestro almacén disponemos de una gran selección de diferentes tipos de vinilos, marcas y colores. Además del vinilo de color normal, podemos ofrecer vinilo metálico, transparente o luminiscente.',
       ],
       '2' => [
-        'question' => 'Какой размер и форму можно заказать?',
-        'answer' => '',
+        'question' => '¿Qué diseño o imagen puedo utilizar??',
+        'answer' => 'Cada pegatina es individual y se fabrica por el pedido. Nuestros diseñadores desarrollarán para usted pegatinas de cualquier complejidad, teniendo en cuenta su estilo y sus particularidades. También podemos realizar pegatinas según tus bocetos.',
       ],
       '3' => [
-        'question' => 'Какой дизайн или изображение можно использовать?',
+        'question' => '¿Cuánto durará un vinilo impreso?',
         'answer' => '',
       ],
       '4' => [
         'question' => 'Как происходит установка наклейки?',
-        'answer' => '',
+        'answer' => 'El diseño de vinilo impreso es una de las opciones económicas. El costo de dicha publicidad depende del tamaño, la complejidad del diseño y el tipo de película. El coste puede aumentar hacia precios más altos al realizar pedidos urgentes (tiempo de producción 1-2 días).',
       ],
       '5' => [
-        'question' => 'Сколько времени прослужит виниловая наклейка?',
-        'answer' => '',
+        'question' => '¿Qué tamaño y forma puedo pedir?',
+        'answer' => 'El vinilo viene en rollos de 1,22 o 1,52 m de ancho, dado que al pegar se pueden unir diferentes piezas de vinilo, podemos vender pegatinas de tamaños ilimitados. Con un trazador de corte, puede recortar formas y diseños de cualquier complejidad.',
       ],
       '6' => [
-        'question' => 'Можно ли легко удалить наклейку?',
-        'answer' => '',
+        'question' => '¿Cómo se instala el vinilo?',
+        'answer' => 'Antes de instalar, es necesario preparar la superficie sobre la que se aplicará la película. Debe limpiarse de escombros, polvo y restos de película vieja. La temperatura ambiente debe estar entre +5 y +30 grados. A temperaturas más bajas o más altas, la calidad del adhesivo no está garantizada y la vida útil de la pegatina se reduce.',
       ],
       '7' => [
-        'question' => 'Сколько стоит изготовление и установка виниловой наклейки?',
-        'answer' => '',
+        'question' => '¿Se puede quitar fácilmente el vinilo adhesivo?',
+        'answer' => 'Las pegatinas de vinilo son bastante fáciles de quitar. El adhesivo que queda de la película se puede quitar con un limpiador de ventanas común.',
       ],
       '8' => [
-        'question' => 'Есть ли возможность получить образцы или примеры работ?',
-        'answer' => '',
+        'question' => '¿Es posible conseguir muestras o ejemplos de trabajo?',
+        'answer' => 'Nuestro portafolio incluye una gran cantidad de proyectos completados utilizando vinilo. Se trata de escaparates, decoración de oficinas, clínicas, rotulación de coches y barcos. Nuestro trabajo se puede ver en las calles de Barcelona y en nuestra web en la sección Portafolio.',
       ],
     ],
-    'about_text' => '',
+    'about_text' => 'Vinilo adhesivo impreso para escaparates.<br><br>
+    El vinilo impreso es un proceso que le permite transformar el aspecto de su escaparate y hacerlo único y memorable. Veamos cómo este material puede ser la clave para crear un escaparate atractivo.<br><br>
+    Hacer el vinilo con impresion digital.<br><br>
+    El vinilo adhesivo es un material de alta calidad que pasa por un proceso de fabricación utilizando tecnologías modernas. Tiene varios beneficios: Resistencia y durabilidad: el vinilo conserva la intensidad de su color y no se ve afectado por el clima.<br><br>
+    Variabilidad: Este material está disponible en una variedad de colores y texturas, lo que permite crear diseños únicos.<br><br>
+    Fácil de instalar y quitar: el vinilo es fácil de aplicar y quitar sin dañar la superficie, lo que lo convierte en una opción ideal para decorar escaparates. Vinilo impreso: publicidad efectiva.<br><br>
+    Una ventaja importante del vinilo es la posibilidad de imprimir imágenes y texto en ella. Esto abre nuevos horizontes para la publicidad visual de su empresa:<br><br>
+    Lonas promocionales: cree lonas creativas para atraer la atención a su tienda y anunciar promociones.<br><br>
+    Ilustración y arte: los artistas y diseñadores pueden utilizar vinilos impresos para crear obras de arte únicas.<br><br>
+    Elementos informativos: Coloque la información de su marca, información de contacto u horario comercial en vinilo, haciendo que la exhibición sea más informativa.  Escaparate: Tu toque de estilo.<br><br>
+    El escaparate es un aspecto clave del éxito del comercio minorista. El vinilo impresa puede:<br><br>
+    Acentos estacionales: le permite cambiar rápidamente el diseño de la pantalla, enfatizando los eventos estacionales actuales.<br><br>
+    Branding: integre elementos de marca, creando un estilo unificado y reconocible para su tienda.<br><br>
+    Promociones y descuentos: Informar rápidamente sobre las promociones vigentes, maximizando la atención al cliente. En conclusión, el vinilo impreso es una poderosa herramienta para decorar escaparates y publicitar tu marca. No pierda la oportunidad de hacer que su escaparate sea atractivo y memorable para los clientes atrayendolos a su tienda y haciendo de comprar con usted una experiencia placentera y memorable.',
   ],
   'perforated' => [
     'banner' => [

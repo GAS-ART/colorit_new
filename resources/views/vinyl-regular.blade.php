@@ -14,16 +14,15 @@
 </x-main-text>
 <x-two-images-section :data="$types" />
 <x-advantages :$advantages />
-{{--
-<x-portfolio :$portfolioImages /> --}}
+<x-portfolio :$portfolioImages />
 <x-lead>
   <x-slot name="title">@lang('vinyl.regular.lead.title')</x-slot>
   <x-slot name="leadInfo">ВИНИЛ ОБЫЧНЫЙ ({{ url()->current() }})</x-slot>
 </x-lead>
 <x-questions :$questions />
-{{-- <x-about>
+<x-about>
   @lang('vinyl.regular.about_text')
-</x-about> --}}
+</x-about>
 <x-question-lead>
   ВИНИЛ ОБЫЧНЫЙ ({{ url()->current() }})
 </x-question-lead>

@@ -132,6 +132,17 @@ return [
   'vinyl' => [
     'regular' => [
       'banner' => '',
+      'portfolio' => [
+        '1' => 'Producción de vinilo adhesivo con impresión y laminación en Barcelona. Calidad y garantía.',
+        '2' => 'Vinilo adhesivo impreso para tienda de muebles. Rápida producción e instalación.',
+        '3' => 'Pegatinas de vinilo impreso para tiendas y oficinas. Impresión y laminacion en Barcelona',
+        '4' => 'Impresión y colocacion de vinílo con impresion digital para paredes y vitrinas. Laminación brillo y mate.',
+        '5' => 'Vinilos de corte para escaparates. Diseño personalizado y producción rápida.',
+        '6' => 'Pegatinas de vinilo con impresión y laminacion en Barcelona. Con garantía de calidad',
+        '7' => 'Vinilo adhesivo o vinilo de corte para escaparates. Con impresión y laminación. Fabricación en Barcelona',
+        '8' => '8',
+        '9' => '9',
+      ],
     ],
     'perforated' => [
       'banner' => '',

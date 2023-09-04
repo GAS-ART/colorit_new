@@ -9,7 +9,7 @@ return [
    'lightbox'=> 'Лайтбокс из композита',
    'side_box' => 'Боковой лайтбокс',
    'neon' => 'Неон',
-   'vinyl_regular' => 'Винил обычный',
+   'vinyl_regular' => 'Винил с печатью',
    'vinyl_perforated' => 'Винил перфорированный',
    'sandblast_film' => 'Пескоструйная пленка',
    'vinyl_car_wrapping' => 'Обклейка машины',
