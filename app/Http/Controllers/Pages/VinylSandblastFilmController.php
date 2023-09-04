@@ -95,6 +95,113 @@ class VinylSandblastFilmController extends SetLangAndViewController
             ],
         ];
 
+        $portfolioDirEs = 'img/vinyl/sandblast_film/es/portfolio/';
+        $portfolioDirRu = 'img/vinyl/sandblast_film/ru/portfolio/';
+        $portfolioLocaleAltPath = 'alt.vinyl.sandblast_film.portfolio.';
+        //$portfolioLocaleTitlePath = 'portfolio.letters.';
+        $portfolioImages = [
+            'gallery-image-path' => 'vinyl/sandblast_film/es/portfolio/gallery',
+            [
+                'es' => [
+                    'src' => $portfolioDirEs . 'Vinilo-acido-mate-impreso-en-Barcelona-Pedir-cualquier-tipo-de-película-de-vinilo.webp',
+                ],
+                'ru' => [
+                    'src' => $portfolioDirRu . 'Серая-матовая-пленка-с-печатью-для-салона-красоты-в-кастельдельфельс.webp',
+                    
+                ],
+                'alt' => $portfolioLocaleAltPath . '1',
+                'title' => $portfolioLocaleAltPath . '1',
+            ],
+            [
+                'es' => [
+                    'src' => $portfolioDirEs . 'Vinilo-de-corte-de-efecto-acido-glaseado-para-oficinas-Fabricacion-y-entrega-rapida.webp',
+                ],
+                'ru' => [
+                    'src' => $portfolioDirRu . 'Перезка-серой-пескоструйной-пленки-для-салона-красоты-в-барселоне.webp',
+                    
+                ],
+                'alt' => $portfolioLocaleAltPath . '2',
+                'title' => $portfolioLocaleAltPath . '2',
+            ],
+            [
+                'es' => [
+                    'src' => $portfolioDirEs . 'Vinilo-acido-translúcido-que-hace-intimidad-en-despachos.webp',
+                ],
+                'ru' => [
+                    'src' => $portfolioDirRu . 'Тонировка-офисов-и-магазинов-при-помощи-пленки-в-барселоне.webp',
+                    
+                ],
+                'alt' => $portfolioLocaleAltPath . '3',
+                'title' => $portfolioLocaleAltPath . '3',
+            ],
+            [
+                'es' => [
+                    'src' => $portfolioDirEs . 'Vinilo-acido-para-inmobiliarias-con-efecto-mate-glaseado-hacer-en-pedido.webp',
+                ],
+                'ru' => [
+                    'src' => $portfolioDirRu . 'Пленка-для-агентств-недвижимости-с-эффектом-матового-стекла-в-барселоне.webp',
+                    
+                ],
+                'alt' => $portfolioLocaleAltPath . '4',
+                'title' => $portfolioLocaleAltPath . '4',
+            ],
+            [
+                'es' => [
+                    'src' => $portfolioDirEs . 'Impresion-en-vinilo-glaseado-con-impresio-digital-en-todo-color.webp',
+                ],
+                'ru' => [
+                    'src' => $portfolioDirRu . 'Печать-на-пленке-с-эффектом-матового-стекла-в-испании.webp',
+                    
+                ],
+                'alt' => $portfolioLocaleAltPath . '5',
+                'title' => $portfolioLocaleAltPath . '5',
+            ],
+            [
+                'es' => [
+                    'src' => $portfolioDirEs . 'Rotulacion-cristales-oficinas-con-vinilo-adhesivo-translucido-en-barcelona.webp',
+                ],
+                'ru' => [
+                    'src' => $portfolioDirRu . 'тонировка-витрин-окон-матовой-пленкой-с-печатью-в-барселоне.webp',
+                    
+                ],
+                'alt' => $portfolioLocaleAltPath . '6',
+                'title' => $portfolioLocaleAltPath . '6',
+            ],
+            [
+                'es' => [
+                    'src' => $portfolioDirEs . 'pelicula-gris-mate-arenado-para-oficinas-y-vitrinas-en-barcelona.webp',
+                ],
+                'ru' => [
+                    'src' => $portfolioDirRu . 'серая-пленка-с-эффектом-матового-стекла-купить-в-барселоне.webp',
+                    
+                ],
+                'alt' => $portfolioLocaleAltPath . '7',
+                'title' => $portfolioLocaleAltPath . '7',
+            ],
+            [
+                'es' => [
+                    'src' => $portfolioDirEs . 'Rotulacion-cristales-oficinas-con-vinilo-adhesivo-translucido.webp',
+                ],
+                'ru' => [
+                    'src' => $portfolioDirRu . 'Тонировка-витрин-окон-матовой-пленкой-в-барселоне.webp',
+                    
+                ],
+                'alt' => $portfolioLocaleAltPath . '8',
+                'title' => $portfolioLocaleAltPath . '8',
+            ],
+            [
+                'es' => [
+                    'src' => $portfolioDirEs . 'pelicula-gris-mate-arenado-para-oficinas-y-vitrinas-en-barcelona.webp',
+                ],
+                'ru' => [
+                    'src' => $portfolioDirRu . 'серая-пленка-с-эффектом-матового-стекла-купить-в-барселоне.webp',
+                    
+                ],
+                'alt' => $portfolioLocaleAltPath . '9',
+                'title' => $portfolioLocaleAltPath . '9',
+            ],
+        ];
+
         $questions = [];
         for ($i = 1; $i <= 8; $i++) {
             $questions[] = [
@@ -103,6 +210,6 @@ class VinylSandblastFilmController extends SetLangAndViewController
             ];
         }
 
-        return $this->setLocaleAndView($locale, 'vinyl-sandblast-film', compact('banner', 'breadCrumbs', 'types', 'advantages', 'questions'));
+        return $this->setLocaleAndView($locale, 'vinyl-sandblast-film', compact('banner', 'breadCrumbs', 'types', 'advantages', 'questions', 'portfolioImages'));
     }
 }

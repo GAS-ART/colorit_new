@@ -187,74 +187,84 @@ return [
     ],
     'text' => '',
     'lead' => [
-      'title' => 'Оставьте заявку на оформление пескоструйной пленкой',
+      'title' => 'Deja una solicitud para fabricar vinilo acido (glaseado)',
     ],
     'types' => [
-      'title' => 'Виды рекламного оформления пескоструйной пленкой',
-      'text' => '',
+      'title' => 'Tipos y donde se usar vinilo acido (vinilo glaseado)',
+      'text' => 'Vinilo acido - es una pelicula especial que imita el efecto arenoso y mate. Crea un acabado mate, añadiendo atractivo visual y privacidad a los objetos a los que se aplica. En clínicas y centros dentales se puede utilizar para zonas de privacidad en mamparas o ventanas, creando un ambiente confortable para los pacientes. En despachos de abogados y oficinas se puede utilizar para decorar ventanas y puertas, creando espacios privados para reuniones y trabajo confortable. Los salones de belleza y las tiendas lo utilizan para decorar escaparates elegantes y modernos.',
       'image_titles' => [
-        '1' => 'Пленка',
+        '1' => 'Vinilo acido solo material',
         'alt_1' => '',
-        '2' => 'Порезка пленки',
+        '2' => 'Vinilo acido de corte',
         'alt_2' => '',
-        '3' => 'Пленка с печатью',
+        '3' => 'Vinilo acido impreso',
         'alt_3' => '',
       ],
     ],
     'advantages' => [
-      'title' => 'Преимущества',
+      'title' => 'Ventajas',
       '1' => [
-        'title' => 'Конфиденциальность и приватность',
-        'text' => 'Пескоструйная пленка создает матовую поверхность, которая пропускает свет, но ограничивает видимость. Это позволяет создать частные зоны в офисах, клиниках, салонах, стоматологических кабинетах и других местах.',
+        'title' => 'Confidencialidad y privacidad',
+        'text' => 'La película de chorro de arena crea un acabado mate que permite el paso de la luz pero limita la visibilidad. Esto le permite crear áreas privadas en oficinas, clínicas, salones, consultorios dentales y otros lugares.',
       ],
       '2' => [
-        'title' => 'Уникальный дизайн и эффекты',
-        'text' => 'Пленка позволяет создать разнообразные декоративные узоры, надписи и дизайнерские элементы на стекле или других поверхностях. Это способствует уникальности интерьера или экстерьера.',
+        'title' => 'Diseño y efectos únicos.',
+        'text' => 'La película le permite crear una variedad de patrones decorativos, inscripciones y elementos de diseño en vidrio u otras superficies. Esto contribuye a la singularidad del interior o exterior.',
       ],
       '3' => [
-        'title' => 'Сохранение освещения',
-        'text' => 'Пескоструйная пленка обеспечивает хорошую диффузию света, сохраняя естественное освещение в помещении. Это позволяет смягчить яркость и создать комфортную атмосферу.',
+        'title' => 'Ahorro de iluminación',
+        'text' => 'La película arenada proporciona una buena difusión de la luz y mantiene la luz natural en la habitación. Esto le permite suavizar el brillo y crear una atmósfera confortable.',
       ],
       '4' => [
-        'title' => 'Простота ухода',
-        'text' => 'Пленка обладает гладкой поверхностью, которая не пачкается и не покрывается следами пальцев. Это упрощает уход и обслуживание поверхностей, на которые нанесена пленка.',
+        'title' => 'Fácil de cuidar',
+        'text' => 'La película tiene una superficie lisa que no se ensucia ni se cubre con huellas dactilares. Esto simplifica el cuidado y mantenimiento de las superficies sobre las que se aplica la película.',
       ],
     ],
     'questions' => [
       '1' => [
-        'question' => 'Какие размеры пескоструйной пленки?',
-        'answer' => '',
+        'question' => '¿Cuáles son las dimensiones del vinilo acido impreso o de corte?',
+        'answer' => 'Vinilo glaseado se fabrica en rollos de 1,22 y 1,52 cm de ancho, al pegar la película en la junta se pueden conseguir tamaños de pegado ilimitados.',
       ],
       '2' => [
-        'question' => 'Какие дизайнерские возможности предоставляет данная пленка?',
-        'answer' => '',
+        'question' => '¿Se puede utilizar para publicidad exterior e interior?',
+        'answer' => 'Vinilo acido glaseado es adecuada para uso en interiores y exteriores.',
       ],
       '3' => [
-        'question' => 'Можно ли применять её для наружной и внутренней рекламы?',
-        'answer' => '',
+        'question' => '¿Cuánto suele tardar el proceso de instalación?',
+        'answer' => 'El tiempo de instalación depende de la complejidad y el volumen del pedido. Cada pedido comentamos por separado, sobre los términos de producción e instalación.',
       ],
       '4' => [
-        'question' => 'Как производится установка пескоструйной пленки на различных поверхностях?',
-        'answer' => '',
+        'question' => '¿Cuánto cuesta fabricar e instalar uel vinilo acido?',
+        'answer' => 'El precio dependerá de la cantidad de vinilo utilizado y de la superficie a cubrir. Cuanto mayor sea el área, mayor será el costo<br>.
+        Si vinilo acido se va a imprimir a todo color, esto puede aumentar el coste de producción.<br>
+        Si es necesario cortar formas o detalles complejos en un trazador, esto también puede afectar el costo.',
       ],
       '5' => [
-        'question' => 'Сколько времени обычно занимает процесс установки?',
-        'answer' => '',
+        'question' => '¿Qué posibilidades de diseño ofrece esta película?',
+        'answer' => 'Gracias a las nuevas tecnologías, hoy es posible imprimir imágenes a todo color en vinilo acido, recortar formas y patrones complejos y diseñar habitaciones y escaparates.',
       ],
       '6' => [
-        'question' => 'Как происходит обслуживание и очистка поверхности с пескоструйной пленкой?',
-        'answer' => '',
+        'question' => '¿Cómo se instala vinilo glaseado en diversas superficies?',
+        'answer' => 'Esta película tiene características especiales al pegar. Para evitar estropear el material, recomendamos contratar especialistas en montaje para ahorrar dinero y tiempo.',
       ],
       '7' => [
-        'question' => 'Сколько стоит изготовление и установка пескоструйной пленки?',
-        'answer' => '',
+        'question' => '¿Cómo es el mantenimiento y limpieza de la superficie del vinilo acido o vinilo glaseado?',
+        'answer' => 'La superficie sobre la que se aplica la película glaseada se puede lavar con agua sin utilizar detergentes. Evite el uso de productos químicos agresivos, abrasivos o cepillos ásperos, ya que pueden dañar la película.',
       ],
       '8' => [
-        'question' => 'Каков срок службы пескоструйной пленки?',
-        'answer' => '',
+        'question' => '¿Cuál es la vida útil del vinilo acido?',
+        'answer' => 'a vida útil de vinilo glaseado puede variar significativamente según las condiciones de funcionamiento y la calidad de la instalación. En promedio, con una instalación y cuidado adecuados, el vinilo acido puede mantener su apariencia y funcionalidad durante 3 a 7 años o incluso más.<br>Sin embargo, hay que tener en cuenta que factores incontrolables como la intensa radiación ultravioleta, las temperaturas extremas, las influencias atmosféricas y los daños mecánicos pueden acortar la vida útil de la película.',
       ],
     ],
-    'about_text' => '',
+    'about_text' => 'Vinilo acido, vinilo glaseado: arte invisible sobre vidrio<br><br>
+    La película glaseado es un material sorprendente que convierte el vidrio común en un lienzo para el arte y el diseño. El pulido griz mate puede crear elementos decorativos únicos y elegantes, brindando privacidad y estilo en uno.<br><br>
+    Artes decorativas: vinilo acido, vinilo acido de corte o impreso le permite crear patrones coloridos e intrincados que añaden carácter y personalidad a su interior. Puede ser arte abstracto, patrones geométricos o incluso recrear pinturas famosas sobre vidrio.<br><br>
+    Privacidad sin pérdida de luz: La lámina crea privacidad en la habitación debido al esmerilado parcial del vidrio, pero al mismo tiempo deja pasar la luz natural. Puedes disfrutar de la privacidad sin estar limitado por la oscuridad.<br><br>
+    Protección UV: el vinilo acido puede bloquear los dañinos rayos UV, protegiendo los muebles y los interiores de la decoloración y los daños.<br><br>
+    Fácil de instalar y reemplazar: instalar la película de vidrio es rápido y fácil, y también es fácil de reemplazar si desea actualizar su diseño.<br><br>
+    Oportunidades publicitarias: La película acido glaseado es ideal para imprimir logotipos e información en escaparates y cristales de oficinas, dándoles un aspecto elegante y profesional.<br><br>
+    Personalidad y estilo: Puede elegir entre una variedad de texturas, desde mate hasta espejada, para resaltar su estilo y preferencias únicos.<br><br>
+    El vinilo acido glaseado no es sólo un elemento decorativo, sino también una solución práctica para muchas tareas. Enriquecerá su interior, agregará un acento sofisticado y brindará comodidad y privacidad. Ya sea en casa, oficina o tienda, este material te ayudará a crear un espacio del que estarás orgulloso. Confíe en vinilo acido (vinilo glaseado) para añadir un poco de magia al mundo del vidrio.',
   ],
   'car_wrapping' => [
     'banner' => [

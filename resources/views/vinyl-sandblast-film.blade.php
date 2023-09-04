@@ -14,16 +14,15 @@
 </x-main-text>
 <x-swiper.swiper-3 :data="$types" />
 <x-advantages :$advantages />
-{{--
-<x-portfolio :$portfolioImages /> --}}
+<x-portfolio :$portfolioImages />
 <x-lead>
   <x-slot name="title">@lang('vinyl.sandblast_film.lead.title')</x-slot>
   <x-slot name="leadInfo">ПЕСКОСТРУЙНАЯ ПЛЕНКА ({{ url()->current() }})</x-slot>
 </x-lead>
 <x-questions :$questions />
-{{-- <x-about>
+<x-about>
   @lang('vinyl.regular.about_text')
-</x-about> --}}
+</x-about>
 <x-question-lead>
   ПЕСКОСТРУЙНАЯ ПЛЕНКА ({{ url()->current() }})
 </x-question-lead>

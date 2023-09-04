@@ -149,6 +149,17 @@ return [
     ],
     'sandblast_film' => [
       'banner' => '',
+      'portfolio' => [
+        '1' => 'Película glaseado mate impresa en Barcelona. Pedir cualquier tipo de película de vinilo.',
+        '2' => 'Vinilo de corte de vinilo acido glaseado para oficinas. Fabricacion y entrega rapida',
+        '3' => 'Vinilo adhesivo translúcido que hace intimidad en despachos.',
+        '4' => 'Fabricacion de vinilo al ácido glass efecto arenado con impresion en todo color en Barcelona',
+        '5' => 'Rotulacion de cristales, vitrinas y centros comerciales con vinilo acido en Barcelona',
+        '6' => 'Imprimir el logo en vinilo acido arenado en Barcelona. Impresion en todo color',
+        '7' => 'Vinilo adhesivo con efecto ácido para cristales y vitrinas. Hacer pedido',
+        '8' => 'El vinilo translucido con efecto ácido para oficinas y tiendas. Fabricacion en Barcelona con entrega rapida',
+        '9' => 'El vinilo polimérico con efecto arenado acido para colocar al cristales y vitrinas con impresion digital',
+      ],
     ],
     'car_wrapping' => [
       'banner' => '',
