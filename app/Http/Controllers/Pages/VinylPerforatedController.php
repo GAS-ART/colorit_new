@@ -95,6 +95,113 @@ class VinylPerforatedController extends SetLangAndViewController
             ],
         ];
 
+        $portfolioDirEs = 'img/vinyl/regular/es/portfolio/';
+        $portfolioDirRu = 'img/vinyl/regular/ru/portfolio/';
+        $portfolioLocaleAltPath = 'alt.vinyl.regular.portfolio.';
+        //$portfolioLocaleTitlePath = 'portfolio.letters.';
+        $portfolioImages = [
+            'gallery-image-path' => 'vinyl/regular/es/portfolio/gallery',
+            [
+                'es' => [
+                    'src' => $portfolioDirEs . 'vinílo-adhesivo-con-impresión-y-laminación-para-Mercedes.webp',
+                ],
+                'ru' => [
+                    'src' => $portfolioDirRu . 'виниловая-пленка-с-печатью-и-ламинацией-для-мерседес.webp',
+                    
+                ],
+                'alt' => $portfolioLocaleAltPath . '1',
+                'title' => $portfolioLocaleAltPath . '1',
+            ],
+            [
+                'es' => [
+                    'src' => $portfolioDirEs . 'Decoración-de-ventanas-con-vinilo-adhesivo-impreso-con-circulos-dorados.webp',
+                ],
+                'ru' => [
+                    'src' => $portfolioDirRu . 'Оформление-витрины-виниловой-пленкой-с-золотыми-вставками.webp',
+                    
+                ],
+                'alt' => $portfolioLocaleAltPath . '2',
+                'title' => $portfolioLocaleAltPath . '2',
+            ],
+            [
+                'es' => [
+                    'src' => $portfolioDirEs . 'Hermosa-vitrina-de-vinilo-impreso-para-tienda-de-ropa.webp',
+                ],
+                'ru' => [
+                    'src' => $portfolioDirRu . 'Красивая-витрина-из-винила-с-печатью-и-порезкой-для-магазини-одежды.webp',
+                    
+                ],
+                'alt' => $portfolioLocaleAltPath . '3',
+                'title' => $portfolioLocaleAltPath . '3',
+            ],
+            [
+                'es' => [
+                    'src' => $portfolioDirEs . 'Impresión-de-imágenes-en-vinilo-laminado-para-oficinas-y-tiendas.webp',
+                ],
+                'ru' => [
+                    'src' => $portfolioDirRu . 'Печать-изображения-на-виниловой-пленке-в-офисы-и-магазины.webp',
+                    
+                ],
+                'alt' => $portfolioLocaleAltPath . '4',
+                'title' => $portfolioLocaleAltPath . '4',
+            ],
+            [
+                'es' => [
+                    'src' => $portfolioDirEs . 'impresion-y-corte-de-pegatinas-de-vinilo-para-una-tienda-de-ropa-en-Barcelona.webp',
+                ],
+                'ru' => [
+                    'src' => $portfolioDirRu . 'печать-и-порезка-виниловой-наклейки-для-магазина-одежды-в-барселоне.webp',
+                    
+                ],
+                'alt' => $portfolioLocaleAltPath . '5',
+                'title' => $portfolioLocaleAltPath . '5',
+            ],
+            [
+                'es' => [
+                    'src' => $portfolioDirEs . 'Producción-de-diseño-y-vinilo-para-escaparate-de-salón-de-belleza-en-Barcelona.webp',
+                ],
+                'ru' => [
+                    'src' => $portfolioDirRu . 'Изготовление-дизайна-и-виниловой-пленки-для-витрины-салона-красоты-в-барселоне.webp',
+                    
+                ],
+                'alt' => $portfolioLocaleAltPath . '6',
+                'title' => $portfolioLocaleAltPath . '6',
+            ],
+            [
+                'es' => [
+                    'src' => $portfolioDirEs . 'Decoración-del-centro-infantil-con-vinilo-laminado-en-barcelona.webp',
+                ],
+                'ru' => [
+                    'src' => $portfolioDirRu . 'Оформление-детского-центра-виниловой-пленкой-с-ламинацией-в-барселоне.webp',
+                    
+                ],
+                'alt' => $portfolioLocaleAltPath . '7',
+                'title' => $portfolioLocaleAltPath . '7',
+            ],
+            [
+                'es' => [
+                    'src' => $portfolioDirEs . '8.webp',
+                ],
+                'ru' => [
+                    'src' => $portfolioDirRu . '8.webp',
+                    
+                ],
+                'alt' => $portfolioLocaleAltPath . '8',
+                'title' => $portfolioLocaleAltPath . '8',
+            ],
+            [
+                'es' => [
+                    'src' => $portfolioDirEs . '9.webp',
+                ],
+                'ru' => [
+                    'src' => $portfolioDirRu . '9.webp',
+                    
+                ],
+                'alt' => $portfolioLocaleAltPath . '9',
+                'title' => $portfolioLocaleAltPath . '9',
+            ],
+        ];
+
         $questions = [];
         for ($i = 1; $i <= 8; $i++) {
             $questions[] = [
@@ -102,7 +209,6 @@ class VinylPerforatedController extends SetLangAndViewController
                 'answer' => 'vinyl.perforated.questions.' . $i . '.answer',
             ];
         }
-
-        return $this->setLocaleAndView($locale, 'vinyl-perforated', compact('banner', 'breadCrumbs', 'types', 'advantages', 'questions'));
+        return $this->setLocaleAndView($locale, 'vinyl-perforated', compact('banner', 'breadCrumbs', 'types', 'advantages', 'questions', 'portfolioImages'));
     }
 }

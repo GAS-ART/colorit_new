@@ -94,78 +94,91 @@ return [
       'title' => 'Vinilo microperforado',
       'circle_text' => 'Producción hasta 7 días',
     ],
-    'text' => 'Винил перфорированный - это специальный вид винила с микроперфорированными отверстиями, который позволяет проходить свету, при этом сохраняя изображение снаружи. Он используется в рекламе и декорировании с целью сочетания рекламного сообщения и сохранения видимости изнутри.',
+    'text' => 'El vinilo microperforado es un tipo especial de vinilo con agujeros microperforados que permiten el paso de la luz manteniendo la imagen en el exterior. Se utiliza en publicidad y decoración para combinar el mensaje publicitario y mantener la visibilidad desde el interior.',
     'lead' => [
-      'title' => 'Оставьте заявку на печать и поклейку перфорированного винила',
+      'title' => 'Deja una solicitud para fabricar vinilo mircoperforado',
     ],
     'types' => [
-      'title' => 'Где используется',
-      'text' => 'При поклейке окон в автотранспорте, когда пассажиры видят все, что происходит за окном, в то время как снаружи передается рекламное сообщение.<br>
-        Перфорированный винил может быть использован для декорации витрин магазинов, где нужно поддерживать видимость товаров и одновременно предоставить место для рекламы.<br>
-        В офисных помещениях используется для декорации офисных окон, закрывая все что происходит внутри помещения, и в то же время служа рекламным носителем, достаточно хорошо пропуская свет.',
+      'title' => '¿Dónde se usa?',
+      'text' => 'Al pegar cristales en los vehículos, cuando los pasajeros ven todo lo que sucede fuera de la ventanilla, mientras se transmite un mensaje publicitario al exterior.<br>
+        El vinilo perforado se puede utilizar para decorar escaparates donde se necesita mantener la visibilidad de los productos y al mismo tiempo proporcionar espacio publicitario..<br>
+        En los locales de oficinas se utiliza para decorar las ventanas de las oficinas, cubriendo todo lo que sucede en el interior del local, y al mismo tiempo sirviendo como soporte publicitario, transmitiendo bastante bien la luz.',
       'image_titles' => [
-        '1' => 'Транспорт',
+        '1' => 'transporte',
         'alt_1' => '',
-        '2' => 'Витрины',
+        '2' => 'Escaparates',
         'alt_2' => '',
-        '3' => 'Офис',
+        '3' => 'Oficinas',
         'alt_3' => '',
       ],
     ],
     'advantages' => [
-      'title' => 'Преимущества',
+      'title' => 'Ventajas',
       '1' => [
-        'title' => 'Реклама и видимость',
-        'text' => 'Перфорированная пленка позволяет создать яркую и эффективную рекламу, одновременно сохраняя видимость из помещения или автомобиля, позволяя пассажирам или сотрудникам наслаждаться окружающим миром.',
+        'title' => 'Publicidad y visibilidad',
+        'text' => 'La película perforada le permite crear publicidad brillante y eficaz manteniendo la visibilidad desde la habitación o el vehículo, permitiendo a los pasajeros o empleados disfrutar del mundo exterior.',
       ],
       '2' => [
-        'title' => 'Свет и вентиляция',
-        'text' => 'Перфорированные отверстия в пленке позволяют пропускать свет, что позволяет сохранить освещенность внутри помещения и создать комфортные условия для работы или отдыха.',
+        'title' => 'Luz y ventilación',
+        'text' => 'Vinilo microperforado va a dejar pasar la luz, lo que permite mantener la iluminación dentro de la habitación y crear condiciones cómodas para trabajar o descansar.',
       ],
       '3' => [
-        'title' => 'Защита от солнца',
-        'text' => 'Такая пленка действует как эффективный барьер от солнечных лучей, снижая нагрев внутри помещения или автомобиля. Это обеспечивает более комфортные условия и защиту от ультрафиолетового излучения.',
+        'title' => 'Proteccion solar',
+        'text' => 'Esta película actúa como una barrera eficaz contra la luz solar, reduciendo el calor dentro de una habitación o de un coche. Esto proporciona condiciones más cómodas y protección contra la radiación ultravioleta.',
       ],
       '4' => [
-        'title' => 'Привлекательный внешний вид',
-        'text' => 'Оклейка транспорта и витрин перфорированной пленкой придает поверхности стильный и современный вид. Изображение на пленке привлекает внимание прохожих, создавая впечатляющий визуальный эффект.',
+        'title' => 'Apariencia atractiva',
+        'text' => 'Cubrir vehículos y escaparates con vinilo perforadas confiere a la superficie un aspecto elegante y moderno. La imagen de la película atrae la atención de los transeúntes, creando un efecto visual impresionante.',
       ],
     ],
     'questions' => [
       '1' => [
-        'question' => 'Какая прозрачность перфорированной пленки?',
-        'answer' => '',
+        'question' => '¿Cuál es la transparencia de vinilo microperforado?',
+        'answer' => 'En general, el vinilo microperforado transmite bien la luz. En el interior se ve una ligera malla sobre el cristal que no interfiere con la visión, mientras que en el exterior hay una imagen gráfica o publicitaria. Así, durante el día, se puede ver el entorno circundante desde el interior, mientras que el entorno interior no es visible.',
       ],
       '2' => [
-        'question' => 'Как долго длится установка?',
-        'answer' => '',
+        'question' => '¿Qué condiciones de cuidado deben observarse después de la instalación?',
+        'answer' => 'El vidrio decorado con una película mircoperforada se puede lavar como el vidrio normal. No utilice raspadores, cepillos u otros objetos ásperos.',
       ],
       '3' => [
-        'question' => 'Какие условия ухода нужно соблюдать после установки?',
-        'answer' => '',
+        'question' => '¿Es posible reutilizar una película así?',
+        'answer' => 'El vinilo perforado, al igual que otros tipos de vinilos adhesivos, no se puede reutilizar.',
       ],
       '4' => [
-        'question' => 'Можно ли снять перфорированную пленку и заменить ее?',
-        'answer' => '',
+        'question' => '¿Existen restricciones sobre el volumen de producción de publicidad de vinilo perforado?',
+        'answer' => 'Nuestra producción garantizará cualquier volumen de impresión y instalacion de vinilo. Si es necesario de instalacion de varios objetos en diferentes ciudades, también organizamos la instalación in situo.',
       ],
       '5' => [
-        'question' => 'Возможно ли повторное использование такой пленки?',
-        'answer' => '',
+        'question' => '¿Cuánto tiempo lleva la instalación?',
+        'answer' => 'El tiempo de instalación de dicha película no difiere del tiempo de instalación de vinilo adhesivo normal. El tiempo de instalación depende del área y de las condiciones de pegado, por ejemplo, altura, superficie y condiciones climáticas.',
       ],
       '6' => [
-        'question' => 'Есть ли какие-либо правила или ограничения по использованию перфорированной пленки в определенных местах или странах?',
-        'answer' => '',
+        'question' => '¿Se puede quitar y reemplazar la película perforada?',
+        'answer' => 'La película perforada se retira fácilmente. Recomendamos contratar especialistas para desmontar vinilo mircoperforado.',
       ],
       '7' => [
-        'question' => 'Есть ли ограничения по объемам изготовления рекламы на перфорированной пленке?',
-        'answer' => '',
+        'question' => '¿Existen regulaciones o restricciones sobre el uso de vinilo perforado en ciertos lugares o países?',
+        'answer' => 'Las restricciones sobre el uso de láminas perforadas deben comprobarse en el lugar de instalación con las autoridades competentes responsables de la publicidad.',
       ],
       '8' => [
-        'question' => 'Можно ли получить консультацию прежде чем заказать такой вид винила?',
-        'answer' => '',
+        'question' => '¿Es posible asesorarse antes de realizar el pedido de este tipo de vinilos?',
+        'answer' => 'Si seguro. Nuestros especialistas están siempre dispuestos a prestar servicios de asesoramiento gratuitos y, si es necesario, in situ. Para concertar una consulta o reunión, deje una solicitud en nuestro sitio web.',
       ],
     ],
-    'about_text' => '',
+    'about_text' => 'Film Vinílico Perforado: Innovación en Publicidad y Diseño<br><br>
+    En el mundo de la publicidad y el diseño modernos, existen muchas formas de llamar la atención sobre su marca, producto o mensaje. Una de las formas más efectivas y únicas es utilizar una película de vinilo perforada. Combinando funcionalidad y estética, este material abre nuevos horizontes para la publicidad y el diseño.<br><br>
+    ¿Qué es la película vinílica perforada?<br>
+    La película de vinilo perforada es un material innovador que consta de un soporte de vinilo con muchos agujeros microscópicos. Estos agujeros están ubicados de tal manera que desde el exterior se ve una imagen opaca o un anuncio, mientras que desde el interior se puede ver claramente el mundo exterior.<br><br>
+    ¿Cómo funciona?<br>
+    El funcionamiento de la película de vinilo perforada se basa en la idea de que desde una distancia corta tu ojo enfocará la imagen exterior, pero a medida que te alejas la imagen se vuelve menos visible y puedes ver a través de la película. Esto crea un efecto sorprendente que hace que la película de vinilo perforada sea una opción ideal para publicidad en escaparates de automóviles, escaparates, edificios e incluso interiores.<br><br>
+    Ventajas de la película vinílica perforada:<br><br>
+    Aspecto atractivo: La película permite crear imágenes publicitarias creativas y vibrantes que atraen la atención de los transeúntes y clientes.<br><br>
+    Protección contra el sol y el calor: la película de vinilo perforada bloquea los rayos UV y reduce la carga de calor en el interior o el interior de un vehículo.<br><br>
+    Privacidad: Ideal para crear áreas de privacidad, ya que es casi imposible ver lo que sucede en el interior desde el exterior.<br><br>
+    Potencial publicitario: Excelente para mostrar marcas, logotipos e información de contacto en vehículos, escaparates y escaparates de edificios.<br><br>
+    Resistente a la intemperie: la película de vinilo perforada es duradera y resistente al agua y a los rayos UV.<br><br>
+    Fácil de instalar y cambiar: la película es fácil de aplicar al vidrio u otras superficies y se puede reemplazar si necesita actualizar el diseño.<br><br>
+    La película de vinilo perforada abre infinitas posibilidades a la creatividad en publicidad y diseño. Le permite transmitir su mensaje manteniendo la funcionalidad y el estilo. Ya sea publicidad en un automóvil, decoración de interiores o escaparates, este material ha demostrado su eficacia y atractivo. Utilice película de vinilo perforada para hacer que su marca sea inolvidable y única.',
   ],
   'sandblast_film' => [
     'banner' => [

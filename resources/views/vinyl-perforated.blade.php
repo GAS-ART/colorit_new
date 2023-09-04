@@ -14,8 +14,7 @@
 </x-main-text>
 <x-swiper.swiper-3 :data="$types" />
 <x-advantages :$advantages />
-{{--
-<x-portfolio :$portfolioImages /> --}}
+<x-portfolio :$portfolioImages />
 <x-lead>
   <x-slot name="title">@lang('vinyl.perforated.lead.title')</x-slot>
   <x-slot name="leadInfo">ВИНИЛ ПЕРФОРИРОВАННЫЙ ({{ url()->current() }})</x-slot>
