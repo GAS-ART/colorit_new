@@ -15,6 +15,7 @@ return [
    'vinyl_car_wrapping' => 'Vinilo para vehiculos',
    'expos_brandwall' => 'Брендволл',
    'expos_banner' => 'Баннер',
+   'expos_rollup' => 'Ролл ап',
 ]
 
 ?>

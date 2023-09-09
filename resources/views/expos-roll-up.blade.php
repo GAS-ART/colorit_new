@@ -7,7 +7,22 @@
 @section('mainPopupPayload', 'РОЛЛ АП (' . url()->current() . ')')
 
 @section('content')
-<section style="text-align: center; font-size: 60px; font-weight:700; color: #89368E;" class="test__container">
-  РОЛЛ АП
-</section>
+<x-main-banner :$banner />
+<x-bread-crumbs :$breadCrumbs />
+<x-main-text>
+  @lang('expos.rollup.text')
+</x-main-text>
+<x-two-images-section :data="$types" />
+{{-- <x-portfolio :$portfolioImages /> --}}
+<x-lead>
+  <x-slot name="title">@lang('expos.rollup.lead.title')</x-slot>
+  <x-slot name="leadInfo">РОЛЛ АП ({{ url()->current() }})</x-slot>
+</x-lead>
+{{-- <x-questions :$questions />
+<x-about>
+  @lang('vinyl.regular.about_text')
+</x-about> --}}
+<x-question-lead>
+  РОЛЛ АП ({{ url()->current() }})
+</x-question-lead>
 @endsection

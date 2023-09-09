@@ -82,6 +82,6 @@ class ExposWallBannerController extends SetLangAndViewController
                 ],
             ],
         ];
-        return $this->setLocaleAndView($locale, 'expos-wall-banner', compact('banner', 'breadCrumbs', 'types', 'types3',));
+        return $this->setLocaleAndView($locale, 'expos-wall-banner', compact('banner', 'breadCrumbs', 'types', 'types3'));
     }
 }

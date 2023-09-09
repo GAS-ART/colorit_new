@@ -170,10 +170,14 @@ return [
       'banner' => '',
       'big_image' => '',
     ],
+    'banner'=> [
+      'banner' => '',
+    ],
+    'rollup'=> [
+      'banner' => '',
+    ],
   ],
-  'banner'=> [
-    'banner' => '',
-  ],
+  
 ]
 
 ?>

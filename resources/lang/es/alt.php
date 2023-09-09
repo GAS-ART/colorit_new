@@ -173,7 +173,9 @@ return [
     'banner'=> [
       'banner' => '',
     ],
-
+    'rollup'=> [
+      'banner' => '',
+    ],
   ],
 ]
 
