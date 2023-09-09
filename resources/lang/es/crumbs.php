@@ -13,6 +13,7 @@ return [
    'vinyl_perforated' => 'Vinilo microperforado',
    'sandblast_film' => 'Vinilo acido',
    'vinyl_car_wrapping' => 'Vinilo para vehiculos',
+   'expos_brandwall' => 'Брендволл',
 ]
 
 ?>

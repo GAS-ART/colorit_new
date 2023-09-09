@@ -165,6 +165,12 @@ return [
       'banner' => '',
     ],
   ],
+  'expos' => [
+    'brandwall'=> [
+      'banner' => '',
+      'big_image' => '',
+    ],
+  ],
 ]
 
 ?>

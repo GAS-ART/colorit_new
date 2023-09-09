@@ -13,6 +13,7 @@ return [
    'vinyl_perforated' => 'Винил перфорированный',
    'sandblast_film' => 'Пескоструйная пленка',
    'vinyl_car_wrapping' => 'Обклейка машины',
+   'expos_brandwall' => 'Брендволл',
 ]
 
 ?>
