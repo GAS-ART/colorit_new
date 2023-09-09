@@ -7,7 +7,22 @@
 @section('mainPopupPayload', 'БЕЙДЖИ (' . url()->current() . ')')
 
 @section('content')
-<section style="text-align: center; font-size: 60px; font-weight:700; color: #89368E;" class="test__container">
-  БЕЙДЖИ
-</section>
+<x-main-banner :$banner />
+<x-bread-crumbs :$breadCrumbs />
+<x-main-text>
+  @lang('expos.badges.text')
+</x-main-text>
+<x-swiper.swiper-3 :data="$types" />
+{{-- <x-portfolio :$portfolioImages /> --}}
+<x-lead>
+  <x-slot name="title">@lang('expos.clothes.lead.title')</x-slot>
+  <x-slot name="leadInfo">БЕЙДЖИ ({{ url()->current() }})</x-slot>
+</x-lead>
+{{-- <x-questions :$questions />
+<x-about>
+  @lang('vinyl.regular.about_text')
+</x-about> --}}
+<x-question-lead>
+  БЕЙДЖИ ({{ url()->current() }})
+</x-question-lead>
 @endsection

@@ -179,6 +179,9 @@ return [
     'clothes'=> [
       'banner' => '',
     ],
+    'badges'=> [
+      'banner' => '',
+    ],
   ],
 
 ]
