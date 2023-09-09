@@ -16,6 +16,7 @@ return [
    'expos_brandwall' => 'Брендволл',
    'expos_banner' => 'Баннер',
    'expos_rollup' => 'Ролл ап',
+   'expos_clothes' => 'Брендированная одежда',
 ]
 
 ?>

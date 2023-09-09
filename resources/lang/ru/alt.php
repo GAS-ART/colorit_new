@@ -176,6 +176,9 @@ return [
     'rollup'=> [
       'banner' => '',
     ],
+    'clothes'=> [
+      'banner' => '',
+    ],
   ],
   
 ]
