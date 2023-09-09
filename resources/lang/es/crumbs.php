@@ -14,6 +14,7 @@ return [
    'sandblast_film' => 'Vinilo acido',
    'vinyl_car_wrapping' => 'Vinilo para vehiculos',
    'expos_brandwall' => 'Брендволл',
+   'expos_banner' => 'Баннер',
 ]
 
 ?>

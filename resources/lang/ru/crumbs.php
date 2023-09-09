@@ -14,6 +14,7 @@ return [
    'sandblast_film' => 'Пескоструйная пленка',
    'vinyl_car_wrapping' => 'Обклейка машины',
    'expos_brandwall' => 'Брендволл',
+   'expos_banner' => 'Баннер',
 ]
 
 ?>

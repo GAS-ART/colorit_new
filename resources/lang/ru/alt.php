@@ -171,6 +171,9 @@ return [
       'big_image' => '',
     ],
   ],
+  'banner'=> [
+    'banner' => '',
+  ],
 ]
 
 ?>

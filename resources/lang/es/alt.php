@@ -170,6 +170,9 @@ return [
       'banner' => '',
       'big_image' => '',
     ],
+    'banner'=> [
+      'banner' => '',
+    ],
 
   ],
 ]
