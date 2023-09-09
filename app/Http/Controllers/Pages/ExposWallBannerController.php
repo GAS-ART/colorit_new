@@ -52,10 +52,10 @@ class ExposWallBannerController extends SetLangAndViewController
         ];
         $typesDirEs = 'img/expos/brandwall/es/types/';
         $typesDirRu = 'img/expos/brandwall/ru/types/';
-        $typesImgTitleLangDir = 'expos.brandwall.types.image_titles.';
+        $typesImgTitleLangDir = 'expos.brandwall.types3.image_titles.';
         $types3 = [
-            'title' => 'expos.brandwall.types.title',
-            'text' => 'expos.brandwall.types.text',
+            'title' => 'expos.brandwall.types3.title',
+            'text' => 'expos.brandwall.types3.text',
             'spaceBetween' => '20',
             'btn_prefix' => 'types-',
             'slides' => [
