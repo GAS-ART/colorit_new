@@ -11,12 +11,12 @@ class VinylRegularController extends SetLangAndViewController
         $banner = [
             'title' => 'vinyl.regular.banner.title',
             'es' => [
-            'imgBig' => 'img/vinyl/regular/es/main.webp',
-            'imgMin' => 'img/vinyl/regular/es/main_.webp',
+            'imgBig' => 'img/vinyl/regular/es/Vinilo-adhesivo-para-escaparates-y-locales-en-barcelona.webp',
+            'imgMin' => 'img/vinyl/regular/es/Vinilo-adhesivo-para-escaparates-y-locales-en-barcelona_.webp',
             ],
             'ru' => [
-            'imgBig' => 'img/vinyl/regular/ru/main.webp',
-            'imgMin' => 'img/vinyl/regular/ru/main_.webp',
+            'imgBig' => 'img/vinyl/regular/ru/Виниловая-пленка-изготовление-и-печать-в-барселоне.webp',
+            'imgMin' => 'img/vinyl/regular/ru/Виниловая-пленка-изготовление-и-печать-в-барселоне_.webp',
             ],
             'alt' => 'alt.vinyl.regular.banner',
             'circle_text' => 'vinyl.regular.banner.circle_text',
@@ -85,7 +85,7 @@ class VinylRegularController extends SetLangAndViewController
         $portfolioDirEs = 'img/vinyl/regular/es/portfolio/';
         $portfolioDirRu = 'img/vinyl/regular/ru/portfolio/';
         $portfolioLocaleAltPath = 'alt.vinyl.regular.portfolio.';
-        //$portfolioLocaleTitlePath = 'portfolio.letters.';
+        $portfolioLocaleTitlePath = 'vinyl.regular.portfolio.';
         $portfolioImages = [
             'gallery-image-path' => 'vinyl/regular/es/portfolio/gallery',
             [
@@ -97,7 +97,7 @@ class VinylRegularController extends SetLangAndViewController
                     
                 ],
                 'alt' => $portfolioLocaleAltPath . '1',
-                'title' => $portfolioLocaleAltPath . '1',
+                'title' => $portfolioLocaleTitlePath . '1',
             ],
             [
                 'es' => [
@@ -108,7 +108,7 @@ class VinylRegularController extends SetLangAndViewController
                     
                 ],
                 'alt' => $portfolioLocaleAltPath . '2',
-                'title' => $portfolioLocaleAltPath . '2',
+                'title' => $portfolioLocaleTitlePath . '2',
             ],
             [
                 'es' => [
@@ -119,7 +119,7 @@ class VinylRegularController extends SetLangAndViewController
                     
                 ],
                 'alt' => $portfolioLocaleAltPath . '3',
-                'title' => $portfolioLocaleAltPath . '3',
+                'title' => $portfolioLocaleTitlePath . '3',
             ],
             [
                 'es' => [
@@ -130,7 +130,7 @@ class VinylRegularController extends SetLangAndViewController
                     
                 ],
                 'alt' => $portfolioLocaleAltPath . '4',
-                'title' => $portfolioLocaleAltPath . '4',
+                'title' => $portfolioLocaleTitlePath . '4',
             ],
             [
                 'es' => [
@@ -141,7 +141,7 @@ class VinylRegularController extends SetLangAndViewController
                     
                 ],
                 'alt' => $portfolioLocaleAltPath . '5',
-                'title' => $portfolioLocaleAltPath . '5',
+                'title' => $portfolioLocaleTitlePath . '5',
             ],
             [
                 'es' => [
@@ -152,7 +152,7 @@ class VinylRegularController extends SetLangAndViewController
                     
                 ],
                 'alt' => $portfolioLocaleAltPath . '6',
-                'title' => $portfolioLocaleAltPath . '6',
+                'title' => $portfolioLocaleTitlePath . '6',
             ],
             [
                 'es' => [
@@ -163,7 +163,7 @@ class VinylRegularController extends SetLangAndViewController
                     
                 ],
                 'alt' => $portfolioLocaleAltPath . '7',
-                'title' => $portfolioLocaleAltPath . '7',
+                'title' => $portfolioLocaleTitlePath . '7',
             ],
             [
                 'es' => [
@@ -174,7 +174,7 @@ class VinylRegularController extends SetLangAndViewController
                     
                 ],
                 'alt' => $portfolioLocaleAltPath . '8',
-                'title' => $portfolioLocaleAltPath . '8',
+                'title' => $portfolioLocaleTitlePath . '8',
             ],
             [
                 'es' => [
@@ -185,7 +185,7 @@ class VinylRegularController extends SetLangAndViewController
                     
                 ],
                 'alt' => $portfolioLocaleAltPath . '9',
-                'title' => $portfolioLocaleAltPath . '9',
+                'title' => $portfolioLocaleTitlePath . '9',
             ],
         ];
 

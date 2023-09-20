@@ -21,9 +21,9 @@
   <x-slot name="leadInfo">ВИНИЛ ОБКЛЕЙКА МАШИНЫ ({{ url()->current() }})</x-slot>
 </x-lead>
 <x-questions :$questions />
-{{-- <x-about>
+<x-about>
   @lang('vinyl.regular.about_text')
-</x-about> --}}
+</x-about> 
 <x-question-lead>
   ВИНИЛ ОБКЛЕЙКА МАШИНЫ ({{ url()->current() }})
 </x-question-lead>

@@ -98,6 +98,14 @@ class ExposBannerController extends SetLangAndViewController
             ],
         ];
 
-        return $this->setLocaleAndView($locale, 'expos-banner', compact('banner', 'breadCrumbs', 'types', 'examples'));
+        $questions = [];
+        for ($i = 1; $i <= 8; $i++) {
+            $questions[] = [
+                'question' => 'expos.banner.questions.' . $i . '.question',
+                'answer' => 'expos.banner.questions.' . $i . '.answer',
+            ];
+        }
+
+        return $this->setLocaleAndView($locale, 'expos-banner', compact('banner', 'breadCrumbs', 'types', 'examples', 'questions'));
     }
 }

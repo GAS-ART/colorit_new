@@ -100,6 +100,14 @@ class ExposClothingController extends SetLangAndViewController
             ],
         ];
 
-        return $this->setLocaleAndView($locale, 'expos-clothing', compact('banner', 'breadCrumbs', 'types', 'examples'));
+        $questions = [];
+        for ($i = 1; $i <= 8; $i++) {
+            $questions[] = [
+                'question' => 'expos.clothes.questions.' . $i . '.question',
+                'answer' => 'expos.clothes.questions.' . $i . '.answer',
+            ];
+        }
+
+        return $this->setLocaleAndView($locale, 'expos-clothing', compact('banner', 'breadCrumbs', 'types', 'examples', 'questions'));
     }
 }

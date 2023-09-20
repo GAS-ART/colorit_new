@@ -18,8 +18,8 @@
   <x-slot name="title">@lang('expos.rollup.lead.title')</x-slot>
   <x-slot name="leadInfo">РОЛЛ АП ({{ url()->current() }})</x-slot>
 </x-lead>
-{{-- <x-questions :$questions />
-<x-about>
+<x-questions :$questions />
+{{-- <x-about>
   @lang('vinyl.regular.about_text')
 </x-about> --}}
 <x-question-lead>

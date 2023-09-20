@@ -11,12 +11,12 @@ class VinylPerforatedController extends SetLangAndViewController
         $banner = [
             'title' => 'vinyl.perforated.banner.title',
             'es' => [
-            'imgBig' => 'img/vinyl/perforated/es/main.webp',
-            'imgMin' => 'img/vinyl/perforated/es/main_.webp',
+            'imgBig' => 'img/vinyl/perforated/es/Vinilo-microperforado-impresion-y-montaje-en-barcelona.webp',
+            'imgMin' => 'img/vinyl/perforated/es/Vinilo-microperforado-impresion-y-montaje-en-barcelona_.webp',
             ],
             'ru' => [
-            'imgBig' => 'img/vinyl/perforated/ru/main.webp',
-            'imgMin' => 'img/vinyl/perforated/ru/main_.webp',
+            'imgBig' => 'img/vinyl/perforated/ru/Изготовление-перфопленки-с-печатью-для-магазинов-и-офисов-в-барселоне.webp',
+            'imgMin' => 'img/vinyl/perforated/ru/Изготовление-перфопленки-с-печатью-для-магазинов-и-офисов-в-барселоне_.webp',
             ],
             'alt' => 'alt.vinyl.perforated.banner',
             'circle_text' => 'vinyl.perforated.banner.circle_text',
@@ -38,7 +38,7 @@ class VinylPerforatedController extends SetLangAndViewController
         $typesImgTitleLangDir = 'vinyl.perforated.types.image_titles.';
         $types = [
             'title' => 'vinyl.perforated.types.title',
-            'text' => 'vinyl.perforated.types.text',
+            'text' => null,
             'spaceBetween' => '20',
             'btn_prefix' => 'types-',
             'slides' => [
@@ -47,6 +47,7 @@ class VinylPerforatedController extends SetLangAndViewController
                     'ru' => $typesDirRu .  '1.webp',
                     'title' => $typesImgTitleLangDir . '1',
                     'alt' => $typesImgTitleLangDir . 'alt_1',
+                    'text' => $typesImgTitleLangDir . 'text_1',
                     'height' => 'h-300',
                 ],
                 [
@@ -54,6 +55,7 @@ class VinylPerforatedController extends SetLangAndViewController
                     'ru' => $typesDirRu .  '2.webp',
                     'title' => $typesImgTitleLangDir . '2',
                     'alt' => $typesImgTitleLangDir . 'alt_2',
+                    'text' => $typesImgTitleLangDir . 'text_2',
                     'height' => 'h-300',
                 ],
                 [
@@ -61,6 +63,7 @@ class VinylPerforatedController extends SetLangAndViewController
                     'ru' => $typesDirRu .  '3.webp',
                     'title' => $typesImgTitleLangDir . '3',
                     'alt' => $typesImgTitleLangDir . 'alt_3',
+                    'text' => $typesImgTitleLangDir . 'text_3',
                     'height' => 'h-300',
                 ],
             ],

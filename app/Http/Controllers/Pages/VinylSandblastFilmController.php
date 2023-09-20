@@ -11,12 +11,12 @@ class VinylSandblastFilmController extends SetLangAndViewController
         $banner = [
             'title' => 'vinyl.sandblast_film.banner.title',
             'es' => [
-            'imgBig' => 'img/vinyl/sandblast_film/es/main.webp',
-            'imgMin' => 'img/vinyl/sandblast_film/es/main_.webp',
+            'imgBig' => 'img/vinyl/sandblast_film/es/Pelicula-griz-mate-para-tiendas-y-oficinas-en-barcelona.webp',
+            'imgMin' => 'img/vinyl/sandblast_film/es/Pelicula-griz-mate-para-tiendas-y-oficinas-en-barcelona_.webp',
             ],
             'ru' => [
-            'imgBig' => 'img/vinyl/sandblast_film/ru/main.webp',
-            'imgMin' => 'img/vinyl/sandblast_film/ru/main_.webp',
+            'imgBig' => 'img/vinyl/sandblast_film/ru/Серая-матовая-пленка-для-офисов-и-витрин-магазинов.webp',
+            'imgMin' => 'img/vinyl/sandblast_film/ru/Серая-матовая-пленка-для-офисов-и-витрин-магазинов_.webp',
             ],
             'alt' => 'alt.vinyl.sandblast_film.banner',
             'circle_text' => 'vinyl.sandblast_film.banner.circle_text',
@@ -43,22 +43,22 @@ class VinylSandblastFilmController extends SetLangAndViewController
             'btn_prefix' => 'types-',
             'slides' => [
                 [
-                    'es' => $typesDirEs .  '1.webp',
-                    'ru' => $typesDirRu .  '1.webp',
+                    'es' => $typesDirEs .  'Pegar-vinilo-gris-mate-en-un-salon-de-estetica-en-Barcelona.webp',
+                    'ru' => $typesDirRu .  'Поклейка-серой-матовой-пленки-в-салон-эстетики-в-Барселоне.webp',
                     'title' => $typesImgTitleLangDir . '1',
                     'alt' => $typesImgTitleLangDir . 'alt_1',
                     'height' => 'h-300',
                 ],
                 [
-                    'es' => $typesDirEs .  '2.webp',
-                    'ru' => $typesDirRu .  '2.webp',
+                    'es' => $typesDirEs .  'Vinilo-gris-mate-con-corte-para-un-salón-de-belleza-en-Barcelona.webp',
+                    'ru' => $typesDirRu .  'Серая-матовая-пленка-с-порезкой-для-салона-красоты-в-Барселоне.webp',
                     'title' => $typesImgTitleLangDir . '2',
                     'alt' => $typesImgTitleLangDir . 'alt_2',
                     'height' => 'h-300',
                 ],
                 [
-                    'es' => $typesDirEs .  '3.webp',
-                    'ru' => $typesDirRu .  '3.webp',
+                    'es' => $typesDirEs .  'Vinilo-acido-con-impresion-en-color-para-salon-de-belleza.webp',
+                    'ru' => $typesDirRu .  'Пленка-серая-с-цветной-печатью-для-салона-красоты.webp',
                     'title' => $typesImgTitleLangDir . '3',
                     'alt' => $typesImgTitleLangDir . 'alt_3',
                     'height' => 'h-300',
@@ -98,7 +98,7 @@ class VinylSandblastFilmController extends SetLangAndViewController
         $portfolioDirEs = 'img/vinyl/sandblast_film/es/portfolio/';
         $portfolioDirRu = 'img/vinyl/sandblast_film/ru/portfolio/';
         $portfolioLocaleAltPath = 'alt.vinyl.sandblast_film.portfolio.';
-        //$portfolioLocaleTitlePath = 'portfolio.letters.';
+        $portfolioLocaleTitlePath = 'vinyl.regular.portfolio.';
         $portfolioImages = [
             'gallery-image-path' => 'vinyl/sandblast_film/es/portfolio/gallery',
             [
@@ -110,7 +110,7 @@ class VinylSandblastFilmController extends SetLangAndViewController
                     
                 ],
                 'alt' => $portfolioLocaleAltPath . '1',
-                'title' => $portfolioLocaleAltPath . '1',
+                'title' => $portfolioLocaleTitlePath . '1',
             ],
             [
                 'es' => [
@@ -121,7 +121,7 @@ class VinylSandblastFilmController extends SetLangAndViewController
                     
                 ],
                 'alt' => $portfolioLocaleAltPath . '2',
-                'title' => $portfolioLocaleAltPath . '2',
+                'title' => $portfolioLocaleTitlePath . '2',
             ],
             [
                 'es' => [
@@ -132,7 +132,7 @@ class VinylSandblastFilmController extends SetLangAndViewController
                     
                 ],
                 'alt' => $portfolioLocaleAltPath . '3',
-                'title' => $portfolioLocaleAltPath . '3',
+                'title' => $portfolioLocaleTitlePath . '3',
             ],
             [
                 'es' => [
@@ -143,7 +143,7 @@ class VinylSandblastFilmController extends SetLangAndViewController
                     
                 ],
                 'alt' => $portfolioLocaleAltPath . '4',
-                'title' => $portfolioLocaleAltPath . '4',
+                'title' => $portfolioLocaleTitlePath . '4',
             ],
             [
                 'es' => [
@@ -154,7 +154,7 @@ class VinylSandblastFilmController extends SetLangAndViewController
                     
                 ],
                 'alt' => $portfolioLocaleAltPath . '5',
-                'title' => $portfolioLocaleAltPath . '5',
+                'title' => $portfolioLocaleTitlePath . '5',
             ],
             [
                 'es' => [
@@ -165,7 +165,7 @@ class VinylSandblastFilmController extends SetLangAndViewController
                     
                 ],
                 'alt' => $portfolioLocaleAltPath . '6',
-                'title' => $portfolioLocaleAltPath . '6',
+                'title' => $portfolioLocaleTitlePath . '6',
             ],
             [
                 'es' => [
@@ -176,7 +176,7 @@ class VinylSandblastFilmController extends SetLangAndViewController
                     
                 ],
                 'alt' => $portfolioLocaleAltPath . '7',
-                'title' => $portfolioLocaleAltPath . '7',
+                'title' => $portfolioLocaleTitlePath . '7',
             ],
             [
                 'es' => [
@@ -187,7 +187,7 @@ class VinylSandblastFilmController extends SetLangAndViewController
                     
                 ],
                 'alt' => $portfolioLocaleAltPath . '8',
-                'title' => $portfolioLocaleAltPath . '8',
+                'title' => $portfolioLocaleTitlePath . '8',
             ],
             [
                 'es' => [
@@ -198,7 +198,7 @@ class VinylSandblastFilmController extends SetLangAndViewController
                     
                 ],
                 'alt' => $portfolioLocaleAltPath . '9',
-                'title' => $portfolioLocaleAltPath . '9',
+                'title' => $portfolioLocaleTitlePath . '9',
             ],
         ];
 

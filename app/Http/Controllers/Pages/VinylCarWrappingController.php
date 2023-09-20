@@ -11,12 +11,12 @@ class VinylCarWrappingController extends SetLangAndViewController
         $banner = [
             'title' => 'vinyl.car_wrapping.banner.title',
             'es' => [
-            'imgBig' => 'img/vinyl/car_wrapping/es/main.webp',
-            'imgMin' => 'img/vinyl/car_wrapping/es/main_.webp',
+            'imgBig' => 'img/vinyl/car_wrapping/es/Rotulacion-de-coches-con-vinilo-impreso-en-barcelona.webp',
+            'imgMin' => 'img/vinyl/car_wrapping/es/Rotulacion-de-coches-con-vinilo-impreso-en-barcelona_.webp',
             ],
             'ru' => [
-            'imgBig' => 'img/vinyl/car_wrapping/ru/main.webp',
-            'imgMin' => 'img/vinyl/car_wrapping/ru/main_.webp',
+            'imgBig' => 'img/vinyl/car_wrapping/ru/Обклейка-авто-в-барселоне-виниловой-пленкой.webp',
+            'imgMin' => 'img/vinyl/car_wrapping/ru/Обклейка-авто-в-барселоне-виниловой-пленкой_.webp',
             ],
             'alt' => 'alt.vinyl.car_wrapping.banner',
             'circle_text' => 'vinyl.car_wrapping.banner.circle_text',

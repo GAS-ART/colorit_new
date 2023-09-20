@@ -131,7 +131,7 @@ return [
   ],
   'vinyl' => [
     'regular' => [
-      'banner' => '',
+      'banner' => 'Vinilo adhesivo impreso en Barcelona. Fabricamos vinilos para tiendas',
       'portfolio' => [
         '1' => 'Producción de vinilo adhesivo con impresión y laminación en Barcelona. Calidad y garantía.',
         '2' => 'Vinilo adhesivo impreso para tienda de muebles. Rápida producción e instalación.',
@@ -145,10 +145,10 @@ return [
       ],
     ],
     'perforated' => [
-      'banner' => '',
+      'banner' => 'Vinilo microperforado en Barcelona. Impresion y montaje',
     ],
     'sandblast_film' => [
-      'banner' => '',
+      'banner' => 'Vinilo acido glaseado montaje y fabricacion en Barcelona',
       'portfolio' => [
         '1' => 'Película glaseado mate impresa en Barcelona. Pedir cualquier tipo de película de vinilo.',
         '2' => 'Vinilo de corte de vinilo acido glaseado para oficinas. Fabricacion y entrega rapida',
@@ -162,13 +162,21 @@ return [
       ],
     ],
     'car_wrapping' => [
-      'banner' => '',
+      'banner' => 'Rotulacion de coches en Barcelona',
     ],
   ],
   'expos' => [
     'brandwall'=> [
-      'banner' => '',
+      'banner' => 'Fabricacion de photocall, brandwall, photostans para eventos y ferias en Barcelona y toda España',
       'big_image' => '',
+      'portfolio' => [
+        '1' => 'Photocall para Big Money forum en Barcelona',
+        '2' => 'Compar rapido photocall para evento en Barcelona',
+        '3' => 'Stands para feria con impresion digital para Bio Art Group en Barcelona',
+        '4' => 'Pedir phtocall perzonalizado en Barcelona con entrega rapida',
+        '5' => 'Stands, photocalls en Barcelona. Entrega rapida con calidad',
+        '6' => 'Brandwall comprar en Barcelona con entrega rapida a toda España',
+      ],
     ],
     'banner'=> [
       'banner' => '',

@@ -1,7 +1,7 @@
 <section class="swiper-3">
   <div class="swiper-3__container">
     <h2 class="swiper-3__title">@lang($data['title'])</h2>
-    @if ($data['text'])
+    @if (isset($data['text']))
     <p class="swiper-3__text">@lang($data['text'])</p>
     @endif
     <div class="swiper-3__slider swiper" data-btn-prefix="{{$data['btn_prefix']}}"
@@ -14,6 +14,7 @@
               <img src="{{ asset($slide[App::currentLocale()]) }}" alt="@lang($slide['alt'])">
             </div>
             <h3 class="swiper-3__slide-title">@lang($slide['title'])</h3>
+            @if (isset($slide['text'])) <p class="swiper-3__slide-text">@lang($slide['text'])</p> @endif
           </div>
         </div>
         @endforeach

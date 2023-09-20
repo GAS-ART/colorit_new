@@ -51,6 +51,14 @@ class ExposRollUpController extends SetLangAndViewController
             ],
         ];
 
-        return $this->setLocaleAndView($locale, 'expos-roll-up', compact('banner', 'breadCrumbs', 'types'));
+        $questions = [];
+        for ($i = 1; $i <= 8; $i++) {
+            $questions[] = [
+                'question' => 'expos.rollup.questions.' . $i . '.question',
+                'answer' => 'expos.rollup.questions.' . $i . '.answer',
+            ];
+        }
+
+        return $this->setLocaleAndView($locale, 'expos-roll-up', compact('banner', 'breadCrumbs', 'types', 'questions'));
     }
 }

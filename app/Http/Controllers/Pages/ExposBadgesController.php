@@ -66,6 +66,14 @@ class ExposBadgesController extends SetLangAndViewController
             ],
         ];
 
-        return $this->setLocaleAndView($locale, 'expos-badges', compact('banner', 'breadCrumbs', 'types'));
+        $questions = [];
+        for ($i = 1; $i <= 8; $i++) {
+            $questions[] = [
+                'question' => 'expos.badges.questions.' . $i . '.question',
+                'answer' => 'expos.badges.questions.' . $i . '.answer',
+            ];
+        }
+
+        return $this->setLocaleAndView($locale, 'expos-badges', compact('banner', 'breadCrumbs', 'types', 'questions'));
     }
 }

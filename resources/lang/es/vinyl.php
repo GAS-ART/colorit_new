@@ -40,6 +40,17 @@ return [
         'text' => 'Las calcomanías de vinilo se pueden reemplazar fácilmente, lo que le permite actualizar rápidamente su mensaje publicitario o promociones.',
       ],
     ],
+    'portfolio' => [
+      '1' => 'Fabricación y montaje de vinilos adhesivos de Mercedes en pistas de pádel',
+      '2' => 'Montaje de ventanas para un despacho de arquitectura en Barcelona con vinílo impreso',
+      '3' => 'Decoramos los escaparates de la tienda Thinking Mu de Barcelona con vinilo impreso',
+      '4' => 'Fotomural para una oficina en Barcelona',
+      '5' => 'Vinilo impreso con corte para tienda de ropa en Barcelona',
+      '6' => 'Vinilo con impresión y laminación para el centro de estética de Barcelona',
+      '7' => 'Impresión en vinilo con montaje para centro infantil',
+      '8' => 'Decoración e instalación de una escuela ucraniana con vinilo impreso y vinilo de corte.',
+      '9' => 'Fotomulares en vinilo transparente para la oficina.',
+    ],
     'questions' => [
       '1' => [
         'question' => '¿Qué materiales y tipos de pegatinas de vinilo hay disponibles?',
@@ -54,7 +65,7 @@ return [
         'answer' => '',
       ],
       '4' => [
-        'question' => 'Как происходит установка наклейки?',
+        'question' => '¿Cómo se instala el vinilo?',
         'answer' => 'El diseño de vinilo impreso es una de las opciones económicas. El costo de dicha publicidad depende del tamaño, la complejidad del diseño y el tipo de película. El coste puede aumentar hacia precios más altos al realizar pedidos urgentes (tiempo de producción 1-2 días).',
       ],
       '5' => [
@@ -100,16 +111,17 @@ return [
     ],
     'types' => [
       'title' => '¿Dónde se usa?',
-      'text' => 'Al pegar cristales en los vehículos, cuando los pasajeros ven todo lo que sucede fuera de la ventanilla, mientras se transmite un mensaje publicitario al exterior.<br>
-        El vinilo perforado se puede utilizar para decorar escaparates donde se necesita mantener la visibilidad de los productos y al mismo tiempo proporcionar espacio publicitario..<br>
-        En los locales de oficinas se utiliza para decorar las ventanas de las oficinas, cubriendo todo lo que sucede en el interior del local, y al mismo tiempo sirviendo como soporte publicitario, transmitiendo bastante bien la luz.',
+      'text' => '',
       'image_titles' => [
         '1' => 'transporte',
         'alt_1' => '',
+        'text_1' => 'При поклейке окон в автотранспорте, когда пассажиры видят все, что происходит за окном, в то время как снаружи передается рекламное сообщение.',
         '2' => 'Escaparates',
         'alt_2' => '',
+        'text_2' => 'Перфорированный винил может быть использован для декорации витрин магазинов, где нужно поддерживать видимость товаров и одновременно предоставить место для рекламы.',
         '3' => 'Oficinas',
         'alt_3' => '',
+        'text_3' => 'В офисных помещениях используется для декорации офисных окон, закрывая все что происходит внутри помещения, и в то же время служа рекламным носителем, достаточно хорошо пропуская свет.',
       ],
     ],
     'advantages' => [
@@ -194,11 +206,11 @@ return [
       'text' => '',
       'image_titles' => [
         '1' => 'Vinilo acido solo material',
-        'alt_1' => '',
+        'alt_1' => 'Vinilo acido (vinilo glaseado) por metros en Barcelona',
         '2' => 'Vinilo acido de corte',
-        'alt_2' => '',
+        'alt_2' => 'Compara vinilo arenoso glaseado para escaparates y oficinas',
         '3' => 'Vinilo acido impreso',
-        'alt_3' => '',
+        'alt_3' => 'Vinilo acido con impresion digital. Comprar en Barcelona',
       ],
     ],
     'advantages' => [
@@ -219,6 +231,17 @@ return [
         'title' => 'Fácil de cuidar',
         'text' => 'La película tiene una superficie lisa que no se ensucia ni se cubre con huellas dactilares. Esto simplifica el cuidado y mantenimiento de las superficies sobre las que se aplica la película.',
       ],
+    ],
+    'portfolio' => [
+      '1' => 'Decoracion un salón de belleza con vinilo acido',
+      '2' => 'Vinilo glaseado con corte para salón de belleza en Barcelona',
+      '3' => 'Decorar una oficina en Barcelona con vinilo acido mate',
+      '4' => 'Instalación de vinilo gris mate con impresión digital para agencia inmobiliaria en Barcelona',
+      '5' => 'Tintado de ventanas y oficinas en Barcelona con vinilo glaseado',
+      '6' => 'Decorar las puertas de entrada de un salón de belleza con vinilo mate arenado impreso',
+      '7' => 'Película de chorro de arena con corte para salón de belleza',
+      '8' => 'Tintado de ventanas con vinilo acido',
+      '9' => 'Teñido de armarios con vinilo griz mate',
     ],
     'questions' => [
       '1' => [
@@ -271,76 +294,87 @@ return [
       'title' => 'Vinilo para vehiculos',
       'circle_text' => 'Producción hasta 10 días',
     ],
-    'text' => 'Брендирование автомобилей и транспорта - это мощный способ привлечения внимания и продвижения бренда. Брендированный транспорт создает впечатление о стабильности, надежности и профессионализме компании. Это может поддерживать доверие клиентов. Реклама на транспорте может быть замечена как пешеходами, так и другими водителями. Таким образом, такой вид рекламы имеет очень большой охват аудитории и быстро окупается.',
+    'text' => 'Rotulacion de automóviles y vehículos es una forma poderosa de atraer la atención y promover una marca. El transporte de marca crea la impresión de estabilidad, fiabilidad y profesionalidad de la empresa. Esto puede mantener la confianza del cliente. La publicidad en el transporte puede ser vista tanto por los peatones como por el resto de conductores. Por tanto, este tipo de publicidad tiene un alcance de audiencia muy amplio y se amortiza rápidamente.',
     'lead' => [
-      'title' => 'Оставьте заявку на оклейку машины',
+      'title' => 'Deja una solicitud para rotulacion de vehiculos',
     ],
     'types' => [
-      'title' => 'Варианты брендирования',
-      'text' => 'Для оклейки машин используют специальную автомобильную пленку, которая имеет более сильную клеевую основу, более устойчива к механическим повреждениям и более эластична, чем обычный винил.',
+      'title' => 'Tipos de rotulacion',
+      'text' => 'Para rotulacion de vehiculos se utiliza un vinilo especial para automóviles, que tiene una base adhesiva más fuerte, es más resistente a los daños mecánicos y más elástica que el vinilo adhesivo.',
       'image_titles' => [
-        '1' => 'Пленка с печатью',
-        'alt_1' => '',
-        '2' => 'Перфорированная пленка',
-        'alt_2' => '',
-        '3' => 'Цветная пленка с порезкой',
-        'alt_3' => '',
+        '1' => 'Vinilo adhesivo impreso',
+        'alt_1' => 'Rotulacion de vehiculos en Barcelona y toda España',
+        '2' => 'Vinilo microperforado',
+        'alt_2' => 'Rotulacion de coches y vehiculos con vinilo microperforado en Barcelona',
+        '3' => 'Vinilo de corte',
+        'alt_3' => 'Vinilo adhesivo para coches y vehiculos. Fabricaion y rotulacion en Barcelona',
       ],
     ],
     'advantages' => [
-      'title' => 'Преимущества',
+      'title' => 'Ventajas',
       '1' => [
-        'title' => 'Мобильная реклама',
-        'text' => 'Брендированный транспорт двигается по городу, достигая широкой аудитории. Это позволяет вашему бренду быть видимым в разных районах и среди различных целевых групп.',
+        'title' => 'Publicidad en cuidad',
+        'text' => 'El transporte de marca se mueve por la ciudad, llegando a un público amplio. Esto permite que su marca sea visible en diferentes áreas y grupos objetivo.',
       ],
       '2' => [
-        'title' => 'Узнаваемость',
-        'text' => 'Яркая и оригинальная графика привлекает внимание и помогает создать узнаваемость бренда. Люди запоминают визуальные образы легче, чем текст или звук.',
+        'title' => 'Reconocimiento',
+        'text' => 'Los gráficos brillantes y originales atraen la atención y ayudan a crear reconocimiento de marca. La gente recuerda las imágenes visuales más fácilmente que el texto o el sonido.',
       ],
       '3' => [
-        'title' => 'Экономичность',
-        'text' => 'Брендирование транспорта имеет низкие затраты по сравнению с некоторыми другими видами наружной рекламы.',
+        'title' => 'Economía',
+        'text' => 'El transporte de la marca tiene costes bajos comparados a algunos otros tipos de publicidad.',
       ],
       '4' => [
-        'title' => 'Сменяемость',
-        'text' => 'Графика на транспорте может быть изменена или обновлена в любое время, что позволяет адаптировать сообщение под текущие маркетинговые стратегии.',
+        'title' => 'Cambio',
+        'text' => 'El diseño en el transporte se puede cambiar o actualizar en cualquier momento, lo que le permite adaptar el mensaje a las estrategias de marketing actuales.',
       ],
     ],
     'questions' => [
       '1' => [
-        'question' => 'Сколько это будет стоить?',
-        'answer' => '',
+        'question' => '¿Cuánto cuesta?',
+        'answer' => 'El coste de la rotulación de automóviles depende del volumen, la complejidad de la rotulación y la película utilizada. Utilizamos principalmente películas de transporte especiales, pero si se necesita una pegatina temporal, podemos hacer una opción más económica con vinilo normal, que se utiliza en publicidad exterior.',
       ],
       '2' => [
-        'question' => 'Какой вид пленки лучше выбрать?',
-        'answer' => '',
+        'question' => '¿Qué diseños y disposiciones se pueden utilizar?',
+        'answer' => 'Nuestra agencia cuenta con diseñadores experimentados que desarrollan diseños de publicidad de automóviles a pedido. También estaremos encantados de rotular su vehículo con sus propios diseños.',
       ],
       '3' => [
-        'question' => 'Какие дизайнерские решения и макеты могут быть использованы?',
-        'answer' => '',
+        'question' => '¿Cuánto durará la película y cómo cuidarla?',
+        'answer' => 'Para que la publicidad en un automóvil dure el mayor tiempo posible, es importante cumplir con todas las condiciones para pegar la película del automóvil. El pegado debe realizarse en condiciones especializadas para evitar el polvo y la suciedad. Se debe aplicar una capa protectora especial encima de la imagen. En el futuro, evite daños mecánicos y no lave el coche con agentes agresivos o cepillos ásperos. Mantenga su vehículo limpio y en buen estado para mantener la calidad de su anuncio.',
       ],
       '4' => [
-        'question' => 'Какие дополнительные работы или подготовительные этапы требуются?',
-        'answer' => '',
+        'question' => '¿Serán visibles el pegamento o los restos de la película después de retirarla?',
+        'answer' => 'Cuando la película se retira correctamente, no queda pegamento. Si decide eliminar usted mismo la publicidad de un automóvil, primero consulte con especialistas.',
       ],
       '5' => [
-        'question' => 'Как долго прослужит пленка и как за ней ухаживать?',
-        'answer' => '',
+        'question' => '¿Qué tipo de película es mejor elegir?',
+        'answer' => 'El tipo de película depende de los objetivos que el cliente quiera alcanzar. Para una publicidad luminosa y duradera ofrecemos la impresión sobre lámina protectora de transporte. Si es necesario cubrir los cristales del vehículo con láminas, ofrecemos láminas perforadas. Para llamar la atención se suelen utilizar películas fluorescentes o reflectantes para el transporte.',
       ],
       '6' => [
-        'question' => 'Что делать, если нужно изменить дизайн или удалить пленку?',
-        'answer' => '',
+        'question' => '¿Qué trabajo adicional o pasos preparatorios se requieren?',
+        'answer' => 'Es muy importante preparar adecuadamente la superficie de la carrocería para pegar. La máquina debe lavarse y desengrasarse minuciosamente para eliminar la suciedad, el polvo, el aceite y otros contaminantes.<br>Después del lavado, el coche debe secarse bien para evitar la retención de agua debajo de la película. Cualquier daño en la carrocería, rayones o abolladuras deben repararse antes de comenzar a envolver.',
       ],
       '7' => [
-        'question' => 'Будет ли виден клей или следы от пленки после снятия?',
-        'answer' => '',
+        'question' => '¿Qué pasa si necesito cambiar el diseño o quitar la película?',
+        'answer' => 'Para quitar o sustituir la película de un coche, recomendamos contactar con profesionales para evitar daños en la pintura de la carrocería. Antes de retirar la película vieja, se debe calentar completamente con un secador de pelo o un calentador de infrarrojos. Esto ayudará a ablandar el pegamento y facilitará su eliminación. Después de quitar la película vieja y preparar la superficie, puede instalar una película nueva con un nuevo diseño.',
       ],
       '8' => [
-        'question' => 'Какие гарантии и сроки выполнения заказа?',
-        'answer' => '',
+        'question' => '¿Cuáles son las garantías y plazos de cumplimiento del pedido?',
+        'answer' => 'Garantía de obra y materiales – 1 año. La garantía no cubre daños mecánicos. El tiempo de producción depende de la cantidad de trabajo y la complejidad del diseño y se negocia individualmente.',
       ],
     ],
-    'about_text' => '',
+    'about_text' => 'Rotulacion de coches con vinilo es una herramienta importante en el mundo del marketing y la publicidad. Este proceso le permite crear una apariencia expresiva y reconocible de su automóvil, que atrae la atención, aumenta la conciencia de marca y puede convertirse en una plataforma de publicidad móvil. Echemos un vistazo más de cerca a este tema.<br><br>
+    Película de vinilo: el material perfecto para la marca<br>La película de vinilo es un material de alta calidad que se utiliza para crear varios diseños y gráficos en los coches. Está disponible en una variedad de colores, texturas y tonos, lo que permite la máxima individualización de su diseño de coche bajo una marca o campaña de marketing.<br><br>
+    Ventajas de la marca de coches película de vinilo<br><br>
+    Impacto visual: Un coche de marca atrae inmediatamente la atención. Los colores brillantes, el diseño creativo y los logotipos lo hacen expresivo y memorable.<br><br>
+    Publicidad móvil: Tu coche se convierte en una plataforma de publicidad móvil. Puede entregar su mensaje a una amplia audiencia moviéndose por la ciudad o participando en eventos y exposiciones.<br><br>
+    Individualidad: La capacidad de crear un diseño único que coincida con su identidad de marca y objetivos de marketing. Puedes elegir colores, fuentes, texturas y elementos gráficos que enfaticen tu individualidad.<br><br>
+    Protección del coche: La película de vinilo también sirve para proteger el cuerpo de arañazos, astillas y la exposición a la luz solar. Esto extiende la vida del automóvil y preserva su apariencia.<br><br>
+    Fácil instalación y sustitución: El proceso de instalación de la película de vinilo es bastante rápido y no requiere tecnologías complicadas. La película también se puede quitar o reemplazar fácilmente si se requieren actualizaciones de diseño.<br><br>
+    Proceso de marca de automóviles con película de vinilo<br><br>
+    El proceso comienza con el desarrollo de un diseño que coincida con la identidad de su marca y los objetivos de marketing. Luego, los especialistas en marcas preparan la superficie del automóvil para asegurar una mejor película de agarre. La película se aplica cuidadosamente al automóvil, evitando burbujas y arrugas. El proceso de secado y fijación de los extremos de la película.<br><br>
+    Conclusión<br><br>
+    La marca de coches con película de vinilo es una manera efectiva de crear reconocimiento de marca, atraer la atención y decorar su coche. Esto también sirve como protección para la carrocería del automóvil. Al elegir esta estrategia, es importante recurrir a los profesionales para obtener una marca de calidad que servirá durante mucho tiempo y ayudará a lograr sus objetivos de marketing y promoción.',
   ],
 
 ]
