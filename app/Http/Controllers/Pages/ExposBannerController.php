@@ -72,13 +72,13 @@ class ExposBannerController extends SetLangAndViewController
                 [
                 'es' => 'img/expos/banner/es/types/1.webp',
                 'ru' => 'img/expos/banner/ru/types/1.webp',
-                'img_title' => 'signboards.whith_light.thiknes.img.1',
+                'img_title' => 'expos.banner.types.image_titles.1',
                 'alt' => '',
                 ],
                 [
                 'es' => 'img/expos/banner/es/types/2.webp',
                 'ru' => 'img/expos/banner/ru/types/2.webp',
-                'img_title' => 'signboards.whith_light.thiknes.img.2',
+                'img_title' => 'expos.banner.types.image_titles.2',
                 'alt' => '',
                 ],
             ],
