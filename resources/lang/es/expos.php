@@ -18,10 +18,10 @@ return [
          ],
       ],
       'content_before_image' => 'El más popular es una estructura plegable hecho de aluminio. A lo largo de cuyo perímetro está cosido un "velcro" especial para sujetar tejidos textiles con impresión digital. El photocall tiene un marco transformable que se puede montar y desmontar rápidamente con unos pocos movimientos.<br>
-      Una misma esctructura se puede utilizar para diferentes eventos, pero con diferentes tejidos textiles.
-      Por su tamaño y apariencia volumétrica, su escrutcura llama la atención, parece moderno y crea una imagen.',
-      'content_after_image' => 'La estructura de tubos cromados con lona impresa también se utiliza ampliamente en las empresas para promocionar sus negocios y servicios. Este es un producto simple y popular que se usa a menudo en exposiciones, conferencias, presentaciones, ferias, tiendas y otros lugares donde es necesario llamar la atención sobre una marca o producto. La estructura tiene forma rectangular o cuadrada, lo que le aporta estabilidad y resistencia. Es liviano y portátil, fácil de montar y desmontar. La gran ventaja es photocall es que tiene patas de metal que brindan estabilidad incluso al aire libre con vientos suaves. Ese tipo de photocall se utiliza con banner, lo que aporta fuerza y ​​calidad de la imagen. Viene en tamaños 200x200, 300x200 y otros.',
-      'types3' => [
+      Una misma esctructura se puede utilizar para diferentes eventos, pero con diferentes tejidos textiles.<br><br>
+      <span>Tamaños disponibles: 230x230, 305x230, 380x230, 455x230, 530x230 сm.</span>',
+      'content_after_image' => 'La estructura de tubos cromados<br> Con lona impresa también se utiliza ampliamente en las empresas para promocionar sus negocios y servicios. Este es un producto simple y popular que se usa a menudo en exposiciones, conferencias, presentaciones, ferias, tiendas y otros lugares donde es necesario llamar la atención sobre una marca o producto. La estructura tiene forma rectangular o cuadrada, lo que le aporta estabilidad y resistencia. Es liviano y portátil, fácil de montar y desmontar. La gran ventaja es photocall es que tiene patas de metal que brindan estabilidad incluso al aire libre con vientos suaves. Ese tipo de photocall se utiliza con banner, lo que aporta fuerza y ​​calidad de la imagen.<br><br><span>Viene en tamaños 200x200, 300x200 y otros.</span>',
+      'aluminum' => [
          'title' => '',
          'text' => '',
          'image_titles' => [
@@ -33,6 +33,18 @@ return [
             'alt_3' => '',
          ],
       ],
+      'chrome' => [
+        'title' => '',
+        'text' => '',
+        'image_titles' => [
+        '1' => '',
+        'alt_1' => '',
+        '2' => '',
+        'alt_2' => '',
+        '3' => '',
+        'alt_3' => '',
+        ],
+     ],
       'lead' => [
          'title' => 'Deja una solicitud para pedir tu photocall perzonalizado',
       ],

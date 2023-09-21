@@ -16,13 +16,12 @@
 <section class="brand-wall">
   <div class="brand-wall__container">
     <div class="brand-wall__text">@lang('expos.brandwall.content_before_image')</div>
-    <div class="brand-wall__img">
-      <img src="{{ asset('img/expos/brandwall/'.App::currentLocale().'/types/3.webp') }}" alt="@lang('alt.expos.brandwall.big_image')">
-    </div>
+    <x-swiper.swiper-3 :data="$aluminum" />
     <div class="brand-wall__text">@lang('expos.brandwall.content_after_image')</div>
+    <x-swiper.swiper-3 :data="$chrome" />
   </div>
 </section>
-<x-swiper.swiper-3 :data="$types3" />
+
 <x-portfolio :$portfolioImages />
 <x-lead>
   <x-slot name="title">@lang('expos.brandwall.lead.title')</x-slot>

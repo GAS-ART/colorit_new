@@ -50,34 +50,67 @@ class ExposWallBannerController extends SetLangAndViewController
                 ],
             ],
         ];
-        $typesDirEs = 'img/expos/brandwall/es/types/';
-        $typesDirRu = 'img/expos/brandwall/ru/types/';
-        $typesImgTitleLangDir = 'expos.brandwall.types3.image_titles.';
-        $types3 = [
-            'title' => 'expos.brandwall.types3.title',
-            'text' => 'expos.brandwall.types3.text',
+        $aluminumDirEs = 'img/expos/brandwall/es/aluminum/';
+        $aluminumDirRu = 'img/expos/brandwall/ru/aluminum/';
+        $aluminumImgTitleLangDir = 'expos.brandwall.aluminum.image_titles.';
+        $aluminum = [
+            'title' => 'expos.brandwall.aluminum.title',
+            'text' => 'expos.brandwall.aluminum.text',
             'spaceBetween' => '20',
-            'btn_prefix' => 'types-',
+            'btn_prefix' => 'aluminum-',
             'slides' => [
                 [
-                    'es' => $typesDirEs .  '4.webp',
-                    'ru' => $typesDirRu .  '4.webp',
-                    'title' => $typesImgTitleLangDir . '1',
-                    'alt' => $typesImgTitleLangDir . 'alt_1',
+                    'es' => $aluminumDirEs .  '1.webp',
+                    'ru' => $aluminumDirRu .  '1.webp',
+                    'title' => $aluminumImgTitleLangDir . '1',
+                    'alt' => $aluminumImgTitleLangDir . 'alt_1',
                     'height' => 'h-300',
                 ],
                 [
-                    'es' => $typesDirEs .  '5.webp',
-                    'ru' => $typesDirRu .  '5.webp',
-                    'title' => $typesImgTitleLangDir . '2',
-                    'alt' => $typesImgTitleLangDir . 'alt_2',
+                    'es' => $aluminumDirEs .  '2.webp',
+                    'ru' => $aluminumDirRu .  '2.webp',
+                    'title' => $aluminumImgTitleLangDir . '2',
+                    'alt' => $aluminumImgTitleLangDir . 'alt_2',
                     'height' => 'h-300',
                 ],
                 [
-                    'es' => $typesDirEs .  '6.webp',
-                    'ru' => $typesDirRu .  '6.webp',
-                    'title' => $typesImgTitleLangDir . '3',
-                    'alt' => $typesImgTitleLangDir . 'alt_3',
+                    'es' => $aluminumDirEs .  '3.webp',
+                    'ru' => $aluminumDirRu .  '3.webp',
+                    'title' => $aluminumImgTitleLangDir . '3',
+                    'alt' => $aluminumImgTitleLangDir . 'alt_3',
+                    'height' => 'h-300',
+                ],
+            ],
+        ];
+
+        $chromeDirEs = 'img/expos/brandwall/es/chrome/';
+        $chromeDirRu = 'img/expos/brandwall/ru/chrome/';
+        $chromeImgTitleLangDir = 'expos.brandwall.chrome.image_titles.';
+        $chrome = [
+            'title' => 'expos.brandwall.chrome.title',
+            'text' => 'expos.brandwall.chrome.text',
+            'spaceBetween' => '20',
+            'btn_prefix' => 'chrome-',
+            'slides' => [
+                [
+                    'es' => $chromeDirEs .  '1.webp',
+                    'ru' => $chromeDirRu .  '1.webp',
+                    'title' => $chromeImgTitleLangDir . '1',
+                    'alt' => $chromeImgTitleLangDir . 'alt_1',
+                    'height' => 'h-300',
+                ],
+                [
+                    'es' => $chromeDirEs .  '2.webp',
+                    'ru' => $chromeDirRu .  '2.webp',
+                    'title' => $chromeImgTitleLangDir . '2',
+                    'alt' => $chromeImgTitleLangDir . 'alt_2',
+                    'height' => 'h-300',
+                ],
+                [
+                    'es' => $chromeDirEs .  '3.webp',
+                    'ru' => $chromeDirRu .  '3.webp',
+                    'title' => $chromeImgTitleLangDir . '3',
+                    'alt' => $chromeImgTitleLangDir . 'alt_3',
                     'height' => 'h-300',
                 ],
             ],
@@ -165,6 +198,6 @@ class ExposWallBannerController extends SetLangAndViewController
             ];
         }
 
-        return $this->setLocaleAndView($locale, 'expos-wall-banner', compact('banner', 'breadCrumbs', 'types', 'types3', 'portfolioImages', 'questions'));
+        return $this->setLocaleAndView($locale, 'expos-wall-banner', compact('banner', 'breadCrumbs', 'types', 'aluminum', 'chrome', 'portfolioImages', 'questions'));
     }
 }
