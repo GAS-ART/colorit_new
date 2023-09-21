@@ -12,7 +12,7 @@
 <x-main-text>
   @lang('expos.banner.text')
 </x-main-text>
-<x-swiper.swiper-3 :data="$types" />
+<x-two-images-section :data="$types" />
 <x-swiper.swiper-3 :data="$examples" />
 <section class="perfo-banner">
   <div class="perfo-banner__container">

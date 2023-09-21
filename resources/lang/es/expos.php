@@ -18,9 +18,9 @@ return [
          ],
       ],
       'content_before_image' => '<h3>Phtocall de aluminio plegable</h3>El más popular es una estructura plegable hecho de aluminio. A lo largo de cuyo perímetro está cosido un "velcro" especial para sujetar tejidos textiles con impresión digital. El photocall tiene un marco transformable que se puede montar y desmontar rápidamente con unos pocos movimientos.<br>
-      Una misma esctructura se puede utilizar para diferentes eventos, pero con diferentes tejidos textiles.<br><br>
-      <span>Tamaños disponibles: 230x230, 305x230, 380x230, 455x230, 530x230 сm.</span>',
-      'content_after_image' => '<h3>Photocall con estructura de tubos cromados</h3> Con lona impresa también se utiliza ampliamente en las empresas para promocionar sus negocios y servicios. Este es un producto simple y popular que se usa a menudo en exposiciones, conferencias, presentaciones, ferias, tiendas y otros lugares donde es necesario llamar la atención sobre una marca o producto. La estructura tiene forma rectangular o cuadrada, lo que le aporta estabilidad y resistencia. Es liviano y portátil, fácil de montar y desmontar. La gran ventaja es photocall es que tiene patas de metal que brindan estabilidad incluso al aire libre con vientos suaves. Ese tipo de photocall se utiliza con banner, lo que aporta fuerza y ​​calidad de la imagen.<br><br><span>Viene en tamaños 200x200, 300x200 y otros.</span>',
+      Una misma esctructura se puede utilizar para diferentes eventos, pero con diferentes tejidos textiles.
+      <div class="size">Tamaños disponibles: 230x230, 305x230, 380x230, 455x230, 530x230 сm.</div>',
+      'content_after_image' => '<h3>Photocall con estructura de tubos cromados</h3> Con lona impresa también se utiliza ampliamente en las empresas para promocionar sus negocios y servicios. Este es un producto simple y popular que se usa a menudo en exposiciones, conferencias, presentaciones, ferias, tiendas y otros lugares donde es necesario llamar la atención sobre una marca o producto. La estructura tiene forma rectangular o cuadrada, lo que le aporta estabilidad y resistencia. Es liviano y portátil, fácil de montar y desmontar. La gran ventaja es photocall es que tiene patas de metal que brindan estabilidad incluso al aire libre con vientos suaves. Ese tipo de photocall se utiliza con banner, lo que aporta fuerza y ​​calidad de la imagen.<div class="size">Viene en tamaños 200x200, 300x200 y otros.</div>',
       'aluminum' => [
          'title' => '',
          'text' => '',
@@ -106,7 +106,7 @@ return [
       ],
       'examples' => [
          'title' => '',
-         'text' => 'La lona Frontlit proporcionan gráficos y colores vibrantes y de alta calidad. Estas pancartas están fabricadas con materiales fuertes y duraderos que resisten la humedad, la luz solar y el viento. Se pueden utilizar tanto en exteriores como en interiores. Los carteles con iluminación frontal son fáciles de plegar y transportar, lo que los hace convenientes para transportarlos a eventos e instalarlos en el sitio. Los carteles se fijan a la estructura mediante anillos de metal: ojales.',
+         'text' => '<h3>La lona Frontlit</h3> <div class="text">proporcionan gráficos y colores vibrantes y de alta calidad. Estas pancartas están fabricadas con materiales fuertes y duraderos que resisten la humedad, la luz solar y el viento. Se pueden utilizar tanto en exteriores como en interiores. Los carteles con iluminación frontal son fáciles de plegar y transportar, lo que los hace convenientes para transportarlos a eventos e instalarlos en el sitio. Los carteles se fijan a la estructura mediante anillos de metal: ojales.</div>',
          'image_titles' => [
          '1' => '',
          'alt_1' => '',
@@ -115,8 +115,9 @@ return [
          '3' => '',
          'alt_3' => '',
          ],
-         'perfo_banner'=>'Главная особенность перфобаннера - наличие множества микроперфораций, которые пронизывают весь материал. Эти отверстия позволяют свету и воздуху проходить через баннер, делая его полупрозрачным и снижают парусность. Перфобаннер позволяет создавать рекламные баннеры с односторонней видимостью. Снаружи видно полноцветную графику и изображения, в то время как с внутренней стороны можно наблюдать окружающую среду.',
       ],
+      'perfo_banner'=>'<h3>Lona microporforada</h3>Главная особенность перфобаннера - наличие множества микроперфораций, которые пронизывают весь материал. Эти отверстия позволяют свету и воздуху проходить через баннер, делая его полупрозрачным и снижают парусность. Перфобаннер позволяет создавать рекламные баннеры с односторонней видимостью. Снаружи видно полноцветную графику и изображения, в то время как с внутренней стороны можно наблюдать окружающую среду.',
+
       'questions' => [
          '1' => [
            'question' => 'Можно ли заказать индивидуальный размер баннера? Или существуют только стандартные размеры?',

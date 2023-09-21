@@ -32,7 +32,7 @@ class ExposBannerController extends SetLangAndViewController
             'currentPage' => __('crumbs.expos_banner')
         ];
 
-        $typesDirEs = 'img/expos/banner/es/types/';
+/*         $typesDirEs = 'img/expos/banner/es/types/';
         $typesDirRu = 'img/expos/banner/ru/types/';
         $typesImgTitleLangDir = 'expos.banner.types.image_titles.';
         $types = [
@@ -61,6 +61,25 @@ class ExposBannerController extends SetLangAndViewController
                     'title' => $typesImgTitleLangDir . '3',
                     'alt' => $typesImgTitleLangDir . 'alt_3',
                     'height' => 'h-300',
+                ],
+            ],
+        ]; */
+
+        $types = [
+            'title' => 'expos.banner.types.title',
+            'text' => 'expos.banner.types.text',
+            'img' => [
+                [
+                'es' => 'img/expos/banner/es/types/1.webp',
+                'ru' => 'img/expos/banner/ru/types/1.webp',
+                'img_title' => 'signboards.whith_light.thiknes.img.1',
+                'alt' => '',
+                ],
+                [
+                'es' => 'img/expos/banner/es/types/2.webp',
+                'ru' => 'img/expos/banner/ru/types/2.webp',
+                'img_title' => 'signboards.whith_light.thiknes.img.2',
+                'alt' => '',
                 ],
             ],
         ];
