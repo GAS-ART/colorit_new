@@ -90,7 +90,7 @@ return [
       ],
       'text' => 'Los banners son una importante herramienta de publicidad y comunicación y se utilizan en una variedad de industrias que incluyen el comercio minorista, el marketing de eventos, los eventos culturales y más. Los banners son resistentes a las influencias externas, como la lluvia, el sol y el viento, lo que los hace adecuados para la publicidad exterior. Los carteles se pueden reemplazar fácilmente. Pueden tener diferentes formas y tamaños. Y son una de las opciones más económicas para la publicidad exterior.',
       'lead' => [
-         'title' => 'Оставьте заявку на изготовление баннера',
+         'title' => 'Deja una solicitud para pedir la lona perzonalizada',
       ],
       'types' => [
          'title' => 'Tipos de lonas',
