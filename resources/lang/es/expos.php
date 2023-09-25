@@ -154,184 +154,228 @@ return [
    ],
    'rollup'=>[
       'banner' => [
-         'title' => 'Ролл ап',
+         'title' => 'Roll up',
          'circle_text' => 'Producción hasta 4 días',
       ],
-      'text' => 'Roll Up - это отличное средство для рекламы и информирования, которое сочетает в себе удобство, эффективность и стильный дизайн. Изображение печатается на специальном баннере, который можно легко разматывать и закрывать. Баннер крепится к верхнему бруску конструкции. Весь механизм Roll Up спрятан в компактной алюминиевой кассете. Когда баннер не используется, он полностью скрывается внутри кассеты, что делает конструкцию портативной и защищенной от повреждений. Стандартные размеры Roll Up: 60х205, 85х205, 100х205, 120х205, 150х205 см.',
+      'text' => 'Roll Up es una excelente herramienta publicitaria e informativa que combina comodidad, eficiencia y un diseño elegante. La imagen está impresa en una lona frontalit 510 gr que se puede desenrollar y cerrar fácilmente. La pancarta se fija a la viga superior de la estructura. Todo el mecanismo Roll Up está oculto en un casete compacto de aluminio. Cuando el banner no está en uso, queda completamente oculto dentro del casete, lo que hace que el diseño sea portátil y esté protegido contra daños.',
       'lead' => [
-         'title' => 'Оставьте заявку на изготовление ролл апа',
+         'title' => 'Deja una solicitud para pedir roll up',
       ],
       'types' => [
-         'title' => '',
-         'text' => 'Монтаж Roll Up очень прост и занимает всего несколько минут. Конструкция легкая и компактная, ее легко перевозить и хранить. Благодаря своей конструкции, баннер всегда натянут и выглядит профессионально и привлекательно. Изображения легко меняются, что делает его универсальным средством для смены рекламных сообщений.',
-         'img' => [
-         '1' => '',
-         'alt_1' => '',
-         '2' => '',
-         'alt_2' => '',
-         ],
+        'title' => 'Montar',
+        'text' => 'Montar un Roll Up es muy sencillo y sólo te llevará unos minutos. La estructura es ligera y compacta, fácil de transportar y almacenar. Gracias a su estructura plegable, el cartel siempre está estirado y tiene un aspecto profesional y atractivo. Las imágenes se pueden cambiar fácilmente, lo que la convierte en una herramienta universal para cambiar mensajes publicitarios.<br><br><span class="not-bold">Roll up medidas disponibles:</span> 60х205, 85х205, 100х205, 120х205, 150х205 сm.',
+        'image_titles' => [
+        '1' => '',
+        'alt_1' => 'Roll up perzonalizado en Barcelona. Imprimir en Barcelona solo por 1 dia',
+        '2' => '',
+        'alt_2' => 'X banner, roll up barato solo por 1 dia. Fabricacion en Barcelona',
+        '3' => '',
+        'alt_3' => 'Fabricamos roll up, x banner en diferentes medidas. Produccion y entrega rapida',
+        ],
       ],
       'questions' => [
          '1' => [
-           'question' => 'Кто будет устанавливать ролл-ап? Требуется ли специальное оборудование для монтажа?',
-           'answer' => 'Установить ролл ап – это быстро и просто. Для этого не потребуется специальное оборудование и инструменты. Наши менеджеры детально расскажут, как это сделать.',
+           'question' => '¿Quién instalará el roll-up? ¿Hay que pedir a un equipo especial para la instalación?',
+           'answer' => 'La instalación del roll up es rápida y sencilla. Esto no requiere equipos ni herramientas especiales. Nuestros responsables le explicarán detalladamente cómo hacerlo.',
          ],
          '2' => [
-           'question' => 'Какой бюджет необходимо выделить на изготовление и печать ролл-апа?',
-           'answer' => 'Ролл ап это одна из самых бюджетных мобильных конструкций. Цена одного ролл апа с печатью от 87 евро. За дополнительную плату мы предоставляем услуги дизайна и доставки.',
+           'question' => '¿Cuánto nos durará este roll-up?',
+           'answer' => 'Roll up le servirá durante años. Dependiendo de la actividad y las condiciones de funcionamiento, la vida útil es de tres años o más. Puede cambiar las imágenes de un diseño un número ilimitado de veces. En este caso, debes seguir todas nuestras recomendaciones para reemplazar la imagen.',
          ],
          '3' => [
-           'question' => 'Как долго нам прослужит такой ролл-ап? Он одноразовый или может служить длительное время?',
-           'answer' => 'Ролл ап будет служить вам годами. В зависимости от активности и условий эксплуатации срок службы от трех и свыше лет. На одной конструкции можно менять изображения неограниченное количество раз. При этом необходимо соблюдать все наши рекомендации по замене изображения.',
+           'question' => '¿Puedo alquiler roll up?',
+           'answer' => 'No, lamentablemente el roll-up solo está disponible como compra.',
          ],
          '4' => [
-           'question' => 'Могу ли я перевозить ролл ап в легковой машине?',
-           'answer' => 'Баннер легко сворачивается в кассету, и компактно упаковывается для переноски. Кассета с баннером и все комплектующие помещается в текстильную сумку с ручками. В сложенном виде ролл ап поместится в любую легковую машину.',
+           'question' => '¿Le sirve para eventos exteriores?',
+           'answer' => 'Roll up está en una estructura para uso en interiores. Ya que es liviano y cuando está ensamblado tiene resistencia al viento. Por tanto, no recomendamos su uso en exteriores. Sin embargo, si estás seguro de que las condiciones climáticas te permiten mantener la estabilidad del roll-up, te recomendamos añadir el peso en la parte de soporte de la estructura.',
          ],
          '5' => [
-           'question' => 'Сдаете ли вы конструкции ролл ап в аренду?',
-           'answer' => 'Мобильная конструкция - это ваша эксклюзивная площадка для выделения и привлечения внимания на мероприятиях. Мы предоставляем вам уникальную возможность воплотить вашу индивидуальность и брендировать стенд так, как это соответствует вашей визуальной идентичности. Помимо этого, владение собственным стендом дает вам полный контроль и гибкость в использовании его на различных мероприятиях, не ограничиваясь арендой.',
+           'question' => '¿Cuanto cuesta pedir un roll up impreso?',
+           'answer' => 'Roll up es uno de los producto publicitario más económicos y efecaz. El precio de un roll-up con impresión comienza desde 87 euros. Brindamos servicios de diseño y entrega por una tarifa adicional.',
          ],
          '6' => [
-           'question' => 'У нас уже есть ролл ап, но в нем сломалась одна деталь. Можете ли вы помочь ее заменить?',
-           'answer' => 'К сожалению, мы не предоставляем услуги замены деталей для ролл-апов, так как наши компетенции сосредоточены на создании и печати новых продуктов. Мы всегда рады помочь вам с выбором нового ролл-апа или другой рекламной продукции, которая в полной мере удовлетворит ваши потребности.',
+           'question' => '¿Puedo transportar un roll-up en un coche?',
+           'answer' => 'El roll up se enrolla fácilmente formando un casete y se empaqueta de forma compacta para su transporte. El casete con la pancarta y todos los componentes se colocan en una bolsa textil con asas. Una vez plegado, el enrollable cabe en cualquier turismo com el peso aproximado de 4 kg',
          ],
          '7' => [
-           'question' => 'Наше мероприятие будет проходить на улице. Насколько устойчива конструкция ролл апа?',
-           'answer' => 'Ролл ап предназначен для использования внутри помещений. Так как имеет небольшой вес и в собранном виде обладает парусностью. Поэтому мы не рекомендуем его использовать на улице. Если все же вы уверены, что погодные условия позволяют сохранить устойчивость ролл апа, мы рекомендуем добавить груз на опорную часть конструкции.',
+           'question' => 'Ya tenemos un enrollado, pero una parte está rota. ¿Puedes ayudar a reemplazarlo?',
+           'answer' => 'Lamentablemente, no proporcionamos piezas de repuesto para roll-ups.',
          ],
          '8' => [
-           'question' => 'Можете ли вы сделать доставку не только по Испании, но и в другие города Европы?',
-           'answer' => 'Наша компания стремится сделать процесс получения наших продуктов максимально удобным для наших клиентов, независимо от их местоположения. Мы осуществим доставку вашей рекламной продукции в любую точку Европы.',
+           'question' => '¿Podéis hacer envíos no sólo a toda España, sino también a otras ciudades europeas?',
+           'answer' => 'Nuestra empresa se esfuerza por hacer que el proceso de recepción de nuestros productos sea lo más conveniente posible para nuestros clientes, independientemente de su ubicación. Entregaremos sus productos promocionales en cualquier lugar de Europa.',
          ],
       ],
    ],
    'clothes'=>[
       'banner' => [
-         'title' => 'Одежда',
+         'title' => 'Ropa',
          'circle_text' => 'Producción hasta 14 días',
       ],
-      'text' => 'Брендированная одежда повышает узнаваемость, продвигает бренд, и создает профессиональный и единый облик для сотрудников и клиентов. Мы предлагаем большой выбор одежды для разных сфер бизнеса, таких как салоны красоты, рестораны, бары и кофейни, пекарни, спортивные клубы и фитнес-центры, строительные компании, медицинские учреждения.',
+      'text' => 'La ropa perzonalizada o ropa de marca aumenta el conocimiento, promueve la marca y crea una apariencia profesional y uniforme para empleados y clientes. Ofrecemos una gran selección de ropa para diferentes áreas de negocio, como salones de belleza, restaurantes, bares y cafeterías, panaderías, clubes deportivos y gimnasios, empresas constructoras e instituciones médicas.',
       'lead' => [
-         'title' => 'Оставьте заявку на изготовление Брендированой одежды',
+         'title' => 'Deja una solicitud para pedir tu ropa perzonalizada ',
       ], 
       'types' => [
-         'title' => 'Основные виды',
-         'text' => 'Основные виды брендирования одежды – это цифровая печать, термотрансфер, вышивка:',
+         'title' => 'Tipos de impresion',
+         'text' => 'Los principales tipos de impresion de ropa son la impresión digital, la transferencia térmica y el bordado:',
          'image_titles' => [
-         '1' => 'Цифровая печать',
+         '1' => 'Impresion digital',
+         '1_text' => 'La impresión digital es una tecnología moderna para la impresión directa sobre materiales textiles. Este método proporciona gran detalle y colores ricos, la capacidad de crear imágenes únicas y personalizadas para negocios, eventos y uso personal. Las imágenes no se desvanecen ni se lavan después del lavado. El proceso de impresión es seguro y no daña el medio ambiente.',
          'alt_1' => '',
-         '2' => 'Термотрансфер',
+         '2' => 'Transferencia térmica',
+         '2_text' => 'Transfer o DFT. La transferencia térmica es un método en el que primero se crea una imagen en un papel especial y luego se transfiere a un material textil mediante calor y presión. Le permite crear imágenes coloridas y detalladas en varios tipos de telas. La transferencia está firmemente sujeta a la tela para mayor durabilidad y facilidad de lavado. La ventaja de la impresión térmica es la posibilidad de aplicar imágenes a superficies complejas: gorras, bolsos, paraguas.',
          'alt_2' => '',
-         '3' => 'Вышивка',
+         '3' => 'Bordado',
+         '3_text' => 'El bordado es una forma bastante popular de crear un estilo corporativo y personalizar ropa para empresas, equipos deportivos, escuelas, restaurantes y otras organizaciones. El bordado le da a la ropa una apariencia profesional y de alta calidad. Este tipo de marca de ropa es resistente al lavado, al desgaste y al medio ambiente, por lo que los logotipos y diseños conservan su apariencia durante mucho tiempo.',
          'alt_3' => '',
          ],
       ],
-      'content' => [
-         'text-1' => 'Цифровая печать - это современная технология прямой печати на текстильные материалы. Этот метод обеспечивает высокую детализацию и насыщенные цвета, возможность создания уникальных и кастомизированных изображений для бизнеса, мероприятий и личного использования. Изображения не выцветают и не смываются после стирки. Процесс нанесения изображений безопасен и не вредит окружающей среде.',
-         'text-2' => 'Термотрансфер – это метод, при котором изображение сначала создается на специальной бумаге, а затем переносится на текстильный материал с помощью тепла и давления. Позволяет создавать цветные и детализированные изображения на различных типах тканей. Перенос надежно закрепляется на ткани, что обеспечивает долговечность и стойкость к стирке. Преимуществом термопечати является возможность наносить изображение на сложные поверхности: кепки, сумки, зонты.',
-         'text-3' => 'Вышивка – достаточно популярный способ создания корпоративного стиля и персонализации одежды для бизнеса, спортивных команд, школ, ресторанов и других организаций. Вышивка придает одежде высококачественный и профессиональный внешний вид. Этот вид брендирования одежды устойчив к стирке, износу и воздействию окружающей среды, поэтому логотипы и дизайны сохраняют свой вид на протяжении долгого времени.',
+      'services' => [
+        'title' => 'Que podemos ofrecer',
+        'text' => '',
+        'image_titles' => [
+        '1' => 'Impresion en camisetas',
+        'alt_1' => 'Camisetas perzonalizadas impresion e bordado. Grande variedad de camisetas',
+        '2' => 'Impresión en sudaderas',
+        'alt_2' => 'Impresion en sudaderas en Barcelona rapido con calidad. Desarollo de diseño con entrega rapida',
+        '3' => 'Impresion en bolsas',
+        'alt_3' => 'Comprar bolsas perzonalizadas de diferentes tamaños. Bolsas de tela, algodon. Impresion a toda color',
+        ],
+    ],
+    'services2' => [
+      'title' => '',
+      'text' => '',
+      'image_titles' => [
+      '1' => 'Impresión en sudaderas con capucha larga',
+      'alt_1' => 'Perzonalizar sudadera larga con capucha en Barcelona. Impresion, bordado rapido. Entrega a toda españa',
+      '2' => 'Ropa para deportes',
+      'alt_2' => 'Impresion e bordado en ropa deportiva para eventos. Fabricaion rapida, precios competetivos',
+      '3' => 'Ropa de bebe',
+      'alt_3' => 'Impresion en ropa para infantiles o bebes con dibujos en barcelona',
       ],
-      'examples' => [
-         'title' => '',
-         'text' => '',
-         'image_titles' => [
-           '1' => 'Печать на футболках',
-           '2' => 'Печать на толстовках',
-           '3' => 'Печать на шоперах',
-           '4' => 'Печать на свитшотах',
-         ],
-       ],
+    ],
        'questions' => [
          '1' => [
-           'question' => 'Какие виды одежды доступны для брендирования?',
-           'answer' => 'Мы предлагаем большой ассортимент одежды под брендирование, включая футболки, рубашки, куртки, шапки и многое другое. Подробнее вы можете узнать об ассортименте, обратившись к нашим менеджерам или оставив заявку на нашем сайте в форме обратной связи.',
+           'question' => '¿Qué tipos de ropa están disponibles para la impresion?',
+           'answer' => 'Ofrecemos una amplia gama de ropa de marca, que incluye camisetas, camisas, chaquetas, gorras y mucho más. Puede obtener más información sobre la gama comunicándose con nuestros gerentes o dejando una solicitud en nuestro sitio web en el formulario de comentarios.',
          ],
          '2' => [
-           'question' => 'Какой минимальный заказ на брендированную одежду?',
-           'answer' => 'Минимальный заказ – от 30 единиц.',
+           'question' => '¿Qué materiales están disponibles para la marca?',
+           'answer' => 'Principalmente algodón: las camisetas, camisas y otras prendas de algodón son una opción popular para la marca; poliéster: este material se utiliza a menudo en ropa deportiva y uniformes. Es liviano, transpirable y proporciona una impresión vibrante. Y materiales mixtos: Algunas prendas pueden ser una mezcla de algodón y poliéster u otros materiales, lo que puede proporcionar una combinación de comodidad y durabilidad. También ofrecemos productos de lana. Los productos de lana son populares para uso al aire libre. Se pueden utilizar para marcar mediante bordado o impresión.',
          ],
          '3' => [
-           'question' => 'Какие материалы доступны для брендирования?',
-           'answer' => 'В основном это хлопок: футболки, рубашки и другая одежда из хлопка - популярный выбор для брендирования; полиэстер - этот материал часто используется в спортивной одежде и униформе. Он легкий, дышащий и обеспечивает яркую печать. И смешанные материалы: некоторые виды одежды могут состоять из смеси хлопка и полиэстера или других материалов, что может обеспечивать комбинацию комфорта и прочности. Также мы предлагаем изделия из флиса. Флисовые изделия популярны для наружной одежды. Они могут быть использованы для брендирования с помощью вышивки или печати.',
+           'question' => '¿Qué garantías de calidad se ofrecen para la ropa de marca?',
+           'answer' => 'La ropa que ofrece nuestra agencia está fabricada con materiales de alta calidad que garantizan una larga vida útil y comodidad. También ofrecemos una garantía sobre la calidad de los logotipos e imágenes aplicados a la ropa. Esto incluye intensidad del color, claridad de los detalles y durabilidad de la impresión.',
          ],
          '4' => [
-           'question' => 'Какие цвета есть в наличии?',
-           'answer' => 'Всегда доступны базовые цвета, такие как белый, черный, синий, серый и другие. Яркие и насыщенные цвета мы предлагаем в некоторых моделях футболок и спец одежды. Если вы ищете определенные цвета, мы можем привезти их для вас под заказ.',
+           'question' => '¿Cómo se entregarán los productos solicitados?',
+           'answer' => 'Los productos se pueden entregar directamente a su dirección especificada mediante un servicio de mensajería. Este método se utiliza a menudo para volúmenes de pedidos pequeños. Para pedidos más grandes, los enviamos a través de un servicio postal, como una oficina de correos o servicios de mensajería, para su entrega a su dirección.',
          ],
          '5' => [
-           'question' => 'Какие гарантии качества предоставляются на брендированную одежду?',
-           'answer' => 'Одежда, которую предлагает наше агентство изготавливается из высококачественных материалов, обеспечивающих долгий срок службы и комфорт ношения. Также мы предоставляем гарантию на качество нанесения логотипов и изображений на одежду. Это включает в себя яркость цветов, четкость деталей и стойкость печати.',
+           'question' => '¿Cuál es el pedido mínimo de ropa de marca?',
+           'answer' => 'Pedido mínimo – a partir de 10 unidades.',
          ],
          '6' => [
-           'question' => 'Можно ли получить образцы или примеры брендированной одежды?',
-           'answer' => 'После предварительного согласования объема заказа и сроков изготовления, мы показываем образцы одежды и при необходимости делаем пилотный образец с печатью.',
+           'question' => '¿Qué colores están disponibles?',
+           'answer' => 'Los colores básicos como blanco, negro, azul, gris y otros siempre están disponibles. Ofrecemos colores brillantes y ricos en algunos modelos de camisetas y ropa especial. Si busca colores específicos, podemos pedirlos personalizados para usted.',
          ],
          '7' => [
-           'question' => 'Каким образом будет осуществляться доставка заказанных товаров?',
-           'answer' => 'Товары могут быть доставлены непосредственно к вам на указанный адрес с помощью курьера. Этот способ часто используется для небольших объемов заказов. Более крупные заказы мы отправляем почтовой службой, такой как почта или курьерские службы, для доставки на ваш адрес.',
+           'question' => '¿Puedo obtener muestras o ejemplos de ropa de marca?',
+           'answer' => 'Después de un acuerdo preliminar sobre el volumen del pedido y el tiempo de producción, mostramos muestras de ropa y, si es necesario, hacemos una muestra piloto con impresión.',
          ],
          '8' => [
-           'question' => 'Есть ли скидки или специальные предложения для крупных заказов?',
-           'answer' => 'Для крупных заказов мы предоставляем индивидуальные соглашения и цены, которые учитывают специфику и объем заказа. Также можем организовать бесплатную или существенно сниженную стоимость доставки.',
+           'question' => '¿Hay descuentos u ofertas especiales para pedidos grandes?',
+           'answer' => 'Para pedidos grandes, ofrecemos acuerdos y precios individuales que tienen en cuenta las características específicas y el volumen del pedido. También podemos organizar costos de envío gratuitos o significativamente reducidos.',
          ],
       ],
+      'about_text' => 'Bienvenido al mundo de la impresión de prendas personalizadas, donde cada camiseta, suéter y bolso se convierte en un lienzo para tu estilo y expresión únicos. Somos su socio confiable en la creación de diseños únicos y estamos listos para convertir sus ideas más locas en realidad.
+      <br><br>Por qué elegirnos:
+      <br>Habilidad y experiencia: Somos profesionales de la impresión de prendas con una rica experiencia. Nuestros especialistas dominan las tecnologías modernas y saben cómo crear diseños duraderos y de alta calidad.
+      <br>Enfoque individual: Entendemos que cada cliente es único. Por lo tanto, trabajamos estrechamente con usted para comprender sus necesidades y brindarle la solución que mejor satisfaga sus expectativas.
+      <br><br>Amplia gama de materiales: Tenemos acceso a una amplia variedad de telas y materiales, lo que nos permite crear una variedad de ideas y satisfacer sus necesidades de estilo y comodidad.
+      <br>Soluciones creativas: nuestro equipo de diseñadores está listo para hacer realidad incluso las ideas más atípicas. Podemos ayudarle a crear un logotipo, eslogan o imagen únicos que lo harán destacar entre la multitud.
+      <br>Rapidez y confiabilidad: Valoramos su tiempo y siempre cumplimos con los plazos. Puede estar seguro de que su pedido se completará a tiempo y al más alto nivel.
+      <br><br>Respetuoso con el medio ambiente: Nos preocupamos por nuestro planeta y utilizamos materiales y tecnologías de impresión respetuosos con el medio ambiente para minimizar nuestra huella ambiental.
+      <br><br>Trabajamos con clientes de todos los tamaños, desde personas que buscan crear un regalo único o expresar su pasión en una camiseta, hasta marcas que buscan mejorar su imagen con ropa corporativa. Cualquiera que sea su objetivo, estamos dispuestos a contribuir a su consecución.
+      <br>La impresión de prendas no es sólo un proceso, es un arte que hemos perfeccionado. Con nosotros recibirás no sólo un producto, sino una obra de arte que reflejará tu estilo, ideas y personalidad.
+      <br><br>Contáctanos ahora mismo y te ayudaremos a crear algo verdaderamente único e inimitable. ¡Deja que tu ropa hable de ti y hagámosla inolvidable juntos!',
    ],
    'badges'=>[
       'banner' => [
-         'title' => 'Бейджи',
+         'title' => 'Lanyards',
          'circle_text' => 'Producción hasta 14 días',
       ],
-      'text' => 'Бейджи обычно используются для идентификации и приветствия на мероприятиях, в офисах, на выставках и конференциях. Они крепятся на атласную ленту с помощью металлического карабина. Как правило используют базовые цвета лент с печатью логотипа. Логотипы можно печатать как с одной стороны ленты, так и с двух сторон. Металлические карабины, которые мы предлагаем, удобные и надежные. Бейджи облегчают общение и знакомство, поэтому не упускайте возможность заказать у нас комплексное оформление мероприятия, включая бейджи.',
+      'text' => 'Lanyards se utilizan habitualmente para identificación en eventos, oficinas, exposiciones y conferencias. Están sujetos a una cinta de raso mediante un mosquetón de metal. Como regla general, se utilizan colores básicos de cintas con logotipo impreso. Los logotipos se pueden imprimir en un lado de la cinta o en ambos lados. Los mosquetones metálicos que ofrecemos son prácticos y fiables. Lanyards facilitan la comunicación y el conocimiento mutuo, así que no pierda la oportunidad de solicitarnos un diseño completo de eventos, incluidas las insignias.',
       'lead' => [
-         'title' => 'Оставьте заявку на изготовление Бейджей',
+         'title' => 'Deja una solicitud para pedir lanyards perzonalizados',
       ], 
+      'types2Img' => [
+        'title' => 'Tipos de lanyards',
+        'text' => '',
+        'img' => [
+        '1' => 'Сinta sólida',
+        'alt_1' => '',
+        '2' => 'Cinta con con hebilla',
+        'alt_2' => '',
+        ],
+     ],
       'types' => [
          'title' => '',
          'text' => '',
          'image_titles' => [
-         '1' => 'Базовые цвета лент',
+         '1' => 'diferentes colores',
+         '1_text' => 'Nuestra agencia ofrece una gran selección de colores de lanyards de cordón que se adaptan a una amplia variedad de preferencias de los clientes.',
          'alt_1' => '',
-         '2' => 'Карабин',
+         '2' => 'mosqueton',
+         '2_text' => 'Lanyards llevan los mosquetones que están fabricados en acero inoxidable para colrag su tarjeta perzonalizada.',
          'alt_2' => '',
-         '3' => 'Печать на ленте с двух сторон',
+         '3' => 'Impresion dos caras',
+         '3_text' => 'Gracias a las impresoras UV, la impresión en color a doble cara está disponible en todo tipo de cintas.',
          'alt_3' => '',
          ],
       ],
       'questions' => [
          '1' => [
-           'question' => 'Каковы доступные размеры и формы бейджей?',
-           'answer' => 'Мы можем изготовить для вас бейджи разных размеров и форм. Как правило, мы предлагаем стандартные размеры, такие как 90x60 мм и 105x148 мм. Также изготовим нестандартные формы и размеры под ваш заказ. Печать делаем на качественной бумаге с плотностью 350 г/м², как одностороннюю, так и двухстороннюю.',
+           'question' => 'Cuáles son los tamaños de lanyards disponibles?',
+           'answer' => 'Normalmente, ofrecemos tamaños de cinta estándar, como 1,5 y 2 cm de ancho y 38 cm de largo.',
          ],
          '2' => [
-           'question' => 'Минимальное количество заказа?',
-           'answer' => 'Минимальный тираж – от 50 шт.',
+           'question' => '¿Puedo pedir lanyards personalizadas?',
+           'answer' => 'Estamos listos para brindarle una variedad de opciones de personalización para que sus lanyards sean únicas y se adapten a sus necesidades. Esto puede incluir agregar el nombre y apellido del titular de la credencial, insertar fotografías, indicar el puesto y la información de contacto. Además, imprimimos códigos de barras y códigos QR para un acceso rápido a la información.',
          ],
          '3' => [
-           'question' => 'Можно ли заказать персонализированные бейджи?',
-           'answer' => 'Мы готовы предоставить вам разнообразные варианты персонализации, чтобы сделать ваши бейджи уникальными и соответствующими вашим потребностям. Это может быть добавление имени и фамилии владельца бейджа, вставка фотографий, указание должности и контактные данные. Дополнительно печатаем штрихкоды и QR-коды для быстрого доступа к информации.',
+           'question' => '¿Qué más haces para eventos?',
+           'answer' => 'Ofrecemos una gama completa de servicios para eventos, desde la producción de impresiones relacionadas, como folletos, descuentos, folletos y tarjetas de presentación, hasta la creación de stands, banderas, roll up y photocalls. Nuestra experencia nos permite satisfacer plenamente las necesidades de su evento o congreso, aportando soluciones de calidad en todos los aspectos del mismo. Nuestro objetivo es hacer que su evento sea único y memorable.',
          ],
          '4' => [
-           'question' => 'Какие варианты крепления бейджей доступны?',
-           'answer' => 'Самый популярный, удобный и современный вид крепления – это карабин.',
+           'question' => '¿Hacen envíos a otras ciudades?',
+           'answer' => 'Sí, entregamos nuestros productos a otras ciudades.',
          ],
          '5' => [
-           'question' => 'Что еще вы делаете для мероприятий?',
-           'answer' => 'Мы предоставляем полный спектр услуг для мероприятий, начиная с изготовления сопутствующей полиграфии, такой как флаеры, дисконты, буклеты и визитки, и заканчивая созданием стендов, флагов, баннеров и подиумов. Наше комплексное оформление и изготовление "под ключ" позволяет нам полностью удовлетворить потребности вашего мероприятия или конференции, обеспечивая качественные решения для всех его аспектов. Наша цель - сделать ваше мероприятие уникальным и запоминающимся.',
+           'question' => '¿Cual es el pedido mínimo?',
+           'answer' => 'Depende del productos a partir de 100 uds.',
          ],
          '6' => [
-           'question' => 'Можно ли заказать отдельно ленты для бейджей?',
-           'answer' => 'Конечно, вы можете заказать как печать бейджей, так и ленты отдельно. Мы готовы предоставить вам гибкие варианты заказа под ваши конкретные потребности.',
+           'question' => '¿Qué opciones de montaje de lanyards están disponibles?',
+           'answer' => 'El tipo de sujeción más popular, cómodo y moderno es el mosquetón.',
          ],
          '7' => [
-           'question' => 'Делаете ли вы доставку в другие города?',
-           'answer' => 'Да, мы осуществляем доставку нашей продукции в другие города.',
+           'question' => '¿Puedo pedir cintas para lanyards por separado?',
+           'answer' => 'Por supuesto, puedes pedir lanyards y tarjetas impresas por separado. Estamos listos para brindarle opciones de pedidos flexibles que se adapten a sus necesidades específicas.',
          ],
          '8' => [
-           'question' => 'Какой минимальный срок изготовления бейджей?',
-           'answer' => 'Для обеспечения срочного и приоритетного выполнения заказа, предоставляется возможность экспресс изготовления. Пожалуйста, обратите внимание, что данная услуга подразумевает дополнительную плату, которая позволит нам предоставить вам требуемый продукт в кратчайшие сроки без ущерба для его качества.',
+           'question' => '¿Cuál es el tiempo mínimo de producción de lanyards?',
+           'answer' => 'Para garantizar el cumplimiento urgente y prioritario de los pedidos, se encuentra disponible la producción exprés. Tenga en cuenta que este servicio implica una tarifa adicional, lo que nos permitirá proporcionarle el producto que necesita lo más rápido posible sin comprometer su calidad.',
          ],
       ],
+      'about_text' => 'Producción de lanyards perzonalizados: calidad, estilo y profesionalidad al servicio de su identificación.
+      <br>Las cintas para lanyards son un elemento importante de identificación corporativa y se utilizan ampliamente en eventos, conferencias y otras áreas. Ayudan a determinar fácilmente el estatus de una persona, su pertenencia a un determinado grupo u organización y también mejoran la percepción visual y la apariencia profesional. Si busca lanyards de alta calidad, ha venido al lugar correcto.
+      <br><br>Nuestra empresa lleva más de 5 años fabricando lanyards personalizados, por lo que podemos recomendarte la mejor opción para tu evento.
+      <br><br>Poliéster (cinta de poliéster): Este es uno de los materiales más populares para hacer cintas para lanyards. Las cintas de poliéster son muy duraderas y duraderas, resistentes a la abrasión y a la decoloración y vienen en una variedad de colores y texturas.
+      <br><br>Satén: Las cintas de raso tienen un acabado brillante y se utilizan a menudo para insignias más elegantes y adornadas. Son muy adecuados para bodas o eventos muy formales.
+      <br><br>La elección del material de la cinta para insignias depende de sus objetivos, estilo de evento y presupuesto. Cada uno de estos materiales tiene sus propias ventajas y características, y la elección de un material en particular dependerá de los requisitos específicos de su proyecto.',
    ],
 ]
 

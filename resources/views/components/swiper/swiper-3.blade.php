@@ -1,4 +1,4 @@
-<section class="swiper-3">
+<section class="swiper-3" >
   <div class="swiper-3__container">
     <h2 class="swiper-3__title">@lang($data['title'])</h2>
     @if (isset($data['text']))

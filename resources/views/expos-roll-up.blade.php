@@ -12,7 +12,7 @@
 <x-main-text>
   @lang('expos.rollup.text')
 </x-main-text>
-<x-two-images-section :data="$types" />
+<x-swiper.swiper-3 :data="$types" />
 {{-- <x-portfolio :$portfolioImages /> --}}
 <x-lead>
   <x-slot name="title">@lang('expos.rollup.lead.title')</x-slot>

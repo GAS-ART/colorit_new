@@ -15,9 +15,9 @@ return [
    'vinyl_car_wrapping' => 'Vinilo para vehiculos',
    'expos_brandwall' => 'Photocall',
    'expos_banner' => 'Lona',
-   'expos_rollup' => 'Ролл ап',
-   'expos_clothes' => 'Брендированная одежда',
-   'expos_badges' => 'Бейджи',
+   'expos_rollup' => 'Roll up',
+   'expos_clothes' => 'Ropa perzonalizada',
+   'expos_badges' => 'Lanyards',
 ]
 
 ?>

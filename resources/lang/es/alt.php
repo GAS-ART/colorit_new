@@ -182,13 +182,13 @@ return [
       'banner' => '',
     ],
     'rollup'=> [
-      'banner' => '',
+      'banner' => 'Roll up, x banner coprar en Barcelona',
     ],
     'clothes'=> [
-      'banner' => '',
+      'banner' => 'Ropa perzonalizada en Barcelona. Bordado, Transferencia térmica impresion y produccion rapida en Barcelona',
     ],
     'badges'=> [
-      'banner' => '',
+      'banner' => 'Lanyards perzonalizados comprar barato con su logo privado. Entrega rapida',
     ],
   ],
 
