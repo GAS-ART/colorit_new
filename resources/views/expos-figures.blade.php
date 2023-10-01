@@ -13,7 +13,7 @@
   @lang('expos.figures.text')
 </x-main-text>
 <x-swiper.swiper-5 :data="$material"/>
-<x-two-images-section :data="$backlight" />
+<x-swiper.swiper-3 :data="$backlight" />
 <x-portfolio :$portfolioImages />
 <x-lead>
   <x-slot name="title">@lang('expos.figures.lead.title')</x-slot>

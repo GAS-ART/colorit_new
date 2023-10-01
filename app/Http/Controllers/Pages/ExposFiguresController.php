@@ -74,21 +74,35 @@ class ExposFiguresController extends SetLangAndViewController
             ],
         ];
 
+        $backlightDirEs = 'img/expos/figures/es/backlight/';
+        $backlightDirRu = 'img/expos/figures/ru/backlight/';
+        $backlightImgTitleLangDir = 'expos.figures.backlight.image_titles.';
         $backlight = [
-            'title' => 'signboards.whith_light.backlight.title',
-            'text' => 'signboards.whith_light.backlight.text',
-            'img' => [
+            'title' => 'expos.figures.backlight.title',
+            'text' => 'expos.figures.backlight.text',
+            'spaceBetween' => '20',
+            'btn_prefix' => 'backlight-',
+            'slides' => [
                 [
-                'es' => 'img/signboards/whith_light/es/backlight/led-modelos-para-rotulos-luminosos.webp',
-                'ru' => 'img/signboards/whith_light/ru/backlight/светодиоды-модули-для-изготовления-наружной-рекламы.webp',
-                'img_title' => 'signboards.whith_light.backlight.img.1',
-                'alt' => '',
+                    'es' => $backlightDirEs .  '1.webp',
+                    'ru' => $backlightDirRu .  '1.webp',
+                    'title' => $backlightImgTitleLangDir . '1',
+                    'alt' => '',
+                    'height' => 'h-300',
                 ],
                 [
-                'es' => 'img/signboards/whith_light/es/backlight/luz-para-rotulos-exteriores.webp',
-                'ru' => 'img/signboards/whith_light/ru/backlight/Наружные-лампы-для-подсветки.webp',
-                'img_title' => 'signboards.whith_light.backlight.img.2',
-                'alt' => '',
+                    'es' => $backlightDirEs .  '2.webp',
+                    'ru' => $backlightDirRu .  '2.webp',
+                    'title' => $backlightImgTitleLangDir . '2',
+                    'alt' => '',
+                    'height' => 'h-300',
+                ],
+                [
+                    'es' => $backlightDirEs .  '3.webp',
+                    'ru' => $backlightDirRu .  '3.webp',
+                    'title' => $backlightImgTitleLangDir . '3',
+                    'alt' => '',
+                    'height' => 'h-300',
                 ],
             ],
         ];

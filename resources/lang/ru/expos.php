@@ -394,6 +394,18 @@ return [
       'title' => 'Материал',
       'text' => 'При изготовлении фигур и рекламных конструкций мы используем различные виды материалов, такие как: пластик ПВХ, акрилат, дерево и алюминиевые композитные панели, стекло и другие.'
     ],
+    'backlight' => [
+      'title' => 'Подсветка',
+      'text' => 'Подсветка рекламных конструкций и фигур осуществляется световыми LED лентами, неонами или светодиодными модулями. Все они обладают низким энергопотреблением, долгим сроком службы, и более компактны и эффективны по сравнению с традиционными источниками света.',
+      'image_titles' => [
+      '1' => 'Световой модуль лента',
+      'alt_1' => '',
+      '2' => 'Неон',
+      'alt_2' => '',
+      '3' => 'Светодиодный модуль',
+      'alt_3' => '',
+      ],
+   ],
     'portfolio' => [
       '1' => 'Изготовление декоративных фирур, тотемов из алюминия для французкого вокзала в Барселоне',
       '2' => 'Подиум декоративные для мероприятия в Барселоне',
@@ -439,12 +451,12 @@ return [
         'answer' => 'Для начала вам необходимо связаться с намиши менеджерами заполнив форму на сайте или позвоним, для уточнения всех ньюансов.',
       ],
     ],
-    'about_text' => 'Nuestra empresa es un fabricante profesional de estructuras publicitarias, podiumos, expositores para ferias, figuras de gran tamaño especializado en la creación de soluciones publicitarias únicas y efectivas. Ofrecemos una gama completa de servicios, desde el concepto y el diseño hasta la fabricación y la instalación.
-    <br><br>Nuestras estructuras y expositores son un arte que combina con creatividad y habilidades de ingeniería. Creamos stands, figuras o estructuras  publicitarias de cualquier complejidad que se destaquen entre la competencia. Nuestras soluciones se pueden utilizar en exposiciones, tiendas, eventos deportivos, en las calles de la ciudad y en muchos otros lugares.
-    <br><br>Los podiumos que producimos son adecuados para diversos eventos y presentaciones. Se pueden fabricar en diferentes formas y tamaños, y también pueden equiparse con elementos especiales para presentar productos u otros objetos. Nuestros productos no sólo aumentan la atención a su producto, sino que también hacen que su presentación sea más profesional y memorable.
-    <br><br>Las figuras de pie son una excelente solución para llamar la atención sobre tu marca o evento. Creamos figuras de tamaño natural de diferentes estilos y temáticas que pueden resaltar tu singularidad y apoyar tu campaña publicitaria. Se pueden fabricar figuras de tamaño natural tanto con materiales duraderos como con materiales adecuados para eventos únicos.
-    <br><br>Estamos orgullosos de la calidad de nuestros productos y brindamos un alto nivel de servicio al cliente. Nuestros expertos trabajan con usted en cada etapa del proyecto para satisfacer sus necesidades y expectativas. También nos esforzamos por hacer que nuestras soluciones publicitarias sean lo más sostenibles posible desde el punto de vista medioambiental, garantizando que utilizamos materiales recuperados y reciclables.
-    <br><br>Pedir estructuras publicitarias, figuras de altura, expositores que harán que su empresa sea más visible y exitosa, contáctenos. Nos encantaría ayudarle a crear una solución publicitaria que se ajuste a sus objetivos y presupuesto. Nuestra experiencia y profesionalismo garantizan que su campaña publicitaria sea exitosa y memorable.'
+    'about_text' => 'Наша компания - это профессиональный производитель рекламных структур, подиумов, стелажей для выставок, ростовых фигур, специализирующийся на создании уникальных и эффективных рекламных решений. Мы предлагаем полный цикл услуг, начиная с концепции и дизайна, и заканчивая изготовлением и установкой.
+    <br>Наши рекламные структуры - это искусство, объединяющее в себе креативность и инженерные навыки. Мы создаем рекламные конструкции любой сложности, которые выгодно выделяются среди конкурентов. Наши решения могут быть использованы на выставках, в магазинах, на спортивных событиях, на улицах городов и во многих других местах.
+    <br><br>Структуры и фигуры, которые мы производим, подходят для различных мероприятий и презентаций. Они могут быть выполнены в разных формах и размерах, а также быть оснащены специальными элементами для презентации продуктов или иных объектов. Наши стенды не только усиливают внимание к вашему продукту, но и делают презентацию более профессиональной и запоминающейся.
+    <br><br>Ростовые фигуры - это отличное решение для привлечения внимания к вашему бренду или мероприятию. Мы создаем ростовые фигуры разных стилей и тематик, которые способны подчеркнуть вашу уникальность и поддержать вашу рекламную кампанию. Ростовые фигуры могут быть выполнены как из долговечных материалов, так и из материалов, подходящих для одноразовых мероприятий.
+    <br><br>Мы гордимся качеством нашей продукции и обеспечиваем высокий уровень обслуживания клиентов. Наши специалисты работают с вами на каждом этапе проекта, чтобы удовлетворить ваши потребности и ожидания. Мы также стремимся сделать наши рекламные решения максимально экологически устойчивыми, следя за использованием утилизируемых и перерабатываемых материалов.
+    <br><br>Если вам нужны стенды для выставок, рекламные структуры, объемные подиумы или ростовые фигуры, которые сделают вашу компанию более заметной и успешной, обратитесь к нам. Мы с удовольствием поможем вам создать рекламное решение, которое будет соответствовать вашим целям и бюджету. Наш опыт и профессионализм гарантируют, что ваша рекламная кампания будет успешной и запоминающейся.',
   ],
 ]
 
