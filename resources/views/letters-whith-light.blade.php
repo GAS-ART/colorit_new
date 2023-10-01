@@ -12,7 +12,7 @@
 <x-main-text>
   @lang('letters.whith_light.text')
 </x-main-text>
-@include('inc.letters.material')
+<x-swiper.swiper-5 :data="$material"/>
 <section class="letters-thickness whith-light">
   <div class="letters-thickness__container">
     <div class="letters-thickness__body">

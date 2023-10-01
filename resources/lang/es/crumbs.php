@@ -18,6 +18,7 @@ return [
    'expos_rollup' => 'Roll up',
    'expos_clothes' => 'Ropa perzonalizada',
    'expos_badges' => 'Lanyards',
+   'expos_figures' => 'Figuras'
 ]
 
 ?>

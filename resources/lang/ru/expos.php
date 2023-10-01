@@ -374,11 +374,78 @@ return [
       ],
       'about_text' => 'Изготовление лент с бейджами: качество, стиль и профессионализм на службе вашей идентификации.
       <br>Ленты с бейджами являются важным элементом корпоративной идентификации, а также они широко используются на мероприятиях, конференциях, и в других сферах. Они помогают легко определить статус человека, его принадлежность к определенной группе или организации, а также улучшают визуальное восприятие и профессиональный облик. Если вам нужны высококачественные ленты с бейджами, вы попали по адресу.
-Наша компания занимаемся изготовлением бейджев под заказ уже более 5 лет, поэтому мы можем порекомендовать лучший вариант для вашего мероприятия.
+      Наша компания занимаемся изготовлением бейджев под заказ уже более 5 лет, поэтому мы можем порекомендовать лучший вариант для вашего мероприятия.
       <br><br>Полиэстер (полиестровая лента): Это один из самых популярных материалов для изготовления лент для бейджиков. Полиэстровые ленты обладают высокой прочностью и долговечностью, они устойчивы к потертостям и выцветанию и могут иметь разнообразные цвета и текстуры. 
       <br><br>Сатин: Сатиновые ленты обладают блестящей поверхностью и часто используются для более элегантных и украшенных бейджей. Они хорошо подходят для свадебных или высокоформальных мероприятий.
       <br><br>Выбор материала для ленты для бейджа зависит от целей, стиля мероприятия и бюджета. Каждый из этих материалов имеет свои преимущества и характеристики, и выбор определенного материала будет зависеть от конкретных требований вашего проекта.',
    ],
+   'figures'=>[
+    'banner' => [
+       'title' => 'Фигуры',
+       'circle_text' => 'Срок изготовления до 30 дней',
+    ],
+    'text' => 'Рекламные структуры, стенды, подиумы, ростовые фигуры - это ключевые элементы, которые могут поднять вашу рекламную кампанию на новый уровень. Мы специализируемся на создании креативных и эффективных рекламных решений, которые будут выделять вас среди конкурентов.
+    <br>С нами вы получаете не только качественную продукцию, но и весь спектр услуг, начиная от разработки концепции и дизайна и заканчивая производством и установкой. Наш опыт и профессионализм гарантируют, что ваша реклама будет максимально привлекательной и эффективной. Мы гордимся качеством нашей продукции и стремимся следовать последним тенденсиям в изготовлении.
+    <br>Выбрав нас, вы получаете рекламные решения, которые работают. Сделайте вашу компанию более успешной и заметной с нашей помощью!',
+    'lead' => [
+      'title' => 'Оставьте заявку на изготовление фигур',
+   ],
+    'material'=>[
+      'title' => 'Материал',
+      'text' => 'При изготовлении фигур и рекламных конструкций мы используем различные виды материалов, такие как: пластик ПВХ, акрилат, дерево и алюминиевые композитные панели, стекло и другие.'
+    ],
+    'portfolio' => [
+      '1' => 'Изготовление декоративных фирур, тотемов из алюминия для французкого вокзала в Барселоне',
+      '2' => 'Подиум декоративные для мероприятия в Барселоне',
+      '3' => 'Стенды с металлической структурой и обьемными буквами для города Cervello',
+      '4' => 'Обьемные металлические буквы с подсветкой для Канет де Мар',
+      '5' => 'Декоративная арка для чемпионата по спортивной гимпастике в Ллорет де мар',
+      '6' => 'Изготовление, оформление мебели и подиума для выставки в Барселоне',
+      '7' => 'Изготовление стеклянного подиума для выставки в Барселоне',
+      '8' => 'Наполные брендированные структуры из пвх с прямой печатью для чемпионата',
+      '9' => 'Изготовление декоративных звезд для ивент агентства',
+    ],
+    'questions' => [
+      '1' => [
+        'question' => 'Какой опыт у вашей компании в изготовлении стендов и фигур?',
+        'answer' => 'Наша компания имеет более 8 лет опыта в изготовлении стендов и фигур. Мы гордимся нашей портфельной работой, которая включает в себя проекты для крупных клиентов. Примеры работы смотрите в <a class="content-questions__answer-link" href="' . route('portfolio', ['locale' => __('lang.current')]) . '">портфолио.</a>',
+      ],
+      '2' => [
+        'question' => 'Какие материалы вы используете для изготовления стендов и фигур?',
+        'answer' => 'Мы используем разнообразные материалы в зависимости от потребностей проекта. Это включает в себя дерево, металл, пластик и акрил. Мы также можем работать с различными отделками и красками.',
+      ],
+      '3' => [
+        'question' => 'Каковы сроки выполнения заказа на изготовление стенда или фигуры?',
+        'answer' => 'Сроки выполнения заказа зависят от сложности проекта, но мы всегда стараемся соблюдать сроки. Мы можем предоставить гарантированный срок в зависимости от объема работы.',
+      ],
+      '4' => [
+        'question' => 'Каковы возможности по индивидуализации стенда или фигуры?',
+        'answer' => 'Мы готовы выполнить даже самые сложные проэкты стендов и фигур. Вы можете предоставить нам свой дизайн, где мы разработаем уникальное решение, учитывая ваши требования.',
+      ],
+      '5' =>[
+        'question' => 'Каковы ваши возможности по доставке и установке стенда или фигуры?',
+        'answer' => 'Мы предлагаем услуги доставки и установки стендов и фигур по вашему адресу. Стоимость доставки и установки будет прописано в фактуре',
+      ],
+      '6' => [
+        'question' => 'Каковы ваши цены на изготовление стендов и фигур?',
+        'answer' => 'Цены наших изделий зависят от размеров, материалов и сложности проекта. Мы можем обсудить ваши потребности и согласовать бюджет, который будет соответствовать вашим ожиданиям.',
+      ],
+      '7' => [
+        'question' => 'Какие дополнительные услуги или опции, такие как хранение или реставрация, аренда, демонтаж вы можете предложить для наших стендов и фигур после их изготовления?',
+        'answer' => 'Мы не предоставляем услуги по хранению материалов. Помимо изготовления, мы также предлагаем услуги по демонтажу стендов и фигур после завершения проекта.',
+      ],
+      '8' => [
+        'question' => 'Как можно начать работу с вами и какие шаги?',
+        'answer' => 'Для начала вам необходимо связаться с намиши менеджерами заполнив форму на сайте или позвоним, для уточнения всех ньюансов.',
+      ],
+    ],
+    'about_text' => 'Nuestra empresa es un fabricante profesional de estructuras publicitarias, podiumos, expositores para ferias, figuras de gran tamaño especializado en la creación de soluciones publicitarias únicas y efectivas. Ofrecemos una gama completa de servicios, desde el concepto y el diseño hasta la fabricación y la instalación.
+    <br><br>Nuestras estructuras y expositores son un arte que combina con creatividad y habilidades de ingeniería. Creamos stands, figuras o estructuras  publicitarias de cualquier complejidad que se destaquen entre la competencia. Nuestras soluciones se pueden utilizar en exposiciones, tiendas, eventos deportivos, en las calles de la ciudad y en muchos otros lugares.
+    <br><br>Los podiumos que producimos son adecuados para diversos eventos y presentaciones. Se pueden fabricar en diferentes formas y tamaños, y también pueden equiparse con elementos especiales para presentar productos u otros objetos. Nuestros productos no sólo aumentan la atención a su producto, sino que también hacen que su presentación sea más profesional y memorable.
+    <br><br>Las figuras de pie son una excelente solución para llamar la atención sobre tu marca o evento. Creamos figuras de tamaño natural de diferentes estilos y temáticas que pueden resaltar tu singularidad y apoyar tu campaña publicitaria. Se pueden fabricar figuras de tamaño natural tanto con materiales duraderos como con materiales adecuados para eventos únicos.
+    <br><br>Estamos orgullosos de la calidad de nuestros productos y brindamos un alto nivel de servicio al cliente. Nuestros expertos trabajan con usted en cada etapa del proyecto para satisfacer sus necesidades y expectativas. También nos esforzamos por hacer que nuestras soluciones publicitarias sean lo más sostenibles posible desde el punto de vista medioambiental, garantizando que utilizamos materiales recuperados y reciclables.
+    <br><br>Pedir estructuras publicitarias, figuras de altura, expositores que harán que su empresa sea más visible y exitosa, contáctenos. Nos encantaría ayudarle a crear una solución publicitaria que se ajuste a sus objetivos y presupuesto. Nuestra experiencia y profesionalismo garantizan que su campaña publicitaria sea exitosa y memorable.'
+  ],
 ]
 
 ?>

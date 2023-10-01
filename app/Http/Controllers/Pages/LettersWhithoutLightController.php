@@ -21,6 +21,7 @@ class LettersWhithoutLightController extends SetLangAndViewController
             'alt' => 'alt.letters.banner',
             'circle_text' => 'letters.circle',
         ];
+
         $breadCrumbs = [
             'links' => [
             [
@@ -31,6 +32,49 @@ class LettersWhithoutLightController extends SetLangAndViewController
             ],
             'currentPage' => __('crumbs.letters')
         ];
+
+        $materialDirEs = 'img/letters/es/material/';
+        $materialDirRu = 'img/letters/ru/material/';
+        $materialImgTitleLangDir = 'letters.material.img';
+        $materialAlt = 'alt.letters.material.';
+        $material = [
+            'title' => 'letters.material.title',
+            'text' => 'letters.material.text_title',
+            'btn_prefix' => 'material-',
+            'slides' => [
+                [
+                    'es' => $materialDirEs .  'Fabricacion-letras-corpóreas-de-PVC-en-Barcelona.webp',
+                    'ru' => $materialDirRu .  'Изготовление-обьемных-букв-из-PVC-в-Барселоне.webp',
+                    'title' => $materialImgTitleLangDir . '.1',
+                    'alt' => $materialAlt . '1',
+                ],
+                [
+                    'es' => $materialDirEs .  'Fabricacion-letras-corpóreas-de-madera-en-Barcelona.webp',
+                    'ru' => $materialDirRu .  'Изготовление-обьемных-букв-из-дерева-в-Барселоне.webp',
+                    'title' => $materialImgTitleLangDir . '.2',
+                    'alt' => $materialAlt . '2',
+                ],
+                [
+                    'es' => $materialDirEs .  'Fabricacion-letras-corpóreas-de-metacrilato-en-Barcelona.webp',
+                    'ru' => $materialDirRu .  'Изготовление-обьемных-букв-из-оргстекла-в-Барселоне.webp',
+                    'title' => $materialImgTitleLangDir . '.3',
+                    'alt' => $materialAlt . '3',
+                ],
+                [
+                    'es' => $materialDirEs .  'Fabricacion-letras-corpóreas-de-dibond-en-Barcelona.webp',
+                    'ru' => $materialDirRu .  'Изготовление-обьемных-букв-из-композита-в-Барселоне.webp',
+                    'title' => $materialImgTitleLangDir . '.4',
+                    'alt' => $materialAlt . '4',
+                ],
+                [
+                    'es' => $materialDirEs .  'Fabricacion-letras-corpóreas-de-acero-en-Barcelona.webp',
+                    'ru' => $materialDirRu .  'Изготовление-обьемных-букв-из-металла-в-Барселоне.webp',
+                    'title' => $materialImgTitleLangDir . '.5',
+                    'alt' => $materialAlt . '5',
+                ],
+            ],
+        ];
+
         $mounts = [
             'title' => 'letters.mounts.title',
             'text' => 'letters.mounts.text',
@@ -164,6 +208,6 @@ class LettersWhithoutLightController extends SetLangAndViewController
                 'answer' => 'letters.questions.' . $i . '.answer',
             ];
         }
-        return $this->setLocaleAndView($locale, 'letters-whithout-light', compact('banner', 'breadCrumbs', 'mounts', 'portfolioImages', 'questions'));
+        return $this->setLocaleAndView($locale, 'letters-whithout-light', compact('banner', 'breadCrumbs', 'material', 'mounts', 'portfolioImages', 'questions'));
     }
 }

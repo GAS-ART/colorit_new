@@ -190,6 +190,20 @@ return [
     'badges'=> [
       'banner' => 'Lanyards perzonalizados comprar barato con su logo privado. Entrega rapida',
     ],
+    'figures'=> [
+      'banner' => 'Fabricacion de figuras, stands, estructuras publicitarias, expositores para ferias en barcelona',
+      'portfolio' => [
+        '1' => 'Fabricacion de expositores para ferias, estructuras piblicitarios, figuras de gran formato el Barcelona',
+        '2' => 'Podios, totem publicitario, prodectros para eventos y ferias pedir en Barcelona',
+        '3' => 'Letras corpóreas, estructuras volumetricas para ferias, expositores para eventos en Barcelona',
+        '4' => 'Letras volumetricas de hiero iluminadas para Canet de Mar en',
+        '5' => 'Fabricacion de estructuras para eventos y ferias en Barcelona. Stands, totems, expositores de ferias ',
+        '6' => 'Podios iluminados, inmuebles con forma especializada para championatos, eventos en Barcelona',
+        '7' => 'Totem publicitario, figuras de gran formato, productor para ferias. Fabricacion en Barcelona',
+        '8' => 'Expositores para eventos y ferias fabricacion en Barcelona. Todo tipos de stands',
+        '9' => 'Productor para eventos y ferias. Estructuras, stands, totem, carteles iluminados. fabricacion propia en Barcelona ',
+      ],
+    ],
   ],
 
 ]

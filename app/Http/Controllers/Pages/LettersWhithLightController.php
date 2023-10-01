@@ -21,6 +21,7 @@ class LettersWhithLightController extends SetLangAndViewController
             'alt' => 'alt.letters.whith_light.banner',
             'circle_text' => 'letters.whith_light.circle',
         ];
+
         $breadCrumbs = [
             'links' => [
             [
@@ -31,6 +32,49 @@ class LettersWhithLightController extends SetLangAndViewController
             ],
             'currentPage' => 'crumbs.letters_whith_light',
         ];
+
+        $materialDirEs = 'img/letters/es/material/';
+        $materialDirRu = 'img/letters/ru/material/';
+        $materialImgTitleLangDir = 'letters.material.img';
+        $materialAlt = 'alt.letters.material.';
+        $material = [
+            'title' => 'letters.material.title',
+            'text' => 'letters.material.text_title',
+            'btn_prefix' => 'material-',
+            'slides' => [
+                [
+                    'es' => $materialDirEs .  'Fabricacion-letras-corpóreas-de-PVC-en-Barcelona.webp',
+                    'ru' => $materialDirRu .  'Изготовление-обьемных-букв-из-PVC-в-Барселоне.webp',
+                    'title' => $materialImgTitleLangDir . '.1',
+                    'alt' => $materialAlt . '1',
+                ],
+                [
+                    'es' => $materialDirEs .  'Fabricacion-letras-corpóreas-de-madera-en-Barcelona.webp',
+                    'ru' => $materialDirRu .  'Изготовление-обьемных-букв-из-дерева-в-Барселоне.webp',
+                    'title' => $materialImgTitleLangDir . '.2',
+                    'alt' => $materialAlt . '2',
+                ],
+                [
+                    'es' => $materialDirEs .  'Fabricacion-letras-corpóreas-de-metacrilato-en-Barcelona.webp',
+                    'ru' => $materialDirRu .  'Изготовление-обьемных-букв-из-оргстекла-в-Барселоне.webp',
+                    'title' => $materialImgTitleLangDir . '.3',
+                    'alt' => $materialAlt . '3',
+                ],
+                [
+                    'es' => $materialDirEs .  'Fabricacion-letras-corpóreas-de-dibond-en-Barcelona.webp',
+                    'ru' => $materialDirRu .  'Изготовление-обьемных-букв-из-композита-в-Барселоне.webp',
+                    'title' => $materialImgTitleLangDir . '.4',
+                    'alt' => $materialAlt . '4',
+                ],
+                [
+                    'es' => $materialDirEs .  'Fabricacion-letras-corpóreas-de-acero-en-Barcelona.webp',
+                    'ru' => $materialDirRu .  'Изготовление-обьемных-букв-из-металла-в-Барселоне.webp',
+                    'title' => $materialImgTitleLangDir . '.5',
+                    'alt' => $materialAlt . '5',
+                ],
+            ],
+        ];
+
         $lights = [
             'title' => 'letters.whith_light.lights.title',
             'text' => 'letters.whith_light.lights.text',
@@ -173,99 +217,6 @@ class LettersWhithLightController extends SetLangAndViewController
                 'title' => $portfolioLocaleAltPath . '9',
             ],
         ];
-        //template for copy
-        /* $portfolioImages = [
-            [
-                'es' => [
-                    'src' => $portfolioDirEs . '',
-                ],
-                'ru' => [
-                    'src' => $portfolioDirRu . '',
-                ],
-                'alt' => $portfolioLocaleAltPath . '1',
-                'title' => $portfolioLocaleTitlePath . '1',
-            ],
-            [
-                'es' => [
-                    'src' => $portfolioDirEs . '',
-                ],
-                'ru' => [
-                    'src' => $portfolioDirRu . '',
-                ],
-                'alt' => $portfolioLocaleAltPath . '2',
-                'title' => $portfolioLocaleTitlePath . '2',
-            ],
-            [
-                'es' => [
-                    'src' => $portfolioDirEs . '',
-                ],
-                'ru' => [
-                    'src' => $portfolioDirRu . '',
-                ],
-                'alt' => $portfolioLocaleAltPath . '3',
-                'title' => $portfolioLocaleTitlePath . '3',
-            ],
-            [
-                'es' => [
-                    'src' => $portfolioDirEs . '',
-                ],
-                'ru' => [
-                    'src' => $portfolioDirRu . '',
-                ],
-                'alt' => $portfolioLocaleAltPath . '4',
-                'title' => $portfolioLocaleTitlePath . '4',
-            ],
-            [
-                'es' => [
-                    'src' => $portfolioDirEs . '',
-                ],
-                'ru' => [
-                    'src' => $portfolioDirRu . '',
-                ],
-                'alt' => $portfolioLocaleAltPath . '5',
-                'title' => $portfolioLocaleTitlePath . '5',
-            ],
-            [
-                'es' => [
-                    'src' => $portfolioDirEs . '',
-                ],
-                'ru' => [
-                    'src' => $portfolioDirRu . '',
-                ],
-                'alt' => $portfolioLocaleAltPath . '6',
-                'title' => $portfolioLocaleTitlePath . '6',
-            ],
-            [
-                'es' => [
-                    'src' => $portfolioDirEs . '',
-                ],
-                'ru' => [
-                    'src' => $portfolioDirRu . '',
-                ],
-                'alt' => $portfolioLocaleAltPath . '7',
-                'title' => $portfolioLocaleTitlePath . '7',
-            ],
-            [
-                'es' => [
-                    'src' => $portfolioDirEs . '',
-                ],
-                'ru' => [
-                    'src' => $portfolioDirRu . '',
-                ],
-                'alt' => $portfolioLocaleAltPath . '8',
-                'title' => $portfolioLocaleTitlePath . '8',
-            ],
-            [
-                'es' => [
-                    'src' => $portfolioDirEs . '',
-                ],
-                'ru' => [
-                    'src' => $portfolioDirRu . '',
-                ],
-                'alt' => $portfolioLocaleAltPath . '9',
-                'title' => $portfolioLocaleTitlePath . '9',
-            ],
-        ]; */
         
         for ($i = 1; $i <= 8; $i++) {
             $questions[] = [
@@ -273,6 +224,6 @@ class LettersWhithLightController extends SetLangAndViewController
                 'answer' => 'letters.whith_light.questions.' . $i . '.answer',
             ];
         }
-        return $this->setLocaleAndView($locale, 'letters-whith-light', compact('banner', 'breadCrumbs', 'lights', 'mounts', 'portfolioImages', 'questions'));
+        return $this->setLocaleAndView($locale, 'letters-whith-light', compact('banner', 'breadCrumbs', 'material', 'lights', 'mounts', 'portfolioImages', 'questions'));
     }
 }

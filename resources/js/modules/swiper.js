@@ -293,45 +293,7 @@ if (reviewSlider) {
 }
 
 
-//LETTERS PAGE
-
-
-//MATERIAL
-const lettersMaterialSlider = document.querySelector('.slider-letters-material');
-
-if (lettersMaterialSlider) {
-  new Swiper(lettersMaterialSlider, {
-    // configure Swiper to use modules
-    modules: [Navigation],
-    simulateTouch: true,
-    slidesPerView: 1,
-    grabCursor: true,
-    spaceBetween: 20,
-    speed: 800,
-    navigation: {
-      nextEl: '.slider-letters-material__btn-next',
-      prevEl: '.slider-letters-material__btn-prev',
-    },
-    breakpoints: {
-      1240: {
-        slidesPerView: 5,
-      },
-      992: {
-        slidesPerView: 4,
-        loop: false,
-      },
-      768: {
-        slidesPerView: 3,
-        loop: false,
-      },
-      500: {
-        slidesPerView: 2,
-      },
-    },
-  });
-}
-
-//THICKNESS
+//LETTERS PAGE THICKNESS
 
 const lettersThicknessSlider = document.querySelector('.slider-letters-thickness');
 
@@ -426,6 +388,40 @@ if (swiper_4) {
       768: {
         slidesPerView: 2,
         //loop: false,
+      },
+    },
+  });
+}
+
+const swiper_5 = document.querySelector('.swiper-5__slider');
+
+if (swiper_5) {
+  const btnPrefix = swiper_5.dataset.btnPrefix;
+  new Swiper(swiper_5, {
+    modules: [Navigation],
+    simulateTouch: true,
+    slidesPerView: 1,
+    grabCursor: true,
+    spaceBetween: 20,
+    speed: 800,
+    navigation: {
+      nextEl: `.${btnPrefix}slider-swiper-5__btn-next`,
+      prevEl: `.${btnPrefix}slider-swiper-5__btn-prev`,
+    },
+    breakpoints: {
+      1240: {
+        slidesPerView: 5,
+      },
+      992: {
+        slidesPerView: 4,
+        loop: false,
+      },
+      768: {
+        slidesPerView: 3,
+        loop: false,
+      },
+      500: {
+        slidesPerView: 2,
       },
     },
   });

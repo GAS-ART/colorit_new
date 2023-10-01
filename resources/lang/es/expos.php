@@ -377,6 +377,71 @@ return [
       <br><br>Satén: Las cintas de raso tienen un acabado brillante y se utilizan a menudo para insignias más elegantes y adornadas. Son muy adecuados para bodas o eventos muy formales.
       <br><br>La elección del material de la cinta para insignias depende de sus objetivos, estilo de evento y presupuesto. Cada uno de estos materiales tiene sus propias ventajas y características, y la elección de un material en particular dependerá de los requisitos específicos de su proyecto.',
    ],
+   'figures'=>[
+    'banner' => [
+       'title' => 'Figuras',
+       'circle_text' => 'Срок изготовления до 30 дней',
+    ],
+    'text' => 'Estructuras publicitarias, stands, podios, expositores para ferias, figuras de tamaño natural: estos son los elementos clave que pueden llevar su campaña publicitaria al siguiente nivel. Nos especializamos en la creación de soluciones publicitarias creativas y efectivas que lo diferenciarán de sus competidores. Con nosotros no sólo obtendrá productos de alta calidad, sino también una gama completa de servicios, desde el desarrollo conceptual y el diseño hasta la producción y la instalación. Nuestra experiencia y profesionalidad garantizan que su publicidad será lo más atractiva y eficaz posible. Estamos orgullosos de la calidad de nuestros productos y nos esforzamos por hacer que nuestras soluciones sean lo más sostenibles posible desde el punto de vista medioambiental, garantizando el uso de materiales reciclados. Al elegirnos, obtienes soluciones publicitarias que funcionan. ¡Haz que tu empresa sea más exitosa y visible con nuestra ayuda!',
+    'lead' => [
+      'title' => 'Оставьте заявку на изготовление фигур',
+    ],
+    'material'=>[
+      'title' => 'Materiales',
+      'text' => 'En la fabricación de figuras y estructuras publicitarias utilizamos diversos tipos de materiales, como  PVC, metacrilato, paneles compuestos de madera, composito, cristales y otros.'
+    ],
+    'portfolio' => [
+      '1' => 'Expositores decorativos de aluminio para una feria en Barcelona',
+      '2' => 'Podio decorativo para el evento en Barcelona',
+      '3' => 'Stand con estructura metalica y letras corporeas para cuidad Cervello',
+      '4' => 'Letras corporeas de hiero iluminadas para Canet de Mar',
+      '5' => 'Arco decorativo para campeonato de gymnastica rytmica en Lloret de mar',
+      '6' => 'Rotulacion y fabricacion productos para ferias en Barcelona',
+      '7' => 'Fabricacion de podio de cristal para ferias',
+      '8' => 'Estructuras publicitarios con impresion digital para campeonato en Barcelona',
+      '9' => 'Fabricacion de estrellas decorativas para agencia de evento',
+    ],
+    'questions' => [
+      '1' => [
+        'question' => 'Qué experiencia tiene su empresa en la fabricación de stands y figuras?',
+        'answer' => 'Nuestra empresa cuenta con más de 8 años de experiencia en la fabricación de stands y figuras. Estamos orgullosos de nuestro portfolio de trabajos, que incluye proyectos para grandes clientes. Ver ejemplos de trabajos en el <a class="content-questions__answer-link" href="' . route('portfolio', ['locale' => __('lang.current')]) . '">portfolio.</a>',
+      ],
+      '2' => [
+        'question' => '¿Qué materiales utilizas para hacer stands y figuras?',
+        'answer' => 'Utilizamos una variedad de materiales dependiendo de las necesidades del proyecto. Esto incluye madera, metal, plástico y acrílico. También podemos trabajar con una variedad de acabados y pinturas.',
+      ],
+      '3' => [
+        'question' => '¿Cuál es el plazo de entrega de un pedido para realizar un stand o figura?',
+        'answer' => 'El tiempo de produccion del pedido depende de la complejidad del proyecto, pero siempre intentamos cumplir los plazos. Podemos proporcionar un período garantizado dependiendo del volumen de trabajo.',
+      ],
+      '4' => [
+        'question' => '¿Cuáles son las posibilidades de fabricacion de stands, expositores o estructuras de ferias?',
+        'answer' => 'Estamos listos para completar incluso los proyectos más complejos de stands y figuras. Puede proporcionarnos su diseño donde desarrollaremos una solución única basada en sus requisitos.',
+      ],
+      '5' =>[
+        'question' => '¿Cuáles son sus capacidades para la entrega e instalación de un stand o figura?',
+        'answer' => 'Ofrecemos servicios de entrega e instalación de stands y figuras en su domicilio. El coste de envío e instalación estará indicado en la factura.',
+      ],
+      '6' => [
+        'question' => '¿Cuáles son sus precios por hacer stands y figuras?',
+        'answer' => ' Los precios de nuestros productos dependen del tamaño, materiales y complejidad del proyecto. Podemos discutir sus necesidades y acordar un presupuesto que satisfaga sus expectativas.',
+      ],
+      '7' => [
+        'question' => '¿Qué servicios u opciones adicionales, como almacenamiento o restauración, alquiler, desmontaje, podéis ofrecer para nuestros stands y figuras una vez fabricados?',
+        'answer' => 'No brindamos servicios de almacenamiento de materiales. Además de la fabricación, también ofrecemos servicios de desmontaje de stands y figuras una vez finalizado el proyecto.',
+      ],
+      '8' => [
+        'question' => '¿Cómo puedo empezar para hacer el pedido y cuáles son los pasos?',
+        'answer' => 'Primero, debe ponerse en contacto con nuestros comerciales el formulario en el pagina web o llamándonos para aclarar todos los matices.',
+      ],
+    ],
+    'about_text' => 'Наша компания - это профессиональный производитель рекламных структур, подиумов, стелажей для выставок, ростовых фигур, специализирующийся на создании уникальных и эффективных рекламных решений. Мы предлагаем полный цикл услуг, начиная с концепции и дизайна, и заканчивая изготовлением и установкой.
+    <br>Наши рекламные структуры - это искусство, объединяющее в себе креативность и инженерные навыки. Мы создаем рекламные конструкции любой сложности, которые выгодно выделяются среди конкурентов. Наши решения могут быть использованы на выставках, в магазинах, на спортивных событиях, на улицах городов и во многих других местах.
+    <br><br>Структуры и фигуры, которые мы производим, подходят для различных мероприятий и презентаций. Они могут быть выполнены в разных формах и размерах, а также быть оснащены специальными элементами для презентации продуктов или иных объектов. Наши стенды не только усиливают внимание к вашему продукту, но и делают презентацию более профессиональной и запоминающейся.
+    <br><br>Ростовые фигуры - это отличное решение для привлечения внимания к вашему бренду или мероприятию. Мы создаем ростовые фигуры разных стилей и тематик, которые способны подчеркнуть вашу уникальность и поддержать вашу рекламную кампанию. Ростовые фигуры могут быть выполнены как из долговечных материалов, так и из материалов, подходящих для одноразовых мероприятий.
+    <br><br>Мы гордимся качеством нашей продукции и обеспечиваем высокий уровень обслуживания клиентов. Наши специалисты работают с вами на каждом этапе проекта, чтобы удовлетворить ваши потребности и ожидания. Мы также стремимся сделать наши рекламные решения максимально экологически устойчивыми, следя за использованием утилизируемых и перерабатываемых материалов.
+    <br><br>Если вам нужны стенды для выставок, рекламные структуры, объемные подиумы или ростовые фигуры, которые сделают вашу компанию более заметной и успешной, обратитесь к нам. Мы с удовольствием поможем вам создать рекламное решение, которое будет соответствовать вашим целям и бюджету. Наш опыт и профессионализм гарантируют, что ваша рекламная кампания будет успешной и запоминающейся.',
+  ],
 ]
 
 ?>
