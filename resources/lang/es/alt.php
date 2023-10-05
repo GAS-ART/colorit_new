@@ -11,7 +11,7 @@ return [
     ],
     'posrtfolio' => [
       '1' => 'Cartel luminoso de metacrilato 3mm opaco blanco con vinilo colocado. Se ilumina entero',
-      '2' => 'Обьемные буквы в Барселоне. Материал ПВХ с виниловыми обклейкой. С вставками золотого зеркального алюминия',
+      '2' => 'Объемные буквы в Барселоне. Материал ПВХ с виниловыми обклейкой. С вставками золотого зеркального алюминия',
       '3' => 'Rótulo bandeja de dibond con montadas letras corporeas luminosas de 25mm',
       '4' => 'Bandeja de compisite negro mate fresado y iluminado por dentro. Letras con luz fabricadas de pvc 20 mm y pintadas en color el dorado',
       '5' => 'Rótulo de dibond blanco brillo. Letras corporeas retroiluminadas de PVC de 35 mm del grosor con separados 20 mm',
