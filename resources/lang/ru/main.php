@@ -22,7 +22,7 @@ return [
       'regular' => 'Винил',
       'perforated' => 'Винил перфорированный',
       'sandblast_film' => 'Пескоструйная пленка',
-      'car_wrapping' => 'Обклейка машины',
+      'car_wrapping' => 'Оклейка машины',
     ],
     'expos' => [
       'title' => 'Выставки',

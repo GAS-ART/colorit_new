@@ -12,7 +12,7 @@ return [
    'vinyl_regular' => 'Винил с печатью',
    'vinyl_perforated' => 'Винил перфорированный',
    'sandblast_film' => 'Пескоструйная пленка',
-   'vinyl_car_wrapping' => 'Обклейка машины',
+   'vinyl_car_wrapping' => 'Оклейка машины',
    'expos_brandwall' => 'Брендволл',
    'expos_banner' => 'Баннер',
    'expos_rollup' => 'Ролл ап',
