@@ -30,7 +30,7 @@
                   <div class="info-header__icon">
                      <a href="https://www.instagram.com/colorit.agency/">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                           <g clip-path="url(#clip0_71_446)">
+                           <g clip-path="url(#clip0_71_444)">
                               <path
                                  d="M8.00182 3.892C5.73315 3.892 3.89648 5.73067 3.89648 7.99733C3.89648 10.266 5.73515 12.1027 8.00182 12.1027C10.2705 12.1027 12.1072 10.264 12.1072 7.99733C12.1072 5.72867 10.2685 3.892 8.00182 3.892ZM8.00182 10.662C6.52915 10.662 5.33715 9.46933 5.33715 7.99733C5.33715 6.52533 6.52982 5.33267 8.00182 5.33267C9.47382 5.33267 10.6665 6.52533 10.6665 7.99733C10.6672 9.46933 9.47448 10.662 8.00182 10.662Z"
                                  fill="#17161A" />
@@ -42,7 +42,7 @@
                                  fill="#17161A" />
                            </g>
                            <defs>
-                              <clipPath id="clip0_71_446">
+                              <clipPath id="clip0_71_444">
                                  <rect width="16" height="16" fill="white" />
                               </clipPath>
                            </defs>
@@ -75,7 +75,6 @@
                <button data-popup-id="main" data-popup-payload="@yield('mainPopupPayload')"
                   class="info-header__lead link-on-popup">
                   @lang('header.lead')<span class="flare-header"></span>
-               </button>
                </button>
                <div class="info-header__menu">
                   <span></span>

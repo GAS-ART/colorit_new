@@ -656,63 +656,63 @@
                     <div class="swiper-wrapper slider-review__wrapper">
                         <div class="swiper-slide slider-review__slide review-slide">
                             <div class="review-slide__body">
-                                <h4 class="review__content-title">@lang('home.reviews.ecotown.name')</h4>
+                                <div class="review__content-title">@lang('home.reviews.ecotown.name')</div>
                                 <div class="review__content-text">@lang('home.reviews.ecotown.text')</div>
                             </div>
                             <div class="review-slide__body">
-                                <h4 class="review__content-title">@lang('home.reviews.melanta.name')</h4>
+                                <div class="review__content-title">@lang('home.reviews.melanta.name')</div>
                                 <div class="review__content-text">@lang('home.reviews.melanta.text')</div>
                             </div>
                         </div>
                         <div class="swiper-slide slider-review__slide review-slide">
                             <div class="review-slide__body">
-                                <h4 class="review__content-title">@lang('home.reviews.duo.name')</h4>
+                                <div class="review__content-title">@lang('home.reviews.duo.name')</div>
                                 <div class="review__content-text">@lang('home.reviews.duo.text')</div>
                             </div>
                             <div class="review-slide__body">
-                                <h4 class="review__content-title">@lang('home.reviews.floratelie.name')</h4>
+                                <div class="review__content-title">@lang('home.reviews.floratelie.name')</div>
                                 <div class="review__content-text">@lang('home.reviews.floratelie.text')</div>
                             </div>
                         </div>
                         <div class="swiper-slide slider-review__slide review-slide">
                             <div class="review-slide__body">
-                                <h4 class="review__content-title">@lang('home.reviews.kabakova.name')</h4>
+                                <div class="review__content-title">@lang('home.reviews.kabakova.name')</div>
                                 <div class="review__content-text">@lang('home.reviews.kabakova.text')</div>
                             </div>
                             <div class="review-slide__body">
-                                <h4 class="review__content-title">@lang('home.reviews.zubko.name')</h4>
+                                <div class="review__content-title">@lang('home.reviews.zubko.name')</div>
                                 <div class="review__content-text">@lang('home.reviews.zubko.text')</div>
                             </div>
                         </div>
                         <div class="swiper-slide slider-review__slide review-slide">
                             <div class="review-slide__body">
-                                <h4 class="review__content-title">@lang('home.reviews.gas_auto.name')</h4>
+                                <div class="review__content-title">@lang('home.reviews.gas_auto.name')</div>
                                 <div class="review__content-text">@lang('home.reviews.gas_auto.text')</div>
                             </div>
                             <div class="review-slide__body">
-                                <h4 class="review__content-title">@lang('home.reviews.estetica.name')</h4>
+                                <div class="review__content-title">@lang('home.reviews.estetica.name')</div>
                                 <div class="review__content-text">@lang('home.reviews.estetica.text')</div>
                             </div>
                         </div>
                         <div class="swiper-slide slider-review__slide review-slide">
                             <div class="review-slide__body">
-                                <h4 class="review__content-title">@lang('home.reviews.globos.name')</h4>
+                                <div class="review__content-title">@lang('home.reviews.globos.name')</div>
                                 <div class="review__content-text">@lang('home.reviews.globos.text')</div>
                             </div>
                         </div>
                         <div class="swiper-slide slider-review__slide review-slide">
                             <div class="review-slide__body">
-                                <h4 class="review__content-title">@lang('home.reviews.bike_parts.name')</h4>
+                                <div class="review__content-title">@lang('home.reviews.bike_parts.name')</div>
                                 <div class="review__content-text">@lang('home.reviews.bike_parts.text')</div>
                             </div>
                             <div class="review-slide__body">
-                                <h4 class="review__content-title">@lang('home.reviews.detailing.name')</h4>
+                                <div class="review__content-title">@lang('home.reviews.detailing.name')</div>
                                 <div class="review__content-text">@lang('home.reviews.detailing.text')</div>
                             </div>
                         </div>
                         <div class="swiper-slide slider-review__slide review-slide">
                             <div class="review-slide__body">
-                                <h4 class="review__content-title">@lang('home.reviews.li_beauty.name')</h4>
+                                <div class="review__content-title">@lang('home.reviews.li_beauty.name')</div>
                                 <div class="review__content-text">@lang('home.reviews.li_beauty.text')</div>
                             </div>
                         </div>
