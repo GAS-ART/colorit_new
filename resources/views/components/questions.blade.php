@@ -9,9 +9,9 @@
         <div class="content-questions__body">
           @foreach($questions as $question)
           <div class="content-questions__card">
-            <div class="content-questions__question">{{__($question['question'])}}
+            <div class="content-questions__question">@lang($question['question'])
             </div>
-            <div class="content-questions__answer">{!!__($question['answer'])!!}</div>
+            <div class="content-questions__answer">@lang($question['answer'])</div>
             <div class="content-questions__arrow">
               <div></div>
             </div>
@@ -22,3 +22,24 @@
     </div>
   </div>
 </section>
+
+@once
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    @foreach($questions as $question)
+      {
+        "@type": "Question",
+        "name": "{{ str_replace(['\\\'', '\\"', '"', '\''], '', preg_replace('/<[^>]+>/', '', preg_replace('/\s+/', ' ', addslashes(__($question['question']))))) }}",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "{{ str_replace(['\\\'', '\\"', '"', '\''], '', preg_replace('/<[^>]+>/', '', preg_replace('/\s+/', ' ', addslashes(__($question['answer']))))) }}"
+        }
+      }{{ $loop->last ? '' : ',' }}
+    @endforeach
+  ]
+}
+</script>
+@endonce
