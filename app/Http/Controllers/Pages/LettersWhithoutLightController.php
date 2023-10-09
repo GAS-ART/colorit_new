@@ -81,7 +81,7 @@ class LettersWhithoutLightController extends SetLangAndViewController
             'img' => [
             [
             'es' => 'img/letters/es/mounts/letras-de-pvc-20-mm-acabado-oro-con-frente-de-alumio.webp',
-            'ru' => 'img/letters/ru/mounts/Золотые-буквы-объемные-толщиной-20 мм-из-пвх-с-фронтальным-золотым-алюминием.webp',
+            'ru' => 'img/letters/ru/mounts/Золотые-буквы-объемные-толщиной-20-мм-из-пвх-с-фронтальным-золотым-алюминием.webp',
             'img_title' => __('letters.mounts.img.1'),
             'alt' => '',
             ],
