@@ -3,8 +3,8 @@
     <div class="main-text__body" itemprop="description">
       {{ $slot }}
     </div>
-    <meta itemprop="provider" itemscope itemtype="http://schema.org/Organization">
+    <div itemprop="provider" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="Colorit">
-    </meta>
+    </div>
   </div>
 </section>

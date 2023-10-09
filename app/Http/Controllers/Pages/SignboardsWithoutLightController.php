@@ -79,10 +79,10 @@ class SignboardsWithoutLightController extends SetLangAndViewController
             'gallery-image-path' => 'signboards/whithout_light/es/portfolio/gallery',
             [
                 'es' => [
-                    'src' => $portfolioDirEs . 'Rotulo de metacrilato 10 mm con impresion digital en Barcelona.webp',
+                    'src' => $portfolioDirEs . 'Rotulo-de-metacrilato-10-mm-con-impresion-digital-en-Barcelona.webp',
                 ],
                 'ru' => [
-                    'src' => $portfolioDirRu . 'Вывеска из метакрилата с винилом.webp',
+                    'src' => $portfolioDirRu . 'Вывеска-из-метакрилата-с-винилом.webp',
                     
                 ],
                 'alt' => $portfolioLocaleAltPath . '1',
@@ -90,7 +90,7 @@ class SignboardsWithoutLightController extends SetLangAndViewController
             ],
             [
                 'es' => [
-                    'src' => $portfolioDirEs . 'Letrero exterior con impresion digital en pvc para salon de belleza.webp',
+                    'src' => $portfolioDirEs . 'Letrero-exterior-con-impresion-digital-en-pvc-para-salon-de-belleza.webp',
                 ],
                 'ru' => [
                     'src' => $portfolioDirRu . 'Вывеска-для-салона-красоты-с-печать-на-пвх-пластике.webp',
@@ -101,7 +101,7 @@ class SignboardsWithoutLightController extends SetLangAndViewController
             ],
             [
                 'es' => [
-                    'src' => $portfolioDirEs . 'Rotulo exterior con diseño expectacual para salon de belleza.webp',
+                    'src' => $portfolioDirEs . 'Rótulo-exterior-con-diseño-espectacular-para-salón-de-belleza.webp',
                 ],
                 'ru' => [
                     'src' => $portfolioDirRu . 'Наружная-реклама-из-пвх-для-салона-красоты.webp',
@@ -112,7 +112,7 @@ class SignboardsWithoutLightController extends SetLangAndViewController
             ],
             [
                 'es' => [
-                    'src' => $portfolioDirEs . 'Cartel exterior de pvc 5 mm para restaurante en Barcelona.webp',
+                    'src' => $portfolioDirEs . 'Cartel-exterior-de-pvc-5-mm-para-restaurante-en-Barcelona.webp',
                 ],
                 'ru' => [
                     'src' => $portfolioDirRu . 'Вывеска-их-пвх-5-мм-и-алюминиевой-конструкции-в-Барселоне.webp',
@@ -123,7 +123,7 @@ class SignboardsWithoutLightController extends SetLangAndViewController
             ],
             [
                 'es' => [
-                    'src' => $portfolioDirEs . 'Fabricacion de letrero de aluminio con vinilo colocado para escuela ucraniana en Barcelona.webp',
+                    'src' => $portfolioDirEs . 'Fabricacion-de-letrero-de-aluminio-con-vinilo-colocado-para-escuela-ucraniana-en-Barcelona.webp',
                 ],
                 'ru' => [
                     'src' => $portfolioDirRu . 'Изготовление-наружной-металлической-вывески-для-украинской-школы-в-Барселоне.webp',
@@ -134,7 +134,7 @@ class SignboardsWithoutLightController extends SetLangAndViewController
             ],
             [
                 'es' => [
-                    'src' => $portfolioDirEs . 'Produccion letrero de metacrilato brillo negro con acabado dorado.webp',
+                    'src' => $portfolioDirEs . 'Produccion-letrero-de-metacrilato-brillo-negro-con-acabado-dorado.webp',
                 ],
                 'ru' => [
                     'src' => $portfolioDirRu . 'Вывеска-из-глянцевого-акрила-10-мм-и-поклееной-золотой-пленкой-в-Барселоне.webp',
@@ -145,7 +145,7 @@ class SignboardsWithoutLightController extends SetLangAndViewController
             ],
             [
                 'es' => [
-                    'src' => $portfolioDirEs . 'Rotulo de PVC 10 mm con impresion digital y estructura de metal.webp',
+                    'src' => $portfolioDirEs . 'Rotulo-de-PVC-10-mm-con-impresion-digital-y-estructura-de-metal.webp',
                 ],
                 'ru' => [
                     'src' => $portfolioDirRu . 'Уф-печать-на-пвх-10-мм-в-Барселоне.webp',
@@ -156,7 +156,7 @@ class SignboardsWithoutLightController extends SetLangAndViewController
             ],
             [
                 'es' => [
-                    'src' => $portfolioDirEs . 'Fabricamos rotulos de metacrilato con impresion gidital.webp',
+                    'src' => $portfolioDirEs . 'Fabricamos-rotulos-de-metacrilato-con-impresion-digital.webp',
                 ],
                 'ru' => [
                     'src' => $portfolioDirRu . 'Вывеска-из-конструкции-и-уф-печати-на-акрилате-5-мм-для-рыбногом-магазина.webp',
@@ -167,7 +167,7 @@ class SignboardsWithoutLightController extends SetLangAndViewController
             ],
             [
                 'es' => [
-                    'src' => $portfolioDirEs . 'Produccion de letrero metalico con impresion para salon de belleza.webp',
+                    'src' => $portfolioDirEs . 'Produccion-de-letrero-metalico-con-impresion-para-salon-de-belleza.webp',
                 ],
                 'ru' => [
                     'src' => $portfolioDirRu . 'Алюминиевый-короб-с-поклееной-виниловой-пленкой-для-салона-красоты-в-Барселоне.webp',
