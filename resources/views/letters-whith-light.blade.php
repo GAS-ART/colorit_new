@@ -53,6 +53,7 @@
         </div>
       </div>
     </div>
+  </div>
 </section>
 <x-two-images-section :data="$lights" />
 <x-two-images-section :data="$mounts" />

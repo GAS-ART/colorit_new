@@ -89,6 +89,7 @@
         </div>
       </div>
     </div>
+  </div>
 </section>
 <x-two-images-section :data="$mounts" />
 <x-portfolio :$portfolioImages />
