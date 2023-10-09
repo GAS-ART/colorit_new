@@ -41,7 +41,7 @@
                            <label for="select">@lang('popup.service')</label>
                            <div class="popup__item-select">
                               <span class="select-placeholder">@lang('popup.select_placeholder')</span>
-                              <select name="service" id="popupMainSelect">
+                              <select id="select" name="service" id="popupMainSelect">
                                  <option hidden disabled selected value=""></option>
                                  <option value="Вывески">@lang('main.menu.signboards.title')</option>
                                  <option value="Буквы">@lang('main.menu.letters.title')</option>
