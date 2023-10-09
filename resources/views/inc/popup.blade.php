@@ -38,11 +38,11 @@
                            <p class="error-email"></p>
                         </div>
                         <div class="popup__item popup__item-select-body">
-                           <label for="select">@lang('popup.service')</label>
+                           <label for="popupMainSelect">@lang('popup.service')</label>
                            <div class="popup__item-select">
                               <span class="select-placeholder">@lang('popup.select_placeholder')</span>
-                              <select id="select" name="service" id="popupMainSelect">
-                                 <option hidden disabled selected value=""></option>
+                              <select name="service" id="popupMainSelect">
+                                 <option label="" hidden disabled selected value=""></option>
                                  <option value="Вывески">@lang('main.menu.signboards.title')</option>
                                  <option value="Буквы">@lang('main.menu.letters.title')</option>
                                  <option value="Винил">@lang('main.menu.vinyl.title')</option>
@@ -92,13 +92,13 @@
       </div>
    </div>
 </div>
-</div>
+{{-- </div> --}}
 
 
 {{-- <div id="gift" class="popup">
    <div class="popup__body">
       <div class="popup__content">
-         <div class="popup__loading">
+         <div class="popup__loading"></div>
             <img src="{{asset('img/load_100.gif')}}" alt="">
          </div>
          <button class="popup__close close-popup"><span></span><span></span></button>
