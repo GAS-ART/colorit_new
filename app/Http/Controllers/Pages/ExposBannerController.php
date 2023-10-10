@@ -89,7 +89,9 @@ class ExposBannerController extends SetLangAndViewController
         $examplesImgTitleLangDir = 'expos.banner.examples.image_titles.';
         $examples = [
             'title' => 'expos.banner.examples.title',
+            'title_class' => 'h3',
             'text' => 'expos.banner.examples.text',
+            'text_class' => 'regular',
             'spaceBetween' => '20',
             'btn_prefix' => 'examples-',
             'slides' => [

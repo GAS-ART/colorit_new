@@ -105,8 +105,8 @@ return [
          ],
       ],
       'examples' => [
-         'title' => '',
-         'text' => '<h3>La lona Frontlit</h3> <div class="text">proporcionan gráficos y colores vibrantes y de alta calidad. Estas pancartas están fabricadas con materiales fuertes y duraderos que resisten la humedad, la luz solar y el viento. Se pueden utilizar tanto en exteriores como en interiores. Los carteles con iluminación frontal son fáciles de plegar y transportar, lo que los hace convenientes para transportarlos a eventos e instalarlos en el sitio. Los carteles se fijan a la estructura mediante anillos de metal: ojales.</div>',
+         'title' => 'La lona Frontlit',
+         'text' => 'La lona Frontlit proporcionan gráficos y colores vibrantes y de alta calidad. Estas pancartas están fabricadas con materiales fuertes y duraderos que resisten la humedad, la luz solar y el viento. Se pueden utilizar tanto en exteriores como en interiores. Los carteles con iluminación frontal son fáciles de plegar y transportar, lo que los hace convenientes para transportarlos a eventos e instalarlos en el sitio. Los carteles se fijan a la estructura mediante anillos de metal: ojales.',
          'image_titles' => [
          '1' => '',
          'alt_1' => '',

@@ -1,8 +1,8 @@
 <section class="swiper-3" >
   <div class="swiper-3__container">
-    <h2 class="swiper-3__title">@lang($data['title'])</h2>
+    <h2 class="swiper-3__title @if(isset($data['title_class'])){{$data['title_class']}}@endif">@lang($data['title'])</h2>
     @if (isset($data['text']))
-    <p class="swiper-3__text">@lang($data['text'])</p>
+    <p class="swiper-3__text @if(isset($data['text_class'])){{$data['text_class']}}@endif">@lang($data['text'])</p>
     @endif
     <div class="swiper-3__slider swiper" data-btn-prefix="{{$data['btn_prefix']}}"
       data-space-between="{{$data['spaceBetween']}}">
