@@ -14,8 +14,8 @@ class ExposClothingController extends SetLangAndViewController
             'imgMin' => 'img/expos/clothes/es/Impresion-en-ropa-transferencia-termica-en-ropa-alta-calidad-de-impresion-y-bordado_.webp',
             ],
             'ru' => [
-            'imgBig' => 'img/expos/clothes/ru/Печать-трансферная-печать-на-футболках-и-кофтах-Высокое -качество-и-быстрая-доставка-в-Испании.webp',
-            'imgMin' => 'img/expos/clothes/ru/Печать-трансферная-печать-на-футболках-и-кофтах-Высокое -качество-и-быстрая-доставка-в-Испании_.webp',
+            'imgBig' => 'img/expos/clothes/ru/Печать-трансферная-печать-на-футболках-и-кофтах-высокое-качество-и-быстрая-доставка-в-Испании.webp',
+            'imgMin' => 'img/expos/clothes/ru/Печать-трансферная-печать-на-футболках-и-кофтах-высокое-качество-и-быстрая-доставка-в-Испании_.webp',
             ],
             'alt' => 'alt.expos.clothes.banner',
             'circle_text' => 'expos.clothes.banner.circle_text',
