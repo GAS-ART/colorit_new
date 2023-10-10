@@ -11,8 +11,8 @@ class ExposBadgesController extends SetLangAndViewController
         $banner = [
             'title' => 'expos.badges.banner.title',
             'es' => [
-            'imgBig' => 'img/expos/badges/es/Deja una solicitud para pedir roll up.webp',
-            'imgMin' => 'img/expos/badges/es/Deja una solicitud para pedir roll up_.webp',
+            'imgBig' => 'img/expos/badges/es/Deja-una-solicitud-para-pedir-roll-up.webp',
+            'imgMin' => 'img/expos/badges/es/Deja-una-solicitud-para-pedir-roll-up_.webp',
             ],
             'ru' => [
             'imgBig' => 'img/expos/badges/ru/Бейджик-с-именными-карточками-для-ивент-мероприятий-и-фекстивалей.webp',
