@@ -21,7 +21,7 @@
 </x-lead>
 <x-questions :$questions />
 <x-about>
-  @lang('vinyl.regular.about_text')
+  @lang('expos.badges.about_text')
 </x-about>
 <x-question-lead>
   БЕЙДЖИ ({{ url()->current() }})
