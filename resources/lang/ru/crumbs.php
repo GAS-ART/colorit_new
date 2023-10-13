@@ -18,7 +18,8 @@ return [
    'expos_rollup' => 'Ролл ап',
    'expos_clothes' => 'Брендированная одежда',
    'expos_badges' => 'Бейджи',
-   'expos_figures' => 'Фигуры'
+   'expos_figures' => 'Фигуры',
+   'expos_stands' => 'Стенды',
 ]
 
 ?>

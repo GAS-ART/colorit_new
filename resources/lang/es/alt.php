@@ -204,6 +204,9 @@ return [
         '9' => 'Productor para eventos y ferias. Estructuras, stands, totem, carteles iluminados. fabricacion propia en Barcelona ',
       ],
     ],
+    'stands'=> [
+      'banner' => '',
+    ],
   ],
 
 ]

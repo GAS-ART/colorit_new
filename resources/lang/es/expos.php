@@ -401,7 +401,7 @@ return [
       '3' => 'Modules LED',
       'alt_3' => '',
       ],
-   ],
+    ],
     'portfolio' => [
       '1' => 'Expositores decorativos de aluminio para una feria en Barcelona',
       '2' => 'Podio decorativo para el evento en Barcelona',
@@ -453,6 +453,67 @@ return [
     <br><br>Las figuras de pie son una excelente solución para llamar la atención sobre tu marca o evento. Creamos figuras de tamaño natural de diferentes estilos y temáticas que pueden resaltar tu singularidad y apoyar tu campaña publicitaria. Se pueden fabricar figuras de tamaño natural tanto con materiales duraderos como con materiales adecuados para eventos únicos.
     <br><br>Estamos orgullosos de la calidad de nuestros productos y brindamos un alto nivel de servicio al cliente. Nuestros expertos trabajan con usted en cada etapa del proyecto para satisfacer sus necesidades y expectativas. También nos esforzamos por hacer que nuestras soluciones publicitarias sean lo más sostenibles posible desde el punto de vista medioambiental, garantizando que utilizamos materiales recuperados y reciclables.
     <br><br>Pedir estructuras publicitarias, figuras de altura, expositores que harán que su empresa sea más visible y exitosa, contáctenos. Nos encantaría ayudarle a crear una solución publicitaria que se ajuste a sus objetivos y presupuesto. Nuestra experiencia y profesionalismo garantizan que su campaña publicitaria sea exitosa y memorable.'
+  ],
+  'stands'=>[
+    'banner' => [
+      'title' => 'Ferias',
+      'circle_text' => 'Aclarar plazos',
+   ],
+   
+   'text' => 'Bienvenido al mundo de posibilidades, donde cada exposición se convierte en un evento y cada stand en una obra de arte. Un stand de exposición es una estructura especialmente creada para presentar su empresa, productos o servicios en exposiciones y eventos. Esta es una herramienta importante para atraer la atención y la interacción con los visitantes. Incluye:
+    <br><br><b>Diseño y Gráfica:</b> Diseño visual del stand que refleje la marca y valores de la empresa.
+    <br><br><b>Estructura:</b> El núcleo de un stand que define su forma y funcionalidad.
+    <br><br><b>Elementos interactivos:</b> Pantallas táctiles, juegos y otros elementos para atraer a los visitantes. Equipamiento: Monitores, muestras de productos y equipamiento técnico.
+    <br><br><b>Iluminación:</b> Iluminación de alta calidad para hacer atractivo el stand.
+    <br><br><b>Mobiliario y complementos:</b> Mesas, sillas y otros elementos para la comodidad de los visitantes.
+    <br><br><b>Materiales informativos:</b> Folletos y materiales impresos.
+    <br><br><b>Áreas de presentación:</b> Áreas para presentaciones y demostraciones.
+    <br><br><b>Logística e instalación:</b> Planificación e instalación del stand en el lugar del evento.
+    <br><br>Un stand de exposición no es sólo un elemento estético, sino también una herramienta estratégica para alcanzar tus objetivos en el evento.',
+  
+    'types' => [
+      'title' => 'Tipos de stands',
+      'text' => '',
+      'image_titles' => [
+        '1' => 'Stand modular',
+        'alt_1' => 'Stands de ferias a medida. Fabricacion, entrega y montaje en Barcelona',
+        '2' => 'Estandart',
+        'alt_2' => 'Stands de ferias y eventos en Barcelona. Fabricacion ',
+        '3' => 'Promostands',
+        'alt_3' => '',
+        '4' => 'Stands exclusivos',
+        'alt_4' => '',
+      ],
+    ],
+    'service' => [
+      'title' => 'Servisios',
+      'cards_title' => [
+        '1' => 'Diseño',
+        '2' => '3D proyecto',
+        '3' => 'Fabricacion',
+        '4' => 'Entrega',
+        '5' => 'Montaje',
+        '6' => 'Desmontaje',
+      ],
+    ],
+    'lead' => [
+      'title' => 'Deja una solicitud para pedir stand para ferias',
+    ],
+    'about_text' => '¡Bienvenido a un mundo de posibilidades creativas y stands de exposición impresionantes! Somos un equipo de profesionales dedicados al arte de crear espacios expositivos que dejen una impresión inolvidable.
+    <br><br>Sobre nosotros:
+    <br>Nuestras raíces están profundas en el mundo de la publicidad y el marketing exterior. Contamos con un equipo de talentosos diseñadores, ingenieros y expertos técnicos para brindarle soluciones innovadoras para stands de exhibición.
+    <br><br>Nuestros principios: Enfoque personalizado: Creemos que cada marca es única, por eso nuestros stands están diseñados teniendo en cuenta sus objetivos, audiencia e identidad de marca.
+    <br><br>Innovación y Tecnología: Siempre estamos atentos a nuevas tecnologías y tendencias en el diseño de stands para ferias. Integramos elementos interactivos, soluciones multimedia y materiales modernos para que tu stand destaque entre la competencia.
+    <br><br>Calidad y plazos: Nos enorgullecemos de la alta calidad de nuestro trabajo y cumplimos con los plazos de los proyectos. Nos esforzamos para que cada stand sea una solución visual y funcional ideal. Equipo de profesionales: Nuestro equipo está formado por especialistas con muchos años de experiencia en la industria del marketing de exposiciones. Estamos preparados para afrontar retos de cualquier complejidad.
+    <br><br>Nuestros servicios:
+    <br>Diseño y concepto de stand
+    <br>Fabricación e instalación del stand.
+    <br>Apoyo técnico
+    <br>Logística e instalación en sitio.
+    <br>Informes
+    <br><br>Terminación:
+    <br>Te invitamos a un viaje al mundo de la creatividad y la profesionalidad. Con nosotros, su próximo stand de exposición se convertirá en algo más que una simple estructura física, sino en una poderosa herramienta para atraer la atención, mantener la identidad de marca y lograr sus objetivos de exposición.
+    <br><br>Elíjanos como su socio confiable en la creación de stands para exhibición y trabajemos juntos para hacer que su próxima experiencia de exhibición sea única.',
   ],
 ]
 
