@@ -99,7 +99,7 @@ function quiz(quizeInitBtns) {
       }
 
       if (e.target.dataset.quiz == 'layout') {
-        lang == "es" ? quizTitle.innerText = 'Tienes ya el diseño?' : quizTitle.innerText = 'У вас есть гововый макет?'
+        lang == "es" ? quizTitle.innerText = 'Tienes ya el diseño?' : quizTitle.innerText = 'У вас есть готовый макет?'
       } else {
         lang == "es" ? quizTitle.innerText = '¿Qué es exactamente lo que necesita?' : quizTitle.innerText = 'Что именно вам нужно?'
       }
