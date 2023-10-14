@@ -21,7 +21,7 @@
 </x-lead>
 <x-questions :$questions />
 <x-about>
-  @lang('vinyl.regular.about_text')
+  @lang('vinyl.sandblast_film.about_text')
 </x-about>
 <x-question-lead>
   ПЕСКОСТРУЙНАЯ ПЛЕНКА ({{ url()->current() }})

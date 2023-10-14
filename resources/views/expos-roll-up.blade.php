@@ -19,9 +19,9 @@
   <x-slot name="leadInfo">РОЛЛ АП ({{ url()->current() }})</x-slot>
 </x-lead>
 <x-questions :$questions />
-{{-- <x-about>
-  @lang('vinyl.regular.about_text')
-</x-about> --}}
+<x-about>
+  @lang('expos.rollup.about_text')
+</x-about>
 <x-question-lead>
   РОЛЛ АП ({{ url()->current() }})
 </x-question-lead>

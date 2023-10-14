@@ -50,38 +50,53 @@ return [
       ],
       'questions' => [
          '1' => [
-           'question' => 'Какая стоимость брендволла?',
-           'answer' => 'Стоимость брендволла зависит от его размеров. Чем больше размер, чем выше стоимость. Дополнительно считаются дизайн, доставка и установка. Каждый заказ считается индивидуально. Оставляйте заявку на нашем сайте, и мы с вами свяжемся для просчета вашего заказа.',
+           'question' => '¿Cuál es el costo de un photocall?',
+           'answer' => 'El costo de un brandwall depende de su tamaño. Cuanto mayor sea el tamaño, mayor será el costo. Además, se consideran el diseño, la entrega y la instalación. Cada pedido se considera individualmente. Deje una solicitud en nuestro sitio web y nos comunicaremos con usted para calcular su pedido.',
          ],
          '2' => [
-           'question' => 'Как брендволл крепится и устанавливается?',
-           'answer' => 'Конструкция брендволла достаточно легко собирается. Если вы решили устанавливать его самостоятельно, мы подробно консультируем как это сделать быстро и качественно. Для этого не нужны специальные инструменты. Лучше, когда собирают конструкцию и монтируют баннер два человека.',
+           'question' => '¿Existen opciones o accesorios adicionales para lona o photocall?',
+           'answer' => 'El brandwall se puede complementar con focos. Se instala un foco por cada 70 cm de ancho del lienzo. También se pueden instalar decoraciones o accesorios adicionales. Pero primero recomendamos consultar con nuestros especialistas.',
          ],
          '3' => [
-           'question' => 'Есть ли какие-либо дополнительные опции или аксессуары для брендволла?',
-           'answer' => 'Брендволл можно дополнить прожекторами. Один прожектор устанавливается на 70 см ширины баннерного полотна. Дополнительное декорирование или аксессуары также можно устанавливать. Но сначала мы рекомендуем проконсультироваться с нашими специалистами.',
+           'question' => '¿Cuáles son las condiciones de funcionamiento del brandwall?',
+           'answer' => 'Damos recomendaciones sobre el uso y cuidado adecuado del brandwall. Por ejemplo, cómo montar correctamente la estructura y fijar la lona del banner, cómo limpiar su superficie o cómo manejar la retroiluminación, cómo almacenarla y transportarla.',
          ],
          '4' => [
-           'question' => 'Какие гарантии и условия по обслуживанию предоставляются для брендволла?',
-           'answer' => 'Уточняйте у наших менеджеров сроки гарантии на брендволл. Обычно они составляют несколько месяцев или даже годы, в зависимости от производителя и типа брендволла. Если возникают проблемы с материалами, печатью или конструкцией, то они будут бесплатно исправлены или заменены в рамках гарантийных условий.',
+           'question' => '¿Es posible alquilar una estructura photocall?',
+           'answer' => 'No, la estructura protocal esta solo en venta',
          ],
          '5' => [
-           'question' => 'Какие условия эксплуатации брендволла?',
-           'answer' => 'Мы даем рекомендации по правильной эксплуатации и уходу за брендволлом. Например, как правильно собирать конструкцию и крепить баннерное полотно, как чистить его поверхность или как обращаться с подсветкой, как его хранить и транспортировать.',
+           'question' => '¿Cómo se fija e instala el brandwall?',
+           'answer' => 'El diseño de brandwall es bastante fácil de montar. Si decides instalarlo tú mismo, te asesoraremos detalladamente sobre cómo hacerlo de forma rápida y eficaz. Para ello no se necesitan herramientas especiales. Es mejor cuando dos personas montan la estructura y montan el banner.',
          ],
          '6' => [
-           'question' => 'Можно ли получить консультацию или помощь в разработке дизайна для брендволла?',
-           'answer' => 'Да, мы бесплатно консультируем и предоставляем все технические требования для создания макета. Если у вас нет дизайнера, мы с радостью создадим для вас необходимый макет. Стоимость изготовления макета не входит в стоимость брендволла.',
+           'question' => '¿Qué garantías y condiciones de servicio ofrece el photocall?',
+           'answer' => 'Consulte con nuestros gerentes sobre el período de garantía del brandwall. Suelen durar varios meses o incluso años, según el fabricante y el tipo de pared de la marca. Si hay problemas con los materiales, la impresión o el diseño, serán corregidos o reemplazados sin costo dentro de los términos de la garantía.',
          ],
          '7' => [
-           'question' => 'Можно ли брать конструкцию брендволла в аренду?',
-           'answer' => 'Да, мы предоставляем конструкции в аренду. Наличие моделей и размеров уточняйте у наших менеджеров.',
+           'question' => '¿Puedo obtener asesoramiento o ayuda para desarrollar un diseño para un muro de marca?',
+           'answer' => 'Sí, brindamos consultas gratuitas y proporcionamos todos los requisitos técnicos para crear un diseño. Si no tiene un diseñador, estaremos encantados de crear el diseño necesario para usted. El costo de realizar el diseño no está incluido en el costo del brandwall.',
          ],
          '8' => [
-           'question' => 'Если у нас уже есть конструкция, можно ли заказать только баннер?',
-           'answer' => 'Да, вы можете заказать только баннер, если у вас уже есть конструкция. Для этого нам необходимо знать точные размеры баннера под эту конструкцию и способ крепления – люверсы или липучая лента.',
+           'question' => 'Si ya tenemos un diseño, ¿podemos pedir solo el banner?',
+           'answer' => 'Sí, puedes pedir solo un banner si ya tienes un diseño. Para hacer esto, necesitamos saber las dimensiones exactas de la pancarta para este diseño y el método de fijación: ojales o cinta adhesiva.',
          ],
        ],
+       'about_text' => 'Photocall - es una herramienta innovadora y elegante para crear fondos brillantes y memorables para diversos eventos. Este diseño se ha convertido en una parte integral del marketing y la marca modernos y aporta muchos beneficios a las empresas y organizadores de eventos.
+    <br><br>Ventajas del muro de prensa:
+    <br>1. Marca y reconocimiento
+    <br>Un muro de prensa permite a las empresas y marcas crear su propio fondo de marca que las diferencia de sus competidores. Colocar logotipos, eslóganes y elementos gráficos de fondo promueve el reconocimiento y ayuda a fortalecer la imagen de una marca.
+    <br><br>2. Creación de contenido
+    <br>Las fotografías e imágenes de la conferencia de prensa se distribuyen activamente en las redes sociales y plataformas web. Esto crea contenido adicional que ayuda a promocionar la marca y hacerla más visible en línea.
+    <br><br>3. Atraer a los medios y periodistas
+    <br>Un muro de prensa puede atraer la atención de periodistas y representantes de los medios, lo que brinda la oportunidad de recibir cobertura de los medios y publicaciones sobre su empresa y evento.
+    <br><br>4. Interactividad y participación de los huéspedes
+    <br>Los asistentes al evento pueden utilizar el muro de prensa para tomar sus propias fotografías, haciendo que el evento sea más interactivo y divertido. También fomenta el intercambio social y la creación de recuerdos positivos.
+    <br><br>5. Enfatizando eventos importantes
+    <br>Los muros de prensa se pueden utilizar para resaltar eventos importantes como lanzamientos de nuevos productos, aniversarios de empresas y otros momentos clave en el desarrollo de la marca.
+    <br><br>6. Reuniones con Socios y Clientes
+    <br>El muro de prensa puede servir como un lugar atractivo para reunirse con socios, clientes e invitados importantes en un evento, facilitando reuniones de negocios efectivas.
+    <br><br>El muro de prensa es una herramienta eficaz y versátil para promocionar una marca y crear una experiencia inolvidable en los eventos. Ayuda a los organizadores a hacer que los eventos sean más reconocibles y exitosos, y a las empresas a fortalecer su marca ante los ojos de clientes y socios.'
    ],
    'banner'=>[
       'banner' => [
@@ -119,38 +134,44 @@ return [
       'perfo_banner'=>'<h3>Lona microporforada</h3>Главная особенность перфобаннера - наличие множества микроперфораций, которые пронизывают весь материал. Эти отверстия позволяют свету и воздуху проходить через баннер, делая его полупрозрачным и снижают парусность. Перфобаннер позволяет создавать рекламные баннеры с односторонней видимостью. Снаружи видно полноцветную графику и изображения, в то время как с внутренней стороны можно наблюдать окружающую среду.',
       'questions' => [
          '1' => [
-           'question' => 'Можно ли заказать индивидуальный размер баннера? Или существуют только стандартные размеры?',
-           'answer' => 'Мы делаем баннеры любого размера. Есть ограничение по ширине рулона, но эта проблема решается спайкой.',
+           'question' => '¿Es posible pedir un tamaño de banner personalizado? ¿O sólo hay tamaños estándar?',
+           'answer' => 'Realizamos lonas de cualquier tamaño. Existe una limitación en el ancho del rollo, pero este problema se puede solucionar planchando.',
          ],
          '2' => [
-           'question' => 'У нас нет изображения, которое мы хотели бы напечатать. Можно ли заказать у вас дизайн баннера?',
-           'answer' => 'Да, у нас есть в команде профессиональные дизайнеры, которые воплотят все ваши пожелания в жизнь.',
+           'question' => '¿La calidad del banner es diferente cuando se instala en interiores o exteriores?',
+           'answer' => 'El mismo banner se utiliza para uso externo e interno. La calidad del banner varía según el tamaño y las condiciones de funcionamiento. Para tamaños más grandes, se suelen utilizar lonas más gruesas y duraderas.',
          ],
          '3' => [
-           'question' => 'Отличается ли качество баннера при установке внутри помещения или снаружи?',
-           'answer' => 'Для наружного и внутреннего применения используют одинаковый баннер. Качество баннера отличается в зависимости от размеров и условий эксплуатации. При больших размерах, как правило используют более плотные и прочные баннера.',
+           'question' => '¿Instalas lonas?',
+           'answer' => 'Nuestros instaladores instalarán su banner de manera eficiente y profesional. Los trabajos en altura son realizados por instaladores certificados para trabajos en altura.',
          ],
          '4' => [
-           'question' => 'Можно ли заказать баннер с двухсторонней печатью?',
-           'answer' => 'Да, мы делаем баннеры с двухсторонней печатью. ',
+           'question' => '¿Cuál es el período de garantía para el banner y la impresión?',
+           'answer' => 'Ofrecemos una garantía de 3 años para lonas impresas. La garantía no cubre daños mecánicos ni el funcionamiento con fuertes ráfagas de viento (por ejemplo, en tejados, tramos entre edificios). En tales casos, recomendamos imprimir en una lona perforada.',
          ],
          '5' => [
-           'question' => 'Делаете ли вы установку баннеров?',
-           'answer' => 'Наши монтажники качественно и профессионально сделают для вас установку баннера. Высотные работы проводят сертифицированные монтажники для работ на высоте.',
+           'question' => 'No tenemos una imagen que nos gustaría imprimir. ¿Puedo encargarles un diseño de banner?',
+           'answer' => 'Sí, contamos con diseñadores profesionales en nuestro equipo que harán realidad todos tus deseos.',
          ],
          '6' => [
-           'question' => 'Какие дополнительные крепления или уплотнения нужны, чтобы баннер не порвался и прослужил долго?',
-           'answer' => 'Для того чтобы баннер был надежно закреплен и прослужил длительное время, необходимо делать подворот по периметру баннера. Этот подворот фиксируется с помощью люверсов или проклеивается. Благодаря люверсам баннер монтируется быстро и качественно, баннерное полотно натягивается идеально без разрыва и повреждения. Обычный шаг установки люверсов – 30 см. Но он может быть больше и меньше в зависимости от размеров баннера и условий монтажа.',
+           'question' => '¿Es posible pedir lona con impresión a doble cara?',
+           'answer' => 'Sí, hacemos lonas impresas a doble cara.',
          ],
          '7' => [
-           'question' => 'Какой гарантийный срок на баннер и на печать?',
-           'answer' => 'На баннер с печатью мы даем гарантию 3 года. Гарантия не распространяется на механические повреждения и эксплуатацию при сильном порывистом ветре (например, на крышах, пролетах между зданиями). В таких случаях мы рекомендуем печать на перфорированном баннере.',
+           'question' => '¿Qué fijaciones o refuerzos adicionales se necesitan para garantizar que la lona no se rompa y dure mucho tiempo?',
+           'answer' => 'Para que la lona quede bien sujeta y sirva durante mucho tiempo, es necesario hacer un pliegue (refuerzo) alrededor o perímetral de la lona. Este dobladillo se fija con ojales o se pega. Gracias a los ojales, la lona se monta de forma rápida y eficaz, la tela de lona se estira perfectamente sin rasgarse ni dañarse. El paso habitual para instalar ojales es de 30 cm, pero puede ser mayor o menor dependiendo del tamaño del banner y de las condiciones de instalación.',
          ],
          '8' => [
-           'question' => 'У меня есть баннер в хорошем состоянии. Можно ли напечатать изображение на другой стороне этого же баннера?',
-           'answer' => 'Печать на б/у баннере не возможна.',
+           'question' => 'Tengo una pancarta en buen estado. ¿Es posible imprimir una imagen en el otro lado del mismo banner?',
+           'answer' => 'No es posible imprimir en un banner usado.',
          ],
        ],
+       'about_text' => 'La impresión en lona o tela es el proceso de creación de imágenes, texto o gráficos en una lona especial para usar en lonas, banderas, letreros, exhibidores y otros materiales de marketing. Las lona suelen estar hechas de poliéster y tienen propiedades que las hacen ideales para uso en exteriores y con fines publicitarios:<br><br>
+       Resistencia a la intemperie: Lonas para carteles suelen ser muy resistentes a la humedad, los rayos ultravioleta y el viento. Esto permite utilizar pancartas en exteriores y en diferentes condiciones climáticas.<br><br>
+       Brillo y saturación de color: las telas están diseñadas para mantener el brillo y la riqueza de los colores impresos incluso cuando se exponen a la luz solar y otras influencias.<br><br>
+       Fácil instalación: Las telas para pancartas suelen ser livianas y fáciles de instalar y pueden montarse o colgarse fácilmente en una variedad de superficies.<br><br>
+       Durabilidad: Están diseñados para durar, ahorrando dinero en publicidad y marketing.<br><br>
+       La impresión en tela o lona se puede realizar utilizando una variedad de métodos, incluida la impresión por sublimación, la impresión con solventes y la impresión UV. Cada uno de estos métodos tiene sus propias ventajas y es adecuado para diferentes propósitos. Los banners fabricados con esta tela son muy utilizados para campañas publicitarias, stands informativos en eventos, exposiciones, eventos deportivos y otros eventos donde es necesario llamar la atención y proporcionar información importante.'
    ],
    'rollup'=>[
       'banner' => [
@@ -207,6 +228,17 @@ return [
            'answer' => 'Nuestra empresa se esfuerza por hacer que el proceso de recepción de nuestros productos sea lo más conveniente posible para nuestros clientes, independientemente de su ubicación. Entregaremos sus productos promocionales en cualquier lugar de Europa.',
          ],
       ],
+      'about_text' => '¿Qué es un roll-up?<br><br>
+      Roll-up (o rollup) es una estructura publicitaria, que es una pancarta vertical estirada sobre un soporte. La principal ventaja del roll-up es su movilidad y versatilidad. Esta herramienta le permite crear rápida y fácilmente publicidad expresiva que puede usarse en ferias comerciales, conferencias, lanzamientos de productos, tiendas, ferias y muchos otros eventos. Los roll-ups son extremadamente populares entre los empresarios y especialistas en marketing de todo el mundo, y esto no es sorprendente.<br><br>
+      Ventajas de utilizar roll-ups:<br><br>
+      Llamar la atención visualmente: Los roll-ups permiten distinguir tu publicidad de la del resto de participantes del evento gracias a su gran formato y alta calidad de impresión. Los colores vibrantes, las imágenes claras y los diseños informativos ayudan a captar la atención de los clientes potenciales.<br><br>
+      Movilidad: Los roll-ups son fáciles de transportar e instalar. Se pliegan de forma compacta en estuches especiales y no requieren habilidades especiales para su instalación. Esto permite su uso en diversos eventos donde se necesita publicidad rápida y conveniente.<br><br>
+      Contenido informativo: los roll-ups brindan espacio para publicar información importante sobre su empresa, productos o servicios. Puede incluir un logotipo, información de contacto, una breve descripción e incluso imágenes de sus productos.<br><br>
+      Rentable: El coste de producir roll-ups es relativamente bajo en comparación con otros tipos de publicidad. Al mismo tiempo, duran mucho tiempo y se pueden utilizar en muchos eventos.<br><br>
+      Aspecto profesional: Los roll-ups le dan a su empresa un aspecto profesional y respetable. Esta herramienta se considera una de las herramientas estándar para presentar un negocio.<br><br>
+      Utiliza roll-ups para conseguir tus objetivos<br><br>
+      Independientemente de si su objetivo es atraer nuevos clientes, promocionar un nuevo producto o participar en una exposición, un roll-up puede ser un asistente indispensable. Es importante adoptar el enfoque correcto a la hora de crear el diseño y el contenido de un roll-up para que cumpla su propósito de la forma más eficaz posible.<br><br>]
+      Por lo tanto, el roll-up no es sólo un medio de publicidad cómodo y móvil, sino también una poderosa herramienta para lograr sus objetivos en el mundo empresarial. No importa cuál sea su industria o el tamaño de su empresa, un resumen puede ayudarlo a destacar y atraer la atención de su público objetivo.'
    ],
    'clothes'=>[
       'banner' => [
@@ -461,28 +493,28 @@ return [
    ],
    
    'text' => 'Bienvenido al mundo de posibilidades, donde cada exposición se convierte en un evento y cada stand en una obra de arte. Un stand de exposición es una estructura especialmente creada para presentar su empresa, productos o servicios en exposiciones y eventos. Esta es una herramienta importante para atraer la atención y la interacción con los visitantes. Incluye:
-    <br><br><b>Diseño y Gráfica:</b> Diseño visual del stand que refleje la marca y valores de la empresa.
-    <br><br><b>Estructura:</b> El núcleo de un stand que define su forma y funcionalidad.
-    <br><br><b>Elementos interactivos:</b> Pantallas táctiles, juegos y otros elementos para atraer a los visitantes. Equipamiento: Monitores, muestras de productos y equipamiento técnico.
-    <br><br><b>Iluminación:</b> Iluminación de alta calidad para hacer atractivo el stand.
-    <br><br><b>Mobiliario y complementos:</b> Mesas, sillas y otros elementos para la comodidad de los visitantes.
-    <br><br><b>Materiales informativos:</b> Folletos y materiales impresos.
-    <br><br><b>Áreas de presentación:</b> Áreas para presentaciones y demostraciones.
-    <br><br><b>Logística e instalación:</b> Planificación e instalación del stand en el lugar del evento.
+    <br><br>Diseño y Gráfica: Diseño visual del stand que refleje la marca y valores de la empresa.
+    <br><br>Estructura: El núcleo de un stand que define su forma y funcionalidad.
+    <br><br>Elementos interactivos: Pantallas táctiles, juegos y otros elementos para atraer a los visitantes. Equipamiento: Monitores, muestras de productos y equipamiento técnico.
+    <br><br>Iluminación: Iluminación de alta calidad para hacer atractivo el stand.
+    <br><br>Mobiliario y complementos: Mesas, sillas y otros elementos para la comodidad de los visitantes.
+    <br><br>Materiales informativos: Folletos y materiales impresos.
+    <br><br>Áreas de presentación: Áreas para presentaciones y demostraciones.
+    <br><br>Logística e instalación: Planificación e instalación del stand en el lugar del evento.
     <br><br>Un stand de exposición no es sólo un elemento estético, sino también una herramienta estratégica para alcanzar tus objetivos en el evento.',
   
     'types' => [
       'title' => 'Tipos de stands',
-      'text' => '',
+      'text' => 'Existen muchos tipos de stands de ferias que se utilizan en diversos campos, desde la educación hasta la industria expositiva. Ofrecemos los más populares de ellos:',
       'image_titles' => [
         '1' => 'Stand modular',
-        'alt_1' => 'Stands de ferias a medida. Fabricacion, entrega y montaje en Barcelona',
+        'alt_1' => 'Stands, figuras y estructuras para ferias y eventos en Barcelona. Producción y envío a toda España.',
         '2' => 'Estandart',
-        'alt_2' => 'Stands de ferias y eventos en Barcelona. Fabricacion ',
+        'alt_2' => 'Fabricación de stands y figuras de exposición en España. Producción en Barcelona',
         '3' => 'Promostands',
-        'alt_3' => '',
+        'alt_3' => 'Stands para exposiciones y eventos. Figuras volumétricas. Producción y envío a toda España.',
         '4' => 'Stands exclusivos',
-        'alt_4' => '',
+        'alt_4' => 'Stands exclusivos para exposiciones y eventos. Fabricación, instalación y desmontaje.',
       ],
     ],
     'service' => [
@@ -500,20 +532,20 @@ return [
       'title' => 'Deja una solicitud para pedir stand para ferias',
     ],
     'about_text' => '¡Bienvenido a un mundo de posibilidades creativas y stands de exposición impresionantes! Somos un equipo de profesionales dedicados al arte de crear espacios expositivos que dejen una impresión inolvidable.
-    <br><br>Sobre nosotros:
+    <br>Sobre nosotros:
     <br>Nuestras raíces están profundas en el mundo de la publicidad y el marketing exterior. Contamos con un equipo de talentosos diseñadores, ingenieros y expertos técnicos para brindarle soluciones innovadoras para stands de exhibición.
-    <br><br>Nuestros principios: Enfoque personalizado: Creemos que cada marca es única, por eso nuestros stands están diseñados teniendo en cuenta sus objetivos, audiencia e identidad de marca.
-    <br><br>Innovación y Tecnología: Siempre estamos atentos a nuevas tecnologías y tendencias en el diseño de stands para ferias. Integramos elementos interactivos, soluciones multimedia y materiales modernos para que tu stand destaque entre la competencia.
-    <br><br>Calidad y plazos: Nos enorgullecemos de la alta calidad de nuestro trabajo y cumplimos con los plazos de los proyectos. Nos esforzamos para que cada stand sea una solución visual y funcional ideal. Equipo de profesionales: Nuestro equipo está formado por especialistas con muchos años de experiencia en la industria del marketing de exposiciones. Estamos preparados para afrontar retos de cualquier complejidad.
-    <br><br>Nuestros servicios:
+    <br>Nuestros principios: Enfoque personalizado: Creemos que cada marca es única, por eso nuestros stands están diseñados teniendo en cuenta sus objetivos, audiencia e identidad de marca.
+    <br>Innovación y Tecnología: Siempre estamos atentos a nuevas tecnologías y tendencias en el diseño de stands para ferias. Integramos elementos interactivos, soluciones multimedia y materiales modernos para que tu stand destaque entre la competencia.
+    <br>Calidad y plazos: Nos enorgullecemos de la alta calidad de nuestro trabajo y cumplimos con los plazos de los proyectos. Nos esforzamos para que cada stand sea una solución visual y funcional ideal. Equipo de profesionales: Nuestro equipo está formado por especialistas con muchos años de experiencia en la industria del marketing de exposiciones. Estamos preparados para afrontar retos de cualquier complejidad.
+    <br>Nuestros servicios:
     <br>Diseño y concepto de stand
     <br>Fabricación e instalación del stand.
     <br>Apoyo técnico
     <br>Logística e instalación en sitio.
     <br>Informes
-    <br><br>Terminación:
+    <br>Terminación:
     <br>Te invitamos a un viaje al mundo de la creatividad y la profesionalidad. Con nosotros, su próximo stand de exposición se convertirá en algo más que una simple estructura física, sino en una poderosa herramienta para atraer la atención, mantener la identidad de marca y lograr sus objetivos de exposición.
-    <br><br>Elíjanos como su socio confiable en la creación de stands para exhibición y trabajemos juntos para hacer que su próxima experiencia de exhibición sea única.',
+    <br>Elíjanos como su socio confiable en la creación de stands para exhibición y trabajemos juntos para hacer que su próxima experiencia de exhibición sea única.',
   ],
 ]
 

@@ -363,18 +363,11 @@ return [
         'answer' => 'Garantía de obra y materiales – 1 año. La garantía no cubre daños mecánicos. El tiempo de producción depende de la cantidad de trabajo y la complejidad del diseño y se negocia individualmente.',
       ],
     ],
-    'about_text' => 'Rotulacion de coches con vinilo es una herramienta importante en el mundo del marketing y la publicidad. Este proceso le permite crear una apariencia expresiva y reconocible de su automóvil, que atrae la atención, aumenta la conciencia de marca y puede convertirse en una plataforma de publicidad móvil. Echemos un vistazo más de cerca a este tema.<br><br>
-    Película de vinilo: el material perfecto para la marca<br>La película de vinilo es un material de alta calidad que se utiliza para crear varios diseños y gráficos en los coches. Está disponible en una variedad de colores, texturas y tonos, lo que permite la máxima individualización de su diseño de coche bajo una marca o campaña de marketing.<br><br>
-    Ventajas de la marca de coches película de vinilo<br><br>
-    Impacto visual: Un coche de marca atrae inmediatamente la atención. Los colores brillantes, el diseño creativo y los logotipos lo hacen expresivo y memorable.<br><br>
-    Publicidad móvil: Tu coche se convierte en una plataforma de publicidad móvil. Puede entregar su mensaje a una amplia audiencia moviéndose por la ciudad o participando en eventos y exposiciones.<br><br>
-    Individualidad: La capacidad de crear un diseño único que coincida con su identidad de marca y objetivos de marketing. Puedes elegir colores, fuentes, texturas y elementos gráficos que enfaticen tu individualidad.<br><br>
-    Protección del coche: La película de vinilo también sirve para proteger el cuerpo de arañazos, astillas y la exposición a la luz solar. Esto extiende la vida del automóvil y preserva su apariencia.<br><br>
-    Fácil instalación y sustitución: El proceso de instalación de la película de vinilo es bastante rápido y no requiere tecnologías complicadas. La película también se puede quitar o reemplazar fácilmente si se requieren actualizaciones de diseño.<br><br>
-    Proceso de marca de automóviles con película de vinilo<br><br>
-    El proceso comienza con el desarrollo de un diseño que coincida con la identidad de su marca y los objetivos de marketing. Luego, los especialistas en marcas preparan la superficie del automóvil para asegurar una mejor película de agarre. La película se aplica cuidadosamente al automóvil, evitando burbujas y arrugas. El proceso de secado y fijación de los extremos de la película.<br><br>
-    Conclusión<br><br>
-    La marca de coches con película de vinilo es una manera efectiva de crear reconocimiento de marca, atraer la atención y decorar su coche. Esto también sirve como protección para la carrocería del automóvil. Al elegir esta estrategia, es importante recurrir a los profesionales para obtener una marca de calidad que servirá durante mucho tiempo y ayudará a lograr sus objetivos de marketing y promoción.',
+    'about_text' => 'Las rotulaciones de vinilo para automóviles son una forma emocionante y creativa de transformar su vehículo, agregando estilo y protección única. Este proceso combina arte y tecnología, permitiéndole crear un automóvil que destacará en la carretera. Hablemos del mundo de posibilidades que se abre ante ti al envolver tu coche en vinilo.<br><br>
+    mpecemos por la apariencia. La envoltura de vinilo ofrece infinitas posibilidades de diseño para su vehículo. Puede elegir entre una amplia gama de colores, texturas y acabados, y crear gráficos y patrones únicos. Esta es tu oportunidad de expresar tu estilo y hacer que tu coche sea realmente único.<br><br>
+    Además, las envolturas de vinilo ofrecen no solo valor estético sino también protección para su vehículo. Protege la carrocería de rayones, piedras, rayos ultravioleta y otros factores que podrían dañar la pintura de fábrica. Esto significa que su coche conservará su aspecto original durante mucho tiempo.<br><br>
+    El proceso de envoltura ciertamente requiere cierta habilidad y atención al detalle, pero con la preparación adecuada y quizás ayuda profesional, se pueden lograr resultados sorprendentes. Ya sea que esté buscando una manera de cambiar la apariencia de su automóvil o simplemente protegerlo, las envolturas de vinilo le brindan muchas opciones.<br><br>
+    Sumérgete en este apasionante mundo del diseño de automóviles y descubre cómo las envolturas de vinilo pueden transformar tu automóvil en una obra de arte sobre ruedas.',
   ],
 
 ]

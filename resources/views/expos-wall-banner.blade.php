@@ -28,9 +28,9 @@
   <x-slot name="leadInfo">БРЕНДВОЛЛ ({{ url()->current() }})</x-slot>
 </x-lead>
 <x-questions :$questions />
-{{-- <x-about>
-  @lang('vinyl.regular.about_text')
-</x-about> --}}
+<x-about>
+  @lang('expos.brandwall.about_text')
+</x-about>
 <x-question-lead>
   БРЕНДВОЛЛ ({{ url()->current() }})
 </x-question-lead>

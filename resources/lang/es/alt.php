@@ -180,7 +180,7 @@ return [
       ],
     ],
     'banner'=> [
-      'banner' => '',
+      'banner' => 'Fabricación de lonas, lonas perforadas. Lonas con impresion digita. Lonas con ojales en Barcelona',
     ],
     'rollup'=> [
       'banner' => 'Roll up, x banner coprar en Barcelona',

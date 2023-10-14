@@ -44,12 +44,12 @@
     </div>
   </div>
 </section>
-{{-- <x-portfolio :$portfolioImages /> --}}
+<x-portfolio :$portfolioImages />
 <x-lead>
   <x-slot name="title">@lang('expos.stands.lead.title')</x-slot>
   <x-slot name="leadInfo">СТЕНДЫ ({{ url()->current() }})</x-slot>
 </x-lead>
-{{-- <x-questions :$questions /> --}}
+<x-questions :$questions />
 <x-about>
   @lang('expos.stands.about_text')
 </x-about>

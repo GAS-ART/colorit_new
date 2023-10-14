@@ -30,9 +30,9 @@
   <x-slot name="leadInfo">ВЫСТАВКИ -> БАННЕР ({{ url()->current() }})</x-slot>
 </x-lead>
 <x-questions :$questions />
-{{-- <x-about>
-  @lang('vinyl.regular.about_text')
-</x-about> --}}
+<x-about>
+  @lang('expos.banner.about_text')
+</x-about>
 <x-question-lead>
   ВЫСТАВКИ -> БАННЕР ({{ url()->current() }})
 </x-question-lead>
