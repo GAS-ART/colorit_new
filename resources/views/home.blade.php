@@ -17,14 +17,14 @@
                 media="(min-width: 768px)">
             <source type="image/webp"
                 srcset="{{ asset('img/home/es/Rotulos-y-letras-copróreas-fabricacion-en-barcelona_.webp') }}">
-            <img src="{{ asset('img/home/es/1_.webp') }}" alt="@lang('alt.home.baner_icon')">
+            <img src="{{ asset('img/home/es/Rotulos-y-letras-copróreas-fabricacion-en-barcelona.webp') }}" alt="@lang('alt.home.baner_icon')">
             @elseif(App::isLocale('ru'))
             <source type="image/webp"
                 srcset="{{ asset('img/home/ru/Изготовление-вывесок-и-обьемных-букв-в-барселоне.webp') }}"
                 media="(min-width: 768px)">
             <source type="image/webp"
                 srcset="{{ asset('img/home/ru/Изготовление-вывесок-и-обьемных-букв-в-барселоне_.webp') }}">
-            <img src="{{ asset('img/home/ru/1_.webp') }}" alt="@lang('alt.home.baner_icon')">
+            <img src="{{ asset('img/home/ru/Изготовление-вывесок-и-обьемных-букв-в-барселоне_.webp') }}" alt="@lang('alt.home.baner_icon')">
             @endif
         </picture>
     </div>

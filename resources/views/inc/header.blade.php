@@ -140,35 +140,6 @@
                      </ul>
                   </li>
                   <li class="header-menu__list-item">
-                     <h3 class="header-menu__title">@lang('main.menu.vinyl.title')</h3>
-                     <ul class="header-menu__sub-list">
-                        <li class="header-menu__sub-list-item @yield('vinyl_regular')">
-                           <a href="{{ route('vinyl_regular', ['locale' => __('lang.current')]) }}"
-                              class="header-menu__sub-list-link">
-                              @lang('main.menu.vinyl.regular')
-                           </a>
-                        </li>
-                        <li class="header-menu__sub-list-item @yield('vinyl_perforated')">
-                           <a href="{{ route('vinyl_perforated', ['locale' => __('lang.current')]) }}"
-                              class="header-menu__sub-list-link">
-                              @lang('main.menu.vinyl.perforated')
-                           </a>
-                        </li>
-                        <li class="header-menu__sub-list-item @yield('sandblast_film')">
-                           <a href="{{ route('sandblast_film', ['locale' => __('lang.current')]) }}"
-                              class="header-menu__sub-list-link">
-                              @lang('main.menu.vinyl.sandblast_film')
-                           </a>
-                        </li>
-                        <li class="header-menu__sub-list-item @yield('vinyl_car_wrapping')">
-                           <a href="{{ route('vinyl_car_wrapping', ['locale' => __('lang.current')]) }}"
-                              class="header-menu__sub-list-link">
-                              @lang('main.menu.vinyl.car_wrapping')
-                           </a>
-                        </li>
-                     </ul>
-                  </li>
-                  <li class="header-menu__list-item">
                      <h3 class="header-menu__title">@lang('main.menu.expos.title')</h3>
                      <ul class="header-menu__sub-list">
                         <li class="header-menu__sub-list-item @yield('expos_stands')">
@@ -211,6 +182,35 @@
                            <a href="{{ route('expos_badges', ['locale' => __('lang.current')]) }}"
                               class="header-menu__sub-list-link">
                               @lang('main.menu.expos.badges')
+                           </a>
+                        </li>
+                     </ul>
+                  </li>
+                  <li class="header-menu__list-item">
+                     <h3 class="header-menu__title">@lang('main.menu.vinyl.title')</h3>
+                     <ul class="header-menu__sub-list">
+                        <li class="header-menu__sub-list-item @yield('vinyl_regular')">
+                           <a href="{{ route('vinyl_regular', ['locale' => __('lang.current')]) }}"
+                              class="header-menu__sub-list-link">
+                              @lang('main.menu.vinyl.regular')
+                           </a>
+                        </li>
+                        <li class="header-menu__sub-list-item @yield('vinyl_perforated')">
+                           <a href="{{ route('vinyl_perforated', ['locale' => __('lang.current')]) }}"
+                              class="header-menu__sub-list-link">
+                              @lang('main.menu.vinyl.perforated')
+                           </a>
+                        </li>
+                        <li class="header-menu__sub-list-item @yield('sandblast_film')">
+                           <a href="{{ route('sandblast_film', ['locale' => __('lang.current')]) }}"
+                              class="header-menu__sub-list-link">
+                              @lang('main.menu.vinyl.sandblast_film')
+                           </a>
+                        </li>
+                        <li class="header-menu__sub-list-item @yield('vinyl_car_wrapping')">
+                           <a href="{{ route('vinyl_car_wrapping', ['locale' => __('lang.current')]) }}"
+                              class="header-menu__sub-list-link">
+                              @lang('main.menu.vinyl.car_wrapping')
                            </a>
                         </li>
                      </ul>
@@ -271,27 +271,6 @@
                         </ul>
                      </li>
                      <li class="header-burger__sub-list-item">
-                        <h3 class="header-burger__sub-list-item-title">@lang('main.menu.vinyl.title')</h3>
-                        <ul class="header-burger__sub-sub-list">
-                           <li class="header-burger__sub-sub-list-item @yield('vinyl_regular')">
-                              <a href="{{ route('vinyl_regular', ['locale' => __('lang.current')]) }}"
-                                 class="header-burger__sub-sub-list-link">@lang('main.menu.vinyl.regular')</a>
-                           </li>
-                           <li class="header-burger__sub-sub-list-item @yield('vinyl_perforated')">
-                              <a href="{{ route('vinyl_perforated', ['locale' => __('lang.current')]) }}"
-                                 class="header-burger__sub-sub-list-link">@lang('main.menu.vinyl.perforated')</a>
-                           </li>
-                           <li class="header-burger__sub-sub-list-item @yield('sandblast_film')">
-                              <a href="{{ route('sandblast_film', ['locale' => __('lang.current')]) }}"
-                                 class="header-burger__sub-sub-list-link">@lang('main.menu.vinyl.sandblast_film')</a>
-                           </li>
-                           <li class="header-burger__sub-sub-list-item @yield('vinyl_car_wrapping')">
-                              <a href="{{ route('vinyl_car_wrapping', ['locale' => __('lang.current')]) }}"
-                                 class="header-burger__sub-sub-list-link">@lang('main.menu.vinyl.car_wrapping')</a>
-                           </li>
-                        </ul>
-                     </li>
-                     <li class="header-burger__sub-list-item">
                         <h3 class="header-burger__sub-list-item-title">@lang('main.menu.expos.title')</h3>
                         <ul class="header-burger__sub-sub-list">
                            <li class="header-burger__sub-sub-list-item @yield('expos_stands')">
@@ -321,6 +300,27 @@
                            <li class="header-burger__sub-sub-list-item @yield('expos_badges')">
                               <a href="{{ route('expos_badges', ['locale' => __('lang.current')]) }}"
                                  class="header-burger__sub-sub-list-link">@lang('main.menu.expos.badges')</a>
+                           </li>
+                        </ul>
+                     </li>
+                     <li class="header-burger__sub-list-item">
+                        <h3 class="header-burger__sub-list-item-title">@lang('main.menu.vinyl.title')</h3>
+                        <ul class="header-burger__sub-sub-list">
+                           <li class="header-burger__sub-sub-list-item @yield('vinyl_regular')">
+                              <a href="{{ route('vinyl_regular', ['locale' => __('lang.current')]) }}"
+                                 class="header-burger__sub-sub-list-link">@lang('main.menu.vinyl.regular')</a>
+                           </li>
+                           <li class="header-burger__sub-sub-list-item @yield('vinyl_perforated')">
+                              <a href="{{ route('vinyl_perforated', ['locale' => __('lang.current')]) }}"
+                                 class="header-burger__sub-sub-list-link">@lang('main.menu.vinyl.perforated')</a>
+                           </li>
+                           <li class="header-burger__sub-sub-list-item @yield('sandblast_film')">
+                              <a href="{{ route('sandblast_film', ['locale' => __('lang.current')]) }}"
+                                 class="header-burger__sub-sub-list-link">@lang('main.menu.vinyl.sandblast_film')</a>
+                           </li>
+                           <li class="header-burger__sub-sub-list-item @yield('vinyl_car_wrapping')">
+                              <a href="{{ route('vinyl_car_wrapping', ['locale' => __('lang.current')]) }}"
+                                 class="header-burger__sub-sub-list-link">@lang('main.menu.vinyl.car_wrapping')</a>
                            </li>
                         </ul>
                      </li>

@@ -88,27 +88,6 @@
                   </ul>
                </li>
                <li class="links-footer__item">
-                  <h3 class="links-footer__item-link">@lang('main.menu.vinyl.title')</h3>
-                  <ul class="links-footer__sub-list">
-                     <li class="links-footer__sub-list-item @yield('vinyl_regular')">
-                        <a href="{{ route('vinyl_regular', ['locale' => __('lang.current')]) }}"
-                           class="links-footer__sub-list-link">@lang('main.menu.vinyl.regular')</a>
-                     </li>
-                     <li class="links-footer__sub-list-item @yield('vinyl_perforated')">
-                        <a href="{{ route('vinyl_perforated', ['locale' => __('lang.current')]) }}"
-                           class="links-footer__sub-list-link">@lang('main.menu.vinyl.perforated')</a>
-                     </li>
-                     <li class="links-footer__sub-list-item @yield('sandblast_film')">
-                        <a href="{{ route('sandblast_film', ['locale' => __('lang.current')]) }}"
-                           class="links-footer__sub-list-link">@lang('main.menu.vinyl.sandblast_film')</a>
-                     </li>
-                     <li class="links-footer__sub-list-item @yield('vinyl_car_wrapping')">
-                        <a href="{{ route('vinyl_car_wrapping', ['locale' => __('lang.current')]) }}"
-                           class="links-footer__sub-list-link">@lang('main.menu.vinyl.car_wrapping')</a>
-                     </li>
-                  </ul>
-               </li>
-               <li class="links-footer__item">
                   <h3 class="links-footer__item-link">@lang('main.menu.expos.title')</h3>
                   <ul class="links-footer__sub-list">
                      <li class="links-footer__sub-list-item @yield('expos_stands')">
@@ -138,6 +117,27 @@
                      <li class="links-footer__sub-list-item @yield('expos_badges')">
                         <a href="{{ route('expos_badges', ['locale' => __('lang.current')]) }}"
                            class="links-footer__sub-list-link">@lang('main.menu.expos.badges')</a>
+                     </li>
+                  </ul>
+               </li>
+               <li class="links-footer__item">
+                  <h3 class="links-footer__item-link">@lang('main.menu.vinyl.title')</h3>
+                  <ul class="links-footer__sub-list">
+                     <li class="links-footer__sub-list-item @yield('vinyl_regular')">
+                        <a href="{{ route('vinyl_regular', ['locale' => __('lang.current')]) }}"
+                           class="links-footer__sub-list-link">@lang('main.menu.vinyl.regular')</a>
+                     </li>
+                     <li class="links-footer__sub-list-item @yield('vinyl_perforated')">
+                        <a href="{{ route('vinyl_perforated', ['locale' => __('lang.current')]) }}"
+                           class="links-footer__sub-list-link">@lang('main.menu.vinyl.perforated')</a>
+                     </li>
+                     <li class="links-footer__sub-list-item @yield('sandblast_film')">
+                        <a href="{{ route('sandblast_film', ['locale' => __('lang.current')]) }}"
+                           class="links-footer__sub-list-link">@lang('main.menu.vinyl.sandblast_film')</a>
+                     </li>
+                     <li class="links-footer__sub-list-item @yield('vinyl_car_wrapping')">
+                        <a href="{{ route('vinyl_car_wrapping', ['locale' => __('lang.current')]) }}"
+                           class="links-footer__sub-list-link">@lang('main.menu.vinyl.car_wrapping')</a>
                      </li>
                   </ul>
                </li>

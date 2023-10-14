@@ -13,10 +13,12 @@ export async function popUp(popupId, payload, uploadFile, showSelect = true, gif
 	const iconImg = popUp.querySelector('.popup__img-body-icon');
 	const giftImg = popUp.querySelector('.popup__img-body-gift');
 	const select = popUp.querySelector('.popup__item-select-body');
+	const payloadInput = popUp.querySelector('.payload');
 
 	if (payload) {
-		const payloadInput = popUp.querySelector('.payload');
 		payloadInput.value = payload;
+	} else {
+		payloadInput.value = '';
 	}
 	if (uploadFile) {
 		inputFile.classList.remove('disabled');
@@ -30,6 +32,7 @@ export async function popUp(popupId, payload, uploadFile, showSelect = true, gif
 		giftSubTitle.classList.add('active');
 		iconImg.classList.add('disabled');
 		giftImg.classList.add('active');
+		payloadInput.value = 'Поп ап где бонус в подарок';
 	}
 	if (!uploadFile && !showSelect) {
 		iconImg.classList.add('three-inputs');
