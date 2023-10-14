@@ -3,18 +3,19 @@
 return [
    'main'=> [
       'title' => 'Rótulos<br> Letras corpóreas <span>en Barcelona</span> ',
-      'list-1' => '— trabajo individual con cada cliente',
-      'list-2' => '— garantia 3 años de los productos',
-      'list-3' => '— fabricación propia',
-      'list-4' => '— fabricación urgente',
+      'list-1' => '— Fabricación propia',
+      'list-2' => '— Trabajos exclusivos',
+      'list-3' => '— Precios adecuados',
+      'list-4' => '— Pedidos urgentes',
       'btn' => 'Pedir el presupuesto',
    ],
    'quiz' => [
       'title'=>'Atraiga la atención de sus clientes con <span>rótulos deslumbrantes  y exclusivos!</span>',
-      'sub-title'=>'Ayúdanos a hacer el mejor producto para tu negocio <span>respondiendo un par de preguntas</span>',
+      'sub-title'=>'Haz el click en foto para <span>obtener el presupuesto</span>',
       'count'=> 'Pregunta  <span class="quiz-count">0</span> de 3',
       'body'=>[
-      'title'=>'¿Qué es exactamente lo que necesita?',
+      //'title'=>'¿Qué es exactamente lo que necesita?',
+      'title'=>'Haz el click en foto para obtener el presupuesto',
       'signboards' => [
          'title'=>'Rótulos',
          'question-1'=>[
@@ -122,9 +123,9 @@ return [
             'term' => '1,5 semanas',
          ],
          '14' => [
-            'title' => '',
-            'text' => '',
-            'term' => '',
+            'title' => 'Stand para ayuntamiento de Cervello',
+            'text' => 'La estructura esta hecha de tubos metalicos soldados y pintados a color. Con fresadora damos la forma y imprimimos en la imresora digital. Montamos primeras 4 caras de estructura poniendo la luz. Montamos las letras corporeas de pvc',
+            'term' => '2,5 semanas',
          ],
       ],
 

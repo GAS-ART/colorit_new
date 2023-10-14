@@ -23,6 +23,7 @@ return [
       '11' => 'Letras corporeas sin luz con separadores de 20 mm. Fabricado para una marca deportiva Babolat',
       '12' => 'Крылья из зеркольного золотого алюминия. Основа из ПВХ 19 мм. Обратная подсветка контражур',
       '13' => 'Cajon de dibond con letras corporeas de 30 mm. Letras pintadas en negro mate y retroiluminadas',
+      '14' => 'Fabricación de stands, figuras, estructuras volumetricas, podios en Barcelona.',
     ]
   ],
   'letters' => [

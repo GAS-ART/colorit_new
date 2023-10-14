@@ -52,13 +52,9 @@
 <section id="quizSection" class="quiz">
     <div class="quiz__container quiz-container">
         <h2 class="quiz__title">@lang('home.quiz.title')</h2>
-        <h3 class="quiz__sub-title">@lang('home.quiz.sub-title')</h3>
+        {{-- <h3 class="quiz__sub-title">@lang('home.quiz.sub-title')</h3> --}}
         <div class="quiz__body quiz-body">
             <div class="quiz-body__overlay"></div>
-            <div class="quiz-body__progres">
-                <div class="quiz-body__progres-line"><span></span></div>
-                <div class="quiz-body__progres-count">@lang('home.quiz.count')</div>
-            </div>
             <h4 class="quiz-body__title">@lang('home.quiz.body.title')</h4>
             <div class="quiz-body__slider swiper">
                 <div class="swiper-wrapper">
@@ -75,6 +71,10 @@
             <div class="quiz-body__slider-btns">
                 <div class="swiper-button-prev swiper-button">&larr;</div>
                 <div class="swiper-button-next swiper-button">&rarr;</div>
+            </div>
+            <div class="quiz-body__progres">
+                <div class="quiz-body__progres-line"><span></span></div>
+                <div class="quiz-body__progres-count">@lang('home.quiz.count')</div>
             </div>
             <button data-quiz="init" class="quiz-body__back-btn disabled"><span class="arrow">&larr;</span><span
                     class="text">@lang('home.quiz.back_btn')</span></button>
@@ -160,6 +160,29 @@
     <div class="portfolio__container">
         <div class="portfolio__slider slider-portfolio swiper">
             <div class="swiper-wrapper slider-portfolio__wrapper">
+                <div class="swiper-slide slider-portfolio__slide portfolio-slide">
+                    <div class="portfolio-slide__body">
+                        <div class="portfolio-slide__img">
+                            @if(App::isLocale('es'))
+                            <img src="{{ asset('img/home/es/portfolio/Stand-com-esctructura-metalica-con-letras-corporeas-retroiluminadas-para-cervello.webp') }}"
+                                alt="@lang('alt.home.posrtfolio.14')">
+                            @elseif(App::isLocale('ru'))
+                            <img src="{{ asset('img/home/ru/portfolio/Уличный-стенд-из-алюминиевой-конструкции-с-обьемныными-световыми-буквами-для-мэрии-сервейо.webp') }}"
+                                alt="@lang('alt.home.posrtfolio.14')">
+                            @endif
+                        </div>
+                        <div class="portfolio-slide__content">
+                            <div class="portfolio-slide__text">
+                                <h3 class="portfolio-slide__title">@lang('home.portfolio.slides.14.title')</h3>
+                                <p class="portfolio-slide__description">@lang('home.portfolio.slides.14.text')</p>
+                            </div>
+                            <div class="portfolio-slide__terms">
+                                <p class="portfolio-slide__terms-title">@lang('home.portfolio.slides.term_title')</p>
+                                <p class="portfolio-slide__term">@lang('home.portfolio.slides.14.term')</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="swiper-slide slider-portfolio__slide portfolio-slide">
                     <div class="portfolio-slide__body">
                         <div class="portfolio-slide__img">
