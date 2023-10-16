@@ -74,10 +74,14 @@
                </div>
             </div>
             @if(App::isLocale('es'))
-            <div class="popup__img-body">
+            {{-- <div class="popup__img-body">
                <div class="popup__img-body-icon">
                </div>
                <div class="popup__img-body-gift">
+               </div>
+            </div> --}}
+            <div class="popup__img-body">
+               <div class="popup__img-body-icon">
                </div>
             </div>
             @elseif(App::isLocale('ru'))
