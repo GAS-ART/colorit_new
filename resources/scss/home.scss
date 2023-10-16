@@ -48,7 +48,7 @@
       transform: translate(-50%, -50%);
     }
     @media (max-width: $mobileSmall) {
-      top: 142px;
+      top: 90px;
       transform: translateX(-53%);
     }
   }
@@ -218,10 +218,10 @@
     &.pad0{
      padding: 0 rem( calc(math.div($containerPadding, 2) - 1 ) )
     }
-    @media (max-width: $mobileSmall) {
+    /* @media (max-width: $mobileSmall) {
     transition: all 0.5s ease 0s;
      padding: 0;
-    }
+    } */
   }
 
   &__title {
