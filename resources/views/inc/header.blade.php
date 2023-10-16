@@ -340,6 +340,7 @@
                </li>
                <li class="header-burger__list-item"><a href="#"
                      class="header-burger__list-link">@lang('main.menu.burger.contacts')</a></li>
+                     <li class="header-burger__list-item"><button class="header-burger__list-btn link-on-popup" data-popup-id="main" data-popup-payload="@yield('mainPopupPayload')">@lang('home.question-lead.btn')</button></li>
             </ul>
          </nav>
       </div>

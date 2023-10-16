@@ -132,18 +132,27 @@
   @media (max-width: $tablet) {
     order: 2;
   }
+  @media (max-width: $mobile) {
+    padding: 5px 20px 20px 20px;
+  }
 }
 
 &__title {
   h4{
     margin-bottom: 24px;
+    @media (max-width: $mobile) {
+      margin-bottom: 5px;
+    }
   }
   h5{
     margin-bottom: 40px;
+    @media (max-width: $mobile) {
+      margin-bottom: 10px;
+    }
   }
   
   @media (max-width: $mobile) {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
   }
   h4{
     font-family: 'Jost';
@@ -188,6 +197,9 @@
 
 &__item{
   margin-bottom: 24px; 
+  @media (max-width: $mobile) {
+    margin-bottom: 10px; 
+  }
   label{
     display: block;
     font-weight: 500;
@@ -198,6 +210,9 @@
     span{
       color: $purple;
       font-size: 18px;
+    }
+    @media (max-width: $mobile) {
+      margin-bottom: 2px;
     }
   }
   input{
@@ -221,6 +236,9 @@
         color: #EB5757;
       }
       border: 1px solid #EB5757;
+    }
+    @media (max-width: $mobile) {
+      padding: 8px 0 8px 16px;
     }
   }
   .popup__item-select{
@@ -285,6 +303,9 @@
     &:hover {
       background-color: $purple;
     }
+  }
+  @media (max-width: $mobile) {
+    padding: 15px 30px;
   }
 }
 

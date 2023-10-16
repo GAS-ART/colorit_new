@@ -53,7 +53,11 @@ export async function popUp(popupId, payload, uploadFile, showSelect = true, gif
 
 	function popupClose(popupActive) {
 		popupActive.classList.remove('open');
-		setTimeout(() => bodyLock.classList.remove("lock"), 500)
+		const burgerMenu = document.querySelector('.info-header__menu');
+		if(!burgerMenu.classList.contains('active')){
+			//setTimeout(() => bodyLock.classList.remove("lock"), 500)
+			bodyLock.classList.remove("lock")
+		}
 		popUp.classList.remove('sent');
 
 		inputs.forEach(input => {

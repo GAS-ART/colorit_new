@@ -2,7 +2,6 @@
 import "./modules/swiper.js";
 import "./modules/lightGalary.js";
 import "./modules/messendgers.js";
-import { popUp } from "./modules/popup.js";
 import getPopupLinks from "./modules/getPoupLinks.js";
 
 document.addEventListener("click", documentActions);
@@ -510,7 +509,8 @@ const scrolling = (selectorBtn) => {
 
             burger.classList.remove("active");
             burgerBtn.classList.remove("active");
-            body.classList.remove("lock");
+            //body.classList.remove("lock");
+            removeBodyClassLock();
 
             let widthTop = Math.round(
                     document.documentElement.scrollTop ||
@@ -559,6 +559,14 @@ const scrolling = (selectorBtn) => {
 };
 
 scrolling(".scroll-top");
+
+const removeBodyClassLock = ()=> {
+    const burgerMenu = document.querySelector('.info-header__menu');
+    const popup = document.querySelector('.popup');
+		if(!burgerMenu.classList.contains('active') && !popup.classList.contains('open')){
+			body.classList.remove("lock")
+		}
+}
 
 // Open menu footer
 const footerMenuItems = document.querySelectorAll(".links-footer__item");

@@ -19,13 +19,13 @@
       position: relative;
       width: 50px;
       height: 50px;
-      background: linear-gradient( #F8B145, 65%, #67358C); 
-      //background: linear-gradient( $purple, 65%, $pink); 
+      //background: linear-gradient( #F8B145, 65%, #67358C); 
+      background-color: #4DC247;
       border-radius: 50%;
       z-index: 2;
       cursor: pointer;
       &:hover{
-         box-shadow: rgb(0 0 0 / 70%) 2px 2px 11px;;
+         box-shadow: rgb(0 0 0 / 70%) 2px 2px 11px;
       }
    }
 
@@ -44,6 +44,8 @@
       &.active{
          opacity: 1;
          visibility: visible;
+        // background: linear-gradient( #F8B145, 65%, #67358C);
+         border-radius: 50%;
          svg{
             transform: rotate(360deg);
          }

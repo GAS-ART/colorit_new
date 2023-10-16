@@ -3,11 +3,12 @@ import getPopupLinks from './getPoupLinks.js'
 
 
 // init Swiper:
-new Swiper('.quiz-body__slider', {
+const quizeSlider = new Swiper('.quiz-body__slider', {
   // configure Swiper to use modules
   modules: [Navigation],
   simulateTouch: true,
   slidesPerView: 2,
+  spaceBetween: 10,
   //loop: true,
   speed: 800,
   navigation: {
@@ -149,7 +150,7 @@ function quiz(quizeInitBtns) {
           img.addEventListener('error', reject);
         });
       });
-
+      quizeSlider.slideTo(0);
       try {
         await Promise.all(loadImages);
         sortSlides.forEach(slide => {
@@ -192,12 +193,18 @@ if (portfolioSlider) {
     simulateTouch: true,
     slidesPerView: 1,
     grabCursor: true,
+    autoHeight: true,
     lazyPreloadPrevNext: 1,
     loop: true,
     speed: 800,
     navigation: {
       nextEl: '.slider-portfolio__btn-next',
       prevEl: '.slider-portfolio__btn-prev',
+    },
+    breakpoints: {
+      468: {
+        autoHeight: false,
+      },
     },
   });
 }

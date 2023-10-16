@@ -68,6 +68,9 @@
 
   &__options {
     @include adaptiveValueREM('margin-right', 110, 20, 1920, 1300, 1);
+    @media (max-width: $mobileSmall) {
+      margin-right: 10px;
+    }
   }
 
   &__actions {
@@ -525,6 +528,25 @@
     font-size: 30px;
     line-height: 120%;
   }
+
+  &__list-btn{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+    color: $purple;
+    text-decoration: underline;
+    display: none;
+    margin-top: 50px;
+    @media (max-width: $mobile) {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      white-space: nowrap;
+    }
+  }
+
 }
 
 .header-burger {
@@ -708,6 +730,12 @@
   }
 
 
+  &__text{
+    @media (max-width: em(400)) {
+      display: none;
+    }
+  }
+
   &__icon {
     width: rem(25);
     height: 21px;
@@ -730,9 +758,6 @@
       @media (max-width: em(1449)) {
         left: -2px;
       }
-    }
-    @media (max-width: em(400)) {
-      display: none;
     }
   }
 

@@ -2,7 +2,8 @@
 
 return [
    'main'=> [
-      'title' => 'Rótulos<br> Letras corpóreas <span>en Barcelona</span> ',
+      'title' => 'Rótulos<br>Letras 
+corpóreas <span>en Barcelona</span>',
       'list-1' => '— Fabricación propia',
       'list-2' => '— Trabajos exclusivos',
       'list-3' => '— Precios adecuados',
