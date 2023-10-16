@@ -43,10 +43,6 @@
     "file": "assets/lightGallery_loading-298ad3ff.gif",
     "src": "public/img/lightGallery_loading.gif"
   },
-  "public/img/popup/es/1_.webp": {
-    "file": "assets/1_-20b5adf0.webp",
-    "src": "public/img/popup/es/1_.webp"
-  },
   "public/img/popup/es/2_.webp": {
     "file": "assets/2_-688c516b.webp",
     "src": "public/img/popup/es/2_.webp"
@@ -145,7 +141,7 @@
     "src": "resources/scss/fonts/icon-fonts/icomoon.woff"
   },
   "resources/scss/style.scss": {
-    "file": "assets/style-5faa7fbf.css",
+    "file": "assets/style-f8ec5e6c.css",
     "isEntry": true,
     "src": "resources/scss/style.scss"
   }
