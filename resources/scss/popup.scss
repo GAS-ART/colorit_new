@@ -364,7 +364,8 @@
 }
 
 .popup__img-body{
- position: relative;
+ position: absolute;
+ inset: 0px;
  flex: 1 0 620px;
  width: 620px;
  @media (max-width: em(1240)) {
