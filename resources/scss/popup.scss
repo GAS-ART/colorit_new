@@ -378,13 +378,9 @@
   order: 1;
  }
  @media (max-width: $mobile) {
-  //max-height: 240px;
-  background-image: url("https://colorit.artgas.pro/img/popup/es/1_.webp");
-  background-size: 100%;
-  background-position: 0px;
-  background-repeat: no-repeat;
+  max-height: 240px;
  }
- /* .popup__img-body-icon{
+ .popup__img-body-icon{
   width: 100%;
   height: 100%;
   //background-image: url("../../public/img/popup/es/1_.webp");
@@ -408,7 +404,7 @@
   @media (max-width: $mobile) {
     background-size: 100%;
   }
- } */
+ }
  .popup__img-body-gift{
   position: absolute;
   top: 0;
