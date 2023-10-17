@@ -447,6 +447,10 @@ if (productPortfolio) {
     spaceBetween: 20,
     loop: true,
     speed: 800,
+    navigation: {
+      nextEl: '.slider-portfolio__btn-next',
+      prevEl: '.slider-portfolio__btn-prev',
+    },
     breakpoints: {
       1269: {
         slidesPerView: 999,

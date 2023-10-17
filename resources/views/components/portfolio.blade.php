@@ -21,6 +21,10 @@
         @endif
         @endforeach
       </div>
+      <div class="slider-portfolio__btns">
+        <div class="slider-portfolio__btn-prev">←</div>
+        <div class="slider-portfolio__btn-next">→</div>
+    </div>
     </div>
   </div>
   <div class="portfolio-product__show-more">

@@ -21,6 +21,9 @@
 
   &__title {
     @extend %title;
+    @media (max-width: $mobile) {
+      order: 2;
+    }
   }
 
   &__text {
@@ -30,6 +33,8 @@
     border-radius: 16px;
     @media (max-width: $mobile) {
       padding: 24px;
+      order: 1;
+      margin-bottom: 40px;
     }
   }
 
@@ -160,6 +165,17 @@
       bottom: 2%;
       left: 2%;
       font-size: 18px;
+    }
+  }
+  .slider-portfolio__btns{
+    position: relative;
+    bottom: unset;
+    right: unset;
+    margin-top: 20px;
+    justify-content: center;
+    display: none;
+    @media (max-width: em(1269)) {
+      display: flex;
     }
   }
 }

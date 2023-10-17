@@ -4,6 +4,7 @@
   @extend %section;
   @media (max-width: $mobile) {
     margin-left: 0;
+    margin-bottom: 30px;
   }
   &__body {
     padding: 16px 24px;
