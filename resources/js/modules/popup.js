@@ -16,9 +16,9 @@ export async function popUp(popupId, payload, uploadFile, showSelect = true, gif
 	const select = popUp.querySelector('.popup__item-select-body');
 	const payloadInput = popUp.querySelector('.payload');
 
-	console.log(window.visualViewport);
+	console.log(popUpBody.offsetHeight, popUpBody.offsetHeight >= window.visualViewport.height);
 
-	popUp.querySelector('.heightTest').innerHTML = window.visualViewport.height
+	popUpBody.offsetHeight >= window.visualViewport.height ? popUpBody.classList.add('top-0') : popUpBody.classList.remove('top-0');
 
 	if (payload) {
 		payloadInput.value = payload;

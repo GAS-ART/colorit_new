@@ -52,7 +52,7 @@
     "src": "public/img/popup/es/2_.webp"
   },
   "resources/js/app.js": {
-    "file": "assets/app-b49878bf.js",
+    "file": "assets/app-64cf5375.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   },
@@ -145,7 +145,7 @@
     "src": "resources/scss/fonts/icon-fonts/icomoon.woff"
   },
   "resources/scss/style.scss": {
-    "file": "assets/style-479178ff.css",
+    "file": "assets/style-fce97113.css",
     "isEntry": true,
     "src": "resources/scss/style.scss"
   }
