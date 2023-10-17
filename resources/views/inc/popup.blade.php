@@ -11,6 +11,7 @@
                <div class="popup__form-body">
                   <div class="popup__title">
                      <h4 class="popup__title-icon">@lang('popup.title')</h4>
+                     <div class="heightTest"></div>
                      <h4 class="popup__title-gift">@lang('popup.gift.title')</h4>
                      <h5 class="popup__title-sub-gift">@lang('popup.gift.sub_title')</h5>
                   </div>

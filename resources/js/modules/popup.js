@@ -1,5 +1,6 @@
 export async function popUp(popupId, payload, uploadFile, showSelect = true, gift) {
 	const popUp = document.getElementById(popupId);
+	const popUpBody = popUp.querySelector('.popup__body');
 	const bodyLock = document.getElementById('body');
 	const popupCloseIcon = popUp.querySelector('.close-popup');
 	const popupBtn = popUp.querySelector('.popup__button');
@@ -14,6 +15,10 @@ export async function popUp(popupId, payload, uploadFile, showSelect = true, gif
 	const giftImg = popUp.querySelector('.popup__img-body-gift');
 	const select = popUp.querySelector('.popup__item-select-body');
 	const payloadInput = popUp.querySelector('.payload');
+
+	console.log(window.visualViewport);
+
+	popUp.querySelector('.heightTest').innerHTML = window.visualViewport.height
 
 	if (payload) {
 		payloadInput.value = payload;
