@@ -239,8 +239,11 @@ burgerServicesBtn.addEventListener("click", () => {
 const selects = document.querySelectorAll("select");
 
 selects.forEach((select) => {
-    select.addEventListener("change", (e) => {
-        e.target.previousElementSibling.classList.add("inactive");
+    select.addEventListener("change", () => {
+        select.classList.remove('placeholder');
+        if(select[0].innerText === 'Elige el servicio' || select[0].innerText === 'Выберите что хотите заказать'){
+            select[0].remove()
+        }
     });
 });
 

@@ -243,7 +243,7 @@
   }
   .popup__item-select{
     position: relative;
-    span{
+    /* .select-placeholder{
       position: absolute;
       top: 2px;
       left: 2px;
@@ -282,7 +282,7 @@
       &.inactive{
         display: none;
       }
-    }
+    } */
   }
 
   select{
@@ -290,12 +290,20 @@
     position: relative;
     font-size: 16px;
     line-height: 100px;
-    padding: 13px 0;
-    color: $mainColor;
+    padding: 13px 0 13px 16px;
     outline-color: $purple;
     border: 1px solid rgba(23, 22, 26, .5);
     font-family: 'Jost';
+    &.placeholder{
+      color: #75758B;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 24px;
+    }
     option{
+      font-size: 16px;
+      line-height: 100px;
+      color: $mainColor;
       &:not(:last-child){
         margin-bottom: 8px;
       }
