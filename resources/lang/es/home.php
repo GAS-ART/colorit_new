@@ -40,17 +40,18 @@ corpóreas <span>en Barcelona</span>',
    'solution' => [
       'title' => 'Tenemos una solución',
       'card' => [
-         '1' => 'trabajamos 6 dias a la semana.',
-         '2' => 'Acudimos al lugar y aconsejamos como hacer escaparates maravillas.',
-         '3' => 'Usamos materiales probados y de alta calidad.',
-         '4' => 'Ofrecemos productos para negocios del ciclo completo incuido: impresion digital, ropa personalizada, productos promocionales.',
+         '1' => 'Estamos abiertos 6 dias a la semana.',
+         '2' => 'Aceptamos encargos urgentes.',
+         '3' => 'Garantizamos la mejor calidad al mejor precio.',
+         '4' => 'Acudimos al lugar y aconsejamos como hacer escaparates maravillas.',
          '5' => 'Garantía de productos 3 años y tarjeta de fidelidad de regalo.',
-         '6' => 'Ofrecemos novedades y las últimas tecnologías para mantenerte un paso por delante de tus competidores.',
+         '6' => 'Ofrecemos productos para negocios del ciclo completo.',
       ],
       'free' => [
          'title' => '¡Descárgue y obtenga 20 consejos gratuitos sobre cómo mejorar tu tienda de venta!',
          'btn' => 'Descargar',
-      ]
+      ],
+      'show_more' => 'ver mas',
    ],
    'portfolio' => [
       'title' => 'Portfolio',
@@ -158,6 +159,7 @@ corpóreas <span>en Barcelona</span>',
          '9' => 'Servicio de rotulacion por ciclo completo incluendo impresion digital y productos perzonalizados.',
          '10' => 'Tarjeta de fidelidad de regalo.',
       ],
+      'show_more' => 'ver mas',
    ],
    'reviews' => [
       'title' => 'Que dicen sobre nosotros?',

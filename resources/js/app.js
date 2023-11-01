@@ -604,3 +604,15 @@ footerMenuItems.forEach((item) => {
         item.classList.toggle("active");
     });
 });
+
+//Show more btn
+
+const showMoreBtns = document.querySelectorAll('.show-more-btn');
+if(showMoreBtns.length > 0){
+    showMoreBtns.forEach(btn => {
+        btn.addEventListener('click', (e)=>{
+            e.target.previousElementSibling.classList.add('show-all');
+            e.target.classList.remove('active');
+        });
+    });
+}

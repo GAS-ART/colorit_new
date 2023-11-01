@@ -135,6 +135,7 @@
                     </div>
                 </div>
             </div>
+            <button type="button" class="show-more-btn active">@lang('home.solution.show_more')</button>
             <div class="solution__free">
                 <div class="solution__free-content">
                     <h3 class="solution__free-text">@lang('home.solution.free.title')</h3>
@@ -551,7 +552,58 @@
             @lang('home.result.title')
         </h2>
         <div class="result__body">
-            <div class="result__slider slider-result swiper">
+            <div class="solution__cards">
+                <div class="solution__card">
+                    <div class="solution__card-img">
+                        <img src="{{asset('img/home/es/solution/card.svg')}}" alt="">
+                    </div>
+                    <div class="solution__card-text">
+                        @lang('home.result.card.1')
+                    </div>
+                </div>
+                <div class="solution__card">
+                    <div class="solution__card-img">
+                        <img src="{{asset('img/home/es/solution/card.svg')}}" alt="">
+                    </div>
+                    <div class="solution__card-text">
+                        @lang('home.result.card.2')
+                    </div>
+                </div>
+                <div class="solution__card">
+                    <div class="solution__card-img">
+                        <img src="{{asset('img/home/es/solution/card.svg')}}" alt="">
+                    </div>
+                    <div class="solution__card-text">
+                        @lang('home.result.card.3')
+                    </div>
+                </div>
+                <div class="solution__card">
+                    <div class="solution__card-img">
+                        <img src="{{asset('img/home/es/solution/card.svg')}}" alt="">
+                    </div>
+                    <div class="solution__card-text">
+                        @lang('home.result.card.7')
+                    </div>
+                </div>
+                <div class="solution__card">
+                    <div class="solution__card-img">
+                        <img src="{{asset('img/home/es/solution/card.svg')}}" alt="">
+                    </div>
+                    <div class="solution__card-text">
+                        @lang('home.result.card.8')
+                    </div>
+                </div>
+                <div class="solution__card">
+                    <div class="solution__card-img">
+                        <img src="{{asset('img/home/es/solution/card.svg')}}" alt="">
+                    </div>
+                    <div class="solution__card-text">
+                        @lang('home.result.card.10')
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="show-more-btn active">@lang('home.result.show_more')</button>
+            {{-- <div class="result__slider slider-result swiper">
                 <div class="swiper-wrapper slider-result__wrapper">
                     <div class="swiper-slide slider-result__slide result-slide">
                         <div class="result-slide__card">
@@ -655,7 +707,7 @@
                     </div>
                 </div>
                 <div class="result-scrollbar swiper-scrollbar"></div>
-            </div>
+            </div> --}}
         </div>
     </div>
 

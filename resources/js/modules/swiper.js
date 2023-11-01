@@ -255,7 +255,7 @@ if (portfolioSliderImgHeight) {
   window.addEventListener('resize', debouncedResetImageHeight);
 }
 
-const resultSlider = document.querySelector('.slider-result');
+/* const resultSlider = document.querySelector('.slider-result');
 
 if (resultSlider) {
   new Swiper(resultSlider, {
@@ -278,7 +278,7 @@ if (resultSlider) {
       },
     },
   });
-}
+} */
 
 const reviewSlider = document.querySelector('.slider-review');
 

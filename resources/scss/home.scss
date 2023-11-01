@@ -147,7 +147,7 @@
     white-space: nowrap;
     
     @media (max-width: $mobileSmall) {
-      white-space: unset;
+      //white-space: unset;
       max-width: 250px;
     }
   }
@@ -602,7 +602,7 @@
     background-image: url("../../public/img/home/es/solution/background_mobile.webp");
     background-position: 0;
     //background-size: 100% 86.164%;
-    background-size: cover;
+    //background-size: cover;
   }
 
   &__title {
@@ -642,9 +642,15 @@
     }
     @media (max-width: $mobile) {
       grid-template-columns: 312px;
-      grid-template-rows: repeat(6, auto);
+      grid-template-rows: auto auto;
       gap: 16px;
-      margin-bottom: 40px;
+      margin-bottom: 20px;
+      &.show-all{
+        grid-template-rows: repeat(6, auto);
+        .solution__card{
+          display: flex;
+        }
+      }
     }
   }
 
@@ -656,6 +662,13 @@
     border-bottom: 4px solid $purple;
     @media (max-width: $tablet) {
       padding: 40px 24px;
+    }
+    @media (max-width: $mobile) {
+      display: none;
+
+      &:first-child, &:nth-child(2){
+        display: flex;
+      }
     }
   }
 
@@ -1120,6 +1133,10 @@
     @media (max-width: $tablet) {
       margin: 0 auto 40px auto;
     }
+    @media (max-width: $mobile) {
+      order: 2;
+      margin: 0 auto 0px auto;
+    }
   }
 
   &__title {
@@ -1154,6 +1171,10 @@
   &__video {
     position: relative;
     flex: 1 1 auto;
+    @media (max-width: $mobile) {
+      order: 1;
+      margin-bottom: 40px;
+    }
     img {
     position: relative;
     top: 0;
@@ -1208,15 +1229,26 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding-bottom: 3%;
-  @media (max-width: em(1300)) {
+  @media (max-width: em(1280)) {
     background-size: cover;
-    background-position: -1000px;
-    padding-bottom: 0%;
+   background-position: -500px;
+   padding-bottom: 0%;
+  }
+  @media (max-width: $tablet) {
+    background-position: -600px;
   }
   @media (max-width: $mobile) {
     background-image: url("../../public/img/home/es/solution/background_mobile.webp");
     background-position: 0;
     //background-size: 100% 86.164%;
+  }
+
+  .solution__card{
+    flex-direction: column;
+    padding: 20px 24px;
+    .solution__card-img {
+      margin-bottom: 24px;
+    }
   }
 
   &__container {
@@ -1234,7 +1266,7 @@
   }
 
   &__body {
-    padding-bottom: 100px;
+   padding-bottom: 50px;
   }
 
   &__slider {
