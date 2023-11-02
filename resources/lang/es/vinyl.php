@@ -115,13 +115,13 @@ return [
       'image_titles' => [
         '1' => 'transporte',
         'alt_1' => '',
-        'text_1' => 'При поклейке окон в автотранспорте, когда пассажиры видят все, что происходит за окном, в то время как снаружи передается рекламное сообщение.',
+        'text_1' => 'Al pegar cristales en los vehículos, cuando los pasajeros ven todo lo que sucede fuera de la ventanilla, mientras se transmite un mensaje publicitario al exterior.',
         '2' => 'Escaparates',
         'alt_2' => '',
-        'text_2' => 'Перфорированный винил может быть использован для декорации витрин магазинов, где нужно поддерживать видимость товаров и одновременно предоставить место для рекламы.',
+        'text_2' => 'El vinilo perforado se puede utilizar para decorar escaparates donde se necesita mantener la visibilidad de los productos y al mismo tiempo proporcionar espacio publicitario.',
         '3' => 'Oficinas',
         'alt_3' => '',
-        'text_3' => 'В офисных помещениях используется для декорации офисных окон, закрывая все что происходит внутри помещения, и в то же время служа рекламным носителем, достаточно хорошо пропуская свет.',
+        'text_3' => 'En los locales de oficinas se utiliza para decorar las ventanas de las oficinas, cubriendo todo lo que sucede en el interior del local, y al mismo tiempo sirviendo como soporte publicitario, transmitiendo bastante bien la luz.',
       ],
     ],
     'advantages' => [

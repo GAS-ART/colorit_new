@@ -69,7 +69,7 @@ class SignboardsWithLightController extends SetLangAndViewController
             'text' => 'signboards.whith_light.thiknes.text',
             'img' => [
                 [
-                'es' => 'img/signboards/whith_light/es/thiknes/Rotulos-de-grosor-de-12mm.webp',
+                'es' => 'img/signboards/whith_light/es/thiknes/Rotulos-de-8-cm-de-grosor.webp',
                 'ru' => 'img/signboards/whith_light/ru/thiknes/световой-лайбокс-8-см-глубиной.webp',
                 'img_title' => 'signboards.whith_light.thiknes.img.1',
                 'alt' => '',

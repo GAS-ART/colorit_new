@@ -170,7 +170,7 @@ return [
     ],
     'types' => [
       'title' => 'Tipos de composite',
-      'text' => 'На сегодняшний день композит имеет множество оттенков. Наиболее часто используемые цвета - черный, белый, серебро браш, стальной, золото.',
+      'text' => 'Hasta hoy, el dibond tiene muchos matices. Los colores más utilizados son el negro, el blanco, el cepillo plateado, el acero y el dorado.',
       'img_titles' => [
         '1' => 'Negro mate',
         '2' => 'Blanco brillo',
