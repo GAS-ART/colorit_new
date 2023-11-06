@@ -27,6 +27,11 @@
       flex-direction: column;
       align-items: center;
     }
+    &.auto-height{
+      img{
+        height: 343px;
+      }
+    }
   }
 
   &__img {

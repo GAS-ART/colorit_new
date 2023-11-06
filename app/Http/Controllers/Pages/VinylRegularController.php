@@ -36,6 +36,7 @@ class VinylRegularController extends SetLangAndViewController
         $types = [
             'title' => 'vinyl.regular.type.title',
             'text' => 'vinyl.regular.type.text',
+            'height' => 'auto-height',
             'img' => [
                 [
                 'es' => 'img/vinyl/regular/es/type/Colocacion-escaparates-y-oficinas-con-vinilo-impreso-en-Barcelona.webp',
