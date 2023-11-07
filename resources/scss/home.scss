@@ -1247,7 +1247,10 @@
     background-position: 0;
     //background-size: 100% 86.164%;
     .solution__cards{
-      height: 350px;
+      height: 360px;
+      &.es{
+        height: 337px
+      }
       &.show-all{
         height: 968px;
       }

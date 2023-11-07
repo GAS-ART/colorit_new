@@ -552,7 +552,7 @@
             @lang('home.result.title')
         </h2>
         <div class="result__body">
-            <div class="solution__cards">
+            <div class="solution__cards {{App::currentLocale()}}">
                 <div class="solution__card">
                     <div class="solution__card-img">
                         <img src="{{asset('img/home/es/solution/card.svg')}}" alt="">
