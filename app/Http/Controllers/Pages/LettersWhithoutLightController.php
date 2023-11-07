@@ -11,12 +11,12 @@ class LettersWhithoutLightController extends SetLangAndViewController
         $banner = [
             'title' => 'letters.title',
             'es' => [
-            'imgBig' => 'img/letters/es/Letras-córporeas-de-pvc-negro-mate-para-ferias.webp',
-            'imgMin' => 'img/letters/es/letras-córporeas-sin-iluminadas.webp',
+            'imgBig' => 'img/letters/without_light/es/Letras-córporeas-de-pvc-negro-mate-para-ferias.webp',
+            'imgMin' => 'img/letters/without_light/es/letras-córporeas-sin-iluminadas.webp',
             ],
             'ru' => [
-            'imgBig' => 'img/letters/ru/Объемные-буквы-из-пвх-для-выставки.webp',
-            'imgMin' => 'img/letters/ru/Обьемные-буквы-без-света.webp',
+            'imgBig' => 'img/letters/without_light/ru/Объемные-буквы-из-пвх-для-выставки.webp',
+            'imgMin' => 'img/letters/without_light/ru/Обьемные-буквы-без-света.webp',
             ],
             'alt' => 'alt.letters.banner',
             'circle_text' => 'letters.circle',
@@ -33,8 +33,8 @@ class LettersWhithoutLightController extends SetLangAndViewController
             'currentPage' => __('crumbs.letters')
         ];
 
-        $materialDirEs = 'img/letters/es/material/';
-        $materialDirRu = 'img/letters/ru/material/';
+        $materialDirEs = 'img/letters/without_light/es/material/';
+        $materialDirRu = 'img/letters/without_light/ru/material/';
         $materialImgTitleLangDir = 'letters.material.img';
         $materialAlt = 'alt.letters.material.';
         $material = [
@@ -80,27 +80,27 @@ class LettersWhithoutLightController extends SetLangAndViewController
             'text' => 'letters.mounts.text',
             'img' => [
             [
-            'es' => 'img/letters/es/mounts/letras-de-pvc-20-mm-acabado-oro-con-frente-de-alumio.webp',
-            'ru' => 'img/letters/ru/mounts/Золотые-буквы-объемные-толщиной-20-мм-из-пвх-с-фронтальным-золотым-алюминием.webp',
+            'es' => 'img/letters/without_light/es/mounts/letras-de-pvc-20-mm-acabado-oro-con-frente-de-alumio.webp',
+            'ru' => 'img/letters/without_light/ru/mounts/Золотые-буквы-объемные-толщиной-20-мм-из-пвх-с-фронтальным-золотым-алюминием.webp',
             'img_title' => __('letters.mounts.img.1'),
             'alt' => '',
             ],
             [
-            'es' => 'img/letters/es/mounts/letras-corporeas-con-separadores.webp',
-            'ru' => 'img/letters/ru/mounts/Объемные-буквы-с-дистанцирующими-держателями.webp',
+            'es' => 'img/letters/without_light/es/mounts/letras-corporeas-con-separadores.webp',
+            'ru' => 'img/letters/without_light/ru/mounts/Объемные-буквы-с-дистанцирующими-держателями.webp',
             'img_title' => 'letters.mounts.img.2',
             'alt' => '',
             ],
             ],
         ];
 
-        $portfolioDirEs = 'img/portfolio/es/';
-        $portfolioDirRu = 'img/portfolio/ru/';
+        $portfolioDirEs = 'img/letters/without_light/es/portfolio/';
+        $portfolioDirRu = 'img/letters/without_light/ru/portfolio/';
         $portfolioLocaleAltPath = 'alt.letters.portfolio.';
         $portfolioLocaleTitlePath = 'portfolio.letters.';
 
         $portfolioImages = [
-            'gallery-image-path' => 'letters/portfolio',
+            'gallery-image-path' => 'letters/without_light/es/portfolio/gallery',
             [
                 'es' => [
                     'src' => $portfolioDirEs . 'Letras-de-pvc-10-мм-para-salon-de-belleza.webp',

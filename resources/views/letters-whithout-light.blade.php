@@ -25,9 +25,9 @@
               <div class="letters-thickness-slide__body">
                 <div class="letters-thickness-slide__img">
                   @if(App::isLocale('es'))
-                  <img src="{{ asset('img/letters/es/thickness/2.webp') }}" alt="">
+                  <img src="{{ asset('img/letters/without_light/es/thickness/2.webp') }}" alt="">
                   @elseif(App::isLocale('ru'))
-                  <img src="{{ asset('img/letters/ru/thickness/2.webp') }}" alt="">
+                  <img src="{{ asset('img/letters/without_light/ru/thickness/2.webp') }}" alt="">
                   @endif
                 </div>
                 <h4 class="letters-thickness-slide__img-title">@lang('letters.thickness.img.1')</h4>
@@ -37,9 +37,9 @@
               <div class="letters-thickness-slide__body">
                 <div class="letters-thickness-slide__img">
                   @if(App::isLocale('es'))
-                  <img src="{{ asset('img/letters/es/thickness/1.webp') }}" alt="">
+                  <img src="{{ asset('img/letters/without_light/es/thickness/1.webp') }}" alt="">
                   @elseif(App::isLocale('ru'))
-                  <img src="{{ asset('img/letters/ru/thickness/1.webp') }}" alt="">
+                  <img src="{{ asset('img/letters/without_light/ru/thickness/1.webp') }}" alt="">
                   @endif
                 </div>
                 <h4 class="letters-thickness-slide__img-title">@lang('letters.thickness.img.2')</h4>
@@ -49,9 +49,9 @@
               <div class="letters-thickness-slide__body">
                 <div class="letters-thickness-slide__img">
                   @if(App::isLocale('es'))
-                  <img src="{{ asset('img/letters/es/thickness/3.webp') }}" alt="">
+                  <img src="{{ asset('img/letters/without_light/es/thickness/3.webp') }}" alt="">
                   @elseif(App::isLocale('ru'))
-                  <img src="{{ asset('img/letters/ru/thickness/3.webp') }}" alt="">
+                  <img src="{{ asset('img/letters/without_light/ru/thickness/3.webp') }}" alt="">
                   @endif
                 </div>
                 <h4 class="letters-thickness-slide__img-title">@lang('letters.thickness.img.3')</h4>
@@ -61,9 +61,9 @@
               <div class="letters-thickness-slide__body">
                 <div class="letters-thickness-slide__img">
                   @if(App::isLocale('es'))
-                  <img src="{{ asset('img/letters/es/thickness/4.webp') }}" alt="">
+                  <img src="{{ asset('img/letters/without_light/es/thickness/4.webp') }}" alt="">
                   @elseif(App::isLocale('ru'))
-                  <img src="{{ asset('img/letters/ru/thickness/4.webp') }}" alt="">
+                  <img src="{{ asset('img/letters/without_light/ru/thickness/4.webp') }}" alt="">
                   @endif
                 </div>
                 <h4 class="letters-thickness-slide__img-title">@lang('letters.thickness.img.4')</h4>
@@ -73,9 +73,9 @@
               <div class="letters-thickness-slide__body">
                 <div class="letters-thickness-slide__img">
                   @if(App::isLocale('es'))
-                  <img src="{{ asset('img/letters/es/thickness/5.webp') }}" alt="">
+                  <img src="{{ asset('img/letters/without_light/es/thickness/5.webp') }}" alt="">
                   @elseif(App::isLocale('ru'))
-                  <img src="{{ asset('img/letters/ru/thickness/5.webp') }}" alt="">
+                  <img src="{{ asset('img/letters/without_light/ru/thickness/5.webp') }}" alt="">
                   @endif
                 </div>
                 <h4 class="letters-thickness-slide__img-title">@lang('letters.thickness.img.5')</h4>

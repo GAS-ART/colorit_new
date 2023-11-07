@@ -11,12 +11,12 @@ class LettersWhithLightController extends SetLangAndViewController
         $banner = [
             'title' => 'letters.whith_light.title',
             'es' => [
-            'imgBig' => 'img/letters/es/whith_light/Letras-corpóreas-frente-dorado-espejo-retroiluminadas.webp',
-            'imgMin' => 'img/letters/es/whith_light/Letras-corpóreas-frente-dorado-espejo-retroiluminadas_.webp',
+            'imgBig' => 'img/letters/with_light/es/Letras-corpóreas-frente-dorado-espejo-retroiluminadas.webp',
+            'imgMin' => 'img/letters/with_light/es/Letras-corpóreas-frente-dorado-espejo-retroiluminadas_.webp',
             ],
             'ru' => [
-            'imgBig' => 'img/letters/ru/whith_light/Буквы-обьемные-зеркальные-накладки-с-подсветкой-контражур.webp',
-            'imgMin' => 'img/letters/ru/whith_light/Буквы-обьемные-зеркальные-накладки-с-подсветкой-контражур_.webp',
+            'imgBig' => 'img/letters/with_light/ru/Буквы-обьемные-зеркальные-накладки-с-подсветкой-контражур.webp',
+            'imgMin' => 'img/letters/with_light/ru/Буквы-обьемные-зеркальные-накладки-с-подсветкой-контражур_.webp',
             ],
             'alt' => 'alt.letters.whith_light.banner',
             'circle_text' => 'letters.whith_light.circle',
@@ -33,8 +33,8 @@ class LettersWhithLightController extends SetLangAndViewController
             'currentPage' => 'crumbs.letters_whith_light',
         ];
 
-        $materialDirEs = 'img/letters/es/material/';
-        $materialDirRu = 'img/letters/ru/material/';
+        $materialDirEs = 'img/letters/with_light/es/material/';
+        $materialDirRu = 'img/letters/with_light/ru/material/';
         $materialImgTitleLangDir = 'letters.material.img';
         $materialAlt = 'alt.letters.material.';
         $material = [
@@ -80,14 +80,14 @@ class LettersWhithLightController extends SetLangAndViewController
             'text' => 'letters.whith_light.lights.text',
             'img' => [
                 [
-                'es' => 'img/letters/es/whith_light/lights/Letras-corpóreas-iluminadas.webp',
-                'ru' => 'img/letters/ru/whith_light/lights/Обьемные-буквы-с-подсветкой.webp',
+                'es' => 'img/letters/with_light/es/lights/Letras-corpóreas-iluminadas.webp',
+                'ru' => 'img/letters/with_light/ru/lights/Обьемные-буквы-с-подсветкой.webp',
                 'img_title' => __('letters.whith_light.lights.img.1'),
                 'alt' => '',
                 ],
                 [
-                'es' => 'img/letters/es/whith_light/lights/Letras-corpóreas-retroiluminadas.webp',
-                'ru' => 'img/letters/ru/whith_light/lights/Объемные-буквы-с-подсветкой-контражур.webp',
+                'es' => 'img/letters/with_light/es/lights/Letras-corpóreas-retroiluminadas.webp',
+                'ru' => 'img/letters/with_light/ru/lights/Объемные-буквы-с-подсветкой-контражур.webp',
                 'img_title' => 'letters.whith_light.lights.img.2',
                 'alt' => '',
                 ],
@@ -98,25 +98,25 @@ class LettersWhithLightController extends SetLangAndViewController
             'text' => 'letters.mounts.text',
             'img' => [
                 [
-                'es' => 'img/letters/es/mounts/letras-de-pvc-20-mm-acabado-oro-con-frente-de-alumio.webp',
-                'ru' => 'img/letters/ru/mounts/Золотые-буквы-объемные-толщиной-20-мм-из-пвх-с-фронтальным-золотым-алюминием.webp',
+                'es' => 'img/letters/with_light/es/mounts/letras-de-pvc-20-mm-acabado-oro-con-frente-de-alumio.webp',
+                'ru' => 'img/letters/with_light/ru/mounts/Золотые-буквы-объемные-толщиной-20-мм-из-пвх-с-фронтальным-золотым-алюминием.webp',
                 'img_title' => __('letters.mounts.img.1'),
                 'alt' => '',
                 ],
                 [
-                'es' => 'img/letters/es/mounts/letras-corporeas-con-separadores.webp',
-                'ru' => 'img/letters/ru/mounts/Объемные-буквы-с-дистанцирующими-держателями.webp',
+                'es' => 'img/letters/with_light/es/mounts/letras-corporeas-con-separadores.webp',
+                'ru' => 'img/letters/with_light/ru/mounts/Объемные-буквы-с-дистанцирующими-держателями.webp',
                 'img_title' => 'letters.mounts.img.2',
                 'alt' => '',
                 ],
             ],
         ];
-        $portfolioDirEs = 'img/letters/es/whith_light/portfolio/';
-        $portfolioDirRu = 'img/letters/ru/whith_light/portfolio/';
+        $portfolioDirEs = 'img/letters/with_light/es/portfolio/';
+        $portfolioDirRu = 'img/letters/with_light/ru/portfolio/';
         $portfolioLocaleAltPath = 'alt.letters.whith_light.portfolio.';
-        //$portfolioLocaleTitlePath = 'portfolio.letters.'; letters/es/whith_light/portfolio/gallery
+        //$portfolioLocaleTitlePath = 'portfolio.letters.'; letters/with_light/es/portfolio/gallery
         $portfolioImages = [
-            'gallery-image-path' => 'letters/es/whith_light/portfolio/gallery',
+            'gallery-image-path' => 'letters/with_light/es/portfolio/gallery',
             [
                 'es' => [
                     'src' => $portfolioDirEs . 'Letras-volumetricas-retroiluminadas-de-pvc-para-salon-de-belleza.webp',
