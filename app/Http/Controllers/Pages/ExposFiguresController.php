@@ -32,8 +32,8 @@ class ExposFiguresController extends SetLangAndViewController
             'currentPage' => __('crumbs.expos_figures')
         ];
 
-        $materialDirEs = 'img/letters/es/material/';
-        $materialDirRu = 'img/letters/ru/material/';
+        $materialDirEs = 'img/expos/figures/es/material/';
+        $materialDirRu = 'img/expos/figures/ru/material/';
         $materialImgTitleLangDir = 'letters.material.img';
         $materialAlt = 'alt.letters.material.';
         $material = [
