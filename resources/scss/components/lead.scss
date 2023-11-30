@@ -51,9 +51,10 @@
     @extend %title50;
     color: #ffffff;
     line-height: 120%;
-    @media (max-width: $mobile) {
+    margin-bottom: 0px; 
+    /* @media (max-width: $mobile) {
       margin-bottom: 5px; 
-    }
+    } */
   }
 
   &__text {
