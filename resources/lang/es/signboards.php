@@ -6,13 +6,13 @@ return [
       'title' => 'Rótulos sin iluminacion',
       'circle_text' => 'Producción hasta 8-14 días',
     ],
-    'text' => 'Nuestra empresa le ofrece una solución eficaz para publicidad exterior de su negocio.<br><br>
-    Los rótulos sin luz están fabricados de plástico o metacrilato de alta calidad con impresión UV a todo color, lo que proporciona un aspecto brillante y claro. También pueden ser letras corpóreas o planas, fabricadas en plástico PVC y metacrilato de varios espesores.<br><br>
-    Los rótulos sin luz son muy utilizados para negocios que no trabajan de noche, así como para el interiorismo de oficinas y salones.<br><br>
-    A menudo, estos letreros sin luz se utilizan para decorar elementos de stands de ferias y decoraciones en eventos. Ayudarán a llamar la atención y enfatizar su singularidad.',
+    'text' => 'Nuestra empresa te ofrece una solución eficaz para la publicidad exterior de tu negocio.<br><br>
+    Nuestros carteles sin luz están fabricados de plástico o metacrilato de alta calidad con la impresión UV a todo color, lo que proporciona un aspecto brillante y claro. Se puede fabricar las letras corpóreas con relieve o las planas utilizando plástico PVC y metacrilato de varios espesores para su producción.<br><br>
+    Los carteles sin luz son muy utilizados para negocios que no están abiertos por la noche, así como para el interiorismo de las oficinas y salones.<br><br>
+    A menudo, la cartelería sin iluminación se utiliza para decorar elementos de stands de ferias y decoraciones durante los eventos. Llamará la extra atención y hará resaltar tu negocio.',
     'material' => [
       'title' => 'Material',
-      'text' => 'En la creación de rótulos no luminosos utilizamos material PVC y metacrilato con un grosor de 5 a 10 mm. Estos materiales son excelentes para usos exteriores, son altamente resistentes a diversas condiciones climáticas, temperaturas extremas y precipitaciones.',
+      'text' => 'Para crear rótulos no luminosos utilizamos plástico PVC y metacrilato de 5 a 10 mm de grosor. Estos materiales son perfectos para el uso en exteriores y son altamente resistentes a diversas condiciones meteorológicas, cambios de temperatura y precipitaciones.',
       'img_1_title' => 'Metacrilato',
       'img_2_title' => 'PVC',
     ],
@@ -23,60 +23,59 @@ return [
       'img_2_title' => 'Separadores 20 mm',
     ],
     'lead' => [
-      'title' => 'Deja una solicitud para fabricar tu rótulo perzonalizado',
+      'title' => 'Deja una solicitud',
     ],
     'questions' => [
       '1' => [
-        'question' => '¿Cuál es la diferencia entre el acrilato y el PVC?',
-        'answer' => 'El metacrilato tiene una alta resistencia a los UV. Tiene una gran gama de colores.<br>
-        El PVC es flexible, muy resistente a los productos químicos ya la humedad, y más resistente a los impactos. El PVC no tiene muchos colores, pero se puede pintar en cualquier color. Ambos materiales son fáciles de cortar, pegar y procesar.<br>
-        El acrilato suele ser más caro en comparación con el PVC.<br>
-        Según los requisitos específicos del proyecto y las preferencias visuales, se puede elegir entre estos materiales para crear varios productos publicitarios y de diseño.',
+        'question' => '¿Cuál es la diferencia entre el metacrilato y el PVC?',
+        'answer' => 'El acrilato tiene una resistencia alta, es resistente a los rayos UV, pero puede ser frágil al ser golpeado. Cuenta con una amplia gama de colores.<br>
+        El PVC es elástico, tiene una gran resistencia a los productos químicos y a la humedad, y es más resistente a los golpes. El PVC no tiene una gran gama de colores, pero se puede pintarlo. Ambos materiales son fáciles de cortar, pegar, moldear y procesar.<br>
+        El metacrilato suele ser más caro que el PVC.<br>
+        Dependiendo de los requisitos específicos del proyecto y de las preferencias visuales, se elije entre estos dos materiales para crear una gran variedad de productos publicitarios y de diseño.',
       ],
       '2' => [
-        'question' => '¿Es posible imprimir una imagen en PVC o metacrilato?',
-        'answer' => 'Sí, la imagen se puede imprimir en plástico gracias a nuestra maquina con la tecnología de impresión UV. La impresión UV proporciona alta precisión y detalle de imagen, así como una amplia gama de colores. Las imágenes impresas con impresión UV tienen una excelente resistencia a los arañazos, la radiación UV, los productos químicos y la humedad.',
+        'question' => '¿Se puede imprimir una imagen en PVC o metacrilato?',
+        'answer' => 'Sí, se puede imprimir una imagen en plástico utilizando la tecnología de impresión impresión UV. La impresión UV ofrece una gran precisión y detalle de la imagen, así como una amplia gama de colores. Las imágenes impresas mediante la tecnología UV tienen una excelente resistencia a los arañazos, la luz ultravioleta, los productos químicos y la humedad.',
       ],
       '3' => [
-        'question' => '¿Qué es mejor, un letrero iluminado o sin luz?',
+        'question' => '¿Qué sería mejor, un letrero con o sin luz?',
         'answer' => 'Los letreros iluminados siempre se ven más brillantes y atractivos.',
       ],
       '4' => [
-        'question' => '¿El letrero es resistente a las altas temperaturas y la decoloración?',
-        'answer' => 'Los materiales seleccionados adecuadamente en la fabricación del letrero, los sujetadores adicionales y la estructura de metal aseguran una larga vida útil del letrero.<br>
-        El acrilato suele soportar bien las temperaturas en el rango de -20 °C a +70 °C. Esto significa que puede funcionar de manera estable en condiciones climáticas frías y moderadamente cálidas. El PVC suele soportar temperaturas de -20°C a +60°C.<br>
-        Si el letrero estará expuesto a temperaturas extremadamente bajas o altas, es importante elegir un material que cumpla con estas condiciones. También vale la pena considerar que la exposición intensa a la luz solar y las altas temperaturas pueden afectar la apariencia y el color de los materiales con el tiempo.',
+        'question' => '¿Es resistente el rótulo a las altas temperaturas y a la decoloración?',
+        'answer' => 'Los materiales adecuadamente seleccionados para la fabricación del rótulo, las piezas de fijación adicionales y la construcción metálica garantizan una larga vida útil del rótulo.<br>
+        Por lo general, el metacrilato resiste bien las temperaturas de entre -20 °C y +70 °C. Esto significa que puede funcionar de forma constante en condiciones climáticas frías y moderadamente cálidas. El PVC suele resistir temperaturas de entre -20°C y +60°C.<br>
+        Si la placa va a estar expuesta a temperaturas extremadamente bajas o altas, es importante elegir un material adecuado para estas condiciones. También hay que tener en cuenta que la luz solar intensa y las altas temperaturas pueden afectar al aspecto y el color de los materiales con el paso del tiempo.',
       ],
       '5' => [
-        'question' => '¿Dónde puedo ver las muestras de colores de acrilato?',
-        'answer' => 'En la reunión, mostramos opciones de colores de metacrilato.',
+        'question' => '¿Dónde puedo ver el catálogo de colores de metacrilato?',
+        'answer' => 'Te enseñaremos las opciones de colores de metacrilato a la vista.',
       ],
       '6' => [
-        'question' => 'Ya tenemos un letrero antiguo, ¿podemos usarlo?',
-        'answer' => 'La experiencia demuestra que la restauración de un rótulo antiguo con la sustitución de una imagen o letras cuesta tanto como la producción de uno nuevo. Consideramos cada caso individualmente y decidimos juntos qué opción será más económica y conveniente: la restauración de un letrero antiguo o la fabricación de uno nuevo.',
+        'question' => 'Ya tenemos un rótulo antiguo, ¿se puede usarlo?',
+        'answer' => 'La experiencia demuestra que la restauración de un rótulo antiguo con sustitución de la imagen o las letras cuesta lo mismo que la producción de uno nuevo. Consideramos cada caso individualmente y juntos decidiremos cuál es la opción más económica y conveniente: la restauración de un rótulo antiguo o la fabricación de uno nuevo.',
       ],
       '7' => [
         'question' => '¿Cuánto dura un rótulo de metacrilato o PVC?',
-        'answer' => 'Las condiciones de funcionamiento es cosa muy importante. Si el letrero se instala en el lado soleado del edificio y se expone a una intensa radiación ultravioleta, su vida útil puede acortarse. Además, el cuidado y el mantenimiento regulares pueden prolongar significativamente la vida útil del letrero.<br>
-        Un letrero hecho de acrilato o PVC, con el cuidado y la instalación adecuados, puede durar de 5 a 10 años o incluso más.<br>
-        La elección del material, el diseño adecuado y la calidad de fabricación también pueden afectar significativamente la durabilidad de un letrero.',
+        'answer' => 'Las condiciones de explotación son un factor clave en la duración del servicio de un rótulo. Si el rótulo se instala en la parte soleada del edificio y se expone a una radiación UV intensa, su vida útil puede reducirse.<br>
+        Un rótulo de metacrilato o PVC puede durar entre 5 y 10 años, o incluso más, con los cuidados y la instalación adecuados.<br>
+        La selección del material, un diseño adecuado y una fabricación de calidad también pueden influir significativamente en la duración del servicio de un rótulo.',
       ],
       '8' => [
-        'question' => '¿Diseñais la rotulación y publicidad exterior?',
-        'answer' => 'Sí, ofrecemos el servicio de diseño de señalización y publicidad exterior. Nuestro equipo de profesionales es capaz de crear conceptos de diseño efectivos y atractivos que satisfarán sus necesidades y objetivos. Consideramos sus preferencias y el contexto ambiental para crear una solución publicitaria única y memorable.',
+        'question' => '¿Ofrecéis servicios de diseño de rotulación y publicidad exteriores?',
+        'answer' => 'Sí, ofrecemos servicios de diseño de rotulación y publicidad exteriores. Nuestro equipo de profesionales es capaz de crear conceptos de diseño eficaces y atractivos que satisfagan tus necesidades y objetivos. Tenemos en cuenta tus preferencias y el contexto del entorno para crear una solución publicitaria única y pegadiza.',
       ],
     ],
-    'about_text' => 'Te invitamos a sumergirte en el mundo de soluciones publicitarias únicas y señalización expresiva sin luz. El equipo de la agencia Colorit está preparado para crear para ti carteles publicitarios exteriores sin luz que destaquen del fondo y llamen la atención.<br>
-    Entendemos que cada negocio tiene su propia personalidad y por eso nuestro enfoque es siempre individual. Desarrollamos el diseño que mejor refleje el espíritu de su empresa y público objetivo. Nuestra experiencia y habilidades profesionales garantizan un trabajo de alta calidad. Le ofrecemos la oportunidad de encargar un cartel sin luz a un precio asequible. Nuestra política de transparencia significa que siempre estará al tanto de los costos. Nos esforzamos por ofrecerle el mejor valor por su dinero.<br>
-    Un cartel publicitario es un elemento clave de su empresa. Ayuda a que su negocio sea reconocible y se dé a conocer. Nuestra tarea es hacer que este proceso sea lo más simple y efectivo posible. Puede confiar completamente en nosotros para crear un cartel eficaz y expresivo. No pierdas la oportunidad de mejorar la presentación visual de tu negocio con nuestra señalización luminosa. Encargue un cartel con nosotros y recibirá alta calidad, diseño individual y un precio atractivo. Puedes consultar el coste de los carteles publicitarios sin luz con nuestros especialistas.'
+    'about_text' => 'Te invitamos a hundirte en un mundo de soluciones publicitarias únicas y señalización sin luz expresiva. El equipo de la agencia Colorit está siempre dispuesto a crear para ti rótulos exteriores sin luz que se destaquen y atraigan la atención. Comprendemos que cada negocio tiene su propia personalidad, por lo que nuestro trato es siempre personalizado. Crearemos el diseño que mejor refleje el espíritu de tu empresa y tu público objetivo. Nuestra experiencia y profesionalidad garantizan un trabajo de alta calidad. Te ofrecemos la oportunidad de solicitar rótulos sin luces a un precio accesible. Nuestra política de transparencia significa que siempre estarás al tanto de los costes. Nuestro objetivo es ofrecerte la mejor relación calidad-precio. La señalización publicitaria es un elemento clave de tu empresa. Ayuda a que tu negocio sea más reconocible y a que se haga notar. Nuestro trabajo consiste en hacer que este proceso sea más fácil y eficaz posible. Puedes confiar en nosotros para crear una señalización visible y atractiva.
+    <br>
+    No pierdas la oportunidad de mejorar la imagen de tu empresa con nuestros rótulos sin luz. Pídenos tus rótulos y obtendrás alta calidad, diseño personalizado a un precio atractivo. Puedes consultar el coste de los rótulos publicitarios sin luz con nuestros especialistas.'
   ],
   'whith_light' => [
     'banner' => [
       'title' => 'Rótulos luminosos',
       'circle_text' => 'Producción 14 - 21 días',
     ],
-      'text' => 'El uso de rótulos luminosos aporta muchas ventajas:
-      aumenta la visibilidad de su establecimiento por la noche, crea una publicidad eficaz y memorable y además le permite atraer a más clientes potenciales. Eso puede ser una caja luminosa, o una caja de  metacrilato retroiluminada con cintas de LED o una caja de paneles compuestos o un letrero con focos.',
+      'text' => 'El uso de rótulos luminosos te ofrece muchas ventajas: mejora la visibilidad de tu local en la oscuridad, crea una publicidad espectacular y pegadiza, y te permite atraer un mayor número de clientes potenciales. Puede ser una caja luminosa (un lightbox), es una caja de plástico y metacrilato con iluminación mediante las luces LED, una caja de paneles compuestos o un rótulo con reflectores.',
       'variants' => [
         'title' => 'Tipos de rotulos luminosos',
         'image_titles' => [
@@ -105,7 +104,7 @@ return [
       ],
       'backlight' => [
         'title' => 'Iluminación',
-        'text' => 'las cajas de luz están iluminadas por módulos LED, tienen un bajo consumo de energía, una larga vida útil y son más compactas y eficientes en comparación con las fuentes de luz tradicionales.',
+        'text' => 'Iluminación. Las cajas de luz se iluminan con módulos LED. Consumen poca energía, tienen una larga vida útil y son más compactos y eficientes que las fuentes de luz tradicionales.',
         'img' => [
           '1' => 'Modulos LED',
           '2' => 'Foco',
@@ -116,61 +115,69 @@ return [
       ],
       'questions' => [
         '1' => [
-          'question' => '¿Qué tipos de iluminación se utilizan para los rotulos?',
-          'answer' => 'La forma más económica, duradera y práctica de iluminar rótulos son los módulos LED y el neón. Varias opciones para su instalación le permiten obtener diferentes efectos de iluminación. Lo ayudaremos a elegir la mejor iluminación y a hacer un letrero brillante y hermoso.',
+          'question' => '¿Qué opciones de iluminación se utilizan en los rótulos?',
+          'answer' => 'Hoy en día, la forma más económica, duradera y práctica de iluminar los rótulos son los módulos LED y el neón. Las distintas opciones para su instalación permiten obtener diferentes efectos de iluminación. Te ayudaremos a elegir la iluminación óptima y a producir un rótulo brillante y atractivo.',
         ],
         '2' => [
-          'question' => '¿Cuánto tiempo duran los LED ?',
-          'answer' => 'Los LED pueden durar entre 50 000 y 100 000 horas o más. Es decir que al trabajar un promedio de 8 horas diarias, pueden durar muchos años.<br>
-          Pero debe tenerse en cuenta que la vida útil de los LED puede reducirse por sobrecalentamiento, alta humedad, encendidos y apagados frecuentes, tensión de alimentación inestable e incorrecta.<br>
-          Para obtener la máxima longevidad de los LED, se recomienda elegir los LED correctos, instalarlos de acuerdo con las recomendaciones del fabricante, proporcionar una buena refrigeración y una fuente de alimentación estable.',
+          'question' => '¿Cuánto duran los diodos LED utilizados en la señalización luminosa?',
+          'answer' => 'Los LED pueden durar, en promedio, entre 50.000 y 100.000 horas o más. Esto significa que, funcionando durante un promedio de 8 horas al día, puedrían durar entre 17 y 34 años.<br>
+          Pero hay que tener en cuenta que la vida útil de los LED puede reducirse por el sobrecalentamiento, la humedad elevada, los encendidos y apagados frecuentes y la tensión de alimentación inestable e incorrecta.<br>
+          Para maximizar la duración del servicio de los LED, se recomienda su correcta selección, su instalación según las recomendaciones del fabricante, una buena refrigeración y una alimentación estable.',
         ],
         '3' => [
-          'question' => '¿Es posible bajar el brillo de la luminación del letrero?',
-          'answer' => 'Para bajar la tension de brillo solo es posible en cintas de neón con un control de mando especial. En los módulos LED, no existe tal posibilidad.',
+          'question' => '¿Si es posible regular la intensidad de la luz del rótulo?',
+          'answer' => 'Se puede regular el brillo de la iluminación de fondo añadiendo o reduciendo el número de módulos LED. Además, para conseguir una mayor luminosidad se puede utilizar diodos LED más brillantes y viceversa.',
         ],
         '4' => [
-          'question' => '¿Cómo se verá el letrero durante el día cuando estara sin luz?',
-          'answer' => 'Cada letrero está diseñado para ser atractivo y visible incluso durante el día.',
+          'question' => '¿Qué aspecto tendrá el rótulo durante el día cuando la iluminación de fondo esté inactiva?',
+          'answer' => 'Todos los rótulos están diseñados para ser atractivos y visibles incluso durante el día.',
         ],
         '5' => [
-          'question' => '¿Cómo esta la reparación y mantenimiento de letrero si pasa algo?',
-          'answer' => 'Si su letrero no funciona, nuestros expertos pueden ir para diagnosticar los problemas y luego arreglar la avería. Reparamos a letreros que están en garantía de forma gratuita y fuera de turno.',
+          'question' => '¿Cómo se repara y se mantiene la iluminación si algo falla?',
+          'answer' => 'Si tu rótulo no se ilumina, nuestros técnicos acudirán a tu local y harán un diagnóstico de la avería para, a continuación, repararla. Los rótulos que están en garantía se reparan gratis y fuera de orden.',
         ],
         '6' => [
-          'question' => '¿Cuál es el tiempo para la producción e instalación de un letrero luminoso?',
-          'answer' => 'El tiempo de entrega para la letrero puede tardar de dos a tres semanas.',
+          'question' => '¿Cuál es el plazo de fabricación e instalación de un rótulo luminoso?',
+          'answer' => 'El plazo de fabricación de un rótulo luminoso es de dos a tres semanas.',
         ],
         '7' => [
-          'question' => '¿Puede monstrar ejemplos de los rótulos luminosos que ya ha hechos?',
-          'answer' => 'Puedes ver nuestro trabajo en la sección Portfolio.',
+          'question' => '¿Podéis enseñarme ejemplos de los rótulos luminosos que ya habéis fabricado?',
+          'answer' => 'Se puede consultar nuestros trabajos en la sección de Portafolio.',
         ],
         '8' => [
-          'question' => '¿Qué más haceis además de los letreros luminosos?',
-          'answer' => 'Nuestra agencia se especializa en la producción de todo tipo de publicidad exterior: rotulacion de vinilo, impresión digital, decoración de ventanas, producción de stands, banderas, etc. A su servicio, nos complace ofrecer la impresión de camisetas, sudaderas, compradores, vasos de marca, bolígrafos, cuadernos, bolsas de fabricación y productos impresos.',
+          'question' => '¿Ofrecéis algún otro tipo de servicio además de letreros luminosos?',
+          'answer' => 'Nuestra agencia está especializada en la fabricación de todo tipo de publicidad exterior, es decir, pegado de escaparates de cristal, impresión de pancartas, decoración de escaparates, producción de stands, banderas, etc. A tu servicio tenemos la impresión en camisetas, sudaderas, shoppers, branding de tazas, bolígrafos, libretas, fabricación de bolsas y productos impresos.',
         ],
     ],
-    'about_text' => 'Los carteles luminosos desempeñan un papel importante en los negocios modernos, brindando a las empresas una oportunidad única de atraer la atención de los clientes, diferenciarse de la competencia y fortalecer su reputación. Son una parte integral de una estrategia publicitaria y pueden tener un impacto significativo en el éxito de un negocio. Lo primero que ve un cliente al acercarse a un local comercial es su cartel luminoso. Actúa como una especie de tarjeta de presentación de la empresa, comunicando su especialización, logo y nombre. Un letrero diseñado de forma creativa puede resaltar las características únicas de una marca y al mismo tiempo transmitir su mensaje central en cuestión de segundos.<br><br>
-    Los carteles luminosos son especialmente importantes para las empresas minoristas y de servicios. Ayudan a los clientes a identificar fácilmente una empresa entre muchas ofertas similares. Un letrero bien diseñado ayuda a crear una primera impresión positiva, aumentando la probabilidad de que un cliente decida pasar y ver el inventario. Los carteles luminosos también ayudan a fortalecer la marca. La repetición de un cartel en varios puntos de la ciudad fortalece el reconocimiento y la confianza en la marca. Los clientes empiezan a asociar determinados valores y cualidades a la empresa, lo que puede ser un factor decisivo en su elección.<br><br>
-    Las tecnologías modernas permiten crear carteles con una variedad de efectos, como iluminación, animación, cambio de colores, etc. Esto abre oportunidades adicionales para que las empresas atraigan la atención y creen una imagen memorable. Por ejemplo, un restaurante podría utilizar señalización dinámica para mostrar su cocina y su atmósfera, o una tienda de ropa podría utilizarla para resaltar sus colecciones actuales. Los carteles luminosos también se pueden utilizar para indicar la disponibilidad de servicios adicionales, promociones o nuevos productos. Son un medio eficaz para comunicarse con los clientes y pueden motivarlos a actuar.<br><br>
-    Al mismo tiempo, conviene recordar que se debe equilibrar el uso de señales luminosas. Por un lado, pueden llamar la atención, pero por otro, el uso excesivo de publicidad luminosa puede causar malestar a los residentes e incluso provocar contaminación lumínica del medio ambiente. En conclusión, los carteles luminosos desempeñan un papel crucial en una estrategia publicitaria empresarial exitosa. Ayudan a atraer clientes, fortalecer la marca y crear reconocimiento en el mercado. Las tecnologías modernas y un enfoque creativo le permiten utilizar los carteles luminosos de la forma más eficaz para lograr sus objetivos comerciales.',
+    'about_text' => 'Los rótulos luminosos desempeñan un papel importante en la vida empresarial moderna, ya que brindan a las empresas una oportunidad única de atraer la atención de los clientes, destacarse entre los otros negocios y consolidar su reputación. Son parte integrante de una estrategia publicitaria y pueden tener un impacto significativo en el éxito de un negocio.<br>
+    Lo primero que ve un cliente cuando se acerca a un local comercial es su rótulo luminoso. Él que sirve de tarjeta de visita de la empresa, comunicando su especialización, logotipo y nombre. Una señalización diseñada de forma creativa puede resaltar las características únicas de una marca, así como transmitir el mensaje principal en cuestión de segundos.<br>
+    Los letreros luminosos son extremadamente importantes para las empresas minoristas y las que ofrecen servicios. Ayudan que los clientes identifiquen fácilmente la empresa entre todos los numerosos negocios similares. Una señalización bien diseñada ayuda a crear la primera impresión positiva, aumentando la probabilidad de que un cliente decida entrar y echar un vistazo a los productos o servicios.<br>
+    La señalización luminosa también ayuda a consolidar la identificación de la marca. La cartelería repetida en distintos lugares de la ciudad refuerza el reconocimiento de la marca y la confianza hacia ella. Los clientes empiezan a asociar ciertos valores y la calidad con la empresa, lo que puede ser un factor decisivo a la hora de elegir.
+    <br>
+    La tecnología moderna permite crear rótulos con distintos efectos, como iluminación de fondo, animación, cambios de color, etc. Esto abre oportunidades adicionales para que las empresas consigan atraer la atención y crear una imagen inolvidable. Por ejemplo, un restaurante puede utilizar carteles dinámicos para demostrar su cocina y su ambiente, mientras que una tienda de ropa puede utilizarlos para hacer resaltar las colecciones actuales.
+    <br>
+    Los rótulos luminosos también pueden utilizarse para indicar la disponibilidad de servicios adicionales, promociones o nuevos productos. Son un medio eficaz de comunicación con los clientes y pueden motivarlos a actuar.
+    <br>
+    Sin embargo, vale la pena acordarse de mantener un equilibrio en el uso de la señalización luminosa. Por un lado, pueden atraer la atención, pero por otro, un uso excesivo de la rotulación luminosa puede causar molestias a los vecinos e incluso provocar contaminación lumínica.
+    <br>
+    En resumidas cuentas, los rótulos luminosos desempeñan un papel crucial en el éxito de la estrategia publicitaria de una empresa. Ayudan a atraer clientes, consolidar la marca y crear reconocimiento en el mercado. La tecnología moderna y la creatividad permiten aprovechar al máximo los rótulos luminosos para alcanzar los objetivos de tu negocio.',
   ],
   'lightbox' => [
     'banner' => [
       'title' => 'Rótulos cajon fresado',
       'circle_text' => 'Producción hasta 9 días',
     ],
-    'text' => 'Las cajas de luz hechas de dibond (paneles composite de aluminio) se usan comúnmente para publicidad exterior, stands de ferias y estructuras publicitarias individuales. Todos los productos compuestos son duraderos, livianos, prácticos, resistentes a la intemperie y duraderos. Las cajas de luz están iluminadas por modulos LED, que proporcionan una iluminación brillante, económica y uniforme del letrero. Este es un tipo de caja de luz: liviano y duradero tiene una apariencia estética.',
+    'text' => 'Las cajas de luz hechas de dibond (paneles composite de aluminio) normalmente se utilizan para publicidad exterior, stands de ferias y estructuras publicitarias individuales. Todos los productos de composite son sólidos, ligeros, prácticos, resistentes a las condiciones climáticas y duraderos. En los lightboxes de composite la iluminación se realiza mediante diodos LED, que dan una luz brillante, económica y uniforme. Este tipo de caja de luz es duradero, ligero y tiene una pinta estética espectacular.',
     'lead' => [
       'title' => 'Deja una solicitud para fabricar tu rotulo de bandeja calada',
     ],
     'material' => [
       'title' => 'Material',
-      'text' => 'Paneles de composite compuesto por dos placas de aluminio y un núcleo de polietileno (plástico duro). En fabricación de rótulosy stands utilizamos un composite con un grosor de 3 o 4 mm',
+      'text' => 'En la fabricación de las cajas de luz laterales utilizamos dos tipos de materiales: metacrilato de color leche de 3 mm y composite de aluminio fresado.',
     ],
     'types' => [
       'title' => 'Tipos de composite',
-      'text' => 'Hasta hoy, el dibond tiene muchos matices. Los colores más utilizados son el negro, el blanco, el cepillo plateado, el acero y el dorado.',
+      'text' => 'Hoy en día, el composite presenta una gran variedad de colores y matices. Los colores más utilizados son negro, blanco, plata, acero y oro.',
       'img_titles' => [
         '1' => 'Negro mate',
         '2' => 'Blanco brillo',
@@ -181,54 +188,63 @@ return [
     ],
     'led'=> [
       'title' => 'Modulos LED',
-      'text' => 'Las cajas de bandeja calada se iluminan con módulos de led con un consumo de energía de 0,5 W a 3 W por módulo con un ángulo de haz de 120 a 160°, la vida útil suele ser de 30 000 a 50 000 horas',
+      'text' => 'Para iluminar las cajas de luz se utilizan módulos LED con un consumo de 0,5 W a 3 W por módulo y un ángulo de dispersión de 120° a 160°. La vida útil suele ser de 30.000 a 50.000 horas.',
     ],
     'questions' => [
       '1' => [
-        'question' => '¿Cuánto tiempo tarda fabricar un letrero de composite?',
-        'answer' => 'Tiempo de fabricación de letreros de bandeja calada: hasta dos semanas',
+        'question' => '¿Cuánto se tarda en fabricar un rótulo compuesto?',
+        'answer' => 'El tiempo de producción de un rótulo compuesto es de hasta dos semanas.',
       ],
       '2' => [
         'question' => '¿Dónde puedo ver todos los colores del composite?',
-        'answer' => 'Los colores del dibond se puede ver en las muestras en la reunión.',
+        'answer' => 'Verás las muestras con los colores del composite en cuanto nos encontremos.',
       ],
       '3' => [
-        'question' => '¿Cuánto tiempo durará ese rotulo?',
-        'answer' => 'Con el cuidado y mantenimiento a su tiempo, un letrero de panel composite de aluminio puede durar de 7 a 10 años o más. Este material generalmente se adapta bien al medio ambiente, es resistente a la humedad, la radiación UV y los cambios de temperatura.<br>Es importante controlar el estado de los paneles, limpiarlos periódicamente de la suciedad y el polvo y realizar las reparaciones necesarias en caso de daños.',
+        'question' => '¿Cuánto durará este tipo de señalización?',
+        'answer' => 'Con los cuidados adecuados, un rótulo de paneles composite de aluminio puede durar de 7 a 10 años o incluso más. Este material suele resistir bien el entorno, la humedad, los rayos UV y los cambios de temperatura.<br>Es importante controlar el estado de los paneles, limpiarlos regularmente de suciedad y polvo, así como hacer las reparaciones necesarias si están dañados.',
       ],
       '4' => [
         'question' => '¿El dibond se desvanece con el sol?',
         'answer' => 'Los paneles compuestos de aluminio tienen buena resistencia a los rayos UV y al sol. Tienen un revestimiento especial que protege contra la decoloración y mantiene el brillo y la estabilidad del color durante mucho tiempo.',
       ],
       '5' => [
-        'question' => '¿Es resistente en las altas temperaturas?',
-        'answer' => 'El composite tiene buena estabilidad térmica y resistencia a altas temperaturas. A menudo se usa no solo en publicidad, sino también en la construcción, donde puede estar expuesto a la luz solar y a temperaturas elevadas.',
+        'question' => '¿Es resistente a las altas temperaturas?',
+        'answer' => 'El composite tiene una buena estabilidad térmica y resistencia a las altas temperaturas. Suele utilizarse no solo en publicidad, sino también en la construcción, donde se expone a la luz solar y a temperaturas elevadas.',
       ],
       '6' => [
         'question' => '¿De qué materiales están hechas las letras de esta caja de luz?',
-        'answer' => 'En cajas de luz hechas de paneles compuestos de aluminio, las inscripciones se cortan mediante fresado. Encima se instalan letras de acrilato opaco o de color.',
+        'answer' => 'En nuestras cajas de luz hechas de paneles compuestos de aluminio, las inscripciones se cortan mediante un fresado. Encima se instalan las letras de metacrilato opaco o de color.',
       ],
       '7' => [
-        'question' => '¿Cuál es el tamaño máximo de una caja de luz?',
-        'answer' => 'El tamaño maximo de una panel de dibond es 4000*2500 mm. Para fabricar los rotulos luminosos con cajon fresado mas grande por ejempo 4500*1000 o digamos 6000*1000 mm hacemos dos cajones con ua estructura reforzada',
+        'question' => '¿Cuál es el tamaño máximo que puede tener una caja de luz composite?',
+        'answer' => 'Cuando se utilizan estructuras metálicas de refuerzo, el tamaño de la caja de luz puede ser bastante grande. En la práctica, puede alcanzar tamaños considerables, por ejemplo hasta 3-4 metros de longitud y 2-3 metros de altura. No obstante, se recomienda consultar con nuestros especialistas para determinar el tamaño óptimo, teniendo en cuenta los requisitos de resistencia de la estructura y el diseño.',
       ],
       '8' => [
-        'question' => '¿Es posible pedir un cartel, letras o decoración de dibond?',
-        'answer' => 'Las placas de composite con el nombre de la empresa o con horarios son muy populares. Siempre se ven muy estéticamente agradables, caros y hermosos. Por medio podemos fresar las letras o logotipos.<br>
-        Este material se puede utilizar para hacer las estructuras no estándar, detalles de interiores y stands de ferias. Van perfecto con plásticos, vinilos y modulos de led.',
+        'question' => '¿Es posible hacer una caja de luz con neón por ambos lados?',
+        'answer' => 'Sí, es posible. Se puede hacer una inscripción, unos elementos o alienar con neón todo el perímetro de la lightbox. Una señal de este tipo atraerá sin duda mucha atención y se rentabilizará rápidamente gracias a los visitantes atraídos.<br>
+        Este material se puede utilizar para hacer las estructuras no estándares, elementos del interior y stands de ferias. Además, se combina perfectamente con plásticos, películas e iluminación LED o de neón.',
       ],
     ],
-    'about_text' => 'Letreros compuestos fresados: el arte de atraer la atención y construir una marca.<br>
-    Las empresas modernas no pueden prescindir de una comunicación visual eficaz. En este contexto, encargar un cartel de aluminio fresado será una auténtica arma en la lucha por llamar la atención. Dibond (paneles compuestos): consta de dos capas de aluminio, entre las cuales hay una capa de plástico o policarbonato, que tienen una alta resistencia, ligereza y resistencia a las influencias ambientales. Son estas propiedades las que los convierten en una opción ideal para crear letreros que durarán muchos años, resaltando su identidad corporativa y atrayendo la atención de los clientes.  El fresado añade un elemento de personalidad y sofisticación a estos letreros. Permite crear formas complejas, letras e imágenes en 3D, y jugar con la textura y la profundidad, brindando a las marcas la oportunidad de destacarse de la competencia y crear una apariencia única.<br>
-    Para la señalización exterior se utilizan módulos LED de 12V, que proporcionan un excelente ángulo de dispersión y brillo.   Además, estas señales son muy resistentes a las condiciones climáticas y a las influencias externas, lo que garantiza una larga vida útil y minimiza los costes de mantenimiento. Por lo tanto, los carteles luminosos fabricados a partir de material compuesto fresado son una inversión en publicidad eficaz y mejora de la imagen. Tienen la capacidad de atraer la atención, crear una impresión positiva y dejar una impresión duradera en los corazones y las mentes de todos los transeúntes.<br>
-    Nuestros especialistas te ayudarán a realizar un bonito cartel de aluminio con luz.',
+    'about_text' => 'En el mundo del comercio minorista actual, cada vez más competitivo, crear un ambiente único y atractivo de la tienda desempeña un papel importante para atraer y conseguir clientes. Una caja de luz lateral es una herramienta que puede transformar su local y crear una atmósfera visual única.
+    <br>
+    Una banderola lateral tiene la capacidad única de atraer la atención incluso en las calles comerciales muy transitadas. Se destaca con su luz brillante que atrae inmediatamente los ojos de los transeúntes y clientes potenciales. Esto permite que tu tienda se destaque del resto y cree una primera impresión que puede influir en la decisión de visitarla.
+    <br>
+    La señalización exterior es el arte del marketing visual. Te permite expresar la exclusividad de tu marca y crear un determinado estilo o ambiente. Ayudará a subrayar los colores corporativos, el logotipo o incluso utilizar formas y efectos creativos para que tu tienda resulte más atractiva y fácil de recordar.
+    <br>
+    Cuando los clientes vean tu rótulo, lo asociarán instantáneamente con tu marca. Esto puede ayudar a fomentar la fidelidad de tus clientes, ya que ellos asociarán la señalización con una experiencia positiva y con compras.
+    <br>
+    Una banderola de doble cara atrae la atención tanto de día como de noche, garantizando la visibilidad de tu comercio. En la oscuridad, se convierte en un indicador luminoso que señala la ubicación de la tienda y crea una sensación de seguridad y comodidad para los clientes.
+    <br>
+    Una publicidad exterior atractiva puede animar a los transeúntes a entrar en tu tienda incluso sin haberlo planeado de antemano. Puede actuar como un imán, atrayendo a la gente y ayudando a aumentar el flujo de clientes. De este modo, puede influir en las ventas y en el éxito general de tu negocio.
+    <br>
+    Una banderola luminosa es algo más que una herramienta publicitaria, es una forma de crear un ambiente único y acogedor en tu tienda. Atrae la atención, destaca la marca, aumenta las ventas y crea una experiencia inolvidable para los clientes. Al invertir en rótulos luminosos de calidad, estás invirtiendo en el éxito de tu negocio y en su reconocimiento ante tus clientes.',
   ],
   'side_box' => [
     'banner' => [
       'title' => 'Banderolas',
       'circle_text' => 'Producción 14 - 21 días',
     ],
-    'text' => 'Banderola luminosa, también conocida como lightbox - es un tipo de rótulo luminoso, que suele colocarse en la pared de un edificio o punto de venta de forma que su parte principal mire hacia las personas o esquinas. Se fabrica de formas estándar - cuadrado, circulo, rectangular y no estándar. Las cajas de luz doble cara se utilizan ampliamente para anunciar negocios, tiendas, restaurantes y otros establecimientos, así como en exposiciones y eventos.',
+    'text' => 'Banderola luminosa, también conocida como caja de luz, es un tipo de señal luminosa, que normalmente se coloca en la pared de un edificio o local de venta de forma que su parte principal quede orientada en la dirección de las personas que pasan. Las hay de formas estándar - cuadrado, círculo, rectángulo - y no estándar. Las banderolas luminosas se utilizan mucho para anunciar negocios, tiendas, restaurantes y otros establecimientos, así como en exposiciones y eventos.',
     'material' => [
       'title' => 'Material',
       'text' => 'En fabricación de banderola luminosa doble cara utilizamos dos tipos de materiales: metacrílato blanco opaco de 3 mm y composite de aluminio fresado.',
@@ -256,32 +272,32 @@ return [
     ],
     'questions' => [
       '1' => [
-        'question' => '¿En qué casos es importante instalar una banderola luminosa?',
-        'answer' => 'Se debe instalar la banderola luminosa si la entrada está ubicada en la esquina del edificio y no es visible desde la carretera. Cuando quieras colocar información adicional sobre tus servicios y complementar el cartel principal. Tal letrero luminoso mejorará significativamente la visibilidad de su negocio y atraerá más la atención de los clientes potenciales que pasan.',
+        'question' => '¿En qué caso es importante instalar una banderola luminosa de este tipo?',
+        'answer' => 'Haría falta instalar una banderola luminosa si la entrada a tu local está en la esquina de un edificio y no es visible desde la calle con mucho tráfico de peatones y coches. Si deseas colocar información adicional sobre tus servicios y complementar la señalización principal. Este tipo de señalización iluminada mejorará significativamente la visibilidad de tu negocio y atraerá más atención de los clientes potenciales que pasen por la calle.',
       ],
       '2' => [
-        'question' => '¿Es posible fabricar banderola con una forma especial o solo hacen de forma estándar?',
-        'answer' => 'Damos vida a cualquier opción no estándar. Habiendo valorado previamente todas las capacidades y recursos técnicos, le ofrecemos la mejor opción de fabricación.',
+        'question' => '¿Es posible fabricar según nuestros bocetos o sólo hacéis variantes estándar?',
+        'answer' => 'Somos capaces de realizar cualquier proyecto fuera del estándar. Tras evaluar previamente todas las opciones técnicas y los posibles recursos, le ofrecemos la mejor solución de fabricación.',
       ],
       '3' => [
-        'question' => '¿Su especialista visita a el objeto antes de la fabricación e instalación?',
-        'answer' => 'Si es necesario, nuestro especialista visita el sitio para evaluar las condiciones técnicas para instalar un letrero.',
+        'question' => '¿Vuestro especialista visitará el local para revisar el objeto antes de su fabricación e instalación?',
+        'answer' => 'Si es necesario, nuestro especialista visita el lugar para evaluar las condiciones técnicas para la instalación de un rótulo.',
       ],
       '4' => [
-        'question' => '¿Cuánta electricidad consume esta caja de luz?',
-        'answer' => 'Dado que los módulos LED que iluminan la caja de luz tienen un consumo de energía muy económico, el consumo de energía de dicho letrero no es alto. La cifra exacta de consumo se puede decir en función del tamaño de la caja de luz.',
+        'question' => 'Cuánta electricidad consume una caja de luz?',
+        'answer' => 'Dado que los módulos LED que iluminan una lightbox tienen un consumo eléctrico muy económico, el consumo de energía de un rótulo de este tipo no es alto. La cifra exacta de consumo puede decirse en función del tamaño de una caja de luz.',
       ],
       '5' => [
-        'question' => '¿Es posible pedir solo la producción de una caja de luz sin instalación?',
-        'answer' => 'Sí, es posible ordenar solo producción. En este caso, la garantía de la parte ligera no se aplica. Dado que es importante que nuestros especialistas instalen y conecten el letrero de acuerdo con todos los requisitos técnicos.',
+        'question' => '¿Sería posible solicitar sólo la fabricación de una banderola sin su instalación?',
+        'answer' => 'Sí, es posible solicitar sólo la fabricación. En este caso, la garantía para la iluminación no es aplicable. Ya que es importante que nuestros especialistas instalen y conecten el rótulo de acuerdo con todos los requisitos técnicos.',
       ],
       '6' => [
-        'question' => 'Acabamos de abrir y nos gustaría llamar la atención sobre nuestra tienda tanto como sea posible. ¿Qué opción recomiendas?',
-        'answer' => 'Los letreros hechos de acrilato opaco o de dinond fresado con LED en dinámica funcionan mejor para llamar la atención.',
+        'question' => 'Acabamos de estrenar y nos gustaría maximizar la visibilidad de nuestro local. ¿Qué nos recomendaríais?',
+        'answer' => 'Los rótulos de metacrilato de color leche o de composite con LED puntuados y dinámicos son los que mejor funcionan para atraer la atención.',
       ],
       '7' => [
-        'question' => '¿Es posible reemplazar la imagen en una caja de luz antigua?',
-        'answer' => 'Depende del método de aplicación de la imagen y del plazo de prescripción para la fabricación de la caja de luz. Es posible evaluar la condición a partir de una foto o en una reunión en sus instalaciones.',
+        'question' => '¿Se puede cambiar la imagen de una lightbox antigua?',
+        'answer' => 'Depende de cómo se aplicó la imagen y de la antigüedad de la caja de luz. Es posible evaluar el estado mediante una foto o durante una reunión en tu local.',
       ],
       '8' => [
         'question' => '¿Es posible de que banderola sea con luz de ambos lados?',
@@ -301,10 +317,10 @@ return [
       'title' => 'Neon',
       'circle_text' => 'Producción 10 - 14 días',
     ],
-    'text' => 'El neón flexible es un producto moderno que imita el efecto del neón clásico pero es flexible y fácil de instalar. Consiste en un tubo de plástico flexible lleno de tira de LED que producen una iluminación brillante y uniforme. Es ideal para decorar las fachadas de tiendas, restaurantes, cafés y otras instalaciones comerciales. Con él, puede crear una inscripción de neón, un logotipo o elementos rizados atractivos y originales a pedido. Nuestro portfolio incluye una gran cantidad de letreros de neón implementados.',
+    'text' => 'El neón flexible es un material moderno que imita el efecto del neón clásico, pero es flexible y fácil de instalar. Consiste de un tubo de plástico flexible lleno de diodos LED que crean un brillo luminoso y uniforme. Es ideal para decorar fachadas de tiendas, restaurantes, cafeterías y otras instalaciones comerciales. Al usarlo se puede crear una inscripción de neón, un logotipo o elementos atractivos y originales a gusto. Nuestro portfolio incluye una gran cantidad de letreros de neón fabricados e instalados.',
     'material' => [
       'title' => 'Material',
-      'text' => 'El neón personalizado flexible se fabrican con una variedad de materiales, que incluyen metacrilato, madera y  PVC. Además, el neón flexible le permite cambiar el color y el brillo en un letrero usando mando de control.',
+      'text' => 'En la fabricación de letreros de neón flexibles se utilizan diversos materiales, como el metacrilato, la madera y el PVC. Además, el neón flexible permite cambiar el color y el brillo en el mismo rótulo mediante un mando especial.',
       'img' => [
         '1' => 'Metacrilato',
         'alt_1' => 'Rotulos de neon con tu diseño personalizado. Fabricaion de neones en Barcelona',
@@ -314,7 +330,7 @@ return [
     ],
     'mounts' => [
       'title' => 'Sujeción',
-      'text' => 'Rotulos de neon flexible se fijan mediante con fijaciónes especiales. Las fijaciones pueden estar ocultas y visibles, según el diseño y los requisitos de un proyecto en particular, las fijaciones seleccionadas correctamente garantizan la resistencia, la seguridad y la estabilidad de la rotulo durante mucho tiempo.',
+      'text' => 'Los rótulos de neón flexibles se fijan mediante sistemas de fijación especiales. Los soportes pueden quedar ocultos o visibles, según el diseño y los requisitos del proyecto específico. Las grapas correctamente seleccionadas garantizan la resistencia, seguridad y estabilidad del rótulo durante mucho tiempo.',
       'img' => [
         '1' => 'A pared',
         'alt_1' => '',
@@ -327,43 +343,46 @@ return [
     ],
     'questions' => [
       '1' => [
-        'question' => '¿Cuántos colores hay en neón?',
-        'answer' => 'Hasta hoy, los fabricantes de neón ofrecen una gran selección de colores. Estos son los colores populares, como el blanco, amarillo, rojo, azul, verde, rosa, así como varias de sus tonalidades. En cada pedido, te ayudamos a elegir el color que mejor se adapte a tu petición.',
+        'question' => '¿Cuántos colores de neón existen?',
+        'answer' => 'Hoy en día, los fabricantes de neón ofrecen una amplia gama de colores. Se trata de colores básicos como el blanco, el amarillo, el rojo, el azul, el verde, el rosa, así como varios de sus matices. En cada pedido te ayudamos a elegir el color que mejor se adapte a tu deseo.',
       ],
       '2' => [
-        'question' => '¿El precio depende del color del neón?',
-        'answer' => 'El precio de neón depende del color seleccionado, la longitud del tubo de neón y la base sobre la que se coloce el neón.',
+        'question' => '¿Si depende el precio del color del neón?',
+        'answer' => 'El precio de un rótulo de neón depende del color y el tono elegidos, la longitud del tubo de neón y la base sobre la que se monta el neón.',
       ],
       '3' => [
-        'question' => '¿Es posible hacer que un letrero de neón cambie varios colores?',
-        'answer' => 'Sí, existe tal posibilidad. Para esto, se utilizan neón multicanal y un mando especial para cambiar de color.',
+        'question' => '¿Si es posible que en el mismo letrero de neón cambie varios colores?',
+        'answer' => 'Sí, es posible. Esto se logra utilizando neón multicanal y un mando especial para cambiar los colores.',
       ],
       '4' => [
-        'question' => '¿Cuánta electricidad consume en letrero de neón?',
-        'answer' => 'El consumo de electricidad de neón depende de varios factores, como el tamaño del letrero, la cantidad de tubos de neón y largo de tubos. En promedio, un letrero de neón consume de 50 a 150 W por 1 metro de longitud. Por ejemplo, un letrero de 100*50 cm  puede consumir aproximadamente de 50 a 100 W.',
+        'question' => '¿Cuál es el consumo medio de un letrero de neón?',
+        'answer' => 'El consumo eléctrico de un rótulo de neón depende de varios factores, como el tamaño del rótulo, el número de tubos de neón, la intensidad de la luz y la duración del funcionamiento. En promedio, un rótulo de neón consume entre 50 y 150 vatios por 1 metro de longitud. Por ejemplo, un rótulo de 2 metros de largo puede consumir aproximadamente entre 100 y 300 vatios.',
       ],
       '5' => [
-        'question' => '¿Cuál es el período de garantía para el letrero de neón?',
-        'answer' => 'Para letreros de neón, ofrecemos una garantía de 2 años, sujeta a todas las condiciones de funcionamiento.',
+        'question' => '¿Cuál es el periodo de garantía para los carteles de neón?',
+        'answer' => 'Damos una garantía de 2 años para los rótulos de neón si se cumplen todas las condiciones de uso.',
       ],
       '6' => [
-        'question' => '¿Existen condiciones por cuales no se recomienda hacer neón flexible?',
-        'answer' => 'El neón flexible prácticamente no tiene contraindicaciones para la instalación. Antes de realizar un rotulo de este tipo, nuestros especialistas responderán a todas sus preguntas y recomendarán la mejor solución técnica.',
+        'question' => '¿Si existe alguna condición en la que no se recomiende montar el neón flexible?',
+        'answer' => 'El neón flexible prácticamente no tiene contraindicaciones para su instalación. Antes de fabricar un rótulo de este tipo, nuestros expertos responderán a todas tus preguntas y te recomendarán la mejor solución técnica.',
       ],
       '7' => [
-        'question' => '¿Hacéis iluminación interior con neón?',
-        'answer' => 'Sí, podemos hacer luces de neón en el interior. Neon crea una atmósfera especial y enfatiza los detalles del interior. El neón puede iluminar el techo, las columnas, la recepción, los marcos. También pueden decorar escaparates, stand de exposición o publicidad.',
+        'question' => '¿Hacéis iluminación de interiores con neón?',
+        'answer' => 'Sí, podemos hacer iluminación de neón para el interior. El neón crea una atmósfera especial y subraya los elementos del interior. El neón puede utilizarse para iluminar el techo, las columnas, la recepción, los marcos. También se puede utilizar para decorar escaparates, exposiciones o stands publicitarios.',
       ],
       '8' => [
-        'question' => '¿Se notará el neón si está apagado?',
-        'answer' => 'Dado que el tubo de neón lleva varios colores en frontal, el diseño del letrero debe diseñarse de tal manera que sea atractivo en cualquier momento del día. Nuestros diseñadores le ayudarán en este asunto.',
+        'question' => '¿Será visible un rótulo de neón cuando esté apagado?',
+        'answer' => 'Como el tubo de neón apagado es de color blanco o transparente, hay que diseñar el rótulo de modo que resulte atractivo a cualquier hora del día. Nuestros diseñadores podrán ayudarte en esta cuestión.',
       ],
     ],
     'about_text' => '<h2>Letreros de neón: el arte de la luz y la publicidad</h2><br>
-    Un letrero de neón personalizado no es sólo un arte, sino también una poderosa herramienta publicitaria que puede atraer la atención, crear una atmósfera única y dejar una impresión inolvidable. Sirven como símbolo de calles nocturnas, lugares de entretenimiento y negocios.<br><br>
-    El proceso de creación de letreros de neón es un verdadero arte que requiere habilidad y creatividad. Primero se crea un diseño de letrero, luego con una fresadora se cortan canales de 6 mm, donde se colocan tubos de neón flexibles del mismo o diferente color y se conectan a la fuente de alimentación mediante soldadura. Los artistas de letreros de neón tienen habilidades únicas para trabajar con materiales, fresar o soldar, lo que les permite crear increíbles obras de arte.<br><br>
-    Los letreros de neón son de gran importancia en la publicidad y las marcas modernas. Son capaces de hacer que una empresa sea reconocible y atraer clientes. Los colores brillantes y las formas no estándar le permiten diferenciarse de otras empresas y crear una imagen única. Son especialmente populares en la industria del entretenimiento, como discotecas, restaurantes, casinos y teatros. Crean una atmósfera de celebración y entretenimiento, atrayendo invitados y creando una sensación de singularidad.<br><br>
-    En conclusión, los letreros de neón flexibles son un arte único y una poderosa herramienta publicitaria que puede crear una atmósfera única y llamar la atención. Tienen una rica historia y son considerados un símbolo de vida nocturna y entretenimiento. Siguen siendo una parte importante de la cultura y los negocios modernos. Puede encargar letreros de neón contactando a nuestros gerentes.',
+    Un rótulo de neón personalizado no es sólo arte, sino también una poderosa herramienta publicitaria capaz de atraer la atención, crear un ambiente único y dejar una impresión inolvidable. Es un símbolo de las calles nocturnas, los lugares de ocio y los negocios.
+    <br>
+    El proceso de creación de carteles de neón es un verdadero arte que requiere habilidad y creatividad. Primero se crea un diseño del rótulo, luego se utiliza una fresadora para cortar canales de 6 mm en los que se insertan tubos de neón flexibles de un color solo o de colores diferentes y se sueldan a la fuente de alimentación. Los expertos en rótulos de neón tienen habilidades únicas para trabajar con materiales, fresadoras o soldaduras, lo que les permite crear obras de arte asombrosas.
+    <br>
+    Los letreros de neón tienen una gran importancia en la publicidad y el branding de las marcas modernas. Pueden hacer reconocible un negocio y atrae a los clientes. Los colores brillantes y las formas atípicas permiten diferenciarse de otras empresas y crear una imagen única, especialmente popular en el sector del ocio, como discotecas, restaurantes, casinos y teatros. Crean una atmósfera de fiesta y entretenimiento, atrayendo a los clientes y creando una sensación de exclusividad.
+    <br>
+    En conclusión, los letreros de neón flexibles son un arte único y una poderosa herramienta publicitaria que puede crear un ambiente único y atraer la atención. Tienen una rica historia y se consideran un símbolo de la vida nocturna y el entretenimiento. Siguen siendo una parte importante de la cultura y los negocios modernos. Puedes solicitar rótulos de neón poniéndote en contacto con nuestros comerciales.',
   ],
 ]
 ?>

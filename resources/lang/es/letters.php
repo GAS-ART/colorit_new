@@ -3,10 +3,10 @@
 return [
   'title' => 'Letras corpóreas sin iluminacion',
   'circle' => 'Producción hasta 9 días',
-  'text' => '¡Bienvenidos a la página dedicada a la publicidad de letras corporeas sin luz! Nos complace presentarle una nueva forma estética y eficaz de publicidad exterior que será una excelente solución para su proyecto.<br><br><h2><b>Las letras volumétricas personalizadas</b></h2>sin luz son una forma innovadora de llamar la atención y decorar fachadas de edificios, carteles de tiendas, stands de exposición y mucho más. Estas letras se distinguen por su forma tridimensional que crea profundidad y dimensión, así como por un diseño distintivo que resalta su singularidad y estilo.<br><br>Una de las características clave de nuestras letras 3D sin luz es su versatilidad y facilidad de uso. Puede integrarlos fácilmente en cualquier entorno arquitectónico o concepto de diseño gracias a una amplia variedad de materiales, desde plástico hasta metal, y varias opciones de acabado.<br><br>Además, las letras corpóreas sin luz son muy duraderas, lo que les permitirá mantener su aspecto original durante mucho tiempo. Garantizamos la calidad y fiabilidad de nuestros productos, ya que trabajamos sólo con los mejores materiales y utilizamos tecnologías de producción avanzadas.',
+  'text' => '¡Bienvenid@ a la página dedicada a las letras corporeas publicitarias sin luz! Nos alegra poder presentarte una nueva forma estética y eficaz de publicidad exterior que será la solución perfecta para tu proyecto.<br>Las letras corpóreas sin luz son una forma innovadora de atraer la atención y decorar fachadas de edificios, letreros de tiendas, stands de ferias y mucho más. Estas letras se caracterizan por su forma tridimensional, que crea profundidad y dimensionalidad, así como por un diseño exclusivo que resalta su exclusividad y estilo.<br>Una de las principales características de nuestras letras corpóreas sin luz es su sencillez de uso y versatilidad. Podrás integrarlas fácilmente en cualquier entorno arquitectónico o concepto de diseño gracias a una amplia gama de materiales, desde plástico hasta metal, y diversos tipos de acabado.<br>Además, las letras corpóreas sin luz son muy resistentes y duraderas, lo que les permite conservar su aspecto original durante mucho tiempo. Garantizamos la calidad y solidez de nuestros productos, ya que trabajamos solo con los mejores materiales y utilizamos tecnologías de producción avanzadas.',
   'material' => [
     'title' => 'Material',
-    'text_title' => 'En la fabricación de letras córporeas se utilizan materiales de alta calidad y contrastados, <span> avalados por certificados europeos</span>',
+    'text_title' => 'En la fabricación de letras córporeas se utilizan materiales de alta calidad y contrastados, avalados por certificados europeos',
     //'text_text' => 'avalados por certificados europeos',
     'img' => [
       '1' => 'PVC',
@@ -40,50 +40,56 @@ return [
     'text' => 'Nos ponemos en contacto en 30 minutos',
     'btn' => 'Dejar solicitud',
   ],
-  'about_text' => '¡Bienvenido a la agencia Colorit, una empresa especializada en la producción de letras córporeas, letras volumétricas y letras para letreros de alta calidad! Ofrecemos una amplia gama de letras volumétricas que convertirán su negocio en un objeto único y atractivo..<br><br>
-  <h2><b>Las letras volumétricas son una forma efectiva y elegante de llamar la atención sobre su negocio.</b></h2> Utilizamos solo las tecnologías y los materiales más avanzados para crear letras que destacan por su resistencia, durabilidad y brillo. Ya sea que necesite letras hechas de plástico, acrílico, aluminio u otros materiales, podemos cumplir con todos sus requisitos.<br><br>
-  Nuestros profesionales tienen una gran experiencia en la creación de letras córporeas y letras de señalización, y están listos para convertir su idea en realidad. Podemos crear letras en varias formas, tamaños y colores para resaltar la singularidad de su marca y crear una imagen única.<br><br>
-  Ya sea que necesite letras para el interior o exterior, nuestras soluciones lo harán sobresalir de la competencia. Garantizamos una fabricación e instalación de alta calidad y ofrecemos una amplia gama de servicios adicionales, incluidos el diseño, la consulta y el soporte tecnico.<br><br>
-  Al contactarnos, puede estar seguro de que recibirá letras volumétricas que superarán sus expectativas. Nuestro objetivo es ayudar a su empresa a atraer más clientes y establecerse como líder del mercado. ¡Pídanos letras volumétricas ahora mismo y asegúrese de su máxima calidad!<br><br>
-  Las letras volumétricas no son solo nuestro negocio, ¡este es nuestro arte! Haz que tu publicidad sea inolvidable con nuestras letras de pared, letras córporeas y otras soluciones para tu señalética. Contáctenos hoy y comience a transformar su negocio hoy.',
+  'about_text' => 'Bienvenid@ a la agencia Colorit, la empresa especializada en fabricación de letras corpóreas y letras de señalización de alta calidad. Ofrecemos una amplia gama de letras volumétricas que convertirán tu publicidad en un objeto único y atractivo.<br>
+  Las letras en relieve son una forma eficaz y elegante de llamar la atención sobre tu negocio. Utilizamos la más avanzada tecnología y mejores materiales para crear letras altamente resistentes, duraderas y llamativas. No importa si deseas letras de plástico, metacrilato, aluminio u otros materiales: podremos satisfacer todas tus necesidades.
+  <br>
+  Nuestros expertos tienen una gran experiencia en la creación de letras corpóreas y letras de rotulación, y están dispuestos a hacer realidad tu idea. Creamos letras de distintas formas, tamaños y colores para destacar tu marca y crear un estilo único.
+  <br>
+  Si necesitas letras exteriores o interiores, nuestras soluciones te harán destacar entre los demás. Garantizamos una fabricación e instalación de alta calidad, y ofrecemos una amplia gama de servicios adicionales que incluyen diseño, asesoramiento y asistencia.
+  <br>
+  Al contactarnos, puedes estar seguro de que recibirás letras de volumen que superarán tus expectativas. Nuestro objetivo es ayudar a tu empresa a conseguir más clientes y a convertirse en líder del mercado. Solicítanos ahora tus letras corpóreas y asegúrate de obtener la máxima calidad.
+  <br>
+  Al contactarnos, puedes estar seguro de que recibirás letras de volumen que superarán tus expectativas. Nuestro objetivo es ayudar a tu empresa a conseguir más clientes y a convertirse en líder del mercado. Solicítanos ahora tus letras corpóreas y obtendrás la máxima calidad.
+  <br>
+  Las letras volumétricas no son sólo nuestro negocio, ¡son nuestro arte! Transforma tu publicidad en algo inolvidable con nuestras letras corpóreas, letras para la pared y otras soluciones para tu rotulación. ¡Contacta con nosotros hoy mismo y empieza a transformar tu negocio ya!',
   'questions' => [
     '1' => [
-      'question' => '¿Qué materiales utilizais para hacer letras volumétricas?',
-      'answer' => 'Para la fabricación de letras corpóreas se utilizan diferentes materiales como pvc, madera, dibond, aluminio, metacrilatoy etc.',
+      'question' => '¿Qué materiales utilizáis para fabricar letras volumétricas?',
+      'answer' => 'Para fabricar letras volumétricas se utilizan diversos materiales, como madera, plástico, metal, aluminio, metacrilato, corcho blanco, cartón pluma, etc.',
     ],
     '2' => [
-      'question' => '¿Como fabrican las letras volumétricas?',
-      'answer' => 'Las letras volumétricas fabrican con maquina fresadora, corte por láser, doblado en caliente de plástico, fundición.',
+      'question' => '¿Qué métodos pueden emplearse para fabricar letras volumétricas?',
+      'answer' => 'Las letras corpóreas pueden fabricarse con ayuda de un fresado, láser, flexión en caliente del plástico o moldeado.',
     ],
     '3' => [
-      'question' => '¿Cómo se instalan letras volumétricas?',
-      'answer' => 'La instalación depende del tipo y tamaño de las letras. Por lo general, se inslalan con pegamento o con tornillos. Las letras grandes para exterior pueden requerir un refuerzo adicional y una sujeción especial como la estrucruta.',
+      'question' => '¿Cómo se instalan las letras corpóreas?',
+      'answer' => 'La instalación depende del tipo y el tamaño de las letras. Normalmente se fijan a la pared o a otra superficie mediante soportes o pegamento. Las letras de gran tamaño para exteriores suelen requerir una fijación especial y refuerzos adicionales.',
     ],
     '4' => [
-      'question' => '¿Qué diseño iria mejor para letras volumétricas?',
-      'answer' => 'El diseño depende de tus preferencias, identidad de marca y contexto. Mas importante de que las letras deben tener el tamaño minimo para meter las tiras de led',
+      'question' => '¿Cuál es el mejor diseño para las letras de volumen?',
+      'answer' => 'El diseño depende de tus preferencias, la identidad de tu marca y el contexto. Es importante que el diseño de las letras refleje la imagen o el mensaje de tu empresa y sea bien visible para tu público objetivo.',
     ],
     '5' => [
-      'question' => '¿Que material eligir  para mis letras 3D?',
-      'answer' => 'Al elegir un material, ten en cuenta la ubicación de las letras (interiores o exteriores), el diseño, el presupuesto, la resistencia del material y la resistencia ambiental.',
+      'question' => '¿Cómo elijo el material adecuado para mis letras corpóreas?',
+      'answer' => 'Al elegir el material, hay que tener en cuenta la ubicación de las letras ( en interiores o exteriores), el diseño, el presupuesto, la dureza del material y su resistencia a las influencias ambientales.',
     ],
     '6' => [
       'question' => '¿Cómo se iluminan las letras volumétricas?',
       'answer' => 'Para iluminar letras volumétricas utilizamos tiras de LED, neón o tubos. Los LED son los más populares debido a su eficiencia y durabilidad.',
     ],
     '7' => [
-      'question' => '¿Pueden las letras volumétricas ser de varias formas y tamaños?',
-      'answer' => 'Sí, las letras volumétricas pueden ser de varias formas y tamaños. Se pueden hacer en cualquier tipo de letra e incluso imitar logotipos o diseños únicos.',
+      'question' => '¿Las letras volumétricas pueden tener distintas formas y tamaños?',
+      'answer' => 'Sí, las letras corpóreas pueden tener distintas formas y tamaños. Se puede hacerlas con cualquier fuente e incluso pueden reproducir logotipos o diseños únicos.',
     ],
     '8' => [
-      'question' => '¿Las letras volumétricas tienen fecha de caducidad?',
-      'answer' => 'Las letras corpóreas no tienen una fecha de caducidad exacta, como los alimentos o los medicamentos. La vida útil de las letras volumetricas está determinada por la fuerza del material y su resistencia a las influencias ambientales. Las letras de metal hechas de acero inoxidable o aluminio pueden durar décadas, mientras que las letras hechas de materiales menos duraderos como el plástico o la espuma pueden tener una vida útil limitada de 3 a 5 años.',
+      'question' => '¿Si tienen fecha de caducidad las letras corpóreas?',
+      'answer' => 'Las letras volumétricas como tales no tienen una vida útil exacta como los alimentos o medicamentos. La vida útil de las letras viene determinada por la solidez del material y su resistencia a las influencias ambientales. Las letras metálicas de acero inoxidable o aluminio pueden durar décadas, mientras que las de materiales menos sólidos, como el plástico o el corcho, pueden tener una vida útil limitada de 3 a 5 años.',
     ],
   ],
   'whith_light' => [
       'title' => 'Letras corpóreas iluminadas',
       'circle' => 'Producción hasta 8-14 días',
-      'text' => 'Las letras iluminadas son una forma brillante y efectiva de llamar la atención. Fabricados con una variedad de materiales y equipados con LED, crean una luz uniforme y brillante, haciendo que su mensaje sea visible incluso en la oscuridad. La flexibilidad de las letras iluminadas les permite integrarse fácilmente en varios conceptos de diseño, lo que ayuda a crear un ambiente acogedor y profesional. Como resultado, las letras iluminadas se convierten en una herramienta de marketing eficaz que ayuda a que su marca se destaque y deje una fuerte impresión.',
+      'text' => 'Las letras luminosas son una forma brillante y eficaz de atraer la atención. Fabricadas con diversos materiales y equipadas con LED, crean una iluminación uniforme y resplandeciente que hace visible tu mensaje incluso en la oscuridad. La flexibilidad de las letras luminosas permite integrarlas fácilmente en diferentes conceptos de diseño, ayudando a crear un ambiente atractivo y profesional. Como resultado, las letras luminosas se convierten en una eficaz herramienta de marketing, que ayuda a que tu marca destaque y deje una viva impresión.',
       'lights' => [
         'title' => 'Iluminacion',
         'text' => 'En producción de letras corpóreas iluminadas utilizamos dos tipos de iluminación',
@@ -97,43 +103,47 @@ return [
       ],
       'questions' => [
         '1' => [
-          'question' => '¿Qué son las letras corpóreas iluminadas?',
-          'answer' => 'Las letras corpóreas iluminadas son elementos 3D con frente abierto hechos de una variedad de materiales e iluminados internamente para crear un efecto retroiluminado y mejorar la visibilidad.',
+          'question' => '¿Cómo son las letras volumétricas luminosas?',
+          'answer' => 'Las letras corpóreas luminosas son elementos de publicidad exterior de al menos 20 mm de grosor, fabricados con distintos materiales e iluminados con LED o neón flexible.',
         ],
         '2' => [
-          'question' => '¿Cómo fabrican letras volumétricas iluminadas?',
-          'answer' => 'El proceso de fabricación de letras volumétricas iluminadas incluye etapas tales como creación de diseño, fresado o corte por láser de material, montaje, instalación de elementos de iluminación y cableado.',
+          'question' => '¿Cuál es el proceso de fabricación de las letras volumétricas luminosas?',
+          'answer' => 'El proceso de fabricación de letras corpóreas con luz consta de etapas como la concepción y creación del diseño, el fresado o corte por láser del material, el ensamblaje, la instalación de los elementos de iluminación y el cableado.',
         ],
         '3' => [
-          'question' => '¿Qué tipos de iluminación estan mas utilizados para letras 3D iluminadas?',
-          'answer' => 'El tipo de iluminación más común para las letras volumétricas iluminadas es la iluminación frontal, donde la luz se suministra al frente de la letra, y la retroiluminación, donde la luz se suministra al reverso de la letra, creando un efecto de halo.',
+          'question' => '¿Qué formas de iluminación se utilizan normalmente para las letras volumétricas luminosas?',
+          'answer' => 'Los tipos de iluminación más habituales para las letras volumétricas luminosas son la iluminación frontal, en la que la luz se suministra a la parte delantera de la letra, y la retroiluminación (iluminación de contrajour), en la que la luz se suministra a la parte trasera de la letra creando un efecto de halo.',
         ],
         '4' => [
-          'question' => '¿Consumo de electricidad?',
-          'answer' => 'Gracias a las tecnologías modernas, las tiras de LED están equipadas con módulos de ahorro de energía que reducen varias veces el consumo de energía.',
+          'question' => '¿Y el consumo de energía?',
+          'answer' => 'Gracias a la tecnología moderna, las tiras de LED están equipadas con módulos de ahorro de energía que reducen el consumo eléctrico varias veces.',
         ],
         '5' => [
-          'question' => '¿Qué materiales se utilizan para crear letras 3D iluminadas?',
-          'answer' => 'Para fabricar las letras corpóreas iluminadas utilizamos materiales como PVC, madera, metacrilato, dibon, aluminio',
+          'question' => '¿Qué materiales se suelen utilizar para crear las letras corpóreas?',
+          'answer' => 'Las letras luminosas pueden fabricarse con distintos materiales: metacrilato, PVC, aluminio, acero inoxidable y madera, entre otros.',
         ],
         '6' => [
-          'question' => '¿Cómo se suministra luz a las letras volumétricas iluminadas?',
-          'answer' => 'La luz se puede suministrar a las letras iluminadas mediante con diodos  (LED) internos, que se encuentran dentro de la letra y proporcionan una iluminación uniforme.',
+          'question' => '¿Cómo se suministra la luz a las letras volumétricas luminosas?',
+          'answer' => 'La luz puede suministrarse a las letras corpóreas mediante diodos internos de luz (LED), que se colocan en el interior de la letra y proporcionan una iluminación uniforme.',
         ],
         '7' => [
-          'question' => '¿Cuáles son las ventasjas de usar letras 3D iluminadas?',
-          'answer' => 'Las letras iluminadas tienen una alta visibilidad y una apariencia atractiva, lo que las convierte en una herramienta eficaz para llamar la atención sobre un negocio o una marca',
+          'question' => '¿Cuáles son las ventajas de utilizar letras corpóreas con luz para fines publicitarios?',
+          'answer' => 'Las letras volumétricas luminosas tienen una gran visibilidad y un aspecto atractivo, lo que las convierte en una herramienta eficaz para hacer publicidad y atraer la atención hacia una empresa o marca.',
         ],
         '8' => [
-          'question' => '¿Cómo mantener y cuidar las letras volumétricas iluminadas para mantener su eficacia y apariencia?',
-          'answer' => 'La limpieza periódica del polvo y la suciedad, mantemiento de la funcionalidad y la sustitución de los elementos de iluminación (LED) defectuosos ayudarán a mantener la eficacia y el aspecto de las letras 3D iluminadas.',
+          'question' => '¿Cómo puedo mantener y cuidar mis letras luminosas para que sigan siendo eficaces y tengan buena pinta?',
+          'answer' => 'La limpieza regular del polvo y la suciedad, la revisión del funcionamiento y la sustitución de los elementos de iluminación defectuosos (LED) ayudarán a mantener la eficacia y el aspecto de las letras corpóreas luminosas.',
         ],
       ],
-      'about_text' => 'La ventaja de las letras volumétricas luminosas es su increíble visibilidad incluso en la oscuridad. Brillan con una luz brillante, atrayendo la mirada de los transeúntes y de los clientes potenciales. Gracias a sus efectos luminosos, las letras luminosas pueden crear atmósfera y llamar la atención incluso en las calles más transitadas.<br><br>
-      Además, las letras de canal exteriores iluminadas le brindan la capacidad de diferenciar su tienda de la de sus competidores. Ayudarán a crear una imagen única y memorable de su marca, atrayendo clientes y aumentando el conocimiento. Las letras iluminadas vienen en una variedad de estilos y colores, lo que le permite personalizar su letrero y destacarse de otros negocios.<br><br>
-      Una ventaja igualmente importante de las letras luminosas es su versatilidad. Se pueden utilizar tanto en interior como en exterior. Ya sea que necesite letras dimensionales para el letrero de una tienda o una iluminación interior espectacular, quedarán geniales en cualquier lugar.<br><br>
-      Por último, cabe destacar otra posibilidad interesante de las letras luminosas: la retroiluminación. Las letras de contorno crean el efecto de profundidad y volumen, por lo que su signo adquiere una expresividad y atractivo especiales. Este elegante efecto visual seguramente atraerá la atención y evocará emociones positivas en sus clientes.<br><br>
-      Por eso, las letras luminosas son una forma eficaz e impresionante de llamar la atención sobre tu negocio o tienda. No pierda la oportunidad de destacarse entre sus competidores y crear una impresión brillante y memorable. Acuda a un profesional para crear e instalar letras de canal iluminadas para exteriores y ¡seguro que quedará satisfecho con los resultados!',
+      'about_text' => 'La ventaja de las letras volumétricas con luz es su increíble visibilidad incluso en la oscuridad. Brillan con luz propia, atrayendo la mirada de transeúntes y clientes potenciales. Gracias a los efectos luminosos, las letras con luz pueden crear ambiente y atraer la atención incluso en la calle más concurrida.
+      <br>
+      Además, las letras de volumen retroiluminadas para exteriores te brindarán la magnífica oportunidad de hacer que tu tienda se destaque entre tus competidores. Ayudarán a crear una imagen única y inolvidable de tu marca, atrayendo a los clientes y aumentando el reconocimiento de la marca. Las letras retroiluminadas pueden fabricarse en una gran variedad de estilos y colores, lo que te permitirá personalizar tu señalización y diferenciarte de otros comercios.
+      <br>
+      Una ventaja no menos importante de las letras con luz es su carácter universal. Pueden utilizarse tanto en interiores como en exteriores. Independientemente de si necesita letras volumétricas para la señalización de una tienda o una iluminación espectacular del interior, quedarán bien en cualquier lugar.
+      <br>
+      Por último, vale la pena destacar otra característica interesante de las letras con luz: el contrajour. Las letras contrajuradas crean un efecto de profundidad y volumen, gracias al cual su rótulo adquiere una expresividad y un aspecto atractivo especiales. Este efecto visual cien por ciento atraerá la atención y provocará emociones positivas en sus clientes.
+      <br>
+      Así que, las letras corpóreas luminosas son una forma eficaz e impresionante de atraer la atención hacia su negocio o tienda. No pierdas la oportunidad de distinguirte de tus competidores y crear una impresión brillante y memorable. Ponte en contacto con nuestros expertos para diseñar e instalar letras volumétricas exteriores con luz, ¡y seguro que el resultado te satisfará!',
     ],
   ]
 ?>

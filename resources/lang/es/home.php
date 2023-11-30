@@ -11,12 +11,12 @@ corpóreas <span>en Barcelona</span>',
       'btn' => 'Pedir el presupuesto',
    ],
    'quiz' => [
-      'title'=>'Atraiga la atención de sus clientes con <span>rótulos deslumbrantes  y exclusivos!</span>',
+      'title'=>'Hazte visible a los clientes <span>con tu cartelería luminosa y exclusiva</span>',
       'sub-title'=>'Haz el click en foto para <span>obtener el presupuesto</span>',
       'count'=> 'Pregunta  <span class="quiz-count">0</span> de 3',
       'body'=>[
       //'title'=>'¿Qué es exactamente lo que necesita?',
-      'title'=>'Haz el click en foto para obtener el presupuesto',
+      'title'=>'Haz clic en la foto para obtener un cálculo rápido del presupuesto',
       'signboards' => [
          'title'=>'Rótulos',
          'question-1'=>[
@@ -38,25 +38,25 @@ corpóreas <span>en Barcelona</span>',
       'back_btn'=> 'Atras',
    ],
    'solution' => [
-      'title' => 'Tenemos una solución',
+      'title' => 'Tenemos la solución',
       'card' => [
-         '1' => 'Estamos abiertos 6 dias a la semana.',
-         '2' => 'Aceptamos encargos urgentes.',
-         '3' => 'Garantizamos la mejor calidad al mejor precio.',
-         '4' => 'Acudimos al lugar y aconsejamos como hacer escaparates maravillas.',
-         '5' => 'Garantía de productos 3 años y tarjeta de fidelidad de regalo.',
-         '6' => 'Ofrecemos productos para negocios del ciclo completo.',
+         '1' => 'Ofrecemos el servicio de calidad 6 días a la semana.',
+         '2' => 'Cumplimos pedidos urgentes.',
+         '3' => 'Garantizamos la mejor relación de calidad y precio.',
+         '4' => 'Ofrecemos asistencia y asesoramiento in situ acerca de cómo hacer que el escaparate de tu local sea más vivo y vendedor.',
+         '5' => 'Garantía para los productos durante 3 años y de regalo una Tarjeta de Fidelidad.',
+         '6' => 'Ofrecemos diseño publicitario completo llave en mano.',
       ],
       'free' => [
-         'title' => '¡Descárgue y obtenga 20 consejos gratuitos sobre cómo mejorar tu tienda de venta!',
+         'title' => '¡Descarga y obtén 20 consejos gratuitos sobre cómo diseñar un local comercial!',
          'btn' => 'Descargar',
       ],
       'show_more' => 'ver mas',
    ],
    'portfolio' => [
       'title' => 'Portfolio',
-      'sub_title' => 'Es seguro y conveniente trabajar con nosotros.',
-      'sub_title_text' => 'Damos una garantía de los productos de 3 años. En caso de mal funcionamiento, reparamos inmediatamente.',
+      'sub_title' => 'Siéntete cómodo y seguro trabajando con nosotros.',
+      'sub_title_text' => 'Garantizamos nuestros productos durante 3 años. En caso de mal funcionamiento, reparamos inmediatamente.',
       'slides' => [
          'term_title' => 'tiempo de producción',
          '1' => [
@@ -133,29 +133,29 @@ corpóreas <span>en Barcelona</span>',
 
    ],
    'gift' => [
-      'title' => '¿Cooperemos?',
-      'sub_title' => 'Deje una solicitud y OBTENGA UN BONO: ¡una sudadera (camiseta) con su logotipo personalizado como regalo al finalizar el proyecto!',
+      'title' => '¿Colaboremos?',
+      'sub_title' => 'Completa la solicitud y ¡RECIBE UN REGALO (sudadera con tu logotipo) una vez finalizado el proyecto!',
       'btn' => 'Obtener bono',
    ],
    'video' => [
-      'title' => 'Echa un vistazo al proceso de produccion de letras y rótulos desde interior',
+      'title' => 'Echa un vistazo al interior del proceso de producción de las letras y las construcciones.',
       'list' => [
-         '1' => 'Impresion.Disponemos de una impresora UV de gran formato con un tamaño máximo de impresión de 3x2 m, resolución de 1440 dpi y una velocidad de impresión hasta 20 m2 por hora.',
-         '2' => 'Corte. Con una fresadora de tamaño 3x2 m, es posible procesar y cortar  materiales como: madera, aglomerado, MDF, madera contrachapada, piedra artificial, vidrio acrílico y plexiglás, plástico para modelar.',
-         '3' => 'Equipo. Contamos con especialistas con más de 10 años de experiencia en la fabricación de estructuras publicitarias, rótulos y impresion digital',
+         '1' => 'Impresión. Disponemos de una impresora UV de gran formato y alto rendimiento con un formato máximo de 3x2 m, resolución de 1440 dpi y velocidad de impresión de hasta 30 metros cuadrados por hora.',
+         '2' => 'Corte. Contamos con una máquina fresadora CNC de 3x2 metros, lo que nos permite procesar una gran variedad de materiales, como madera, aglomerado, MDF, madera contrachapada, piedra artificial, vidrio acrílico, plexiglás y plástico de modelado.',
+         '3' => 'Equipo. Nuestro equipo está formado por los profesionales expertos con más de diez años de experiencia en el campo de la creación de construcciones publicitarias.',
       ],
    ],
    'result' => [
       'title' => 'Resultado',
       'card' => [
-         '1' => 'Rótulos acabados desde desarollo del diseño hasta la fabricación e instalación.',
-         '2' => 'Un letrero brillante y llamativo que te hace destacar.',
-         '3' => 'Diseño y estilo individual.',
+         '1' => 'Cartelería llave en mano, desde el diseño hasta la fabricación y la instalación.',
+         '2' => 'Cartelería brillante y llamativa que te hará destacar.',
+         '3' => 'Diseño y estilo personalizados.',
          '4' => 'Los transeúntes te hacen caso y no pueden pasar.',
          '5' => 'Los competidores se quedaron atrás.',
          '6' => 'Actualización de información sobre promociones y nuevos productos a petición suya.',
-         '7' => 'Garantía de productos 3 años.',
-         '8' => 'Mantemiento y post servicio.',
+         '7' => 'Garantía de 3 años en productos diseñados.',
+         '8' => 'Servicio de mantenimiento posgarantía.',
          '9' => 'Servicio de rotulacion por ciclo completo incluendo impresion digital y productos perzonalizados.',
          '10' => 'Tarjeta de fidelidad de regalo.',
       ],
@@ -213,47 +213,51 @@ corpóreas <span>en Barcelona</span>',
       ],
    ],
    'questions' => [
-      'title' => 'Preguntas frecuentes',
+      'title' => 'Preguntas frecuentes:',
       '1' => [
-         'question' => '¿Cómo empezamos?',
-         'answer' => 'Comenzamos a trabajar en la producción de un letrero con una visita al sitio donde discutimos los deseos del cliente, las opciones para el diseño publicitario y evaluamos la viabilidad técnica. También tomamos las dimensiones para hacer el presupuesto. Y comunicamos sobre el diseño para elaborar una tarea técnica para el diseñador.'
+         'question' => '¿Por dónde empezar?',
+         'answer' => 'Para producir un cartel, primero, hacemos una visita al local donde se discuten las preferencias del cliente, posibles opciones de diseño publicitario y se evalúa la capacidad técnica. Asimismo, realizamos mediciones para el cálculo preliminar de los costes. Y discutimos el diseño para redactar las especificaciones técnicas para el diseñador.'
       ],
       '2' => [
-         'question' => '¿Cuánto cuesta la visita de rotulista?',
-         'answer' => 'La salida al lugar de nuestro especialista es gratuita.'
+         'question' => '¿Cuánto cuesta una visita a mi local?',
+         'answer' => 'La visita de nuestro especialista es gratuita.'
       ],
       '3' => [
-         'question' => '¿Puede desarollar el logotipo o diseño del rotulo?',
-         'answer' => 'Nuestra empresa emplea a diseñadores experimentados que desarrollarán para usted una identidad corporativa, logotipo, diseño de letreros, decoración de escaparates, diseño de interiores, productos de impresión (tarjetas de visita, folletos, camisetas etc.)'
+         'question' => '¿Sois capaces de desarrollar un diseño, un logotipo o un estilo corporativo?',
+         'answer' => 'Nuestra empresa cuenta con diseñadores expertos que te desarrollarán un estilo corporativo, un logotipo, un diseño de cartelería, un diseño de escaparates o de interiores así como productos impresos (tarjetas de visita, folletos, panfletos, prospectos, etc.).'
       ],
       '4' => [
-         'question' => '¿Cuándo se realiza el pago?',
-         'answer' => 'Despues de cormirmacion del diseño esperamos el pago adelantado de 50%. El resto del pago al finalizacion del trabajo'
+         'question' => '¿Cuándo tengo que pagar?',
+         'answer' => 'Tras acordar los diseños, se paga el 50%. El resto, una vez entregado el pedido.'
       ],
       '5' => [
-         'question' => '¿Donde podria ver vuestros trabajos?',
-         'answer' => 'Puedes ver nuestro trabajo en la web en la sección <a class="content-questions__answer-link" href="' . route('portfolio', ['locale' => __('lang.current')])   . '">Portfolio</a>',
+         'question' => '¿Dónde puedo ver vuestros trabajos?',
+         'answer' => 'Puedes ver nuestros trabajos en la web, en la sección de <a class="content-questions__answer-link" href="' . route('portfolio', ['locale' => __('lang.current')])   . '">Portafolio</a>',
       ],
       '6' => [
-         'question' => '¿Dónde puedo ver el material y las opciones de rótulos?',
-         'answer' => 'En la reunión, le mostraremos ejemplos de materiales y opciones de fabricacion.'
+         'question' => '¿Dónde puedo ver las opciones de materiales y cartelería?',
+         'answer' => 'Te enseñaremos los ejemplos de materiales y las opciones de cartelería a la vista.'
       ],
       '7' => [
-         'question' => '¿Cuánto tarda la produccion del rotulo?',
-         'answer' => 'El plazo de producción de la publicidad depende de la cantidad de trabajo y la complejidad rotulo. Las letras corporeas, los rótulos retroiluminados o los rótulos de neón se realizan en 2-3 semanas. Los letreros en plástico y la impresión en vinilo o lonas de gran formato se realizan en 1 semana.'
+         'question' => '¿Cuánto se tarda en hacer la cartelería?',
+         'answer' => 'El tiempo de producción de un cartel depende de la cantidad de trabajo y su complejidad. Las letras volumétricas, los carteles iluminados por fondo o los de neón se hacen de 2 a 3 semanas. Los carteles de plástico y la impresión en película y en banner se hacen durante 1 semana.'
       ],
       '8' => [
-         'question' => '¿Qué más haceis?',
-         'answer' => 'A su servicio, nos gustaria ofrecer la impresión de camisetas, sudaderas, bolsas de tela, tazas, bolígrafos, cuadernos, bolsas de papel, posavasos de plástico, banderas, stands de exposición. Puede encontrar más detalles sobre todos nuestros servicios en la sección Servicios.'
+         'question' => '¿Ofrecéis algún otro tipo de servicio?',
+         'answer' => 'Ofrecemos impresión en camisetas, sudaderas, shoppers, branding de tazas, bolígrafos, libretas, elaboración de bolsas, portavasos de plástico, banderas y stands para ferias. Puedes leer más sobre nuestros servicios en la sección de Servicios.'
       ],
    ],
    'about' =>[
       'title' => '',
-      'text' => 'Nos complace ofrecerle una amplia gama de servicios en el campo de la publicidad exterior y la producción de estructuras publicitarias en Barcelona y en toda España. Nuestra empresa se especializa en la producción de letreros, brindando una producción de alta calidad, así como la instalación a domicilio del cliente.<br><br>
-      Si necesita un letrero para su tienda, tenemos un amplio abanico de opciones para usted. Podemos producir letreros luminosos, cajas de luz o letreros de neón. La elección de materiales y elementos estructurales dependen de sus necesidades y preferencias. También ofrecemos rótulos personalizados, únicos y adaptados a sus necesidades.<br><br>
-      Además, podemos producir letras volumétricas o rotulacion en vinilo. Esta es una excelente manera de captar la atención de su publico y atraer nuevos clientes. Si quieres que tu rótulo publicitario sea luminoso, podemos ofrecerte rótulos de led, neón, lightboxes o letras volumétricas retroiluminadas que atraerán las miradas incluso en la oscuridad.<br><br>
-      También ofrecemos servicios para la producción de stands para presentaciones, ferias y stands de exposición. Podemos diseñar un stand de exposición por encargo, teniendo en cuenta todas sus necesidades y deseos, para que su empresa pueda destacar en la exposición y atraer nuevos clientes. Encargar un stand para una exposición con nosotros significa garantizar un éxito en el evento.<br><br>
-      Nuestra agencia de publicidad tiene muchos años de experiencia y está lista para brindarle servicios de alta calidad. Le garantizamos que su estructura publicitaria se completará a tiempo y de acuerdo con los más altos estándares.',
+      'text' => 'Bienvenid@ a la página web de la agencia de publicidad Colorit agency! Nos gustaría ofrecerte una amplia gama de servicios en el campo de la publicidad exterior y la producción de construcciones publicitarias en Barcelona y en toda España. Nuestra empresa está especializada en la producción de carteles, proporcionando una fabricación de calidad, así como la instalación en el local del cliente.
+      <br><br>
+      Si necesitas un letrero para tu local comercial, tenemos muchas opciones que ofrecerte. Podemos fabricar un cartel con iluminación de fondo, un lightbox o un letrero de neón. La elección de materiales y elementos de diseño depende de tus requisitos y preferencias. También ofrecemos señalización personalizada, única y adaptada a tus necesidades.
+      <br><br>
+      Además, podemos fabricar las letras de volumen u ofrecerte un encolado con película de vinilo. Es una forma estupenda de llamar la atención sobre tu marca y atraer a nuevos clientes. Si quieres que tu señalización sea luminosa, podemos ofrecerte letreros de led, neón, lightboxes / cajas de luz o letras con iluminación de fondo que atraerán las miradas incluso en la oscuridad.
+      <br><br>
+      También ofrecemos servicios de producción de stands para ferias, exposiciones y presentaciones. Adaptamos un stand de exposición a todas tus necesidades y requisitos para que tu empresa se destaque en la exposición y atraiga a nuevos clientes. Solicitarnos un stand de exposición es tu garantía de éxito en el evento.
+      <br><br>
+      Nuestra agencia de publicidad cuenta con muchos años de experiencia y está dispuesta a prestarte servicios de alta calidad. Garantizamos que tu diseño publicitario se realizará a tiempo siguiendo los más altos estándares.',
       'btn' => 'Leer mas <span>&rarr;</span>'
    ],
    'question-lead' => [
