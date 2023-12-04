@@ -622,21 +622,19 @@ if(showMoreBtns.length > 0){
 const portfolioPage = document.querySelector('.portfolio-page');
 
 if(portfolioPage){
-    const expos = {name: 'expos', length: 20};
-    const letters = {name: 'letters', length: 20};
-    const signboards = {name: 'signboards', length: 20};
-    const vinyl = {name: 'vinyl', length: 20};
+    const expos = {name: 'expos', images: 21};
+    const letters = {name: 'letters', images: 32};
+    const signboards = {name: 'signboards', images: 33};
+    const vinyl = {name: 'vinyl', images: 30};
     const potfolioImagesFolders = [expos, letters, signboards, vinyl];
-    const portfolioImgPath = '/img/portfolio/';
-    //console.log(portfolioImgPath);
     
     const addPortfolioImages = (folder) => {
-        for(let i = 1; i <= folder.length; i++){
+        for(let i = 1; i <= folder.images; i++){
             const portfolioImgBody = document.querySelector('.portfolio-page__body');
             const portfolioImgItem = document.createElement('div');
             const img = document.createElement('img');
             portfolioImgItem.classList.add('portfolio-page__item');
-            img.src = portfolioImgPath + folder.name + `/${i}.webp`;
+            img.src = '/img/portfolio/' + folder.name + `/${i}.webp`;
             img.onload = function() {
                 portfolioImgItem.appendChild(img);
                 portfolioImgBody.appendChild(portfolioImgItem);
