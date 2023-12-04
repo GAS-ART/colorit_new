@@ -13,10 +13,8 @@
     </section>
 
     <section class="portfolio-page">
-        <div class="portfolio-page__container">
-            <div class="portfolio-page__body">
+        <div class="portfolio-page__body">
 
-            </div>
         </div>
     </section>
 @endsection
