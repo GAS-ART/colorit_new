@@ -45,6 +45,8 @@ return [
     ],
   ],
   'scrollTop' => 'Вверх',
+  'all' => 'Все',
+  'categories' => 'Категории',
 ]
 
 ?>

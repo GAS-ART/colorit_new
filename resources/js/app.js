@@ -4,6 +4,8 @@ import "./modules/lightGalary.js";
 import "./modules/messendgers.js";
 import getPopupLinks from "./modules/getPoupLinks.js";
 
+const currentLang = document.documentElement.lang;
+
 document.addEventListener("click", documentActions);
 
 //Set CSS --scrollbar-width variable
@@ -622,27 +624,66 @@ if(showMoreBtns.length > 0){
 const portfolioPage = document.querySelector('.portfolio-page');
 
 if(portfolioPage){
-    const expos = {name: 'expos', images: 21};
-    const letters = {name: 'letters', images: 32};
-    const signboards = {name: 'signboards', images: 33};
-    const vinyl = {name: 'vinyl', images: 30};
-    const potfolioImagesFolders = [expos, letters, signboards, vinyl];
-    
-    const addPortfolioImages = (folder) => {
-        for(let i = 1; i <= folder.images; i++){
-            const portfolioImgBody = document.querySelector('.portfolio-page__body');
+    const expos = {folderName: 'expos', images: 21};
+    const letters = {folderName: 'letters', images: 32};
+    const signboards = {folderName: 'signboards', images: 33};
+    const vinyl = {folderName: 'vinyl', images: 30};
+    const potfolioImagesSections = [signboards, letters, vinyl, expos,];
+    const portfolioImgBody = document.querySelector('.portfolio-page__images');
+    const menuBtns =document.querySelectorAll('.portfolio-page__menu-item');
+
+    document.querySelector('.portfolio-page__all').innerText = `(${potfolioImagesSections.reduce((sum, section) => sum + section.images, 0)})`;
+
+    const ShowSelectedPictures = (section) => {
+        potfolioImagesSections.forEach(item => {
+            const curentSection = document.querySelector('.' + item.folderName);
+            if(!(curentSection === section)){
+                curentSection.classList.remove('active');
+            } else{
+                curentSection.classList.add('active');
+            }
+        })
+    }
+
+    const ShowAllPictures = () => document.querySelectorAll('.portfolio-page__section').forEach(section => section.classList.add('active'));
+
+    const createHTML = (section) => {
+        const imagesSection = document.createElement('div');
+        const imagesBody = document.createElement('div');
+        const imagesBodyTitle = document.createElement('h2');
+        const sectionBtn = document.querySelector(`.portfolio-page__${section.folderName}`);
+
+        imagesSection.classList.add('portfolio-page__section', section.folderName, 'active');
+        imagesBody.classList.add('portfolio-page__body');
+        imagesBodyTitle.classList.add('portfolio-page__section-title');
+        imagesBodyTitle.innerText = sectionBtn.closest('.portfolio-page__menu-item').innerText;
+        sectionBtn.innerText = `(${section.images})`;
+        
+        imagesSection.append(imagesBody);
+        portfolioImgBody.append(imagesSection);
+        
+        for(let i = 1; i <= section.images; i++){
             const portfolioImgItem = document.createElement('div');
             const img = document.createElement('img');
             portfolioImgItem.classList.add('portfolio-page__item');
-            img.src = '/img/portfolio/' + folder.name + `/${i}.webp`;
+            img.src = '/img/portfolio/' + section.folderName + `/${i}.webp`;
             img.onload = function() {
                 portfolioImgItem.appendChild(img);
-                portfolioImgBody.appendChild(portfolioImgItem);
+                imagesBody.appendChild(portfolioImgItem);
+                imagesSection.prepend(imagesBodyTitle);
             };
-        }
+        };
     }
+    potfolioImagesSections.forEach(section => createHTML(section));
     
-    potfolioImagesFolders.forEach(folder => addPortfolioImages(folder));
+    menuBtns.forEach(btn =>{
+        if(btn.dataset.section === 'all'){
+            btn.addEventListener('click', ShowAllPictures);
+        } else {
+            btn.addEventListener('click', ()=> ShowSelectedPictures(document.querySelector('.' + btn.dataset.section)));
+        }
+    });
+    
 }
 
 

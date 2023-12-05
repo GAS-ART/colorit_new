@@ -1,6 +1,48 @@
 .portfolio-page {
 
-  &__container {
+  &__title {
+    @extend %title;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  &__wrapper{
+    display: flex;
+  }
+
+  &__menu{
+    white-space: nowrap;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    &-title{
+      font-weight: 700;
+       line-height: 120%;
+       margin-bottom: 60px;
+    }
+    &-item{
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 150%;
+      color: $mainColor;
+      transition: all 0.3s ease 0s;
+      &:not(:last-child){
+        margin-bottom: 32px;
+      }
+      @media (pointer: fine) {
+        &:hover {
+          color: $purple;
+        }
+      }
+    }
+  }
+
+  &__section{
+    display: none;
+    &.active{
+      display: block;
+    }
   }
 
   &__body {
@@ -8,6 +50,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
     padding: 0 15px;
+    margin-bottom: 30px;
     @media (max-width: $tablet) {
       justify-content: center;
       grid-template-columns: 1fr 1fr;
@@ -15,6 +58,14 @@
     @media (max-width: $mobile) {
       grid-template-columns: minmax(300px, 610px);
     }
+  }
+
+  &__section-title{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 30px;
+    color: $purple;
   }
 
   &__item {

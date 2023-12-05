@@ -7,14 +7,30 @@
 @section('mainPopupPayload', 'ПОРТФОЛИО (' . url()->current() . ')')
 
 @section('content')
-
-    <section style="text-align: center; font-size: 60px; font-weight:700; color: #89368E;" class="test__container">
-        ПОРТФОЛИО
-    </section>
-
     <section class="portfolio-page">
-        <div class="portfolio-page__body">
+        <h1 class="portfolio-page__title">@lang('portfolio.title')</h1>
+        <div class="portfolio-page__wrapper">
+            <div class="portfolio-page__menu">
+                <h2 class="portfolio-page__menu-title">@lang('main.categories')</h2>
+                <button data-section="all" class="portfolio-page__menu-item">
+                    @lang('main.all') <span class="portfolio-page__all"></span>
+                </button>
+                <button data-section="signboards" class="portfolio-page__menu-item">
+                    @lang('main.menu.signboards.title') <span class="portfolio-page__signboards"></span>
+                </button>
+                <button data-section="letters" class="portfolio-page__menu-item">
+                    @lang('main.menu.letters.title') <span class="portfolio-page__letters"></span>
+                </button>
+                <button data-section="vinyl" class="portfolio-page__menu-item">
+                    @lang('main.menu.vinyl.title') <span class="portfolio-page__vinyl"></span>
+                </button>
+                <button data-section="expos" class="portfolio-page__menu-item">
+                    @lang('main.menu.expos.title') <span class="portfolio-page__expos"></span>
+                </button>
+            </div>
+            <div class="portfolio-page__images">
 
+            </div>
         </div>
     </section>
 @endsection

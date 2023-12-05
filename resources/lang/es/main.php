@@ -45,6 +45,8 @@ return [
     ],
   ],
   'scrollTop' => 'Arriba',
+  'all' => 'Todo',
+  'categories' => 'Categorías',
 ]
 
 ?>
