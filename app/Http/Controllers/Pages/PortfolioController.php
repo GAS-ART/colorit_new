@@ -8,6 +8,26 @@ class PortfolioController extends SetLangAndViewController
 {
     public function index($locale)
     {
-        return $this->setLocaleAndView($locale, 'portfolio', []);
+
+        $images = [
+            'signboards' => [
+                'name' => 'signboards',
+                'quantity' => 33,
+            ],
+            'letters' => [
+                'name' => 'letters',
+                'quantity' => 32,
+            ],
+            'vinyl' => [
+                'name' => 'vinyl',
+                'quantity' => 30,
+            ],
+            'expos' => [
+                'name' => 'expos',
+                'quantity' => 21,
+            ],
+        ];
+
+        return $this->setLocaleAndView($locale, 'portfolio', compact('images'));
     }
 }

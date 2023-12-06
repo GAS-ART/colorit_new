@@ -629,12 +629,13 @@ if(portfolioPage){
     const signboards = {folderName: 'signboards', images: 33};
     const vinyl = {folderName: 'vinyl', images: 30};
     const potfolioImagesSections = [signboards, letters, vinyl, expos,];
-    const portfolioImgBody = document.querySelector('.portfolio-page__images');
+    //const portfolioImgBody = document.querySelector('.portfolio-page__images');
     const menuBtns =document.querySelectorAll('.portfolio-page__menu-item');
 
-    document.querySelector('.portfolio-page__all').innerText = `(${potfolioImagesSections.reduce((sum, section) => sum + section.images, 0)})`;
+   // document.querySelector('.portfolio-page__all').innerText = `(${potfolioImagesSections.reduce((sum, section) => sum + section.images, 0)})`;
 
     const ShowSelectedPictures = (section) => {
+        window.scrollTo({top: 0, behavior: 'smooth'});
         potfolioImagesSections.forEach(item => {
             const curentSection = document.querySelector('.' + item.folderName);
             if(!(curentSection === section)){
@@ -645,9 +646,21 @@ if(portfolioPage){
         })
     }
 
-    const ShowAllPictures = () => document.querySelectorAll('.portfolio-page__section').forEach(section => section.classList.add('active'));
+    const ShowAllPictures = () => {
+        window.scrollTo({top: 0, behavior: 'smooth'});
+        document.querySelectorAll('.portfolio-page__section').forEach(section => section.classList.add('active'))
+    };
 
-    const createHTML = (section) => {
+    /* const loadImage = (src) => {
+        return new Promise((resolve, reject) => {
+            const img = new Image();
+            img.onload = () => resolve(img);
+            img.onerror = reject;
+            img.src = src;
+        });
+    };
+
+    const createHTML = async  (section) => {
         const imagesSection = document.createElement('div');
         const imagesBody = document.createElement('div');
         const imagesBodyTitle = document.createElement('h2');
@@ -663,18 +676,28 @@ if(portfolioPage){
         portfolioImgBody.append(imagesSection);
         
         for(let i = 1; i <= section.images; i++){
-            const portfolioImgItem = document.createElement('div');
-            const img = document.createElement('img');
-            portfolioImgItem.classList.add('portfolio-page__item');
-            img.src = '/img/portfolio/' + section.folderName + `/${i}.webp`;
-            img.onload = function() {
+            // const portfolioImgItem = document.createElement('div');
+            // const img = document.createElement('img');
+            // portfolioImgItem.classList.add('portfolio-page__item');
+            // img.src = '/img/portfolio/' + section.folderName + `/${i}.webp`;
+            //  img.onload = function() {
+            //     portfolioImgItem.appendChild(img);
+            //     imagesBody.appendChild(portfolioImgItem);
+            //     imagesSection.prepend(imagesBodyTitle);
+            // };
+            try {
+                const img = await loadImage(`/img/portfolio/${section.folderName}/${i}.webp`);
+                console.log(i);
+                const portfolioImgItem = document.createElement('div');
+                portfolioImgItem.classList.add('portfolio-page__item');
                 portfolioImgItem.appendChild(img);
                 imagesBody.appendChild(portfolioImgItem);
-                imagesSection.prepend(imagesBodyTitle);
-            };
+            } catch (error) {
+                console.error('Failed to load image:', error);
+            }
         };
     }
-    potfolioImagesSections.forEach(section => createHTML(section));
+    potfolioImagesSections.forEach(section => createHTML(section)); */
     
     menuBtns.forEach(btn =>{
         if(btn.dataset.section === 'all'){

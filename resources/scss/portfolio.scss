@@ -12,10 +12,16 @@
 
   &__menu{
     white-space: nowrap;
-    padding: 0 80px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    padding: 0 100px;
+    
+    &-body{
+      position: fixed;
+      top: 300px;
+      left: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
     &-title{
       font-weight: 700;
        line-height: 120%;
