@@ -634,7 +634,9 @@ if(portfolioPage){
     const menuMobileSelect = document.querySelector('.portfolio-page__mobile-menu-select');
    // document.querySelector('.portfolio-page__all').innerText = `(${potfolioImagesSections.reduce((sum, section) => sum + section.images, 0)})`;
 
-    const showSelectedPictures = (section) => {
+    const showSelectedPictures = (section, btn) => {
+        const btns = document.querySelectorAll('.' + btn.className);
+        btns.forEach(button => button === btn ? button.classList.add('active') : button.classList.remove('active'));
         window.scrollTo({top: 0, behavior: 'smooth'});
         potfolioImagesSections.forEach(item => {
             const curentSection = document.querySelector('.' + item.folderName);
@@ -648,7 +650,10 @@ if(portfolioPage){
 
     const showAllPictures = () => {
         window.scrollTo({top: 0, behavior: 'smooth'});
+        document.querySelectorAll('.portfolio-page__menu-item').forEach(item => item.classList.remove('active'));
+        document.querySelector('button[data-section="all"]').classList.add('active');
         document.querySelectorAll('.portfolio-page__section').forEach(section => section.classList.add('active'))
+
     };
 
     /* const loadImage = (src) => {
@@ -703,7 +708,7 @@ if(portfolioPage){
         if(btn.dataset.section === 'all'){
             btn.addEventListener('click', showAllPictures);
         } else {
-            btn.addEventListener('click', ()=> showSelectedPictures(document.querySelector('.' + btn.dataset.section)));
+            btn.addEventListener('click', ()=> showSelectedPictures(document.querySelector('.' + btn.dataset.section), btn));
         }
     });
     menuMobileSelect.addEventListener('change', (e)=> e.target.value === 'all' ? showAllPictures() : showSelectedPictures(document.querySelector('.' + e.target.value)));

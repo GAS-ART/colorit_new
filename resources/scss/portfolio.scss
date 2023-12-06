@@ -1,5 +1,9 @@
 .portfolio-page {
 
+  .bread-crumbs{
+    margin-bottom: 55px;
+  }
+
   &__title {
     @extend %title;
     text-align: center;
@@ -22,7 +26,7 @@
     }
     &-body{
       position: fixed;
-      top: 300px;
+      top: 348px;
       left: 20px;
       display: flex;
       flex-direction: column;
@@ -43,6 +47,9 @@
       line-height: 150%;
       color: $mainColor;
       transition: all 0.3s ease 0s;
+      &.active {
+        color: $purple;
+      }
       &:not(:last-child){
         margin-bottom: 32px;
       }

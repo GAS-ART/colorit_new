@@ -8,12 +8,13 @@
 
 @section('content')
     <section class="portfolio-page">
+        <x-bread-crumbs :$breadCrumbs />
         <h1 class="portfolio-page__title">@lang('portfolio.title')</h1>
         <div class="portfolio-page__wrapper">
             <div class="portfolio-page__menu">
                 <div class="portfolio-page__menu-body">
                     <h2 class="portfolio-page__menu-title">@lang('main.categories')</h2>
-                    <button data-section="all" class="portfolio-page__menu-item">
+                    <button data-section="all" class="portfolio-page__menu-item active">
                         @lang('main.all') <span
                             class="portfolio-page__all">({{ array_reduce($images, fn($sum, $section) => $sum + $section['quantity'], 0) }})</span>
                     </button>
@@ -49,7 +50,7 @@
             <div class="portfolio-page__images">
                 @foreach ($images as $section)
                     <div class="portfolio-page__section {{ $section['name'] }} active">
-                        <h2 class="portfolio-page__section-title">@lang('main.menu.' . $section['name'] . '.title')</h2>
+                        {{-- <h2 class="portfolio-page__section-title">@lang('main.menu.' . $section['name'] . '.title')</h2> --}}
                         <div class="portfolio-page__body">
                             @for ($i = 1; $i <= $section['quantity']; $i++)
                                 <div class="portfolio-page__item"><img
