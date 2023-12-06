@@ -631,10 +631,10 @@ if(portfolioPage){
     const potfolioImagesSections = [signboards, letters, vinyl, expos,];
     //const portfolioImgBody = document.querySelector('.portfolio-page__images');
     const menuBtns =document.querySelectorAll('.portfolio-page__menu-item');
-
+    const menuMobileSelect = document.querySelector('.portfolio-page__mobile-menu-select');
    // document.querySelector('.portfolio-page__all').innerText = `(${potfolioImagesSections.reduce((sum, section) => sum + section.images, 0)})`;
 
-    const ShowSelectedPictures = (section) => {
+    const showSelectedPictures = (section) => {
         window.scrollTo({top: 0, behavior: 'smooth'});
         potfolioImagesSections.forEach(item => {
             const curentSection = document.querySelector('.' + item.folderName);
@@ -646,7 +646,7 @@ if(portfolioPage){
         })
     }
 
-    const ShowAllPictures = () => {
+    const showAllPictures = () => {
         window.scrollTo({top: 0, behavior: 'smooth'});
         document.querySelectorAll('.portfolio-page__section').forEach(section => section.classList.add('active'))
     };
@@ -701,12 +701,12 @@ if(portfolioPage){
     
     menuBtns.forEach(btn =>{
         if(btn.dataset.section === 'all'){
-            btn.addEventListener('click', ShowAllPictures);
+            btn.addEventListener('click', showAllPictures);
         } else {
-            btn.addEventListener('click', ()=> ShowSelectedPictures(document.querySelector('.' + btn.dataset.section)));
+            btn.addEventListener('click', ()=> showSelectedPictures(document.querySelector('.' + btn.dataset.section)));
         }
     });
-    
+    menuMobileSelect.addEventListener('change', (e)=> e.target.value === 'all' ? showAllPictures() : showSelectedPictures(document.querySelector('.' + e.target.value)));
 }
 
 

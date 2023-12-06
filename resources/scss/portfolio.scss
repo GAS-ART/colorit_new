@@ -8,12 +8,18 @@
 
   &__wrapper{
     display: flex;
+    @media (max-width: $tablet) {
+      flex-direction: column;
+      align-items: center;
+    }
   }
 
   &__menu{
     white-space: nowrap;
     padding: 0 100px;
-    
+    @media (max-width: $tablet) {
+      display: none;
+    }
     &-body{
       position: fixed;
       top: 300px;
@@ -26,6 +32,10 @@
       font-weight: 700;
        line-height: 120%;
        margin-bottom: 60px;
+       @media (max-width: $mobile) {
+        padding-left: 16px;
+        margin-bottom: 8px;
+       }
     }
     &-item{
       font-weight: 500;
@@ -41,6 +51,26 @@
           color: $purple;
         }
       }
+    }
+  }
+
+  &__mobile-menu{
+    display: none;
+    @media (max-width: $tablet) {
+      display: block;
+      margin-bottom: 24px;
+    }
+    @media (max-width: $mobile) {
+      width: 100%;
+    }
+  }
+  
+  &__mobile-menu-select{
+    padding: 13px 0 13px 16px;
+    background-color: #F9FAFE;
+    line-height: 24px;
+    @media (max-width: $mobile) {
+      width: 100%;
     }
   }
 

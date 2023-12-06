@@ -33,6 +33,19 @@
                     </button>
                 </div>
             </div>
+            <div class="portfolio-page__mobile-menu">
+                <h2 class="portfolio-page__menu-title">@lang('main.categories')</h2>
+                <select class="portfolio-page__mobile-menu-select">
+                    <option value="all">@lang('main.all')
+                        <span>({{ array_reduce($images, fn($sum, $section) => $sum + $section['quantity'], 0) }})</span>
+                    </option>
+                    <option value="signboards">@lang('main.menu.signboards.title') <span>({{ $images['signboards']['quantity'] }})</span>
+                    </option>
+                    <option value="letters">@lang('main.menu.letters.title') <span>({{ $images['letters']['quantity'] }})</span></option>
+                    <option value="vinyl">@lang('main.menu.vinyl.title') <span>({{ $images['vinyl']['quantity'] }})</span></option>
+                    <option value="expos">@lang('main.menu.expos.title') <span>({{ $images['expos']['quantity'] }})</span></option>
+                </select>
+            </div>
             <div class="portfolio-page__images">
                 @foreach ($images as $section)
                     <div class="portfolio-page__section {{ $section['name'] }} active">
