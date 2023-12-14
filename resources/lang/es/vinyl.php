@@ -361,11 +361,15 @@ return [
         'answer' => 'La garantía sobre el trabajo y los materiales es de 1 año. La garantía no cubre los daños mecánicos. El plazo de fabricación depende de la cantidad de trabajo y la complejidad del diseño y se negocia individualmente.',
       ],
     ],
-    'about_text' => 'Las rotulaciones de vinilo para automóviles son una forma emocionante y creativa de transformar su vehículo, agregando estilo y protección única. Este proceso combina arte y tecnología, permitiéndole crear un automóvil que destacará en la carretera. Hablemos del mundo de posibilidades que se abre ante ti al envolver tu coche en vinilo.<br><br>
-    mpecemos por la apariencia. La envoltura de vinilo ofrece infinitas posibilidades de diseño para su vehículo. Puede elegir entre una amplia gama de colores, texturas y acabados, y crear gráficos y patrones únicos. Esta es tu oportunidad de expresar tu estilo y hacer que tu coche sea realmente único.<br><br>
-    Además, las envolturas de vinilo ofrecen no solo valor estético sino también protección para su vehículo. Protege la carrocería de rayones, piedras, rayos ultravioleta y otros factores que podrían dañar la pintura de fábrica. Esto significa que su coche conservará su aspecto original durante mucho tiempo.<br><br>
-    El proceso de envoltura ciertamente requiere cierta habilidad y atención al detalle, pero con la preparación adecuada y quizás ayuda profesional, se pueden lograr resultados sorprendentes. Ya sea que esté buscando una manera de cambiar la apariencia de su automóvil o simplemente protegerlo, las envolturas de vinilo le brindan muchas opciones.<br><br>
-    Sumérgete en este apasionante mundo del diseño de automóviles y descubre cómo las envolturas de vinilo pueden transformar tu automóvil en una obra de arte sobre ruedas.',
+    'about_text' => 'Vinilo ácido: arte invisible sobre vidrio<br>
+    <br>La película de vinilo glaseado efecto arena es un material increíble que transforma el vidrio ordinario en un lienzo para el arte y el diseño. El vinilo al ácido puede utilizarse para crear elementos decorativos únicos y elegantes, proporcionando privacidad y estilo en uno.
+    <br>Arte decorativo: La lámina de vinilo ácido te permite crear diseños coloridos e complejos que añaden carácter y personalidad a los interiores. Puede ser arte abstracto, patrones geométricos o incluso reproducciones de pinturas famosas sobre vidrio.
+    <br>Intimidad sin pérdida de luz: La lámina crea intimidad en el interior, gracias al mateado parcial del vidrio, pero deja pasar la luz natural. Podrás disfrutar de intimidad sin sentirte limitado por la oscuridad.
+    <br>Protección UV: El vinilo ácido puede bloquear la dañina radiación UV, protegiendo el mobiliario y los interiores de la decoloración y los daños.
+    <br>Instalación fácil y sustitución: La instalación de la lámina sobre cristal es rápida y sencilla, y también es fácil sustituirla si quieres actualizar tu diseño.
+    <br>Oportunidades publicitarias: La película de vinilo ácido es perfecta para aplicar logotipos e información en escaparates y cristales de oficinas, dándoles un aspecto elegante y profesional.
+    <br>Individualidad y estilo: Puedes elegir entre una gran variedad de texturas, desde mate a efecto de espejo, para resaltar tu estilo único y tus preferencias.
+    <br>El vinilo ácido no es sólo un elemento decorativo, sino también una solución práctica para muchas tareas. Enriquecerá tu interior añadiendo un acento sofisticado y proporcionará comodidad e intimidad. Ya sea en tu casa, oficina o local comercial, este material te ayudará a crear un espacio del que te sentirás orgulloso. Confía en la lámina de vinilo glaseado para añadir un poco de magia al mundo del vidrio.',
   ],
 
 ]
