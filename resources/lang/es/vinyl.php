@@ -4,10 +4,10 @@ return [
 
   'regular' => [
     'banner' => [
-      'title' => 'Vinilo impreso',
+      'title' => 'Vinilo estampado',
       'circle_text' => 'Producción hasta 5 días',
     ],
-    'text' => 'El vinilo adhesivo para escaparates indispensable para crear elementos publicitarios brillantes y atractivos. Es muy utilizado en escaparates de tiendas, oficinas, salones y estudios. También se puede utilizar para la decoración interior de locales, creando fotomurales únicos y paredes decorativas. El vinilo se puede utilizar para imprimir imágenes a todo color y como corte de inscripciones y diversos elementos decorativos de vinilo de colores.',
+    'text' => 'El vinilo es imprescindible para crear elementos publicitarios brillantes y atractivos. Se utiliza mucho en la decoración de escaparates, oficinas, salones y estudios. También puede utilizarse para la decoración interior de locales, la creación de fotoempapelados únicos, paredes decorativas y tabiques. El vinilo se puede utilizar para imprimir imágenes a todo color y para cortar letras y diversos elementos decorativos a partir de vinilos de colores.',
     'lead' => [
       'title' => 'Deja una solicitud para fabricar vinilos impresos para escaparates',
     ],
@@ -24,20 +24,20 @@ return [
     'advantages' => [
       'title' => 'Ventajas',
       '1' => [
-        'title' => 'Brillo y efecto visual',
-        'text' => 'Los materiales de vinilo proporcionan colores intensos e imágenes nítidas, lo que hace que los artículos publicitarios sean visibles y atractivos. Lo que es especialmente importante en el diseño de tiendas y exposiciones.',
+        'title' => 'Intensidad de colores e impacto visual',
+        'text' => 'Los materiales de vinilo proporcionan colores vivos e imágenes claras, lo que hace que los elementos publicitarios sean visibles y atractivos. Esto es especialmente importante para los escaparates de tiendas y exposiciones.',
       ],
       '2' => [
-        'title' => 'Flexibilidad<br> y adaptabilidad',
-        'text' => 'El vinilo se adapta fácilmente a diversas superficies, ya sean superficies lisas de escaparates, carrocerías curvas de automóviles o stands de exposición.',
+        'title' => 'Flexibilidad',
+        'text' => 'El vinilo se adapta fácilmente a una gran variedad de superficies, ya sean superficies lisas de escaparates, cuerpos de coche curvados o stands de ferias.',
       ],
       '3' => [
-        'title' => 'Durabilidad y resiliencia',
-        'text' => 'Los materiales de vinilo tienen buena resistencia a los rayos UV, la humedad y la intemperie. Esto garantiza una larga vida útil de los elementos publicitarios.',
+        'title' => 'Durabilidad y resistencia',
+        'text' => 'Los materiales de vinilo tienen una buena resistencia a la radiación UV, la humedad y las condiciones meteorológicas. Esto garantiza una larga vida útil de los elementos publicitarios.',
       ],
       '4' => [
-        'title' => 'Reemplazo rápido y económico',
-        'text' => 'Las calcomanías de vinilo se pueden reemplazar fácilmente, lo que le permite actualizar rápidamente su mensaje publicitario o promociones.',
+        'title' => 'Sustitución rápida y económica',
+        'text' => 'Los adhesivos de vinilo pueden sustituirse fácilmente, lo que permite actualizar rápidamente el mensaje publicitario o las ofertas promocionales.',
       ],
     ],
     'portfolio' => [
@@ -53,59 +53,56 @@ return [
     ],
     'questions' => [
       '1' => [
-        'question' => '¿Qué materiales y tipos de pegatinas de vinilo hay disponibles?',
-        'answer' => 'En nuestro almacén disponemos de una gran selección de diferentes tipos de vinilos, marcas y colores. Además del vinilo de color normal, podemos ofrecer vinilo metálico, transparente o luminiscente.',
+        'question' => '¿Qué materiales y tipos de vinilos adhesivos hay disponibles?',
+        'answer' => 'Disponemos de una gran variedad de vinilos en almacén. Además de vinilo coloreado liso, podemos ofrecer vinilo metalizado, transparente o fluorescente.',
       ],
       '2' => [
-        'question' => '¿Qué diseño o imagen puedo utilizar??',
-        'answer' => 'Cada pegatina es individual y se fabrica por el pedido. Nuestros diseñadores desarrollarán para usted pegatinas de cualquier complejidad, teniendo en cuenta su estilo y sus particularidades. También podemos realizar pegatinas según tus bocetos.',
+        'question' => '¿Qué diseño o imagen se puede utilizar?',
+        'answer' => 'Cada pegatina es individual y se fabrica por encargo. Nuestros diseñadores desarrollarán para ti pegatinas de cualquier complejidad teniendo en cuenta tu estilo y especificaciones. También podemos producir pegatinas según sus bocetos.',
       ],
       '3' => [
-        'question' => '¿Cuánto durará un vinilo impreso?',
-        'answer' => '',
+        'question' => '¿Cuánto dura una pegatina de vinilo?',
+        'answer' => 'Las pegatinas aplicadas cumpliendo todos los requisitos técnicos pueden durar hasta 10 años, en entornos agresivos y con luz solar directa, hasta 5 años.',
       ],
       '4' => [
-        'question' => '¿Cómo se instala el vinilo?',
-        'answer' => 'El diseño de vinilo impreso es una de las opciones económicas. El costo de dicha publicidad depende del tamaño, la complejidad del diseño y el tipo de película. El coste puede aumentar hacia precios más altos al realizar pedidos urgentes (tiempo de producción 1-2 días).',
+        'question' => '¿Cuánto cuesta hacer e instalar una pegatina de vinilo?',
+        'answer' => 'El diseño publicitario con película de vinilo es una de las opciones más económicas. El coste de este tipo de publicidad depende del tamaño, la complejidad del diseño y el tipo de película. El coste puede subir de precio cuando se hacen pedidos urgentes (el plazo de producción de 1-2 días).',
       ],
       '5' => [
         'question' => '¿Qué tamaño y forma puedo pedir?',
-        'answer' => 'El vinilo viene en rollos de 1,22 o 1,52 m de ancho, dado que al pegar se pueden unir diferentes piezas de vinilo, podemos vender pegatinas de tamaños ilimitados. Con un trazador de corte, puede recortar formas y diseños de cualquier complejidad.',
+        'answer' => 'El vinilo está disponible en rollos de 1,0 o 1,2 metros de ancho. Como a la hora de pegar se pueden unir diferentes trozos de vinilo, podemos fabricar pegatinas de tamaño ilimitado. Con la ayuda de un plotter de corte podemos recortar formas y diseños de cualquier complejidad.',
       ],
       '6' => [
-        'question' => '¿Cómo se instala el vinilo?',
-        'answer' => 'Antes de instalar, es necesario preparar la superficie sobre la que se aplicará la película. Debe limpiarse de escombros, polvo y restos de película vieja. La temperatura ambiente debe estar entre +5 y +30 grados. A temperaturas más bajas o más altas, la calidad del adhesivo no está garantizada y la vida útil de la pegatina se reduce.',
+        'question' => '¿Cómo se instala el adhesivo?',
+        'answer' => 'Antes de instalar el adhesivo es necesario preparar la superficie sobre la que se aplicará la lámina. Debe estar limpia de residuos, polvo y restos de película antigua. La temperatura ambiente debe estar entre +5 y +30 grados. A temperaturas inferiores o superiores, no se garantiza la calidad del adhesivo y se reduce su vida útil.',
       ],
       '7' => [
-        'question' => '¿Se puede quitar fácilmente el vinilo adhesivo?',
-        'answer' => 'Las pegatinas de vinilo son bastante fáciles de quitar. El adhesivo que queda de la película se puede quitar con un limpiador de ventanas común.',
+        'question' => '¿Se puede quitar fácilmente la pegatina?',
+        'answer' => 'Las pegatinas de vinilo son bastante fáciles de quitar. El adhesivo que permanece de la lámina puede eliminarse con un limpiacristales normal.',
       ],
       '8' => [
-        'question' => '¿Es posible conseguir muestras o ejemplos de trabajo?',
-        'answer' => 'Nuestro portafolio incluye una gran cantidad de proyectos completados utilizando vinilo. Se trata de escaparates, decoración de oficinas, clínicas, rotulación de coches y barcos. Nuestro trabajo se puede ver en las calles de Barcelona y en nuestra web en la sección Portafolio.',
+        'question' => '¿Es posible obtener muestras o ejemplos de trabajo?',
+        'answer' => 'Nuestra cartera incluye un gran número de proyectos realizados con vinilo. Entre ellos se incluyen escaparates, decoración de oficinas y clínicas, vinilos para coches y barcos. Nuestros trabajos se pueden ver en las calles de Barcelona y en nuestra página web en la sección Portafolio.',
       ],
     ],
-    'about_text' => 'Vinilo adhesivo impreso para escaparates.<br><br>
-    El vinilo impreso es un proceso que le permite transformar el aspecto de su escaparate y hacerlo único y memorable. Veamos cómo este material puede ser la clave para crear un escaparate atractivo.<br><br>
-    Hacer el vinilo con impresion digital.<br><br>
-    El vinilo adhesivo es un material de alta calidad que pasa por un proceso de fabricación utilizando tecnologías modernas. Tiene varios beneficios: Resistencia y durabilidad: el vinilo conserva la intensidad de su color y no se ve afectado por el clima.<br><br>
-    Variabilidad: Este material está disponible en una variedad de colores y texturas, lo que permite crear diseños únicos.<br><br>
-    Fácil de instalar y quitar: el vinilo es fácil de aplicar y quitar sin dañar la superficie, lo que lo convierte en una opción ideal para decorar escaparates. Vinilo impreso: publicidad efectiva.<br><br>
-    Una ventaja importante del vinilo es la posibilidad de imprimir imágenes y texto en ella. Esto abre nuevos horizontes para la publicidad visual de su empresa:<br><br>
-    Lonas promocionales: cree lonas creativas para atraer la atención a su tienda y anunciar promociones.<br><br>
-    Ilustración y arte: los artistas y diseñadores pueden utilizar vinilos impresos para crear obras de arte únicas.<br><br>
-    Elementos informativos: Coloque la información de su marca, información de contacto u horario comercial en vinilo, haciendo que la exhibición sea más informativa.  Escaparate: Tu toque de estilo.<br><br>
-    El escaparate es un aspecto clave del éxito del comercio minorista. El vinilo impresa puede:<br><br>
-    Acentos estacionales: le permite cambiar rápidamente el diseño de la pantalla, enfatizando los eventos estacionales actuales.<br><br>
-    Branding: integre elementos de marca, creando un estilo unificado y reconocible para su tienda.<br><br>
-    Promociones y descuentos: Informar rápidamente sobre las promociones vigentes, maximizando la atención al cliente. En conclusión, el vinilo impreso es una poderosa herramienta para decorar escaparates y publicitar tu marca. No pierda la oportunidad de hacer que su escaparate sea atractivo y memorable para los clientes atrayendolos a su tienda y haciendo de comprar con usted una experiencia placentera y memorable.',
+    'about_text' => 'Vinilo estampado: Publicidad eficaz.<br>
+    Una ventaja importante de las láminas de vinilo es la posibilidad de imprimir imágenes y texto en ellas. Esto abre nuevos horizontes para la publicidad visual de tu negocio:<br>
+    Banners publicitarios: Cree creativos banners para llamar la atención sobre tu tienda y promocionar tus productos.<br>
+    <br>Ilustraciones y arte: Los artistas y diseñadores pueden utilizar el vinilo impreso para crear obras de arte únicas.
+    <br>Elementos informativos: Coloca la información de tu marca, los datos de contacto o el horario comercial en el vinilo, haciendo que tu escaparate sea más informativo.
+    <br>Escaparatismo: Un toque de estilo
+    <br>El escaparatismo es un aspecto clave para el éxito del comercio minorista. Las láminas de vinilo impresas pueden lograrlo:
+    <br>Ofertas de temporada: Te permite cambiar rápidamente el diseño del escaparate para resaltar las ofertas de temporada
+    <br>Branding: Integra elementos de la marca para crear un estilo unificado y reconocible para tu tienda.
+    <br>Promociones y descuentos: informe rápidamente sobre las promociones actuales, atrayendo la atención del cliente.
+    <br>En conclusión, el vinilo de impresión es una potente herramienta para decorar escaparates y publicitar tu marca. No pierdas la oportunidad de hacer tu escaparate atractivo y memorable para los clientes, atrayéndolos a tu tienda y haciendo que comprar en ella sea una experiencia agradable y inolvidable.'
   ],
   'perforated' => [
     'banner' => [
       'title' => 'Vinilo microperforado',
       'circle_text' => 'Producción hasta 7 días',
     ],
-    'text' => 'El vinilo microperforado es un tipo especial de vinilo con agujeros microperforados que permiten el paso de la luz manteniendo la imagen en el exterior. Se utiliza en publicidad y decoración para combinar el mensaje publicitario y mantener la visibilidad desde el interior.',
+    'text' => 'El vinilo perforado es un tipo especial de vinilo con agujeros microperforados que permite el traspaso de la luz manteniendo la imagen en la parte exterior. Se utiliza en publicidad y decoración para combinar el mensaje publicitario con el mantenimiento de la visibilidad desde el interior.',
     'lead' => [
       'title' => 'Deja una solicitud para fabricar vinilo mircoperforado',
     ],
@@ -128,76 +125,76 @@ return [
       'title' => 'Ventajas',
       '1' => [
         'title' => 'Publicidad y visibilidad',
-        'text' => 'La película perforada le permite crear publicidad brillante y eficaz manteniendo la visibilidad desde la habitación o el vehículo, permitiendo a los pasajeros o empleados disfrutar del mundo exterior.',
+        'text' => 'La película perforada permite crear publicidad brillante y eficaz manteniendo la visibilidad desde dentro o desde el vehículo, lo que permite a los pasajeros o el personal disfrutar de todo lo que les rodea',
       ],
       '2' => [
         'title' => 'Luz y ventilación',
-        'text' => 'Vinilo microperforado va a dejar pasar la luz, lo que permite mantener la iluminación dentro de la habitación y crear condiciones cómodas para trabajar o descansar.',
+        'text' => 'Los orificios perforados de la lámina permiten el paso de la luz, lo que ayuda a mantenerla en el interior de la habitación y a crear un ambiente confortable para trabajar o relajarse.',
       ],
       '3' => [
-        'title' => 'Proteccion solar',
-        'text' => 'Esta película actúa como una barrera eficaz contra la luz solar, reduciendo el calor dentro de una habitación o de un coche. Esto proporciona condiciones más cómodas y protección contra la radiación ultravioleta.',
+        'title' => 'Protección solar',
+        'text' => 'Esta lámina funciona como una eficaz barrera contra los rayos del sol, reduciendo el calor en el interior de la habitación o el coche. Esto proporciona un ambiente más confortable y protección contra la radiación UV.',
       ],
       '4' => [
-        'title' => 'Apariencia atractiva',
-        'text' => 'Cubrir vehículos y escaparates con vinilo perforadas confiere a la superficie un aspecto elegante y moderno. La imagen de la película atrae la atención de los transeúntes, creando un efecto visual impresionante.',
+        'title' => 'Aspecto atractivo',
+        'text' => 'La lámina perforada para vehículos y escaparates confiere a la superficie un aspecto elegante y moderno. La imagen de la película atrae la atención de los peatones, creando un efecto visual impresionante.',
       ],
     ],
     'questions' => [
       '1' => [
-        'question' => '¿Cuál es la transparencia de vinilo microperforado?',
-        'answer' => 'En general, el vinilo microperforado transmite bien la luz. En el interior se ve una ligera malla sobre el cristal que no interfiere con la visión, mientras que en el exterior hay una imagen gráfica o publicitaria. Así, durante el día, se puede ver el entorno circundante desde el interior, mientras que el entorno interior no es visible.',
+        'question' => '¿Cuál es la transparencia de las láminas perforadas?',
+        'answer' => 'En la mayoría de los casos, la lámina perforada transmite bien la luz. Cuando se está en el interior, se ve una malla ligera en el cristal que no obstruye la vista, mientras que en el exterior se observa una imagen gráfica o un anuncio. Así, durante el día se puede ver el entorno desde el interior, mientras que el interior no es visible.',
       ],
       '2' => [
-        'question' => '¿Qué condiciones de cuidado deben observarse después de la instalación?',
-        'answer' => 'El vidrio decorado con una película mircoperforada se puede lavar como el vidrio normal. No utilice raspadores, cepillos u otros objetos ásperos.',
+        'question' => '¿Qué condiciones de mantenimiento deben observarse tras la instalación?',
+        'answer' => 'El vidrio con lámina perforada puede limpiarse como un vidrio normal. No utilices rasquetas, cepillos ni otros objetos agresivos.',
       ],
       '3' => [
-        'question' => '¿Es posible reutilizar una película así?',
-        'answer' => 'El vinilo perforado, al igual que otros tipos de vinilos adhesivos, no se puede reutilizar.',
+        'question' => '¿Se puede reutilizar la misma lámina?',
+        'answer' => 'La lámina perforada, al igual que otros tipos de vinilo adhesivo, no se puede reutilizar.',
       ],
       '4' => [
-        'question' => '¿Existen restricciones sobre el volumen de producción de publicidad de vinilo perforado?',
-        'answer' => 'Nuestra producción garantizará cualquier volumen de impresión y instalacion de vinilo. Si es necesario de instalacion de varios objetos en diferentes ciudades, también organizamos la instalación in situo.',
+        'question' => '¿Existen restricciones en cuanto al volumen de publicidad en láminas perforadas?',
+        'answer' => 'Nuestra fabricación permite realizar cualquier volumen de impresión y pegado de este tipo de láminas. Si es necesario decorar varios objetos en diferentes ciudades, también organizamos la instalación in situ.',
       ],
       '5' => [
-        'question' => '¿Cuánto tiempo lleva la instalación?',
-        'answer' => 'El tiempo de instalación de dicha película no difiere del tiempo de instalación de vinilo adhesivo normal. El tiempo de instalación depende del área y de las condiciones de pegado, por ejemplo, altura, superficie y condiciones climáticas.',
+        'question' => '¿Cuánto se tarda en instalar?',
+        'answer' => 'El tiempo de instalación de esta lámina no difiere del de una lámina convencional. El tiempo de instalación depende de la zona y de las condiciones de la lámina; por ejemplo, la altura, la superficie o las condiciones meteorológicas',
       ],
       '6' => [
-        'question' => '¿Se puede quitar y reemplazar la película perforada?',
-        'answer' => 'La película perforada se retira fácilmente. Recomendamos contratar especialistas para desmontar vinilo mircoperforado.',
+        'question' => '¿Se puede quitar y sustituirla por la otra lámina perforada?',
+        'answer' => 'La lámina perforada puede desmontarse fácilmente. Se recomienda recurrir a los servicios de especialistas para quitar la lámina.',
       ],
       '7' => [
-        'question' => '¿Existen regulaciones o restricciones sobre el uso de vinilo perforado en ciertos lugares o países?',
-        'answer' => 'Las restricciones sobre el uso de láminas perforadas deben comprobarse en el lugar de instalación con las autoridades competentes responsables de la publicidad.',
+        'question' => '¿Existen normas o restricciones sobre el uso de láminas perforadas en determinados lugares o países?',
+        'answer' => 'Si existen restricciones sobre el uso de láminas perforadas, debes consultarlo con las autoridades publicitarias competentes.',
       ],
       '8' => [
-        'question' => '¿Es posible asesorarse antes de realizar el pedido de este tipo de vinilos?',
-        'answer' => 'Si seguro. Nuestros especialistas están siempre dispuestos a prestar servicios de asesoramiento gratuitos y, si es necesario, in situ. Para concertar una consulta o reunión, deje una solicitud en nuestro sitio web.',
+        'question' => '¿Puedo obtener una consulta antes de solicitar este tipo de vinilo?',
+        'answer' => 'Por supuesto. Nuestros expertos están siempre a tu disposición para asesorarte de forma gratuita y, si es necesario, con una visita in situ. Para solicitar una consulta o una cita, deja una solicitud en nuestro sitio web.',
       ],
     ],
-    'about_text' => 'Film Vinílico Perforado: Innovación en Publicidad y Diseño<br><br>
-    En el mundo de la publicidad y el diseño modernos, existen muchas formas de llamar la atención sobre su marca, producto o mensaje. Una de las formas más efectivas y únicas es utilizar una película de vinilo perforada. Combinando funcionalidad y estética, este material abre nuevos horizontes para la publicidad y el diseño.<br><br>
-    ¿Qué es la película vinílica perforada?<br>
-    La película de vinilo perforada es un material innovador que consta de un soporte de vinilo con muchos agujeros microscópicos. Estos agujeros están ubicados de tal manera que desde el exterior se ve una imagen opaca o un anuncio, mientras que desde el interior se puede ver claramente el mundo exterior.<br><br>
-    ¿Cómo funciona?<br>
-    El funcionamiento de la película de vinilo perforada se basa en la idea de que desde una distancia corta tu ojo enfocará la imagen exterior, pero a medida que te alejas la imagen se vuelve menos visible y puedes ver a través de la película. Esto crea un efecto sorprendente que hace que la película de vinilo perforada sea una opción ideal para publicidad en escaparates de automóviles, escaparates, edificios e incluso interiores.<br><br>
-    Ventajas de la película vinílica perforada:<br><br>
-    Aspecto atractivo: La película permite crear imágenes publicitarias creativas y vibrantes que atraen la atención de los transeúntes y clientes.<br><br>
-    Protección contra el sol y el calor: la película de vinilo perforada bloquea los rayos UV y reduce la carga de calor en el interior o el interior de un vehículo.<br><br>
-    Privacidad: Ideal para crear áreas de privacidad, ya que es casi imposible ver lo que sucede en el interior desde el exterior.<br><br>
-    Potencial publicitario: Excelente para mostrar marcas, logotipos e información de contacto en vehículos, escaparates y escaparates de edificios.<br><br>
-    Resistente a la intemperie: la película de vinilo perforada es duradera y resistente al agua y a los rayos UV.<br><br>
-    Fácil de instalar y cambiar: la película es fácil de aplicar al vidrio u otras superficies y se puede reemplazar si necesita actualizar el diseño.<br><br>
-    La película de vinilo perforada abre infinitas posibilidades a la creatividad en publicidad y diseño. Le permite transmitir su mensaje manteniendo la funcionalidad y el estilo. Ya sea publicidad en un automóvil, decoración de interiores o escaparates, este material ha demostrado su eficacia y atractivo. Utilice película de vinilo perforada para hacer que su marca sea inolvidable y única.',
+    'about_text' => 'Vinilo perforado: innovación en publicidad y diseño<br>
+    <br>En el mundo de la publicidad y el diseño modernos, hay muchas formas de llamar la atención sobre tu marca, producto o mensaje. Una de las formas más eficaces y exclusivas es mediante el uso de vinilo perforado. Este material, que combina funcionalidad y estética, abre nuevos horizontes a la publicidad y el diseño.
+    <br>¿Cómo es la lámina perforada de vinilo?
+    <br>La lámina perforada de vinilo es un material innovador que consta de un fondo de vinilo con muchos orificios microscópicos. Estos agujeros están colocados de manera que desde el exterior se ve una imagen o un anuncio publicitario, mientras que desde el interior se puede ver libremente el mundo que nos rodea.
+    <br>¿Cómo funciona?
+    <br>El funcionamiento de la lámina perforada de vinilo se basa en la idea de que a corta distancia el ojo se centra en la imagen exterior, pero a medida que se aleja la imagen se hace menos perceptible y se puede ver a través de la lámina. Esto crea un efecto asombroso que hace de la lámina perforada de vinilo una opción ideal para la publicidad en ventanas de coches, escaparates, edificios e incluso interiores.
+    <br>Ventajas de la lámina perforada de vinilo:
+    <br>Aspecto atractivo: La lámina permite crear imágenes publicitarias creativas y llenas de color que atraen la atención de transeúntes y clientes.
+    <br>Protección contra el sol y el calor: La lámina perforada de vinilo bloquea los rayos UV y reduce la entrada de calor en interiores o en el interior de un vehículo.
+    <br>Privacidad: Ideal para crear zonas confidenciales, ya que es prácticamente imposible ver lo que ocurre en el interior desde el exterior.
+    <br>Potencial publicitario: Ideal para informar de marcas, logotipos y datos de contacto en vehículos, escaparates y ventanas de edificios.
+    <br>Resistente a la meteorología: La lámina perforada de vinilo es duradera y resistente a la humedad y a los rayos UV.
+    <br>Fácil de instalar y cambiar: La lámina es fácil de aplicar sobre cristal u otras superficies y puede sustituirse si es necesario actualizar el diseño.
+    <br>La lámina perforada de vinilo abre infinitas posibilidades a la creatividad en publicidad y diseño. Te permitirá transmitir tu mensaje manteniendo la funcionalidad y el estilo. Tanto si se trata de un anuncio para el coche, como de decoración de interiores o escaparates, este material resulta eficaz y atractivo. Usa la lámina perforada de vinilo para hacer que tu marca sea memorable y única.'
   ],
   'sandblast_film' => [
     'banner' => [
       'title' => 'Vinilo acido',
       'circle_text' => 'Producción hasta 7 días',
     ],
-    'text' => 'Vinilo acido - es una pelicula especial que imita el efecto arenoso y mate. Crea un acabado mate, añadiendo atractivo visual y privacidad a los objetos a los que se aplica. En clínicas y centros dentales se puede utilizar para zonas de privacidad en mamparas o ventanas, creando un ambiente confortable para los pacientes. En despachos de abogados y oficinas se puede utilizar para decorar ventanas y puertas, creando espacios privados para reuniones y trabajo confortable. Los salones de belleza y las tiendas lo utilizan para decorar escaparates elegantes y modernos.',
+    'text' => 'El vinilo ácido es una película especial que imita el efecto del chorro de arena. Crea una superficie mate que aporta atractivo visual e intimidad a los objetos sobre los que se aplica. En clínicas y centros dentales, puede utilizarse para zonas de privacidad en tabiques o ventanas, creando un entorno confortable para los pacientes. En despachos de abogados y oficinas, puede utilizarse para ventanas y puertas, creando espacios privados para reuniones y un trabajo cómodo. Los salones de belleza y las tiendas lo utilizan para escaparates elegantes y modernos.',
     'lead' => [
       'title' => 'Deja una solicitud para fabricar vinilo acido (glaseado)',
     ],
@@ -216,20 +213,20 @@ return [
     'advantages' => [
       'title' => 'Ventajas',
       '1' => [
-        'title' => 'Confidencialidad y privacidad',
-        'text' => 'La película de chorro de arena crea un acabado mate que permite el paso de la luz pero limita la visibilidad. Esto le permite crear áreas privadas en oficinas, clínicas, salones, consultorios dentales y otros lugares.',
+        'title' => 'Privacidad y confidencialidad',
+        'text' => 'La película al ácido crea una superficie mate que deja pasar la luz pero limita la visibilidad. Esto permite crear zonas privadas en oficinas, clínicas, salones de belleza, consultas dentales y otros locales.',
       ],
       '2' => [
-        'title' => 'Diseño y efectos únicos.',
-        'text' => 'La película le permite crear una variedad de patrones decorativos, inscripciones y elementos de diseño en vidrio u otras superficies. Esto contribuye a la singularidad del interior o exterior.',
+        'title' => 'Diseños y efectos únicos',
+        'text' => 'El vinilo ácido permite crear una gran variedad de diseños decorativos, inscripciones y elementos de diseño en el cristal u otras superficies. Esto contribuye a la exclusividad de un interior o exterior.',
       ],
       '3' => [
-        'title' => 'Ahorro de iluminación',
-        'text' => 'La película arenada proporciona una buena difusión de la luz y mantiene la luz natural en la habitación. Esto le permite suavizar el brillo y crear una atmósfera confortable.',
+        'title' => 'Conservación de la luz',
+        'text' => 'El vinilo glaseado efecto arena proporciona una buena difusión de la luz, preservando la luz natural de la habitación. Esto permite suavizar la luminosidad y crear un ambiente confortable.',
       ],
       '4' => [
         'title' => 'Fácil de cuidar',
-        'text' => 'La película tiene una superficie lisa que no se ensucia ni se cubre con huellas dactilares. Esto simplifica el cuidado y mantenimiento de las superficies sobre las que se aplica la película.',
+        'text' => 'La lámina ácida tiene una superficie lisa que no se mancha ni se marca con las huellas. Esto facilita el cuidado y mantenimiento de las superficies a las que se aplica la película.',
       ],
     ],
     'portfolio' => [
@@ -245,56 +242,57 @@ return [
     ],
     'questions' => [
       '1' => [
-        'question' => '¿Cuáles son las dimensiones del vinilo acido impreso o de corte?',
-        'answer' => 'Vinilo glaseado se fabrica en rollos de 1,22 y 1,52 cm de ancho, al pegar la película en la junta se pueden conseguir tamaños de pegado ilimitados.',
+        'question' => '¿Cuáles son las dimensiones de una lámina al ácido?',
+        'answer' => 'El vinilo glaseado efecto arena está disponible en rollos de 1,2 m de ancho. Al pegar la lámina, es posible conseguir una superficie de tamaño ilimitado.',
       ],
       '2' => [
         'question' => '¿Se puede utilizar para publicidad exterior e interior?',
-        'answer' => 'Vinilo acido glaseado es adecuada para uso en interiores y exteriores.',
+        'answer' => 'La película de vinilo ácido es apta para exteriores e interiores.',
       ],
       '3' => [
-        'question' => '¿Cuánto suele tardar el proceso de instalación?',
-        'answer' => 'El tiempo de instalación depende de la complejidad y el volumen del pedido. Cada pedido comentamos por separado, sobre los términos de producción e instalación.',
+        'question' => '¿Cuánto suele durar el proceso de instalación?',
+        'answer' => 'El tiempo de instalación depende de la complejidad y el volumen del pedido. Analizamos cada pedido individualmente y acordamos un plazo para la producción y la instalación.',
       ],
       '4' => [
-        'question' => '¿Cuánto cuesta fabricar e instalar uel vinilo acido?',
-        'answer' => 'El precio dependerá de la cantidad de vinilo utilizado y de la superficie a cubrir. Cuanto mayor sea el área, mayor será el costo<br>.
-        Si vinilo acido se va a imprimir a todo color, esto puede aumentar el coste de producción.<br>
-        Si es necesario cortar formas o detalles complejos en un trazador, esto también puede afectar el costo.',
+        'question' => '¿Cuánto cuesta fabricar e instalar una lámina efecto arena?',
+        'answer' => 'El precio dependerá de la cantidad de lámina utilizada y de la superficie a cubrir. Cuanto mayor sea la superficie, mayor será el coste.
+        <br>Si se requiere impresión a todo color sobre la lámina, esto puede aumentar el coste de fabricación.
+        <br>Si hay que recortar formas complejas o detalles en un plóter, esto también puede afectar al coste.',
       ],
       '5' => [
         'question' => '¿Qué posibilidades de diseño ofrece esta película?',
-        'answer' => 'Gracias a las nuevas tecnologías, hoy es posible imprimir imágenes a todo color en vinilo acido, recortar formas y patrones complejos y diseñar habitaciones y escaparates.',
+        'answer' => 'Gracias a las nuevas tecnologías, ahora es posible imprimir imágenes a todo color sobre la película de vinilo ácido, recortar formas y motivos complejos, realizar diseños de decoración de interiores y escaparates.',
       ],
       '6' => [
-        'question' => '¿Cómo se instala vinilo glaseado en diversas superficies?',
-        'answer' => 'Esta película tiene características especiales al pegar. Para evitar estropear el material, recomendamos contratar especialistas en montaje para ahorrar dinero y tiempo.',
+        'question' => '¿Cómo se instala la película de vinilo efecto arena en distintas superficies?',
+        'answer' => 'Esta película tiene peculiaridades a la hora de pegarse. Para no estropear el material, recomendamos contratar a un especialista en etiquetado para ahorrar dinero y tiempo.',
       ],
       '7' => [
-        'question' => '¿Cómo es el mantenimiento y limpieza de la superficie del vinilo acido o vinilo glaseado?',
-        'answer' => 'La superficie sobre la que se aplica la película glaseada se puede lavar con agua sin utilizar detergentes. Evite el uso de productos químicos agresivos, abrasivos o cepillos ásperos, ya que pueden dañar la película.',
+        'question' => '¿Cómo se mantiene y limpia una superficie con vinilo ácido pegado?',
+        'answer' => 'La superficie chorreada puede limpiarse con agua sin utilizar detergentes. Evite el uso de productos químicos agresivos, abrasivos o cepillos gruesos, ya que pueden dañar la película.',
       ],
       '8' => [
-        'question' => '¿Cuál es la vida útil del vinilo acido?',
-        'answer' => 'a vida útil de vinilo glaseado puede variar significativamente según las condiciones de funcionamiento y la calidad de la instalación. En promedio, con una instalación y cuidado adecuados, el vinilo acido puede mantener su apariencia y funcionalidad durante 3 a 7 años o incluso más.<br>Sin embargo, hay que tener en cuenta que factores incontrolables como la intensa radiación ultravioleta, las temperaturas extremas, las influencias atmosféricas y los daños mecánicos pueden acortar la vida útil de la película.',
+        'question' => '¿Cuál es la vida útil de un vinilo glaseado efecto arena?',
+        'answer' => 'La vida útil de películas ácidas puede variar mucho en función de las condiciones de funcionamiento y la calidad de la instalación. Por término medio, con una instalación y un cuidado adecuados, el vinilo ácido puede conservar su aspecto y funcionalidad de 3 a 7 años o incluso más.<br>
+        No obstante, hay que tener en cuenta que factores incontrolables como la radiación UV intensa, las temperaturas extremas, la influencia de la intemperie y los daños mecánicos pueden acortar la vida útil de la lámina.',
       ],
     ],
-    'about_text' => 'Vinilo acido, vinilo glaseado: arte invisible sobre vidrio<br><br>
-    La película glaseado es un material sorprendente que convierte el vidrio común en un lienzo para el arte y el diseño. El pulido griz mate puede crear elementos decorativos únicos y elegantes, brindando privacidad y estilo en uno.<br><br>
-    Artes decorativas: vinilo acido, vinilo acido de corte o impreso le permite crear patrones coloridos e intrincados que añaden carácter y personalidad a su interior. Puede ser arte abstracto, patrones geométricos o incluso recrear pinturas famosas sobre vidrio.<br><br>
-    Privacidad sin pérdida de luz: La lámina crea privacidad en la habitación debido al esmerilado parcial del vidrio, pero al mismo tiempo deja pasar la luz natural. Puedes disfrutar de la privacidad sin estar limitado por la oscuridad.<br><br>
-    Protección UV: el vinilo acido puede bloquear los dañinos rayos UV, protegiendo los muebles y los interiores de la decoloración y los daños.<br><br>
-    Fácil de instalar y reemplazar: instalar la película de vidrio es rápido y fácil, y también es fácil de reemplazar si desea actualizar su diseño.<br><br>
-    Oportunidades publicitarias: La película acido glaseado es ideal para imprimir logotipos e información en escaparates y cristales de oficinas, dándoles un aspecto elegante y profesional.<br><br>
-    Personalidad y estilo: Puede elegir entre una variedad de texturas, desde mate hasta espejada, para resaltar su estilo y preferencias únicos.<br><br>
-    El vinilo acido glaseado no es sólo un elemento decorativo, sino también una solución práctica para muchas tareas. Enriquecerá su interior, agregará un acento sofisticado y brindará comodidad y privacidad. Ya sea en casa, oficina o tienda, este material te ayudará a crear un espacio del que estarás orgulloso. Confíe en vinilo acido (vinilo glaseado) para añadir un poco de magia al mundo del vidrio.',
+    'about_text' => 'Vinilo ácido: arte invisible sobre vidrio<br>
+    <br>La película de vinilo glaseado efecto arena es un material increíble que transforma el vidrio ordinario en un lienzo para el arte y el diseño. El vinilo al ácido puede utilizarse para crear elementos decorativos únicos y elegantes, proporcionando privacidad y estilo en uno.
+    <br>Arte decorativo: La lámina de vinilo ácido te permite crear diseños coloridos e complejos que añaden carácter y personalidad a los interiores. Puede ser arte abstracto, patrones geométricos o incluso reproducciones de pinturas famosas sobre vidrio.
+    <br>Intimidad sin pérdida de luz: La lámina crea intimidad en el interior, gracias al mateado parcial del vidrio, pero deja pasar la luz natural. Podrás disfrutar de intimidad sin sentirte limitado por la oscuridad.
+    <br>Protección UV: El vinilo ácido puede bloquear la dañina radiación UV, protegiendo el mobiliario y los interiores de la decoloración y los daños.
+    <br>Instalación fácil y sustitución: La instalación de la lámina sobre cristal es rápida y sencilla, y también es fácil sustituirla si quieres actualizar tu diseño.
+    <br>Oportunidades publicitarias: La película de vinilo ácido es perfecta para aplicar logotipos e información en escaparates y cristales de oficinas, dándoles un aspecto elegante y profesional.
+    <br>Individualidad y estilo: Puedes elegir entre una gran variedad de texturas, desde mate a efecto de espejo, para resaltar tu estilo único y tus preferencias.
+    <br>El vinilo ácido no es sólo un elemento decorativo, sino también una solución práctica para muchas tareas. Enriquecerá tu interior añadiendo un acento sofisticado y proporcionará comodidad e intimidad. Ya sea en tu casa, oficina o local comercial, este material te ayudará a crear un espacio del que te sentirás orgulloso. Confía en la lámina de vinilo glaseado para añadir un poco de magia al mundo del vidrio.'
   ],
   'car_wrapping' => [
     'banner' => [
       'title' => 'Vinilo para vehiculos',
       'circle_text' => 'Producción hasta 10 días',
     ],
-    'text' => 'Rotulacion de automóviles y vehículos es una forma poderosa de atraer la atención y promover una marca. El transporte de marca crea la impresión de estabilidad, fiabilidad y profesionalidad de la empresa. Esto puede mantener la confianza del cliente. La publicidad en el transporte puede ser vista tanto por los peatones como por el resto de conductores. Por tanto, este tipo de publicidad tiene un alcance de audiencia muy amplio y se amortiza rápidamente.',
+    'text' => 'El branding de coches y vehículos de transporte es una forma poderosa de atraer la atención y promocionar una marca. El transporte de marca crea una impresión de estabilidad, fiabilidad y profesionalidad de la empresa. Te ayudará a mantener la confianza de los clientes. La publicidad en el transporte puede verse tanto por los peatones como por otros conductores. Por lo tanto, este tipo de publicidad tiene un alcance de público muy amplio y se rentabiliza rápidamente.',
     'lead' => [
       'title' => 'Deja una solicitud para rotulacion de vehiculos',
     ],
@@ -313,54 +311,54 @@ return [
     'advantages' => [
       'title' => 'Ventajas',
       '1' => [
-        'title' => 'Publicidad en cuidad',
-        'text' => 'El transporte de marca se mueve por la ciudad, llegando a un público amplio. Esto permite que su marca sea visible en diferentes áreas y grupos objetivo.',
+        'title' => 'Publicidad móvil',
+        'text' => 'Los vehículos de la marca se mueven por la ciudad, llegando a un amplio público. Esto permite que tu marca sea visible en diferentes barrios y entre diferentes grupos objetivo.',
       ],
       '2' => [
-        'title' => 'Reconocimiento',
-        'text' => 'Los gráficos brillantes y originales atraen la atención y ayudan a crear reconocimiento de marca. La gente recuerda las imágenes visuales más fácilmente que el texto o el sonido.',
+        'title' => 'Reconocibilidad',
+        'text' => 'Los elementos gráficos brillantes y originales atraen la atención y ayudan a crear reconocimiento de la empresa. La gente recuerda más fácilmente los elementos visuales que el texto o el sonido.',
       ],
       '3' => [
-        'title' => 'Economía',
-        'text' => 'El transporte de la marca tiene costes bajos comparados a algunos otros tipos de publicidad.',
+        'title' => 'Rentabilidad',
+        'text' => 'La rotulación de vehículos tiene un coste bajo en comparación con otros tipos de publicidad exterior.',
       ],
       '4' => [
-        'title' => 'Cambio',
-        'text' => 'El diseño en el transporte se puede cambiar o actualizar en cualquier momento, lo que le permite adaptar el mensaje a las estrategias de marketing actuales.',
+        'title' => 'Modificabilidad',
+        'text' => 'La rotulación de los vehículos puede cambiarse o actualizarse en cualquier momento, lo que le permite adaptar el mensaje a tus estrategias de marketing actuales.',
       ],
     ],
     'questions' => [
       '1' => [
         'question' => '¿Cuánto cuesta?',
-        'answer' => 'El coste de la rotulación de automóviles depende del volumen, la complejidad de la rotulación y la película utilizada. Utilizamos principalmente películas de transporte especiales, pero si se necesita una pegatina temporal, podemos hacer una opción más económica con vinilo normal, que se utiliza en publicidad exterior.',
+        'answer' => 'El coste de los vinilos para coches depende del volumen, la complejidad del adhesivo y la película que se utilice. Nosotros utilizamos principalmente película especial para vehículos, pero si necesitas un adhesivo temporal, puedes escoger una opción más económica con vinilo normal, el que se utiliza en la publicidad exterior.',
       ],
       '2' => [
-        'question' => '¿Qué diseños y disposiciones se pueden utilizar?',
-        'answer' => 'Nuestra agencia cuenta con diseñadores experimentados que desarrollan diseños de publicidad de automóviles a pedido. También estaremos encantados de rotular su vehículo con sus propios diseños.',
+        'question' => '¿Qué diseños y maquetas se pueden utilizar?',
+        'answer' => 'Contamos con diseñadores experimentados en nuestra agencia, que desarrollan diseños publicitarios para coches según los deseos del cliente. También podemos personalizarte el vehículo con tus propios diseños.',
       ],
       '3' => [
-        'question' => '¿Cuánto durará la película y cómo cuidarla?',
-        'answer' => 'Para que la publicidad en un automóvil dure el mayor tiempo posible, es importante cumplir con todas las condiciones para pegar la película del automóvil. El pegado debe realizarse en condiciones especializadas para evitar el polvo y la suciedad. Se debe aplicar una capa protectora especial encima de la imagen. En el futuro, evite daños mecánicos y no lave el coche con agentes agresivos o cepillos ásperos. Mantenga su vehículo limpio y en buen estado para mantener la calidad de su anuncio.',
+        'question' => '¿Cuánto dura la pegatina y cómo hay que cuidarla?',
+        'answer' => 'Para que la publicidad para coches dure lo máximo posible, es importante seguir todas las condiciones de pegado de la lámina. El pegado debe realizarse en condiciones especiales para evitar que entre polvo y suciedad. Debe aplicarse una capa protectora especial sobre la imagen. Además, hay que evitar daños mecánicos y lavado del coche con detergentes agresivos y cepillos ásperos. Mantén el vehículo limpio y cuidado para mantener la calidad de la publicidad.',
       ],
       '4' => [
-        'question' => '¿Serán visibles el pegamento o los restos de la película después de retirarla?',
-        'answer' => 'Cuando la película se retira correctamente, no queda pegamento. Si decide eliminar usted mismo la publicidad de un automóvil, primero consulte con especialistas.',
+        'question' => '¿Serán visibles las señales del adhesivo o de la película después de retirarla?',
+        'answer' => 'Si la lámina se retira correctamente, no queda ningún resto de adhesivo. Si decides retirar tú mismo los rótulos publicitarios del coche, consulta antes con expertos.',
       ],
       '5' => [
-        'question' => '¿Qué tipo de película es mejor elegir?',
-        'answer' => 'El tipo de película depende de los objetivos que el cliente quiera alcanzar. Para una publicidad luminosa y duradera ofrecemos la impresión sobre lámina protectora de transporte. Si es necesario cubrir los cristales del vehículo con láminas, ofrecemos láminas perforadas. Para llamar la atención se suelen utilizar películas fluorescentes o reflectantes para el transporte.',
+        'question' => '¿Cuál es el mejor tipo de película que se puede elegir?',
+        'answer' => 'El tipo de película depende de los objetivos que el cliente quiera alcanzar. Para una publicidad duradera y colorida, ofrecemos impresión sobre película de transporte con protección. Si es necesario tapar las ventanillas de los vehículos con una película, ofrecemos pegado perforado. Las pegatinas vinilo de transporte fluorescentes o reflectantes suelen utilizarse para llamar la atención.',
       ],
       '6' => [
-        'question' => '¿Qué trabajo adicional o pasos preparatorios se requieren?',
-        'answer' => 'Es muy importante preparar adecuadamente la superficie de la carrocería para pegar. La máquina debe lavarse y desengrasarse minuciosamente para eliminar la suciedad, el polvo, el aceite y otros contaminantes.<br>Después del lavado, el coche debe secarse bien para evitar la retención de agua debajo de la película. Cualquier daño en la carrocería, rayones o abolladuras deben repararse antes de comenzar a envolver.',
+        'question' => '¿Qué trabajos adicionales o pasos preparatorios son necesarios?',
+        'answer' => 'Es muy importante preparar adecuadamente la superficie del coche para la aplicación de la pegatina. El coche debe lavarse y desengrasarse a fondo para eliminar la suciedad, el polvo, el aceite y otros contaminantes. Tras el lavado, el coche debe secarse bien para evitar la retención de agua bajo la película. Cualquier daño en el cuerpo del coche, arañazo o abolladura debe repararse antes de proceder.',
       ],
       '7' => [
-        'question' => '¿Qué pasa si necesito cambiar el diseño o quitar la película?',
-        'answer' => 'Para quitar o sustituir la película de un coche, recomendamos contactar con profesionales para evitar daños en la pintura de la carrocería. Antes de retirar la película vieja, se debe calentar completamente con un secador de pelo o un calentador de infrarrojos. Esto ayudará a ablandar el pegamento y facilitará su eliminación. Después de quitar la película vieja y preparar la superficie, puede instalar una película nueva con un nuevo diseño.',
+        'question' => '¿Qué debo hacer si necesito cambiar el diseño o quitar la pegatina?',
+        'answer' => 'Para retirar o cambiar la película de tu coche, te recomendamos que te pongas en contacto con los profesionales para evitar daños en la pintura del vehículo. Antes de quitar la pegatina antigua, hay que calentarla bien con un secador de pelo o un calefactor de rayos infrarrojos. Esto ayudará a ablandar el adhesivo y facilitará el proceso de retirada. Tras retirarlo y preparar la superficie, se puede instalar una nueva película con un nuevo diseño.',
       ],
       '8' => [
-        'question' => '¿Cuáles son las garantías y plazos de cumplimiento del pedido?',
-        'answer' => 'Garantía de obra y materiales – 1 año. La garantía no cubre daños mecánicos. El tiempo de producción depende de la cantidad de trabajo y la complejidad del diseño y se negocia individualmente.',
+        'question' => '¿Cuáles son las garantías y los plazos de ejecución de los pedidos?',
+        'answer' => 'La garantía sobre el trabajo y los materiales es de 1 año. La garantía no cubre los daños mecánicos. El plazo de fabricación depende de la cantidad de trabajo y la complejidad del diseño y se negocia individualmente.',
       ],
     ],
     'about_text' => 'Las rotulaciones de vinilo para automóviles son una forma emocionante y creativa de transformar su vehículo, agregando estilo y protección única. Este proceso combina arte y tecnología, permitiéndole crear un automóvil que destacará en la carretera. Hablemos del mundo de posibilidades que se abre ante ti al envolver tu coche en vinilo.<br><br>

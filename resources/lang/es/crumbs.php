@@ -9,7 +9,7 @@ return [
    'lightbox'=> 'Rótulos cajon fresado',
    'side_box' => 'Banderolas',
    'neon' => 'Neon',
-   'vinyl_regular' => 'Vinilo impreso',
+   'vinyl_regular' => 'Vinilo estampado',
    'vinyl_perforated' => 'Vinilo microperforado',
    'sandblast_film' => 'Vinilo acido',
    'vinyl_car_wrapping' => 'Vinilo para vehiculos',

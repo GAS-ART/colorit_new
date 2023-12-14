@@ -6,20 +6,21 @@ return [
          'title' => 'Photocall',
          'circle_text' => 'Producción hasta 7 días',
       ],
-      'text' => 'Ningún evento comercial importante está completo sin un photocall o brandwall. Gracias a los banners en los muros de la marca, puede transmitir eficazmente información sobre un evento, patrocinadores y promociones, atrayendo la atención de una amplia audiencia. Siempre son brillantes y visibles, fácilmente visibles a largas distancias. Siempre toman fotografías cerca de ellos y comparten sobre el evento en sus páginas sociales. La principal ventaja es su portabilidad y rápida instalación, lo que los convierte en una opción ideal para exposiciones, festivales, eventos deportivos y otros eventos.',
+      'text' => 'En ningún gran evento comercial puede faltar un brandwall (muro de prensa). Gracias a los banners de los brandwalls, la información sobre el evento, los sponsors y las promociones se comunican eficazmente, atrayendo la atención de un amplio público. Siempre son brillantes y llamativos, fácilmente visibles a gran distancia. La gente suele hacerse fotos cerca de ellos y compartir el evento en sus redes sociales. La ventaja principal es su portabilidad y rápida instalación, lo que los convierte en la opción ideal para exposiciones, festivales, acontecimientos deportivos y otros eventos.',
       'types' => [
          'title' => 'Tipos de photocall',
-         'text' => 'El photocall se divide en dos tipos, según su nesecidad.',
+         'text' => 'Los brandwalls se dividen en dos tipos,en función de su construcción.',
          'img' => [
-            '1' => 'Estructura de aluminio plegable ',
+            '1' => 'Construcción de aluminio',
             'alt_1' => 'Photocall perzonalizados en Barcelona. Rapido con entrega a toda Españ',
-            '2' => 'Estructura de tubos cromados',
+            '2' => 'Estructura de barras cromadas',
             'alt_2' => 'Photocall, stands para ferias comprar en Barcelona',
          ],
       ],
-      'content_before_image' => '<h3>Phtocall de aluminio plegable</h3>El más popular es una estructura plegable hecho de aluminio. A lo largo de cuyo perímetro está cosido un "velcro" especial para sujetar tejidos textiles con impresión digital. El photocall tiene un marco transformable que se puede montar y desmontar rápidamente con unos pocos movimientos.<br>
-      Una misma esctructura se puede utilizar para diferentes eventos, pero con diferentes tejidos textiles.
-      <div class="size">Tamaños disponibles: 230x230, 305x230, 380x230, 455x230, 530x230 сm.</div>',
+      'content_before_image' => '<h3>Construcción de aluminio</h3>La estructura plegable móvil más popular es de aluminio. En su perímetro lleva pegado un "velcro" especial para fijar una tela textil con una impresión fotográfica.<br>
+      El diseño tiene una estructura transformable, que se monta y desmonta rápidamente, literalmente en unos pocos movimientos.
+      <br>El mismo diseño puede utilizarse para distintos eventos pero con diferentes telas textiles. Con su tamaño y aspecto voluminoso este diseño llama la atención, tiene un aspecto moderno y forma una buena imagen.
+      <div class="size">Tamaños disponibles: 230x230, 305x230, 380x230, 455x230, 530x230 cm.</div>',
       'content_after_image' => '<h3>Photocall con estructura de tubos cromados</h3> Con lona impresa también se utiliza ampliamente en las empresas para promocionar sus negocios y servicios. Este es un producto simple y popular que se usa a menudo en exposiciones, conferencias, presentaciones, ferias, tiendas y otros lugares donde es necesario llamar la atención sobre una marca o producto. La estructura tiene forma rectangular o cuadrada, lo que le aporta estabilidad y resistencia. Es liviano y portátil, fácil de montar y desmontar. La gran ventaja es photocall es que tiene patas de metal que brindan estabilidad incluso al aire libre con vientos suaves. Ese tipo de photocall se utiliza con banner, lo que aporta fuerza y ​​calidad de la imagen.<div class="size">Viene en tamaños 200x200, 300x200 y otros.</div>',
       'aluminum' => [
          'title' => '',
@@ -50,66 +51,66 @@ return [
       ],
       'questions' => [
          '1' => [
-           'question' => '¿Cuál es el costo de un photocall?',
-           'answer' => 'El costo de un brandwall depende de su tamaño. Cuanto mayor sea el tamaño, mayor será el costo. Además, se consideran el diseño, la entrega y la instalación. Cada pedido se considera individualmente. Deje una solicitud en nuestro sitio web y nos comunicaremos con usted para calcular su pedido.',
+           'question' => '¿Cuánto cuesta un brandwall?',
+           'answer' => 'El coste de un brandwall depende de su tamaño. Cuanto mayor sea de tamaño, mayor será el coste. Además, hay que tener en cuenta el diseño, la entrega y la instalación. Cada pedido se evalúa individualmente. Deja tu solicitud en nuestra web y nos pondremos en contacto contigo para calcular el presupuesto de tu pedido.',
          ],
          '2' => [
-           'question' => '¿Existen opciones o accesorios adicionales para lona o photocall?',
-           'answer' => 'El brandwall se puede complementar con focos. Se instala un foco por cada 70 cm de ancho del lienzo. También se pueden instalar decoraciones o accesorios adicionales. Pero primero recomendamos consultar con nuestros especialistas.',
+           'question' => '¿Existen opciones o accesorios adicionales para un brandwall?',
+           'answer' => 'Se puede complementar un brandwall con reflectores. Se instala una luz por cada 70 cm de ancho de la banda del banner. También se pueden instalar decoraciones o accesorios adicionales. Pero recomendamos que consultes primero a nuestros especialistas.',
          ],
          '3' => [
-           'question' => '¿Cuáles son las condiciones de funcionamiento del brandwall?',
-           'answer' => 'Damos recomendaciones sobre el uso y cuidado adecuado del brandwall. Por ejemplo, cómo montar correctamente la estructura y fijar la lona del banner, cómo limpiar su superficie o cómo manejar la retroiluminación, cómo almacenarla y transportarla.',
+           'question' => '¿Cuáles son las condiciones de uso del brandwall?',
+           'answer' => 'Damos recomendaciones sobre el uso y cuidado adecuados del brandwall. Por ejemplo, cómo montar correctamente la estructura y fijar la tela del banner, cómo limpiar su superficie o cómo manipular la iluminación, cómo almacenarlo y transportarlo.',
          ],
          '4' => [
-           'question' => '¿Es posible alquilar una estructura photocall?',
-           'answer' => 'No, la estructura protocal esta solo en venta',
+           'question' => '¿Es posible alquilar una estructura de brandwall?',
+           'answer' => 'Sí, disponemos de estructuras en alquiler. Consulta la disponibilidad de modelos y tamaños con nuestros responsables.',
          ],
          '5' => [
-           'question' => '¿Cómo se fija e instala el brandwall?',
-           'answer' => 'El diseño de brandwall es bastante fácil de montar. Si decides instalarlo tú mismo, te asesoraremos detalladamente sobre cómo hacerlo de forma rápida y eficaz. Para ello no se necesitan herramientas especiales. Es mejor cuando dos personas montan la estructura y montan el banner.',
+           'question' => '¿Cómo se fija e instala un brandwall?',
+           'answer' => 'La estructura del brandwall es bastante fácil de montar. Si decides instalarlo tú mismo, te asesoramos detalladamente sobre cómo hacerlo de forma rápida y eficaz. No se necesitan herramientas especiales. Es preferible que sean dos personas las que monten la estructura y el banner.',
          ],
          '6' => [
-           'question' => '¿Qué garantías y condiciones de servicio ofrece el photocall?',
-           'answer' => 'Consulte con nuestros gerentes sobre el período de garantía del brandwall. Suelen durar varios meses o incluso años, según el fabricante y el tipo de pared de la marca. Si hay problemas con los materiales, la impresión o el diseño, serán corregidos o reemplazados sin costo dentro de los términos de la garantía.',
+           'question' => '¿Qué garantías y condiciones de servicio tiene el brandwall?',
+           'answer' => 'Consulta a nuestros gestores sobre los plazos de garantía de un brandwall. Suelen ser de varios meses o incluso años, según el fabricante y el tipo de brandwall. Si hay problemas con los materiales, la impresión o la estructura, se arreglarán o sustituirán gratuitamente dentro de los plazos de garantía.',
          ],
          '7' => [
-           'question' => '¿Puedo obtener asesoramiento o ayuda para desarrollar un diseño para un muro de marca?',
-           'answer' => 'Sí, brindamos consultas gratuitas y proporcionamos todos los requisitos técnicos para crear un diseño. Si no tiene un diseñador, estaremos encantados de crear el diseño necesario para usted. El costo de realizar el diseño no está incluido en el costo del brandwall.',
+           'question' => '¿Si puedo obtener asesoramiento o ayuda para desarrollar un diseño para un brandwall?',
+           'answer' => 'Sí, ofrecemos asesoramiento gratuito y cubrimos todos los requisitos técnicos para crear un diseño. Si no tienes diseñador, estaremos encantados de crear el diseño necesario para ti. El coste del diseño no está incluido en el coste del brandwall.',
          ],
          '8' => [
-           'question' => 'Si ya tenemos un diseño, ¿podemos pedir solo el banner?',
-           'answer' => 'Sí, puedes pedir solo un banner si ya tienes un diseño. Para hacer esto, necesitamos saber las dimensiones exactas de la pancarta para este diseño y el método de fijación: ojales o cinta adhesiva.',
+           'question' => 'Si ya tengo la estructura, ¿puedo solicitar sólo un banner?',
+           'answer' => 'Sí, se puede pedir sólo un banner si ya tienes la estructura. Para ello necesitamos saber las dimensiones exactas del banner para este diseño y el método de fijación - ojales o cinta adhesiva.',
          ],
        ],
-       'about_text' => 'Photocall - es una herramienta innovadora y elegante para crear fondos brillantes y memorables para diversos eventos. Este diseño se ha convertido en una parte integral del marketing y la marca modernos y aporta muchos beneficios a las empresas y organizadores de eventos.
+       'about_text' => 'Un presswall es un medio innovador y elegante de crear fondos coloridos y memorables en diversos eventos. Este concepto se ha convertido en parte integrante del marketing y el branding modernos, y aporta muchas ventajas a las empresas y los organizadores de eventos.
     <br><br>Ventajas del muro de prensa:
-    <br>1. Marca y reconocimiento
-    <br>Un muro de prensa permite a las empresas y marcas crear su propio fondo de marca que las diferencia de sus competidores. Colocar logotipos, eslóganes y elementos gráficos de fondo promueve el reconocimiento y ayuda a fortalecer la imagen de una marca.
-    <br><br>2. Creación de contenido
-    <br>Las fotografías e imágenes de la conferencia de prensa se distribuyen activamente en las redes sociales y plataformas web. Esto crea contenido adicional que ayuda a promocionar la marca y hacerla más visible en línea.
-    <br><br>3. Atraer a los medios y periodistas
-    <br>Un muro de prensa puede atraer la atención de periodistas y representantes de los medios, lo que brinda la oportunidad de recibir cobertura de los medios y publicaciones sobre su empresa y evento.
-    <br><br>4. Interactividad y participación de los huéspedes
-    <br>Los asistentes al evento pueden utilizar el muro de prensa para tomar sus propias fotografías, haciendo que el evento sea más interactivo y divertido. También fomenta el intercambio social y la creación de recuerdos positivos.
-    <br><br>5. Enfatizando eventos importantes
-    <br>Los muros de prensa se pueden utilizar para resaltar eventos importantes como lanzamientos de nuevos productos, aniversarios de empresas y otros momentos clave en el desarrollo de la marca.
-    <br><br>6. Reuniones con Socios y Clientes
-    <br>El muro de prensa puede servir como un lugar atractivo para reunirse con socios, clientes e invitados importantes en un evento, facilitando reuniones de negocios efectivas.
-    <br><br>El muro de prensa es una herramienta eficaz y versátil para promocionar una marca y crear una experiencia inolvidable en los eventos. Ayuda a los organizadores a hacer que los eventos sean más reconocibles y exitosos, y a las empresas a fortalecer su marca ante los ojos de clientes y socios.'
+    <br>1. Branding y reconocimiento
+    <br>Un muro de prensa permite a las empresas y marcas crear su propio telón de fondo de marca que las distinga de sus competidores. La ubicación de logotipos, eslóganes y elementos gráficos en el fondo favorece el reconocimiento y ayuda a reforzar la imagen de la marca.
+    <br><br>2. Creación de contenidos
+    <br>Las fotos hechas con el presswall en el fondo se comparten activamente en las redes sociales y las plataformas web. Esto crea contenido adicional que ayuda a promocionar la marca y hacerla más visible en el espacio online.
+    <br><br>3. Atraer a medios de comunicación y periodistas
+    <br>Un muro de prensa puede atraer la atención de periodistas y representantes de los medios de comunicación, lo que brinda la oportunidad de obtener cobertura mediática y publicaciones sobre tu empresa y el evento.
+    <br><br>4. Interactividad y participación de los invitados
+    <br>Los visitantes del evento pueden utilizar el muro de prensa para hacer sus propias fotos, lo que hace que el evento sea más interactivo y atractivo. Esto también fomenta el intercambio en las redes sociales y la creación de recuerdos positivos.
+    <br><br>5. Destacar acontecimientos importantes
+    <br>Los muros de prensa pueden utilizarse para destacar acontecimientos importantes, como el lanzamiento de nuevos productos, aniversarios de empresas y otros momentos clave de la marca.
+    <br><br>6. Encuentros con socios y clientes
+    <br>Un muro de prensa puede servir como lugar atractivo para reunirte con socios, clientes e invitados importantes en un evento, lo que facilita la celebración de reuniones de negocios eficaces.
+    <br><br>Un presswall o muro de prensa es una herramienta eficaz y versátil para promocionar la marca y crear experiencias memorables en los eventos. Ayuda a los organizadores a hacer que los eventos sean más reconocibles y tengan más éxito, y a las empresas a reforzar su marca ante los clientes y socios.'
    ],
    'banner'=>[
       'banner' => [
          'title' => 'Lona',
          'circle_text' => 'Producción hasta 4 días',
       ],
-      'text' => 'Los banners son una importante herramienta de publicidad y comunicación y se utilizan en una variedad de industrias que incluyen el comercio minorista, el marketing de eventos, los eventos culturales y más. Los banners son resistentes a las influencias externas, como la lluvia, el sol y el viento, lo que los hace adecuados para la publicidad exterior. Los carteles se pueden reemplazar fácilmente. Pueden tener diferentes formas y tamaños. Y son una de las opciones más económicas para la publicidad exterior.',
+      'text' => 'Los banners son una importante herramienta de publicidad y promoción. Se utilizan en una gran variedad de sectores, como el comercio minorista, el marketing de eventos, los acontecimientos culturales, etc. Las pancartas son resistentes a las influencias externas, como la lluvia, el sol y el viento. Los banners son resistentes a la lluvia, el sol y el viento, por lo que son adecuados para la publicidad exterior. Las pancartas pueden sustituirse fácilmente. Además, pueden tener diferentes formas y tamaños. Y son una de las opciones de publicidad exterior más económicas.',
       'lead' => [
          'title' => 'Deja una solicitud para pedir la lona perzonalizada',
       ],
       'types' => [
          'title' => 'Tipos de lonas',
-         'text' => 'Hay dos tipos de banners: Frontlit y Banner microperforado:',
+         'text' => 'Existen dos tipos de pancartas: Frontlit y perfobanner:',
          'image_titles' => [
          '1' => 'Баннер Frontlit 510 gr',
          'alt_1' => '',
@@ -121,7 +122,7 @@ return [
       ],
       'examples' => [
          'title' => 'La lona Frontlit',
-         'text' => 'La lona Frontlit proporcionan gráficos y colores vibrantes y de alta calidad. Estas pancartas están fabricadas con materiales fuertes y duraderos que resisten la humedad, la luz solar y el viento. Se pueden utilizar tanto en exteriores como en interiores. Los carteles con iluminación frontal son fáciles de plegar y transportar, lo que los hace convenientes para transportarlos a eventos e instalarlos en el sitio. Los carteles se fijan a la estructura mediante anillos de metal: ojales.',
+         'text' => 'Proporcionan gráficos y colores vibrantes y de alta calidad. Estas pancartas están fabricadas con materiales fuertes y duraderos, resistentes a la humedad, la luz solar y el viento. Pueden utilizarse tanto en exteriores como en interiores. Las pancartas Frontlit son fáciles de plegar y transportar, lo que resulta práctico para su traslado a eventos y su instalación in situ. Los banners se fijan a la estructura mediante anillos metálicos - ojales.',
          'image_titles' => [
          '1' => '',
          'alt_1' => '',
@@ -131,60 +132,60 @@ return [
          'alt_3' => '',
          ],
       ],
-      'perfo_banner'=>'<h3>Lona microporforada</h3>Главная особенность перфобаннера - наличие множества микроперфораций, которые пронизывают весь материал. Эти отверстия позволяют свету и воздуху проходить через баннер, делая его полупрозрачным и снижают парусность. Перфобаннер позволяет создавать рекламные баннеры с односторонней видимостью. Снаружи видно полноцветную графику и изображения, в то время как с внутренней стороны можно наблюдать окружающую среду.',
+      'perfo_banner'=>'<h3>Lona microporforada</h3>La principal característica de un perfobanner es la presencia de numerosas microperforaciones que se extienden por todo el material. Estas perforaciones permiten que la luz y el aire atraviesen la pancarta, haciéndola semitransparente y reduciendo la resistencia al viento. El perfobanner permite crear pancartas publicitarias con visibilidad unidireccional. Los gráficos y las imágenes a todo color pueden verse desde el exterior, mientras que el entorno puede verse desde el interior.',
       'questions' => [
          '1' => [
-           'question' => '¿Es posible pedir un tamaño de banner personalizado? ¿O sólo hay tamaños estándar?',
-           'answer' => 'Realizamos lonas de cualquier tamaño. Existe una limitación en el ancho del rollo, pero este problema se puede solucionar planchando.',
+           'question' => '¿Es posible pedir un tamaño de pancarta personalizado? ¿O sólo hay tamaños estándar?',
+           'answer' => 'Fabricamos pancartas de cualquier tamaño. Hay una limitación en cuanto a la anchura del rollo, pero este problema se resuelve empalmándolos.',
          ],
          '2' => [
-           'question' => '¿La calidad del banner es diferente cuando se instala en interiores o exteriores?',
-           'answer' => 'El mismo banner se utiliza para uso externo e interno. La calidad del banner varía según el tamaño y las condiciones de funcionamiento. Para tamaños más grandes, se suelen utilizar lonas más gruesas y duraderas.',
+           'question' => '¿Es diferente la calidad de una pancarta cuando se instala en el interior o en el exterior?',
+           'answer' => 'La calidad de un banner varía en función del tamaño y las condiciones de su uso. Para tamaños más grandes, se suelen utilizar pancartas más densas y resistentes.',
          ],
          '3' => [
-           'question' => '¿Instalas lonas?',
-           'answer' => 'Nuestros instaladores instalarán su banner de manera eficiente y profesional. Los trabajos en altura son realizados por instaladores certificados para trabajos en altura.',
+           'question' => '¿Instaláis pancartas?',
+           'answer' => 'Nuestros instaladores realizarán la instalación de una pancarta con calidad y profesionalidad. Los trabajos en altura los realizan los instaladores certificados para trabajos en altura.',
          ],
          '4' => [
-           'question' => '¿Cuál es el período de garantía para el banner y la impresión?',
-           'answer' => 'Ofrecemos una garantía de 3 años para lonas impresas. La garantía no cubre daños mecánicos ni el funcionamiento con fuertes ráfagas de viento (por ejemplo, en tejados, tramos entre edificios). En tales casos, recomendamos imprimir en una lona perforada.',
+           'question' => '¿Cuál es el periodo de garantía de la pancarta y de la impresión?',
+           'answer' => 'Ofrecemos una garantía de 3 años para el banner impreso. La garantía no cubre los daños mecánicos ni el uso con vientos fuertes (por ejemplo, en tejados, espacios entre edificios). En estos casos, recomendamos imprimir en una pancarta perforada.',
          ],
          '5' => [
-           'question' => 'No tenemos una imagen que nos gustaría imprimir. ¿Puedo encargarles un diseño de banner?',
-           'answer' => 'Sí, contamos con diseñadores profesionales en nuestro equipo que harán realidad todos tus deseos.',
+           'question' => 'No tenemos ninguna imagen que nos gustaría imprimir. ¿Puedo encargaros el diseño de un banner?',
+           'answer' => 'Sí, en nuestro equipo contamos con diseñadores profesionales que harán realidad todos tus deseos.',
          ],
          '6' => [
-           'question' => '¿Es posible pedir lona con impresión a doble cara?',
-           'answer' => 'Sí, hacemos lonas impresas a doble cara.',
+           'question' => '¿Puedo pedir una pancarta con impresión a doble cara?',
+           'answer' => 'Sí, fabricamos banners con impresión a doble cara.',
          ],
          '7' => [
-           'question' => '¿Qué fijaciones o refuerzos adicionales se necesitan para garantizar que la lona no se rompa y dure mucho tiempo?',
-           'answer' => 'Para que la lona quede bien sujeta y sirva durante mucho tiempo, es necesario hacer un pliegue (refuerzo) alrededor o perímetral de la lona. Este dobladillo se fija con ojales o se pega. Gracias a los ojales, la lona se monta de forma rápida y eficaz, la tela de lona se estira perfectamente sin rasgarse ni dañarse. El paso habitual para instalar ojales es de 30 cm, pero puede ser mayor o menor dependiendo del tamaño del banner y de las condiciones de instalación.',
+           'question' => '¿Qué elementos de fijación o juntas adicionales son necesarios para que la pancarta no se rompa y dure mucho tiempo?',
+           'answer' => 'Para garantizar que el banner esté bien fijado y dure mucho tiempo, es necesario hacer un pliegue alrededor del perímetro del banner. Este pliegue se fija con ojales o se pega. Gracias a los ojales, la pancarta se monta de forma rápida y eficaz, la tela se estira perfectamente sin romperse ni dañarse. El paso habitual de instalación de los ojales es de 30 cm. Pero puede ser mayor o menor en función del tamaño del banner y de las condiciones de instalación.',
          ],
          '8' => [
-           'question' => 'Tengo una pancarta en buen estado. ¿Es posible imprimir una imagen en el otro lado del mismo banner?',
-           'answer' => 'No es posible imprimir en un banner usado.',
+           'question' => 'Tengo una pancarta en buen estado. ¿Es posible imprimir una imagen en la otra cara de la misma pancarta?',
+           'answer' => 'No es posible imprimir en una pancarta de segunda mano.',
          ],
        ],
-       'about_text' => 'La impresión en lona o tela es el proceso de creación de imágenes, texto o gráficos en una lona especial para usar en lonas, banderas, letreros, exhibidores y otros materiales de marketing. Las lona suelen estar hechas de poliéster y tienen propiedades que las hacen ideales para uso en exteriores y con fines publicitarios:<br><br>
-       Resistencia a la intemperie: Lonas para carteles suelen ser muy resistentes a la humedad, los rayos ultravioleta y el viento. Esto permite utilizar pancartas en exteriores y en diferentes condiciones climáticas.<br><br>
-       Brillo y saturación de color: las telas están diseñadas para mantener el brillo y la riqueza de los colores impresos incluso cuando se exponen a la luz solar y otras influencias.<br><br>
-       Fácil instalación: Las telas para pancartas suelen ser livianas y fáciles de instalar y pueden montarse o colgarse fácilmente en una variedad de superficies.<br><br>
-       Durabilidad: Están diseñados para durar, ahorrando dinero en publicidad y marketing.<br><br>
-       La impresión en tela o lona se puede realizar utilizando una variedad de métodos, incluida la impresión por sublimación, la impresión con solventes y la impresión UV. Cada uno de estos métodos tiene sus propias ventajas y es adecuado para diferentes propósitos. Los banners fabricados con esta tela son muy utilizados para campañas publicitarias, stands informativos en eventos, exposiciones, eventos deportivos y otros eventos donde es necesario llamar la atención y proporcionar información importante.'
+       'about_text' => 'La impresión en tela para pancartas o banners es el proceso de creación de imágenes, texto o gráficos en un tejido especial diseñado para su uso en pancartas, banderas, carteles, stands publicitarios y otros materiales de marketing. Las telas para pancartas suelen estar hechas de poliéster y tienen propiedades que las hacen ideales para su uso en exteriores y con fines promocionales:<br>
+       <br>Resistencia a la climatología: Los tejidos para banners suelen ser muy resistentes a la humedad, los rayos UV y el viento. Esto permite que las pancartas se puedan utilizar en exteriores y en una gran variedad de condiciones meteorológicas.
+       <br>Brillo y saturación del color: Las telas están diseñadas para conservar el brillo y la saturación del color de la impresión incluso cuando están expuestas al sol y a otras condiciones agresivas.
+       <br>FÁCIL INSTALACIÓN: Las telas para pancartas suelen ser ligeras y fáciles de instalar, y pueden fijarse fácilmente a diversas superficies o colgarse.
+       <br>DURABILIDAD: Los banners están diseñados para un uso a largo plazo, lo que te ahorrará dinero en publicidad y marketing.
+       <br>La impresión en telas para pancartas puede realizarse mediante diversos métodos, como la impresión por sublimación, la impresión solvente y la impresión UV. Cada uno de estos métodos tiene sus propias ventajas y es adecuado para distintos fines. Las pancartas fabricadas con este tipo de tejido se utilizan mucho para campañas publicitarias, stands informativos en eventos, exposiciones, acontecimientos deportivos y otras ocasiones en las que se requiere atención e información importante.'
    ],
    'rollup'=>[
       'banner' => [
          'title' => 'Roll up',
          'circle_text' => 'Producción hasta 4 días',
       ],
-      'text' => 'Roll Up es una excelente herramienta publicitaria e informativa que combina comodidad, eficiencia y un diseño elegante. La imagen está impresa en una lona frontalit 510 gr que se puede desenrollar y cerrar fácilmente. La pancarta se fija a la viga superior de la estructura. Todo el mecanismo Roll Up está oculto en un casete compacto de aluminio. Cuando el banner no está en uso, queda completamente oculto dentro del casete, lo que hace que el diseño sea portátil y esté protegido contra daños.',
+      'text' => 'Un banner enrollable (Roll Up) es una excelente herramienta publicitaria e informativa que combina comodidad, eficacia y diseño elegante. La imagen se imprime en una lona especial que puede desenrollarse y fijarse fácilmente. La pancarta se fija a la barra superior de la estructura. Todo el mecanismo del banner Roll Up está escondido en una caja compacta de aluminio. Cuando el banner no se utiliza, la tela queda completamente oculta en el interior de la caja, lo que permite transportar la estructura y protegerla de posibles daños.',
       'lead' => [
          'title' => 'Deja una solicitud para pedir roll up',
       ],
       'types' => [
-        'title' => 'Montar',
-        'text' => 'Montar un Roll Up es muy sencillo y sólo te llevará unos minutos. La estructura es ligera y compacta, fácil de transportar y almacenar. Gracias a su estructura plegable, el cartel siempre está estirado y tiene un aspecto profesional y atractivo. Las imágenes se pueden cambiar fácilmente, lo que la convierte en una herramienta universal para cambiar mensajes publicitarios.<br><br><span class="not-bold">Roll up medidas disponibles:</span> 60х205, 85х205, 100х205, 120х205, 150х205 сm.',
+        'title' => 'Montaje',
+        'text' => 'La estructura Roll Up es muy sencilla y sólo se tarda unos minutos en montarla. El diseño es ligero y compacto, fácil de transportar y almacenar. Gracias a su diseño, la pancarta siempre está bien tensa y tiene un aspecto profesional y atractivo. Las telas son fáciles de cambiar, lo que la convierte en un elemento universal a la hora de cambiar los mensajes publicitarios.<br><br><span class="not-bold">Las medidas estándar del banner Roll Up son</span> 60х205, 85х205, 100х205, 120х205, 150х205 сm.',
         'image_titles' => [
         '1' => '',
         'alt_1' => 'Roll up perzonalizado en Barcelona. Imprimir en Barcelona solo por 1 dia',
@@ -196,71 +197,76 @@ return [
       ],
       'questions' => [
          '1' => [
-           'question' => '¿Quién instalará el roll-up? ¿Hay que pedir a un equipo especial para la instalación?',
-           'answer' => 'La instalación del roll up es rápida y sencilla. Esto no requiere equipos ni herramientas especiales. Nuestros responsables le explicarán detalladamente cómo hacerlo.',
+           'question' => '¿Quién instalará el banner enrollable? ¿Se necesita algún equipo especial para la instalación?',
+           'answer' => 'La instalación de un sistema enrollable Roll Up es rápida y sencilla. No requiere equipo ni herramientas especiales. Nuestros gestores le explicarán detalladamente cómo hacerlo.',
          ],
          '2' => [
-           'question' => '¿Cuánto nos durará este roll-up?',
-           'answer' => 'Roll up le servirá durante años. Dependiendo de la actividad y las condiciones de funcionamiento, la vida útil es de tres años o más. Puede cambiar las imágenes de un diseño un número ilimitado de veces. En este caso, debes seguir todas nuestras recomendaciones para reemplazar la imagen.',
+           'question' => '¿Cuánto dura un banner Roll Up? ¿Es de un solo uso o puede durar mucho tiempo?',
+           'answer' => 'Un Roll Up te servirá durante años. Dependiendo de la actividad y las condiciones de uso, su vida útil es de tres o más años. Puedes cambiar las imágenes del mismo sistema un número infinito de veces. Sin embargo, es importante seguir todas nuestras recomendaciones para el cambio de imágenes correcto.',
          ],
          '3' => [
-           'question' => '¿Puedo alquiler roll up?',
-           'answer' => 'No, lamentablemente el roll-up solo está disponible como compra.',
+           'question' => '¿Ofrecéis estructuras enrollables para el alquiler?',
+           'answer' => 'No, lamentablemente los banners Roll Up solo están disponibles para la venta.',
          ],
          '4' => [
-           'question' => '¿Le sirve para eventos exteriores?',
-           'answer' => 'Roll up está en una estructura para uso en interiores. Ya que es liviano y cuando está ensamblado tiene resistencia al viento. Por tanto, no recomendamos su uso en exteriores. Sin embargo, si estás seguro de que las condiciones climáticas te permiten mantener la estabilidad del roll-up, te recomendamos añadir el peso en la parte de soporte de la estructura.',
+           'question' => 'Nuestro evento se celebrará al aire libre. ¿Es estable la estructura enrollable Roll Up?',
+           'answer' => 'El banner Roll Up está diseñado para su uso en interiores. Como es ligero, al montarlo fuera se balancea. Por eso no recomendamos utilizarlo al aire libre. Si está seguro de que las condiciones meteorológicas te permitirán mantener estable el Roll Up, te recomendamos que añadas pesos a la parte de soporte de la estructura.',
          ],
          '5' => [
-           'question' => '¿Cuanto cuesta pedir un roll up impreso?',
-           'answer' => 'Roll up es uno de los producto publicitario más económicos y efecaz. El precio de un roll-up con impresión comienza desde 87 euros. Brindamos servicios de diseño y entrega por una tarifa adicional.',
+           'question' => '¿Qué presupuesto tengo que destinar a la fabricación e impresión de un Roll Up?',
+           'answer' => 'El banner Roll Up es una de las construcciones móviles más económicas. El precio de un Roll Up con impresión es a partir de 87 euros. Por un precio adicional ofrecemos servicios de diseño y entrega.',
          ],
          '6' => [
-           'question' => '¿Puedo transportar un roll-up en un coche?',
-           'answer' => 'El roll up se enrolla fácilmente formando un casete y se empaqueta de forma compacta para su transporte. El casete con la pancarta y todos los componentes se colocan en una bolsa textil con asas. Una vez plegado, el enrollable cabe en cualquier turismo com el peso aproximado de 4 kg',
+           'question' => '¿Puedo transportar el roll-up en un coche normal?',
+           'answer' => 'El banner puede enrollarse fácilmente en un casete y embalarse de forma compacta para su transporte. El casete de la pancarta y todos los accesorios caben en una bolsa textil con asas. Una vez plegado, el Roll Up cabe en cualquier automóvil.',
          ],
          '7' => [
-           'question' => 'Ya tenemos un enrollado, pero una parte está rota. ¿Puedes ayudar a reemplazarlo?',
-           'answer' => 'Lamentablemente, no proporcionamos piezas de repuesto para roll-ups.',
+           'question' => 'Ya tenemos una estructura enrollable, pero una de sus partes está rota. ¿Podéis ayudarme a reemplazarla?',
+           'answer' => 'Por desgracia, no ofrecemos un servicio de sustitución de piezas para estructuras Roll up, ya que nuestra experiencia se centra en la creación e impresión de nuevos productos. Siempre estaremos encantados de ayudarte a elegir un nuevo banner Roll Up u otro producto promocional que satisfaga plenamente tus necesidades.',
          ],
          '8' => [
-           'question' => '¿Podéis hacer envíos no sólo a toda España, sino también a otras ciudades europeas?',
-           'answer' => 'Nuestra empresa se esfuerza por hacer que el proceso de recepción de nuestros productos sea lo más conveniente posible para nuestros clientes, independientemente de su ubicación. Entregaremos sus productos promocionales en cualquier lugar de Europa.',
+           'question' => '¿Hacéis entregas no sólo en España sino también en otras ciudades de Europa?',
+           'answer' => 'Nuestra empresa se esfuerza por hacer que el proceso de envío de nuestros productos sea lo más cómodo posible para nuestros clientes, independientemente de su lugar de residencia. Entregaremos tus pedidos de productos promocionales en cualquier rincón de Europa.',
          ],
       ],
-      'about_text' => '¿Qué es un roll-up?<br><br>
-      Roll-up (o rollup) es una estructura publicitaria, que es una pancarta vertical estirada sobre un soporte. La principal ventaja del roll-up es su movilidad y versatilidad. Esta herramienta le permite crear rápida y fácilmente publicidad expresiva que puede usarse en ferias comerciales, conferencias, lanzamientos de productos, tiendas, ferias y muchos otros eventos. Los roll-ups son extremadamente populares entre los empresarios y especialistas en marketing de todo el mundo, y esto no es sorprendente.<br><br>
-      Ventajas de utilizar roll-ups:<br><br>
-      Llamar la atención visualmente: Los roll-ups permiten distinguir tu publicidad de la del resto de participantes del evento gracias a su gran formato y alta calidad de impresión. Los colores vibrantes, las imágenes claras y los diseños informativos ayudan a captar la atención de los clientes potenciales.<br><br>
-      Movilidad: Los roll-ups son fáciles de transportar e instalar. Se pliegan de forma compacta en estuches especiales y no requieren habilidades especiales para su instalación. Esto permite su uso en diversos eventos donde se necesita publicidad rápida y conveniente.<br><br>
-      Contenido informativo: los roll-ups brindan espacio para publicar información importante sobre su empresa, productos o servicios. Puede incluir un logotipo, información de contacto, una breve descripción e incluso imágenes de sus productos.<br><br>
-      Rentable: El coste de producir roll-ups es relativamente bajo en comparación con otros tipos de publicidad. Al mismo tiempo, duran mucho tiempo y se pueden utilizar en muchos eventos.<br><br>
-      Aspecto profesional: Los roll-ups le dan a su empresa un aspecto profesional y respetable. Esta herramienta se considera una de las herramientas estándar para presentar un negocio.<br><br>
-      Utiliza roll-ups para conseguir tus objetivos<br><br>
-      Independientemente de si su objetivo es atraer nuevos clientes, promocionar un nuevo producto o participar en una exposición, un roll-up puede ser un asistente indispensable. Es importante adoptar el enfoque correcto a la hora de crear el diseño y el contenido de un roll-up para que cumpla su propósito de la forma más eficaz posible.<br><br>]
-      Por lo tanto, el roll-up no es sólo un medio de publicidad cómodo y móvil, sino también una poderosa herramienta para lograr sus objetivos en el mundo empresarial. No importa cuál sea su industria o el tamaño de su empresa, un resumen puede ayudarlo a destacar y atraer la atención de su público objetivo.'
+      'about_text' => '¿Qué es un banner Roll Up?<br>
+      Un roll up (o banner enrollable) es un elemento publicitario portátil, que consiste en una pancarta vertical tensada sobre un soporte. La principal ventaja de un roll up es su facilidad de transporte y su carácter universal. Esta herramienta permite crear rápida y fácilmente un anuncio expresivo, que puede utilizarse en exposiciones, conferencias, presentaciones de productos, en tiendas, en ferias y en muchos otros eventos. Los banners roll up son muy populares entre empresarios y vendedores de todo el mundo, y no es de sorprender.<br>
+      Ventajas de estructuras roll up:<br><br>
+      Llaman la atención de los visitantes: los banners roll up hacen que tu anuncio se destaque del resto del evento gracias a su gran formato y a su impresión de alta calidad. Los colores vivos, las imágenes claras y el diseño informativo ayudarán a atraer la atención de los clientes potenciales.<br>
+
+      Mobilidad: Los sistemas enrollables Roll Up son fáciles de transportar e instalar. Se pliegan y se guardan de forma compacta en cajas especiales y no requieren conocimientos especiales para su instalación. Esto te permite utilizarlos en diversos eventos en los que necesite una publicidad rápida y cómoda.<br>
+
+      Contenido informativo: Los paneles Roll Up ofrecen un espacio para anunciar información importante sobre tu empresa, productos o servicios. Puede incluir el logotipo, datos de contacto, una descripción breve e incluso imágenes de tus productos.<br>
+
+      Rentabilidad: el coste de producción de los banners enrollables es relativamente bajo en comparación con otros tipos de publicidad. Además, duran mucho tiempo y pueden utilizarse en multitud de eventos.<br>
+
+      Aspecto profesional: Los banners roll up aportan a tu empresa un aspecto profesional y firme. Esta herramienta se considera uno de los medios estándar de presentación de una empresa.<br>
+
+      Utiliza un Roll Up para alcanzar tus objetivos.<br>
+      Tanto si el objetivo es atraer a nuevos clientes como promocionar un nuevo producto o exponer en una feria comercial, un banner enrollable puede ser una herramienta indispensable. Es importante acertar con el diseño y el contenido del roll up para que cumpla su objetivo con la mayor eficacia.<br>
+      Así que un sistema Roll Up no es sólo un medio publicitario cómodo y móvil, sino también una poderosa herramienta para alcanzar tus objetivos en el mundo de los negocios. Independientemente del sector o el tamaño de la empresa, un banner Roll Up puede ayudarte a destacar y captar la atención de tu público objetivo.'
    ],
    'clothes'=>[
       'banner' => [
          'title' => 'Ropa',
          'circle_text' => 'Producción hasta 14 días',
       ],
-      'text' => 'La ropa perzonalizada o ropa de marca aumenta el conocimiento, promueve la marca y crea una apariencia profesional y uniforme para empleados y clientes. Ofrecemos una gran selección de ropa para diferentes áreas de negocio, como salones de belleza, restaurantes, bares y cafeterías, panaderías, clubes deportivos y gimnasios, empresas constructoras e instituciones médicas.',
+      'text' => 'La ropa de marca aumenta el reconocimiento, promociona la marca y crea un aspecto profesional y único para los clientes. Ofrecemos una amplia gama de ropa para distintos sectores empresariales, como salones de belleza, restaurantes, bares y cafeterías, panaderías, clubes deportivos y gimnasios, empresas de construcción o instituciones médicas.',
       'lead' => [
          'title' => 'Deja una solicitud para pedir tu ropa perzonalizada ',
       ], 
       'types' => [
          'title' => 'Tipos de impresion',
-         'text' => 'Los principales tipos de impresion de ropa son la impresión digital, la transferencia térmica y el bordado:',
+         'text' => 'Los principales tipos de branding de ropa son la impresión digital, la transferencia térmica y el bordado:',
          'image_titles' => [
-         '1' => 'Impresion digital',
-         '1_text' => 'La impresión digital es una tecnología moderna para la impresión directa sobre materiales textiles. Este método proporciona gran detalle y colores ricos, la capacidad de crear imágenes únicas y personalizadas para negocios, eventos y uso personal. Las imágenes no se desvanecen ni se lavan después del lavado. El proceso de impresión es seguro y no daña el medio ambiente.',
+         '1' => 'Impresión digital',
+         '1_text' => 'Es una tecnología moderna para la impresión directa sobre materiales textiles. Este método proporciona gran detalle y riqueza de colores, la posibilidad de crear imágenes únicas y personalizadas para empresas, eventos y uso personal. Las imágenes no se decoloran ni se borran con los lavados. El proceso de aplicación de imágenes es seguro y ecológico.',
          'alt_1' => '',
          '2' => 'Transferencia térmica',
-         '2_text' => 'Transfer o DFT. La transferencia térmica es un método en el que primero se crea una imagen en un papel especial y luego se transfiere a un material textil mediante calor y presión. Le permite crear imágenes coloridas y detalladas en varios tipos de telas. La transferencia está firmemente sujeta a la tela para mayor durabilidad y facilidad de lavado. La ventaja de la impresión térmica es la posibilidad de aplicar imágenes a superficies complejas: gorras, bolsos, paraguas.',
+         '2_text' => 'Método en el que primero se crea una imagen en un papel especial y luego se transfiere a un material textil mediante calor y presión. Esto permite crear imágenes coloridas y detalladas en varios tipos de tejidos. La transferencia se fija firmemente al tejido, lo que garantiza su durabilidad y resistencia al lavado. La ventaja de la impresión térmica es la posibilidad de aplicar la imagen a superficies complejas: gorras, bolsos, paraguas.',
          'alt_2' => '',
          '3' => 'Bordado',
-         '3_text' => 'El bordado es una forma bastante popular de crear un estilo corporativo y personalizar ropa para empresas, equipos deportivos, escuelas, restaurantes y otras organizaciones. El bordado le da a la ropa una apariencia profesional y de alta calidad. Este tipo de marca de ropa es resistente al lavado, al desgaste y al medio ambiente, por lo que los logotipos y diseños conservan su apariencia durante mucho tiempo.',
+         '3_text' => 'Es una forma bastante popular de crear estilo corporativo y personalizar prendas para empresas, equipos deportivos, colegios, restaurantes y otras organizaciones. El bordado confiere a las prendas un aspecto profesional y de alta calidad. Este tipo de branding para la ropa es resistente al lavado, al deterioro y a los daños ambientales, por lo que los logotipos y diseños conservan su aspecto con el paso del tiempo.',
          'alt_3' => '',
          ],
       ],
@@ -290,56 +296,56 @@ return [
     ],
        'questions' => [
          '1' => [
-           'question' => '¿Qué tipos de ropa están disponibles para la impresion?',
-           'answer' => 'Ofrecemos una amplia gama de ropa de marca, que incluye camisetas, camisas, chaquetas, gorras y mucho más. Puede obtener más información sobre la gama comunicándose con nuestros gerentes o dejando una solicitud en nuestro sitio web en el formulario de comentarios.',
+           'question' => '¿Qué tipos de ropa están disponibles para el branding?',
+           'answer' => 'Ofrecemos una amplia gama de ropa para el branding, como camisetas, camisas, chaquetas, gorras y otros artículos. Puedes obtener más información sobre la gama poniéndote en contacto con nuestros responsables o dejando una solicitud en nuestro sitio web en forma de un formulario.',
          ],
          '2' => [
-           'question' => '¿Qué materiales están disponibles para la marca?',
-           'answer' => 'Principalmente algodón: las camisetas, camisas y otras prendas de algodón son una opción popular para la marca; poliéster: este material se utiliza a menudo en ropa deportiva y uniformes. Es liviano, transpirable y proporciona una impresión vibrante. Y materiales mixtos: Algunas prendas pueden ser una mezcla de algodón y poliéster u otros materiales, lo que puede proporcionar una combinación de comodidad y durabilidad. También ofrecemos productos de lana. Los productos de lana son populares para uso al aire libre. Se pueden utilizar para marcar mediante bordado o impresión.',
+           'question' => '¿Qué materiales se utilizan para estampar la imagen?',
+           'answer' => 'Principalmente son de algodón: camisetas, camisas y otras prendas de algodón son opciones populares para la impresión; de poliéster: este material se utiliza a menudo en ropa deportiva y uniformes. Es ligero, transpirable y proporciona una impresión colorida. Y también de materiales mezclados: algunas prendas pueden estar compuestas por una mezcla de algodón y poliéster u otros materiales, que pueden proporcionar una combinación de comodidad y durabilidad. También ofrecemos productos de forro polar o vellón. Los productos de forro polar son muy populares para prendas exteriores. Se pueden utilizar para marcar mediante bordado o impresión.',
          ],
          '3' => [
-           'question' => '¿Qué garantías de calidad se ofrecen para la ropa de marca?',
-           'answer' => 'La ropa que ofrece nuestra agencia está fabricada con materiales de alta calidad que garantizan una larga vida útil y comodidad. También ofrecemos una garantía sobre la calidad de los logotipos e imágenes aplicados a la ropa. Esto incluye intensidad del color, claridad de los detalles y durabilidad de la impresión.',
-         ],
+          'question' => '¿Qué garantías de calidad se ofrecen sobre la ropa personalizada con una impresión?',
+          'answer' => 'La ropa que ofrece nuestra agencia está fabricada con materiales de alta calidad que garantizan una larga duración y comodidad de uso. También garantizamos la calidad de la impresión de logotipos e imágenes en la ropa. Esto incluye el brillo de los colores, la calidad de los detalles y la durabilidad de la impresión.',
+        ],
          '4' => [
            'question' => '¿Cómo se entregarán los productos solicitados?',
-           'answer' => 'Los productos se pueden entregar directamente a su dirección especificada mediante un servicio de mensajería. Este método se utiliza a menudo para volúmenes de pedidos pequeños. Para pedidos más grandes, los enviamos a través de un servicio postal, como una oficina de correos o servicios de mensajería, para su entrega a su dirección.',
+           'answer' => 'Los productos pueden entregarse directamente a tu domicilio por un mensajero. Este método suele utilizarse para pedidos pequeños. Los pedidos más grandes se envían por correo postal o envío a tu domicilio.',
          ],
          '5' => [
            'question' => '¿Cuál es el pedido mínimo de ropa de marca?',
-           'answer' => 'Pedido mínimo – a partir de 10 unidades.',
+           'answer' => 'El pedido mínimo es a partir de 10 unidades.',
          ],
          '6' => [
-           'question' => '¿Qué colores están disponibles?',
-           'answer' => 'Los colores básicos como blanco, negro, azul, gris y otros siempre están disponibles. Ofrecemos colores brillantes y ricos en algunos modelos de camisetas y ropa especial. Si busca colores específicos, podemos pedirlos personalizados para usted.',
+           'question' => '¿Qué colores hay disponibles?',
+           'answer' => 'Los colores básicos como blanco, negro, azul, gris y otros están siempre disponibles. Ofrecemos colores vivos y vibrantes en algunas camisetas y prendas especiales. Si buscas colores específicos, podemos conseguírtelos por encargo.',
          ],
          '7' => [
-           'question' => '¿Puedo obtener muestras o ejemplos de ropa de marca?',
-           'answer' => 'Después de un acuerdo preliminar sobre el volumen del pedido y el tiempo de producción, mostramos muestras de ropa y, si es necesario, hacemos una muestra piloto con impresión.',
+           'question' => '¿Es posible obtener muestras o ejemplos de prendas de marca?',
+           'answer' => 'Tras un previo acuerdo sobre el volumen del pedido y las condiciones de producción, enseñamos muestras de la prenda y, si es necesario, hacemos una muestra piloto con impresión.',
          ],
          '8' => [
            'question' => '¿Hay descuentos u ofertas especiales para pedidos grandes?',
-           'answer' => 'Para pedidos grandes, ofrecemos acuerdos y precios individuales que tienen en cuenta las características específicas y el volumen del pedido. También podemos organizar costos de envío gratuitos o significativamente reducidos.',
+           'answer' => 'Para pedidos grandes, ofrecemos acuerdos y precios personalizados que tienen en cuenta las características específicas y el volumen del pedido. También podemos organizar un envío gratuito o precios de envío considerablemente reducidos.',
          ],
       ],
-      'about_text' => 'Bienvenido al mundo de la impresión de prendas personalizadas, donde cada camiseta, suéter y bolso se convierte en un lienzo para tu estilo y expresión únicos. Somos su socio confiable en la creación de diseños únicos y estamos listos para convertir sus ideas más locas en realidad.
-      <br><br>Por qué elegirnos:
-      <br>Habilidad y experiencia: Somos profesionales de la impresión de prendas con una rica experiencia. Nuestros especialistas dominan las tecnologías modernas y saben cómo crear diseños duraderos y de alta calidad.
-      <br>Enfoque individual: Entendemos que cada cliente es único. Por lo tanto, trabajamos estrechamente con usted para comprender sus necesidades y brindarle la solución que mejor satisfaga sus expectativas.
-      <br><br>Amplia gama de materiales: Tenemos acceso a una amplia variedad de telas y materiales, lo que nos permite crear una variedad de ideas y satisfacer sus necesidades de estilo y comodidad.
-      <br>Soluciones creativas: nuestro equipo de diseñadores está listo para hacer realidad incluso las ideas más atípicas. Podemos ayudarle a crear un logotipo, eslogan o imagen únicos que lo harán destacar entre la multitud.
-      <br>Rapidez y confiabilidad: Valoramos su tiempo y siempre cumplimos con los plazos. Puede estar seguro de que su pedido se completará a tiempo y al más alto nivel.
-      <br><br>Respetuoso con el medio ambiente: Nos preocupamos por nuestro planeta y utilizamos materiales y tecnologías de impresión respetuosos con el medio ambiente para minimizar nuestra huella ambiental.
-      <br><br>Trabajamos con clientes de todos los tamaños, desde personas que buscan crear un regalo único o expresar su pasión en una camiseta, hasta marcas que buscan mejorar su imagen con ropa corporativa. Cualquiera que sea su objetivo, estamos dispuestos a contribuir a su consecución.
-      <br>La impresión de prendas no es sólo un proceso, es un arte que hemos perfeccionado. Con nosotros recibirás no sólo un producto, sino una obra de arte que reflejará tu estilo, ideas y personalidad.
-      <br><br>Contáctanos ahora mismo y te ayudaremos a crear algo verdaderamente único e inimitable. ¡Deja que tu ropa hable de ti y hagámosla inolvidable juntos!',
+      'about_text' => 'Bienvenid@ al mundo de la impresión de prendas personalizadas, donde cada camiseta, sudadera y bolsa se convierte en un lienzo para tu estilo único y tu autoexpresión. Somos tu compañero de confianza en la creación de diseños únicos, y estamos preparados para hacer realidad tus ideas más locas.
+      <br>Por qué elegirnos:
+      <br>Habilidad y experiencia: Somos profesionales de la impresión de prendas con una gran experiencia. Nuestros especialistas dominan las tecnologías modernas y saben cómo crear diseños duraderos y de alta calidad.
+      <br>Enfoque personalizado: Entendemos que cada cliente es único. Por eso trabajamos mano a mano con el cliente para entender sus necesidades y ofrecerle la solución que mejor se adapte a sus expectativas.
+      <br><br>Amplia gama de materiales: tenemos acceso a una gran variedad de tejidos y materiales, lo que nos permite hacer realidad una amplia gama de ideas y satisfacer tus requisitos de estilo y comodidad.
+      <br>Soluciones creativas: nuestro equipo de diseño está preparado para hacer realidad incluso las ideas más originales. Podemos ayudarte a crear un logotipo, un eslogan o una imagen únicos que te harán destacar entre la competencia.
+      <br>Rapidez y seguridad: valoramos tu tiempo y siempre cumplimos los plazos. Puedes estar seguro de que su pedido se completará a tiempo y con la máxima calidad.
+      <br><br>Respetuosos con el medio ambiente: nos preocupamos por nuestro planeta y utilizamos materiales y técnicas de impresión respetuosos con el medio ambiente para minimizar nuestra huella ecológica.
+      <br><br>Trabajamos con clientes de todos los sectores: desde particulares que quieren hacer un regalo único o expresar sus aficiones en una camiseta, hasta marcas que quieren reforzar su imagen con ropa corporativa. Sea cual sea tu objetivo, estamos preparados para aportar nuestro granito de arena y ayudarte a lograrlo. 
+      <br>La impresión sobre ropa no es sólo un proceso, es un arte que hemos perfeccionado. Con nosotros, no sólo obtendrás un producto, sino una obra de arte que reflejará tu estilo, tus ideas y tu personalidad.
+      <br><br>Ponte en contacto con nosotros ahora y te ayudaremos a crear algo verdaderamente único y distintivo. Deja que tu ropa hable de ti, ¡y hagámosla inolvidable juntos!'
    ],
    'badges'=>[
       'banner' => [
          'title' => 'Lanyards',
          'circle_text' => 'Producción hasta 14 días',
       ],
-      'text' => 'Lanyards se utilizan habitualmente para identificación en eventos, oficinas, exposiciones y conferencias. Están sujetos a una cinta de raso mediante un mosquetón de metal. Como regla general, se utilizan colores básicos de cintas con logotipo impreso. Los logotipos se pueden imprimir en un lado de la cinta o en ambos lados. Los mosquetones metálicos que ofrecemos son prácticos y fiables. Lanyards facilitan la comunicación y el conocimiento mutuo, así que no pierda la oportunidad de solicitarnos un diseño completo de eventos, incluidas las insignias.',
+      'text' => 'Las fundas para tarjetas de identificación se utilizan habitualmente para identificar a una persona y saludar a otra gente en eventos, oficinas, exposiciones y conferencias. Se fijan a un lanyard o una cinta de satén con ayuda de hebillas metálicas o mosquetón. Por lo general, se utilizan cintas de colores básicos con el logotipo impreso. Los logotipos pueden imprimirse en una cara de la cinta o en ambas. Las hebillas metálicas que ofrecemos son cómodas y fiables. Los lanyards colgantes facilitan la comunicación y la presentación, así que no pierdas la oportunidad de solicitarnos un diseño de evento completo que incluya la fabricación de lanyards.',
       'lead' => [
          'title' => 'Deja una solicitud para pedir lanyards perzonalizados',
       ], 
@@ -370,61 +376,62 @@ return [
       ],
       'questions' => [
          '1' => [
-           'question' => 'Cuáles son los tamaños de lanyards disponibles?',
-           'answer' => 'Normalmente, ofrecemos tamaños de cinta estándar, como 1,5 y 2 cm de ancho y 38 cm de largo.',
+           'question' => '¿Qué tamaños y formas de lanyards hay disponibles?',
+           'answer' => 'Por lo general, ofrecemos tamaños de cinta estándar, como 15 mm y 20 mm de ancho y 38 cm de largo',
          ],
          '2' => [
-           'question' => '¿Puedo pedir lanyards personalizadas?',
-           'answer' => 'Estamos listos para brindarle una variedad de opciones de personalización para que sus lanyards sean únicas y se adapten a sus necesidades. Esto puede incluir agregar el nombre y apellido del titular de la credencial, insertar fotografías, indicar el puesto y la información de contacto. Además, imprimimos códigos de barras y códigos QR para un acceso rápido a la información.',
+           'question' => '¿Puedo solicitar lanyards personalizados?',
+           'answer' => 'Podemos ofrecerte varias opciones de personalización para que tus lanyards sean únicos y se ajusten a tus necesidades. Esto puede incluir añadir el nombre y los apellidos del titular de la tarjeta, colocar fotos, el cargo y los datos de contacto. Además, imprimimos códigos de barras y códigos QR para acceder rápidamente a la información.',
          ],
          '3' => [
-           'question' => '¿Qué más haces para eventos?',
-           'answer' => 'Ofrecemos una gama completa de servicios para eventos, desde la producción de impresiones relacionadas, como folletos, descuentos, folletos y tarjetas de presentación, hasta la creación de stands, banderas, roll up y photocalls. Nuestra experencia nos permite satisfacer plenamente las necesidades de su evento o congreso, aportando soluciones de calidad en todos los aspectos del mismo. Nuestro objetivo es hacer que su evento sea único y memorable.',
+           'question' => '¿Qué más hacéis para los eventos?',
+           'answer' => 'Ofrecemos una gama completa de servicios para eventos, desde la producción de impresos, como flyers, descuentos, folletos y tarjetas de visita, hasta la creación de stands, banderas, pancartas y tribunas. Nuestro diseño y producción integral llave en mano nos permite satisfacer plenamente las necesidades de tu evento o conferencia, proporcionando soluciones de calidad para todos los aspectos del mismo. Nuestro objetivo es hacer que tu acontecimiento sea único y memorable.',
          ],
          '4' => [
-           'question' => '¿Hacen envíos a otras ciudades?',
-           'answer' => 'Sí, entregamos nuestros productos a otras ciudades.',
+           'question' => '¿Realizáis envíos a otras ciudades?',
+           'answer' => 'Sí, enviamos nuestros productos a otras ciudades.',
          ],
          '5' => [
-           'question' => '¿Cual es el pedido mínimo?',
-           'answer' => 'Depende del productos a partir de 100 uds.',
+           'question' => '¿Cantidad mínima del pedido?',
+           'answer' => 'La cantidad mínima de impresión es de 50 unidades.',
          ],
          '6' => [
-           'question' => '¿Qué opciones de montaje de lanyards están disponibles?',
-           'answer' => 'El tipo de sujeción más popular, cómodo y moderno es el mosquetón.',
+           'question' => '¿Qué opciones de fijación de tarjetas identificativas existen?',
+           'answer' => 'El tipo de fijación más popular, cómodo y moderno es el mosquetón.',
          ],
          '7' => [
-           'question' => '¿Puedo pedir cintas para lanyards por separado?',
-           'answer' => 'Por supuesto, puedes pedir lanyards y tarjetas impresas por separado. Estamos listos para brindarle opciones de pedidos flexibles que se adapten a sus necesidades específicas.',
+           'question' => '¿Puedo pedir las cintas para las fundas por separado?',
+           'answer' => 'Por supuesto, es posible solicitar por separado la impresión de los portatarjetas y las cintas. Estamos a tu disposición para ofrecerte opciones de pedido flexibles que se adapten a tus necesidades específicas.',
          ],
          '8' => [
-           'question' => '¿Cuál es el tiempo mínimo de producción de lanyards?',
-           'answer' => 'Para garantizar el cumplimiento urgente y prioritario de los pedidos, se encuentra disponible la producción exprés. Tenga en cuenta que este servicio implica una tarifa adicional, lo que nos permitirá proporcionarle el producto que necesita lo más rápido posible sin comprometer su calidad.',
+           'question' => '¿Cuál es el plazo mínimo de fabricación de los lanyards?',
+           'answer' => 'Para garantizar el cumplimiento de los pedidos urgentes y prioritarios, existe una opción de fabricación exprés. Ten en cuenta que este servicio conlleva un coste adicional, que nos permitirá proporcionarte el producto requerido en el menor tiempo posible sin comprometer su calidad.',
          ],
       ],
-      'about_text' => 'Producción de lanyards perzonalizados: calidad, estilo y profesionalidad al servicio de su identificación.
-      <br>Las cintas para lanyards son un elemento importante de identificación corporativa y se utilizan ampliamente en eventos, conferencias y otras áreas. Ayudan a determinar fácilmente el estatus de una persona, su pertenencia a un determinado grupo u organización y también mejoran la percepción visual y la apariencia profesional. Si busca lanyards de alta calidad, ha venido al lugar correcto.
-      <br><br>Nuestra empresa lleva más de 5 años fabricando lanyards personalizados, por lo que podemos recomendarte la mejor opción para tu evento.
-      <br><br>Poliéster (cinta de poliéster): Este es uno de los materiales más populares para hacer cintas para lanyards. Las cintas de poliéster son muy duraderas y duraderas, resistentes a la abrasión y a la decoloración y vienen en una variedad de colores y texturas.
-      <br><br>Satén: Las cintas de raso tienen un acabado brillante y se utilizan a menudo para insignias más elegantes y adornadas. Son muy adecuados para bodas o eventos muy formales.
-      <br><br>La elección del material de la cinta para insignias depende de sus objetivos, estilo de evento y presupuesto. Cada uno de estos materiales tiene sus propias ventajas y características, y la elección de un material en particular dependerá de los requisitos específicos de su proyecto.',
+      'about_text' => 'Producción de cintas y fundas para tarjetas identificativas: calidad, estilo y profesionalidad al servicio de tu identificación.
+      <br>Los lanyards son un elemento importante de la identificación corporativa y se utilizan mucho en eventos, conferencias y otros ámbitos. Ayudan a identificar fácilmente el estatus de una persona, su pertenencia a un determinado grupo u organización, además de mejorar la percepción visual y el aspecto profesional. Si necesitas cintas con fundas para tarjetas de alta calidad, has llegado al lugar adecuado. Nuestra empresa lleva más de 5 años personalizando tarjetas identificativas, por lo que podemos recomendarte la mejor opción para tu evento.
+      <br>Poliéster (lanyard de poliéster): Este es uno de los materiales más populares para las cintas. Las cintas de poliéster son fuertes y duraderas, resistentes a las rascadas y a la decoloración y están disponibles en una gran variedad de colores y texturas.
+      <br>Satén: Los lanyards de satén tienen una superficie brillante y suelen utilizarse para portatarjetas más elegantes y adornados. Son muy apropiadas para las bodas o las ceremonias más formales.
+      <br>La elección del material de la cinta y la funda para tarjetas identificativas depende de los objetivos, el estilo del evento y el presupuesto. Cada uno de estos materiales tiene sus propias ventajas y características, y la elección de un material concreto dependerá de los requisitos específicos de tu proyecto.'
    ],
    'figures'=>[
     'banner' => [
        'title' => 'Figuras',
        'circle_text' => 'Producción hasta 30 días',
     ],
-    'text' => 'Estructuras publicitarias, stands, podios, expositores para ferias, figuras de tamaño natural: estos son los elementos clave que pueden llevar su campaña publicitaria al siguiente nivel. Nos especializamos en la creación de soluciones publicitarias creativas y efectivas que lo diferenciarán de sus competidores. Con nosotros no sólo obtendrá productos de alta calidad, sino también una gama completa de servicios, desde el desarrollo conceptual y el diseño hasta la producción y la instalación. Nuestra experiencia y profesionalidad garantizan que su publicidad será lo más atractiva y eficaz posible. Estamos orgullosos de la calidad de nuestros productos y nos esforzamos por hacer que nuestras soluciones sean lo más sostenibles posible desde el punto de vista medioambiental, garantizando el uso de materiales reciclados. Al elegirnos, obtienes soluciones publicitarias que funcionan. ¡Haz que tu empresa sea más exitosa y visible con nuestra ayuda!',
+    'text' => 'Estructuras promocionales, stands, tribunas y figuras a tamaño real son elementos clave que pueden llevar tu campaña publicitaria al siguiente nivel. Somos especialistas en crear soluciones publicitarias creativas y eficaces que le diferenciarán de los competidores.
+    <br>Con nosotros no sólo obtendrás productos de calidad, sino también una gama completa de servicios, desde el concepto y el diseño hasta la producción y la instalación.
+    <br>Al elegirnos, disfrutarás de soluciones publicitarias que funcionan. Haz que tu empresa tenga más éxito y sea más visible con nuestra ayuda.',
     'lead' => [
       'title' => 'Deja una solicitud para pedir estructuras perzonalizadas',
     ],
     'material'=>[
       'title' => 'Materiales',
-      'text' => 'En la fabricación de figuras y estructuras publicitarias utilizamos diversos tipos de materiales, como  PVC, metacrilato, paneles compuestos de madera, composito, cristales y otros.'
+      'text' => 'En la fabricación de figuras y estructuras publicitarias utilizamos diferentes tipos de materiales como: plástico PVC, metacrilato, madera, paneles composite de aluminio, vidrio y otros.'
     ],
     'backlight' => [
       'title' => 'Iluminación',
-      'text' => 'Para iluminar las estructuras de ferias, expositores publicitarias o figuras utilizamos tiras de led, neon o módulos LED, tienen un bajo consumo de energía, una larga vida útil y son más compactas y eficientes en comparación con las fuentes de luz tradicionales.',
+      'text' => 'La iluminación de estructuras y figuras publicitarias se realiza mediante tiras de luz LED, neón o módulos LED. Todos ellos tienen un bajo consumo de energía, una larga vida útil y son más compactos y eficientes que las fuentes de luz tradicionales.',
       'image_titles' => [
       '1' => 'Tiras LED',
       'alt_1' => '',
@@ -447,44 +454,44 @@ return [
     ],
     'questions' => [
       '1' => [
-        'question' => 'Qué experiencia tiene su empresa en la fabricación de stands y figuras?',
-        'answer' => 'Nuestra empresa cuenta con más de 8 años de experiencia en la fabricación de stands y figuras. Estamos orgullosos de nuestro portfolio de trabajos, que incluye proyectos para grandes clientes. Ver ejemplos de trabajos en el <a class="content-questions__answer-link" href="' . route('portfolio', ['locale' => __('lang.current')]) . '">portfolio.</a>',
+        'question' => '¿Qué experiencia tiene vuestra empresa en la fabricación de stands y figuras?',
+        'answer' => 'Nuestra empresa lleva más de 8 años fabricando stands y figuras. Estamos orgullosos de nuestra cartera, que incluye proyectos para grandes clientes. Echa un vistazo a los ejemplos de trabajos en el <a class="content-questions__answer-link" href="' . route('portfolio', ['locale' => __('lang.current')]) . '">portafolio.</a>',
       ],
       '2' => [
-        'question' => '¿Qué materiales utilizas para hacer stands y figuras?',
-        'answer' => 'Utilizamos una variedad de materiales dependiendo de las necesidades del proyecto. Esto incluye madera, metal, plástico y acrílico. También podemos trabajar con una variedad de acabados y pinturas.',
+        'question' => '¿Cuáles son los plazos de entrega del stand o las figuras?',
+        'answer' => 'Los plazos dependen de la dificultad del proyecto. Antes de proceder a la realización, acordamos con el cliente todas las condiciones de instalación o entrega del producto.',
       ],
       '3' => [
-        'question' => '¿Cuál es el plazo de entrega de un pedido para realizar un stand o figura?',
-        'answer' => 'El tiempo de produccion del pedido depende de la complejidad del proyecto, pero siempre intentamos cumplir los plazos. Podemos proporcionar un período garantizado dependiendo del volumen de trabajo.',
+        'question' => '¿Qué opciones tenéis para la entrega e instalación del stand o la figura?',
+        'answer' => 'Ofrecemos servicios de entrega e instalación en el domicilio del cliente. El coste se calcula de forma individual para cada pedido.',
       ],
       '4' => [
-        'question' => '¿Cuáles son las posibilidades de fabricacion de stands, expositores o estructuras de ferias?',
-        'answer' => 'Estamos listos para completar incluso los proyectos más complejos de stands y figuras. Puede proporcionarnos su diseño donde desarrollaremos una solución única basada en sus requisitos.',
+        'question' => '¿Qué servicios u opciones adicionales, como por ejemplo almacenamiento o restauración, alquiler, desmontaje, podéis ofrecer para nuestros stands y figuras una vez ya fabricados?',
+        'answer' => 'No ofrecemos servicios de almacenamiento de materiales. Además de la fabricación, también ofrecemos servicios de desmontaje de stands y figuras una vez finalizado el proyecto.',
       ],
       '5' =>[
-        'question' => '¿Cuáles son sus capacidades para la entrega e instalación de un stand o figura?',
-        'answer' => 'Ofrecemos servicios de entrega e instalación de stands y figuras en su domicilio. El coste de envío e instalación estará indicado en la factura.',
+        'question' => '¿Qué materiales utilizáis para fabricar stands y figuras?',
+        'answer' => 'Utilizamos diferentes materiales en función del proyecto de diseño. Son de madera, metal, plástico o metacrilato. Además, realizamos diversos acabados y pinturas.',
       ],
       '6' => [
-        'question' => '¿Cuáles son sus precios por hacer stands y figuras?',
-        'answer' => ' Los precios de nuestros productos dependen del tamaño, materiales y complejidad del proyecto. Podemos discutir sus necesidades y acordar un presupuesto que satisfaga sus expectativas.',
+        'question' => '¿Qué opciones hay para personalizar un stand o una figura?',
+        'answer' => 'Nuestras instalaciones de producción nos permiten realizar los diseños más complejos de stands y figuras. Facilítanos tu diseño y desarrollaremos una solución única teniendo en cuenta tus requisitos.',
       ],
       '7' => [
-        'question' => '¿Qué servicios u opciones adicionales, como almacenamiento o restauración, alquiler, desmontaje, podéis ofrecer para nuestros stands y figuras una vez fabricados?',
-        'answer' => 'No brindamos servicios de almacenamiento de materiales. Además de la fabricación, también ofrecemos servicios de desmontaje de stands y figuras una vez finalizado el proyecto.',
+        'question' => '¿Cuáles son vuestros precios para la fabricación de stands y figuras?',
+        'answer' => 'Los precios de nuestros productos dependen del tamaño, los materiales y la complejidad del proyecto. Podemos hablar de lo que necesitas y acordar un presupuesto que se ajuste a tus expectativas.',
       ],
       '8' => [
-        'question' => '¿Cómo puedo empezar para hacer el pedido y cuáles son los pasos?',
-        'answer' => 'Primero, debe ponerse en contacto con nuestros comerciales el formulario en el pagina web o llamándonos para aclarar todos los matices.',
+        'question' => '¿Cómo puedo empezar a trabajar con vosotros y cuáles son los pasos?',
+        'answer' => 'En primer lugar, tienes que ponerte en contacto con nuestros comerciales rellenando el formulario de la página web. Y te llamaremos en menos de una hora para aclarar todos los detalles.',
       ],
     ],
-    'about_text' => 'Nuestra empresa es un fabricante profesional de estructuras publicitarias, podiumos, expositores para ferias, figuras de gran tamaño especializado en la creación de soluciones publicitarias únicas y efectivas. Ofrecemos una gama completa de servicios, desde el concepto y el diseño hasta la fabricación y la instalación.
-    <br><br>Nuestras estructuras y expositores son un arte que combina con creatividad y habilidades de ingeniería. Creamos stands, figuras o estructuras  publicitarias de cualquier complejidad que se destaquen entre la competencia. Nuestras soluciones se pueden utilizar en exposiciones, tiendas, eventos deportivos, en las calles de la ciudad y en muchos otros lugares.
-    <br><br>Los podiumos que producimos son adecuados para diversos eventos y presentaciones. Se pueden fabricar en diferentes formas y tamaños, y también pueden equiparse con elementos especiales para presentar productos u otros objetos. Nuestros productos no sólo aumentan la atención a su producto, sino que también hacen que su presentación sea más profesional y memorable.
-    <br><br>Las figuras de pie son una excelente solución para llamar la atención sobre tu marca o evento. Creamos figuras de tamaño natural de diferentes estilos y temáticas que pueden resaltar tu singularidad y apoyar tu campaña publicitaria. Se pueden fabricar figuras de tamaño natural tanto con materiales duraderos como con materiales adecuados para eventos únicos.
-    <br><br>Estamos orgullosos de la calidad de nuestros productos y brindamos un alto nivel de servicio al cliente. Nuestros expertos trabajan con usted en cada etapa del proyecto para satisfacer sus necesidades y expectativas. También nos esforzamos por hacer que nuestras soluciones publicitarias sean lo más sostenibles posible desde el punto de vista medioambiental, garantizando que utilizamos materiales recuperados y reciclables.
-    <br><br>Pedir estructuras publicitarias, figuras de altura, expositores que harán que su empresa sea más visible y exitosa, contáctenos. Nos encantaría ayudarle a crear una solución publicitaria que se ajuste a sus objetivos y presupuesto. Nuestra experiencia y profesionalismo garantizan que su campaña publicitaria sea exitosa y memorable.'
+    'about_text' => 'Nuestra empresa es un fabricante profesional de estructuras publicitarias, tribunas, estanterías de exposición y figuras a tamaño real, y se especializa en la creación de soluciones publicitarias únicas y eficaces. Ofrecemos un ciclo completo de servicios, desde el concepto y el diseño hasta la fabricación y la instalación.
+    <br>Nuestras estructuras publicitarias son un arte que combina creatividad y conocimientos de ingeniería. Creamos estructuras publicitarias de cualquier complejidad que destacan entre la competencia. Nuestras soluciones pueden utilizarse en exposiciones, tiendas, eventos deportivos, eventos de la calle y muchos otros lugares.
+    <br>Las estructuras y figuras que producimos son adecuadas para diversos eventos y presentaciones. Pueden fabricarse en diferentes formas y tamaños y pueden equiparse con elementos especiales para la presentación de productos u otros objetos. Nuestros stands no sólo aumentan la atención sobre su producto, sino que también hacen que la presentación sea más profesional y memorable.
+    <br>Las figuras a tamaño real son una gran solución para atraer la atención hacia tu marca o evento. Podemos crear diferentes estilos y temas que resalten la exclusividad de tu empresa y apoyen su campaña publicitaria. Las figuras a gran tamaño pueden fabricarse con materiales duraderos o con materiales adecuados para eventos concretos.
+    <br>Nos enorgullecemos de la calidad de nuestros productos y ofrecemos un alto nivel de atención al cliente. Nuestros expertos trabajan con el cliente en todas las fases del proyecto para satisfacer sus necesidades y expectativas. También nos esforzamos para que nuestras soluciones promocionales sean lo más sostenibles posible desde el punto de vista medioambiental, asegurándonos de utilizar materiales reciclados y reciclables.
+    <br>Si necesitas stands de exposición, estructuras publicitarias, plataformas volumétricas o figuras a tamaño real para que tu empresa sea más visible y tenga más éxito, ponte en contacto con nosotros. Estaremos encantados de ayudarte a crear una solución publicitaria que se ajuste a tus objetivos y presupuesto. Nuestra experiencia y profesionalidad garantizan que tu campaña publicitaria será exitosa e inolvidable.'
   ],
   'stands'=>[
     'banner' => [
@@ -492,28 +499,30 @@ return [
       'circle_text' => 'Aclarar plazos',
    ],
    
-   'text' => 'Bienvenido al mundo de posibilidades, donde cada exposición se convierte en un evento y cada stand en una obra de arte. Un stand de exposición es una estructura especialmente creada para presentar su empresa, productos o servicios en exposiciones y eventos. Esta es una herramienta importante para atraer la atención y la interacción con los visitantes. Incluye:
-    <br><br>Diseño y Gráfica: Diseño visual del stand que refleje la marca y valores de la empresa.
-    <br><br>Estructura: El núcleo de un stand que define su forma y funcionalidad.
-    <br><br>Elementos interactivos: Pantallas táctiles, juegos y otros elementos para atraer a los visitantes. Equipamiento: Monitores, muestras de productos y equipamiento técnico.
+    'text' => 'Stand de feria es una estructura especialmente diseñada para presentar la empresa, los productos o los servicios en ferias y exposiciones. Es una herramienta esencial para atraer la atención e interactuar con los visitantes.
+    <br>Los componentes importantes de un stand de feria son
+    <br><br>Diseño y gráfica: El diseño visual del stand que refleja la marca y los valores de la empresa.
+    <br><br>Estructura: La base del stand determina su forma y funcionalidad.
+    <br><br>Elementos interactivos: Pantallas táctiles, juegos y otros elementos para atraer a los visitantes.
+    <br><br>Equipamiento: Pantallas, muestras de productos y equipos técnicos.
     <br><br>Iluminación: Iluminación de alta calidad para hacer atractivo el stand.
-    <br><br>Mobiliario y complementos: Mesas, sillas y otros elementos para la comodidad de los visitantes.
-    <br><br>Materiales informativos: Folletos y materiales impresos.
-    <br><br>Áreas de presentación: Áreas para presentaciones y demostraciones.
-    <br><br>Logística e instalación: Planificación e instalación del stand en el lugar del evento.
-    <br><br>Un stand de exposición no es sólo un elemento estético, sino también una herramienta estratégica para alcanzar tus objetivos en el evento.',
+    <br><br>Mobiliario y accesorios: Mesas, sillas y otros elementos para comodidad de los visitantes.
+    <br><br>Material informativo: Folletos y material impreso.
+    <br><br>Zonas de presentación: Zonas para presentaciones y demostraciones.
+    <br><br>Logística y montaje: Planificación y montaje del stand en el lugar del evento.
+    <br><br>Un stand de feria no es sólo un elemento estético, sino también una herramienta estratégica para alcanzar tus objetivos en el evento.',
   
     'types' => [
       'title' => 'Tipos de stands',
-      'text' => 'Existen muchos tipos de stands de ferias que se utilizan en diversos campos, desde la educación hasta la industria expositiva. Ofrecemos los más populares de ellos:',
+      'text' => 'Hay muchos tipos de stands que se utilizan en diversos sectores, desde la educación hasta la industria ferial. Te ofrecemos los más populares:',
       'image_titles' => [
         '1' => 'Stand modular',
         'alt_1' => 'Stands, figuras y estructuras para ferias y eventos en Barcelona. Producción y envío a toda España.',
-        '2' => 'Estandart',
+        '2' => 'Stand estándar',
         'alt_2' => 'Fabricación de stands y figuras de exposición en España. Producción en Barcelona',
-        '3' => 'Promostands',
+        '3' => 'Stand de promoción',
         'alt_3' => 'Stands para exposiciones y eventos. Figuras volumétricas. Producción y envío a toda España.',
-        '4' => 'Stands exclusivos',
+        '4' => 'Stand exclusivo',
         'alt_4' => 'Stands exclusivos para exposiciones y eventos. Fabricación, instalación y desmontaje.',
       ],
     ],
@@ -531,21 +540,23 @@ return [
     'lead' => [
       'title' => 'Deja una solicitud para pedir stand para ferias',
     ],
-    'about_text' => '¡Bienvenido a un mundo de posibilidades creativas y stands de exposición impresionantes! Somos un equipo de profesionales dedicados al arte de crear espacios expositivos que dejen una impresión inolvidable.
-    <br>Sobre nosotros:
-    <br>Nuestras raíces están profundas en el mundo de la publicidad y el marketing exterior. Contamos con un equipo de talentosos diseñadores, ingenieros y expertos técnicos para brindarle soluciones innovadoras para stands de exhibición.
-    <br>Nuestros principios: Enfoque personalizado: Creemos que cada marca es única, por eso nuestros stands están diseñados teniendo en cuenta sus objetivos, audiencia e identidad de marca.
-    <br>Innovación y Tecnología: Siempre estamos atentos a nuevas tecnologías y tendencias en el diseño de stands para ferias. Integramos elementos interactivos, soluciones multimedia y materiales modernos para que tu stand destaque entre la competencia.
-    <br>Calidad y plazos: Nos enorgullecemos de la alta calidad de nuestro trabajo y cumplimos con los plazos de los proyectos. Nos esforzamos para que cada stand sea una solución visual y funcional ideal. Equipo de profesionales: Nuestro equipo está formado por especialistas con muchos años de experiencia en la industria del marketing de exposiciones. Estamos preparados para afrontar retos de cualquier complejidad.
+    'about_text' => 'Bienvenid@ al mundo de las posibilidades creativas y los stands de exposición impresionantes. Somos un equipo de profesionales dedicados al arte de crear espacios de exposición que dejen una impresión inolvidable.
+    <br>Quiénes somos:
+    <br>Nuestras raíces se hunden en el mundo de la publicidad exterior y el marketing. Hemos reunido a un equipo de talentosos diseñadores, ingenieros y expertos técnicos para ofrecerte soluciones innovadoras de stands de exposición.
+    <br>Nuestros principios:
+    <br>Enfoque personalizado: Creemos que cada marca es única y, por lo tanto, nuestros stands se crean teniendo en cuenta tus objetivos, público e identidad de marca.
+    <br>Innovación y tecnología: Siempre estamos a la búsqueda de nuevas tecnologías y tendencias en el diseño de stands para ferias. Integramos elementos interactivos, soluciones multimedia y materiales modernos para que tu stand se destaque de la competencia.
+    <br>Calidad y plazos: Nos enorgullecemos de la alta calidad de nuestro trabajo y del cumplimiento de los plazos de los proyectos. Nos esforzamos para que cada stand sea la solución visual y funcional perfecta.
+    <br>Equipo de profesionales: Nuestro equipo está formado por especialistas con muchos años de experiencia en el sector del marketing ferial. Estamos preparados para asumir retos de cualquier complejidad.
     <br>Nuestros servicios:
-    <br>Diseño y concepto de stand
-    <br>Fabricación e instalación del stand.
-    <br>Apoyo técnico
-    <br>Logística e instalación en sitio.
-    <br>Informes
-    <br>Terminación:
-    <br>Te invitamos a un viaje al mundo de la creatividad y la profesionalidad. Con nosotros, su próximo stand de exposición se convertirá en algo más que una simple estructura física, sino en una poderosa herramienta para atraer la atención, mantener la identidad de marca y lograr sus objetivos de exposición.
-    <br>Elíjanos como su socio confiable en la creación de stands para exhibición y trabajemos juntos para hacer que su próxima experiencia de exhibición sea única.',
+    <br><br>Diseño y conceptualización del stand
+    <br>Producción y montaje del stand
+    <br>Asistencia técnica
+    <br>Logística e instalación in situ
+    <br><br>Informes
+    <br>Finalización:
+    <br>Te llevamos de viaje a un mundo de creatividad y profesionalidad. Con nosotros, tu stand de exposición se convertirá no sólo en una estructura física, sino en una poderosa herramienta para atraer la atención, mantener la identidad de marca y alcanzar tus objetivos feriales.
+    <br>Elíjenos como tu socio de confianza en la creación de stands para ferias y hagamos juntos que tu próxima experiencia ferial sea única e irrepetible.'
   ],
 ]
 
