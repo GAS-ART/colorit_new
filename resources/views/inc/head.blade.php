@@ -20,8 +20,6 @@
         <meta property="og:site_name" content="colorit.com" />
         <!--  <meta property="og:image" content="{{ asset('img/avatar/3.jpg') }}"/> -->
 
-        <meta name="robots" content="noindex, nofollow">
-
         <style>
         </style>
         @vite(['resources/scss/style.scss'])

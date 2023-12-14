@@ -25,7 +25,7 @@ Route::get('/', [Pages\HomeController::class, 'index'])->name('index.lang');
 Route::get('/{locale}', [Pages\HomeController::class, 'index'])->name('home');
 
 Route::get('/{locale}/portfolio', [Pages\PortfolioController::class, 'index'])->name('portfolio');
-Route::get('/{locale}/about-us', [Pages\AboutUsController::class, 'index'])->name('about_us');
+//Route::get('/{locale}/about-us', [Pages\AboutUsController::class, 'index'])->name('about_us');
 
 Route::get('/{locale}/signboards-whithout-light', [Pages\SignboardsWithoutLightController::class, 'index'])->name('signboards_whithout_light');
 Route::get('/{locale}/signboards-whith-light', [Pages\SignboardsWithLightController::class, 'index'])->name('signboards_whith_light');
