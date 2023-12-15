@@ -17,7 +17,7 @@
         <meta property="og:type" content="website" />
         <meta property="og:title" content="@yield('ogTitle')" />
         <meta property="og:description" content="@yield('ogDescription')" />
-        <meta property="og:site_name" content="colorit.com" />
+        <meta property="og:site_name" content="rotuloscolorit.es" />
         <!--  <meta property="og:image" content="{{ asset('img/avatar/3.jpg') }}"/> -->
 
         <style>

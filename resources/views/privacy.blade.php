@@ -1,9 +1,8 @@
 @extends('layout')
-@section('title', __('tittles.privacy.title'))
-@section('description', __('tittles.privacy.description'))
-@section('ogTitle', __('tittles.privacy.ogTitle'))
+@section('title', __('titles.privacy.title'))
+@section('description', __('titles.privacy.description'))
+@section('ogTitle', __('titles.privacy.ogTitle'))
 @section('ogDescription', __('tittles.privacy.ogDescription'))
-@section('ogUrl', __('tittles.privacy.ogUrl'))
 
 @php
     $breadCrumbs = [

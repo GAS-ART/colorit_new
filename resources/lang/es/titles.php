@@ -116,6 +116,13 @@ return [
       'ogTitle' => 'Lanyard personalizados para eventos y ferias.',
       'ogDescription' => 'Impresion perzonalizada en lanyards para tu negocio. Proponemos diferentes modelos y colores con fabricacion rapida.',
    ],
+   'privacy' => 
+      [
+         'title' => 'Política de privacidad',
+         'description' => 'Política de privacidad',
+         'ogTitle' => 'Política de privacidad',
+         'ogDescription' => 'Política de privacidad',
+      ],
    'about_us' =>[
       'title' => '',
       'description' => '',
@@ -123,10 +130,10 @@ return [
       'ogDescription' => ''
    ],
    'portfolio' =>[
-      'title' => '',
-      'description' => '',
-      'ogTitle' => '',
-      'ogDescription' => ''
+      'title' => 'Portfolio de equipo "colorit agency"',
+      'description' => 'Ver y filtrar todos trabajos realizados',
+      'ogTitle' => 'Portfolio de equipo "colorit agency"',
+      'ogDescription' => 'Ver y filtrar todos trabajos realizados'
    ],
 ]
 
