@@ -48,3 +48,22 @@ Route::get('/{locale}/roll-up', [Pages\ExposRollUpController::class, 'index'])->
 Route::get('/{locale}/exhibition-figures', [Pages\ExposFiguresController::class, 'index'])->name('expos_figures');
 Route::get('/{locale}/corporate-apparel', [Pages\ExposClothingController::class, 'index'])->name('expos_clothing');
 Route::get('/{locale}/name-badges', [Pages\ExposBadgesController::class, 'index'])->name('expos_badges');
+
+Route::get('/{locale}/privacy_policy', function ($locale) {
+   
+  if (! in_array($locale, ['ru', 'es'])) {
+
+     abort(404);
+
+  } else if ($locale == 'ru') {
+
+     App::setLocale('ru');
+     return view('privacy');
+
+  } else if ($locale == 'es') {
+
+     App::setLocale('es');
+     return view('privacy');
+
+  }
+})->name('privacy');

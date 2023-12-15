@@ -16,7 +16,7 @@ class sendController extends Controller {
         $payload = $req->input('payload');
         /*ОТПРАВКА ДАННЫХ ИЗ ФОРМЫ И ФАЙЛА НА ПОЧТУ*/
         mail::send(['html' => 'mail'], ['name' => $name, 'phone' => $phone, 'service' => $service, 'email' => $email,  'payload' => $payload], function($message) {
-        $message->to('colorit.bcn@gmail.com')->subject('ЗАКАЗ ЗВОНКА ИЗ ФОРМЫ ОБРАТНОЙ СВЯЗИ');
+        $message->to('temoha1386@gmail.com'/* 'colorit.bcn@gmail.com' */)->subject('ЗАКАЗ ЗВОНКА ИЗ ФОРМЫ ОБРАТНОЙ СВЯЗИ');
         });
         //return view('send');
     }

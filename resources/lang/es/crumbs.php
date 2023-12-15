@@ -20,6 +20,7 @@ return [
    'expos_badges' => 'Lanyards',
    'expos_figures' => 'Figuras',
    'expos_stands' => 'Ferias',
+   'privacy' => 'Política de privacidad',
 ]
 
 ?>

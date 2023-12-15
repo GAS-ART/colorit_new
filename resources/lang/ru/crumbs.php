@@ -20,6 +20,7 @@ return [
    'expos_badges' => 'Бейджи',
    'expos_figures' => 'Фигуры',
    'expos_stands' => 'Стенды',
+   'privacy' => 'Политика конфиденциальности',
 ]
 
 ?>
