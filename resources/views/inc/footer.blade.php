@@ -184,7 +184,7 @@
             </div>
             <div class="footer__rights">
                 <p class="footer__rights-text">@lang('footer.copiright')</p>
-                <a href="" class="footer__rights-text">@lang('footer.privacy')</a>
+                <a href="{{ route('privacy', __('lang.current')) }}" class="footer__rights-text">@lang('footer.privacy')</a>
             </div>
         </div>
     </footer>
