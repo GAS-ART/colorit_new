@@ -19,7 +19,12 @@ Route::get('/locale/{locale}', [Controllers\ChangeLanguagesController::class, 'c
 Route::post('/send-main-form', [Controllers\sendController::class, 'submit'])->name('sendMainForm');
 Route::get('/sitemap', [Controllers\SitemapController::class, 'generateSitemap']);
 
+Route::get('/privacy_policy', function () {
+   
+   App::setLocale('es');
+   return view('privacy');
 
+})->name('privacy');
 
 Route::get('/', [Pages\HomeController::class, 'index'])->name('index.lang');
 Route::get('/{locale}', [Pages\HomeController::class, 'index'])->name('home');
@@ -49,21 +54,3 @@ Route::get('/{locale}/exhibition-figures', [Pages\ExposFiguresController::class,
 Route::get('/{locale}/corporate-apparel', [Pages\ExposClothingController::class, 'index'])->name('expos_clothing');
 Route::get('/{locale}/name-badges', [Pages\ExposBadgesController::class, 'index'])->name('expos_badges');
 
-Route::get('/{locale}/privacy_policy', function ($locale) {
-   
-  if (! in_array($locale, ['ru', 'es'])) {
-
-     abort(404);
-
-  } else if ($locale == 'ru') {
-
-     App::setLocale('ru');
-     return view('privacy');
-
-  } else if ($locale == 'es') {
-
-     App::setLocale('es');
-     return view('privacy');
-
-  }
-})->name('privacy');

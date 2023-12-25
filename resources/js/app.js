@@ -24,15 +24,17 @@ getPopupLinks();
 
 //Переключение языков (комп и мобилка)
 const languageBtn = document.querySelector(".language-btn");
-languageBtn.addEventListener("click", function (e) {
-    if (window.matchMedia("(pointer: coarse)").matches) {
-        // Устройства со стилусом
-        if (!languageBtn.classList.contains("active")) {
-            e.preventDefault();
+if(languageBtn){
+    languageBtn.addEventListener("click", function (e) {
+        if (window.matchMedia("(pointer: coarse)").matches) {
+            // Устройства со стилусом
+            if (!languageBtn.classList.contains("active")) {
+                e.preventDefault();
+            }
+            languageBtn.classList.toggle("active");
         }
-        languageBtn.classList.toggle("active");
-    }
-});
+    });
+}
 
 //Async form sending
 const forms = document.querySelectorAll("form");
@@ -257,7 +259,7 @@ function documentActions(e) {
     } */
 
     //Убираем отображение языков
-    if (!e.target.closest(".language-btn")) {
+    if ( document.querySelector(".language-btn") && !e.target.closest(".language-btn")) {
         languageBtn.classList.remove("active");
     }
 

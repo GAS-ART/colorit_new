@@ -52,28 +52,30 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="header__options">
+                        @if (Route::currentRouteName() !== 'privacy')
+                            <div class="header__options">
 
-                            <div class="header__actions">
-                                <!--Для выпадающего списка языков-->
-                                <div class="header__language language-btn">
-                                    <div class="language-btn__select">
-                                        <a class="language-btn__link @lang('lang.current')"
-                                            href="{{ route('locale', __('lang.current')) }}">
-                                            <div class="language-btn__text">@lang('lang.current')</div>
-                                            <div class="language-btn__icon @lang('lang.current')"></div>
-                                        </a>
+                                <div class="header__actions">
+                                    {{-- Для выпадающего списка языков --}}
+                                    <div class="header__language language-btn">
+                                        <div class="language-btn__select">
+                                            <a class="language-btn__link @lang('lang.current')"
+                                                href="{{ route('locale', __('lang.current')) }}">
+                                                <div class="language-btn__text">@lang('lang.current')</div>
+                                                <div class="language-btn__icon @lang('lang.current')"></div>
+                                            </a>
+                                        </div>
+                                        <div class="language-btn__select">
+                                            <a class="language-btn__link" href="{{ route('locale', __('lang.another')) }}">
+                                                <div class="language-btn__text">@lang('lang.another')</div>
+                                                <div class="language-btn__icon @lang('lang.another')"></div>
+                                            </a>
+                                        </div>
                                     </div>
-                                    <div class="language-btn__select">
-                                        <a class="language-btn__link" href="{{ route('locale', __('lang.another')) }}">
-                                            <div class="language-btn__text">@lang('lang.another')</div>
-                                            <div class="language-btn__icon @lang('lang.another')"></div>
-                                        </a>
-                                    </div>
+                                    {{-- Для выпадающего списка языков --}}
                                 </div>
-                                <!--Для выпадающего списка языков-->
                             </div>
-                        </div>
+                        @endif
                         <button data-popup-id="main" data-popup-payload="@yield('mainPopupPayload')"
                             class="info-header__lead link-on-popup">
                             @lang('header.lead')<span class="flare-header"></span>
