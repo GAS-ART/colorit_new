@@ -34,4 +34,24 @@
 
             gtag('config', 'AW-10877226117');
         </script>
+
+        <!-- Event snippet for Перегляд сторінки conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+        <script>
+            function gtag_report_conversion(url) {
+            var callback = function () {
+                if (typeof(url) != 'undefined') {
+                window.location = url;
+                }
+            };
+            gtag('event', 'conversion', {
+                'send_to': 'AW-10877226117/W-PvCP2Y7bIaEIWZ1cIo',
+                'value': 1.0,
+                'currency': 'EUR',
+                'event_callback': callback
+            });
+            return false;
+            }
+        </script>
+
     </head>

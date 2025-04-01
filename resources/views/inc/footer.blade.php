@@ -10,9 +10,9 @@
                 </div>
                 <div class="footer__contact">
                     <div class="footer__phone">
-                        <a class="footer__contact-link" href="tel:%2B34691820317">@lang('main.phone')</a>
+                        <a class="footer__contact-link send-analytics" href="tel:%2B34691820317">@lang('main.phone')</a>
                         <div class="footer__messengers">
-                            <a href="https://wa.me/34691820317" class="footer__messengers-item footer__messengers-whatsapp">
+                            <a href="https://wa.me/34691820317" class="footer__messengers-item footer__messengers-whatsapp send-analytics">
                                 <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
                                     xmlns:xlink="http://www.w3.org/1999/xlink"
                                     style="width: 100%; height: 100%; fill: rgb(255, 255, 255); stroke: none;">
@@ -22,7 +22,7 @@
                                 </svg>
                             </a>
                             <a href="tg://resolve?domain=colorit_agency"
-                                class="footer__messengers-item footer__messengers-telegram">
+                                class="footer__messengers-item footer__messengers-telegram send-analytics">
                                 <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
                                     xmlns:xlink="http://www.w3.org/1999/xlink"
                                     style="width: 100%; height: 100%; fill: rgb(255, 255, 255); stroke: none;">

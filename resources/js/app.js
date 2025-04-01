@@ -108,6 +108,7 @@ forms.forEach((form) => {
                     );
                 }
                 form.reset();
+                gtag_report_conversion();
             } else {
                 const data = await response.json();
                 console.log(data);
@@ -722,5 +723,9 @@ if(portfolioPage){
     menuMobileSelect.addEventListener('change', (e)=> e.target.value === 'all' ? showAllPictures() : showSelectedPictures(document.querySelector('.' + e.target.value)));
 }
 
+const analitics = document.querySelectorAll(".send-analytics");
+if(analitics){
+    analitics.forEach(el => el.addEventListener('click', () => gtag_report_conversion()))
+}
 
 
