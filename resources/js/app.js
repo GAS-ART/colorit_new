@@ -725,7 +725,7 @@ if(portfolioPage){
 
 const analitics = document.querySelectorAll(".send-analytics");
 if(analitics){
-    analitics.forEach(el => el.addEventListener('click', () => gtag_report_conversion()))
+    analitics.forEach(el => el.addEventListener('click', () => gtag_report_conversion(undefined, '7AvwCJeHobkaEIWZ1cIo')))
 }
 
 
