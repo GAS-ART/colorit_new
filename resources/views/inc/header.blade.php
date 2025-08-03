@@ -86,6 +86,7 @@
                     </div>
                 </div>
             </div>
+            <div class="additional-information-label">@lang('header.additional_information')</div>
             <div class="header__bottom">
                 <div class="header__container">
                     <nav class="header-menu">
