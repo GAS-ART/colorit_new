@@ -272,6 +272,21 @@
   }
 }
 
+a {
+  &[href^="mailto:"] {
+    display: block;
+    padding-top: 10px;
+    color: #17161A; //#89368E
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+
+    &:hover {
+      color: #89368E;
+      text-decoration: underline;
+    }
+  }
+}
 
 //====================================================================================================
 

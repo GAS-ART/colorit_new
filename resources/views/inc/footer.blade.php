@@ -84,7 +84,8 @@
                      <path d="M101.996,49.097c0-8.204-6.675-14.879-14.876-14.879s-14.876,6.675-14.876,14.879s6.675,14.879,14.876,14.879   S101.996,57.301,101.996,49.097z M87.12,56.508L87.12,56.508L87.12,56.508L87.12,56.508L87.12,56.508z"/>
                   </g>
                   </svg> --}}
-                        <p>Riera de Pahissa, 21-1, 08980 Sant Feliu de Llobregat, Barcelona</p>
+                        <p>Republica Argentina 7, 1B Masnou, Barcelona 08320</p>
+                        <a href="mailto:colorit.bcn@gmail.com">colorit.bcn@gmail.com</a>
                     </div>
                 </div>
                 <nav class="footer__links links-footer">
