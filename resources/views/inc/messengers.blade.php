@@ -2,7 +2,7 @@
    <div class="messengers__svg svg-messengers">
       <div class="svg-messengers__icons">
          <div class="svg-messengers__icon send-analytics" data-event-name="Whatsapp" data-first-click="true">
-            <a href="https://wa.me/34691820317" class="svg-messengers__whatsapp">
+            <a href="https://wa.me/34695804020" class="svg-messengers__whatsapp">
                <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                   style="width: 100%; height: 100%; fill: rgb(255, 255, 255); stroke: none;">
                   <path

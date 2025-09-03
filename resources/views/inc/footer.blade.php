@@ -85,7 +85,7 @@
                   </g>
                   </svg> --}}
                         <p>Republica Argentina 7, 1B Masnou, Barcelona 08320</p>
-                        <a href="mailto:colorit.bcn@gmail.com">colorit.bcn@gmail.com</a>
+                        <a href="mailto:info@rotuloscolorit.es">info@rotuloscolorit.es</a>
                     </div>
                 </div>
                 <nav class="footer__links links-footer">

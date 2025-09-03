@@ -13,7 +13,7 @@
                     </div>
                     <div class="header__info info-header">
                         <div class="info-header__contacts">
-                            <a class="info-header__contacts-phone send-analytics" href="tel:%2B34691820317">+34 691 820 317</a>
+                            <a class="info-header__contacts-phone send-analytics" href="tel:%2B34695804020">+34 695 804 020</a>
                             <p class="info-header__contacts-text">@lang('main.time')</p>
                         </div>
                         <div class="info-header__icons">
