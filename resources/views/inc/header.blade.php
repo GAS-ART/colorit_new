@@ -13,7 +13,8 @@
                     </div>
                     <div class="header__info info-header">
                         <div class="info-header__contacts">
-                            <a class="info-header__contacts-phone send-analytics" href="tel:%2B34695804020">+34 695 804 020</a>
+                            <a class="info-header__contacts-phone send-analytics" href="tel:%2B34695804020">+34 695 804
+                                020</a>
                             <p class="info-header__contacts-text">@lang('main.time')</p>
                         </div>
                         <div class="info-header__icons">
@@ -86,7 +87,7 @@
                     </div>
                 </div>
             </div>
-            {{--<div class="additional-information-label">@lang('header.additional_information')</div>--}}
+            {{-- <div class="additional-information-label">@lang('header.additional_information')</div> --}}
             <div class="header__bottom">
                 <div class="header__container">
                     <nav class="header-menu">
@@ -225,15 +226,8 @@
                 </div>
             </div>
             <div class="header__burger header-burger">
-                <h2 class="header-burger__title">@lang('main.menu.burger.title')</h2>
                 <nav class="header-burger__menu">
                     <ul class="header-burger__list">
-                        {{-- <li class="header-burger__list-item">
-                  <a href="{{route('about_us', ['locale' => __('lang.current')])}}"
-                     class="header-burger__list-link @yield('about_us')">
-                     @lang('main.menu.burger.about')
-                  </a>
-               </li> --}}
                         <li class="header-burger__list-item">
                             <button class="header-burger__list-link">@lang('main.menu.burger.services')</button>
                             <ul class="header-burger__sub-list">
@@ -343,13 +337,58 @@
                             @endif
                             {{-- <a href="#" class="header-burger__list-link">@lang('main.menu.burger.reviews')</a> --}}
                         </li>
-                        <li class="header-burger__list-item"><a href="#footer"
-                                class="header-burger__list-link ancor">@lang('main.menu.burger.contacts')</a></li>
-                        <li class="header-burger__list-item"><button class="header-burger__list-btn link-on-popup"
-                                data-popup-id="main" data-popup-payload="@yield('mainPopupPayload')">@lang('home.question-lead.btn')</button>
-                        </li>
                     </ul>
                 </nav>
+                <div class="header-burger__contact">
+                    <div class="header-burger__contact-social">
+                        <div class="header-burger__contact-social-item">
+                            <a href="https://www.facebook.com/colorit.agency" target="_blank"
+                                class="header-burger__contact-social-link">
+                                Facebook
+
+                            </a>
+                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 11L11 1M11 1H3M11 1V9" stroke="currentColor" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <div class="header-burger__contact-social-item">
+                            <a href="https://www.instagram.com/colorit.agency/" target="_blank"
+                                class="header-burger__contact-social-link">
+                                Instagram
+
+                            </a>
+                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 11L11 1M11 1H3M11 1V9" stroke="currentColor" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="header-burger__contact-info">
+                        <h4 class="header-burger__contact-title">@lang('header.burger.contacts_title')</h4>
+                        <div class="header-burger__contact-item">
+                            <span class="header-burger__contact-label">@lang('header.burger.address_label')</span>
+                            <p class="header-burger__contact-value">@lang('header.burger.address')</p>
+                        </div>
+                        <div class="header-burger__contact-item">
+                            <span class="header-burger__contact-label">@lang('header.burger.phone_label')</span>
+                            <a href="tel:+34695804020"
+                                class="header-burger__contact-value header-burger__contact-value--link">+34 695 804 020</a>
+                        </div>
+                        <div class="header-burger__contact-item">
+                            <span class="header-burger__contact-label">@lang('header.burger.email_label')</span>
+                            <a href="mailto:rotuloscolorit@gmail.com"
+                                class="header-burger__contact-value header-burger__contact-value--link">rotuloscolorit@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-burger__bottom">
+                    <p>Copyright 2026. All Rights Reserved</p>
+                    <a href="{{ route('privacy') }}" class="header-burger__bottom-link">@lang('main.menu.burger.policy')</a>
+                    {{-- <a href="" class="header-burger__bottom-link">@lang('main.menu.burger.cookie')</a> --}}
+                </div>
             </div>
         </div>
     </header>

@@ -1,41 +1,107 @@
 <?php
 
 return [
-   'main'=> [
-      'title' => 'Rótulos<br>Letras 
-corpóreas <span>en Barcelona</span>',
-      'list-1' => '— Fabricación propia',
-      'list-2' => '— Trabajos exclusivos',
-      'list-3' => '— Precios adecuados',
-      'list-4' => '— Pedidos urgentes',
-      'btn' => 'Pedir el presupuesto',
+   'main' => [
+      'title' => 'Fabricamos rótulos,<br>letras luminosas y estructuras<br>para negocios en España',
+      'subtitle' => 'Producción en Barcelona &middot; Montaje en toda España &middot; Trabajamos llave en mano',
+      'btn' => 'Obtener presupuesto del proyecto',
+      'whatsapp_btn' => 'Escribir por Whatsapp',
+      'footer_text' => 'Responderemos en 15 minutos. Sin compromiso.',
+   ],
+   'services' => [
+      'title' => 'Nuestros servicios',
+      'cards' => [
+         2 => [
+            'title' => 'Rótulos',
+            'desc' => 'Rótulos luminosos, cajas de luz, bandejas de composite y soluciones de fachada para negocios.',
+            'link' => 'Saber más &rarr;'
+         ],
+         3 => [
+            'title' => 'Letras luminosas',
+            'desc' => 'Letras corpóreas con iluminación frontal, retroiluminada y combinada.',
+            'link' => 'Saber más &rarr;'
+         ],
+         4 => [
+            'title' => 'Vinilo y decoración',
+            'desc' => 'Rotulación de escaparates, branding de espacios y gráficos publicitarios.',
+            'link' => 'Saber más &rarr;'
+         ],
+         5 => [
+            'title' => 'Eventos y exposiciones',
+            'desc' => 'Photocalls, estructuras volumétricas, podios y elementos para eventos.',
+            'link' => 'Saber más &rarr;'
+         ]
+      ]
+   ],
+   'why_us' => [
+      'title' => 'Por qué las empresas trabajan con Colorit',
+      'cards' => [
+         '1' => [
+            'title' => 'Producción en Barcelona',
+            'text' => 'Sin intermediarios. Controlamos la calidad en cada etapa de producción.',
+         ],
+         '2' => [
+            'title' => 'Montaje en toda España',
+            'text' => 'Trabajamos con proyectos locales y nacionales.',
+         ],
+         '3' => [
+            'title' => 'Cumplimos los plazos',
+            'text' => 'Entendemos la importancia de los plazos, la apertura de negocios y eventos.',
+         ],
+         '4' => [
+            'title' => 'Trabajo llave en mano',
+            'text' => 'Nos encargamos del cálculo, producción, entrega y montaje.',
+         ],
+         '5' => [
+            'title' => 'Más de 8 años de experiencia',
+            'text' => 'Hemos realizado cientos de proyectos para empresas en España.',
+         ],
+         '6' => [
+            'title' => 'Comunicación rápida',
+            'text' => 'Respondemos rápidamente y acompañamos el proyecto hasta la entrega.',
+         ],
+      ],
+   ],
+   'achievements' => [
+      '1' => [
+         'number' => '8',
+         'text' => 'Años de experiencia',
+      ],
+      '2' => [
+         'number' => '200',
+         'text' => 'Proyectos completados',
+      ],
+      '3' => [
+         'number' => '120',
+         'text' => 'Clientes satisfechos',
+      ],
    ],
    'quiz' => [
-      'title'=>'Hazte visible a los clientes <span>con tu cartelería luminosa y exclusiva</span>',
-      'sub-title'=>'Haz el click en foto para <span>obtener el presupuesto</span>',
-      'count'=> 'Pregunta  <span class="quiz-count">0</span> de 3',
-      'body'=>[
-      //'title'=>'¿Qué es exactamente lo que necesita?',
-      'title'=>'Haz clic en la foto para obtener un cálculo rápido del presupuesto',
-      'signboards' => [
-         'title'=>'Rótulos',
-         'question-1'=>[
-            '1' => 'Rótulos luminosos',
-            '2' => 'Rótulos sin luz',
-            '3' => 'Otra opción',
+      'title' => 'Hazte visible a los clientes <span>con tu cartelería luminosa y exclusiva</span>',
+      'sub-title' => 'Haz el click en foto para <span>obtener el presupuesto</span>',
+      'count' => 'Pregunta  <span class="quiz-count">0</span> de 3',
+      'body' => [
+         //'title'=>'¿Qué es exactamente lo que necesita?',
+         'title' => 'Haz clic en la foto para obtener un cálculo rápido del presupuesto',
+         'signboards' => [
+            'title' => 'Rótulos',
+            'question-1' => [
+               '1' => 'Rótulos luminosos',
+               '2' => 'Rótulos sin luz',
+               '3' => 'Otra opción',
+            ],
+         ],
+         'letters' => [
+            'title' => 'Letras Corpóreas',
+         ],
+         'vinyl' => [
+            'title' => 'Vinilos',
+         ],
+         'event' => [
+            'title' => 'Ferias',
          ],
       ],
-      'letters'=>[
-         'title'=>'Letras Corpóreas',
-      ],
-      'vinyl'=>[
-         'title'=>'Vinilos',
-      ],
-      'event'=>[
-         'title'=>'Ferias',
-         ],
-      ],
-      'back_btn'=> 'Atras',
+      'back_btn' => 'Atras',
    ],
    'solution' => [
       'title' => 'Tenemos la solución',
@@ -164,8 +230,8 @@ corpóreas <span>en Barcelona</span>',
    'reviews' => [
       'title' => 'Que dicen sobre nosotros?',
       'ecotown' => [
-            'text' => '<p>Colorit agency -  mejor agencia de publicidad e marketing en Barcelona.</p><p>Estamos trabajando juntos ya 3 años. Contentos.</p>',
-            'name' => '<p>Vyacheslav <span>¨Ecotown¨</span></p>',
+         'text' => '<p>Colorit agency -  mejor agencia de publicidad e marketing en Barcelona.</p><p>Estamos trabajando juntos ya 3 años. Contentos.</p>',
+         'name' => '<p>Vyacheslav <span>¨Ecotown¨</span></p>',
       ],
       'melanta' => [
          'text' => '<p>Trabajamos con chicos en muchas cosas. Son profesionales de gama alta y estoy muy  contenta de tener esa agencia al lado. Responsabilidad y trabajan rápido. Gracias.</p>',
@@ -247,7 +313,7 @@ corpóreas <span>en Barcelona</span>',
          'answer' => 'Ofrecemos impresión en camisetas, sudaderas, shoppers, branding de tazas, bolígrafos, libretas, elaboración de bolsas, portavasos de plástico, banderas y stands para ferias. Puedes leer más sobre nuestros servicios en la sección de Servicios.'
       ],
    ],
-   'about' =>[
+   'about' => [
       'title' => '',
       'text' => 'Bienvenid@ a la página web de la agencia de publicidad Colorit agency! Nos gustaría ofrecerte una amplia gama de servicios en el campo de la publicidad exterior y la producción de construcciones publicitarias en Barcelona y en toda España. Nuestra empresa está especializada en la producción de carteles, proporcionando una fabricación de calidad, así como la instalación en el local del cliente.
       <br><br>
@@ -265,6 +331,179 @@ corpóreas <span>en Barcelona</span>',
       'text' => '¡Deje una solicitud y te llamaremos en una hora!',
       'btn' => 'Dejar solicitud',
    ],
-]
-
-?>
+   'photo' => [
+      1 => [
+         'name' => 'rotulos-y-letras-coproreas-fabricacion-en-barcelona',
+      ],
+      2 => [
+         'name' => 'fabricacion-rotulos-luminosos-para-fachadas',
+         'alt' => 'Rótulo luminoso en la fachada de una joyería en la calle',
+      ],
+      3 => [
+         'name' => 'letras-corporeas-retroiluminadas-para-interiores',
+         'alt' => 'Letras corpóreas con iluminación retroiluminada en la pared interior',
+      ],
+      4 => [
+         'name' => 'rotulacion-de-escaparates-con-vinilo-impreso',
+         'alt' => 'Rotulación de escaparate de clínica estética con vinilo impreso',
+      ],
+      5 => [
+         'name' => 'fabricacion-estructuras-3d-y-photocalls-para-eventos',
+         'alt' => 'Photocall decorativo con letra 3D grande para un evento',
+      ],
+      6 => [
+         'name' => 'letras-corporeas-premium-para-joyeria-carrera',
+         'alt' => 'Letras corpóreas premium en la fachada de la joyería Carrera y Carrera',
+         'title' => 'Carrera y Carrera',
+         'text' => 'Letras corpóreas premium en la fachada de la joyería',
+      ],
+      7 => [
+         'name' => 'letras-luminosas-para-clinica-estetica-davinci',
+         'alt' => 'Letras luminosas de exterior para la clínica estética Davinci Clinique',
+         'title' => 'Davinci Clinique',
+         'text' => 'Letras luminosas de exterior para la clínica estética',
+      ],
+      8 => [
+         'name' => 'letras-de-aluminio-con-iluminacion-frontal-la-castafiore',
+         'alt' => 'Letras de aluminio con iluminación frontal para el escaparate de La Castafiore',
+         'title' => 'La Castafiore',
+         'text' => 'Letras de aluminio con iluminación frontal',
+      ],
+      9 => [
+         'name' => 'rotulacion-integral-para-clinica-dental-san-pedro',
+         'alt' => 'Rotulación exterior y diseño integral para la Clínica Dental San Pedro',
+         'title' => 'Clínica Dental San Pedro',
+         'text' => 'Rotulación exterior y diseño integral para la fachada de la clínica dental',
+      ],
+      10 => [
+         'name' => 'letras-retroiluminadas-para-estudio-de-fitness-bb1',
+         'alt' => 'Letras corpóreas retroiluminadas en el interior del estudio de fitness BB1',
+         'title' => 'BB1',
+         'text' => 'Rótulo interior con letras retroiluminadas para estudio de fitness',
+      ],
+      11 => [
+         'name' => 'rotulo-para-cafeteria-con-letras-espejo-slitti',
+         'alt' => 'Rótulo exterior para cafetería con letras efecto espejo dorado para Slitti',
+         'title' => 'Slitti',
+         'text' => 'Rótulo publicitario para cafetería con letras efecto espejo dorado',
+      ],
+      12 => [
+         'name' => 'stand-de-exposicion-mobile-world-capital-barcelona',
+         'alt' => 'Stand de exposición de diseño para el evento internacional Mobile World Capital Barcelona',
+         'title' => 'Mobile World Capital Barcelona',
+         'text' => 'Stand de exposición de diseño para el evento internacional',
+      ],
+      13 => [
+         'name' => 'decoracion-exclusiva-eventos-corporativos-b-event',
+         'alt' => 'Decoración exclusiva y montaje de photocall para el evento corporativo B Event',
+         'title' => 'B Event',
+         'text' => 'Decoración exclusiva de photocall para evento corporativo',
+      ],
+      14 => [
+         'name' => 'letrero-publicitario-exterior-iluminado-cervello',
+         'alt' => 'Letrero publicitario exterior con iluminación para Cervelló',
+         'title' => 'Cervelló',
+         'text' => 'Letrero publicitario exterior con iluminación',
+      ],
+      15 => [
+         'name' => 'fabricacion-rotulos-luminosos-para-tiendas-de-ropa',
+         'alt' => 'Rótulo luminoso moderno con letras corpóreas en la fachada nocturna de una tienda de ropa',
+      ],
+      16 => [
+         'name' => 'fabricacion-rotulos-luminosos-para-tiendas-de-muebles',
+         'alt' => 'Rótulo luminoso llamativo con letras corpóreas Lazurit en la fachada nocturna de una tienda de muebles',
+      ],
+   ],
+   'projects' => [
+      'title' => 'Nuestros proyectos',
+      'subtitle' => 'Nuestros trabajos realizados en diferentes países, ciudades, exposiciones, etc.',
+      'btn' => 'Ver todos los trabajos',
+   ],
+   'same-result' => [
+      'title' => '¿Quieres el mismo resultado para tu negocio?',
+      'subtitle' => 'Envíanos tu logotipo o foto de la fachada: prepararemos una propuesta en 24 horas.',
+      'btn1' => 'Obtener presupuesto',
+      'btn2' => 'Escribir por Whatsapp',
+   ],
+   'proposition' => [
+      'title' => 'Envía foto de la fachada y tu logotipo — recibe una propuesta en 24 horas',
+      'subtitle' => 'Te sugeriremos la mejor opción de diseño, materiales y montaje para tu proyecto.',
+      'btn1' => 'Obtener presupuesto del proyecto',
+      'btn2' => 'Escribir por Whatsapp',
+      'footnote' => 'Responderemos en 15 minutos. Sin compromiso.',
+   ],
+   'what-get' => [
+      'title' => 'Qué obtiene tu negocio',
+      'items' => [
+         1 => [
+            'title' => 'Más atención',
+            'text' => 'Tu fachada y marca se vuelven más visibles para los clientes.',
+         ],
+         2 => [
+            'title' => 'Aspecto moderno',
+            'text' => 'Un diseño profesional genera una fuerte primera impresión.',
+         ],
+         3 => [
+            'title' => 'Mayor confianza de los clientes',
+            'text' => 'Un rótulo de calidad aumenta el valor y la percepción del negocio.',
+         ],
+         4 => [
+            'title' => 'Acompañamiento completo',
+            'text' => 'No necesitas buscar contratistas por separado: gestionamos el proyecto llave en mano.',
+         ],
+         5 => [
+            'title' => 'Producción sin intermediarios',
+            'text' => 'La producción propia nos ayuda a controlar precios, calidad y plazos.',
+         ],
+         6 => [
+            'title' => 'Solución a tu medida',
+            'text' => 'Elegimos el formato, materiales y estructura según tu presupuesto y objetivos.',
+         ],
+      ],
+   ],
+   'reviews' => [
+      'title' => 'Lo que dicen nuestros clientes',
+      'items' => [
+         1 => [
+            'name' => 'Christine Jensen',
+            'date' => 'Hace 2 meses',
+            'text' => 'Encargamos un rótulo luminoso para nuestro restaurante. El equipo de Colorit lo hizo todo al más alto nivel, desde el diseño hasta la instalación. ¡El rótulo atrae miradas y se ve increíble!',
+         ],
+         2 => [
+            'name' => 'Marco Rivera',
+            'date' => 'Hace 3 meses',
+            'text' => 'Nos dirigimos a ellos para letras corpóreas en la fachada de la tienda. El resultado superó las expectativas: materiales de calidad, trabajo impecable y plazos rápidos. Muy contentos.',
+         ],
+         3 => [
+            'name' => 'Elena Petrova',
+            'date' => 'Hace 1 mes',
+            'text' => 'Necesitábamos decorar el escaparate para la apertura de nuestra boutique. El equipo de Colorit propuso una excelente solución con vinilo. Trabajo profesional y a tiempo. ¡Gracias!',
+         ],
+         4 => [
+            'name' => 'David García',
+            'date' => 'Hace 2 meses',
+            'text' => 'Encargamos un stand de exposición para una conferencia en Barcelona. Todo se hizo a tiempo y con calidad. El stand atrajo mucha atención de los visitantes. Volveremos a contactarles.',
+         ],
+         5 => [
+            'name' => 'Anna Kowalski',
+            'date' => 'Hace 4 meses',
+            'text' => 'Excelente experiencia trabajando con la empresa. Nos fabricaron letras retroiluminadas para la clínica. Se ven muy elegantes y premium. Un agradecimiento especial por la paciencia.',
+         ],
+         6 => [
+            'name' => 'Carlos Mendez',
+            'date' => 'Hace 1 mes',
+            'text' => 'Colorit nos ayudó con la decoración completa de nuestra cafetería: rótulo, escaparates, elementos interiores. Trabajan como un equipo unido, todo pensado al detalle. ¡Resultado excelente!',
+         ],
+         7 => [
+            'name' => 'Sofia Larsson',
+            'date' => 'Hace 3 meses',
+            'text' => 'Un enfoque muy profesional. Nos fabricaron un rótulo de neón para el salón de belleza. La calidad de ejecución es excelente y los plazos se cumplieron totalmente. Lo recomendaré a amigos.',
+         ],
+         8 => [
+            'name' => 'Roberto Fernández',
+            'date' => 'Hace 2 meses',
+            'text' => 'Nos contactaron para el branding de la fachada de nuestra oficina. El equipo fue creativo y propuso varias opciones. El resultado final es exactamente lo que queríamos. ¡Gracias!',
+         ],
+      ],
+   ],
+];

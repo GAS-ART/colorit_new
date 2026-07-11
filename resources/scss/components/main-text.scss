@@ -3,11 +3,36 @@
   @extend %section;
     &__container {
     }
+    padding: 80px 60px;
+    @media (max-width: $mobile) {
+      padding: 48px 20px;
+    }
+   background-color: #F6F6F6;
+    h2{
+      font-family: 'Gilroy';
+      font-weight: 700;
+      line-height: 100%;
+      letter-spacing: -2%;
+      color: $mainColor;
+      @include adaptiveValueREM('font-size', 40, 28, 1440, 360, 1);
+      @include adaptiveValueREM('margin-bottom', 32, 24, 1440, 360, 1);
+      @media (max-width: $mobile) {
+        letter-spacing: -4%;
+      }
+    }
   
     &__body {
       margin: 0 auto;
-      max-width: 900px;
-      line-height: 180%;
+      //max-width: 900px;
+      //line-height: 180%;
+    }
+    .text {
+      color: $mainColor;
+      font-family: 'Geometria';
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 160%;
+      letter-spacing: 0%; 
     }
   }
   /*================MAIN-TEXT================*/

@@ -22,6 +22,8 @@
   background-color: #ffffff;
   transition: all 0.5s ease 0s;
   opacity: 0;
+  border-radius: 32px;
+  overflow: hidden;
 }
 
 &.open{
@@ -78,10 +80,10 @@
   right: 25px;
   margin-left: auto;
   cursor: pointer;
-  z-index: 1;
+  z-index: 10;
   @media (max-width: $mobile) {
-    right: 0px;
-    top: 0px;
+    right: 15px;
+    top: 15px;
   }
 
   &:before,
@@ -133,15 +135,15 @@
     order: 2;
   }
   @media (max-width: $mobile) {
-    padding: 5px 20px 20px 20px;
+    padding: 24px 20px 32px 20px;
   }
 }
 
 &__title {
   h4{
-    margin-bottom: 24px;
+    @include adaptiveValueREM('margin-bottom', 48, 28, 1270, 360, 1);
     @media (max-width: $mobile) {
-      margin-bottom: 5px;
+      letter-spacing: -4%;
     }
   }
   h5{
@@ -152,13 +154,13 @@
   }
   
   @media (max-width: $mobile) {
-    margin-bottom: 5px;
+    margin-bottom: 24px;
   }
   h4{
     font-family: 'Jost';
     font-style: normal;
     font-weight: 700;
-    @include adaptiveValueREM('font-size', 50, 24, 1270, 360, 1);
+    @include adaptiveValueREM('font-size', 40, 28, 1270, 360, 1);
     line-height: 120%;
     span{
       color: $purple;
@@ -183,6 +185,16 @@
     display: block;
   }
 }
+&__success{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  @media (max-width: $tablet) {
+    width: 300px;
+  }
+}
 
 &__text {
   form{
@@ -191,6 +203,7 @@
     width: 500px;
     @media (max-width: $tablet) {
       width: 300px;
+      margin: 0 auto;
     }
   }
 }
@@ -198,7 +211,7 @@
 &__item{
   margin-bottom: 24px; 
   @media (max-width: $mobile) {
-    margin-bottom: 10px; 
+    margin-bottom: 16px; 
   }
   label{
     display: block;
@@ -208,7 +221,7 @@
     color: $mainColor;
     margin-bottom: 8px;
     span{
-      color: $purple;
+      color: #FF4765;
       font-size: 18px;
     }
     @media (max-width: $mobile) {
@@ -223,12 +236,15 @@
     padding: 13px 0 13px 16px;
     max-width: 500px;
     outline-color: $purple;
-    border: 1px solid rgba(23, 22, 26, .5);
+    border: none;
+    border-radius: 12px;
+    background-color: #F8F8FC;
     font-family: 'Jost';
     &::placeholder{
       font-weight: 300;
       font-size: 14px;
       line-height: 24px;
+      color: #75758B;
     }
     &.error{
       color: #EB5757;
@@ -238,7 +254,7 @@
       border: 1px solid #EB5757;
     }
     @media (max-width: $mobile) {
-      padding: 8px 0 8px 16px;
+      padding: 12px 0 12px 16px;
     }
   }
   .popup__item-select{
@@ -292,8 +308,14 @@
     line-height: 100px;
     padding: 13px 0 13px 16px;
     outline-color: $purple;
-    border: 1px solid rgba(23, 22, 26, .5);
+    border: none;
+    border-radius: 12px;
+    background-color: #F8F8FC;
     font-family: 'Jost';
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg width='14' height='8' viewBox='0 0 14 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L7 7L13 1' stroke='%238E2A7B' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 20px center;
     &.placeholder{
       color: #75758B;
       font-weight: 300;
@@ -318,21 +340,21 @@
 }
 
 &__btn {
-  padding: 24px 40px;
-  background-color: $mainColor;
+  padding: 16px 24px;
   color: #ffffff;
   width: fit-content;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 24px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
   transition: all 0.3s ease 0s;
-  @media (pointer: fine) {
-    &:hover {
-      background-color: $purple;
-    }
+  border-radius: 8px;
+  background-color: $purple;
+  @media (max-width: $tablet) {
+    margin: 0 auto;
   }
   @media (max-width: $mobile) {
     padding: 15px 30px;
+
   }
 }
 
@@ -400,13 +422,19 @@
   width: 420px;
  }
  @media (max-width: $tablet) {
- /*  flex: 1 0 340px;
-  width: 340px; */
   width: 100%;
   order: 1;
+  flex: 0 0 auto;
  }
  @media (max-width: $mobile) {
+  height: 240px;
   max-height: 240px;
+ }
+ picture, img {
+   display: block;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
  }
  .popup__img-body-icon{
   position: absolute;
@@ -556,8 +584,8 @@
 .popup-file {
   position: absolute;
   top: 0;
-  left: -20px;
-  width: 190px !important;
+  left: 0;
+  width: 100% !important;
   height: 100% !important;
   opacity: 0;
   font-size: 0 !important;
@@ -568,71 +596,78 @@
 
 .popup-download {
   position: relative;
-  font-size: rem(15);
-  line-height: 1.8;
-  color: $purple;
   display: flex;
-  z-index: 300;
-  //width: 190px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px dashed rgba(23, 22, 26, 0.2);
+  border-radius: 16px;
+  padding: 32px 20px;
+  background-color: #F8F8FC;
+  text-align: center;
+  transition: all 0.3s ease;
+  width: 100%;
+  max-width: 500px;
+  
   &.disabled{
     display: none;
   }
-  &::after {
-     content: "";
-     position: absolute;
-     left: 40px;
-     bottom: 0px;
-     width: 0;
-     height: 1px;
-     background-color: $purple;
-     transition: all 0.3s ease 0s;
-  }
-  @media (pointer: fine) {
-     &:hover {
-        &::after {
-           width: calc(100% - 100% + 132px);
-        }
-     }
+  
+  &.highlight {
+    border-color: $purple;
+    background-color: #f1f0f8;
   }
 
-  .file-button {
-     padding-left: 40px;
+  .popup__drag-drop-content {
+    pointer-events: none;
+    img{
+      margin-bottom: 24px;
+    }
+  }
+
+  .popup__drag-drop-icon {
+    margin-bottom: 12px;
+  }
+
+  .popup__drag-drop-title {
+    font-family: 'Jost';
+    font-weight: 500;
+    font-size: 16px;
+    color: $mainColor;
+    margin-bottom: 4px;
+    span {
+        color: #FF4765;
+    }
+  }
+
+  .popup__drag-drop-formats {
+    font-family: 'Jost';
+    font-size: 12px;
+    color: #75758B;
+  }
+
+  .file-error {
+    margin-top: 10px;
+  }
+
+  .preview-file {
      position: relative;
-     top: 4px;
-     display: inline-block;
-     //width: 170px;
-  }
-  &::before {
-     content: "";
-     position: absolute;
-     width: 30px;
-     height: 30px;
-     background-image: url("../../public/img/icons/donwload.svg");
-     background-repeat: no-repeat;
-     margin-right: 10px;
-     z-index: 300;
-  }
-  .file{
-     margin-right: 10px;
-     display: flex;
-  }
-  .preview-file{
-     position: relative;
+     margin-top: 15px;
      img, video {
-     position: relative;
-     top: 0;
-     left: 0;
-     width: 30px;
-     height: 30px;
-     object-fit: cover;
+       position: relative;
+       top: 0;
+       left: 0;
+       width: 40px;
+       height: 40px;
+       object-fit: contain;
      }
      &::before{
         content: "";
         position: absolute;
         top: 0;
         left: 0;
-        width: 30px;
-        height: 30px;
+        width: 40px;
+        height: 40px;
         background-image: url('../../public/img/form/load.gif');
         background-repeat: no-repeat;
         background-position: center;

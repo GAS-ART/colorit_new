@@ -1,0 +1,109 @@
+.new-advantages {
+  @include adaptiveValueREM('margin-bottom', 80, 48, 1440, 360, 1);
+
+  &.grey {
+    background-color: #F6F6F6;
+    margin-bottom: 0;
+    @include adaptiveValueREM('padding-bottom', 80, 48, 1440, 360, 1);
+    @include adaptiveValueREM('padding-top', 80, 48, 1440, 360, 1);
+  }
+
+  &__container {
+    margin: 0 auto;
+    padding: 0 60px;
+
+    @media (max-width: $tablet) {
+      padding: 0 20px;
+    }
+  }
+
+  &__main-title {
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -2px;
+    color: $mainColor;
+    @include adaptiveValueREM('font-size', 40, 28, 1440, 360, 1);
+    @include adaptiveValueREM('margin-bottom', 32, 24, 1440, 360, 1);
+  }
+
+  &__body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 0 0 0 !important;
+  }
+
+  &__card {
+    background-color: #FFFFFF;
+    border: 1px solid #E9EBF2;
+    border-radius: 16px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    box-sizing: border-box;
+
+    // Quantity Queries & Modifier Classes: If 3 cards -> 426px, if 4 cards -> 315px.
+    @media (min-width: $mobile) {
+      // Class-based selectors (explicitly passed by component parameter)
+      .new-advantages__body--count-3 & {
+        flex: 1 1 300px;
+        max-width: 426px;
+      }
+      .new-advantages__body--count-4 & {
+        flex: 1 1 250px;
+        max-width: 315px;
+      }
+
+      // Quantity query selectors (fallback based on DOM count)
+      &:first-child:nth-last-child(3),
+      &:first-child:nth-last-child(3) ~ & {
+        flex: 1 1 300px;
+        max-width: 426px;
+      }
+
+      &:first-child:nth-last-child(4),
+      &:first-child:nth-last-child(4) ~ & {
+        flex: 1 1 250px;
+        max-width: 315px;
+      }
+    }
+  }
+
+  &__icon {
+    margin-bottom: 24px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+
+    img {
+      height: 100%;
+      width: auto;
+      object-fit: contain;
+    }
+  }
+
+  &__title {
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    vertical-align: middle;
+    color: $mainColor;
+    margin-bottom: 16px;
+  }
+
+  &__text {
+    font-family: 'Geometria', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0;
+    color: $mainColor;
+    opacity: 0.64;
+  }
+}

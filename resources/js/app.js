@@ -222,6 +222,8 @@ const burgerServicesBtn = document.querySelector(
     "button.header-burger__list-link"
 );
 
+const  headerBurgerContat = document.querySelector('.header-burger__contact');
+
 burgerServicesBtn.addEventListener("click", () => {
     const burgerServices = document.querySelector(".header-burger__sub-list");
     const burgerServicesHeight = burgerServices.scrollHeight;
@@ -232,10 +234,14 @@ burgerServicesBtn.addEventListener("click", () => {
         burgerServices.classList.add("active");
         burger.classList.add("show-services");
         headerBurgerMenu.classList.add("service-active");
+        headerBurgerContat.classList.add('hidden');
     } else {
         burgerServices.removeAttribute("style");
         burger.classList.remove("show-services");
         headerBurgerMenu.classList.remove("service-active");
+        setTimeout(() => {
+          headerBurgerContat.classList.remove('hidden');
+        }, 500);
     }
 });
 
@@ -316,6 +322,8 @@ if (window.matchMedia("(pointer: coarse)").matches) {
 const formImage = document.getElementById("fileImage");
 const formPreview = document.getElementById("filePreview");
 const bookingForm = document.getElementById("quiz");
+const popupDragDrop = document.getElementById("popupDragDrop");
+
 formImage.addEventListener("change", function () {
     formPreview.innerHTML = "";
     formPreview.classList.add("load");
@@ -324,6 +332,37 @@ formImage.addEventListener("change", function () {
     }
     uploadFile(formImage.files[0]);
 });
+
+if (popupDragDrop) {
+    ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+        popupDragDrop.addEventListener(eventName, preventDefaults, false);
+    });
+
+    function preventDefaults(e) {
+        e.preventDefault();
+        e.stopPropagation();
+    }
+
+    ['dragenter', 'dragover'].forEach(eventName => {
+        popupDragDrop.addEventListener(eventName, () => popupDragDrop.classList.add('highlight'), false);
+    });
+
+    ['dragleave', 'drop'].forEach(eventName => {
+        popupDragDrop.addEventListener(eventName, () => popupDragDrop.classList.remove('highlight'), false);
+    });
+
+    popupDragDrop.addEventListener('drop', handleDrop, false);
+
+    function handleDrop(e) {
+        let dt = e.dataTransfer;
+        let files = dt.files;
+        
+        if (files.length) {
+            formImage.files = files;
+            formImage.dispatchEvent(new Event('change'));
+        }
+    }
+}
 function uploadFile(file) {
     if (file?.size > 2.5e7 && bookingForm.classList.contains("ru")) {
         alert("Максимум 25 мегабайт");
@@ -446,6 +485,25 @@ function toggleAnswer(answer) {
     } else {
         answer.style.height = "0";
     }
+}
+
+// FAQ accordion
+const faqItems = document.querySelectorAll('.faq__item');
+if (faqItems.length > 0) {
+    faqItems.forEach(item => {
+        const question = item.querySelector('.faq__question');
+        question.addEventListener('click', () => {
+            const isActive = item.classList.contains('active');
+
+            // Close all items
+            faqItems.forEach(i => i.classList.remove('active'));
+
+            // Open clicked item if it wasn't already open
+            if (!isActive) {
+                item.classList.add('active');
+            }
+        });
+    });
 }
 
 // About accordions
@@ -726,6 +784,26 @@ if(portfolioPage){
 const analitics = document.querySelectorAll(".send-analytics");
 if(analitics){
     analitics.forEach(el => el.addEventListener('click', () => gtag_report_conversion(undefined, '7AvwCJeHobkaEIWZ1cIo')))
+}
+
+// Intersection Observer for scroll animations (item by item)
+const projectItems = document.querySelectorAll(".projects__item");
+if (projectItems.length > 0) {
+    const observer = new IntersectionObserver(
+        (entries, observer) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("is-visible");
+                    observer.unobserve(entry.target);
+                }
+            });
+        },
+        { 
+            rootMargin: "0px 0px -20% 0px", // Trigger when item is 20% above the bottom edge of the viewport
+            threshold: 0.1
+        }
+    );
+    projectItems.forEach(item => observer.observe(item));
 }
 
 

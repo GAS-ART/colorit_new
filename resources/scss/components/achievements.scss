@@ -1,0 +1,175 @@
+/*============ACHIEVEMENTS============*/
+.achievements {
+  background-color: #FFFFFF;
+  border-radius: 48px 48px 0 0;
+  position: relative;
+  z-index: 2;
+
+  @media (max-width: 768px) {
+    border-radius: 0;
+    margin-bottom: 48px;
+  }
+
+  &__container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 104px 100px 80px;
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: 1024px) {
+      padding: 84px 40px 60px;
+    }
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      gap: 32px;
+      padding: 40px 20px;
+      padding-left: 0 !important;
+      align-items: flex-start;
+    }
+  }
+
+  &__item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+    &::before {
+      content: "";
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 1px;
+      background-color: #89368E;
+
+      @media (max-width: 768px) {
+        top: 29px !important;
+        bottom: auto !important;
+        left: 0;
+        transform: none;
+        width: 30px;
+        height: 1px !important;
+      }
+    }
+
+    @media (max-width: 768px) {
+      align-items: flex-start;
+      text-align: left;
+      padding-left: 64px;
+    }
+  }
+
+  &__number-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+    transition: transform 0.3s ease, color 0.3s ease;
+    cursor: default;
+
+    @media (max-width: 768px) {
+      margin-bottom: 12px;
+      justify-content: flex-start;
+    }
+
+    @media (pointer: fine) {
+      &:hover {
+        transform: scale(1.1) translateY(-5px);
+        
+        .achievements__number {
+          color: $purple;
+        }
+      }
+    }
+  }
+
+  &__number, &__plus {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 120%;
+    letter-spacing: -0.04em;
+    color: #111;
+    transition: color 0.3s ease;
+
+    @media (max-width: 768px) {
+      font-size: 48px;
+    }
+  }
+
+  &__plus {
+    color: $purple;
+  }
+
+  &__text {
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    color: #111;
+  }
+
+  // Direction Modifier Styles
+  &--line-top {
+    .achievements__item {
+      &::before {
+        top: -104px;
+        bottom: auto;
+        height: 80px;
+
+        @media (max-width: 1024px) {
+          top: -84px;
+          height: 60px;
+        }
+      }
+    }
+  }
+
+  &--line-bottom {
+    .achievements__container {
+      padding: 80px 100px 104px;
+
+      @media (max-width: 1024px) {
+        padding: 60px 40px 84px;
+      }
+      
+      @media (max-width: 768px) {
+        padding: 40px 20px;
+      }
+    }
+
+    .achievements__item {
+      &::before {
+        top: auto;
+        bottom: -104px;
+        height: 80px;
+
+        @media (max-width: 1024px) {
+          bottom: -84px;
+          height: 60px;
+        }
+      }
+    }
+  }
+
+  // Background Color Modifiers
+  &--bg-desktop-white {
+    background-color: #FFFFFF;
+  }
+  &--bg-desktop-grey {
+    background-color: #F6F6F6;
+  }
+
+  @media (max-width: $mobile) {
+    &--bg-mobile-white {
+      background-color: #FFFFFF !important;
+    }
+    &--bg-mobile-grey {
+      background-color: #F6F6F6 !important;
+    }
+  }
+}
+/*============ACHIEVEMENTS============*/

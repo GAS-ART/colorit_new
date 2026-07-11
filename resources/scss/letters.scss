@@ -105,3 +105,151 @@
   }
 }
 /*================THICKNESS================*/
+
+/*================TYPES================*/
+.types {
+  @extend %section;
+  @include adaptiveValueREM('padding-top', 80, 48, 1440, 360, 1);
+  &__container {
+  }
+
+  &__title {
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    @include adaptiveValueREM('font-size', 40, 28, 1440, 360, 1);
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    margin-bottom: 32px;
+    @media (max-width: $mobile) {
+      margin-bottom: 24px;
+    }
+  }
+
+  &__items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    row-gap: 32px;
+    @media (max-width: $mobile) {
+      grid-template-columns: 1fr;
+      row-gap: 16px;
+    }
+  }
+
+  &__item {
+  }
+
+  &__item-img {
+    margin-bottom: 16px;
+    img {
+      max-width: 650px;
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 12px;
+    }
+  }
+
+  &__item-title {
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    margin-bottom: 12px;
+    @media (max-width: $mobile) {
+      font-size: 20px;
+    }
+  }
+
+  &__item-text {
+    font-family: 'Geometria', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    opacity: 64%;
+  }
+}
+/*================TYPES================*/
+
+/*================MATERIALS================*/
+.materials {
+  @extend %section;
+  background-color: #F6F6F6;
+  @include adaptiveValueREM('padding-bottom', 80, 48, 1440, 360, 1);
+
+  &__container {
+  }
+
+  &__title {
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    @include adaptiveValueREM('font-size', 40, 28, 1440, 360, 1);
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    margin-bottom: 16px;
+  }
+
+  &__subtitle {
+    font-family: 'Geometria', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    opacity: 0.64;
+    margin-bottom: 32px;
+    @media (max-width: $mobile) {
+      margin-bottom: 24px;
+    }
+  }
+
+  &__items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px 20px;
+    @media (max-width: $mobile) {
+      grid-template-columns: 1fr;
+      gap: 16px 16px;
+    }
+  }
+
+  &__item {
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    padding: 16px;
+    @media (max-width: $mobile) {
+      border-radius: 16px;
+      padding: 12px;
+    }
+  }
+
+  &__item-img {
+    margin-bottom: 16px;
+    img {
+      max-width: 650px;
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 12px;
+    }
+  }
+
+  &__item-title {
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    margin-bottom: 12px;
+    @media (max-width: $mobile) {
+      font-size: 20px;
+    }
+  }
+
+  &__item-text {
+    font-family: 'Geometria', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+  }
+}
+/*================MATERIALS================*/

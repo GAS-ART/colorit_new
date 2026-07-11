@@ -1,7 +1,7 @@
 <?php
 
 return [
-  'whithout_light'=> [
+  'whithout_light' => [
     'banner' => [
       'title' => 'Rótulos sin iluminacion',
       'circle_text' => 'Producción hasta 8-14 días',
@@ -71,83 +71,268 @@ return [
     No pierdas la oportunidad de mejorar la imagen de tu empresa con nuestros rótulos sin luz. Pídenos tus rótulos y obtendrás alta calidad, diseño personalizado a un precio atractivo. Puedes consultar el coste de los rótulos publicitarios sin luz con nuestros especialistas.'
   ],
   'whith_light' => [
-    'banner' => [
-      'title' => 'Rótulos luminosos',
-      'circle_text' => 'Producción 14 - 21 días',
-    ],
-      'text' => 'El uso de rótulos luminosos te ofrece muchas ventajas: mejora la visibilidad de tu local en la oscuridad, crea una publicidad espectacular y pegadiza, y te permite atraer un mayor número de clientes potenciales. Puede ser una caja luminosa (un lightbox), es una caja de plástico y metacrilato con iluminación mediante las luces LED, una caja de paneles compuestos o un rótulo con reflectores.',
+    'photo' => [
+      1 => [
+        'name' => 'fabricacion-rotulos-luminosos-para-negocios',
+        'alt' => 'Elegante rótulo luminoso LUMIÈRE en la fachada nocturna de un restaurante. Fabricación y montaje de rótulos luminosos para negocios llave en mano.',
+      ],
+      'projects' => [
+        1 => [
+          'name' => 'rotulos-luminosos-para-joyerias',
+          'alt' => 'Proyecto realizado: rótulo luminoso premium de letras corpóreas para la boutique de joyería Carrera y Carrera',
+          'title' => 'Carrera y Carrera',
+          'text' => 'Letras corpóreas premium para boutique de joyería',
+        ],
+        2 => [
+          'name' => 'fabricacion-de-rotulos-para-clinicas',
+          'alt' => 'Proyecto realizado: elegantes letras luminosas de metal en la fachada de la clínica estética Davinci Clinique',
+          'title' => 'Davinci Clinique',
+          'text' => 'Letras luminosas para clínica estética',
+        ],
+        3 => [
+          'name' => 'letras-de-aluminio-luminosas',
+          'alt' => 'Proyecto realizado: letras de aluminio brillantes con iluminación frontal para la tienda La Castafiore',
+          'title' => 'La Castafiore',
+          'text' => 'Letras de aluminio con iluminación frontal',
+        ],
+        4 => [
+          'name' => 'rotulacion-exterior-para-clinicas-dentales',
+          'alt' => 'Proyecto realizado: rotulación exterior integral y cajas de luz para la Clínica Dental San Pedro',
+          'title' => 'Clínica Dental San Pedro',
+          'text' => 'Diseño integral y rotulación de clínica dental',
+        ],
+        5 => [
+          'name' => 'rotulos-interiores-retroiluminados',
+          'alt' => 'Proyecto realizado: elegante rótulo interior con letras retroiluminadas para el estudio de fitness BB1',
+          'title' => 'BB1',
+          'text' => 'Letras retroiluminadas para estudio de fitness',
+        ],
+        6 => [
+          'name' => 'letras-espejo-para-cafeterias',
+          'alt' => 'Proyecto realizado: rótulo luminoso con letras doradas efecto espejo para la cafetería Slitti',
+          'title' => 'Slitti',
+          'text' => 'Rótulo para cafetería con letras efecto espejo',
+        ],
+        7 => [
+          'name' => 'rotulos-luminosos-llamativos-para-negocios',
+          'alt' => 'Proyecto realizado: rótulo exterior corpóreo de color turquesa con iluminación para Escola de MOSAIC',
+          'title' => 'Escola de MOSAIC',
+          'text' => 'Rótulo luminoso llamativo para centro educativo',
+        ],
+        8 => [
+          'name' => 'logotipo-luminoso-de-pared',
+          'alt' => 'Proyecto realizado: logotipo interior redondo con suave retroiluminación para RF Medicina Estética',
+          'title' => 'RF Medicina Estética',
+          'text' => 'Logotipo interior con iluminación retroiluminada',
+        ],
+        9 => [
+          'name' => 'letras-corporeas-doradas-luminosas',
+          'alt' => 'Proyecto realizado: letras corpóreas doradas con iluminación interior cálida para Clínica Marista',
+          'title' => 'Clínica Marista',
+          'text' => 'Letras corpóreas doradas para centro médico',
+        ],
+      ],
+      'cost' => [
+        'name' => 'presupuesto-rotulos-luminosos-para-negocios',
+        'alt' => 'Elegante rótulo luminoso LUMIÈRE en la fachada de una boutique. Cálculo rápido de precio y presupuesto de letreros luminosos en 24 horas.',
+      ],
+      'variants_title' => 'Opciones de rótulos con luz',
+      'variants_subtitle' => 'Seleccionamos la estructura adecuada para su fachada, presupuesto y estilo de negocio.',
       'variants' => [
-        'title' => 'Tipos de rotulos luminosos',
-        'image_titles' => [
-          '1' => 'Rotulo de metacrilato',
-          '2' => 'Bandeja calada',
-          '3' => 'Letrero con foco',
+        1 => [
+          'name' => 'fabricacion-cajas-de-luz-rotulos',
+          'alt' => 'Caja de luz luminosa de doble cara (banderola) O\'Donell instalada en la fachada de un edificio',
+          'title' => 'Caja de luz (Lightbox)',
+          'text' => 'Caja de luz clásica con iluminación LED uniforme. Ideal para tiendas, cafeterías, salones y oficinas.',
+        ],
+        2 => [
+          'name' => 'rotulos-de-composite-con-iluminacion',
+          'alt' => 'Moderno rótulo de bandeja de composite negro con logotipo ARTFORMA iluminado',
+          'title' => 'Bandeja de composite',
+          'text' => 'Rótulo de fachada moderno fabricado con paneles composite con logotipo o letras iluminadas.',
+        ],
+        3 => [
+          'name' => 'rotulos-con-iluminacion-externa-focos',
+          'alt' => 'Rótulo exterior en fachada de la marca D\'AMO con iluminación externa mediante focos proyectores LED',
+          'title' => 'Rótulo con focos proyectores',
+          'text' => 'Solución para fachadas donde se requiere iluminación exterior sin caja de luz interna.',
         ],
       ],
-      'material' => [
-        'title' => 'Material',
-        'text' => 'En fabricación de rótulos luminosos, utilizamos: PVC, metacrilato, madera y paneles composite de aluminio.',
-        'image_titles' => [
-          '1' => 'PVC',
-          '2' => 'Metacrilato',
-          '3' => 'Madera',
-          '4' => 'Composito',
+      'proposition' => [
+        'name' => 'rotulos-luminosos-para-negocios-pedir-presupuesto',
+        'alt' => 'Elegante rótulo con retroiluminación cálida para panadería Daily Bakery. Solicite un rótulo luminoso para su negocio: preparamos su propuesta en 24 horas.',
+      ],
+    ],
+    'banner' => [
+      'title' => 'Fabricamos rótulos luminosos para negocios LLAVE EN MANO',
+      'subtitle' => 'Cajas de luz, rótulos de composite y letreros con iluminación LED. Fabricación desde 14 días · Montaje en toda Cataluña y España',
+    ],
+    'why_title' => 'Por qué los negocios eligen rótulos luminosos',
+    'why' => [
+      [
+        'title' => 'Visibilidad de tarde y noche',
+        'text' => 'El rótulo ayuda a los clientes a localizar su negocio incluso en la oscuridad.',
+      ],
+      [
+        'title' => 'Imagen moderna',
+        'text' => 'Un rótulo luminoso hace que la fachada luzca más profesional y atractiva.',
+      ],
+      [
+        'title' => 'Iluminación LED',
+        'text' => 'Utilizamos módulos LED de bajo consumo con una iluminación uniforme.',
+      ],
+      [
+        'title' => 'Montaje llave en mano',
+        'text' => 'Fabricamos, entregamos e instalamos el rótulo directamente en su local.',
+      ],
+    ],
+    'projects' => [
+      'title' => 'Rótulos luminosos realizados',
+      'subtitle' => 'Ejemplos de cajas de luz, rótulos de composite y letreros con iluminación para tiendas, restaurantes y negocios.'
+    ],
+    'cost' => [
+      'title' => 'Calculamos el coste de su rótulo luminoso en 24 horas',
+      'text' => 'Prepararemos una propuesta y le asesoraremos sobre la mejor opción para su negocio.',
+    ],
+    'variants' => [
+      'title' => 'Opciones de rótulos luminosos',
+      'subtitle' => 'Seleccionamos la estructura perfecta para la fachada, el presupuesto y el estilo de su negocio.',
+    ],
+    'what_title' => 'Qué aportará un rótulo luminoso a su negocio',
+    'what' => [
+      [
+        'title' => 'Más visibilidad',
+        'text' => 'Su fachada será perfectamente visible de día, de tarde y de noche.',
+      ],
+      [
+        'title' => 'Más confianza',
+        'text' => 'Un rótulo luminoso cuidado transmite una imagen más profesional a los ojos de los clientes.',
+      ],
+      [
+        'title' => 'Más clientes y visitas',
+        'text' => 'A los clientes les resultará más fácil encontrar su local y recordar su marca.',
+      ],
+    ],
+    'backlight_options' => [
+      'title' => 'Opciones de iluminación',
+      'subtitle' => 'Seleccionamos el tipo de iluminación según la fachada y el efecto deseado.',
+      '1' => [
+        'title' => 'Módulos LED',
+        'text' => 'Se utilizan en el interior de cajas de luz y rótulos luminosos. Proporcionan una iluminación uniforme y brillante con un bajo consumo energético.',
+        'alt' => 'Módulos LED para cajas de luz',
+      ],
+      '2' => [
+        'title' => 'Focos',
+        'text' => 'Ideales para la iluminación exterior de rótulos de fachada y placas comerciales.',
+        'alt' => 'Focos para iluminación exterior de rótulos',
+      ],
+      '3' => [
+        'title' => 'Iluminación combinada',
+        'text' => 'Es posible combinar diferentes tipos de luz para maximizar la visibilidad y potenciar el impacto visual.',
+        'alt' => 'Iluminación combinada para rótulos',
+      ],
+    ],
+    'work' => [
+      'title' => 'Proceso de trabajo',
+      'cards' => [
+        1 => [
+          'number' => '1',
+          'text' => 'Nos envía una foto de la fachada',
+          'description' => 'Nos proporciona el logotipo, las medidas, la dirección o una foto del lugar de instalación.',
+        ],
+        2 => [
+          'number' => '2',
+          'text' => 'Le proponemos una solución',
+          'description' => 'Seleccionamos el tipo de rótulo, los materiales, la iluminación y calculamos el coste.',
+        ],
+        3 => [
+          'number' => '3',
+          'text' => 'Fabricamos el rótulo',
+          'description' => 'Producimos la estructura, preparamos la iluminación y verificamos la calidad.',
+        ],
+        4 => [
+          'number' => '4',
+          'text' => 'Realizamos el montaje',
+          'description' => 'Instalamos el rótulo y conectamos la iluminación directamente en su local.',
         ],
       ],
-      'thiknes' => [
-        'title' => 'Grosor',
-        'text' => 'El mejor grosor de la caja de luz es de 8-12 cm, este ancho asegura una distribución uniforme de la luz de los módulos LED sin pérdida de brillo',
-        'img' => [
-          '1' => 'Grosor de 8 cm',
-          '2' => 'Grosor de 12 cm',
-        ],
+    ],
+    'proposition' => [
+      'title' => '¿Necesita un rótulo luminoso para su negocio?',
+      'subtitle' => 'Envíenos una foto de la fachada o su logotipo — prepararemos una propuesta y le asesoraremos sobre la mejor opción.',
+      'btn1' => 'Solicitar presupuesto',
+      'btn2' => 'Escribir por WhatsApp',
+      'footnote' => '',
+    ],
+
+    'text_title' => 'Letras luminosas y rótulos en Barcelona',
+
+    'text' => 'El uso de rótulos luminosos te ofrece muchas ventajas: mejora la visibilidad de tu local en la oscuridad, crea una publicidad espectacular y pegadiza, y te permite atraer un mayor número de clientes potenciales. Puede ser una caja luminosa (un lightbox), es una caja de plástico y metacrilato con iluminación mediante las luces LED, una caja de paneles compuestos o un rótulo con reflectores.',
+
+    'material' => [
+      'title' => 'Material',
+      'text' => 'En fabricación de rótulos luminosos, utilizamos: PVC, metacrilato, madera y paneles composite de aluminio.',
+      'image_titles' => [
+        '1' => 'PVC',
+        '2' => 'Metacrilato',
+        '3' => 'Madera',
+        '4' => 'Composito',
       ],
-      'backlight' => [
-        'title' => 'Iluminación',
-        'text' => 'Iluminación. Las cajas de luz se iluminan con módulos LED. Consumen poca energía, tienen una larga vida útil y son más compactos y eficientes que las fuentes de luz tradicionales.',
-        'img' => [
-          '1' => 'Modulos LED',
-          '2' => 'Foco',
-        ],
+    ],
+    'thiknes' => [
+      'title' => 'Grosor',
+      'text' => 'El mejor grosor de la caja de luz es de 8-12 cm, este ancho asegura una distribución uniforme de la luz de los módulos LED sin pérdida de brillo',
+      'img' => [
+        '1' => 'Grosor de 8 cm',
+        '2' => 'Grosor de 12 cm',
       ],
-      'lead' => [
-        'title' => 'Deja una solicitud para fabricar rotulo luminoso',
+    ],
+    'backlight' => [
+      'title' => 'Iluminación',
+      'text' => 'Iluminación. Las cajas de luz se iluminan con módulos LED. Consumen poca energía, tienen una larga vida útil y son más compactos y eficientes que las fuentes de luz tradicionales.',
+      'img' => [
+        '1' => 'Modulos LED',
+        '2' => 'Foco',
       ],
-      'questions' => [
-        '1' => [
-          'question' => '¿Qué opciones de iluminación se utilizan en los rótulos?',
-          'answer' => 'Hoy en día, la forma más económica, duradera y práctica de iluminar los rótulos son los módulos LED y el neón. Las distintas opciones para su instalación permiten obtener diferentes efectos de iluminación. Te ayudaremos a elegir la iluminación óptima y a producir un rótulo brillante y atractivo.',
-        ],
-        '2' => [
-          'question' => '¿Cuánto duran los diodos LED utilizados en la señalización luminosa?',
-          'answer' => 'Los LED pueden durar, en promedio, entre 50.000 y 100.000 horas o más. Esto significa que, funcionando durante un promedio de 8 horas al día, puedrían durar entre 17 y 34 años.<br>
+    ],
+    'lead' => [
+      'title' => 'Deja una solicitud para fabricar rotulo luminoso',
+    ],
+    'questions' => [
+      '1' => [
+        'question' => '¿Qué opciones de iluminación se utilizan en los rótulos?',
+        'answer' => 'Hoy en día, la forma más económica, duradera y práctica de iluminar los rótulos son los módulos LED y el neón. Las distintas opciones para su instalación permiten obtener diferentes efectos de iluminación. Te ayudaremos a elegir la iluminación óptima y a producir un rótulo brillante y atractivo.',
+      ],
+      '2' => [
+        'question' => '¿Cuánto duran los diodos LED utilizados en la señalización luminosa?',
+        'answer' => 'Los LED pueden durar, en promedio, entre 50.000 y 100.000 horas o más. Esto significa que, funcionando durante un promedio de 8 horas al día, puedrían durar entre 17 y 34 años.<br>
           Pero hay que tener en cuenta que la vida útil de los LED puede reducirse por el sobrecalentamiento, la humedad elevada, los encendidos y apagados frecuentes y la tensión de alimentación inestable e incorrecta.<br>
           Para maximizar la duración del servicio de los LED, se recomienda su correcta selección, su instalación según las recomendaciones del fabricante, una buena refrigeración y una alimentación estable.',
-        ],
-        '3' => [
-          'question' => '¿Si es posible regular la intensidad de la luz del rótulo?',
-          'answer' => 'Se puede regular el brillo de la iluminación de fondo añadiendo o reduciendo el número de módulos LED. Además, para conseguir una mayor luminosidad se puede utilizar diodos LED más brillantes y viceversa.',
-        ],
-        '4' => [
-          'question' => '¿Qué aspecto tendrá el rótulo durante el día cuando la iluminación de fondo esté inactiva?',
-          'answer' => 'Todos los rótulos están diseñados para ser atractivos y visibles incluso durante el día.',
-        ],
-        '5' => [
-          'question' => '¿Cómo se repara y se mantiene la iluminación si algo falla?',
-          'answer' => 'Si tu rótulo no se ilumina, nuestros técnicos acudirán a tu local y harán un diagnóstico de la avería para, a continuación, repararla. Los rótulos que están en garantía se reparan gratis y fuera de orden.',
-        ],
-        '6' => [
-          'question' => '¿Cuál es el plazo de fabricación e instalación de un rótulo luminoso?',
-          'answer' => 'El plazo de fabricación de un rótulo luminoso es de dos a tres semanas.',
-        ],
-        '7' => [
-          'question' => '¿Podéis enseñarme ejemplos de los rótulos luminosos que ya habéis fabricado?',
-          'answer' => 'Se puede consultar nuestros trabajos en la sección de Portafolio.',
-        ],
-        '8' => [
-          'question' => '¿Ofrecéis algún otro tipo de servicio además de letreros luminosos?',
-          'answer' => 'Nuestra agencia está especializada en la fabricación de todo tipo de publicidad exterior, es decir, pegado de escaparates de cristal, impresión de pancartas, decoración de escaparates, producción de stands, banderas, etc. A tu servicio tenemos la impresión en camisetas, sudaderas, shoppers, branding de tazas, bolígrafos, libretas, fabricación de bolsas y productos impresos.',
-        ],
+      ],
+      '3' => [
+        'question' => '¿Si es posible regular la intensidad de la luz del rótulo?',
+        'answer' => 'Se puede regular el brillo de la iluminación de fondo añadiendo o reduciendo el número de módulos LED. Además, para conseguir una mayor luminosidad se puede utilizar diodos LED más brillantes y viceversa.',
+      ],
+      '4' => [
+        'question' => '¿Qué aspecto tendrá el rótulo durante el día cuando la iluminación de fondo esté inactiva?',
+        'answer' => 'Todos los rótulos están diseñados para ser atractivos y visibles incluso durante el día.',
+      ],
+      '5' => [
+        'question' => '¿Cómo se repara y se mantiene la iluminación si algo falla?',
+        'answer' => 'Si tu rótulo no se ilumina, nuestros técnicos acudirán a tu local y harán un diagnóstico de la avería para, a continuación, repararla. Los rótulos que están en garantía se reparan gratis y fuera de orden.',
+      ],
+      '6' => [
+        'question' => '¿Cuál es el plazo de fabricación e instalación de un rótulo luminoso?',
+        'answer' => 'El plazo de fabricación de un rótulo luminoso es de dos a tres semanas.',
+      ],
+      '7' => [
+        'question' => '¿Podéis enseñarme ejemplos de los rótulos luminosos que ya habéis fabricado?',
+        'answer' => 'Se puede consultar nuestros trabajos en la sección de Portafolio.',
+      ],
+      '8' => [
+        'question' => '¿Ofrecéis algún otro tipo de servicio además de letreros luminosos?',
+        'answer' => 'Nuestra agencia está especializada en la fabricación de todo tipo de publicidad exterior, es decir, pegado de escaparates de cristal, impresión de pancartas, decoración de escaparates, producción de stands, banderas, etc. A tu servicio tenemos la impresión en camisetas, sudaderas, shoppers, branding de tazas, bolígrafos, libretas, fabricación de bolsas y productos impresos.',
+      ],
     ],
     'about_text' => 'Los rótulos luminosos desempeñan un papel importante en la vida empresarial moderna, ya que brindan a las empresas una oportunidad única de atraer la atención de los clientes, destacarse entre los otros negocios y consolidar su reputación. Son parte integrante de una estrategia publicitaria y pueden tener un impacto significativo en el éxito de un negocio.<br>
     Lo primero que ve un cliente cuando se acerca a un local comercial es su rótulo luminoso. Él que sirve de tarjeta de visita de la empresa, comunicando su especialización, logotipo y nombre. Una señalización diseñada de forma creativa puede resaltar las características únicas de una marca, así como transmitir el mensaje principal en cuestión de segundos.<br>
@@ -186,7 +371,7 @@ return [
         '5' => 'Dorado',
       ],
     ],
-    'led'=> [
+    'led' => [
       'title' => 'Modulos LED',
       'text' => 'Para iluminar las cajas de luz se utilizan módulos LED con un consumo de 0,5 W a 3 W por módulo y un ángulo de dispersión de 120° a 160°. La vida útil suele ser de 30.000 a 50.000 horas.',
     ],
@@ -384,5 +569,4 @@ return [
     <br>
     En conclusión, los letreros de neón flexibles son un arte único y una poderosa herramienta publicitaria que puede crear un ambiente único y atraer la atención. Tienen una rica historia y se consideran un símbolo de la vida nocturna y el entretenimiento. Siguen siendo una parte importante de la cultura y los negocios modernos. Puedes solicitar rótulos de neón poniéndote en contacto con nuestros comerciales.',
   ],
-]
-?>
+];

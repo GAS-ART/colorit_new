@@ -1,0 +1,269 @@
+.work {
+  position: relative;
+  background-color: #F6F6F6;
+  padding: rem(80) rem(60);
+  border-radius: rem(48) rem(48) 0 0;
+
+  &--bg-white {
+    background-color: #FFFFFF;
+
+    &::after {
+     display: none !important;
+    }
+  } 
+  
+  &--bg-gray{
+    background-color: #F6F6F6;
+
+    &::after {
+      background-color: #F6F6F6 !important;
+    }
+  }
+
+  @media (max-width: $mobile) {
+    padding: 48px 20px;
+  }
+
+  // Сіра плашка яка перекриває наступний блок (після закінчення основного блоку)
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: rem(-48);
+    left: 0;
+    width: 100%;
+    height: rem(48);
+    background-color: #F6F6F6;
+    border-radius: 0 0 rem(48) rem(48);
+    z-index: 1;
+  }
+
+  &__container {
+    max-width: rem(1240);
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  &__title {
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 120%;
+    letter-spacing: -0.04em;
+    color: $mainColor;
+    margin-bottom: rem(32);
+    @include adaptiveValueREM('font-size', 40, 28, 1440, 360, 1);
+  }
+
+  // Wrapper that holds cards
+  &__body {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+
+    @media (max-width: $tablet) {
+      position: relative;
+      padding-left: rem(34);
+    }
+  }
+
+  // ====== Cards row ======
+  &__cards {
+    display: flex;
+    gap: rem(8);
+    align-items: stretch;
+
+    @media (max-width: $tablet) {
+      flex-direction: column;
+      gap: rem(8);
+      position: relative;
+    }
+  }
+
+  &__card {
+    background-color: $purple;
+    border-radius: rem(24);
+    padding: rem(32);
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: rem(16);
+    color: #FFFFFF;
+    position: relative;
+
+    &--has-desc {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      background-color: $purple;
+      z-index: 2;
+
+      // Desktop: triangle pointing down toward connector
+      width: rem(24);
+      height: rem(14);
+      bottom: rem(-13.7);
+      left: 50%;
+      transform: translateX(-50%);
+      clip-path: polygon(50% 100%, 0 0, 100% 0);
+
+      @media(max-width: $tablet){
+        // Mobile: triangle pointing left toward connector
+        width: rem(14);
+        height: rem(24);
+        left: rem(-13.6);
+        bottom: auto;
+        top: 50%;
+        transform: translateY(-50%);
+        clip-path: polygon(0 50%, 100% 0, 100% 100%);
+      }
+    }
+
+    @media (max-width: $tablet) {
+      width: 100%;
+      padding: rem(24);
+      border-radius: rem(24);
+    }
+  }
+
+  &__card-number {
+    width: rem(40);
+    height: rem(40);
+    min-width: rem(40);
+    border-radius: 50%;
+    background-color: #9C56A0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    font-size: rem(18);
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+  }
+
+  &__card-text {
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    font-size: rem(18);
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+  }
+
+  &__card-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__card-desc {
+    margin-top: 15px;
+    font-family: 'Geometria', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: rem(16);
+    line-height: 160%;
+    letter-spacing: 0;
+    opacity: 0.64;
+    text-align: left;
+    color: #FFFFFF;
+
+    p {
+      margin-bottom: 16px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  // ====== Connector (dots + lines) inside each card ======
+  // Desktop: horizontal row below card, centered to card
+  // Mobile:  vertical strip on the left side of the card
+
+  &__connector {
+    position: absolute;
+    display: flex;
+    align-items: center;
+
+    // Desktop: horizontal, below the card
+    // Extend by half the gap (4px) on each side to close gaps between cards
+    left: -4px;
+    right: -4px;
+    bottom: -46px;
+    height: rem(12);
+
+    @media (max-width: $tablet) {
+      // Mobile: vertical, on the left of the card
+      // Extend by half the gap (4px) on each side to close gaps between cards
+      flex-direction: column;
+      left: rem(-34);
+      top: -4px;
+      bottom: -4px;
+      right: auto;
+      width: rem(12);
+      height: auto;
+    }
+  }
+
+  &__dot {
+    width: rem(12);
+    height: rem(12);
+    min-width: rem(12);
+    min-height: rem(12);
+    border-radius: 50%;
+    background-color: $mainColor;
+    flex-shrink: 0;
+    margin: 0 8px;
+    position: relative;
+
+    @media (max-width: $tablet) {
+      margin: 8px 0;
+    }
+  }
+
+  // Крайня ліва риска (desktop: gradient E9EBF2 -> 4B4D5C)
+  &__line--first {
+    height: rem(2);
+    border-radius: rem(2);
+    background: linear-gradient(90deg, #E9EBF2 0%, #4B4D5C 100%);
+    flex: 1;
+
+    @media (max-width: $tablet) {
+      width: rem(2);
+      flex: 1;
+      background: linear-gradient(180deg, #E9EBF2 0%, #4B4D5C 100%);
+    }
+  }
+
+  // Середні риски
+  &__line--middle {
+    height: rem(2);
+    border-radius: rem(2);
+    background-color: $mainColor;
+    flex: 1;
+
+    @media (max-width: $tablet) {
+      width: rem(2);
+      flex: 1;
+      background-color: $mainColor;
+    }
+  }
+
+  // Крайня права риска (desktop: gradient 4B4D5C -> E9EBF2)
+  &__line--last {
+    height: rem(2);
+    border-radius: rem(2);
+    background: linear-gradient(90deg, #4B4D5C 0%, #E9EBF2 100%);
+    flex: 1;
+
+    @media (max-width: $tablet) {
+      width: rem(2);
+      flex: 1;
+      background: linear-gradient(180deg, #4B4D5C 0%, #E9EBF2 100%);
+    }
+  }
+}

@@ -11,8 +11,9 @@
                 <div class="footer__contact">
                     <div class="footer__phone">
                         <a class="footer__contact-link send-analytics" href="tel:%2B34691820317">@lang('main.phone')</a>
-                        <div class="footer__messengers">
-                            <a href="https://wa.me/34691820317" class="footer__messengers-item footer__messengers-whatsapp send-analytics">
+                        {{-- <div class="footer__messengers">
+                            <a href="https://wa.me/34691820317"
+                                class="footer__messengers-item footer__messengers-whatsapp send-analytics">
                                 <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
                                     xmlns:xlink="http://www.w3.org/1999/xlink"
                                     style="width: 100%; height: 100%; fill: rgb(255, 255, 255); stroke: none;">
@@ -37,8 +38,9 @@
                                     </path>
                                 </svg>
                             </a>
-                        </div>
+                        </div> --}}
                     </div>
+                    <a class="footer__contact-email" href="mailto:info@rotuloscolorit.es">info@rotuloscolorit.es</a>
 
                     <p class="footer__contact-time">@lang('main.time')</p>
                     <div class="footer__contact-icons">
@@ -84,10 +86,9 @@
                      <path d="M101.996,49.097c0-8.204-6.675-14.879-14.876-14.879s-14.876,6.675-14.876,14.879s6.675,14.879,14.876,14.879   S101.996,57.301,101.996,49.097z M87.12,56.508L87.12,56.508L87.12,56.508L87.12,56.508L87.12,56.508z"/>
                   </g>
                   </svg> --}}
-                        <p>Republica Argentina 7, 1B Masnou, Barcelona 08320</p>
-                        <a href="mailto:info@rotuloscolorit.es">info@rotuloscolorit.es</a>
                     </div>
                 </div>
+                <p class="footer__contact-address">Republica Argentina 7, 1B Masnou, Barcelona 08320</p>
                 <nav class="footer__links links-footer">
                     <ul class="links-footer__list">
                         <li class="links-footer__item">

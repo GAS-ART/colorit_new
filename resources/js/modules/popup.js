@@ -11,8 +11,8 @@ export async function popUp(popupId, payload, uploadFile, showSelect = true, gif
 	const iconTitle = document.querySelector('.popup__title-icon');
 	const giftTitle = popUp.querySelector('.popup__title-gift');
 	const giftSubTitle = popUp.querySelector('.popup__title-sub-gift');
-	const iconImg = popUp.querySelector('.popup__img-body-icon');
-	const giftImg = popUp.querySelector('.popup__img-body-gift');
+	const iconImg = popUp.querySelector('.popup__img-body-icon') || null;
+	const giftImg = popUp.querySelector('.popup__img-body-gift') || null;
 	const select = popUp.querySelector('.popup__item-select-body');
 	const payloadInput = popUp.querySelector('.payload');
 
@@ -35,12 +35,12 @@ export async function popUp(popupId, payload, uploadFile, showSelect = true, gif
 		iconTitle.classList.add('disabled');
 		giftTitle.classList.add('active');
 		giftSubTitle.classList.add('active');
-		iconImg.classList.add('disabled');
-		giftImg.classList.add('active');
+		if (iconImg) iconImg.classList.add('disabled');
+		if (giftImg) giftImg.classList.add('active');
 		payloadInput.value = 'Поп ап где бонус в подарок';
 	}
 	if (!uploadFile && !showSelect) {
-		iconImg.classList.add('three-inputs');
+		if (iconImg) iconImg.classList.add('three-inputs');
 	}
 
 	bodyLock.classList.add('lock');
@@ -82,8 +82,8 @@ export async function popUp(popupId, payload, uploadFile, showSelect = true, gif
 					iconTitle.classList.remove('disabled');
 					giftTitle.classList.remove('active');
 					giftSubTitle.classList.remove('active');
-					iconImg.classList.remove('disabled');
-					giftImg.classList.remove('active');
+					if (iconImg) iconImg.classList.remove('disabled');
+					if (giftImg) giftImg.classList.remove('active');
 				}, 500)
 			}
 			if (!showSelect) {
@@ -93,7 +93,7 @@ export async function popUp(popupId, payload, uploadFile, showSelect = true, gif
 			}
 			if (!uploadFile && !showSelect) {
 				setTimeout(() => {
-					iconImg.classList.remove('three-inputs');
+					if (iconImg) iconImg.classList.remove('three-inputs');
 				}, 500)
 			}
 		});

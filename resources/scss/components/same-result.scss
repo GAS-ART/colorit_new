@@ -1,0 +1,262 @@
+.same-result {
+  width: 100%;
+  padding: 80px 0;
+  position: relative;
+  min-height: 490px;
+  display: flex;
+  align-items: center;
+  isolation: isolate;
+
+  /* ЗМІНА: Прибрали border-radius та overflow з самої секції.
+     Тепер ми застосовуємо їх виключно до блоку з картинкою (.same-result__bg), 
+     щоб секція не обрізала наші кольорові квадрати під нею. */
+  &.border-radius {
+    .same-result__bg {
+      border-radius: 48px 48px 0 0;
+      overflow: hidden;
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    /* ЗМІНА: Прибрали border-radius: 24px; звідси. */
+    margin-top: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    min-height: 417px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    
+    /* ЗМІНА: Перенесли мобільний border-radius також на фон. */
+    &.border-radius {
+      .same-result__bg {
+        border-radius: 24px;
+      }
+    }
+  }
+
+  &__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+    // Shift image upwards by offset to reveal top of the image on wide screens
+    @include adaptiveValueREM('--pos-y', -50, 0, 1920, 1440, 3);
+
+    // Progressive blur layers — each covers a strip with decreasing blur
+    // They overlap slightly so the transition is seamless
+    .same-result__blur-layer {
+      position: absolute;
+      top: 0;
+      height: 100%;
+      z-index: 1;
+      pointer-events: none;
+
+      @media (max-width: 767.98px) {
+        display: none;
+      }
+    }
+
+    .same-result__blur-layer--1 {
+      left: 0;
+      width: 20%;
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      mask-image: linear-gradient(to right, black 0%, black 70%, transparent 100%);
+      -webkit-mask-image: linear-gradient(to right, black 0%, black 70%, transparent 100%);
+    }
+
+    .same-result__blur-layer--2 {
+      left: 12%;
+      width: 18%;
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      mask-image: linear-gradient(to right, black 0%, black 50%, transparent 100%);
+      -webkit-mask-image: linear-gradient(to right, black 0%, black 50%, transparent 100%);
+    }
+
+    .same-result__blur-layer--3 {
+      left: 22%;
+      width: 16%;
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+      mask-image: linear-gradient(to right, black 0%, black 30%, transparent 100%);
+      -webkit-mask-image: linear-gradient(to right, black 0%, black 30%, transparent 100%);
+    }
+
+    .same-result__blur-layer--4 {
+      left: 30%;
+      width: 15%;
+       //width: 28%;
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+     // backdrop-filter: blur(28px);
+      //-webkit-backdrop-filter: blur(28px);
+      mask-image: linear-gradient(to right, black 0%, transparent 100%);
+      -webkit-mask-image: linear-gradient(to right, black 0%, transparent 100%);
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 2;
+      /* Dark gradient on the left (for text), clear in the middle, dark gradient on the right edge */
+      background: 
+        linear-gradient(to right, rgba(27, 27, 30, 0.95) 0%, rgba(27, 27, 30, 0.7) 15%, transparent 45%),
+        linear-gradient(to left, rgba(0, 0, 0, 0.8) 0%, transparent 30%);
+      pointer-events: none;
+
+      @media (max-width: 767.98px) {
+        display: none;
+      }
+    }
+
+    picture, img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      object-position: var(--object-position, center calc(50% - var(--pos-y, 0px)));
+      z-index: 0;
+      position: relative;
+    }
+  }
+
+  /* ЗМІНА: Блоки кольору. Залишились без змін, але тепер коректно працюють 
+     завдяки перенесенню overflow: hidden на .same-result__bg */
+  &__bg-color-left,
+  &__bg-color-right {
+    position: absolute;
+    top: 0;
+    width: 48px;  // Ширина має дорівнювати border-radius
+    height: 48px; // Висота має дорівнювати border-radius
+    z-index: -2;  // Ховаємо їх на самий задній фон
+  }
+
+  &__bg-color-left {
+    left: 0;
+  }
+
+  &__bg-color-right {
+    right: 0;
+  }
+
+  @media (max-width: 767.98px) {
+    &__bg-color-left,
+    &__bg-color-right {
+      width: 24px;  // Адаптуємо розмір кольорових кутів під мобільний border-radius
+      height: 24px;
+    }
+  }
+
+  &__container {
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 15px;
+    position: relative;
+    z-index: 1;
+
+    @media (max-width: 767.98px) {
+      padding: 32px 20px;
+    }
+  }
+
+  &__content {
+    max-width: 640px;
+
+    @media (max-width: 767.98px) {
+      max-width: 100%;
+    }
+  }
+
+  &__title {
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.2;
+    color: #fff;
+    margin-bottom: 20px;
+    @media (max-width: 767.98px) {
+      font-size: 24px;
+      margin-bottom: 12px;
+    }
+  }
+
+  &__subtitle {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #fff;
+    margin-bottom: 40px;
+    @media (max-width: 767.98px) {
+      font-size: 14px;
+      line-height: 1.4;
+      margin-bottom: 24px;
+    }
+  }
+
+  &__actions {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+
+    @media (max-width: 767.98px) {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 12px;
+      width: 100%;
+    }
+  }
+
+  &__btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+
+    @media (max-width: 767.98px) {
+      width: 100%;
+      padding: 16px;
+      border-radius: 12px;
+      font-size: 14px;
+    }
+
+    &.btn--primary {
+      background-color: #89368E;
+      color: #fff;
+      &:hover {
+        background-color: #6d2a71;
+      }
+    }
+
+    &.btn--whatsapp {
+      background-color: #4CAF50;
+      color: #fff;
+      gap: 10px;
+      &:hover {
+        background-color: #3d8c40;
+      }
+      svg {
+        width: 20px;
+        height: 20px;
+        fill: currentColor;
+      }
+    }
+  }
+}

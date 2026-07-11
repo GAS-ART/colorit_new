@@ -475,6 +475,31 @@ if (productPortfolio) {
 }
 
 
-
-
+// Reviews slider
+const reviewsSliderEl = document.querySelector('.reviews__slider');
+if (reviewsSliderEl) {
+  const reviewsSwiper = new Swiper(reviewsSliderEl, {
+    modules: [Navigation],
+    simulateTouch: true,
+    grabCursor: true,
+    loop: true,
+    speed: 600,
+    spaceBetween: 20,
+    slidesPerView: 1,
+    navigation: {
+      nextEl: '.reviews__btn-next',
+      prevEl: '.reviews__btn-prev',
+    },
+    breakpoints: {
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      1024: {
+        slidesPerView: 3,
+        spaceBetween: 20,
+      },
+    },
+  });
+}
 

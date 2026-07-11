@@ -31,10 +31,6 @@
     "file": "assets/check-5568a46f.svg",
     "src": "public/img/icons/check.svg"
   },
-  "public/img/icons/donwload.svg": {
-    "file": "assets/donwload-deae2334.svg",
-    "src": "public/img/icons/donwload.svg"
-  },
   "public/img/icons/link.svg": {
     "file": "assets/link-c288e4f9.svg",
     "src": "public/img/icons/link.svg"
@@ -52,7 +48,7 @@
     "src": "public/img/popup/es/2_.webp"
   },
   "resources/js/app.js": {
-    "file": "assets/app-56e38ec2.js",
+    "file": "assets/app-a3a00699.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   },
@@ -145,7 +141,7 @@
     "src": "resources/scss/fonts/icon-fonts/icomoon.woff"
   },
   "resources/scss/style.scss": {
-    "file": "assets/style-2b6d0392.css",
+    "file": "assets/style-a8ddcd9f.css",
     "isEntry": true,
     "src": "resources/scss/style.scss"
   }

@@ -87,63 +87,280 @@ return [
     ],
   ],
   'whith_light' => [
-      'title' => 'Letras corpóreas iluminadas',
-      'circle' => 'Producción hasta 8-14 días',
-      'text' => 'Las letras luminosas son una forma brillante y eficaz de atraer la atención. Fabricadas con diversos materiales y equipadas con LED, crean una iluminación uniforme y resplandeciente que hace visible tu mensaje incluso en la oscuridad. La flexibilidad de las letras luminosas permite integrarlas fácilmente en diferentes conceptos de diseño, ayudando a crear un ambiente atractivo y profesional. Como resultado, las letras luminosas se convierten en una eficaz herramienta de marketing, que ayuda a que tu marca destaque y deje una viva impresión.',
-      'lights' => [
-        'title' => 'Iluminacion',
-        'text' => 'En producción de letras corpóreas iluminadas utilizamos dos tipos de iluminación',
-        'img' => [
-          '1' => 'Letras corpóreas metacrilato con luz',
-          '2' => 'Letras corpóreas retroiluminadas',
-        ],
-      ],
-      'lead' => [
-        'title' => 'Deja una solicitud para fabricar tus letras corpóreas luminosas',
-      ],
-      'questions' => [
-        '1' => [
-          'question' => '¿Cómo son las letras volumétricas luminosas?',
-          'answer' => 'Las letras corpóreas luminosas son elementos de publicidad exterior de al menos 20 mm de grosor, fabricados con distintos materiales e iluminados con LED o neón flexible.',
-        ],
-        '2' => [
-          'question' => '¿Cuál es el proceso de fabricación de las letras volumétricas luminosas?',
-          'answer' => 'El proceso de fabricación de letras corpóreas con luz consta de etapas como la concepción y creación del diseño, el fresado o corte por láser del material, el ensamblaje, la instalación de los elementos de iluminación y el cableado.',
-        ],
-        '3' => [
-          'question' => '¿Qué formas de iluminación se utilizan normalmente para las letras volumétricas luminosas?',
-          'answer' => 'Los tipos de iluminación más habituales para las letras volumétricas luminosas son la iluminación frontal, en la que la luz se suministra a la parte delantera de la letra, y la retroiluminación (iluminación de contrajour), en la que la luz se suministra a la parte trasera de la letra creando un efecto de halo.',
-        ],
-        '4' => [
-          'question' => '¿Y el consumo de energía?',
-          'answer' => 'Gracias a la tecnología moderna, las tiras de LED están equipadas con módulos de ahorro de energía que reducen el consumo eléctrico varias veces.',
-        ],
-        '5' => [
-          'question' => '¿Qué materiales se suelen utilizar para crear las letras corpóreas?',
-          'answer' => 'Las letras luminosas pueden fabricarse con distintos materiales: metacrilato, PVC, aluminio, acero inoxidable y madera, entre otros.',
-        ],
-        '6' => [
-          'question' => '¿Cómo se suministra la luz a las letras volumétricas luminosas?',
-          'answer' => 'La luz puede suministrarse a las letras corpóreas mediante diodos internos de luz (LED), que se colocan en el interior de la letra y proporcionan una iluminación uniforme.',
-        ],
-        '7' => [
-          'question' => '¿Cuáles son las ventajas de utilizar letras corpóreas con luz para fines publicitarios?',
-          'answer' => 'Las letras volumétricas luminosas tienen una gran visibilidad y un aspecto atractivo, lo que las convierte en una herramienta eficaz para hacer publicidad y atraer la atención hacia una empresa o marca.',
-        ],
-        '8' => [
-          'question' => '¿Cómo puedo mantener y cuidar mis letras luminosas para que sigan siendo eficaces y tengan buena pinta?',
-          'answer' => 'La limpieza regular del polvo y la suciedad, la revisión del funcionamiento y la sustitución de los elementos de iluminación defectuosos (LED) ayudarán a mantener la eficacia y el aspecto de las letras corpóreas luminosas.',
-        ],
-      ],
-      'about_text' => 'La ventaja de las letras volumétricas con luz es su increíble visibilidad incluso en la oscuridad. Brillan con luz propia, atrayendo la mirada de transeúntes y clientes potenciales. Gracias a los efectos luminosos, las letras con luz pueden crear ambiente y atraer la atención incluso en la calle más concurrida.
-      <br>
-      Además, las letras de volumen retroiluminadas para exteriores te brindarán la magnífica oportunidad de hacer que tu tienda se destaque entre tus competidores. Ayudarán a crear una imagen única y inolvidable de tu marca, atrayendo a los clientes y aumentando el reconocimiento de la marca. Las letras retroiluminadas pueden fabricarse en una gran variedad de estilos y colores, lo que te permitirá personalizar tu señalización y diferenciarte de otros comercios.
-      <br>
-      Una ventaja no menos importante de las letras con luz es su carácter universal. Pueden utilizarse tanto en interiores como en exteriores. Independientemente de si necesita letras volumétricas para la señalización de una tienda o una iluminación espectacular del interior, quedarán bien en cualquier lugar.
-      <br>
-      Por último, vale la pena destacar otra característica interesante de las letras con luz: el contrajour. Las letras contrajuradas crean un efecto de profundidad y volumen, gracias al cual su rótulo adquiere una expresividad y un aspecto atractivo especiales. Este efecto visual cien por ciento atraerá la atención y provocará emociones positivas en sus clientes.
-      <br>
-      Así que, las letras corpóreas luminosas son una forma eficaz e impresionante de atraer la atención hacia su negocio o tienda. No pierdas la oportunidad de distinguirte de tus competidores y crear una impresión brillante y memorable. Ponte en contacto con nuestros expertos para diseñar e instalar letras volumétricas exteriores con luz, ¡y seguro que el resultado te satisfará!',
+    'banner' => [
+      'title' => 'Letras corpóreas luminosas',
+      'subtitle' => 'Fabricación desde 7 días · Montaje en toda Cataluña y España',
     ],
-  ]
-?>
+    'why_title' => 'Por qué las empresas trabajan con nosotros',
+    'why' => [
+      [
+        'title' => 'Materiales para exteriores',
+        'text' => 'Utilizamos PVC, aluminio, acrílico y módulos LED para garantizar una larga durabilidad en exteriores.',
+      ],
+      [
+        'title' => 'Iluminación LED brillante',
+        'text' => 'Iluminación uniforme y moderna con alta visibilidad de día y de noche.',
+      ],
+      [
+        'title' => 'Montaje llave en mano',
+        'text' => 'Realizamos el montaje profesional de rótulos y letras corpóreas en toda España.',
+      ],
+      [
+        'title' => 'Fabricación desde 7 días',
+        'text' => 'Cumplimos con los plazos de producción y entendemos la importancia de abrir su negocio a tiempo.',
+      ],
+    ],
+    'projects' => [
+      'title' => 'Proyectos realizados',
+      'subtitle' => 'Ejemplos de letras luminosas y rótulos fabricados para restaurantes, tiendas y negocios.',
+    ],
+    'cost' => [
+      'title' => 'Calculamos el coste de su rótulo en 24 horas',
+      'text' => 'Prepararemos una propuesta y le asesoraremos sobre la mejor opción para su negocio.',
+    ],
+    'types' => [
+      'title' => 'Tipos de iluminación',
+      '1' => [
+        'title' => 'Iluminación frontal',
+        'text' => 'Iluminación brillante y uniforme en la cara frontal de las letras.',
+      ],
+      '2' => [
+        'title' => 'Retroiluminación',
+        'text' => 'Un suave resplandor alrededor de las letras para lograr un efecto premium.',
+      ],
+      '3' => [
+        'title' => 'Iluminación combinada',
+        'text' => 'Iluminación simultánea en la parte frontal y posterior de las letras.',
+      ],
+      '4' => [
+        'title' => 'Neón LED',
+        'text' => 'Neón moderno y flexible, ideal para interiores y negocios.',
+      ],
+    ],
+    'get_title' => 'Qué aportará un nuevo rótulo a su negocio',
+    'get' => [
+      [
+        'title' => 'Más atención',
+        'text' => 'Su fachada destacará más frente a la competencia.',
+      ],
+      [
+        'title' => 'Imagen moderna',
+        'text' => 'El rótulo crea la primera impresión de su negocio.',
+      ],
+      [
+        'title' => 'Mejor visibilidad',
+        'text' => 'Los clientes encontrarán su negocio más fácilmente de día y de noche.',
+      ],
+    ],
+    'materials' => [
+      'title' => 'Utilizamos materiales de alta calidad',
+      'subtitle' => 'Los materiales se seleccionan según la tarea, el estilo del negocio y las condiciones de funcionamiento.',
+      'cards' => [
+        1 => [
+          'title' => 'PVC',
+          'text' => 'Para letras corpóreas y soluciones de interior',
+        ],
+        2 => [
+          'title' => 'Aluminio',
+          'text' => 'Para rótulos premium y uso exterior',
+        ],
+        3 => [
+          'title' => 'Metacrilato',
+          'text' => 'Para una iluminación uniforme y brillante.',
+        ],
+        4 => [
+          'title' => 'Composite',
+          'text' => 'Para cajas de luz y fachadas modernas.',
+        ],
+      ],
+    ],
+    'work' => [
+      'title' => 'Proceso de trabajo',
+      'cards' => [
+        1 => [
+          'number' => '1',
+          'text' => 'Nos envía su logotipo',
+          'description' => 'Nos proporciona las medidas, el logotipo o una fotografía de la fachada.',
+        ],
+        2 => [
+          'number' => '2',
+          'text' => 'Preparamos la propuesta',
+          'description' => 'Realizamos una simulación visual y calculamos el coste.',
+        ],
+        3 => [
+          'number' => '3',
+          'text' => 'Fabricamos el rótulo',
+          'description' => 'Producimos las letras y preparamos la estructura.',
+        ],
+        4 => [
+          'number' => '4',
+          'text' => 'Realizamos el montaje',
+          'description' => 'Instalamos el rótulo y conectamos la iluminación.',
+        ],
+      ],
+    ],
+    'title' => 'Letras corpóreas iluminadas',
+    'circle' => 'Producción hasta 8-14 días',
+    'text' => 'Las letras luminosas son una forma brillante y eficaz de atraer la atención. Fabricadas con diversos materiales y equipadas con LED, crean una iluminación uniforme y resplandeciente que hace visible tu mensaje incluso en la oscuridad. La flexibilidad de las letras luminosas permite integrarlas fácilmente en diferentes conceptos de diseño, ayudando a crear un ambiente atractivo y profesional. Como resultado, las letras luminosas se convierten en una eficaz herramienta de marketing, que ayuda a que tu marca destaque y deje una viva impresión.',
+    'lights' => [
+      'title' => 'Iluminacion',
+      'text' => 'En producción de letras corpóreas iluminadas utilizamos dos tipos de iluminación',
+      'img' => [
+        '1' => 'Letras corpóreas metacrilato con luz',
+        '2' => 'Letras corpóreas retroiluminadas',
+      ],
+    ],
+    'lead' => [
+      'title' => 'Deja una solicitud para fabricar tus letras corpóreas luminosas',
+    ],
+    'questions' => [
+      '1' => [
+        'question' => '¿Cómo son las letras volumétricas luminosas?',
+        'answer' => 'Las letras corpóreas luminosas son elementos de publicidad exterior de al menos 20 mm de grosor, fabricados con distintos materiales e iluminados con LED o neón flexible.',
+      ],
+      '2' => [
+        'question' => '¿Cuál es el proceso de fabricación de las letras volumétricas luminosas?',
+        'answer' => 'El proceso de fabricación de letras corpóreas con luz consta de etapas como la concepción y creación del diseño, el fresado o corte por láser del material, el ensamblaje, la instalación de los elementos de iluminación y el cableado.',
+      ],
+      '3' => [
+        'question' => '¿Qué formas de iluminación se utilizan normalmente para las letras volumétricas luminosas?',
+        'answer' => 'Los tipos de iluminación más habituales para las letras volumétricas luminosas son la iluminación frontal, en la que la luz se suministra a la parte delantera de la letra, y la retroiluminación (iluminación de contrajour), en la que la luz se suministra a la parte trasera de la letra creando un efecto de halo.',
+      ],
+      '4' => [
+        'question' => '¿Y el consumo de energía?',
+        'answer' => 'Gracias a la tecnología moderna, las tiras de LED están equipadas con módulos de ahorro de energía que reducen el consumo eléctrico varias veces.',
+      ],
+      '5' => [
+        'question' => '¿Qué materiales se suelen utilizar para crear las letras corpóreas?',
+        'answer' => 'Las letras luminosas pueden fabricarse con distintos materiales: metacrilato, PVC, aluminio, acero inoxidable y madera, entre otros.',
+      ],
+      '6' => [
+        'question' => '¿Cómo se suministra la luz a las letras volumétricas luminosas?',
+        'answer' => 'La luz puede suministrarse a las letras corpóreas mediante diodos internos de luz (LED), que se colocan en el interior de la letra y proporcionan una iluminación uniforme.',
+      ],
+      '7' => [
+        'question' => '¿Cuáles son las ventajas de utilizar letras corpóreas con luz para fines publicitarios?',
+        'answer' => 'Las letras volumétricas luminosas tienen una gran visibilidad y un aspecto atractivo, lo que las convierte en una herramienta eficaz para hacer publicidad y atraer la atención hacia una empresa o marca.',
+      ],
+      '8' => [
+        'question' => '¿Cómo puedo mantener y cuidar mis letras luminosas para que sigan siendo eficaces y tengan buena pinta?',
+        'answer' => 'La limpieza regular del polvo y la suciedad, la revisión del funcionamiento y la sustitución de los elementos de iluminación defectuosos (LED) ayudarán a mantener la eficacia y el aspecto de las letras corpóreas luminosas.',
+      ],
+    ],
+    'photo' => [
+      1 => [
+        'name' => 'fabricacion-letras-luminosas-y-rotulos-llave-en-mano',
+        'alt' => 'Elegante rótulo luminoso AVENUE con retroiluminación en la fachada nocturna. Fabricación de letras corpóreas y montaje llave en mano en España.',
+      ],
+      'projects' => [
+        1 => [
+          'name' => 'letras-corporeas-premium-para-boutique-de-joyeria',
+          'alt' => 'Proyecto realizado: letras corpóreas premium en la fachada de la joyería Carrera y Carrera',
+          'title' => 'Carrera y Carrera',
+          'text' => 'Letras corpóreas premium para boutique de joyería',
+        ],
+        2 => [
+          'name' => 'letras-luminosas-para-clinica-estetica',
+          'alt' => 'Proyecto realizado: letras luminosas en la fachada de la clínica estética Davinci Clinique',
+          'title' => 'Davinci Clinique',
+          'text' => 'Letras luminosas para clínica estética',
+        ],
+        3 => [
+          'name' => 'letras-de-aluminio-con-iluminacion-frontal',
+          'alt' => 'Proyecto realizado: letras luminosas de aluminio con luz frontal para la tienda La Castafiore',
+          'title' => 'La Castafiore',
+          'text' => 'Letras de aluminio con iluminación frontal',
+        ],
+        4 => [
+          'name' => 'rotulacion-integral-de-clinica-dental',
+          'alt' => 'Proyecto realizado: rotulación exterior y diseño integral para la Clínica Dental San Pedro',
+          'title' => 'Clínica Dental San Pedro',
+          'text' => 'Diseño integral y rotulación de clínica dental',
+        ],
+        5 => [
+          'name' => 'letras-retroiluminadas-para-estudio-de-fitness',
+          'alt' => 'Proyecto realizado: rótulo interior y letras retroiluminadas para el estudio de fitness BB1',
+          'title' => 'BB1',
+          'text' => 'Letras retroiluminadas para estudio de fitness',
+        ],
+        6 => [
+          'name' => 'rotulo-para-cafeteria-con-letras-efecto-espejo',
+          'alt' => 'Proyecto realizado: rótulo para la cafetería Slitti con letras doradas efecto espejo',
+          'title' => 'Slitti',
+          'text' => 'Rótulo para cafetería con letras efecto espejo',
+        ],
+        7 => [
+          'name' => 'rotulo-luminoso-escola-de-mosaic',
+          'alt' => 'Proyecto realizado: rótulo luminoso brillante con letras corpóreas para Escola de MOSAIC',
+          'title' => 'Mobile World Capital Barcelona',
+          'text' => 'Stand de exposición para evento internacional',
+        ],
+        8 => [
+          'name' => 'logotipo-luminoso-redondo-medicina-estetica',
+          'alt' => 'Proyecto realizado: logotipo interior redondo con retroiluminación para clínica de medicina estética',
+          'title' => 'B Event',
+          'text' => 'Decoración exclusiva para evento corporativo',
+        ],
+        9 => [
+          'name' => 'letras-corporeas-doradas-clinica-marista',
+          'alt' => 'Proyecto realizado: letras corpóreas doradas con iluminación interior para Clínica Marista Estética',
+          'title' => 'Cervelló',
+          'text' => 'Letrero publicitario exterior con iluminación',
+        ],
+      ],
+      'cost' => [
+        'name' => 'presupuesto-rotulos-luminosos-y-banderolas',
+        'alt' => 'Elegante banderola luminosa de doble cara en una fachada. Calculamos el precio de su rótulo o letrero en 24 horas.',
+      ],
+      'types' => [
+        1 => [
+          'name' => 'letras-corporeas-con-iluminacion-frontal',
+          'alt' => 'Ejemplo de iluminación frontal: letra corpórea con luz brillante en la cara principal para rótulos',
+        ],
+        2 => [
+          'name' => 'letras-luminosas-con-retroiluminacion-efecto-halo',
+          'alt' => 'Ejemplo de retroiluminación (efecto halo): letra oscura proyectando luz suave sobre la pared para letreros premium',
+        ],
+        3 => [
+          'name' => 'iluminacion-combinada-para-letras-3d',
+          'alt' => 'Ejemplo de iluminación combinada: letra 3D con luz frontal brillante y efecto retroiluminado en la pared',
+        ],
+        4 => [
+          'name' => 'rotulos-de-neon-led-flexible',
+          'alt' => 'Ejemplo de neón LED: letra luminosa fabricada con neón flexible para letreros modernos de interiores',
+        ],
+      ],
+      'materials' => [
+        1 => [
+          'name' => 'plastico-pvc-para-letras-corporeas',
+          'alt' => 'Lámina de plástico PVC negro mate: material ligero y versátil para la fabricación de letras corpóreas y soluciones de interior',
+        ],
+        2 => [
+          'name' => 'aluminio-para-rotulos-exteriores-premium',
+          'alt' => 'Chapa de aluminio cepillado: metal resistente y duradero para rótulos premium y uso en exteriores',
+        ],
+        3 => [
+          'name' => 'metacrilato-para-rotulos-luminosos',
+          'alt' => 'Panel de metacrilato (acrílico) translúcido: material esencial para lograr una iluminación uniforme y brillante en letreros',
+        ],
+        4 => [
+          'name' => 'panel-composite-para-cajas-de-luz-y-fachadas',
+          'alt' => 'Panel composite de aluminio (tipo Dibond): material rígido para la fabricación de cajas de luz y fachadas comerciales modernas',
+        ],
+      ],
+      'proposition' => [
+        'name' => 'presupuesto-para-nuevo-rotulo-luminoso',
+        'alt' => 'Proceso de ensamblaje de letras corpóreas doradas con iluminación cálida en el taller. Preparación de propuesta a medida para un nuevo rótulo comercial.',
+      ],
+    ],
+    'proposition' => [
+      'title' => '¿Planea un nuevo rótulo?',
+      'subtitle' => 'Prepararemos una propuesta y le asesoraremos sobre la mejor opción para su negocio.',
+      'btn1' => 'Solicitar presupuesto',
+      'btn2' => 'Escribir por WhatsApp',
+      'footnote' => 'Respondemos en 15 minutos · Sin compromiso',
+    ],
+    'text_title' => 'Letras luminosas y rótulos en Barcelona',
+    'about_text' => 'Nos especializamos en la fabricación de letras corpóreas luminosas, rótulos y estructuras publicitarias para negocios en Barcelona y en toda España. Fabricamos letras corpóreas con iluminación frontal, retroiluminación e iluminación combinada para restaurantes, tiendas, clínicas, oficinas y locales comerciales.<br><br>Utilizamos tecnologías LED modernas, PVC, aluminio, metacrilato y materiales compuestos (composite) para crear rótulos duraderos y estéticos. Ofrecemos un servicio integral: desde la simulación visual y la producción hasta el montaje llave en mano.<br><br>Nuestros rótulos ayudan a los negocios a destacar, atraer la atención de los clientes y proyectar una imagen moderna en su fachada.',
+  ],
+];

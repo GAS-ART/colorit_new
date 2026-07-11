@@ -4,14 +4,14 @@ return [
   'phone' => '+34 695 804 020',
   'time' => '<span>De Lunes a Viernes</span> de 9:30 a 19:00 <br><span>Sabado</span> de 10:00 a 18:00',
   'menu' => [
-    'signboards'=> [
+    'signboards' => [
       'title' => 'Rótulos',
       'whithout_light' => 'Rótulos sin iluminacion',
       'whith_light' => 'Rótulos luminosos',
       'lightbox' => 'Rótulos cajon fresado',
       'side_box' => 'Banderolas',
       'neon' => 'Neon',
-   ],
+    ],
     'letters' => [
       'title' => 'Letras Corpóreas',
       'whithout_light' => 'Letras corpóreas sin luz',
@@ -42,11 +42,11 @@ return [
       'portfolio' => 'Portfolio',
       'reviews' => 'Opiniónes',
       'contacts' => 'Contacto',
+      'policy' => 'Política de privacidad',
+      'cookie' => 'Política de cookies',
     ],
   ],
   'scrollTop' => 'Arriba',
   'all' => 'Todo',
   'categories' => 'Categorías',
-]
-
-?>
+];

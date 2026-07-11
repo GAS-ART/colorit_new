@@ -4,14 +4,14 @@ return [
   'phone' => '+34 695 804 020',
   'time' => '<span>Пн - Пт</span> с 9:30 до 19:00<br><span>Сб</span> с 10:00 до 18:00',
   'menu' => [
-    'signboards'=> [
+    'signboards' => [
       'title' => 'Вывески',
       'whithout_light' => 'Вывески без света',
       'whith_light' => 'Вывески со светом',
       'lightbox' => 'Лайтбокс из композита',
       'side_box' => 'Боковой лайтбокс',
       'neon' => 'Неон ',
-   ],
+    ],
     'letters' => [
       'title' => 'Буквы',
       'whithout_light' => 'Буквы без подсветки',
@@ -42,11 +42,11 @@ return [
       'portfolio' => 'Портфолио',
       'reviews' => 'Отзывы',
       'contacts' => 'Контакты',
+      'policy' => 'Политика конфиденциальности',
+      'cookie' => 'Политика cookie',
     ],
   ],
   'scrollTop' => 'Вверх',
   'all' => 'Все',
   'categories' => 'Категории',
-]
-
-?>
+];

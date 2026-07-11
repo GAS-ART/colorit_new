@@ -1,0 +1,207 @@
+.proposition {
+  width: 100%;
+  padding: 80px 0;
+  position: relative;
+  min-height: 490px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  @include adaptiveValueREM('margin-bottom', 80, 48, 1920, 360, 1);
+
+  @media (max-width: 767.98px) {
+    min-height: 417px;
+    padding: 0;
+    border-radius: 0 0 24px 24px;
+  }
+
+  &__top-curve {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 48px;
+    background-color: #F6F6F6;
+    border-radius: 0 0 48px 48px;
+    z-index: 3;
+
+    @media (max-width: 767.98px) {
+      height: 24px;
+      border-radius: 0 0 24px 24px;
+    }
+  }
+
+  &__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      backdrop-filter: blur(34px);
+      -webkit-backdrop-filter: blur(34px);
+      mask-image: linear-gradient(to right, black 0%, black 15%, transparent 45%);
+      -webkit-mask-image: linear-gradient(to right, black 0%, black 15%, transparent 45%);
+      pointer-events: none;
+
+      @media (max-width: 767.98px) {
+        display: none;
+      }
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 2;
+      background: 
+        linear-gradient(to right, rgba(27, 27, 30, 0.95) 0%, rgba(27, 27, 30, 0.7) 15%, transparent 45%),
+        linear-gradient(to left, rgba(0, 0, 0, 0.8) 0%, transparent 30%);
+      pointer-events: none;
+
+      @media (max-width: 767.98px) {
+        display: none;
+      }
+    }
+
+    picture, img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      z-index: 0;
+      position: relative;
+    }
+  }
+
+  &__container {
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 15px;
+    position: relative;
+    z-index: 1;
+
+    @media (max-width: 767.98px) {
+      padding: 32px 20px;
+    }
+  }
+
+  &__content {
+    max-width: 640px;
+
+    @media (max-width: 767.98px) {
+      max-width: 100%;
+    }
+  }
+
+  &__title {
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.2;
+    color: #fff;
+    margin-bottom: 20px;
+
+    @media (max-width: 767.98px) {
+      font-size: 24px;
+      margin-bottom: 12px;
+    }
+  }
+
+  &__subtitle {
+    font-family: 'Geometria', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #fff;
+    margin-bottom: 40px;
+
+    @media (max-width: 767.98px) {
+      font-size: 14px;
+      line-height: 1.4;
+      margin-bottom: 24px;
+    }
+  }
+
+  &__actions {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+
+    @media (max-width: 767.98px) {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 12px;
+      width: 100%;
+      margin-bottom: 12px;
+    }
+  }
+
+  &__btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+
+    @media (max-width: 767.98px) {
+      width: 100%;
+      padding: 16px;
+      border-radius: 12px;
+      font-size: 14px;
+    }
+
+    &.btn--primary {
+      background-color: #89368E;
+      color: #fff;
+      &:hover {
+        background-color: #6d2a71;
+      }
+    }
+
+    &.btn--whatsapp {
+      background-color: #4CAF50;
+      color: #fff;
+      gap: 10px;
+      &:hover {
+        background-color: #3d8c40;
+      }
+      svg {
+        width: 20px;
+        height: 20px;
+        fill: currentColor;
+      }
+    }
+  }
+
+  &__footnote {
+    font-family: 'Geometria', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #FFFFFF;
+
+    @media (max-width: 767.98px) {
+      font-size: 12px;
+    }
+  }
+}

@@ -150,6 +150,10 @@ body {
   }
 }
 
+.wide-container-page [class*="__container"] {
+  max-width: rem(1320); 
+}
+
 @import "swiper/swiper";
 @import "lightGallery/lg-thumbnail";
 @import "lightGallery/lg-zoom";
@@ -178,6 +182,17 @@ body {
 @import "components/one-image-section";
 @import "components/five-image-section";
 @import "components/advantages";
+@import "components/new-advantages";
+@import "components/achievements";
+@import "components/clients";
+@import "components/projects";
+@import "components/same-result";
+@import "components/banner-main";
+@import "components/faq";
+@import "components/work";
+@import "components/proposition";
+
+@import "signboards-whith-light";
 @import "portfolio";
 @import "footer";
 @import "404";

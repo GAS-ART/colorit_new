@@ -1,0 +1,280 @@
+/*================BANNER-MAIN================*/
+.banner-main {
+  position: relative;
+  width: calc(100% - 40px);
+  margin: 0 auto;
+  aspect-ratio: 1440 / 650;
+  overflow: hidden;
+  border-bottom-left-radius: 48px;
+  border-bottom-right-radius: 48px;
+  max-height: 650px;
+  @include adaptiveValueREM('margin-bottom', 80, 48, 1440, 360, 1);
+
+  @media (max-width: $mobile) {
+    aspect-ratio: 478 / 650;
+    width: 100%;
+    max-height: 680px;
+  }
+
+  @media (max-width: $mobileSmall) {
+    aspect-ratio: 360 / 680;
+    max-height: 680px;
+  }
+
+  // Background image layer
+  &__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+
+    picture {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: 0% 25%;
+    }
+
+    // Gradient overlay (left to right)
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 68.75%;
+      height: 100%;
+      // Зробив початок темнішим, як просили
+      background: linear-gradient(90deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.3) 60%, rgba(0, 0, 0, 0) 100%);
+      z-index: 1;
+    }
+
+    // Progressive blur
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 68.75%;
+      height: 100%;
+      // Збільшив силу розмиття
+      backdrop-filter: blur(35px);
+      -webkit-backdrop-filter: blur(35px);
+      
+      // Маска тепер залишає трохи розмиття і зверху, і довше тримає розмиття по ширині
+      mask-image: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%, black 100%), linear-gradient(to right, black 0%, black 40%, transparent 100%);
+      mask-composite: intersect;
+      
+      -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%, black 100%), linear-gradient(to right, black 0%, black 40%, transparent 100%);
+      -webkit-mask-composite: source-in;
+      
+      z-index: 2;
+    }
+  }
+
+  // Content container - positioned absolutely over the image
+  &__container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    padding-left: calc((100% - 1240px) / 2);
+
+    @media (max-width: em(1280)) {
+      padding-left: 20px;
+    }
+
+    @media (max-width: $mobile) {
+      padding-left: 16px;
+      align-items: self-start;
+    }
+  }
+
+  // Content block with text and buttons
+  &__content {
+    position: relative;
+    max-width: 643px;
+    margin-right: 20px;
+    @media (max-width: $mobile){
+      margin-top: 72px;
+    }
+  }
+
+  // Title - exact Figma specs
+  &__title {
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    @include adaptiveValueREM('font-size', 56, 32, 1440, 992, 1);
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    @media (max-width: $mobile){
+      margin-bottom: 24px;
+    }
+  }
+
+  // Subtitle - exact Figma specs
+  &__subtitle {
+    font-family: 'Geometria', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+    @media (max-width: $mobile){
+      margin-bottom: 48px;
+    }
+  }
+
+  // Actions container with buttons
+  &__actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    @media (max-width: $mobile) {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      width: 100%;
+    }
+  }
+
+  // Shared button styles
+  &__btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 16px 24px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: all 0.3s ease 0s;
+
+    @media (max-width: $mobile) {
+      width: 100%;
+    }
+
+    @media (pointer: fine) {
+      &:hover {
+        opacity: 0.9;
+        color: #ffffff;
+      }
+    }
+
+    // Purple CTA button
+    &--purple {
+      background-color: #89368E;
+
+      @media (pointer: fine) {
+        &:hover {
+          background-color: #6d2a71;
+        }
+      }
+    }
+
+    // Green WhatsApp button
+    &--green {
+      background-color: #4CAF50;
+
+      @media (pointer: fine) {
+        &:hover {
+          background-color: #45a049;
+        }
+      }
+    }
+  }
+
+  // Footer text - exact Figma specs
+  &__footer-text {
+    font-family: 'Geometria', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 94px;
+    @media (max-width: 992px){
+      margin-bottom: 0px;
+    }
+    @media (max-width: $mobile){
+      text-align: center;
+    }
+  }
+
+  // Bottom categories navigation bar
+  &__categories {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    display: flex;
+    align-items: stretch;
+    @media (max-width: 992px){
+      display: none;
+    }
+  }
+
+  // Individual category link
+  &__category {
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-bottom: 40px;
+    font-family: 'Geometria', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    position: relative;
+
+    &::before{
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateY(34px);
+      width: 1px;
+      height: 32px;
+      background-color: #FFFFFF;
+    }
+    &:first-child::before{
+      left: calc(50% - 0.5px) ;
+    }
+
+    &:last-child {
+      border-right: none;
+    }
+
+    @media (pointer: fine) {
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+        color: #FFFFFF;
+      }
+    }
+  }
+}
+/*================BANNER-MAIN================*/
