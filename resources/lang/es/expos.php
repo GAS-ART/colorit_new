@@ -588,7 +588,7 @@ return [
     ],
     'banner' => [
       'title' => 'Elementos impresionantes<br>para exposiciones y eventos',
-      'subtitle' => 'Creamos elementos visuales que hacen que su stand destaque y atraigan la atención de los visitantes en exposiciones y eventos. Producción e instalación en toda España.',
+      'subtitle' => 'Creamos elementos visuales que hacen destacar su stand y atraen la atención de los visitantes en exposiciones y eventos.',
       'btn1' => 'Obtener presupuesto',
       'btn2' => 'Escribir por WhatsApp',
       'footer_text' => 'Responderemos en 15 minutos. Sin compromiso',
@@ -756,7 +756,7 @@ return [
       ],
     ],
     'cost' => [
-      'title' => 'Calculamos el costo de tu proyecto en 24 horas',
+      'title' => 'Calculamos el presupuesto de su rótulo en 24 horas.',
       'text' => 'Envía una breve descripción del proyecto y te ofreceremos la mejor solución para tu evento.',
       'btn1' => 'Obtener presupuesto',
       'btn2' => 'Escribir por Whatsapp',
