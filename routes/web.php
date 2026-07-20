@@ -20,10 +20,9 @@ Route::post('/send-main-form', [Controllers\sendController::class, 'submit'])->n
 Route::get('/sitemap', [Controllers\SitemapController::class, 'generateSitemap']);
 
 Route::get('/privacy_policy', function () {
-   
+
    App::setLocale('es');
    return view('privacy');
-
 })->name('privacy');
 
 Route::get('/', [Pages\HomeController::class, 'index'])->name('index.lang');
@@ -51,6 +50,5 @@ Route::get('/{locale}/brandwall', [Pages\ExposWallBannerController::class, 'inde
 Route::get('/{locale}/exhibition-banners', [Pages\ExposBannerController::class, 'index'])->name('expos_banner');
 Route::get('/{locale}/roll-up', [Pages\ExposRollUpController::class, 'index'])->name('expos_roll_up');
 Route::get('/{locale}/exhibition-figures', [Pages\ExposFiguresController::class, 'index'])->name('expos_figures');
-Route::get('/{locale}/corporate-apparel', [Pages\ExposClothingController::class, 'index'])->name('expos_clothing');
-Route::get('/{locale}/name-badges', [Pages\ExposBadgesController::class, 'index'])->name('expos_badges');
-
+// Route::get('/{locale}/corporate-apparel', [Pages\ExposClothingController::class, 'index'])->name('expos_clothing');
+// Route::get('/{locale}/name-badges', [Pages\ExposBadgesController::class, 'index'])->name('expos_badges');
