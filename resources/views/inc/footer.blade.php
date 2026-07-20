@@ -3,7 +3,7 @@
         <div class="footer__container">
             <div class="footer__body">
                 <div class="footer__logo">
-                    <img src="{{ asset('img/colorit-logo.svg') }}" alt="">
+                    <img src="{{ asset('img/colorit-logo.svg') }}?v=2" alt="">
                 </div>
                 <div class="footer__text">
                     @lang('footer.text')
