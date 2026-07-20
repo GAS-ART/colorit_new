@@ -11,56 +11,16 @@
 @section('content')
 
 
-    <section class="main">
-        <div class="main__baner">
-            <picture>
-                <!-- 1. AVIF -->
-                <source type="image/avif"
-                    srcset="{{ asset('img/home/' . app()->getLocale() . '/' . __('home.photo.1.name') . '-desktop.avif') }}"
-                    media="(min-width: 768px)">
-                <source type="image/avif"
-                    srcset="{{ asset('img/home/' . app()->getLocale() . '/' . __('home.photo.1.name') . '-mobile.avif') }}">
-
-                <!-- 2. WebP -->
-                <source type="image/webp"
-                    srcset="{{ asset('img/home/' . app()->getLocale() . '/' . __('home.photo.1.name') . '-desktop.webp') }}"
-                    media="(min-width: 768px)">
-                <source type="image/webp"
-                    srcset="{{ asset('img/home/' . app()->getLocale() . '/' . __('home.photo.1.name') . '-mobile.webp') }}">
-
-                <!-- 3.JPG (MozJPEG) -->
-                <img src="{{ asset('img/home/' . app()->getLocale() . '/' . __('home.photo.1.name') . '-desktop.jpg') }}"
-                    alt="{{ __('alt.home.baner_icon') }}">
-            </picture>
-        </div>
-        <div class="main__content">
-            <div class="main__body">
-                <h1 class="main__title">{!! __('home.main.title') !!}</h1>
-                <p class="main__subtitle">{!! __('home.main.subtitle') !!}</p>
-                <div class="main__actions">
-                    <button data-popup-id="main"
-                        class="main__btn main__btn--purple link-on-popup">@lang('home.main.btn')</button>
-                    <a href="https://wa.me/34695804020" target="_blank" class="main__btn main__btn--green whatsapp-btn">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M20.5266 3.46824C18.2575 1.19827 15.2407 0 12.0298 0C5.38547 0 0 5.3883 0 12.0366C0 14.1611 0.553959 16.2307 1.61168 18.0631L0.0163574 23.8887L5.97541 22.3259C7.74208 23.284 9.8524 23.7915 12.023 23.7915H12.0309C18.673 23.7915 24.062 18.4043 24.062 11.7583C24.062 8.53982 22.8105 5.51866 20.5266 3.46824ZM12.0309 21.777C10.2229 21.777 8.46821 21.2917 6.9458 20.3887L6.58661 20.1764L3.04273 21.1051L3.98801 17.652L3.75471 17.2818C2.76007 15.6983 2.23555 13.8967 2.23555 12.0354C2.23555 6.64333 6.62319 2.25344 12.0366 2.25344C14.6467 2.25344 17.1005 3.26945 18.9443 5.11545C20.787 6.96032 21.8019 9.41409 21.8019 12.0264C21.8019 17.4173 17.4143 21.777 12.0309 21.777ZM17.4063 14.4287C17.1118 14.2813 15.6601 13.5658 15.3899 13.4683C15.1186 13.3707 14.9224 13.3219 14.7262 13.6163C14.5301 13.9107 13.9894 14.5492 13.8183 14.7453C13.6461 14.9415 13.4749 14.9664 13.1804 14.819C12.8859 14.6716 11.932 14.3607 10.8037 13.3546C9.92582 12.5714 9.33328 11.609 9.16215 11.3146C8.99103 11.0202 9.14397 10.8606 9.29237 10.7145C9.4249 10.5843 9.5824 10.3758 9.72979 10.2045C9.87717 10.0321 9.92595 9.90906 10.0249 9.71295C10.1228 9.51684 10.0739 9.34468 10.0007 9.19728C9.92742 9.04988 9.33894 7.6025 9.09355 7.01358C8.85382 6.44075 8.61066 6.51884 8.43503 6.511C8.26629 6.50317 8.07009 6.50204 7.87389 6.50204C7.67769 6.50204 7.35848 6.57564 7.08836 6.87005C6.81825 7.16447 6.03362 7.89984 6.03362 9.39521C6.03362 10.8906 7.11281 12.3369 7.2602 12.533C7.40759 12.7292 9.3951 15.8202 12.4344 17.1293C13.1565 17.4405 13.7214 17.6264 14.1673 17.7681C14.8927 17.9986 15.5583 17.966 16.0827 17.8863C16.671 17.7966 17.9152 17.1352 18.1853 16.3998C18.4554 15.6644 18.4554 15.0269 18.3821 14.8795C18.3088 14.7321 18.1126 14.6345 17.8181 14.4871"
-                                fill="currentColor" />
-                        </svg>
-                        @lang('home.main.whatsapp_btn')
-                    </a>
-                </div>
-                <p class="main__footer-text">@lang('home.main.footer_text')</p>
-            </div>
-        </div>
+    <x-banner-main :image-desktop="'img/home/' . app()->getLocale() . '/' . __('home.photo.1.name') . '-desktop'" :image-alt="__('alt.home.baner_icon')">
+        <x-slot:title>
+            {!! __('home.main.title') !!}
+        </x-slot:title>
+        <x-slot:subtitle>
+            {!! __('home.main.subtitle') !!}
+        </x-slot:subtitle>
+    </x-banner-main>
 
 
-        {{-- <a target="_blank"
-            href="https://www.google.com/search?gs_ssp=eJzj4tVP1zc0LKgsK0i3LLQ0YLRSNagwNEo0STS2tDRMTTNJsUwztTKoMDI2MLE0TUsySTawMEy2sPTiS87PyS_KLFFITE_NS64EAMKUFMY&q=colorit+agency&oq=colo&aqs=chrome.1.69i57j46i39i175i199i650j0i67i650j0i512l3j46i175i199i512j0i512l2j0i271.87366396j0j15&sourceid=chrome&ie=UTF-8#lrd=0x12a4a3991ef4d9f5:0x230495fb4c081c89,1,,,,"
-            class="main_img-rating">
-            <img src="{{ asset('img/home/google.webp') }}" alt="">
-        </a> --}}
-    </section>
     <section class="services">
         <div class="services__container">
             <h2 class="services__title">@lang('home.services.title')</h2>
