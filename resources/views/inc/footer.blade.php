@@ -9,6 +9,7 @@
                     @lang('footer.text')
                 </div>
                 <div class="footer__contact">
+                    <p class="footer__contact-time">@lang('main.time')</p>
                     <div class="footer__phone">
                         <a class="footer__contact-link send-analytics" href="tel:%2B34691820317">@lang('main.phone')</a>
                         {{-- <div class="footer__messengers">
@@ -42,7 +43,7 @@
                     </div>
                     <a class="footer__contact-email" href="mailto:info@rotuloscolorit.es">info@rotuloscolorit.es</a>
 
-                    <p class="footer__contact-time">@lang('main.time')</p>
+
                     <div class="footer__contact-icons">
                         <div class="footer__contact-icon">
                             <a href="https://www.facebook.com/colorit.agency">
