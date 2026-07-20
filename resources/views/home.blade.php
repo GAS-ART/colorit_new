@@ -145,6 +145,7 @@
             </div>
         </div>
     </section>
+
     <section class="reviews">
         <div class="reviews__container">
             <h2 class="reviews__title">@lang('home.reviews.title')</h2>
@@ -164,17 +165,24 @@
                                     <div class="reviews__card-header">
                                         <div class="reviews__avatar">
                                             <picture>
-                                                <source srcset="{{ asset('img/home/reviews/' . $i . '.avif') }}"
-                                                    type="image/avif">
-                                                <source srcset="{{ asset('img/home/reviews/' . $i . '.webp') }}"
-                                                    type="image/webp">
-                                                <img src="{{ asset('img/home/reviews/' . $i . '.jpg') }}"
-                                                    alt="@lang('home.reviews.items.' . $i . '.name')" loading="lazy">
+                                                @if (file_exists(public_path('img/home/reviews/' . $i . '.avif')))
+                                                    <source srcset="{{ asset('img/home/reviews/' . $i . '.avif') }}"
+                                                        type="image/avif">
+                                                @endif
+                                                @if (file_exists(public_path('img/home/reviews/' . $i . '.webp')))
+                                                    <source srcset="{{ asset('img/home/reviews/' . $i . '.webp') }}"
+                                                        type="image/webp">
+                                                @endif
+                                                @if (file_exists(public_path('img/home/reviews/' . $i . '.jpg')))
+                                                    <img src="{{ asset('img/home/reviews/' . $i . '.jpg') }}"
+                                                        alt="@lang('home.reviews.items.' . $i . '.name')" loading="lazy">
+                                                @endif
                                             </picture>
                                         </div>
                                         <div class="reviews__info">
                                             <span class="reviews__name">@lang('home.reviews.items.' . $i . '.name')</span>
-                                            <span class="reviews__date">@lang('home.reviews.items.' . $i . '.date')</span>
+                                            <span
+                                                class="reviews__date">{{ \Carbon\Carbon::parse(__('home.reviews.items.' . $i . '.date'))->locale(app()->getLocale())->diffForHumans() }}</span>
                                         </div>
                                     </div>
                                     <div class="reviews__stars">
@@ -201,17 +209,76 @@
                     </svg>
                 </button>
             </div>
+
+            <a href="https://www.google.com/maps/place/Rotulos+Colorit/@41.4825902,2.3260131,17z/data=!4m18!1m9!3m8!1s0x12a4a3991ef4d9f5:0x230495fb4c081c89!2sRotulos+Colorit!8m2!3d41.4825902!4d2.3260131!9m1!1b1!16s%2Fg%2F11pyvpg9q9!3m7!1s0x12a4a3991ef4d9f5:0x230495fb4c081c89!8m2!3d41.4825902!4d2.3260131!9m1!1b1!16s%2Fg%2F11pyvpg9q9!5m2!1e2!1e4?entry=ttu&g_ep=EgoyMDI2MDcxNS4wIKXMDSoASAFQAw%3D%3D"
+                target="_blank" rel="noopener noreferrer" class="reviews__google-link"
+                title="{{ __('reviews.google_link_title') }}">
+                <svg class="reviews__google-icon" viewBox="0 0 24 24" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M21.35 11.1h-9.17v2.73h6.51c-.33 3.81-3.5 5.44-6.5 5.44C8.36 19.27 5 16.25 5 12c0-4.1 3.2-7.27 7.2-7.27 3.09 0 4.9 1.97 4.9 1.97L19 4.72S16.56 2 12.1 2C6.42 2 2.03 6.8 2.03 12c0 5.05 4.13 10 10.22 10 5.35 0 9.25-3.67 9.25-9.09 0-1.15-.15-1.81-.15-1.81z" />
+                </svg>
+                <span>
+                    {{ __('reviews.google_rating', ['rating' => '4.9', 'count' => '79']) }}
+                </span>
+            </a>
         </div>
     </section>
+
+    <!-- SEO: Мікророзмітка для роботів -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "LocalBusiness",
+  "name": "Rotulos Colorit",
+  "image": "{{ asset('img/logo.png') }}", 
+  "url": "{{ url('/') }}",
+  "telephone": "{{ __('main.phone') }}",
+  "priceRange": "€€",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Republica Argentina 7, 1B",
+    "addressLocality": "Masnou, Barcelona",
+    "postalCode": "08320",
+    "addressCountry": "ES"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "79",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "review": [
+    @for ($i = 1; $i <= 8; $i++)
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "{{ __('home.reviews.items.' . $i . '.name') }}"
+      },
+      "datePublished": "{{ __('home.reviews.items.' . $i . '.date') }}",
+      "reviewBody": @json(__('home.reviews.items.' . $i . '.text')),
+      "reviewRating": {
+        "@type": "Rating",
+        "bestRating": "5",
+        "ratingValue": "5", 
+        "worstRating": "1"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Google Maps"
+      }
+    }{{ $i < 8 ? ',' : '' }}
+    @endfor
+  ]
+}
+</script>
+
+
     <x-faq :questions="__('home.questions')" />
 
-    <x-proposition
-        :title="__('home.proposition.title')"
-        :subtitle="__('home.proposition.subtitle')"
-        :image="'img/home/' . app()->getLocale() . '/proposition/' . __('home.photo.16.name')"
-        :alt="__('home.photo.16.alt')"
-        :footnote="__('home.proposition.footnote')"
-    />
+    <x-proposition :title="__('home.proposition.title')" :subtitle="__('home.proposition.subtitle')" :image="'img/home/' . app()->getLocale() . '/proposition/' . __('home.photo.16.name')" :alt="__('home.photo.16.alt')" :footnote="__('home.proposition.footnote')" />
 
     <x-question-lead>
         ГЛАВНАЯ СТРАНИЦА ({{ url()->current() }})

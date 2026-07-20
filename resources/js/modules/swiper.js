@@ -484,6 +484,7 @@ if (reviewsSliderEl) {
     grabCursor: true,
     loop: true,
     speed: 600,
+    autoHeight: true,
     spaceBetween: 20,
     slidesPerView: 1,
     navigation: {
