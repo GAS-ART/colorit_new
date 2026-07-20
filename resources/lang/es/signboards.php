@@ -191,7 +191,7 @@ return [
       'subtitle' => 'Ejemplos de cajas de luz, rótulos de composite y letreros con iluminación para tiendas, restaurantes y negocios.'
     ],
     'cost' => [
-      'title' => 'Calculamos el coste de su rótulo luminoso en 24 horas',
+      'title' => 'Calculamos el presupuesto de su rótulo luminoso en 24 horas.',
       'text' => 'Prepararemos una propuesta y le asesoraremos sobre la mejor opción para su negocio.',
     ],
     'variants' => [
