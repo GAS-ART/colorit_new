@@ -2,7 +2,7 @@
 
 return [
   'phone' => '+34 695 804 020',
-  'time' => '<span>De Lunes a Viernes</span> de 9:30 a 19:00 <br><span>Sabado</span> de 10:00 a 18:00',
+  'time' => '<span>De lunes a viernes</span> de 9:30 a 19:00 <br><span>Sabado</span> de 10:00 a 18:00',
   'menu' => [
     'signboards' => [
       'title' => 'Rótulos',

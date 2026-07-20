@@ -590,7 +590,7 @@ return [
       'title' => 'Elementos impresionantes<br>para exposiciones y eventos',
       'subtitle' => 'Creamos elementos visuales que hacen que su stand destaque y atraigan la atención de los visitantes en exposiciones y eventos. Producción e instalación en toda España.',
       'btn1' => 'Obtener presupuesto',
-      'btn2' => 'Escribir por Whatsapp',
+      'btn2' => 'Escribir por WhatsApp',
       'footer_text' => 'Responderemos en 15 minutos. Sin compromiso',
       'categories' => [
         '1' => 'Podios',

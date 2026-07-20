@@ -32,6 +32,7 @@
       margin-right: 40px;
     }
     @media (max-width: $tablet) {
+      order: 1;
       margin-bottom: 16px;
       
       img{
@@ -53,6 +54,7 @@
       width: 320px;
       margin: 0 auto 40px auto;
       font-size: 16px;
+      order: 2;
     }
   }
 
@@ -78,6 +80,8 @@
     @media (max-width: $tablet) {
       left: 0;
       margin-bottom: 32px;
+      margin-right: 0;
+      order: 4;
     }
   }
 
@@ -92,6 +96,7 @@
     margin-bottom: 32px;
     width: 200px;
     margin-right: 0;
+    order: 3;
   }
   }
 
@@ -242,6 +247,7 @@
   }
   @media (max-width: $tablet) {
     left: 0;
+    order: 5;
   }
 
   &__list {

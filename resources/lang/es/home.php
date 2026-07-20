@@ -2,10 +2,10 @@
 
 return [
    'main' => [
-      'title' => 'Fabricamos rótulos,<br>letras luminosas y estructuras<br>para negocios en España',
-      'subtitle' => 'Producción en Barcelona &middot; Montaje en toda España &middot; Trabajamos llave en mano',
+      'title' => 'Fabricamos rótulos,<br> luminosos llave en mano para negocios',
+      'subtitle' => 'Cajas de luz, rótulos de composite y letreros con iluminación LED. Fabricación a partir de 14 días. Montaje en toda Cataluña y España.',
       'btn' => 'Obtener presupuesto del proyecto',
-      'whatsapp_btn' => 'Escribir por Whatsapp',
+      'whatsapp_btn' => 'Escribir por WhatsApp',
       'footer_text' => 'Responderemos en 15 minutos. Sin compromiso.',
    ],
    'services' => [
@@ -423,13 +423,13 @@ return [
       'title' => '¿Quieres el mismo resultado para tu negocio?',
       'subtitle' => 'Envíanos tu logotipo o foto de la fachada: prepararemos una propuesta en 24 horas.',
       'btn1' => 'Obtener presupuesto',
-      'btn2' => 'Escribir por Whatsapp',
+      'btn2' => 'Escribir por WhatsApp',
    ],
    'proposition' => [
       'title' => 'Envía foto de la fachada y tu logotipo — recibe una propuesta en 24 horas',
       'subtitle' => 'Te sugeriremos la mejor opción de diseño, materiales y montaje para tu proyecto.',
       'btn1' => 'Obtener presupuesto del proyecto',
-      'btn2' => 'Escribir por Whatsapp',
+      'btn2' => 'Escribir por WhatsApp',
       'footnote' => 'Responderemos en 15 minutos. Sin compromiso.',
    ],
    'what-get' => [
