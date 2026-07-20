@@ -40,7 +40,7 @@ return [
       'about' => 'Nosotros',
       'services' => 'Servicios',
       'portfolio' => 'Portfolio',
-      'reviews' => 'Opiniónes',
+      'reviews' => 'Opiciones',
       'contacts' => 'Contacto',
       'policy' => 'Política de privacidad',
       'cookie' => 'Política de cookies',

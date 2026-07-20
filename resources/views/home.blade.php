@@ -106,7 +106,7 @@
         </div>
     </section>
 
-    <section class="reviews">
+    <section id="review" class="reviews">
         <div class="reviews__container">
             <h2 class="reviews__title">@lang('home.reviews.title')</h2>
             <div class="reviews__slider-wrapper">

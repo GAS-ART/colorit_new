@@ -333,7 +333,7 @@
                                 <a href="#review" class="header-burger__list-link ancor">@lang('main.menu.burger.reviews')</a>
                             @else
                                 <a class="header-burger__list-link"
-                                    href="{{ route('home', ['locale' => __('lang.current')]) }}#review-ancor">@lang('main.menu.burger.reviews')</a>
+                                    href="{{ route('home', ['locale' => __('lang.current')]) }}#review">@lang('main.menu.burger.reviews')</a>
                             @endif
                             {{-- <a href="#" class="header-burger__list-link">@lang('main.menu.burger.reviews')</a> --}}
                         </li>
