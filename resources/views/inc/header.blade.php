@@ -178,7 +178,7 @@
                                             @lang('main.menu.expos.figures')
                                         </a>
                                     </li>
-                                    <li class="header-menu__sub-list-item @yield('expos_clothing')">
+                                    {{-- <li class="header-menu__sub-list-item @yield('expos_clothing')">
                                         <a href="{{ route('expos_clothing', ['locale' => __('lang.current')]) }}"
                                             class="header-menu__sub-list-link">
                                             @lang('main.menu.expos.clothing')
@@ -189,7 +189,7 @@
                                             class="header-menu__sub-list-link">
                                             @lang('main.menu.expos.badges')
                                         </a>
-                                    </li>
+                                    </li> --}}
                                 </ul>
                             </li>
                             <li class="header-menu__list-item">
@@ -292,14 +292,14 @@
                                             <a href="{{ route('expos_figures', ['locale' => __('lang.current')]) }}"
                                                 class="header-burger__sub-sub-list-link">@lang('main.menu.expos.figures')</a>
                                         </li>
-                                        <li class="header-burger__sub-sub-list-item @yield('expos_clothing')">
+                                        {{-- <li class="header-burger__sub-sub-list-item @yield('expos_clothing')">
                                             <a href="{{ route('expos_clothing', ['locale' => __('lang.current')]) }}"
                                                 class="header-burger__sub-sub-list-link">@lang('main.menu.expos.clothing')</a>
                                         </li>
                                         <li class="header-burger__sub-sub-list-item @yield('expos_badges')">
                                             <a href="{{ route('expos_badges', ['locale' => __('lang.current')]) }}"
                                                 class="header-burger__sub-sub-list-link">@lang('main.menu.expos.badges')</a>
-                                        </li>
+                                        </li> --}}
                                     </ul>
                                 </li>
                                 <li class="header-burger__sub-list-item">

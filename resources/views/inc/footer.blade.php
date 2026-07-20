@@ -151,14 +151,14 @@
                                     <a href="{{ route('expos_figures', ['locale' => __('lang.current')]) }}"
                                         class="links-footer__sub-list-link">@lang('main.menu.expos.figures')</a>
                                 </li>
-                                <li class="links-footer__sub-list-item @yield('expos_clothing')">
+                                {{-- <li class="links-footer__sub-list-item @yield('expos_clothing')">
                                     <a href="{{ route('expos_clothing', ['locale' => __('lang.current')]) }}"
                                         class="links-footer__sub-list-link">@lang('main.menu.expos.clothing')</a>
                                 </li>
                                 <li class="links-footer__sub-list-item @yield('expos_badges')">
                                     <a href="{{ route('expos_badges', ['locale' => __('lang.current')]) }}"
                                         class="links-footer__sub-list-link">@lang('main.menu.expos.badges')</a>
-                                </li>
+                                </li> --}}
                             </ul>
                         </li>
                         <li class="links-footer__item">
