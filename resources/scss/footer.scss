@@ -91,6 +91,7 @@
   font-size: 14px;
   line-height: 140%;
   width: 173px;
+  align-self: baseline;
   @include adaptiveValueREM('margin-right', 114, 30, 1440, 992, 1);
   @media (max-width: $tablet) {
     margin-bottom: 32px;
@@ -241,7 +242,7 @@
   }
 }
 .links-footer {
-
+  align-self: baseline;
   @media (max-width: em(1349)) {
     position: relative;
   }

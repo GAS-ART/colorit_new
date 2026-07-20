@@ -164,8 +164,8 @@ return [
       ],
     ],
     'banner' => [
-      'title' => 'Fabricamos rótulos luminosos para negocios LLAVE EN MANO',
-      'subtitle' => 'Cajas de luz, rótulos de composite y letreros con iluminación LED. Fabricación desde 14 días · Montaje en toda Cataluña y España',
+      'title' => 'Fabricamos rótulos luminosos llave en mano para negocios',
+      'subtitle' => 'Cajas de luz, rótulos de composite y letreros con iluminación LED. Fabricación a partir de 14 días. Montaje en toda Cataluña y España.',
     ],
     'why_title' => 'Por qué los negocios eligen rótulos luminosos',
     'why' => [
