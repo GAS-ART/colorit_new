@@ -89,7 +89,7 @@ return [
   'whith_light' => [
     'banner' => [
       'title' => 'Letras corpóreas luminosas',
-      'subtitle' => 'Fabricación desde 7 días · Montaje en toda Cataluña y España',
+      'subtitle' => 'Fabricación en 7 días. Montaje en toda Cataluña y España.',
     ],
     'why_title' => 'Por qué las empresas trabajan con nosotros',
     'why' => [
@@ -115,7 +115,7 @@ return [
       'subtitle' => 'Ejemplos de letras luminosas y rótulos fabricados para restaurantes, tiendas y negocios.',
     ],
     'cost' => [
-      'title' => 'Calculamos el coste de su rótulo en 24 horas',
+      'title' => 'Calculamos el presupuesto de su rótulo en 24 horas.',
       'text' => 'Prepararemos una propuesta y le asesoraremos sobre la mejor opción para su negocio.',
     ],
     'types' => [
