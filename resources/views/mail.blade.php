@@ -12,7 +12,9 @@
 
 Имя: {{ $name }} <br>
 Телефон: {{ $phone }} <br>
+@if(isset($email))
 Email: {{ $email }} <br>
+@endif
 @if(isset($service))
 Услуга: {{ $service }} <br>
 @endif
