@@ -42,6 +42,12 @@
                                             placeholder="@lang('popup.phone_placeholder')">
                                         <p class="error-phone"></p>
                                     </div>
+                                    <div class="popup__item">
+                                        <label for="email">{!! __('popup.email') !!}</label>
+                                        <input id="email" name="email" class="input" type="email"
+                                            placeholder="@lang('popup.email_placeholder')">
+                                        <p class="error-email"></p>
+                                    </div>
                                     <div class="popup__item popup-download" id="popupDragDrop">
                                         <input id="fileImage" type="file" name="filename" class="popup-file"
                                             accept=".pdf,.doc,.docx,.ppt,.pptx,.jpg,.jpeg,.png,.webp,.avif">
