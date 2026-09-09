@@ -16,6 +16,7 @@
                                 <form action="{{ route('sendMainForm') }}" method="POST" name="mainForm" id="mainForm"
                                     class="@lang('lang.current')" enctype="multipart/form-data">
                                     @csrf
+                                    <input type="text" name="website_url" style="display:none !important" tabindex="-1" autocomplete="off">
                                     <input class="payload" name="payload" type="hidden" value="">
                                     <div class="popup__item popup__item-select-body">
                                         <label for="popupMainSelect">{!! __('popup.service') !!}</label>

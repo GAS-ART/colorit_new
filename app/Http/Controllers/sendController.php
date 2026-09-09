@@ -11,6 +11,13 @@ class sendController extends Controller
 
     public function submit(sendRequest $req)
     {
+        // Если скрытое поле заполнено — это 100% бот. 
+    // Тихо прерываем выполнение, чтобы он думал, что всё прошло успешно.
+        if ($req->filled('website_url')) {
+        return response()->json(['message' => 'Success']); 
+        // Или return back(), смотря как у тебя обрабатывается ответ в чистом JS
+    }
+    
         $name = $req->input('name');
         $phone = $req->input('phone');
         $email = $req->input('email');
