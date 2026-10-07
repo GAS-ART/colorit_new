@@ -20,6 +20,15 @@ class sendController extends Controller
     
         $name = $req->input('name');
         $phone = $req->input('phone');
+
+        // Блокировка спам-номеров, начинающихся на +34 612
+        // Очищаем от пробелов, скобок и тире для надежной проверки
+        $cleanPhone = preg_replace('/[^0-9+]/', '', (string)$phone);
+        if (strpos($cleanPhone, '+34612') === 0 || strpos($cleanPhone, '34612') === 0) {
+            // Возвращаем фейковый успех, чтобы бот не пытался спамить дальше
+            return response()->json(['message' => 'Success']); 
+        }
+
         $email = $req->input('email');
         $service = $req->input('service');
         $payload = $req->input('payload');
